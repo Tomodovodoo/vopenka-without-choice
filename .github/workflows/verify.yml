@@ -1,0 +1,56 @@
+name: Lean and Comparator
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: verify-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  structure:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - run: python3 scripts/check-repository.py --report .cache/verification/preflight.json
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        if: always()
+        with:
+          name: submission-preflight
+          path: .cache/verification/preflight.json
+  comparator:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: leanprover/lean-action@38fbc41a8c28c4cbaec22d7f7de508ec2e7c0dd9
+        with:
+          build: false
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e
+        with:
+          go-version: '1.24.0'
+          cache: false
+      - name: Run Comparator and NanoDa as the unprivileged runner
+        run: |
+          sudo systemd-run --wait --pipe --uid="$(id -u)" \
+            --property=RestrictAddressFamilies=~AF_UNIX \
+            --working-directory="$PWD" \
+            --setenv="PATH=$PATH" --setenv="HOME=$HOME" \
+            --setenv="ELAN_HOME=$HOME/.elan" \
+            bash scripts/verify-comparator.sh
+      - name: Build all root imports and check coverage compositions
+        run: |
+          lake build ZFVP
+          lake env lean verification/ExportChecks.lean
+          lake env lean verification/AdditionalChecks.lean
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        if: always()
+        with:
+          name: comparator-evidence
+          path: .cache/verification/

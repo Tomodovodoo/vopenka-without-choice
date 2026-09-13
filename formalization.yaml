@@ -1,0 +1,122 @@
+{
+  "version": "v0.4",
+  "project": {
+    "name": "Vopěnka's principle without choice",
+    "description": "Symmetric preservation of arbitrary-language Vopěnka’s principle, equiconsistency of ZF+VP and ZFC+VP, and the dependent-choice and ordinary-real Solovay consistency consequences. The current Comparator interface uses the development’s Foundation encoding and still requires an admissible statement translation before Palomar submission.",
+    "authors": [
+      "Tom de Groot"
+    ],
+    "responsible_maintainers": [
+      "Tom de Groot"
+    ],
+    "license": "LicenseRef-Pending-Author-Decision"
+  },
+  "classification": {
+    "arxiv": [
+      "math.LO"
+    ],
+    "msc2020": [
+      "03E35",
+      "03E25",
+      "03E55",
+      "03B35"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Vopěnka's Principle without Choice: Preservation under Symmetric Extensions",
+      "authors": [
+        "Tom de Groot",
+        "Wojciech Aleksander Wołoszyn"
+      ],
+      "id": "https://arxiv.org/abs/2609.06856v1",
+      "type": "paper",
+      "relationship": "adapts",
+      "note": "The original and V13 manuscripts are included. The repair index records changed routes and proposed source corrections; source authorship does not assert coauthorship or endorsement of the formalization."
+    }
+  ],
+  "related_formalizations": [
+    {
+      "id": "https://github.com/FormalizedFormalLogic/Foundation",
+      "relationship": "builds-on",
+      "note": "Vendored at f212e81484a045697b3f6f171adf28fb57c750fc with local compatibility changes."
+    },
+    {
+      "id": "https://github.com/leanprover-community/mathlib4",
+      "relationship": "builds-on",
+      "note": "Pinned in lake-manifest.json."
+    }
+  ],
+  "status": {
+    "scope": "Four main statements are compared in the existing encoding. This is not yet a Palomar-admissible Challenge: its transitive imports include Foundation and project sources. V13 additionally has two unmatched auxiliary clauses, detailed in repairs/formalization/README.md. Woodin’s full ambient-HOD clause and the optional stronger research routes are not claimed.",
+    "sorry_count": 0,
+    "sorry_in_definitions": 0,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "automation": {
+    "methods": [
+      {
+        "method": "agent",
+        "models": [
+          "GPT-6"
+        ],
+        "framework": "Codex",
+        "tool_setup": "Human-directed Lean development and proof-route repair using local tools and dedicated agents.",
+        "cost": {
+          "wall_time": "Not tracked reliably",
+          "spend_usd": "Not tracked",
+          "hardware": "Local Windows workstation and hosted verification runners"
+        },
+        "prompting_notes": "Directed to formalize the full paper, retain completed proofs and disclose exact mathematical or scope gaps."
+      }
+    ],
+    "spend_usd": "Not tracked",
+    "notes": "Tom de Groot directed the work. Model/version details beyond those visible in the retained session are not inferred."
+  },
+  "fidelity": {
+    "divergences": "See repairs/README.md and docs/paper-coverage.md. The sparse Sigma-three and full endpoint class-generic clauses remain unmatched. Comparator success alone does not establish ordinary-language correspondence or Palomar eligibility."
+  },
+  "review": {
+    "status": "Self-assessed with AI-assisted statement inspection; no Palomar review completed",
+    "reviewers": [],
+    "notes": "Existing exports and four compositions were checked by Lean. This is not a claim of independent human peer review."
+  },
+  "alignment": {
+    "namespace": "VopenkaWithoutChoice",
+    "statements": [
+      {
+        "source": "Theorem A",
+        "lean": "VopenkaWithoutChoice.symmetric_preservation",
+        "module": "Solution",
+        "status": "proved",
+        "note": "Existing Foundation encoding; admissible Challenge bridge remains to be completed."
+      },
+      {
+        "source": "Theorem B",
+        "lean": "VopenkaWithoutChoice.equiconsistency",
+        "module": "Solution",
+        "status": "proved",
+        "note": "Existing Foundation encoding; admissible Challenge bridge remains to be completed."
+      },
+      {
+        "source": "DC and failure of AC consistency consequence",
+        "lean": "VopenkaWithoutChoice.dependent_choice",
+        "module": "Solution",
+        "status": "proved",
+        "note": "Existing Foundation encoding; admissible Challenge bridge remains to be completed."
+      },
+      {
+        "source": "Solovay corollary, ordinary reals",
+        "lean": "VopenkaWithoutChoice.solovay_reals",
+        "module": "Solution",
+        "status": "proved",
+        "note": "Existing Foundation encoding; admissible Challenge bridge remains to be completed."
+      }
+    ]
+  },
+  "acknowledgements": "Foundation and mathlib contributors. Bibliographic authors and external-source repairs are identified in the manuscripts and repair notes."
+}

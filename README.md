@@ -23,6 +23,13 @@ Each entry links to Lean source and, where available, a detailed mathematical ar
 
 ## Build
 
+[Palomar and Comparator setup](docs/palomar.md) · [Documentation index](docs/README.md)
+
+The current Comparator statements use the project's existing encoding.
+Palomar's stricter Challenge import policy still requires a proved statement
+translation. Repository CI and Palomar submission readiness are reported
+separately.
+
 Install [elan](https://github.com/leanprover/elan), then run from this directory:
 
 ```sh
