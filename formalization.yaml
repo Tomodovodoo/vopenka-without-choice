@@ -2,7 +2,7 @@
   "version": "v0.4",
   "project": {
     "name": "Vopěnka's principle without choice",
-    "description": "Symmetric preservation of arbitrary-language Vopěnka's principle, equiconsistency of ZF+VP and ZFC+VP, and the dependent-choice and ordinary-real Solovay consistency consequences. Theorems A and B have standalone mathlib-only statements with proved correspondence to the original formalization.",
+    "description": "Symmetric preservation of arbitrary-language Vopěnka's principle, equiconsistency of ZF+VP and ZFC+VP, and the dependent-choice and ordinary-real Solovay consistency consequences. Theorems A and B and the DC consequence have standalone mathlib-only statements with proved correspondence to the original formalization.",
     "authors": [
       "Tom de Groot"
     ],
@@ -48,7 +48,7 @@
     }
   ],
   "status": {
-    "scope": "comparator.json selects four main results in the existing Foundation encoding. comparator-palomar-a.json selects symmetric preservation, including existence and universal preservation of the specified quotient. comparator-palomar-b.json selects Theorem B as model existence. Both independent statement bridges are proved. V13 retains two unmatched auxiliary clauses, documented in repairs/formalization/README.md. Neither configuration registers the DC or Solovay consequence. The full ambient-HOD clause and optional stronger research routes are not claimed.",
+    "scope": "comparator.json selects four main results in the existing Foundation encoding. comparator-palomar-a.json selects symmetric preservation, including existence and universal preservation of the specified quotient. comparator-palomar-b.json selects Theorem B as model existence. comparator-palomar-dc.json selects the DC consistency consequence. These independent statement bridges are proved. V13 retains two unmatched auxiliary clauses, documented in repairs/formalization/README.md. Each configuration selects its own theorem; the Solovay consequence currently remains in the existing-encoding comparison. The full ambient-HOD clause and optional stronger research routes are not claimed.",
     "sorry_count": 0,
     "sorry_in_definitions": 0,
     "axioms": [
@@ -83,7 +83,7 @@
   "review": {
     "status": "Self-assessed with AI-assisted statement inspection; no Palomar review completed",
     "reviewers": [],
-    "notes": "Existing exports and four compositions were checked by Lean. This is not a claim of independent human peer review. The independent A and B bridges passed Lean checks using only the three listed axioms. Comparator/NanoDa and Palomar review are separate steps."
+    "notes": "Existing exports and four compositions were checked by Lean. This is not a claim of independent human peer review. The independent A, B and DC bridges passed Lean checks using only the three listed axioms. Comparator/NanoDa and Palomar review are separate steps."
   },
   "alignment": {
     "namespace": "VopenkaWithoutChoice",
@@ -129,6 +129,13 @@
         "module": "PalomarPreservationSolution",
         "status": "proved",
         "note": "Explicit symmetric quotient existence and preservation for every presentation, given a generic over an arbitrary ground. Dictionary and presentation correspondence are proved in PalomarPreservationBridge."
+      },
+      {
+        "source": "DC and failure of AC consistency consequence",
+        "lean": "VopenkaWithoutChoice.palomar_dependent_choice",
+        "module": "PalomarDCSolution",
+        "status": "proved",
+        "note": "Explicit internal DC and failure of AC, with arbitrary-ground dictionary correspondence and equivalence to the original syntactic consistency claim."
       }
     ]
   },

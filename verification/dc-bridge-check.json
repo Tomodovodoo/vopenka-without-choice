@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "theorem": "PalomarDCBridge.independent_dependent_choice",
+  "statement": "PalomarBridge.HasZFVPModel -> PalomarDCBridge.HasZFVPDCNotChoiceModel",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "checked_modules": [
+    "PalomarDCBridge.Vocabulary",
+    "PalomarDCBridge.Dictionary",
+    "PalomarDCBridge.TheoremDC"
+  ],
+  "combined_vocabulary_lines": 359,
+  "combined_vocabulary_bytes": 20085,
+  "files": [
+    {
+      "path": "PalomarDCBridge/Vocabulary.lean",
+      "bytes": 1138,
+      "sha256": "64eb8cf6e3a95d321719c931710b6abc106c724aaf6030b64914678a0387d8e6"
+    },
+    {
+      "path": "PalomarDCBridge/Dictionary.lean",
+      "bytes": 1554,
+      "sha256": "98b3b05b2c19146ffea41f4a8000f1196ff8c7ce166b5f6b7232c078ac92ad27"
+    },
+    {
+      "path": "PalomarDCBridge/TheoremDC.lean",
+      "bytes": 2792,
+      "sha256": "de56f3da621c03a4aaa89af61650e4ae21c88bf7634ebc0f245cda77b576f5e9"
+    }
+  ],
+  "scope": "All three modules compiled against the existing pinned dependencies. Parent owns standalone generation, clean build, Comparator and publication."
+}

@@ -29,6 +29,15 @@ name = "PalomarPreservationChallenge"
 [[lean_lib]]
 name = "PalomarPreservationSolution"
 
+[[lean_lib]]
+name = "PalomarDCBridge"
+
+[[lean_lib]]
+name = "PalomarDCChallenge"
+
+[[lean_lib]]
+name = "PalomarDCSolution"
+
 [[require]]
 name = "mathlib"
 git = "https://github.com/leanprover-community/mathlib4"

@@ -95,6 +95,12 @@ for name in files:
         if re.search(r'\b(sorry|admit|sorryAx)\b', strip_comments(path.read_text(encoding='utf-8'))):
             proof_holes.append(name)
 if proof_holes: errors.append(f'Proof holes outside Challenge: {proof_holes}')
+for receipt_path in (ROOT / 'verification').glob('*bridge-check.json'):
+    receipt = json.loads(receipt_path.read_text(encoding='utf-8'))
+    for entry in receipt.get('files', []):
+        checked = ROOT / entry['path']
+        if not checked.is_file() or hashlib.sha256(checked.read_bytes()).hexdigest() != entry['sha256']:
+            errors.append(f'Source differs from compilation receipt {receipt_path.name}: {entry["path"]}')
 for name in files:
     path = ROOT / name
     if path.suffix != '.md':

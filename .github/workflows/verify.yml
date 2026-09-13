@@ -16,10 +16,12 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           persist-credentials: false
-      - run: python3 scripts/check-repository.py --report .cache/verification/preflight.json
       - run: python3 scripts/generate-palomar-challenge.py --check
-      - run: python3 scripts/check-repository.py --config comparator-palomar-b.json --report .cache/verification/palomar-b-preflight.json
-      - run: python3 scripts/check-repository.py --config comparator-palomar-a.json --report .cache/verification/palomar-a-preflight.json
+      - name: Check every comparison configuration
+        run: |
+          for config in comparator*.json; do
+            python3 scripts/check-repository.py --config "$config" --report ".cache/verification/${config%.json}-preflight.json"
+          done
       - name: Validate metadata against the pinned upstream schema
         run: |
           python3 -m pip install jsonschema==4.26.0
@@ -69,10 +71,10 @@ jobs:
             --working-directory="$PWD" \
             --setenv="PATH=$PATH" --setenv="HOME=$HOME" \
             --setenv="ELAN_HOME=$HOME/.elan" \
-            bash -c 'bash scripts/verify-comparator.sh comparator-palomar-b.json && bash scripts/verify-comparator.sh comparator-palomar-a.json && bash scripts/verify-comparator.sh comparator.json'
+            bash -c 'for config in comparator-palomar-*.json comparator.json; do bash scripts/verify-comparator.sh "$config" || exit; done'
       - name: Build all root imports and check coverage compositions
         run: |
-          lake build ZFVP PalomarBridge PalomarPreservationBridge
+          lake build ZFVP PalomarBridge PalomarPreservationBridge PalomarDCBridge
           lake env lean verification/ExportChecks.lean
           lake env lean verification/AdditionalChecks.lean
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a

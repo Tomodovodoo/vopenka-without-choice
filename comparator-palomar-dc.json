@@ -1,0 +1,8 @@
+{
+  "challenge_module": "PalomarDCChallenge",
+  "solution_module": "PalomarDCSolution",
+  "theorem_names": ["VopenkaWithoutChoice.palomar_dependent_choice"],
+  "definition_names": [],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"],
+  "enable_nanoda": true
+}

@@ -44,3 +44,7 @@ remove the local vocabulary import. The resulting statement imports only the
 shared vocabulary's Mathlib dependency. Proof-side modules can retain their
 ordinary imports. The parent repository supplies the final standalone modules
 and Comparator configuration.
+
+The [local compilation receipt](../verification/preservation-bridge-check.json)
+records the source hashes and permitted axioms. Protected comparison is a separate
+CI check selected by [comparator-palomar-a.json](../comparator-palomar-a.json).
