@@ -1,0 +1,10 @@
+.lake/
+.cache/
+__pycache__/
+*.olean
+*.ilean
+*.trace
+*.aux
+*.log
+*.out
+*.synctex.gz

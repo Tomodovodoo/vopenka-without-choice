@@ -1,0 +1,32 @@
+import ZFVP.ModelTheory.ForcingExtensionDomain
+import ZFVP.ModelTheory.ProjectionClosedPreservation
+import ZFVP.ModelTheory.ProjectionRegularPreservation
+import ZFVP.ModelTheory.ProjectionStagePreservation
+import ZFVP.ModelTheory.WoodinFixedPointRank
+import ZFVP.ModelTheory.WoodinFixedPointRankQuotient
+import ZFVP.ModelTheory.WoodinSparseCapturedCutoffs
+import ZFVP.ModelTheory.WoodinSparseSourceTruthWindow
+import ZFVP.SetTheory.FiniteDictionarySourceBounds
+
+#check ZFVP.symmetricExtensionDomain_transitive
+#print axioms ZFVP.symmetricExtensionDomain_transitive
+#check ZFVP.symmetricExtensionDomain_subset
+#print axioms ZFVP.symmetricExtensionDomain_subset
+#check ZFVP.TransitiveZF.ground_subset_symmetricExtensionDomain
+#print axioms ZFVP.TransitiveZF.ground_subset_symmetricExtensionDomain
+#check ZFVP.woodinSparseSourceStageCode_capture_marked
+#print axioms ZFVP.woodinSparseSourceStageCode_capture_marked
+#check ZFVP.ForcingContext.projectionInclusion_function_of_separative_closed
+#print axioms ZFVP.ForcingContext.projectionInclusion_function_of_separative_closed
+#check ZFVP.ForcingContext.projectionInclusion_dependentChoiceBelow_of_separative_closed
+#print axioms ZFVP.ForcingContext.projectionInclusion_dependentChoiceBelow_of_separative_closed
+#check ZFVP.ForcingContext.projected_stage_preservation
+#print axioms ZFVP.ForcingContext.projected_stage_preservation
+#check ZFVP.WoodinEndpointModel.fixedPointLowNameRankEquiv_mem_iff
+#print axioms ZFVP.WoodinEndpointModel.fixedPointLowNameRankEquiv_mem_iff
+#check ZFVP.ForcingContext.woodinFixedPoint_check_inaccessible
+#print axioms ZFVP.ForcingContext.woodinFixedPoint_check_inaccessible
+#check ZFVP.woodinSourceSatLevel_literal
+#print axioms ZFVP.woodinSourceSatLevel_literal
+#check ZFVP.sourceReflection_formula_complexity
+#print axioms ZFVP.sourceReflection_formula_complexity

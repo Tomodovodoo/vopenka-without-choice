@@ -1,0 +1,24 @@
+diff --git a/Foundation/Vorspiel/ExistsUnique.lean b/Foundation/Vorspiel/ExistsUnique.lean
+index aa877b9..52567ad 100644
+--- a/Foundation/Vorspiel/ExistsUnique.lean
++++ b/Foundation/Vorspiel/ExistsUnique.lean
+@@ -1,6 +1,6 @@
+ module
+ 
+-public import Mathlib.Logic.IsEmpty.Basic
++public import Mathlib.Basic.IsEmpty.Basic
+ 
+ @[expose]
+ public section
+diff --git a/Foundation/Vorspiel/IsEmpty.lean b/Foundation/Vorspiel/IsEmpty.lean
+index bc3e664..f0c0a9d 100644
+--- a/Foundation/Vorspiel/IsEmpty.lean
++++ b/Foundation/Vorspiel/IsEmpty.lean
+@@ -1,6 +1,6 @@
+ module
+ 
+-public import Mathlib.Logic.IsEmpty.Basic
++public import Mathlib.Basic.IsEmpty.Basic
+ 
+ @[expose] public section
+ 

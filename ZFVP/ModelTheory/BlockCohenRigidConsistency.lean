@@ -1,0 +1,61 @@
+import ZFVP.ModelTheory.BlockCohenNotRigid
+import ZFVP.ModelTheory.SymmetricVopenkaPreservation
+import ZFVP.ModelTheory.CodedZFVPExternal
+import Foundation.FirstOrder.SetTheory.LoewenheimSkolem
+
+/-!
+Consistency of ZF + Vopenka's principle together with the failure of the rigid relation
+principle. The block Cohen symmetric model of a countable model of ZF+VP satisfies ZF, keeps
+every instance of Vopenka's principle, and has a set of blocks carrying no rigid relation.
+-/
+
+namespace ZFVP
+
+open LO LO.FirstOrder LO.FirstOrder.SetTheory Entailment
+
+/-- ZF plus Vopenka's principle plus the negation of the rigid relation principle. -/
+def zfVPNotRigidTheory : Theory ℒₛₑₜ := insert (∼rigidRelationSentence) zfVPTheory
+
+theorem blockCohen_model_zfVP_notRigid {V : Type*} [SetStructure V] [Nonempty V]
+    [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙] [Countable V]
+    (hVP : ∀ φ : SetTheorySemisentence 2, VopenkaInstance (V := V) φ)
+    {G : Set V} (hG : IsExternalForcingGeneric (cohenConditions ((ω : V) ×ˢ (ω : V)))
+      (cohenOrder ((ω : V) ×ˢ (ω : V))) G) :
+    (blockCohenContext G hG).Model↓[ℒₛₑₜ] ⊧* zfVPNotRigidTheory := by
+  let S := blockCohenContext G hG
+  refine ⟨?_⟩
+  intro φ hφ
+  rcases hφ with rfl | (hφ | ⟨ψ, rfl⟩)
+  · have hh := BlockCohenModel.blockCohen_model_not_rigidRelationPrinciple hG
+    simpa [models_iff, Semiformula.Realize, Semiformula.Evalb] using hh
+  · exact Theory.models S.Model 𝗭𝗙 hφ
+  · exact (eval_vopenkaSentence ψ).mpr (S.vopenkaInstance hVP ψ)
+
+theorem consistent_zfVP_notRigid (h : Consistent zfVPTheory) :
+    Consistent zfVPNotRigidTheory := by
+  obtain ⟨M, hne, hstr, hM⟩ := satisfiable_iff.mp (Theory.small_satisfiable_of_consistent h)
+  let := hne
+  let := hstr
+  let hEQ : M↓[ℒₛₑₜ] ⊧* (𝗘𝗤 ℒₛₑₜ) := ⟨fun φ hφ ↦ hM.models_set
+    (Or.inl (ZermeloFraenkel.axiom_of_equality φ hφ))⟩
+  let N := QuotNormalize M
+  have hN : N↓[ℒₛₑₜ] ⊧* zfVPTheory := (inferInstance : N ≡ₑ[ℒₛₑₜ] M).modelsTheory.mpr hM
+  let U := Collapse N
+  have hU : U↓[ℒₛₑₜ] ⊧* zfVPTheory := (inferInstance : U ≡ₑ[ℒₛₑₜ] N).modelsTheory.mpr hN
+  let hZF : U↓[ℒₛₑₜ] ⊧* 𝗭𝗙 := ⟨fun φ hφ ↦ hU.models_set (Or.inl hφ)⟩
+  have hVP : ∀ φ : SetTheorySemisentence 2, VopenkaInstance (V := U) φ := by
+    intro φ
+    exact (eval_vopenkaSentence φ).mp (hU.models_set (Or.inr ⟨φ, rfl⟩))
+  obtain ⟨G, hG, _⟩ := exists_externalForcingGeneric
+    (cohen_poset ((ω : U) ×ˢ (ω : U))).1 (cohen_top ((ω : U) ×ˢ (ω : U))).1
+  exact Theory.consistent_of_satisfiable
+    ⟨(blockCohenContext G hG).Model↓[ℒₛₑₜ], blockCohen_model_zfVP_notRigid hVP hG⟩
+
+theorem consistent_zfVP_notRigid_iff :
+    Consistent zfVPNotRigidTheory ↔ Consistent zfVPTheory := by
+  constructor
+  · intro h
+    exact h.of_le (WeakerThan.ofSubset (fun _ hφ ↦ Or.inr hφ))
+  · exact consistent_zfVP_notRigid
+
+end ZFVP

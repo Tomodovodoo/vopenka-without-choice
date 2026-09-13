@@ -1,0 +1,11 @@
+# Verification
+
+The working-project full build recorded on 14 September 2026 completed 5,048 jobs. The accompanying [paper coverage map](paper-coverage.md) compares all 43 stated results: 41 are covered, including checked compositions, and two contain unmatched auxiliary clauses. It reports checks of 80 existing exports and four compositions, using only `propext`, `Classical.choice` and `Quot.sound`. Lean's metatheoretic choice axiom does not assert AC inside the modeled ZF universe.
+
+The [composition checks](../verification/ExportChecks.lean) are included. After building, run `lake env lean verification/ExportChecks.lean` to repeat those checks. They supplement, rather than replace, inspection of hypotheses and definitions.
+
+The publication snapshot preserves every copied Lean source byte-for-byte. [Source hashes](../verification/source-sha256.json) identify the files; they are not a substitute for a clean build. The previous full-build result is historical evidence from the working project, not a claim that a fresh dependency download was rebuilt during repository preparation.
+
+The kernel checks the formal propositions. The remaining question for each paper statement is whether its hypotheses and conclusion match those propositions. The two known differences are stated in the README and repair notes.
+
+During repository preparation, both included verification files were run successfully with `lake env lean` against the working project's installed dependencies. Every copied project source matched its working-project counterpart, and every local ZFVP/Foundation import resolved in the snapshot. This check reused installed dependencies; it was not a fresh build of the published clone.
