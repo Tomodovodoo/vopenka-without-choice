@@ -25,10 +25,12 @@ Each entry links to Lean source and, where available, a detailed mathematical ar
 
 [Palomar and Comparator setup](docs/palomar.md) · [Documentation index](docs/README.md)
 
-The current Comparator statements use the project's existing encoding.
-Palomar's stricter Challenge import policy still requires a proved statement
-translation. Repository CI and Palomar submission readiness are reported
-separately.
+Two comparison configurations are available. `comparator.json` checks four
+main results in the existing encoding. `comparator-palomar-b.json` checks
+Theorem B in a standalone vocabulary importing only mathlib, connected to the
+original proof by the [proved statement bridge](PalomarBridge/README.md).
+The latter is the Palomar submission candidate. Check the CI result and
+[remaining submission requirements](docs/palomar.md) before treating it as ready.
 
 Install [elan](https://github.com/leanprover/elan), then run from this directory:
 

@@ -13,10 +13,12 @@ import sys
 ROOT = Path(__file__).resolve().parent.parent
 parser = argparse.ArgumentParser()
 parser.add_argument('--submission', action='store_true')
+parser.add_argument('--config', default='comparator.json')
 parser.add_argument('--report', type=Path)
 args = parser.parse_args()
 errors, blockers = [], []
-config = json.loads((ROOT / 'comparator.json').read_text())
+config_path = ROOT / args.config
+config = json.loads(config_path.read_text())
 required = {'challenge_module', 'solution_module', 'theorem_names', 'permitted_axioms'}
 if not required <= config.keys():
     errors.append('Comparator configuration lacks required fields.')
@@ -79,10 +81,17 @@ else:
     disallowed = []
 
 files = subprocess.check_output(['git', 'ls-files'], cwd=ROOT, text=True).splitlines()
+statement_files = set()
+for configuration in ROOT.glob('comparator*.json'):
+    statement_name = json.loads(configuration.read_text()).get('challenge_module')
+    if statement_name:
+        statement_path = module_path(statement_name)
+        if statement_path:
+            statement_files.add(statement_path)
 proof_holes = []
 for name in files:
     path = ROOT / name
-    if path.suffix == '.lean' and path != challenge:
+    if path.suffix == '.lean' and path not in statement_files:
         if re.search(r'\b(sorry|admit|sorryAx)\b', strip_comments(path.read_text(encoding='utf-8'))):
             proof_holes.append(name)
 if proof_holes: errors.append(f'Proof holes outside Challenge: {proof_holes}')
@@ -113,7 +122,8 @@ if args.submission:
         blockers.append('Could not verify public GitHub visibility.')
 report = {'repository_errors': errors, 'submission_blockers': blockers,
           'challenge_project_imports': disallowed, 'proof_holes': proof_holes,
-          'comparator_config_sha256': hashlib.sha256((ROOT / 'comparator.json').read_bytes()).hexdigest()}
+          'comparator_config': args.config,
+          'comparator_config_sha256': hashlib.sha256(config_path.read_bytes()).hexdigest()}
 if args.report:
     args.report.parent.mkdir(parents=True, exist_ok=True)
     args.report.write_text(json.dumps(report, indent=2)+'\n', encoding='utf-8')

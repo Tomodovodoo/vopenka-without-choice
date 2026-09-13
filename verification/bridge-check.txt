@@ -1,0 +1,11 @@
+PalomarBridge final verification, Lean v4.34.0-rc2
+Checking PalomarBridge.Vocabulary
+Checking PalomarBridge.FoundationTranslation
+Checking PalomarBridge.ZFDictionary
+Checking PalomarBridge.CodingOperations
+Checking PalomarBridge.InternalSyntaxDictionary
+Checking PalomarBridge.InternalEvaluationDictionary
+Checking PalomarBridge.VPDictionary
+Checking PalomarBridge.TheoremB
+'PalomarBridge.independent_theoremB' depends on axioms: [propext, Classical.choice, Quot.sound]
+All eight modules passed.

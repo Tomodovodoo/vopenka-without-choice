@@ -17,6 +17,8 @@ jobs:
         with:
           persist-credentials: false
       - run: python3 scripts/check-repository.py --report .cache/verification/preflight.json
+      - run: python3 scripts/generate-palomar-challenge.py --check
+      - run: python3 scripts/check-repository.py --config comparator-palomar-b.json --report .cache/verification/palomar-b-preflight.json
       - name: Validate metadata against the pinned upstream schema
         run: |
           python3 -m pip install jsonschema==4.26.0
@@ -35,7 +37,7 @@ jobs:
         if: always()
         with:
           name: submission-preflight
-          path: .cache/verification/preflight.json
+          path: .cache/verification/*preflight.json
   comparator:
     runs-on: ubuntu-24.04
     timeout-minutes: 360
@@ -50,6 +52,15 @@ jobs:
         with:
           go-version: '1.24.0'
           cache: false
+      - name: Reuse project builds at the same dependency revisions
+        uses: actions/cache@caa296126883cff596d87d8935842f9db880ef25
+        with:
+          path: |
+            .lake/build
+            .lake/foundation-build
+          key: proofs-${{ runner.os }}-${{ hashFiles('lean-toolchain', 'lake-manifest.json', 'vendor/Foundation/lakefile.toml') }}-${{ github.sha }}
+          restore-keys: |
+            proofs-${{ runner.os }}-${{ hashFiles('lean-toolchain', 'lake-manifest.json', 'vendor/Foundation/lakefile.toml') }}-
       - name: Run Comparator and NanoDa as the unprivileged runner
         run: |
           sudo systemd-run --wait --pipe --uid="$(id -u)" \
@@ -57,10 +68,10 @@ jobs:
             --working-directory="$PWD" \
             --setenv="PATH=$PATH" --setenv="HOME=$HOME" \
             --setenv="ELAN_HOME=$HOME/.elan" \
-            bash scripts/verify-comparator.sh
+            bash -c 'bash scripts/verify-comparator.sh comparator-palomar-b.json && bash scripts/verify-comparator.sh comparator.json'
       - name: Build all root imports and check coverage compositions
         run: |
-          lake build ZFVP
+          lake build ZFVP PalomarBridge
           lake env lean verification/ExportChecks.lean
           lake env lean verification/AdditionalChecks.lean
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a

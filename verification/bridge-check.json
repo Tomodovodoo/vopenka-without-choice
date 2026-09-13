@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "leanToolchain": "leanprover/lean4:v4.34.0-rc2",
+  "theorem": "PalomarBridge.independent_theoremB",
+  "statement": "PalomarBridge.HasZFCVPModel ↔ PalomarBridge.HasZFVPModel",
+  "permittedAxioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "vocabularyImports": [
+    "Mathlib.Data.Fin.VecNotation"
+  ],
+  "vocabularyLines": 334,
+  "vocabularyBytes": 18947,
+  "verificationLog": "verification/bridge-check.txt",
+  "scope": "All eight new modules compiled against the existing pinned project dependencies. Final publication clean build is handled by repository CI.",
+  "files": [
+    {
+      "path": "PalomarBridge/CodingOperations.lean",
+      "sha256": "587e15336788505545d714b5a8d3a37a8ac47be3cfa557d3cd3caa47440e303a",
+      "bytes": 3566
+    },
+    {
+      "path": "PalomarBridge/FoundationTranslation.lean",
+      "sha256": "ae70f844dcf21e2c2fbf6a6ad71e8494930a647766681c51d247b316063ede53",
+      "bytes": 6196
+    },
+    {
+      "path": "PalomarBridge/InternalEvaluationDictionary.lean",
+      "sha256": "39818d5dcf8b1ef128fbd8d0b34589fd07c55a38ee20640103ae0b2a30f1c173",
+      "bytes": 3057
+    },
+    {
+      "path": "PalomarBridge/InternalSyntaxDictionary.lean",
+      "sha256": "0824c6681d7e290e03f45586257356382116f156b7181641f09dde1f47c8541f",
+      "bytes": 5116
+    },
+    {
+      "path": "PalomarBridge/TheoremB.lean",
+      "sha256": "065201566e7fd6ecbb83aa0e5f54e9f07f4f21a73c07816ad9fe1c4a30692252",
+      "bytes": 7688
+    },
+    {
+      "path": "PalomarBridge/Vocabulary.lean",
+      "sha256": "978f4cc5fda4a1e123473d90ca3b8e8bd609af38bbaad5b58f21ade39715f90d",
+      "bytes": 18947
+    },
+    {
+      "path": "PalomarBridge/VPDictionary.lean",
+      "sha256": "a89f52bf1618a6faf9468c09b58bcf248530b2f99f8c680f6d503286925941d0",
+      "bytes": 4808
+    },
+    {
+      "path": "PalomarBridge/ZFDictionary.lean",
+      "sha256": "7c1a12e022d092f0ed53af7224a0ec3572622d528e1aa06c47562da79de7db04",
+      "bytes": 7731
+    }
+  ]
+}

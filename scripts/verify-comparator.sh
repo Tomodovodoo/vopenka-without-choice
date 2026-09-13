@@ -3,10 +3,12 @@
 # 128a6c5ce5f48622e69927ccd639cbff401022e8, Apache-2.0.
 set -euo pipefail
 root=$(cd "$(dirname "$0")/.." && pwd)
+config=${1:-comparator.json}
 cache=${PALOMAR_COMPARATOR_CACHE:-"$root/.cache/comparator-tools"}
 for command in git lake go cargo python3; do
   command -v "$command" >/dev/null || { echo "Missing command: $command" >&2; exit 1; }
 done
+python3 "$root/scripts/check-repository.py" --config "$config"
 mkdir -p "$cache/bin" "$root/.cache/verification"
 checkout() {
   local url=$1 directory=$2 revision=$3
@@ -37,4 +39,5 @@ export COMPARATOR_LEAN4EXPORT="$cache/lean4export/.lake/build/bin/lean4export"
 export COMPARATOR_NANODA="$cache/nanoda/target/release/nanoda_bin"
 # The caller must enforce the AF_UNIX restriction described in Comparator's
 # README. CI runs this command inside an unprivileged systemd service.
-lake env "$cache/comparator/.lake/build/bin/comparator" comparator.json 2>&1 | tee .cache/verification/comparator.log
+log_name=$(basename "$config" .json)
+lake env "$cache/comparator/.lake/build/bin/comparator" "$config" 2>&1 | tee ".cache/verification/$log_name.log"

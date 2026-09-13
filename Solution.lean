@@ -12,9 +12,10 @@ open ZFVP LO LO.FirstOrder LO.FirstOrder.SetTheory Entailment
 
 theorem symmetric_preservation {V : Type*} [SetStructure V] [Nonempty V]
     [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙] (S : SymmetricContext V)
-    (hVP : ∀ ψ : SetTheorySemisentence 2, VopenkaInstance (V := V) ψ)
-    (φ : SetTheorySemisentence 2) : VopenkaInstance (V := S.Model) φ :=
-  S.vopenkaInstance hVP φ
+    (hVP : ∀ ψ : SetTheorySemisentence 2, VopenkaInstance (V := V) ψ) :
+    (S.Model↓[ℒₛₑₜ] ⊧* 𝗭𝗙) ∧
+      (∀ φ : SetTheorySemisentence 2, VopenkaInstance (V := S.Model) φ) :=
+  ⟨inferInstance, S.vopenkaInstance hVP⟩
 
 theorem equiconsistency : Consistent zfcVPTheory ↔ Consistent zfVPTheory :=
   consistent_zfcVP_iff_consistent_zfVP_woodin

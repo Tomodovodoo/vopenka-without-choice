@@ -11,6 +11,15 @@ name = "Challenge"
 [[lean_lib]]
 name = "Solution"
 
+[[lean_lib]]
+name = "PalomarBridge"
+
+[[lean_lib]]
+name = "PalomarChallenge"
+
+[[lean_lib]]
+name = "PalomarSolution"
+
 [[require]]
 name = "mathlib"
 git = "https://github.com/leanprover-community/mathlib4"

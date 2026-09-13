@@ -22,8 +22,9 @@ extension of a ZF model satisfying every VP instance. The symmetric context
 includes the poset, normal filter, automorphism group and supplied generic. -/
 theorem symmetric_preservation {V : Type*} [SetStructure V] [Nonempty V]
     [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙] (S : SymmetricContext V)
-    (hVP : ∀ ψ : SetTheorySemisentence 2, VopenkaInstance (V := V) ψ)
-    (φ : SetTheorySemisentence 2) : VopenkaInstance (V := S.Model) φ := by
+    (hVP : ∀ ψ : SetTheorySemisentence 2, VopenkaInstance (V := V) ψ) :
+    (S.Model↓[ℒₛₑₜ] ⊧* 𝗭𝗙) ∧
+      (∀ φ : SetTheorySemisentence 2, VopenkaInstance (V := S.Model) φ) := by
   sorry
 
 /-- Theorem B: syntactic consistency of ZFC+VP is equivalent to that of ZF+VP.

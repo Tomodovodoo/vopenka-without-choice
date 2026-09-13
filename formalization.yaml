@@ -2,7 +2,7 @@
   "version": "v0.4",
   "project": {
     "name": "Vopěnka's principle without choice",
-    "description": "Symmetric preservation of arbitrary-language Vopěnka’s principle, equiconsistency of ZF+VP and ZFC+VP, and the dependent-choice and ordinary-real Solovay consistency consequences. The current Comparator interface uses the development’s Foundation encoding and still requires an admissible statement translation before Palomar submission.",
+    "description": "Symmetric preservation of arbitrary-language Vopěnka's principle, equiconsistency of ZF+VP and ZFC+VP, and the dependent-choice and ordinary-real Solovay consistency consequences. Theorem B also has a standalone mathlib-only statement, with a proved translation of its full ZF, choice and VP definitions to the original formalization.",
     "authors": [
       "Tom de Groot"
     ],
@@ -48,7 +48,7 @@
     }
   ],
   "status": {
-    "scope": "Four main statements are compared in the existing encoding. This is not yet a Palomar-admissible Challenge: its transitive imports include Foundation and project sources. V13 additionally has two unmatched auxiliary clauses, detailed in repairs/formalization/README.md. Woodin’s full ambient-HOD clause and the optional stronger research routes are not claimed.",
+    "scope": "comparator.json selects four main results in the existing Foundation encoding. comparator-palomar-b.json selects only Theorem B in an independently defined membership vocabulary importing mathlib alone. Its full statement bridge is proved. V13 retains two unmatched auxiliary clauses, documented in repairs/formalization/README.md. The other three result families do not acquire a Palomar registration through the Theorem B configuration. The full ambient-HOD clause and optional stronger research routes are not claimed.",
     "sorry_count": 0,
     "sorry_in_definitions": 0,
     "axioms": [
@@ -83,7 +83,7 @@
   "review": {
     "status": "Self-assessed with AI-assisted statement inspection; no Palomar review completed",
     "reviewers": [],
-    "notes": "Existing exports and four compositions were checked by Lean. This is not a claim of independent human peer review."
+    "notes": "Existing exports and four compositions were checked by Lean. This is not a claim of independent human peer review. The independent statement bridge and all eight supporting modules passed Lean checks using only the three listed axioms. Comparator/NanoDa and Palomar review are separate steps."
   },
   "alignment": {
     "namespace": "VopenkaWithoutChoice",
@@ -93,28 +93,35 @@
         "lean": "VopenkaWithoutChoice.symmetric_preservation",
         "module": "Solution",
         "status": "proved",
-        "note": "Existing Foundation encoding; admissible Challenge bridge remains to be completed."
+        "note": "Existing Foundation encoding, selected by comparator.json; this is distinct from the independent Theorem B configuration."
       },
       {
         "source": "Theorem B",
         "lean": "VopenkaWithoutChoice.equiconsistency",
         "module": "Solution",
         "status": "proved",
-        "note": "Existing Foundation encoding; admissible Challenge bridge remains to be completed."
+        "note": "Existing Foundation encoding, selected by comparator.json; this is distinct from the independent Theorem B configuration."
       },
       {
         "source": "DC and failure of AC consistency consequence",
         "lean": "VopenkaWithoutChoice.dependent_choice",
         "module": "Solution",
         "status": "proved",
-        "note": "Existing Foundation encoding; admissible Challenge bridge remains to be completed."
+        "note": "Existing Foundation encoding, selected by comparator.json; this is distinct from the independent Theorem B configuration."
       },
       {
         "source": "Solovay corollary, ordinary reals",
         "lean": "VopenkaWithoutChoice.solovay_reals",
         "module": "Solution",
         "status": "proved",
-        "note": "Existing Foundation encoding; admissible Challenge bridge remains to be completed."
+        "note": "Existing Foundation encoding, selected by comparator.json; this is distinct from the independent Theorem B configuration."
+      },
+      {
+        "source": "Theorem B",
+        "lean": "VopenkaWithoutChoice.palomar_equiconsistency",
+        "module": "PalomarSolution",
+        "status": "proved",
+        "note": "Independent model-existence statement. Full ZF/AC/VP dictionary correspondence and equivalence with the source consistency assertions are proved in PalomarBridge.TheoremB."
       }
     ]
   },
