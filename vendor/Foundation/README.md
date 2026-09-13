@@ -92,7 +92,7 @@ Automatically generated[^1] diagrams "Zoo" illustrate the Lean 4-verified interr
 
 ## Contributing
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for the contribution flow.
+See upstream [CONTRIBUTING.md](https://github.com/FormalizedFormalLogic/Foundation/blob/f212e81484a045697b3f6f171adf28fb57c750fc/CONTRIBUTING.md) for the contribution flow.
 
 ### Building
 

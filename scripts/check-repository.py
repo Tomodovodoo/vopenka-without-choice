@@ -95,12 +95,14 @@ for name in files:
         if re.search(r'\b(sorry|admit|sorryAx)\b', strip_comments(path.read_text(encoding='utf-8'))):
             proof_holes.append(name)
 if proof_holes: errors.append(f'Proof holes outside Challenge: {proof_holes}')
-for directory in ['docs', 'repairs', 'paper']:
-    for path in (ROOT / directory).rglob('*.md'):
-        for target in re.findall(r'\]\(([^)]+)\)', path.read_text(encoding='utf-8')):
-            target = target.split('#')[0]
-            if target and '://' not in target and not (path.parent / target).exists():
-                errors.append(f'Broken link in {path.relative_to(ROOT)}: {target}')
+for name in files:
+    path = ROOT / name
+    if path.suffix != '.md':
+        continue
+    for target in re.findall(r'\]\(([^)]+)\)', path.read_text(encoding='utf-8')):
+        target = target.split('#')[0]
+        if target and '://' not in target and not (path.parent / target).exists():
+            errors.append(f'Broken link in {path.relative_to(ROOT)}: {target}')
 if not (ROOT / 'LICENSE').is_file(): blockers.append('Root LICENSE is not yet selected.')
 metadata = ROOT / 'formalization.yaml'
 if not metadata.is_file(): errors.append('formalization.yaml is missing.')
