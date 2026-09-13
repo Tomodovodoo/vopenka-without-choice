@@ -10,3 +10,7 @@ The Comparator setup scripts adapt the Apache-2.0 PalomarTemplate scripts at
 `128a6c5ce5f48622e69927ccd639cbff401022e8`. Their source is recorded in the file
 headers. Comparator, lean4export, Landrun and NanoDa are downloaded from their
 recorded revisions by the verification script; they are not vendored here.
+
+Foundation's Lake `buildDir` points into the root `.lake/foundation-build` so
+the protected comparison can build this vendored path dependency without
+granting write access to its source directory.

@@ -17,6 +17,20 @@ jobs:
         with:
           persist-credentials: false
       - run: python3 scripts/check-repository.py --report .cache/verification/preflight.json
+      - name: Validate metadata against the pinned upstream schema
+        run: |
+          python3 -m pip install jsonschema==4.26.0
+          python3 - <<'PY'
+          import json
+          import urllib.request
+          from pathlib import Path
+          import jsonschema
+          revision = '99c678e569c7c4c0772db297c5ddd5e4c9b6322e'
+          url = f'https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/{revision}/schema/v0.4.schema.json'
+          with urllib.request.urlopen(url, timeout=30) as response:
+              schema = json.load(response)
+          jsonschema.validate(json.loads(Path('formalization.yaml').read_text()), schema)
+          PY
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
         if: always()
         with:

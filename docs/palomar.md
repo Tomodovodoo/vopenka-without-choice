@@ -89,3 +89,9 @@ repository access and author authorization. Submission runs public mechanical
 checks. Registration is a separate permanent publication step, including the
 review and preservation forks. This repository has not been submitted or
 registered by the preparation scripts.
+
+The agent submission protocol requires agreement on the exact repository,
+commit, configuration path and declared author/maintainer relationship before
+intake. It uses a temporary Git tag and secret gist to prove access, then
+removes both. The repository setup does not itself make that permanent
+authorization declaration on the maintainer's behalf.

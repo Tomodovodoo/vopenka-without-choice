@@ -1,5 +1,7 @@
 name = "Foundation"
 defaultTargets = ["Foundation"]
+# Comparator permits build output below the submitted project's .lake only.
+buildDir = "../../.lake/foundation-build"
 
 [[lean_lib]]
 name = "Foundation"
