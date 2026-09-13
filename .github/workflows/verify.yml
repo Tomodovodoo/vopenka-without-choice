@@ -56,7 +56,8 @@ jobs:
           go-version: '1.24.0'
           cache: false
       - name: Reuse project builds at the same dependency revisions
-        uses: actions/cache@caa296126883cff596d87d8935842f9db880ef25
+        id: proof-cache
+        uses: actions/cache/restore@caa296126883cff596d87d8935842f9db880ef25
         with:
           path: |
             .lake/build
@@ -74,7 +75,7 @@ jobs:
             bash -c 'for config in comparator-palomar-*.json comparator.json; do bash scripts/verify-comparator.sh "$config" || exit; done'
       - name: Build all root imports and check coverage compositions
         run: |
-          lake build ZFVP PalomarBridge PalomarPreservationBridge PalomarDCBridge
+          lake build ZFVP PalomarBridge PalomarPreservationBridge PalomarDCBridge PalomarSolovayBridge
           lake env lean verification/ExportChecks.lean
           lake env lean verification/AdditionalChecks.lean
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
@@ -82,3 +83,11 @@ jobs:
         with:
           name: comparator-evidence
           path: .cache/verification/
+      - name: Preserve completed builds even if a later verification step fails
+        if: always() && steps.proof-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@caa296126883cff596d87d8935842f9db880ef25
+        with:
+          path: |
+            .lake/build
+            .lake/foundation-build
+          key: ${{ steps.proof-cache.outputs.cache-primary-key }}

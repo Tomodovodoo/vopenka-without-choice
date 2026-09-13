@@ -25,7 +25,7 @@ Each entry links to Lean source and, where available, a detailed mathematical ar
 
 [Palomar and Comparator setup](docs/palomar.md) · [Documentation index](docs/README.md)
 
-Four comparison configurations are available. `comparator.json` checks four
+Five comparison configurations are available. `comparator.json` checks four
 main results in the existing encoding. `comparator-palomar-b.json` checks
 Theorem B in a standalone vocabulary importing only mathlib, connected to the
 original proof by the [proved statement bridge](PalomarBridge/README.md).
@@ -33,7 +33,9 @@ original proof by the [proved statement bridge](PalomarBridge/README.md).
 [symmetric quotient bridge](PalomarPreservationBridge/README.md).
 `comparator-palomar-dc.json` checks the DC consistency consequence through its
 [explicit DC dictionary](PalomarDCBridge/README.md).
-The standalone configurations are Palomar submission candidates. Check the CI result and
+`comparator-palomar-solovay.json` checks the ordinary-real Solovay consequence
+through its [regularity dictionary](PalomarSolovayBridge/README.md).
+The four standalone configurations are Palomar submission candidates. Check the CI result and
 [remaining submission requirements](docs/palomar.md) before treating it as ready.
 
 Install [elan](https://github.com/leanprover/elan), then run from this directory:

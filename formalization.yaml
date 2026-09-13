@@ -2,7 +2,7 @@
   "version": "v0.4",
   "project": {
     "name": "Vopěnka's principle without choice",
-    "description": "Symmetric preservation of arbitrary-language Vopěnka's principle, equiconsistency of ZF+VP and ZFC+VP, and the dependent-choice and ordinary-real Solovay consistency consequences. Theorems A and B and the DC consequence have standalone mathlib-only statements with proved correspondence to the original formalization.",
+    "description": "Symmetric preservation of arbitrary-language Vopěnka's principle, equiconsistency of ZF+VP and ZFC+VP, and the dependent-choice and ordinary-real Solovay consistency consequences. All four selected result families have standalone mathlib-only statements with proved correspondence to the original formalization.",
     "authors": [
       "Tom de Groot"
     ],
@@ -48,7 +48,7 @@
     }
   ],
   "status": {
-    "scope": "comparator.json selects four main results in the existing Foundation encoding. comparator-palomar-a.json selects symmetric preservation, including existence and universal preservation of the specified quotient. comparator-palomar-b.json selects Theorem B as model existence. comparator-palomar-dc.json selects the DC consistency consequence. These independent statement bridges are proved. V13 retains two unmatched auxiliary clauses, documented in repairs/formalization/README.md. Each configuration selects its own theorem; the Solovay consequence currently remains in the existing-encoding comparison. The full ambient-HOD clause and optional stronger research routes are not claimed.",
+    "scope": "comparator.json selects four main results in the existing Foundation encoding. comparator-palomar-a.json selects symmetric preservation, including existence and universal preservation of the specified quotient. comparator-palomar-b.json selects Theorem B as model existence. comparator-palomar-dc.json selects the DC consistency consequence. comparator-palomar-solovay.json selects the ordinary-real Solovay consequence including its ultrafilter clause. All four independent statement bridges are proved. V13 retains two unmatched auxiliary clauses, documented in repairs/formalization/README.md. Each standalone configuration selects its own theorem and requires a separate submission. The full ambient-HOD clause and optional stronger research routes are not claimed.",
     "sorry_count": 0,
     "sorry_in_definitions": 0,
     "axioms": [
@@ -83,7 +83,7 @@
   "review": {
     "status": "Self-assessed with AI-assisted statement inspection; no Palomar review completed",
     "reviewers": [],
-    "notes": "Existing exports and four compositions were checked by Lean. This is not a claim of independent human peer review. The independent A, B and DC bridges passed Lean checks using only the three listed axioms. Comparator/NanoDa and Palomar review are separate steps."
+    "notes": "Existing exports and four compositions were checked by Lean. This is not a claim of independent human peer review. The independent A, B, DC and Solovay bridges passed Lean checks using only the three listed axioms. Comparator/NanoDa and Palomar review are separate steps."
   },
   "alignment": {
     "namespace": "VopenkaWithoutChoice",
@@ -93,28 +93,28 @@
         "lean": "VopenkaWithoutChoice.symmetric_preservation",
         "module": "Solution",
         "status": "proved",
-        "note": "Existing Foundation encoding, selected by comparator.json; this is distinct from the independent Theorem B configuration."
+        "note": "Existing Foundation encoding, selected by comparator.json. The corresponding standalone configuration selects an independently defined statement with proved correspondence."
       },
       {
         "source": "Theorem B",
         "lean": "VopenkaWithoutChoice.equiconsistency",
         "module": "Solution",
         "status": "proved",
-        "note": "Existing Foundation encoding, selected by comparator.json; this is distinct from the independent Theorem B configuration."
+        "note": "Existing Foundation encoding, selected by comparator.json. The corresponding standalone configuration selects an independently defined statement with proved correspondence."
       },
       {
         "source": "DC and failure of AC consistency consequence",
         "lean": "VopenkaWithoutChoice.dependent_choice",
         "module": "Solution",
         "status": "proved",
-        "note": "Existing Foundation encoding, selected by comparator.json; this is distinct from the independent Theorem B configuration."
+        "note": "Existing Foundation encoding, selected by comparator.json. The corresponding standalone configuration selects an independently defined statement with proved correspondence."
       },
       {
         "source": "Solovay corollary, ordinary reals",
         "lean": "VopenkaWithoutChoice.solovay_reals",
         "module": "Solution",
         "status": "proved",
-        "note": "Existing Foundation encoding, selected by comparator.json; this is distinct from the independent Theorem B configuration."
+        "note": "Existing Foundation encoding, selected by comparator.json. The corresponding standalone configuration selects an independently defined statement with proved correspondence."
       },
       {
         "source": "Theorem B",
@@ -136,6 +136,13 @@
         "module": "PalomarDCSolution",
         "status": "proved",
         "note": "Explicit internal DC and failure of AC, with arbitrary-ground dictionary correspondence and equivalence to the original syntactic consistency claim."
+      },
+      {
+        "source": "Solovay corollary, ordinary reals",
+        "lean": "VopenkaWithoutChoice.palomar_solovay_reals",
+        "module": "PalomarSolovaySolution",
+        "status": "proved",
+        "note": "Explicit ordinary-real LM/BP/PSP, DC, failure of AC and the omega-one-complete nonprincipal ultrafilter clause. Full model statement proved equivalent to the existing realSolovayTheory consistency claim."
       }
     ]
   },

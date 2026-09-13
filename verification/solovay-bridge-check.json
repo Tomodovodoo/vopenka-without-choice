@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "leanToolchain": "leanprover/lean4:v4.34.0-rc2",
+  "theorem": "PalomarSolovayBridge.independent_solovay_reals",
+  "statement": "PalomarBridge.HasZFVPModel -> PalomarSolovayBridge.HasSolovayModel",
+  "exact_target_equivalence": "PalomarSolovayBridge.hasSolovayModel_iff_consistent",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Five bridge modules and the export checks compiled against installed pinned dependencies. Parent also compiled the generated standalone Challenge and Solution. Protected Comparator/NanoDa verification is separate.",
+  "files": [
+    {
+      "path": "PalomarSolovayBridge/Vocabulary.lean",
+      "sha256": "db96e0167887ecc2e6e51d4cfc63e4d1a2a999155da41d180da7e574695a83af"
+    },
+    {
+      "path": "PalomarSolovayBridge/ArithmeticDictionary.lean",
+      "sha256": "008478ea2c440a494ef74c663bbbce5dc770d9bc9298b8fea8ea34370d83ad16"
+    },
+    {
+      "path": "PalomarSolovayBridge/RegularityDictionary.lean",
+      "sha256": "7b56ab97cb1d669e77e5c65188978d22409beb35422841ae4cd332c6f10fd424"
+    },
+    {
+      "path": "PalomarSolovayBridge/TargetDictionary.lean",
+      "sha256": "6c5330b515fe19a67619b12a928afcb2cacece4dfdbf24d4fcd54a8f9c2670a7"
+    },
+    {
+      "path": "PalomarSolovayBridge/TheoremSolovay.lean",
+      "sha256": "9f56cd573a6a41da21bc8a9e5a370688931efcace7de88da03dd49ccb8357f85"
+    },
+    {
+      "path": "PalomarSolovayBridge/ExportChecks.lean",
+      "sha256": "de7629849cd543d56752a0ca05a97d428edf3d7a2f8b98504d4bbb043a1585b1"
+    },
+    {
+      "path": "PalomarSolovayChallenge.lean",
+      "sha256": "bfea832374883d559ff755c5d385986f49ec4a14b339476f2b174ac39cde48c9"
+    },
+    {
+      "path": "PalomarSolovaySolution.lean",
+      "sha256": "06680c29e2f78e707b12e0a553aa4ebdbb6bbe87dc09d293aa2e15663d3bca51"
+    }
+  ],
+  "verificationLog": "verification/solovay-bridge-check.txt",
+  "compiled_source_comparison": {
+    "ZFVP/ModelTheory/RealSolovayConsistency.lean": {
+      "published_sha256": "8c69c1973c08a317449eb5a5578fa7644995b7e86b014d7a92cdb8a58e1bc9fb",
+      "compiled_project_source_sha256": "8c69c1973c08a317449eb5a5578fa7644995b7e86b014d7a92cdb8a58e1bc9fb",
+      "equal": true
+    },
+    "ZFVP/ModelTheory/RealSolovayTheory.lean": {
+      "published_sha256": "6a232d4960d4dd87d19f2087e30bdbb2bea38838e8730e541b4cd81d68036017",
+      "compiled_project_source_sha256": "6a232d4960d4dd87d19f2087e30bdbb2bea38838e8730e541b4cd81d68036017",
+      "equal": true
+    },
+    "ZFVP/SetTheory/RealCaratheodory.lean": {
+      "published_sha256": "dbf1f0910eb1e9a3c329b72fd6f88160d6bb4c58e611f094a90d3e131ba98fdf",
+      "compiled_project_source_sha256": "dbf1f0910eb1e9a3c329b72fd6f88160d6bb4c58e611f094a90d3e131ba98fdf",
+      "equal": true
+    },
+    "ZFVP/SetTheory/RealRegularitySentences.lean": {
+      "published_sha256": "f13be095a9873ecc54eb44f164f1e60c6784ff49ccbf632de21164782a8eec79",
+      "compiled_project_source_sha256": "f13be095a9873ecc54eb44f164f1e60c6784ff49ccbf632de21164782a8eec79",
+      "equal": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+import PalomarSolovayBridge.TheoremSolovay
+#print axioms PalomarSolovayBridge.recValue_eq
+#print axioms PalomarSolovayBridge.natAdd_eq
+#print axioms PalomarSolovayBridge.natMul_eq
+#print axioms PalomarSolovayBridge.rationals_eq
+#print axioms PalomarSolovayBridge.reals_eq
+#print axioms PalomarSolovayBridge.outerMeasure_eq
+#print axioms PalomarSolovayBridge.lebesgueMeasurable_iff
+#print axioms PalomarSolovayBridge.baireProperty_iff
+#print axioms PalomarSolovayBridge.perfectSetProperty_iff
+#print axioms PalomarSolovayBridge.omegaOneMeasure_iff
+#print axioms PalomarSolovayBridge.model_iff_source
+#print axioms PalomarSolovayBridge.hasSolovayModel_iff_consistent
+#print axioms PalomarSolovayBridge.independent_solovay_reals

@@ -13,3 +13,11 @@ During repository preparation, both included verification files were run success
 The independent Theorem B bridge passed checks of all eight modules. Its [receipt and source hashes](../verification/bridge-check.json) and [check output](../verification/bridge-check.txt) record the result against the installed pinned dependencies. The standalone PalomarChallenge and PalomarSolution also compiled locally. Protected Comparator and NanoDa results are reported by GitHub Actions, separately from these Lean compilation checks.
 
 The independent Theorem A bridge passed checks of all four modules. Its [receipt and source hashes](../verification/preservation-bridge-check.json) record the same installed-dependency scope. PalomarPreservationChallenge and PalomarPreservationSolution compiled locally; the Solution's axiom report contains only the three axioms listed above.
+
+The DC bridge's three modules and the Solovay bridge's five modules also compiled
+against the installed dependencies. Their generated Challenge and Solution files
+compiled separately. The [DC receipt](../verification/dc-bridge-check.json) and
+[Solovay receipt](../verification/solovay-bridge-check.json) record source hashes;
+the [Solovay export output](../verification/solovay-bridge-check.txt) includes
+thirteen direct axiom checks. All final Solution reports contain only the three
+permitted axioms. These records do not claim a protected comparison verdict.

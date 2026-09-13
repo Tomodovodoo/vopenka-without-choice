@@ -1,0 +1,8 @@
+{
+  "challenge_module": "PalomarSolovayChallenge",
+  "solution_module": "PalomarSolovaySolution",
+  "theorem_names": ["VopenkaWithoutChoice.palomar_solovay_reals"],
+  "definition_names": [],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"],
+  "enable_nanoda": true
+}
