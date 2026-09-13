@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Cite the paper for the mathematical results and this repository's exact commit for the formalization."
+title: "Lean formalization of Vopěnka's principle without choice"
+type: software
+authors:
+  - family-names: "de Groot"
+    given-names: "Tom"
+repository-code: "https://github.com/Tomodovodoo/vopenka-without-choice"
+preferred-citation:
+  type: article
+  title: "Vopěnka's Principle without Choice: Preservation under Symmetric Extensions"
+  authors:
+    - family-names: "de Groot"
+      given-names: "Tom"
+    - family-names: "Wołoszyn"
+      given-names: "Wojciech Aleksander"
+  year: 2026
+  url: "https://arxiv.org/abs/2609.06856v1"

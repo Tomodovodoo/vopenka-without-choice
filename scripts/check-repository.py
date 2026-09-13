@@ -82,11 +82,11 @@ files = subprocess.check_output(['git', 'ls-files'], cwd=ROOT, text=True).splitl
 proof_holes = []
 for name in files:
     path = ROOT / name
-    if path.suffix == '.lean' and path != challenge and not name.startswith('PalomarBridge/'):
+    if path.suffix == '.lean' and path != challenge:
         if re.search(r'\b(sorry|admit|sorryAx)\b', strip_comments(path.read_text(encoding='utf-8'))):
             proof_holes.append(name)
 if proof_holes: errors.append(f'Proof holes outside Challenge: {proof_holes}')
-for directory in ['docs', 'repairs']:
+for directory in ['docs', 'repairs', 'paper']:
     for path in (ROOT / directory).rglob('*.md'):
         for target in re.findall(r'\]\(([^)]+)\)', path.read_text(encoding='utf-8')):
             target = target.split('#')[0]
@@ -95,6 +95,22 @@ for directory in ['docs', 'repairs']:
 if not (ROOT / 'LICENSE').is_file(): blockers.append('Root LICENSE is not yet selected.')
 metadata = ROOT / 'formalization.yaml'
 if not metadata.is_file(): errors.append('formalization.yaml is missing.')
+else:
+    # This repository writes JSON syntax, which is also valid YAML. Keep the
+    # preflight dependency-free; CI separately checks the upstream YAML schema.
+    data = json.loads(metadata.read_text(encoding='utf-8'))
+    if data.get('status', {}).get('sorry_count') != len(proof_holes):
+        errors.append('Metadata proof-hole count differs from the source scan.')
+    if data.get('project', {}).get('license', '').startswith('LicenseRef-'):
+        blockers.append('Metadata does not yet name a Palomar-accepted standard license.')
+if args.submission:
+    try:
+        visibility = subprocess.check_output(
+            ['gh', 'repo', 'view', '--json', 'visibility', '--jq', '.visibility'],
+            cwd=ROOT, text=True).strip()
+        if visibility != 'PUBLIC': blockers.append('The GitHub repository is not public.')
+    except (OSError, subprocess.CalledProcessError):
+        blockers.append('Could not verify public GitHub visibility.')
 report = {'repository_errors': errors, 'submission_blockers': blockers,
           'challenge_project_imports': disallowed, 'proof_holes': proof_holes,
           'comparator_config_sha256': hashlib.sha256((ROOT / 'comparator.json').read_bytes()).hexdigest()}

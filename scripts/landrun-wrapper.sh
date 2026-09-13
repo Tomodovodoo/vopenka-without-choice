@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
+# Source: PalomarRegistry/PalomarTemplate at
+# 128a6c5ce5f48622e69927ccd639cbff401022e8, Apache-2.0.
 set -euo pipefail
 
-# Landrun's current CLI needs an explicit outer `--` before the sandboxed
-# command. Comparator constructs Landrun's options itself but does not add that
-# delimiter. Without it, Landrun consumes lean4export's own `--` separator.
+# Accept the explicit delimiter emitted by the pinned Comparator, and older
+# invocations without it. Forward exactly one delimiter to Landrun.
 landrun_binary=${PALOMAR_LANDRUN_BIN:?PALOMAR_LANDRUN_BIN must name the pinned Landrun binary}
 landrun_options=()
 
@@ -15,6 +16,10 @@ landrun_options=()
 # Landrun accepts one or two leading dashes for every flag, so reject both.
 while [ "$#" -gt 0 ]; do
   case "$1" in
+    --)
+      shift
+      break
+      ;;
     -unrestricted-*|--unrestricted-*)
       echo "error: Landrun option $1 switches off part of the sandbox" >&2
       echo "Comparator must not request it; refusing to run $landrun_binary" >&2
