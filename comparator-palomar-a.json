@@ -1,0 +1,8 @@
+{
+  "challenge_module": "PalomarPreservationChallenge",
+  "solution_module": "PalomarPreservationSolution",
+  "theorem_names": ["VopenkaWithoutChoice.palomar_preservation"],
+  "definition_names": [],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"],
+  "enable_nanoda": true
+}

@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "leanToolchain": "leanprover/lean4:v4.34.0-rc2",
+  "theorem": "PalomarPreservationBridge.independent_theoremA",
+  "result": "Existence of the explicitly specified symmetric quotient and ZF plus the full VP scheme for every presentation of that quotient.",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "modulesChecked": [
+    "Vocabulary",
+    "Dictionary",
+    "Presentation",
+    "TheoremA"
+  ],
+  "combinedVocabularyLines": 463,
+  "combinedVocabularyBytes": 26342,
+  "scope": "All four new modules compiled against the existing pinned dependencies and completed PalomarBridge modules. Publication clean build and Comparator verification remain repository integration checks.",
+  "files": [
+    {
+      "path": "PalomarPreservationBridge/Dictionary.lean",
+      "sha256": "c0848a4936f4cc5fb9b1afc35e6883f0058f85c04ac77da86aa7b72f2b0cf43c",
+      "bytes": 6844
+    },
+    {
+      "path": "PalomarPreservationBridge/Presentation.lean",
+      "sha256": "b0f1243fa6f788dc1adf11e3dfa7f8e82ddd7708a7312be83629d6eb0d08951e",
+      "bytes": 3592
+    },
+    {
+      "path": "PalomarPreservationBridge/TheoremA.lean",
+      "sha256": "8c62c702ae70a9cc53cf9addc21b56479f02b47651d0a7c2ca6282b50f5d0071",
+      "bytes": 2090
+    },
+    {
+      "path": "PalomarPreservationBridge/Vocabulary.lean",
+      "sha256": "8931b867e3f62f62af7cf8e6e2ff935b8e261a287e3559b718d0cac5fd768965",
+      "bytes": 7395
+    }
+  ]
+}
