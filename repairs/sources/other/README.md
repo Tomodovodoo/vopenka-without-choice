@@ -7,7 +7,7 @@ Mohammd, [*Berkeley Cardinals and Vopěnka's Principle*](https://arxiv.org/abs/2
 
 At δ=0 the literal quantified clause is vacuous. Its unrestricted existence assertion is then automatic, defeating the intended no-rank-Berkeley pruning case.
 
-Placement: require δ≠0 in our definition. A source clarification should state the same boundary convention. This does not refute the intended positive-cardinal theorem.
+Placement: make the boundary convention explicit in Mohammd's definition and in our repeated definition, which is negated in pruning. This shared definition requires the change in both places. It does not refute the intended positive-cardinal theorem. [Placement argument](../../placement.md#m1-the-zero-rank-berkeley-case).
 
 Lean: [RankBerkeley](../../../ZFVP/SetTheory/RankBerkeley.lean), [PrunedUnboundedExtendibility](../../../ZFVP/ModelTheory/PrunedUnboundedExtendibility.lean).
 
@@ -19,7 +19,7 @@ Karagila and Schilhan, [*Towards a theory of symmetric extensions*, v1](https://
 
 A comparison generic H lying in V[G] need not satisfy V[H]=V[G]. Lemma 9.3 requires that equality.
 
-Placement: amend our proof and propose a source clarification. Restrict comparison generics definably using a ground set of canonical names for all subsets of the Boolean algebra. This ensures recovery of G without using G as a defining parameter.
+Placement: repair the reverse-inclusion proof of Proposition 9.4 in the source paper, then cite that repaired input in our Solovay application. Restrict comparison generics definably using a ground set of canonical names for all subsets of the Boolean algebra. This ensures recovery of G without using G as a defining parameter. The linked Lean route covers our application; it does not certify every class-name case of the source proposition. [Placement argument](../../placement.md#k1-comparison-generics-must-generate-the-same-extension).
 
 Lean: [SolovayOrbitDefinable](../../../ZFVP/ModelTheory/SolovayOrbitDefinable.lean), [SolovayCorollaryUnconditional](../../../ZFVP/ModelTheory/SolovayCorollaryUnconditional.lean), [LevyHighConeTransfer](../../../ZFVP/ModelTheory/LevyHighConeTransfer.lean).
 

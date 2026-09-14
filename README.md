@@ -13,7 +13,8 @@ V13 still states two auxiliary clauses broader than the matching Lean exports: a
 ## Where to find the repairs
 
 * [Repair index](repairs/README.md): source-paper issues, their consequences, and proposed placement.
-* [Changes to our paper](repairs/our-paper/README.md): what changed from the original proof plan and what V13 still needs.
+* [Where each repair belongs](repairs/placement.md): individual arguments for source corrections, downstream citation changes, and formalization-only work.
+* [Consequences for our manuscript](repairs/our-paper/README.md): which source repairs need a citation or changed input, and which additions are proof details.
 * [Woodin and Spoerl](repairs/sources/woodin-spoerl/README.md): iteration conventions, restricted lifting, and the separate unresolved ambient-HOD clause.
 * [Enayat](repairs/sources/enayat/README.md): Rubin definitions, block quantifiers, branch preservation, and finite-domain coverage.
 * [Other cited results](repairs/sources/other/README.md): rank-Berkeley's zero case, same-extension generics, and clarification of imported results.

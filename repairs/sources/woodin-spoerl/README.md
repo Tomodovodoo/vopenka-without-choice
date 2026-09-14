@@ -1,6 +1,6 @@
 # Woodin and Spoerl
 
-Sources: Woodin, *Suitable extender models I*, Theorem 226, printed pages 322–326; Spoerl, [*Cardinals Beyond Choice and the HOD-Dichotomy*](https://diposit.ub.edu/bitstreams/7cf6497e-0aef-4e41-bc1c-a84ef0aa63f0/download), Definition 43, Theorem 44 and Lemma 45. The source references and bibliography also appear in the [original manuscript](../../../paper/Vopenkas_Principle_Without_Choice_final.tex).
+Sources: Woodin, [*Suitable extender models I*](https://doi.org/10.1142/S021906131000095X), Theorem 226, printed pages 322–326; Spoerl, [*Cardinals Beyond Choice and the HOD-Dichotomy*](https://diposit.ub.edu/bitstreams/7cf6497e-0aef-4e41-bc1c-a84ef0aa63f0/download), Definition 43, Theorem 44 and Lemma 45. The source references and bibliography also appear in the [original manuscript](../../../paper/Vopenkas_Principle_Without_Choice_final.tex).
 
 
 ## Iteration seed
@@ -9,7 +9,7 @@ Woodin, proof of Theorem 226, p. 323.
 
 The chosen initial cutoff and the lower parameter of the first collapse need not agree. The inductive invariant cannot be assumed at the initial stage.
 
-Placement: state the consistent seed in our Theorem 5.5 construction. A source clarification can give the same corrected convention. V13 starts with the trivial stage and the least DC-failure cutoff, then collapses at the first successor.
+Placement: correct or justify the seed in Woodin's construction first. Our Theorem 5.5 should identify the convention it uses and cite the source supplement. V13 starts with the trivial stage and the least DC-failure cutoff, then collapses at the first successor. [Why this placement](../../placement.md#w1-initial-collapse).
 
 Lean: [WoodinConstruction](../../../ZFVP/ModelTheory/WoodinConstruction.lean).
 
@@ -21,7 +21,7 @@ Woodin, Theorem 226, pp. 323–324; Spoerl, Definition 43 and Theorem 44.
 
 The raw inverse limit and the stage obtained after its appended collapse have different cutoffs. Mixing these conventions loses the premises needed for DC and regularity.
 
-Placement: define both objects in our construction and prove DC below the extension-computed successor cutoff before the collapse. This is a convention and proof-expansion issue, not a counterexample to both constructions.
+Placement: put the comparison and the DC argument in a source-construction supplement, then identify the adopted convention in our paper. Different conventions alone do not refute either construction. [Why this placement](../../placement.md#w2-raw-inverse-stage-completed-stage-and-dc-bound).
 
 Lean: [WoodinRawInverseDC](../../../ZFVP/ModelTheory/WoodinRawInverseDC.lean).
 
@@ -33,7 +33,7 @@ Spoerl, Lemma 45, pp. 26–27; original paper, Theorem 5.5, clause 3.
 
 Agreement at Vγ does not imply agreement at Vγ+1. A later collapse can add subsets of Vγ. The asserted successor-rank inference for that same embedding therefore needs an additional argument.
 
-Placement: repair our theorem by using the marked final ranks and the whole captured forcing code needed downstream. Present the stronger source lifting claim separately for author review. Choosing a taller embedding can provide a different route; it does not validate the original same-embedding inference.
+Placement: the missing justification belongs in Spoerl's lifting proof. Our theorem can cite the restricted replacement on marked final ranks with the whole captured forcing code. This supplies the downstream input but does not repair the full source assertion. Choosing a taller embedding can provide a different route; it does not validate the original same-embedding inference. [Why this placement](../../placement.md#w3-lifting-to-the-final-successor-ranks).
 
 Lean: [WoodinSparseActualCriticalLift](../../../ZFVP/ModelTheory/WoodinSparseActualCriticalLift.lean), [WoodinSparseSourceRelativeHomogeneity](../../../ZFVP/ModelTheory/WoodinSparseSourceRelativeHomogeneity.lean).
 

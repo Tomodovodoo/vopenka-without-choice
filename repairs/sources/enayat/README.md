@@ -4,6 +4,8 @@ Source: Ali Enayat, [*Models of Set Theory: Extensions and Dead-ends*, v7](https
 
 Recommended placement: keep a short statement of the corrected input beside Proposition 9.7, with the detailed repair in a separate source-paper note. These are proposed repairs, not an approved erratum. The existence theorem now used is linked at the end.
 
+The repair belongs primarily to Enayat's definitions and Appendix. Our citation of Theorem 5.18 is a downstream dependency, not the origin of these defects. [Arguments E1–E7](../../placement.md#enayat) explain the placement separately for every item and distinguish the checked ZF-model application from the source's broader arbitrary-language formulations.
+
 
 ## Coded classes versus definable classes
 

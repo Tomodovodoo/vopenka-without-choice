@@ -6,6 +6,7 @@
 * [Verification](verification.md): checks performed and their limits.
 * [Provenance](provenance.md): source snapshot, dependencies and licensing.
 * [Repair index](../repairs/README.md): source issues and proposed placement.
+* [Arguments for repair placement](../repairs/placement.md): each source correction and its distinct consequence for our manuscript.
 
 Lean source stays in its existing module hierarchy to preserve imports. The
 root Challenge and Solution are the small comparison entry points. Manuscripts
