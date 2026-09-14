@@ -32,7 +32,9 @@ GOBIN="$cache/bin" go install github.com/zouuup/landrun/cmd/landrun@811cfff51cea
 (cd "$cache/lean4export" && lake build lean4export)
 (cd "$cache/nanoda" && cargo build --release --locked)
 cd "$root"
-lake exe cache get
+mapfile -t mathlib_modules < <(python3 scripts/mathlib-cache-roots.py)
+test "${#mathlib_modules[@]}" -gt 0
+lake exe cache get "${mathlib_modules[@]}"
 export PALOMAR_LANDRUN_BIN="$cache/bin/landrun"
 export COMPARATOR_LANDRUN="$root/scripts/landrun-wrapper.sh"
 export COMPARATOR_LEAN4EXPORT="$cache/lean4export/.lake/build/bin/lean4export"

@@ -75,6 +75,8 @@ lake env lean verification/AdditionalChecks.lean
 
 The [CI workflow](../.github/workflows/verify.yml) runs the pinned Comparator and NanoDa on all configurations, then the full root build and coverage compositions. It uses an unprivileged Linux service with the AF_UNIX restriction required by Comparator. Each configuration has its own CI step and log. On a Linux host with systemd and sudo, run `bash scripts/verify-protected.sh comparator-palomar-b.json`. The lower-level `verify-comparator.sh` expects the caller to enforce the same outer restriction. A fake Landrun wrapper does not reproduce that protected check.
 
+CI downloads the cache closure of the 30 mathlib modules directly imported by this project, rather than all mathlib. It also removes unused SDKs from the disposable hosted runner before compilation and records disk usage. An earlier run exhausted its disk during compilation, before comparison; that run was not a mathematical rejection.
+
 The initial full source build may take time. Later CI runs can reuse source builds at matching dependency revisions; Lake rebuilds changed modules. Palomar performs its own clean verification of the submitted commit.
 
 ## Submit and register
