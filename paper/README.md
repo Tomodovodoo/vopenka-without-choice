@@ -13,7 +13,9 @@ V14 starts from the original `final` source. It keeps the abstract, Theorems A
 and B, all theorem labels and numbering, and 29 of the 40 proof environments
 verbatim. Eleven proofs receive targeted edits. It is 20 pages, like final;
 V13 is 25 pages. Its TeX source is 2.2% longer than final, compared with V13's
-27.2% increase.
+27.2% increase. These source-size figures exclude the green markup. Added and
+replacement passages are green relative to final, using the same dark green
+as V13. Removed text remains visible in the diff.
 
 V13 places substantial construction and repair arguments in the manuscript.
 V14 cites the [source supplements](../repairs/placement.md) at the affected

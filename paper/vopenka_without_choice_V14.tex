@@ -5,6 +5,8 @@
 \usepackage{lmodern}
 \usepackage{amsmath,amssymb,mathtools,mathrsfs}
 \usepackage{microtype}
+\usepackage{xcolor}
+\definecolor{auditgreen}{RGB}{0,110,45}
 \usepackage[hidelinks]{hyperref}
 \urlstyle{same}
 \hypersetup{
@@ -114,7 +116,7 @@ Let $j:M\to N$ be elementary between transitive sets, and let $a\in M$ be transi
 \end{lemma}
 
 \begin{proof}
-Relativizing each quantifier of $\varphi$ to $a$, transitivity and elementarity of $j$ give, for every formula $\varphi$ and every finite tuple $\bar x$ from $a$,
+{\color{auditgreen}Relativizing each quantifier of $\varphi$ to $a$, transitivity and elementarity of $j$ give, for every formula $\varphi$ and every finite tuple $\bar x$ from $a$,}
 \[
 (a,\in)\models\varphi(\bar x)
 \quad\text{if and only if}\quad
@@ -243,7 +245,7 @@ The same rank argument proves Collection.  Suppose $V_\theta\models\forall x\in 
 
 \begin{lemma}\label{lem:ZF-ranks}
 
-Assume $\ZF+\VP(\Pi_1)$.  Above every ordinal $\gamma$ there is a limit ordinal $\kappa$ such that no map from any $a\in V_\kappa$ is cofinal in $\kappa$.  Consequently $V_\kappa\models\ZF$.  Under $\AC$, such a $\kappa$ may be chosen measurable.
+{\color{auditgreen}Assume $\ZF+\VP(\Pi_1)$.  Above every ordinal} $\gamma$ there is a limit ordinal $\kappa$ such that no map from any $a\in V_\kappa$ is cofinal in $\kappa$.  Consequently $V_\kappa\models\ZF$.  Under $\AC$, such a $\kappa$ may be chosen measurable.
 \end{lemma}
 
 \begin{proof}
@@ -253,7 +255,7 @@ Fix $\gamma$ and put $\bar\gamma=\max\{\gamma,\omega\}$.  For $\lambda>\bar\gamm
 \mathcal B_\lambda=\bigl\langle V_{\lambda+\omega},\in,\lambda,
 (z)_{z\in V_{\bar\gamma+1}}\bigr\rangle
 \]
- in the set-sized language with membership, one distinguished constant, and constants for $V_{\bar\gamma+1}$.  The structures $\mathcal B_\lambda$ form a $\Pi_1$-definable proper class: the hierarchy equation is $\Pi_1$, ordinal addition is $\Delta_1$, and the interpretation tables are bounded in the code.  Applying $\VP(\Pi_1)$ to this class gives distinct ordinals $\lambda,\mu$ and an elementary embedding $j:\mathcal B_\lambda\longrightarrow\mathcal B_\mu$.
+ in the set-sized language with membership, one distinguished constant, and constants for $V_{\bar\gamma+1}$.  {\color{auditgreen}The structures $\mathcal B_\lambda$ form a $\Pi_1$-definable proper class: the hierarchy equation is $\Pi_1$, ordinal addition is $\Delta_1$, and the interpretation tables are bounded in the code.  Applying $\VP(\Pi_1)$ to this class} gives distinct ordinals $\lambda,\mu$ and an elementary embedding $j:\mathcal B_\lambda\longrightarrow\mathcal B_\mu$.
 By elementarity and the choice of constants, $j(\lambda)=\mu$, while $j(z)=z$ for every $z\in V_{\bar\gamma+1}$.  Since $\lambda\ne\mu$, the embedding moves an ordinal.  Let $\kappa$ be the least ordinal moved by $j$.  Then $\bar\gamma<\kappa\leq\lambda$, $j(\kappa)>\kappa$, and a rank induction shows that $j(x)=x$ for every $x\in V_\kappa$.
 
  Suppose that $f:a\to\kappa$ is cofinal for some $a\in V_\kappa$.  The embedding fixes $a$ and each of its elements, so $j(f):a\to j(\kappa)$ is cofinal and $j(f)(x)=f(x)<\kappa$ for every $x\in a$.  This is impossible because $j(\kappa)>\kappa$.  Thus no map from a member of $V_\kappa$ is cofinal in $\kappa$.  The ordinal $\kappa$ cannot be a successor, since $j$ fixes every smaller ordinal.  As $\kappa>\bar\gamma\geq\omega$, Lemma~\ref{lem:ZF-rank-criterion} applies, so $V_\kappa\models\ZF$.
@@ -347,7 +349,7 @@ W\models\ZF+\VP(\Pi_n).
 \end{corollary}
 
 \begin{proof}
-{For each fixed standard formula of positive L\'evy level $k\geq1$, symmetric forcing has a definition of the same polarity and level.  The bounded base is $\Delta_1$: existence and uniqueness of the name and forcing recursion tables give its two presentations.  At an existential step, the density clause quantifies over an HS name; condition quantifiers are bounded by $\mathbb P$.  Collection supplies the recursion certificates without selecting one name per condition, and negation gives the dual presentation.}
+{\color{auditgreen}{For each fixed standard formula of positive L\'evy level $k\geq1$, symmetric forcing has a definition of the same polarity and level.  The bounded base is $\Delta_1$: existence and uniqueness of the name and forcing recursion tables give its two presentations.  At an existential step, the density clause quantifies over an HS name; condition quantifiers are bounded by $\mathbb P$.  Collection supplies the recursion certificates without selecting one name per condition, and negation gives the dual presentation.}}
 
 We use the following elementary coding observation.  If $S(z)$ is $\Sigma_k$, $k\geq1$, write it as $\exists u\,\psi(z,u)$ with $\psi$ in $\Pi_{k-1}$.  When $S(z)$ holds, let $\xi$ be the least rank of such a $u$ and let $C$ be the set of all such $u$ of rank $\xi$.  There is a uniform $\Pi_k$ formula $\chi_S(z,c)$ saying that
 \[
@@ -357,7 +359,7 @@ has these properties.  Indeed, once the two rank segments are included in $c$, a
 
 The $\Pi_n$ argument uses this observation twice: to record the least name rank together with all witnesses at that rank, and to record the least rank satisfying Lemma~\ref{lem:ZF-rank-criterion}.
 
-{Lemma~\ref{lem:ZF-ranks} applies since $\VP(\Pi_n)$ includes $\VP(\Pi_1)$, and gives unboundedly many ordinals satisfying the $\Pi_1$ condition of Lemma~\ref{lem:ZF-rank-criterion}.  For $b<\theta$, the statement that no ordinal $\eta$ with $b<\eta<\theta$ satisfies this condition is $\Sigma_1$.  By the preceding observation, this statement can be expressed by a $\Pi_1$ formula involving an additional set $d$, uniquely determined by $b$ and $\theta$.  Thus the pair $(\theta,d)$, where $\theta$ is the least such ordinal above $b$, is $\Pi_1$-definable from $b$.}  For the $\Sigma_1$ witness use a set containing cofinal maps and rank-table certificates for the earlier candidates.  At the least such $\theta$, $V_\theta$ is an available witness, so its least possible rank is at most $\theta$.  Thus $d$ and the satisfaction relation of $V_\theta$ lie in $V_{\theta+\omega}$.
+{{\color{auditgreen}Lemma~\ref{lem:ZF-ranks} applies since $\VP(\Pi_n)$ includes $\VP(\Pi_1)$, and gives unboundedly many ordinals satisfying the $\Pi_1$ condition} of Lemma~\ref{lem:ZF-rank-criterion}.  For $b<\theta$, the statement that no ordinal $\eta$ with $b<\eta<\theta$ satisfies this condition is $\Sigma_1$.  By the preceding observation, this statement can be expressed by a $\Pi_1$ formula involving an additional set $d$, uniquely determined by $b$ and $\theta$.  Thus the pair $(\theta,d)$, where $\theta$ is the least such ordinal above $b$, is $\Pi_1$-definable from $b$.}  {\color{auditgreen}For the $\Sigma_1$ witness use a set containing cofinal maps and rank-table certificates for the earlier candidates.  At the least such $\theta$, $V_\theta$ is an available witness, so its least possible rank is at most $\theta$.  Thus $d$ and the satisfaction relation of $V_\theta$ lie in $V_{\theta+\omega}$.}
 
 Now let a $\Pi_n$ formula $\varphi(x,a)$ define a proper class $\mathcal A$ of structures in a set-sized language $L$ in $W$.  Choose names $\dot a,\dot L\in\HS$.  Define $R_p$ as in the proof of Theorem~\ref{thm:preservation}.  The same boundedness argument gives $q\in G$ for which $R_q$ is unbounded.  Let $\Psi(\alpha,\tau)$ say that $\tau\in\HS$ and that $q$ forces $\tau$ to be an $\dot L$-structure of rank $\alpha$ satisfying $\varphi(\tau,\dot a)$.  By the first paragraph, $\Psi$ is $\Pi_n$.
 
@@ -477,7 +479,7 @@ Over $\ZF$, $\UE$ implies $\VP$.
 so the two structures are distinct.
 \end{proof}
 
-We recall that a nonzero cardinal $\delta$ is rank-Berkeley if, for every $\zeta<\delta$ and every $\Theta>\delta$, there is a nontrivial elementary self-embedding $j:V_\Theta\to V_\Theta$ with $\zeta<\crit(j)<\delta$ and $j(\delta)=\delta$ \cite[Definition~4.4]{Mohammd}.
+{\color{auditgreen}We recall that a nonzero cardinal $\delta$ is rank-Berkeley} if, for every $\zeta<\delta$ and every $\Theta>\delta$, there is a nontrivial elementary self-embedding $j:V_\Theta\to V_\Theta$ with $\zeta<\crit(j)<\delta$ and $j(\delta)=\delta$ \cite[Definition~4.4]{Mohammd}.
 
 \begin{lemma}\label{lem:rank-Berkeley-descent}
 $\ZF$ proves that the existence of a rank-Berkeley cardinal implies the existence of a set model of
@@ -487,7 +489,7 @@ $\ZF$ proves that the existence of a rank-Berkeley cardinal implies the existenc
 \end{lemma}
 
 \begin{proof}
- Let $\delta$ be rank-Berkeley.  Taking $\zeta=0<\delta$, choose $\Theta>\delta+\omega$ and a nontrivial elementary embedding $j:V_\Theta\longrightarrow V_\Theta$ with critical point $\kappa_0<\delta$ and $j(\delta)=\delta$.  Put $\kappa_{m+1}=j(\kappa_m)$ and $\lambda=\sup_{m<\omega}\kappa_m$.  Inductively, $\kappa_m<\delta$ for all $m$, so $\lambda\leq\delta<\Theta$.  The sequence $s=\langle\kappa_m:m<\omega\rangle$ belongs to $V_\Theta$, and $j(s)$ is its tail.  Since $\lambda=\sup\operatorname{ran}(s)$ is a first-order relation between objects in the domain,
+ Let $\delta$ be rank-Berkeley.  {\color{auditgreen}Taking $\zeta=0<\delta$,} choose $\Theta>\delta+\omega$ and a nontrivial elementary embedding $j:V_\Theta\longrightarrow V_\Theta$ with critical point $\kappa_0<\delta$ and $j(\delta)=\delta$.  Put $\kappa_{m+1}=j(\kappa_m)$ and $\lambda=\sup_{m<\omega}\kappa_m$.  Inductively, $\kappa_m<\delta$ for all $m$, so $\lambda\leq\delta<\Theta$.  The sequence $s=\langle\kappa_m:m<\omega\rangle$ belongs to $V_\Theta$, and $j(s)$ is its tail.  Since $\lambda=\sup\operatorname{ran}(s)$ is a first-order relation between objects in the domain,
 \[
 j(\lambda)=\sup\operatorname{ran}(j(s))=\sup_{m<\omega}\kappa_{m+1}=\lambda.
 \]
@@ -590,13 +592,13 @@ s_{\mathcal D}(\Sigma)=2+\max\bigl\{c_{\mathcal D}(\Sigma),
 
 We write $V_\gamma\prec_{\Sigma_1^*}V$ for Spoerl's strengthened form of $\Sigma_1$-elementarity \cite[Definition~20]{Spoerl}.  We use Woodin's choiceless definition of supercompactness: a cardinal $\delta$ is supercompact if, whenever $\gamma>\delta$, $V_\gamma\prec_{\Sigma_1^*}V$, and $a\in V_\gamma$, there are $\bar\gamma<\delta$, $\bar\delta$, $\bar a\in V_{\bar\gamma}$, and an elementary embedding $j:V_{\bar\gamma+1}\to V_{\gamma+1}$ such that $\crit(j)=\bar\delta$, $j(\bar\delta)=\delta$, $j(\bar a)=a$, and $V_{\bar\gamma}\prec_{\Sigma_1^*}V$ \cite[Definition~21]{Spoerl}.
 
-We use Woodin's local forcing for restoring Choice, with the completed-prefix convention and restricted lifting formulation recorded in \cite[Woodin supplement]{RepairNotes}.  Spoerl gives a detailed exposition {\cite[Definition~43, Theorem~44(v), and Lemma~45]{Spoerl}}, and Woodin's original construction appears in \cite[pp.~323--324]{Woodin}.  In Spoerl's presentation, the construction assigns a cardinal $\kappa_\beta$ to each stage $\beta$.  We call the cardinal through which the iteration has been defined its \emph{endpoint}.  A stage $\gamma$ is \emph{marked} if $\kappa_\gamma=\gamma$.
+{\color{auditgreen}We use Woodin's local forcing for restoring Choice, with the completed-prefix convention and restricted lifting formulation recorded in \cite[Woodin supplement]{RepairNotes}.}  Spoerl gives a detailed exposition {\cite[Definition~43, Theorem~44(v), and Lemma~45]{Spoerl}}, and Woodin's original construction appears in \cite[pp.~323--324]{Woodin}.  In Spoerl's presentation, the construction assigns a cardinal $\kappa_\beta$ to each stage $\beta$.  We call the cardinal through which the iteration has been defined its \emph{endpoint}.  A stage $\gamma$ is \emph{marked} if $\kappa_\gamma=\gamma$.
 
-For an ordinal $\xi$, let $\DC_\xi$ denote dependent choice for histories of length $\xi$.  Fix the presentation from \cite[Woodin supplement]{RepairNotes}, and let $a_\eta$ code its completed prefix through $\eta$: the carriers, orders, tops, projections, inclusions, prefix-replacement maps and cutoff table, including the seed.  At a marked $\eta$, $a_\eta\in V_{\eta+\omega}$.
+{\color{auditgreen}For an ordinal $\xi$, let $\DC_\xi$ denote dependent choice for histories of length $\xi$.  Fix the presentation from \cite[Woodin supplement]{RepairNotes}, and let $a_\eta$ code its completed prefix through $\eta$: the carriers, orders, tops, projections, inclusions, prefix-replacement maps and cutoff table, including the seed.  At a marked $\eta$, $a_\eta\in V_{\eta+\omega}$.}
 
-\begin{theorem}[Woodin, restricted formulation]\label{thm:Woodin-forcing}
+\begin{theorem}[{\color{auditgreen}Woodin, restricted formulation}]\label{thm:Woodin-forcing}
 
-Assume that $\AC$ fails, let $\mu$ be least such that $\DC_\mu$ fails, and let $\Lambda>\mu$ be supercompact in Woodin's choiceless sense.  There is a weakly homogeneous forcing $\mathbb Q_\Lambda$, uniformly first-order definable over $V_\Lambda$, such that whenever $G\subseteq\mathbb Q_\Lambda$ is generic:
+Assume that $\AC$ fails, let $\mu$ be least such that $\DC_\mu$ fails, and let $\Lambda>\mu$ be supercompact in Woodin's choiceless sense.  {\color{auditgreen}There is a weakly homogeneous forcing $\mathbb Q_\Lambda$, uniformly first-order definable over $V_\Lambda$}, such that whenever $G\subseteq\mathbb Q_\Lambda$ is generic:
 
 \begin{enumerate}
 \item $(V[G])_\Lambda\models\ZFC$;
@@ -605,11 +607,11 @@ Assume that $\AC$ fails, let $\mu$ be least such that $\DC_\mu$ fails, and let $
 V_\gamma[G\cap\mathbb Q_\gamma]=(V[G])_\gamma;
 \]
 $\mathbb Q_\Lambda$ factors over $\mathbb Q_\gamma$ with the canonical projection, and every supercompact $\gamma\leq\Lambda$ is marked;}
-\item suppose $J:V_{\bar\gamma+\omega}\to V_{\gamma+\omega}$ is elementary, $J(\bar\gamma)=\gamma<\Lambda$, $\crit(J)=\bar\delta<\bar\gamma<J(\bar\delta)=\delta$, $\gamma$ is marked, and $J(a_{\bar\gamma})=a_\gamma$.  Then $\bar\gamma$ is marked and there is an elementary $e:(V[G])_{\bar\gamma}\longrightarrow(V[G])_\gamma$ agreeing with $J$ on ground elements of $V_{\bar\gamma}$.  Its graph has rank below $\gamma+\omega<\Lambda$.
+\item {\color{auditgreen}suppose $J:V_{\bar\gamma+\omega}\to V_{\gamma+\omega}$ is elementary, $J(\bar\gamma)=\gamma<\Lambda$, $\crit(J)=\bar\delta<\bar\gamma<J(\bar\delta)=\delta$, $\gamma$ is marked, and $J(a_{\bar\gamma})=a_\gamma$.  Then $\bar\gamma$ is marked and there is an elementary $e:(V[G])_{\bar\gamma}\longrightarrow(V[G])_\gamma$ agreeing with $J$ on ground elements of $V_{\bar\gamma}$.  Its graph has rank below $\gamma+\omega<\Lambda$.}
 \end{enumerate}
 \end{theorem}
 
-Let $\mathcal D_{\mathrm W}$ be a fixed finite list of formulas defining this presentation, its complete codes $a_\eta$, and marked stages.
+{\color{auditgreen}Let $\mathcal D_{\mathrm W}$ be a fixed finite list of formulas defining this presentation, its complete codes $a_\eta$, and marked stages.}
 
 For each $\gamma$, let $\Def(V_\gamma)$ be the collection of subsets of $V_\gamma$ definable over $(V_\gamma,\in)$ with parameters from $V_\gamma$.
 
@@ -623,22 +625,22 @@ By \cite[Definition~19 and the proof of Theorem~44]{Spoerl}, no map $V_\beta\to\
 \end{proof}
 
 \begin{lemma}\label{lem:Woodin-endpoint-forcing}
-{For every $k\geq1$ there is an effectively obtained first-order formula $\vartheta_k(p,e,\vec\tau)$, independent of the endpoint, with the following property.  If Woodin's iteration is defined through a supercompact cardinal $\gamma$, then $\vartheta_k$ defines over $V_\gamma$ the forcing relation for $\mathbb Q_\gamma$ for formulas of L\'evy complexity at most $k$, and the truth lemma holds for prefix generics induced by an ambient generic for a later stage, including the endpoint itself.}
+{For every $k\geq1$ there is an effectively obtained first-order formula $\vartheta_k(p,e,\vec\tau)$, independent of the endpoint, with the following property.  If Woodin's iteration is defined through a supercompact cardinal $\gamma$, then $\vartheta_k$ defines over $V_\gamma$ the forcing relation for $\mathbb Q_\gamma$ for formulas of L\'evy complexity at most $k$, {\color{auditgreen}and the truth lemma holds for prefix generics induced by an ambient generic for a later stage, including the endpoint itself.}}
 \end{lemma}
 
 \begin{proof}
 \begingroup
 
-Use the completed presentation and prefix-agreement result of \cite[Woodin supplement]{RepairNotes}.  Given $\eta<\gamma$, $V_\xi$ computes the sequence $\langle\kappa_\beta:\beta\leq\eta\rangle$ correctly for every sufficiently large inaccessible $\xi<\gamma$.  An induction on the stages of the recursion in \cite[Definition~43]{Spoerl} shows that, for all sufficiently large inaccessible $\xi<\gamma$, the construction in $V_\xi$ agrees with that in $V_\gamma$ through stage $\eta$.  Thus the initial segment through $\eta$ belongs to some $V_\xi$ below $\gamma$.  Since this segment is the same in every sufficiently large $V_\xi$, the sequence of initial segments is definable over $V_\gamma$.
+{\color{auditgreen}Use the completed presentation and prefix-agreement result of \cite[Woodin supplement]{RepairNotes}.}  Given $\eta<\gamma$, $V_\xi$ computes the sequence $\langle\kappa_\beta:\beta\leq\eta\rangle$ correctly for every sufficiently large inaccessible $\xi<\gamma$.  An induction on the stages of the recursion in \cite[Definition~43]{Spoerl} shows that, for all sufficiently large inaccessible $\xi<\gamma$, the construction in $V_\xi$ agrees with that in $V_\gamma$ through stage $\eta$.  Thus the initial segment through $\eta$ belongs to some $V_\xi$ below $\gamma$.  Since this segment is the same in every sufficiently large $V_\xi$, the sequence of initial segments is definable over $V_\gamma$.
 
-By the completed-stage construction, a marked inaccessible endpoint is a direct-limit stage and $\sup_{\alpha<\gamma}\kappa_\alpha=\gamma$.  Let $e_{\alpha,\gamma}$ be the canonical iteration embedding and set
+{\color{auditgreen}By the completed-stage construction, a marked inaccessible endpoint is a direct-limit stage and $\sup_{\alpha<\gamma}\kappa_\alpha=\gamma$.}  {\color{auditgreen}Let $e_{\alpha,\gamma}$ be the canonical iteration embedding and set
 \[
 P_\alpha=e_{\alpha,\gamma}``\mathbb Q_\alpha.
-\]
-Replacement in $V_\gamma$ makes each $P_\alpha$ a set.  Under the completed-prefix factorization, $e_{\alpha,\gamma}$ is the first-coordinate embedding, and reductions are obtained by strengthening that coordinate while leaving the tail unchanged.  Thus the $P_\alpha$ form a definable increasing sequence of complete subforcings with
-$\mathbb Q_\gamma=\bigcup_{\alpha<\gamma}P_\alpha$.  Lemma~\ref{lem:supercompact-rank-ZF} gives $V_\gamma\models\ZF$.  Compute bounded forcing at a prefix containing the names; completeness makes this independent of the prefix.  Extend by negation, conjunction and the existential density clause over names in $V_\gamma$, as in \cite[Woodin supplement, low-name truth]{RepairNotes}.  Such names represent exactly $(V[G])_\gamma$.  The decision and witness classes definable over $V_\gamma$ are externally ground sets, so the induced generic meets them and the truth lemma follows.
+\]}
+Replacement in $V_\gamma$ makes each $P_\alpha$ a set.  {\color{auditgreen}Under the completed-prefix factorization, $e_{\alpha,\gamma}$} is the first-coordinate embedding, and reductions are obtained by strengthening that coordinate while leaving the tail unchanged.  Thus the $P_\alpha$ form a definable increasing sequence of complete subforcings with
+$\mathbb Q_\gamma=\bigcup_{\alpha<\gamma}P_\alpha$.  Lemma~\ref{lem:supercompact-rank-ZF} gives $V_\gamma\models\ZF$.  {\color{auditgreen}Compute bounded forcing at a prefix containing the names; completeness makes this independent of the prefix.  Extend by negation, conjunction and the existential density clause over names in $V_\gamma$, as in \cite[Woodin supplement, low-name truth]{RepairNotes}.  Such names represent exactly $(V[G])_\gamma$.  The decision and witness classes definable over $V_\gamma$ are externally ground sets, so the induced generic meets them and the truth lemma follows.
 
-For fixed standard $k$, apply this translation to a partial satisfaction formula for level $k$, including both polarities.  This gives $\vartheta_k$, uniformly in $\gamma$; assign a fixed value to invalid codes.
+For fixed standard $k$, apply this translation to a partial satisfaction formula for level $k$, including both polarities.  This gives $\vartheta_k$, uniformly in $\gamma$; assign a fixed value to invalid codes.}
 \endgroup
 \end{proof}
 
@@ -713,18 +715,18 @@ For every $N\geq1$ there is an effectively determined integer $t_N$ such that th
 \end{theorem}
 
 \begin{proof}
-For $\gamma\leq\Lambda$, write $M_\gamma=(V[G])_\gamma$ for the rank-$\gamma$ part of $M$.  Let $k=N+1$ and put $r=r_k$.  Let $\Xi_N$ be the finite set of formulas asserting that a stage $\theta$ belongs to $C^{(r)}$, is supercompact in Woodin's sense, and that $x=a_\theta$ is the complete code defined by $\mathcal D_{\mathrm W}$.  The two complexity bounds needed below are
+For $\gamma\leq\Lambda$, write $M_\gamma=(V[G])_\gamma$ for the rank-$\gamma$ part of $M$.  Let $k=N+1$ and put $r=r_k$.  Let $\Xi_N$ be the finite set of formulas asserting that a stage $\theta$ belongs to $C^{(r)}$, is supercompact in Woodin's sense, {\color{auditgreen}and that $x=a_\theta$ is the complete code defined by $\mathcal D_{\mathrm W}$.}  The two complexity bounds needed below are
 \[
 c_N=c_{\mathcal D_{\mathrm W}}(\Xi_N),\qquad
 s_N=\max\{r,d_{\mathrm W},s_{\mathcal D_{\mathrm W}}(\Xi_N)\}.
 \]
-Let $t_N$ be four more than the maximum of $s_N$ and the L\'evy complexity bounds, for both polarities after predicate elimination, of $E_{s_N}(\xi)$, the assertion that the $E_{s_N}$-cardinals are unbounded, membership in $C^{(c_N)}$, and the assertion that $C^{(c_N)}$ is unbounded.  Once the coding is fixed, $t_N$ is primitive recursive in $N$.
+Let $t_N$ be four more than the maximum of $s_N$ and {\color{auditgreen}the L\'evy complexity bounds, for both polarities after predicate elimination, of $E_{s_N}(\xi)$, the assertion that the $E_{s_N}$-cardinals are unbounded, membership in $C^{(c_N)}$, and the assertion that $C^{(c_N)}$ is unbounded.}  Once the coding is fixed, $t_N$ is primitive recursive in $N$.
 
 By Lemma~\ref{lem:ordinary-correct-supercompact}, $\Lambda\in C^{(t_N+2)}$ and $\Lambda$ is supercompact in Woodin's sense.  Theorem~\ref{thm:Woodin-forcing} gives $M\models\ZFC$.  Since $\UE$ asserts that the $E_{s_N}$-cardinals are unbounded, the choice of $t_N$ implies that they are unbounded below $\Lambda$; the same argument applies to $C^{(c_N)}\cap\Lambda$.
 
 For each $1\leq n\leq N$, the Bagaria--Poveda characterization says that, in $M$, a cardinal $\delta$ is $C^{(n)}$-extendible if and only if, for a proper class of $\theta\in(C^{(n+1)})^M$ and every $\alpha<\theta$, there are $\bar\delta<\bar\theta<\delta$, $\bar\alpha<\bar\theta$, and an elementary embedding $e:M_{\bar\theta}\to M_\theta$ such that $\bar\theta\in(C^{(n+1)})^M$, $\crit(e)=\bar\delta$, $e(\bar\delta)=\delta$, and $e(\bar\alpha)=\alpha$ \cite[Corollary~2.7]{BagariaPoveda}.
 
-Fix $\eta<\Lambda$ above $\mu$, and choose an $E_{s_N}$-cardinal $\delta>\eta$.  Let $\theta>\delta$ be another such cardinal and let $\alpha<\theta$.  Choose $\rho\in C^{(c_N)}\cap\Lambda$ above $\theta+\omega$, and put $x=a_\theta\in V_{\theta+\omega}\subseteq V_\rho$.  Lemma~\ref{lem:ordinary-correct-supercompact} and Woodin's recursion show that these objects satisfy $\Xi_N$.  Lemma~\ref{lem:finite-reflection} gives
+Fix $\eta<\Lambda$ above $\mu$, and choose an $E_{s_N}$-cardinal $\delta>\eta$.  Let $\theta>\delta$ be another such cardinal and let $\alpha<\theta$.  Choose $\rho\in C^{(c_N)}\cap\Lambda$ above $\theta+\omega$, {\color{auditgreen}and put $x=a_\theta\in V_{\theta+\omega}\subseteq V_\rho$.}  Lemma~\ref{lem:ordinary-correct-supercompact} and Woodin's recursion show that these objects satisfy $\Xi_N$.  Lemma~\ref{lem:finite-reflection} gives
 \[
 \eta<\bar\delta<\bar\theta<\bar\theta+\omega<\bar\rho<\delta
 \]
@@ -732,13 +734,13 @@ and $J_0:V_{\bar\rho}\to V_\rho$ such that
 \[
 \crit(J_0)=\bar\delta,\quad J_0(\bar\delta)=\delta,\quad
 J_0(\bar\theta)=\theta,\quad J_0(\bar\alpha)=\alpha,
-\quad J_0(\bar x)=a_\theta.
+{\color{auditgreen}\quad J_0(\bar x)=a_\theta.}
 \]
-The reflected instances of $\Xi_N$ give $\bar\theta\in C^{(r)}$, show that $\bar\theta$ is supercompact in Woodin's sense, and identify $\bar x=a_{\bar\theta}$.
+{\color{auditgreen}The reflected instances of $\Xi_N$ give $\bar\theta\in C^{(r)}$, show that $\bar\theta$ is supercompact in Woodin's sense, and identify $\bar x=a_{\bar\theta}$.}
 
 Set $J=J_0\restr V_{\bar\theta+\omega}$.  Lemma~\ref{lem:restriction-elementarity} shows that $J:V_{\bar\theta+\omega}\longrightarrow V_{\theta+\omega}$ is elementary.
 
-Since $a_{\bar\theta}\in V_{\bar\theta+\omega}$, the restriction retains $J(a_{\bar\theta})=a_\theta$.  Theorem~\ref{thm:Woodin-forcing}(3) therefore gives directly an elementary $e:M_{\bar\theta}\to M_\theta$ with critical point $\bar\delta$, $e(\bar\delta)=\delta$, and $e(\bar\alpha)=\alpha$.  The last equality follows from agreement with $J$ on ground ordinals.  Its graph has rank below $\theta+\omega<\Lambda$, so $e\in M$.  The ranks $\bar\theta$, $\theta$, and $\Lambda$ are marked and belong to $C^{(r)}$.
+{\color{auditgreen}Since $a_{\bar\theta}\in V_{\bar\theta+\omega}$, the restriction retains $J(a_{\bar\theta})=a_\theta$.  Theorem~\ref{thm:Woodin-forcing}(3) therefore gives directly an elementary $e:M_{\bar\theta}\to M_\theta$ with critical point $\bar\delta$, $e(\bar\delta)=\delta$, and $e(\bar\alpha)=\alpha$.  The last equality follows from agreement with $J$ on ground ordinals.  Its graph has rank below $\theta+\omega<\Lambda$, so $e\in M$.}  The ranks $\bar\theta$, $\theta$, and $\Lambda$ are marked and belong to $C^{(r)}$.
 
 Lemma~\ref{lem:finite-windows}, applied twice, gives
 \[
@@ -762,7 +764,7 @@ For every finite set $F_0$ of instances of the arbitrary-language Vop\v{e}nka sc
 \end{lemma}
 
 \begin{proof}
-Working in $\ZFC$, well-order each of the finitely many set-sized languages and fix on its label set a binary relation whose only endomorphism is the identity \cite[Theorem~2]{VopenkaPultrHedrlin}.  Apply the standard coding of structures in an arbitrary set-sized language by structures in one fixed finite relational language; the coding preserves and reflects elementary embeddings \cite[pp.~2--3]{BrookeTaylor}.  The label relation, the well-order of the language and all parameters in the original instance may be retained as parameters in the definition of the coded class.  The coding has a definable inverse on its image, so Replacement preserves properness of the class.  For each fixed instance, the definitions of the coding and decoding have some finite L\'evy complexity.  Taking the maximum of these finitely many bounds gives $N$.
+{\color{auditgreen}Working in $\ZFC$, well-order each of the finitely many set-sized languages and fix on its label set a binary relation whose only endomorphism is the identity \cite[Theorem~2]{VopenkaPultrHedrlin}.  Apply the standard coding} of structures in an arbitrary set-sized language by structures in one fixed finite relational language; the coding preserves and reflects elementary embeddings \cite[pp.~2--3]{BrookeTaylor}.  {\color{auditgreen}The label relation, the well-order of the language and all parameters in the original instance may be retained as parameters} in the definition of the coded class.  {\color{auditgreen}The coding has a definable inverse on its image, so Replacement preserves properness of the class.  For each fixed instance, the definitions of the coding and decoding have some finite L\'evy complexity.}  Taking the maximum of these finitely many bounds gives $N$.
 \end{proof}
 \endgroup
 
@@ -779,7 +781,7 @@ By Proposition~\ref{prop:OH-pruning}, take a countable model
 \]
 Let $F$ be a finite subset of the first-order theory $\ZFC+\VP$.  If $\mathfrak M\models\AC$, then $\mathfrak M\models F$.
 
-Now assume that $\mathfrak M\models\neg\AC$.  Choose $N\geq1$ for the finitely many instances of $\VP$ occurring in $F$, as in Lemma~\ref{lem:finite-language-reduction}.  Choose $t_N$ as in Theorem~\ref{thm:finite-restoration} and choose in $\mathfrak M$ a sufficiently large $E_{t_N}$-cardinal $\Lambda$.  Let $H\subseteq(\mathbb Q_\Lambda)^{\mathfrak M}$ be $\mathfrak M$-generic and put $W=(\mathfrak M[H])_\Lambda$.  For a possibly ill-founded $\mathfrak M$, use its internal names modulo generic forced equality, with membership given by generic forced membership.  The truth lemma for each standard formula interprets the following forcing assertions in that quotient.  By Theorem~\ref{thm:finite-restoration}, $W\models\ZFC$ and $W$ has a proper class of $C^{(N)}$-extendible cardinals.  {Bagaria's characterization \cite[Theorem~4.3(2), Corollary~4.7, Theorem~4.11, and the paragraph following Theorem~4.12]{BagariaCn} therefore gives the $\VP(\Pi_{N+1})$ scheme in $W$ for classes of structures in a fixed finite relational language.  For Theorem~4.11, view a $\Pi_{N+1}$ definition as $\Sigma_{N+2}$, choose the extendible cardinal above the language and parameters, and a class member outside its $H_\kappa$; the reflected member inside $H_\kappa$ is distinct.  By Lemma~\ref{lem:finite-language-reduction}, $W$ satisfies every instance of $\VP$ occurring in $F$; since $W\models\ZFC$, it follows that $W\models F$.}
+Now assume that $\mathfrak M\models\neg\AC$.  Choose $N\geq1$ for the finitely many instances of $\VP$ occurring in $F$, as in Lemma~\ref{lem:finite-language-reduction}.  Choose $t_N$ as in Theorem~\ref{thm:finite-restoration} and choose in $\mathfrak M$ a sufficiently large $E_{t_N}$-cardinal $\Lambda$.  {\color{auditgreen}Let $H\subseteq(\mathbb Q_\Lambda)^{\mathfrak M}$ be $\mathfrak M$-generic and put $W=(\mathfrak M[H])_\Lambda$.  For a possibly ill-founded $\mathfrak M$, use its internal names modulo generic forced equality, with membership given by generic forced membership.  The truth lemma for each standard formula interprets the following forcing assertions in that quotient.}  By Theorem~\ref{thm:finite-restoration}, $W\models\ZFC$ and $W$ has a proper class of $C^{(N)}$-extendible cardinals.  {Bagaria's characterization \cite[Theorem~4.3(2), Corollary~4.7, Theorem~4.11, and the paragraph following Theorem~4.12]{BagariaCn} therefore gives the $\VP(\Pi_{N+1})$ scheme in $W$ for classes of structures in a fixed finite relational language.  {\color{auditgreen}For Theorem~4.11, view a $\Pi_{N+1}$ definition as $\Sigma_{N+2}$, choose the extendible cardinal above the language and parameters, and a class member outside its $H_\kappa$; the reflected member inside $H_\kappa$ is distinct.  By Lemma~\ref{lem:finite-language-reduction}, $W$ satisfies every instance of $\VP$ occurring in $F$;} since $W\models\ZFC$, it follows that $W\models F$.}
 
 Every finite subset of $\ZFC+\VP$ is therefore satisfiable.  By first-order compactness, $\ZFC+\VP$ has a model.  The converse implication follows by forgetting Choice.
 \end{proof}
@@ -946,8 +948,8 @@ $\ZF+\DC+\LM+\BP+\PSP$, and $\kappa=\omega_1^{\mathcal S\!ol}$.
 \end{lemma}
 
 \begin{proof}
-The model in \eqref{eq:full-Solovay} is the full Solovay model in the precise convention of \cite[Definition~4 and the following paragraph]{SakaiTanno}.  Since a measurable cardinal is inaccessible in $\ZFC$, Solovay's argument gives
-$\mathcal S\!ol\models\ZF+\DC+\LM+\BP+\PSP$ \cite[III, Sections~1.3--1.11 and~2.4--2.11]{Solovay}.  These arguments allow ground-set parameters and give the countable-sequence closure needed for the full hereditary model.
+The model in \eqref{eq:full-Solovay} is the full Solovay model in the precise convention of \cite[Definition~4 and the following paragraph]{SakaiTanno}.  {\color{auditgreen}Since a measurable cardinal is inaccessible in $\ZFC$, Solovay's argument gives
+$\mathcal S\!ol\models\ZF+\DC+\LM+\BP+\PSP$ \cite[III, Sections~1.3--1.11 and~2.4--2.11]{Solovay}.  These arguments allow ground-set parameters and give the countable-sequence closure needed for the full hereditary model.}
 
 The collapse makes every $\alpha<\kappa$ countable in $\mathcal S\!ol$.  Since $\kappa$ is inaccessible, ${\Coll}(\omega,{<}\kappa)$ is $\kappa$-c.c. and preserves the uncountability of $\kappa$.  Hence $\kappa=\omega_1^{\mathcal S\!ol}$.
 \end{proof}
@@ -1030,7 +1032,7 @@ $\pi\dot R_{\mathrm{can}}=\dot R_{\mathrm{can}}$ for every
 $\pi\in\Aut(\mathbb B)$.  Moreover, $\dot R_{\mathrm{can}}$ self-reflects in the sense of \cite[Definitions~9.1--9.2]{KaragilaSchilhan}: for any fixed ground-model real $r_0$, both $\dot R_{\mathrm{can}}$ and $\check r_0$ have stabilizer $\Aut(\mathbb B)$, and
 $1_{\mathbb B}\Vdash\check r_0\in\dot R_{\mathrm{can}}$.
 
-Consequently, by \cite[Proposition~9.4]{KaragilaSchilhan}, using same-extension comparison generics as in \cite[Karagila--Schilhan supplement]{RepairNotes}, the symmetric extension arising from
+{\color{auditgreen}Consequently, by \cite[Proposition~9.4]{KaragilaSchilhan}, using same-extension comparison generics as in \cite[Karagila--Schilhan supplement]{RepairNotes}, the symmetric extension arising from}
 $\mathcal O(\mathbb B,\dot R_{\mathrm{can}})$ is exactly
 \[
 \HOD_{V\cup R}^{V[H]}=\mathcal S\!ol,
@@ -1124,7 +1126,7 @@ Assume $\Con(\ZF+\VP)$.  There is a model $N$ of cardinality $\aleph_1$ satisfyi
 \end{proposition}
 
 \begin{proof}
-By Corollary~\ref{cor:choice}, take a countable $M_0\models\ZF+\VP+\neg\AC$.  Enayat's theorem gives an elementary extension $M_0\prec N$ of cardinality $\aleph_1$ having no proper end extension to a model of $\ZF$ \cite[Theorem~5.18]{Enayat}, using the repaired existence input in \cite[Enayat supplement]{RepairNotes}.  Elementarity gives $N\models\ZF+\VP+\neg\AC$.  {The atomic forcing recursion shows that old sets acquire no new members in a quotient-of-names extension.  Hence any such extension that adds a set is both proper and an end extension.}  Therefore no such extension of $N$ can satisfy $\ZF$.
+By Corollary~\ref{cor:choice}, take a countable $M_0\models\ZF+\VP+\neg\AC$.  Enayat's theorem gives an elementary extension $M_0\prec N$ of cardinality $\aleph_1$ having no proper end extension to a model of $\ZF$ {\color{auditgreen}\cite[Theorem~5.18]{Enayat}, using the repaired existence input in \cite[Enayat supplement]{RepairNotes}.  Elementarity gives} $N\models\ZF+\VP+\neg\AC$.  {The atomic forcing recursion shows that old sets acquire no new members in a quotient-of-names extension.  Hence any such extension that adds a set is both proper and an end extension.}  Therefore no such extension of $N$ can satisfy $\ZF$.
 \end{proof}
 \endgroup
 
@@ -1264,7 +1266,7 @@ W.~H. Woodin,
 J. Math. Log. \textbf{10} (2010), no.~1--2, 101--339,
 \href{https://doi.org/10.1142/S021906131000095X}{\nolinkurl{doi:10.1142/S021906131000095X}}.
 
-\bibitem{RepairNotes}
+{\color{auditgreen}\bibitem{RepairNotes}
 \emph{Source supplements for Vop\v{e}nka's principle without choice},
 Woodin, Enayat, and Karagila--Schilhan notes and formal proof links,
 \href{https://github.com/Tomodovodoo/vopenka-without-choice/tree/64b7ddeae680bb5ca581792ad56b55d2ad32683f/repairs}{companion repository, source supplements}.
@@ -1275,6 +1277,6 @@ P.~Vop\v{e}nka, A.~Pultr and Z.~Hedrl\'in,
 Comment. Math. Univ. Carolin. \textbf{6} (1965), no.~2, 149--155,
 \href{https://dml.cz/dmlcz/105005}{\nolinkurl{dml.cz/dmlcz/105005}}.
 
-\end{thebibliography}
+}\end{thebibliography}
 
 \end{document}

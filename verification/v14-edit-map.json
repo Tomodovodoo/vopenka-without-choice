@@ -237,7 +237,7 @@
       "original_proof_count": 40
     }
   },
-  "pdf_sha256": "77ea05e630cde19958e0903bcf041cf4ea94f605db9bc4dedadc1c30616e261e",
+  "pdf_sha256": "d6b7b2aa8ef1aae4aa9905e1a594e3d8af66067117998e3def98b11d7592953c",
   "validation": {
     "pdflatex_passes": 3,
     "undefined_references": false,
@@ -246,8 +246,43 @@
     "visual_review": "All 20 pages reviewed in overview; changed mathematical passages and references inspected at larger scale. No clipping or overlapping text found.",
     "repository_preflight": "Passed with no repository errors; existing submission license blockers unchanged.",
     "original_and_v13_unchanged": true,
-    "diff_hunks_verified": 18,
     "whitespace": "Only unified-diff blank context markers and two unchanged TeX control-space line endings from final; no newly introduced trailing whitespace in manuscript."
   },
-  "output_sha256": "372176941bd47ad76d0015749a6f5eeee3cced3de251baebdfb7d3f70c956e60"
+  "output_sha256": "c94f264c467649b22c908bb0831bc2d0ab27d2c24632f1115e886d3293e0d9f8",
+  "green_markup": {
+    "color_rgb": [
+      0,
+      110,
+      45
+    ],
+    "baseline": "Vopenkas_Principle_Without_Choice_final.tex",
+    "marked_replacement_passages": 35,
+    "content_unchanged_from_uncolored_v14": true,
+    "deletions": "Visible in final-to-V14.diff; omitted from the reading copy.",
+    "pdf_text_unchanged": true,
+    "colored_characters_by_page": {
+      "1": 0,
+      "2": 134,
+      "3": 0,
+      "4": 229,
+      "5": 0,
+      "6": 845,
+      "7": 0,
+      "8": 70,
+      "9": 0,
+      "10": 583,
+      "11": 1412,
+      "12": 0,
+      "13": 884,
+      "14": 863,
+      "15": 0,
+      "16": 270,
+      "17": 0,
+      "18": 158,
+      "19": 99,
+      "20": 325
+    },
+    "pdflatex_passes": 2,
+    "visual_review": "Changed proof passages and added bibliography entries inspected; green is legible and surrounding text remains black. No clipping or overlap."
+  }
 }
