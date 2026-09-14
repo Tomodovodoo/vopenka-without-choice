@@ -1,16 +1,23 @@
 # Palomar and Comparator
 
-There are five configurations. Comparator checks exact statements and their proof dependencies; Palomar adds import, metadata, licensing and editorial requirements.
+The canonical Palomar configuration selects all four principal result families in one entry. Four individual configurations support diagnosis, and the original-encoding configuration remains available. Comparator checks exact statements and their proof dependencies; Palomar adds import, metadata, licensing and editorial requirements.
 
 | Configuration | Exact scope | Statement imports |
 | --- | --- | --- |
+| [comparator-palomar.json](../comparator-palomar.json) | Theorem A, Theorem B, DC and the full ordinary-real Solovay consequence, together. | Only mathlib. Canonical submission candidate. |
 | [comparator.json](../comparator.json) | Theorem A, Theorem B, the DC consistency consequence and the ordinary-real Solovay consistency consequence. | Existing Foundation and project encoding. This configuration does not satisfy Palomar's Challenge import policy. |
-| [comparator-palomar-b.json](../comparator-palomar-b.json) | Theorem B: existence of a ZFC+VP model iff existence of a ZF+VP model, with proved equivalences to syntactic consistency. | Only mathlib. This is the Palomar submission candidate. |
-| [comparator-palomar-a.json](../comparator-palomar-a.json) | Theorem A: the specified symmetric quotient exists and every presentation satisfies ZF + full VP. | Only mathlib. A separate Palomar submission candidate. |
-| [comparator-palomar-dc.json](../comparator-palomar-dc.json) | Model existence for ZF + VP implies model existence for ZF + VP + DC + failure of AC. | Only mathlib. A separate Palomar submission candidate. |
-| [comparator-palomar-solovay.json](../comparator-palomar-solovay.json) | The ordinary-real Solovay model-existence consequence, including its ultrafilter clause. | Only mathlib. A separate Palomar submission candidate. |
+| [comparator-palomar-b.json](../comparator-palomar-b.json) | Theorem B: existence of a ZFC+VP model iff existence of a ZF+VP model, with proved equivalences to syntactic consistency. | Only mathlib. Individual diagnostic configuration. |
+| [comparator-palomar-a.json](../comparator-palomar-a.json) | Theorem A: the specified symmetric quotient exists and every presentation satisfies ZF + full VP. | Only mathlib. Individual diagnostic configuration. |
+| [comparator-palomar-dc.json](../comparator-palomar-dc.json) | Model existence for ZF + VP implies model existence for ZF + VP + DC + failure of AC. | Only mathlib. Individual diagnostic configuration. |
+| [comparator-palomar-solovay.json](../comparator-palomar-solovay.json) | The ordinary-real Solovay model-existence consequence, including its ultrafilter clause. | Only mathlib. Individual diagnostic configuration. |
 
 No Palomar submission or registration has been made. The root license and public-visibility decision are pending. A completed Comparator/NanoDa run on the candidate is also required; compilation of its Lean proof is already recorded in [the bridge account](../PalomarBridge/README.md).
+
+## One entry for the four principal results
+
+[PalomarPaperChallenge.lean](../PalomarPaperChallenge.lean) contains all four explicit vocabularies and statements. It is 669 lines and 39,384 bytes, below the hard limits of 1,000 lines and 100 KiB. It exceeds both advisory thresholds, 300 lines and 32 KiB. There are no definition holes. [PalomarPaperSolution.lean](../PalomarPaperSolution.lean) contains the four proved declarations in the same order.
+
+The generation script assembles this pair from the same vocabularies and individual Solutions used below. [Palomar's policy](https://github.com/PalomarRegistry/PalomarPolicy/blob/e9c8c238f5695b10f75db7175648a1d0195352c1/CONTRIBUTING.md) allows several selected theorems in one configuration and one entry. Separate submissions of the diagnostic configurations are unnecessary for this combined claim.
 
 ## Standalone statement and proved bridge
 
@@ -58,7 +65,7 @@ The [DC bridge](../PalomarDCBridge/README.md) proves the source-theory correspon
 
 The [Solovay bridge](../PalomarSolovayBridge/README.md) proves correspondence to the entire existing `realSolovayTheory`. The target retains ZF, full VP, DC, failure of AC, Lebesgue measurability, the Baire property and the perfect set property for every internal set of ordinary reals, and an omega-one-complete nonprincipal ultrafilter on omega one. [PalomarSolovaySolution.lean](../PalomarSolovaySolution.lean) proves `VopenkaWithoutChoice.palomar_solovay_reals` by composing that correspondence with the existing consistency proof.
 
-All four standalone Challenge files are below Palomar's hard size limits. They exceed its 300-line advisory threshold. Their definitions remain explicit; there are no Comparator definition holes.
+All standalone Challenge files are below Palomar's hard size limits. They exceed its 300-line advisory threshold. Their definitions remain explicit; there are no Comparator definition holes.
 
 ## Reproduce
 
@@ -66,14 +73,14 @@ All four standalone Challenge files are below Palomar's hard size limits. They e
 python3 scripts/generate-palomar-challenge.py --check
 python3 scripts/check-repository.py --config comparator-palomar-b.json
 python3 scripts/check-repository.py --config comparator-palomar-a.json
-lake build ZFVP PalomarBridge PalomarPreservationBridge Solution PalomarSolution PalomarPreservationSolution PalomarDCSolution PalomarSolovaySolution
+lake build ZFVP PalomarBridge PalomarPreservationBridge Solution PalomarSolution PalomarPreservationSolution PalomarDCSolution PalomarSolovaySolution PalomarPaperSolution
 lake env lean verification/ExportChecks.lean
 lake env lean verification/AdditionalChecks.lean
 ```
 
 `python3 scripts/check-repository.py --config comparator-palomar-b.json --submission` also checks the known intake gates, including public visibility through `gh`. This preflight does not replace Palomar's verifier.
 
-The [CI workflow](../.github/workflows/verify.yml) runs the pinned Comparator and NanoDa on all configurations, then the full root build and coverage compositions. It uses an unprivileged Linux service with the AF_UNIX restriction required by Comparator. Each configuration has its own CI step and log. On a Linux host with systemd and sudo, run `bash scripts/verify-protected.sh comparator-palomar-b.json`. The lower-level `verify-comparator.sh` expects the caller to enforce the same outer restriction. A fake Landrun wrapper does not reproduce that protected check.
+The [CI workflow](../.github/workflows/verify.yml) runs the pinned Comparator and NanoDa on the canonical configuration and the original-encoding configuration, then the full root build and coverage compositions. It uses an unprivileged Linux service with the AF_UNIX restriction required by Comparator. The two comparison calls have separate CI steps and logs. The individual configurations can also be run with the same script. On a Linux host with systemd and sudo, run `bash scripts/verify-protected.sh comparator-palomar.json`. The lower-level `verify-comparator.sh` expects the caller to enforce the same outer restriction. A fake Landrun wrapper does not reproduce that protected check.
 
 CI downloads the cache closure of the 30 mathlib modules directly imported by this project, rather than all mathlib. It also removes unused SDKs from the disposable hosted runner before compilation and records disk usage. An earlier run exhausted its disk during compilation, before comparison; that run was not a mathematical rejection.
 
@@ -81,7 +88,7 @@ The initial full source build may take time. Later CI runs can reuse source buil
 
 ## Submit and register
 
-The candidate configuration paths are `comparator-palomar-a.json`, `comparator-palomar-b.json`, `comparator-palomar-dc.json` and `comparator-palomar-solovay.json`; each is a separate submission and metadata is in the root `formalization.yaml`. Palomar requires a public repository, a standard root license and a full 40-character commit SHA. The pinned Lean v4.34.0-rc2 is above the recorded minimum v4.28.0, and lean4export matches the project's release.
+The canonical configuration path is `comparator-palomar.json`; metadata is in the root `formalization.yaml`. Palomar requires a public repository, a standard root license and a full 40-character commit SHA. The pinned Lean v4.34.0-rc2 is above the recorded minimum v4.28.0, and lean4export matches the project's release.
 
 The submission entry point is <https://submit.palomar-registry.org/>. Its `llms.txt` requires agreement on the exact repository, commit, configuration and declared author/maintainer relationship before agent intake. The documented `gh` flow creates a temporary Git tag and secret gist, verifies them, then removes both. Submission starts public mechanical checks. Registration is a separate permanent publication decision that includes the review and preservation forks.
 

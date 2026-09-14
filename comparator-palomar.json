@@ -1,0 +1,13 @@
+{
+  "challenge_module": "PalomarPaperChallenge",
+  "solution_module": "PalomarPaperSolution",
+  "theorem_names": [
+    "VopenkaWithoutChoice.palomar_preservation",
+    "VopenkaWithoutChoice.palomar_equiconsistency",
+    "VopenkaWithoutChoice.palomar_dependent_choice",
+    "VopenkaWithoutChoice.palomar_solovay_reals"
+  ],
+  "definition_names": [],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"],
+  "enable_nanoda": true
+}

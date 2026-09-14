@@ -10,3 +10,5 @@ theorem palomar_equiconsistency :
   PalomarBridge.independent_theoremB
 
 end VopenkaWithoutChoice
+
+#print axioms VopenkaWithoutChoice.palomar_equiconsistency

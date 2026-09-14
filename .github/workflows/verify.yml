@@ -74,14 +74,8 @@ jobs:
           key: proofs-${{ runner.os }}-${{ hashFiles('lean-toolchain', 'lake-manifest.json', 'vendor/Foundation/lakefile.toml') }}-${{ github.sha }}
           restore-keys: |
             proofs-${{ runner.os }}-${{ hashFiles('lean-toolchain', 'lake-manifest.json', 'vendor/Foundation/lakefile.toml') }}-
-      - name: Compare Theorem A and run NanoDa
-        run: bash scripts/verify-protected.sh comparator-palomar-a.json
-      - name: Compare Theorem B and run NanoDa
-        run: bash scripts/verify-protected.sh comparator-palomar-b.json
-      - name: Compare the DC consequence and run NanoDa
-        run: bash scripts/verify-protected.sh comparator-palomar-dc.json
-      - name: Compare the Solovay consequence and run NanoDa
-        run: bash scripts/verify-protected.sh comparator-palomar-solovay.json
+      - name: Compare all four standalone statements and run NanoDa
+        run: bash scripts/verify-protected.sh comparator-palomar.json
       - name: Compare all four results in the original encoding
         run: bash scripts/verify-protected.sh comparator.json
       - name: Build all root imports and check coverage compositions

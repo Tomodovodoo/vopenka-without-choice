@@ -48,7 +48,7 @@
     }
   ],
   "status": {
-    "scope": "comparator.json selects four main results in the existing Foundation encoding. comparator-palomar-a.json selects symmetric preservation, including existence and universal preservation of the specified quotient. comparator-palomar-b.json selects Theorem B as model existence. comparator-palomar-dc.json selects the DC consistency consequence. comparator-palomar-solovay.json selects the ordinary-real Solovay consequence including its ultrafilter clause. All four independent statement bridges are proved. V13 retains two unmatched auxiliary clauses, documented in repairs/formalization/README.md. Each standalone configuration selects its own theorem and requires a separate submission. The full ambient-HOD clause and optional stronger research routes are not claimed.",
+    "scope": "comparator-palomar.json selects all four principal result families in a standalone mathlib-only vocabulary: symmetric quotient existence and preservation, Theorem B, the DC consequence, and the ordinary-real Solovay consequence including its ultrafilter clause. All four statement bridges are proved. Individual comparator-palomar-*.json files support diagnosis. comparator.json checks the original Foundation encoding. V13 retains two unmatched auxiliary clauses, documented in repairs/formalization/README.md. The full ambient-HOD clause and optional stronger research routes are not claimed.",
     "sorry_count": 0,
     "sorry_in_definitions": 0,
     "axioms": [
@@ -119,28 +119,28 @@
       {
         "source": "Theorem B",
         "lean": "VopenkaWithoutChoice.palomar_equiconsistency",
-        "module": "PalomarSolution",
+        "module": "PalomarPaperSolution",
         "status": "proved",
         "note": "Independent model-existence statement. Full ZF/AC/VP dictionary correspondence and equivalence with the source consistency assertions are proved in PalomarBridge.TheoremB."
       },
       {
         "source": "Theorem A",
         "lean": "VopenkaWithoutChoice.palomar_preservation",
-        "module": "PalomarPreservationSolution",
+        "module": "PalomarPaperSolution",
         "status": "proved",
         "note": "Explicit symmetric quotient existence and preservation for every presentation, given a generic over an arbitrary ground. Dictionary and presentation correspondence are proved in PalomarPreservationBridge."
       },
       {
         "source": "DC and failure of AC consistency consequence",
         "lean": "VopenkaWithoutChoice.palomar_dependent_choice",
-        "module": "PalomarDCSolution",
+        "module": "PalomarPaperSolution",
         "status": "proved",
         "note": "Explicit internal DC and failure of AC, with arbitrary-ground dictionary correspondence and equivalence to the original syntactic consistency claim."
       },
       {
         "source": "Solovay corollary, ordinary reals",
         "lean": "VopenkaWithoutChoice.palomar_solovay_reals",
-        "module": "PalomarSolovaySolution",
+        "module": "PalomarPaperSolution",
         "status": "proved",
         "note": "Explicit ordinary-real LM/BP/PSP, DC, failure of AC and the omega-one-complete nonprincipal ultrafilter clause. Full model statement proved equivalent to the existing realSolovayTheory consistency claim."
       }

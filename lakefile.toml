@@ -47,6 +47,12 @@ name = "PalomarSolovayChallenge"
 [[lean_lib]]
 name = "PalomarSolovaySolution"
 
+[[lean_lib]]
+name = "PalomarPaperChallenge"
+
+[[lean_lib]]
+name = "PalomarPaperSolution"
+
 [[require]]
 name = "mathlib"
 git = "https://github.com/leanprover-community/mathlib4"
