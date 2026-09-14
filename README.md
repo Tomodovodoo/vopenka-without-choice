@@ -6,7 +6,7 @@ Lean formalization and proposed proof repairs for *Vopěnka's Principle without 
 
 ## Results and remaining gaps
 
-The formalized routes cover symmetric preservation, Theorem A; the equiconsistency conclusion, Theorem B; the arbitrary-ground Cohen application with a supplied generic; and the ordinary-real Solovay conclusion. The latest recorded full build completed 5,048 jobs. See [verification and its limits](docs/verification.md).
+The formalized routes cover symmetric preservation, Theorem A; the equiconsistency conclusion, Theorem B; the arbitrary-ground Cohen application with a supplied generic; and the ordinary-real Solovay conclusion. The publication checkout's local full build completed 5,076 jobs. Both four-result configurations passed protected Comparator and NanoDa. See [verification and its limits](docs/verification.md).
 
 V13 still states two auxiliary clauses broader than the matching Lean exports: a sharp Σ₃ bound for its specified sparse Woodin presentation, and endpoint forcing truth with its full endpoint and class-generic quantifiers. [Exact statements, available proofs and ways to close the differences](repairs/formalization/README.md). These differences must be resolved before describing every clause of V13 as formalized.
 

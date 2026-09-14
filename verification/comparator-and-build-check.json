@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-14",
+  "proof_source_commit": "57b354abfdbba3d3634f8399d6dc3967625e335a",
+  "lean_toolchain": "v4.34.0-rc2",
+  "protected_comparison": {
+    "run_url": "https://github.com/Tomodovodoo/vopenka-without-choice/actions/runs/34795802885",
+    "configurations": {
+      "comparator-palomar.json": "Comparator and NanoDa passed",
+      "comparator.json": "Comparator and NanoDa passed"
+    },
+    "overall_ci_result": "failure: later full-build process terminated with exit code 143; cause not established",
+    "log_excerpt": "comparator-run-34795802885.txt"
+  },
+  "local_full_build": {
+    "jobs": 5076,
+    "exit_code": 0,
+    "command": "lake build ZFVP PalomarBridge PalomarPreservationBridge PalomarDCBridge PalomarSolovayBridge",
+    "scope": "Publication checkout on Windows. Reused pinned installed dependencies and matching build artifacts copied from the working project. Lake checked their traces and compiled changed/new modules. Not a clean dependency rebuild."
+  },
+  "local_coverage_checks": {
+    "verification/ExportChecks.lean": 0,
+    "verification/AdditionalChecks.lean": 0
+  },
+  "local_logs": {
+    "native-full-build.log": {
+      "sha256": "ab7ccc5ded866a3eadd09632a317e55b3ac5bbce0a913cc34d41129b15784b52",
+      "bytes": 214905
+    },
+    "native-export-checks.log": {
+      "sha256": "fa748cf23d542c09e9ecfa2c487fa47ef0fdc0a9b9a9128eb17e8091ef44bc1f",
+      "bytes": 51166
+    },
+    "native-additional-checks.log": {
+      "sha256": "f3d29f0321b0c6b8838b9382b48130ca59b9d5072dcc71e3694a5c9edd3e65b0",
+      "bytes": 8976
+    }
+  },
+  "palomar_submission": "not submitted; public visibility and root license require maintainer decision"
+}

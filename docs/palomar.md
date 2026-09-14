@@ -11,7 +11,7 @@ The canonical Palomar configuration selects all four principal result families i
 | [comparator-palomar-dc.json](../comparator-palomar-dc.json) | Model existence for ZF + VP implies model existence for ZF + VP + DC + failure of AC. | Only mathlib. Individual diagnostic configuration. |
 | [comparator-palomar-solovay.json](../comparator-palomar-solovay.json) | The ordinary-real Solovay model-existence consequence, including its ultrafilter clause. | Only mathlib. Individual diagnostic configuration. |
 
-No Palomar submission or registration has been made. The root license and public-visibility decision are pending. A completed Comparator/NanoDa run on the candidate is also required; compilation of its Lean proof is already recorded in [the bridge account](../PalomarBridge/README.md).
+No Palomar submission or registration has been made. The root license and public-visibility decision are pending. Both the canonical configuration and the original-encoding configuration passed protected Comparator and NanoDa at commit `57b354abfdbba3d3634f8399d6dc3967625e335a`. The [verification account](verification.md) distinguishes these successful steps from the later interrupted full-build step.
 
 ## One entry for the four principal results
 
@@ -80,7 +80,7 @@ lake env lean verification/AdditionalChecks.lean
 
 `python3 scripts/check-repository.py --config comparator-palomar-b.json --submission` also checks the known intake gates, including public visibility through `gh`. This preflight does not replace Palomar's verifier.
 
-The [CI workflow](../.github/workflows/verify.yml) runs the pinned Comparator and NanoDa on the canonical configuration and the original-encoding configuration, then the full root build and coverage compositions. It uses an unprivileged Linux service with the AF_UNIX restriction required by Comparator. The two comparison calls have separate CI steps and logs. The individual configurations can also be run with the same script. On a Linux host with systemd and sudo, run `bash scripts/verify-protected.sh comparator-palomar.json`. The lower-level `verify-comparator.sh` expects the caller to enforce the same outer restriction. A fake Landrun wrapper does not reproduce that protected check.
+The [CI workflow](../.github/workflows/verify.yml) runs the pinned Comparator and NanoDa on the canonical configuration and the original-encoding configuration. A separate job runs the full root build and coverage compositions. Comparison uses an unprivileged Linux service with the AF_UNIX restriction required by Comparator. The two comparison calls have separate CI steps and logs; the canonical log is uploaded before the second comparison starts. The individual configurations can also be run with the same script. On a Linux host with systemd and sudo, run `bash scripts/verify-protected.sh comparator-palomar.json`. The lower-level `verify-comparator.sh` expects the caller to enforce the same outer restriction. A fake Landrun wrapper does not reproduce that protected check.
 
 CI downloads the cache closure of the 30 mathlib modules directly imported by this project, rather than all mathlib. It also removes unused SDKs from the disposable hosted runner before compilation and records disk usage. An earlier run exhausted its disk during compilation, before comparison; that run was not a mathematical rejection.
 

@@ -1,5 +1,11 @@
 # Verification
 
+Both four-result configurations passed protected Comparator and NanoDa at commit `57b354abfdbba3d3634f8399d6dc3967625e335a`: the standalone Palomar configuration and the original Foundation encoding. The [CI run](https://github.com/Tomodovodoo/vopenka-without-choice/actions/runs/34795802885) records both successful steps. Its later full-build step was terminated with exit code 143, so the overall run failed. The available log does not establish the termination's cause. See the [comparison output](../verification/comparator-run-34795802885.txt) and [combined receipt](../verification/comparator-and-build-check.json).
+
+The publication checkout then completed a local full build of 5,076 jobs and both `ExportChecks.lean` and `AdditionalChecks.lean`, all with exit code zero. This Windows build reused pinned installed dependencies and matching working-project build artifacts; Lake checked their traces and compiled changed modules. It was not a clean dependency rebuild. The receipt identifies the proof-source commit and log hashes. No proof source changed between the protected comparison and this local build.
+
+The CI workflow now runs the full build as a separate job and uploads the canonical comparison log before starting the second comparison. These workflow changes do not change the compared statements or proofs. The revised workflow was parsed locally; another hosted run was not started for this evidence and workflow commit. The next source or licensing push can exercise the separate jobs. Palomar submission and registration have not occurred.
+
 The working-project full build recorded on 14 September 2026 completed 5,048 jobs. The accompanying [paper coverage map](paper-coverage.md) compares all 43 stated results: 41 are covered, including checked compositions, and two contain unmatched auxiliary clauses. It reports checks of 80 existing exports and four compositions, using only `propext`, `Classical.choice` and `Quot.sound`. Lean's metatheoretic choice axiom does not assert AC inside the modeled ZF universe.
 
 The [composition checks](../verification/ExportChecks.lean) are included. After building, run `lake env lean verification/ExportChecks.lean` to repeat those checks. They supplement, rather than replace, inspection of hypotheses and definitions.
