@@ -65,14 +65,16 @@ jobs:
           key: proofs-${{ runner.os }}-${{ hashFiles('lean-toolchain', 'lake-manifest.json', 'vendor/Foundation/lakefile.toml') }}-${{ github.sha }}
           restore-keys: |
             proofs-${{ runner.os }}-${{ hashFiles('lean-toolchain', 'lake-manifest.json', 'vendor/Foundation/lakefile.toml') }}-
-      - name: Run Comparator and NanoDa as the unprivileged runner
-        run: |
-          sudo systemd-run --wait --pipe --uid="$(id -u)" \
-            --property=RestrictAddressFamilies=~AF_UNIX \
-            --working-directory="$PWD" \
-            --setenv="PATH=$PATH" --setenv="HOME=$HOME" \
-            --setenv="ELAN_HOME=$HOME/.elan" \
-            bash -c 'for config in comparator-palomar-*.json comparator.json; do bash scripts/verify-comparator.sh "$config" || exit; done'
+      - name: Compare Theorem A and run NanoDa
+        run: bash scripts/verify-protected.sh comparator-palomar-a.json
+      - name: Compare Theorem B and run NanoDa
+        run: bash scripts/verify-protected.sh comparator-palomar-b.json
+      - name: Compare the DC consequence and run NanoDa
+        run: bash scripts/verify-protected.sh comparator-palomar-dc.json
+      - name: Compare the Solovay consequence and run NanoDa
+        run: bash scripts/verify-protected.sh comparator-palomar-solovay.json
+      - name: Compare all four results in the original encoding
+        run: bash scripts/verify-protected.sh comparator.json
       - name: Build all root imports and check coverage compositions
         run: |
           lake build ZFVP PalomarBridge PalomarPreservationBridge PalomarDCBridge PalomarSolovayBridge
