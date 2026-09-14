@@ -2,13 +2,13 @@
 
 Lean formalization and proposed proof repairs for *Vopěnka's Principle without Choice: Preservation under Symmetric Extensions*, by Tom de Groot and Wojciech Aleksander Wołoszyn.
 
-[Original paper on arXiv](https://arxiv.org/abs/2609.06856v1) · [Original manuscript](paper/Vopenkas_Principle_Without_Choice_final.pdf) · [V13 working revision](paper/vopenka_without_choice_V13.pdf)
+[Original paper on arXiv](https://arxiv.org/abs/2609.06856v1) · [V14 minimal revision](paper/vopenka_without_choice_V14.pdf) · [Manuscripts and exact changes](paper/README.md)
 
 ## Results and remaining gaps
 
 The formalized routes cover symmetric preservation, Theorem A; the equiconsistency conclusion, Theorem B; the arbitrary-ground Cohen application with a supplied generic; and the ordinary-real Solovay conclusion. The publication checkout's local full build completed 5,076 jobs. Both four-result configurations passed protected Comparator and NanoDa. See [verification and its limits](docs/verification.md).
 
-V13 still states two auxiliary clauses broader than the matching Lean exports: a sharp Σ₃ bound for its specified sparse Woodin presentation, and endpoint forcing truth with its full endpoint and class-generic quantifiers. [Exact statements, available proofs and ways to close the differences](repairs/formalization/README.md). These differences must be resolved before describing every clause of V13 as formalized.
+V14 uses the sufficient finite definability bound and ambient-induced generic truth in the Woodin application. V13 retains two broader auxiliary clauses: a sharp Σ₃ bound for its specified sparse presentation, and endpoint forcing truth with its full endpoint and class-generic quantifiers. The [scope audit](repairs/formalization/README.md) records those V13 differences. V14 avoids requiring them; it does not prove the stronger assertions.
 
 ## Where to find the repairs
 
@@ -48,4 +48,4 @@ The toolchain is Lean `v4.34.0-rc2`. The manifest pins mathlib and its transitiv
 
 ## Manuscripts and licensing
 
-The original manuscript and V13 are preserved as separate files. The repair notes propose further edits; they do not silently alter either manuscript. External source papers are linked rather than redistributed. See [dependency provenance and licensing](docs/provenance.md).
+The original manuscript and V13 are preserved unchanged. V14 applies minimal edits to the original and cites the separate source supplements. External source papers are linked rather than redistributed. See [dependency provenance and licensing](docs/provenance.md).

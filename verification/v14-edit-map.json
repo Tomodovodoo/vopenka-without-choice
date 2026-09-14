@@ -1,0 +1,253 @@
+{
+  "base": "Vopenkas_Principle_Without_Choice_final.tex",
+  "base_sha256": "75052adf49352be7c8474aca5af82211204d8ff73ca78fb92ccdaf2d8aedad58",
+  "output": "vopenka_without_choice_V14.tex",
+  "source_supplement_commit": "64b7ddeae680bb5ca581792ad56b55d2ad32683f",
+  "abstract_and_main_theorems_unchanged": true,
+  "labels_unchanged": true,
+  "edits": [
+    {
+      "locus": "Lemma 2.1 proof",
+      "reason": "Use the direct restriction argument without changing the lemma or its subsequent proof display.",
+      "old": "The satisfaction relation is uniquely defined by recursion on formulas, so\n$j(\\operatorname{Sat}(a))=\\operatorname{Sat}(j(a))$.  Elementarity of $j$ now gives, for every formula $\\varphi$ and every finite tuple $\\bar x$ from $a$,",
+      "new": "Relativizing each quantifier of $\\varphi$ to $a$, transitivity and elementarity of $j$ give, for every formula $\\varphi$ and every finite tuple $\\bar x$ from $a$,"
+    },
+    {
+      "locus": "Lemma 3.2 hypothesis",
+      "reason": "State the sufficient fragment used by Corollary 3.4.",
+      "old": "Assume $\\ZF+\\VP$.  Above every ordinal",
+      "new": "Assume $\\ZF+\\VP(\\Pi_1)$.  Above every ordinal"
+    },
+    {
+      "locus": "Lemma 3.2 proof",
+      "reason": "Justify the fragment hypothesis in one sentence.",
+      "old": "The structures $\\mathcal B_\\lambda$ form a definable proper class.  Applying $\\VP$ to this class",
+      "new": "The structures $\\mathcal B_\\lambda$ form a $\\Pi_1$-definable proper class: the hierarchy equation is $\\Pi_1$, ordinal addition is $\\Delta_1$, and the interpretation tables are bounded in the code.  Applying $\\VP(\\Pi_1)$ to this class"
+    },
+    {
+      "locus": "Corollary 3.4 forcing complexity",
+      "reason": "Correct the bounded base and fixed-formula scope in the existing paragraph.",
+      "old": "{Symmetric forcing preserves L\\'evy complexity: for each standard $k$, forcing for a $\\Sigma_k$ formula is $\\Sigma_k$, and forcing for a $\\Pi_k$ formula is $\\Pi_k$, uniformly in the formula code.  For bounded formulas this follows by induction on formulas and name rank; atomic clauses lower name rank, and bounded quantifiers range over the domains of names.  At an existential step, Collection over $\\{r\\in\\mathbb P:r\\leq p\\}$ records names on a dense set below $p$.  Separation then yields the required forcing relation at the same complexity.}",
+      "new": "{For each fixed standard formula of positive L\\'evy level $k\\geq1$, symmetric forcing has a definition of the same polarity and level.  The bounded base is $\\Delta_1$: existence and uniqueness of the name and forcing recursion tables give its two presentations.  At an existential step, the density clause quantifies over an HS name; condition quantifiers are bounded by $\\mathbb P$.  Collection supplies the recursion certificates without selecting one name per condition, and negation gives the dual presentation.}"
+    },
+    {
+      "locus": "Corollary 3.4 fragment application",
+      "reason": "Connect the strengthened lemma to the actual hypothesis.",
+      "old": "Lemma~\\ref{lem:ZF-ranks} gives unboundedly many ordinals satisfying the $\\Pi_1$ condition",
+      "new": "Lemma~\\ref{lem:ZF-ranks} applies since $\\VP(\\Pi_n)$ includes $\\VP(\\Pi_1)$, and gives unboundedly many ordinals satisfying the $\\Pi_1$ condition"
+    },
+    {
+      "locus": "Corollary 3.4 certificate rank",
+      "reason": "Supply the bound needed to put the existing certificate in the named rank.",
+      "old": "That set and the satisfaction relation of $V_\\theta$ lie in $V_{\\theta+\\omega}$.",
+      "new": "For the $\\Sigma_1$ witness use a set containing cofinal maps and rank-table certificates for the earlier candidates.  At the least such $\\theta$, $V_\\theta$ is an available witness, so its least possible rank is at most $\\theta$.  Thus $d$ and the satisfaction relation of $V_\\theta$ lie in $V_{\\theta+\\omega}$."
+    },
+    {
+      "locus": "Rank-Berkeley definition",
+      "reason": "Exclude the vacuous zero case.",
+      "old": "We recall that a cardinal $\\delta$ is rank-Berkeley",
+      "new": "We recall that a nonzero cardinal $\\delta$ is rank-Berkeley"
+    },
+    {
+      "locus": "Rank-Berkeley descent",
+      "reason": "Expose the single use of the nonzero convention.",
+      "old": "Let $\\delta$ be rank-Berkeley.  Choose $\\Theta>",
+      "new": "Let $\\delta$ be rank-Berkeley.  Taking $\\zeta=0<\\delta$, choose $\\Theta>"
+    },
+    {
+      "locus": "Woodin import",
+      "reason": "Cite the repaired construction instead of reproducing it locally.",
+      "old": "We use Woodin's local forcing for restoring Choice.  The following formulation combines his construction with the lifting lemma.",
+      "new": "We use Woodin's local forcing for restoring Choice, with the completed-prefix convention and restricted lifting formulation recorded in \\cite[Woodin supplement]{RepairNotes}."
+    },
+    {
+      "locus": "Complete iteration code",
+      "reason": "Name exactly the input captured by the restricted lift; leave its construction in the source supplement.",
+      "old": "For an ordinal $\\xi$, let $\\DC_\\xi$ denote dependent choice for sequences of length $\\xi$.",
+      "new": "For an ordinal $\\xi$, let $\\DC_\\xi$ denote dependent choice for histories of length $\\xi$.  Fix the presentation from \\cite[Woodin supplement]{RepairNotes}, and let $a_\\eta$ code its completed prefix through $\\eta$: the carriers, orders, tops, projections, inclusions, prefix-replacement maps and cutoff table, including the seed.  At a marked $\\eta$, $a_\\eta\\in V_{\\eta+\\omega}$."
+    },
+    {
+      "locus": "Theorem 5.5 attribution",
+      "reason": "Distinguish the sufficient replacement from the original stronger lemma.",
+      "old": "\\begin{theorem}[Woodin]\\label{thm:Woodin-forcing}",
+      "new": "\\begin{theorem}[Woodin, restricted formulation]\\label{thm:Woodin-forcing}"
+    },
+    {
+      "locus": "Theorem 5.5 definability",
+      "reason": "Only a fixed finite definability bound is used; do not transfer the raw presentation's sharp bound to the selected presentation.",
+      "old": "There is a homogeneous forcing $\\mathbb Q_\\Lambda$, uniformly $\\Sigma_3$-definable over $V_\\Lambda$",
+      "new": "There is a weakly homogeneous forcing $\\mathbb Q_\\Lambda$, uniformly first-order definable over $V_\\Lambda$"
+    },
+    {
+      "locus": "Theorem 5.5(3)",
+      "reason": "State the proved marked-rank lift actually used downstream, rather than the unclosed successor-rank assertion.",
+      "old": "\\item suppose $J:V_{\\bar\\gamma+\\omega}\\to V_{\\gamma+\\omega}$ is elementary, $\\crit(J)=\\bar\\delta$, $J(\\bar\\delta)=\\delta>\\bar\\gamma$, $\\gamma$ is marked, and $J(\\mathbb Q_{\\bar\\gamma})=\\mathbb Q_\\gamma$.  Then $\\bar\\gamma$ is marked and $J$ lifts in $V[G]$ to $J^*:(V[G])_{\\bar\\gamma+1}\\longrightarrow(V[G])_{\\gamma+1}$.",
+      "new": "\\item suppose $J:V_{\\bar\\gamma+\\omega}\\to V_{\\gamma+\\omega}$ is elementary, $J(\\bar\\gamma)=\\gamma<\\Lambda$, $\\crit(J)=\\bar\\delta<\\bar\\gamma<J(\\bar\\delta)=\\delta$, $\\gamma$ is marked, and $J(a_{\\bar\\gamma})=a_\\gamma$.  Then $\\bar\\gamma$ is marked and there is an elementary $e:(V[G])_{\\bar\\gamma}\\longrightarrow(V[G])_\\gamma$ agreeing with $J$ on ground elements of $V_{\\bar\\gamma}$.  Its graph has rank below $\\gamma+\\omega<\\Lambda$."
+    },
+    {
+      "locus": "Forcing dictionary",
+      "reason": "Include the whole captured code in the existing finite-complexity calculation.",
+      "old": "Let $\\mathcal D_{\\mathrm W}$ be a fixed finite list of formulas defining Woodin's iteration, its prefixes, orders, restriction maps, and marked stages.",
+      "new": "Let $\\mathcal D_{\\mathrm W}$ be a fixed finite list of formulas defining this presentation, its complete codes $a_\\eta$, and marked stages."
+    },
+    {
+      "locus": "Lemma 5.7 scope",
+      "reason": "Keep final's supercompact endpoint and the generic range actually used; do not import V13's broader auxiliary clause.",
+      "old": "and the truth lemma holds for every $\\mathbb Q_\\gamma$-generic filter over $(V_\\gamma,\\Def(V_\\gamma))$.",
+      "new": "and the truth lemma holds for prefix generics induced by an ambient generic for a later stage, including the endpoint itself."
+    },
+    {
+      "locus": "Lemma 5.7 presentation",
+      "reason": "Align the existing proof with the imported corrected convention.",
+      "old": "Fix the set-coded presentation used in \\cite[Theorem~44(v)]{Spoerl}.",
+      "new": "Use the completed presentation and prefix-agreement result of \\cite[Woodin supplement]{RepairNotes}."
+    },
+    {
+      "locus": "Lemma 5.7 limit convention",
+      "reason": "Remove the raw-stage formula that does not describe a completed inverse stage.",
+      "old": "Since the endpoint is marked and inaccessible, it cannot be an inverse-limit stage, as that clause would give $\\gamma=\\kappa_\\gamma=(\\sup_{\\alpha<\\gamma}\\kappa_\\alpha)^+$.  Hence it is a direct-limit stage and $\\sup_{\\alpha<\\gamma}\\kappa_\\alpha=\\gamma$.",
+      "new": "By the completed-stage construction, a marked inaccessible endpoint is a direct-limit stage and $\\sup_{\\alpha<\\gamma}\\kappa_\\alpha=\\gamma$."
+    },
+    {
+      "locus": "Lemma 5.7 prefix indices",
+      "reason": "Use completed prefix indices consistently.",
+      "old": "Let $e_{\\kappa_\\alpha,\\gamma}$ be the canonical iteration embedding and set\n\\[\nP_\\alpha=e_{\\kappa_\\alpha,\\gamma}``\\mathbb Q_{\\kappa_\\alpha}.\n\\]",
+      "new": "Let $e_{\\alpha,\\gamma}$ be the canonical iteration embedding and set\n\\[\nP_\\alpha=e_{\\alpha,\\gamma}``\\mathbb Q_\\alpha.\n\\]"
+    },
+    {
+      "locus": "Lemma 5.7 factorization",
+      "reason": "Use the same corrected prefix convention.",
+      "old": "Under the factorization of \\cite[Theorem~44(iii)(a)]{Spoerl}, $e_{\\kappa_\\alpha,\\gamma}$",
+      "new": "Under the completed-prefix factorization, $e_{\\alpha,\\gamma}$"
+    },
+    {
+      "locus": "Lemma 5.7 forcing proof",
+      "reason": "Use the proved low-name route with a short local argument; avoid importing an unused Boolean-completion route.",
+      "old": "By \\cite[Lemma~6.6]{HolyClassForcing}, this union embeds densely into a $V_\\gamma$-complete Boolean algebra $\\mathbb B\\in\\Def(V_\\gamma)$ approachable by projections.\n\nTheorems~6.4 and~4.3 of \\cite{HolyClassForcing} yield the atomic forcing relation and the full forcing theorem, respectively.  Pass to an outer model that contains the given generic and in which $V_\\gamma$ is countable.  The structure $(V_\\gamma,\\Def(V_\\gamma))$, the filtration, and its completeness properties are unchanged, so the forcing relation and truth lemma obtained there apply to the given generic.\n\nFor fixed standard $k$, recursion from the atomic relation through the codes of formulas of L\\'evy complexity at most $k$ gives a single first-order definition, uniform in $\\gamma$.  Assigning a fixed value to all remaining codes defines $\\vartheta_k$.",
+      "new": "Compute bounded forcing at a prefix containing the names; completeness makes this independent of the prefix.  Extend by negation, conjunction and the existential density clause over names in $V_\\gamma$, as in \\cite[Woodin supplement, low-name truth]{RepairNotes}.  Such names represent exactly $(V[G])_\\gamma$.  The decision and witness classes definable over $V_\\gamma$ are externally ground sets, so the induced generic meets them and the truth lemma follows.\n\nFor fixed standard $k$, apply this translation to a partial satisfaction formula for level $k$, including both polarities.  This gives $\\vartheta_k$, uniformly in $\\gamma$; assign a fixed value to invalid codes."
+    },
+    {
+      "locus": "Theorem 5.11 finite bounds",
+      "reason": "Keep the original effective-bound argument and clarify its scope.",
+      "old": "the L\\'evy complexities of $E_{s_N}(\\xi)$, the assertion that the $E_{s_N}$-cardinals are unbounded, membership in $C^{(c_N)}$, and the assertion that $C^{(c_N)}$ is unbounded.",
+      "new": "the L\\'evy complexity bounds, for both polarities after predicate elimination, of $E_{s_N}(\\xi)$, the assertion that the $E_{s_N}$-cardinals are unbounded, membership in $C^{(c_N)}$, and the assertion that $C^{(c_N)}$ is unbounded."
+    },
+    {
+      "locus": "Theorem 5.11 reflected dictionary",
+      "reason": "Reflect the exact input consumed by the restricted lift.",
+      "old": "and has the prefix, order, and restriction maps defined by $\\mathcal D_{\\mathrm W}$.",
+      "new": "and that $x=a_\\theta$ is the complete code defined by $\\mathcal D_{\\mathrm W}$."
+    },
+    {
+      "locus": "Theorem 5.11 captured parameter",
+      "reason": "Use the whole code at the already available rank.",
+      "old": "and let $x\\in V_\\rho$ code $\\mathbb Q_\\theta$ with its order and restriction maps.",
+      "new": "and put $x=a_\\theta\\in V_{\\theta+\\omega}\\subseteq V_\\rho$."
+    },
+    {
+      "locus": "Theorem 5.11 reflected equation",
+      "reason": "Preserve the whole-code equation.",
+      "old": "\\quad J_0(\\mathbb Q_{\\bar\\theta})=\\mathbb Q_\\theta.",
+      "new": "\\quad J_0(\\bar x)=a_\\theta."
+    },
+    {
+      "locus": "Theorem 5.11 source identification",
+      "reason": "State the consequence of reflecting the complete code predicate.",
+      "old": "The reflected instances of $\\Xi_N$ give $\\bar\\theta\\in C^{(r)}$ and show that $\\bar\\theta$ is supercompact in Woodin's sense.",
+      "new": "The reflected instances of $\\Xi_N$ give $\\bar\\theta\\in C^{(r)}$, show that $\\bar\\theta$ is supercompact in Woodin's sense, and identify $\\bar x=a_{\\bar\\theta}$."
+    },
+    {
+      "locus": "Theorem 5.11 lift application",
+      "reason": "Replace only the use of the stronger lift; retain the surrounding finite-restoration proof.",
+      "old": "The map $J$ satisfies the hypotheses of Theorem~\\ref{thm:Woodin-forcing}(3), with $J(\\bar\\delta)=\\delta>\\bar\\theta$ and $J(\\mathbb Q_{\\bar\\theta})=\\mathbb Q_\\theta$.  Hence it lifts to $J^*:M_{\\bar\\theta+1}\\longrightarrow M_{\\theta+1}$.\nLemma~\\ref{lem:restriction-elementarity} shows that $e=J^*\\restr M_{\\bar\\theta}$ is elementary from $M_{\\bar\\theta}$ to $M_\\theta$.  It has critical point $\\bar\\delta$, maps $\\bar\\delta$ to $\\delta$ and $\\bar\\alpha$ to $\\alpha$, and belongs to $M$ because its graph has rank below $\\theta+\\omega<\\Lambda$.",
+      "new": "Since $a_{\\bar\\theta}\\in V_{\\bar\\theta+\\omega}$, the restriction retains $J(a_{\\bar\\theta})=a_\\theta$.  Theorem~\\ref{thm:Woodin-forcing}(3) therefore gives directly an elementary $e:M_{\\bar\\theta}\\to M_\\theta$ with critical point $\\bar\\delta$, $e(\\bar\\delta)=\\delta$, and $e(\\bar\\alpha)=\\alpha$.  The last equality follows from agreement with $J$ on ground ordinals.  Its graph has rank below $\\theta+\\omega<\\Lambda$, so $e\\in M$."
+    },
+    {
+      "locus": "Lemma 5.12 label rigidity",
+      "reason": "State the sufficient rigidity in one sentence rather than reproduce the coding construction.",
+      "old": "Working in $\\ZFC$, well-order each of the finitely many set-sized languages and apply the standard coding",
+      "new": "Working in $\\ZFC$, well-order each of the finitely many set-sized languages and fix on its label set a binary relation whose only endomorphism is the identity \\cite[Theorem~2]{VopenkaPultrHedrlin}.  Apply the standard coding"
+    },
+    {
+      "locus": "Lemma 5.12 parameters",
+      "reason": "Retain the fixed coding parameter.",
+      "old": "The well-order of the language and all parameters in the original instance may be retained as parameters",
+      "new": "The label relation, the well-order of the language and all parameters in the original instance may be retained as parameters"
+    },
+    {
+      "locus": "Lemma 5.12 properness",
+      "reason": "Make the inverse-coding implication explicit without replacing the existing proof.",
+      "old": "For each fixed instance, the definitions of the coding and decoding have some finite L\\'evy complexity.",
+      "new": "The coding has a definable inverse on its image, so Replacement preserves properness of the class.  For each fixed instance, the definitions of the coding and decoding have some finite L\\'evy complexity."
+    },
+    {
+      "locus": "Theorem 5.13 model interpretation",
+      "reason": "Clarify the original notation in two sentences instead of reproducing the forcing construction.",
+      "old": "Let $H\\subseteq(\\mathbb Q_\\Lambda)^{\\mathfrak M}$ be $\\mathfrak M$-generic and put $W=(\\mathfrak M[H])_\\Lambda$.",
+      "new": "Let $H\\subseteq(\\mathbb Q_\\Lambda)^{\\mathfrak M}$ be $\\mathfrak M$-generic and put $W=(\\mathfrak M[H])_\\Lambda$.  For a possibly ill-founded $\\mathfrak M$, use its internal names modulo generic forced equality, with membership given by generic forced membership.  The truth lemma for each standard formula interprets the following forcing assertions in that quotient."
+    },
+    {
+      "locus": "Theorem 5.13 Bagaria application",
+      "reason": "Supply the exact parameter and distinctness check in one sentence.",
+      "old": "By Lemma~\\ref{lem:finite-language-reduction}, $W$ satisfies every instance of $\\VP$ occurring in $F$;",
+      "new": "For Theorem~4.11, view a $\\Pi_{N+1}$ definition as $\\Sigma_{N+2}$, choose the extendible cardinal above the language and parameters, and a class member outside its $H_\\kappa$; the reflected member inside $H_\\kappa$ is distinct.  By Lemma~\\ref{lem:finite-language-reduction}, $W$ satisfies every instance of $\\VP$ occurring in $F$;"
+    },
+    {
+      "locus": "Lemma 8.1 Solovay import",
+      "reason": "Replace the broad theorem citation by the components for the existing parameter convention.",
+      "old": "Since a measurable cardinal is inaccessible in $\\ZFC$, Solovay's theorem gives\n$\\mathcal S\\!ol\\models\\ZF+\\DC+\\LM+\\BP+\\PSP$ \\cite[Theorem~1]{Solovay}.",
+      "new": "Since a measurable cardinal is inaccessible in $\\ZFC$, Solovay's argument gives\n$\\mathcal S\\!ol\\models\\ZF+\\DC+\\LM+\\BP+\\PSP$ \\cite[III, Sections~1.3--1.11 and~2.4--2.11]{Solovay}.  These arguments allow ground-set parameters and give the countable-sequence closure needed for the full hereditary model."
+    },
+    {
+      "locus": "Lemma 8.4 imported generic comparison",
+      "reason": "Cite the source repair instead of inserting its proof.",
+      "old": "Consequently, by \\cite[Proposition~9.4]{KaragilaSchilhan}, the symmetric extension arising from",
+      "new": "Consequently, by \\cite[Proposition~9.4]{KaragilaSchilhan}, using same-extension comparison generics as in \\cite[Karagila--Schilhan supplement]{RepairNotes}, the symmetric extension arising from"
+    },
+    {
+      "locus": "Proposition 9.7 Enayat import",
+      "reason": "Keep the application unchanged and cite the repaired source input.",
+      "old": "\\cite[Theorem~5.18]{Enayat}.  Elementarity gives",
+      "new": "\\cite[Theorem~5.18]{Enayat}, using the repaired existence input in \\cite[Enayat supplement]{RepairNotes}.  Elementarity gives"
+    },
+    {
+      "locus": "References",
+      "reason": "Identify actual companion notes without inventing published or author-approved errata, and cite the short rigidity input.",
+      "old": "\\end{thebibliography}",
+      "new": "\\bibitem{RepairNotes}\n\\emph{Source supplements for Vop\\v{e}nka's principle without choice},\nWoodin, Enayat, and Karagila--Schilhan notes and formal proof links,\n\\href{https://github.com/Tomodovodoo/vopenka-without-choice/tree/64b7ddeae680bb5ca581792ad56b55d2ad32683f/repairs}{companion repository, source supplements}.\n\n\\bibitem{VopenkaPultrHedrlin}\nP.~Vop\\v{e}nka, A.~Pultr and Z.~Hedrl\\'in,\n\\emph{A rigid relation exists on any set},\nComment. Math. Univ. Carolin. \\textbf{6} (1965), no.~2, 149--155,\n\\href{https://dml.cz/dmlcz/105005}{\\nolinkurl{dml.cz/dmlcz/105005}}.\n\n\\end{thebibliography}"
+    }
+  ],
+  "comparison": {
+    "Vopenkas_Principle_Without_Choice_final": {
+      "pages": 20,
+      "source_characters": 96544,
+      "original_proofs_unchanged": 40,
+      "original_proof_count": 40
+    },
+    "vopenka_without_choice_V13": {
+      "pages": 25,
+      "source_characters": 122793,
+      "original_proofs_unchanged": 29,
+      "original_proof_count": 40
+    },
+    "vopenka_without_choice_V14": {
+      "pages": 20,
+      "source_characters": 98658,
+      "original_proofs_unchanged": 29,
+      "original_proof_count": 40
+    }
+  },
+  "pdf_sha256": "77ea05e630cde19958e0903bcf041cf4ea94f605db9bc4dedadc1c30616e261e",
+  "validation": {
+    "pdflatex_passes": 3,
+    "undefined_references": false,
+    "overfull_boxes": false,
+    "lean_sources_changed": false,
+    "visual_review": "All 20 pages reviewed in overview; changed mathematical passages and references inspected at larger scale. No clipping or overlapping text found.",
+    "repository_preflight": "Passed with no repository errors; existing submission license blockers unchanged.",
+    "original_and_v13_unchanged": true,
+    "diff_hunks_verified": 18,
+    "whitespace": "Only unified-diff blank context markers and two unchanged TeX control-space line endings from final; no newly introduced trailing whitespace in manuscript."
+  },
+  "output_sha256": "372176941bd47ad76d0015749a6f5eeee3cced3de251baebdfb7d3f70c956e60"
+}

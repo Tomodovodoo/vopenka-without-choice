@@ -1,5 +1,7 @@
 # Documentation
 
+* [V14 and earlier manuscripts](../paper/README.md): minimal revision from final,
+  exact diff and individual edit reasons.
 * [Palomar and Comparator](palomar.md): exact compared statements, tool pins,
   remaining interface work, and submission order.
 * [Paper coverage](paper-coverage.md): all 43 stated V13 results and their exports.

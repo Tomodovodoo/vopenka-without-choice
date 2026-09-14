@@ -2,7 +2,7 @@
 
 This is a list of downstream editorial consequences, not a list of independent errors in our original paper. [Which paper should contain each repair](../placement.md) identifies the source of each issue. If an imported theorem is repaired at the required strength, our paper generally needs a corrected citation. If we use a weaker or different replacement, we must identify that input and show that it suffices.
 
-Compare the [original source](../../paper/Vopenkas_Principle_Without_Choice_final.tex) with [V13](../../paper/vopenka_without_choice_V13.tex). Numbering below is V13 unless otherwise specified. Outstanding proposals have not been inserted into V13.
+The [V14 revision](../../paper/README.md) now applies these decisions with minimal edits to the original source. Its [exact diff](../../paper/final-to-V14.diff) and [edit reasons](../../verification/v14-edit-map.json) record what changed. The table below retains the V13 comparison and its numbering; V13 itself is unchanged.
 
 | Locus | Classification and argument for placement | Consequence and formal route |
 | --- | --- | --- |
@@ -22,4 +22,4 @@ Compare the [original source](../../paper/Vopenkas_Principle_Without_Choice_fina
 | Proposition 9.7 | Imported existence theorem, [E1–E7](../placement.md#enayat). The Rubin issues occur in Enayat's proof chain, not in the act of applying Theorem 5.18 to our countable ZF model. | Cite the repaired existence input. FinSmall is supplied by the construction, not added as a hypothesis on our starting model. The end-extension conclusion need not be weakened. [Existence](../../ZFVP/ModelTheory/SchmerlNamedConsistency.lean). |
 | Corollary 4.4 | Supplementary construction. Pretameness and stabilization justify our class forcing built from Usuba's input. The records establish no source error in that corollary. | Keep the construction in our supplement. [Class-restoration proof](../sources/other/proofs/c03-pretameness-and-stabilization-proof.md). |
 
-The [two outstanding auxiliary scope differences](../formalization/README.md) remain visible. Reclassifying actual imported gaps does not turn those differences into source-paper defects. No author contact or manuscript replacement has been made as part of this placement revision.
+The [two auxiliary scope differences in V13](../formalization/README.md) remain documented. V14 adopts the narrower inputs sufficient for the argument. Reclassifying imported gaps does not turn those differences into source-paper defects. No author contact or arXiv replacement has been made.
