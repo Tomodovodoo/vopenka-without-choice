@@ -55,6 +55,15 @@ jobs:
             sudo rm -rf -- /usr/share/dotnet /usr/local/lib/android /opt/ghc
           fi
           df -h .
+      - name: Add swap for the largest Lean elaborations
+        run: |
+          free -h
+          test ! -e /swapfile-lean-verification
+          sudo fallocate -l 8G /swapfile-lean-verification
+          sudo chmod 600 /swapfile-lean-verification
+          sudo mkswap /swapfile-lean-verification
+          sudo swapon /swapfile-lean-verification
+          free -h
       - uses: leanprover/lean-action@38fbc41a8c28c4cbaec22d7f7de508ec2e7c0dd9
         with:
           build: false
@@ -92,6 +101,7 @@ jobs:
         if: always()
         run: |
           df -h .
+          free -h
           du -sh .lake/build .lake/foundation-build .lake/packages .cache 2>/dev/null || true
       - name: Preserve completed builds even if a later verification step fails
         if: always() && steps.proof-cache.outputs.cache-hit != 'true'
