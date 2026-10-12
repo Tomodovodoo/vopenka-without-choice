@@ -17,7 +17,7 @@ variable {G : Set V} (hG : IsExternalForcingGeneric
 
 include hθ hi in
 omit [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙] [IsOrdinal i] in
-private theorem earlier_subset : i ⊆ Ω := fun x hx ↦ hθ x (IsOrdinal.toIsTransitive.transitive _ hi x hx)
+theorem earlier_subset : i ⊆ Ω := fun x hx ↦ hθ x (IsOrdinal.toIsTransitive.transitive _ hi x hx)
 
 local notation "A" => kpair.π₁ (woodinIterationRec θ)
 local notation "C" => woodinSparseStageCode θ

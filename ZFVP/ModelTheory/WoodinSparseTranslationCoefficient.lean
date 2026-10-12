@@ -8,7 +8,7 @@ public import ZFVP.ModelTheory.WoodinSparseForcingTranslation
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 
-private structure TranslationCoefficient (C A B D : ℕ) where
+structure TranslationCoefficient (C A B D : ℕ) where
   value : ℕ
   exactValue : value = C + A + B + D + 100
   base : C + 100 ≤ value
@@ -16,7 +16,7 @@ private structure TranslationCoefficient (C A B D : ℕ) where
   order : B ≤ value
   names : D ≤ value
 
-private def makeTranslationCoefficient (C A B D : ℕ) : TranslationCoefficient C A B D where
+def makeTranslationCoefficient (C A B D : ℕ) : TranslationCoefficient C A B D where
   value := C + A + B + D + 100
   exactValue := rfl
   base := by omega
@@ -24,7 +24,7 @@ private def makeTranslationCoefficient (C A B D : ℕ) : TranslationCoefficient 
   order := by omega
   names := by omega
 
-private opaque sparseTranslationCoefficientData : TranslationCoefficient sparseAtomicSyntaxConstant
+opaque sparseTranslationCoefficientData : TranslationCoefficient sparseAtomicSyntaxConstant
     (levySyntacticBound woodinSparseClassCarrierFormula)
     (levySyntacticBound woodinSparseClassOrderFormula)
     (levySyntacticBound woodinSparseClassNameFormula) :=

@@ -125,7 +125,7 @@
   "review": {
     "status": "Self-assessed with AI-assisted statement inspection; no Palomar review completed",
     "reviewers": [],
-    "notes": "Existing exports and four compositions were checked by Lean. This is not a claim of independent human peer review. The independent A, B, DC and Solovay bridges passed Lean checks using only the three listed axioms. Comparator/NanoDa and Palomar review are separate steps."
+    "notes": "Lean 4.35.0-rc2 built the full library and the standalone Challenge and Solution. ExportChecks and AdditionalChecks passed. The four selected declarations report only propext, Classical.choice and Quot.sound. Protected mechanical verification and Palomar editorial review are separate checks."
   },
   "alignment": {
     "namespace": "VopenkaWithoutChoice",

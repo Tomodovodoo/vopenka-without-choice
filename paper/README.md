@@ -14,3 +14,8 @@ the repository.
 `python scripts/prepare-v3.py` reproduces the article from its archived arXiv
 source and the specified mathematical edits. `python scripts/package-publication.py`
 creates the upload archive. The review records are in `verification/`.
+
+For page comparisons, download the published V2 PDF and run
+`python scripts/render-v2-v3-comparison.py V2.pdf output/review`.
+The script uses PyMuPDF and Pillow. It renders V2 on the left and V3 on the
+right, with changed V3 words in red, and produces PNGs and a comparison PDF.
