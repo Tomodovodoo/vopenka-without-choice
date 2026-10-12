@@ -94,7 +94,10 @@ check without bubblewrap is a local diagnostic, not a protected replay.
 
 Run **Palomar mechanical preflight** from GitHub Actions for the exact public
 commit. This workflow calls Palomar's pinned reusable verification workflow
-with `mode: full` and `execution_profile: palomar-standard-v1`. It runs
+with `mode: full` and `execution_profile: palomar-namespace-16x32-v1`. The
+combined kernel comparison exceeded the 16 GB hosted worker; this is Palomar's
+approved 32 GB profile. The repository needs access to the corresponding
+Namespace runner. The workflow runs
 automatically for the publication pull request and can be dispatched manually.
 The mechanical report must have `status: pass` before intake. A local build or
 the repository-specific diagnostic workflow does not replace that report.
