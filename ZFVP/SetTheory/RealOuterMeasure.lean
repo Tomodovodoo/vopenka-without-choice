@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RealIntervalCovers
+module
+
+public import ZFVP.SetTheory.RealIntervalCovers
+
+@[expose] public section
 
 /-! The extended nonnegative outer measure defined by genuine rational interval covers.
 The full rational cut represents infinity. The existential rational margin in the

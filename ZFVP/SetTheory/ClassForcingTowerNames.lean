@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ClassForcingTowerStages
-import ZFVP.SetTheory.ForcingNames
+module
+
+public import ZFVP.SetTheory.ClassForcingTowerStages
+public import ZFVP.SetTheory.ForcingNames
+
+@[expose] public section
 
 /-! Names for the proper-class direct limit are internal sets of pairs.
 Replacement bounds the stages occurring anywhere in their hereditary

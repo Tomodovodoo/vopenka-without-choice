@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InfinitaryWeakChain
-import ZFVP.ModelTheory.InfinitarySequenceClosure
-import ZFVP.ModelTheory.InfinitaryQInterchangeDensity
+module
+
+public import ZFVP.ModelTheory.InfinitaryWeakChain
+public import ZFVP.ModelTheory.InfinitarySequenceClosure
+public import ZFVP.ModelTheory.InfinitaryQInterchangeDensity
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

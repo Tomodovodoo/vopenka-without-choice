@@ -1,4 +1,8 @@
-import ZFVP.Syntax.FormulaSubstitution
+module
+
+public import ZFVP.Syntax.FormulaSubstitution
+
+@[expose] public section
 
 /-! Constructor equations for formula substitution at each internal binder depth. -/
 

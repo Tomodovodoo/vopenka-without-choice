@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalHenkinNameContexts
-import ZFVP.Syntax.BoundedTruthTables
-import ZFVP.SetTheory.FiniteNaturalSets
+module
+
+public import ZFVP.ModelTheory.InternalHenkinNameContexts
+public import ZFVP.Syntax.BoundedTruthTables
+public import ZFVP.SetTheory.FiniteNaturalSets
+
+@[expose] public section
 
 /-! The accepted diagram induces an actual truth table on finite tuples of
 natural names. Its definition is independent of the finite context chosen to

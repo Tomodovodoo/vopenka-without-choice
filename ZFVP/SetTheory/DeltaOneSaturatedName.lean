@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingSaturatedName
-import ZFVP.SetTheory.DeltaOneAtomicForcing
-import ZFVP.SetTheory.DeltaOneForcingNames
+module
+
+public import ZFVP.SetTheory.ForcingSaturatedName
+public import ZFVP.SetTheory.DeltaOneAtomicForcing
+public import ZFVP.SetTheory.DeltaOneForcingNames
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

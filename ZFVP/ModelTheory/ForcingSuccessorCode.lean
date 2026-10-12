@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingIterationCode
-import ZFVP.ModelTheory.ForcingIterationColumns
+module
+
+public import ZFVP.SetTheory.ForcingIterationCode
+public import ZFVP.ModelTheory.ForcingIterationColumns
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

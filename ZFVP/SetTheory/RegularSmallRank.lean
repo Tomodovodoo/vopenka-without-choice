@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CardinalSmallUnions
-import ZFVP.SetTheory.CnAbsoluteness
+module
+
+public import ZFVP.SetTheory.CardinalSmallUnions
+public import ZFVP.SetTheory.CnAbsoluteness
+
+@[expose] public section
 
 namespace ZFVP
 

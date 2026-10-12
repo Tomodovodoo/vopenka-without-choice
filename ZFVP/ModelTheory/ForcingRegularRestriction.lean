@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingPredense
+module
+
+public import ZFVP.ModelTheory.ForcingPredense
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

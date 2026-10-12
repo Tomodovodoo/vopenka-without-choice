@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.WoodinInverseFirstCoordinates
-import ZFVP.ModelTheory.NormalizedUnionStrongerBound
-import ZFVP.ModelTheory.WoodinBoundNormalization
-import ZFVP.ModelTheory.WoodinQuotientBoundEquations
-import ZFVP.ModelTheory.InverseSourceCollapseCode
-import ZFVP.ModelTheory.WoodinCoordinateProjection
+module
+
+public import ZFVP.ModelTheory.WoodinInverseFirstCoordinates
+public import ZFVP.ModelTheory.NormalizedUnionStrongerBound
+public import ZFVP.ModelTheory.WoodinBoundNormalization
+public import ZFVP.ModelTheory.WoodinQuotientBoundEquations
+public import ZFVP.ModelTheory.InverseSourceCollapseCode
+public import ZFVP.ModelTheory.WoodinCoordinateProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

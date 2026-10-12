@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.InternalTranspositions
-import ZFVP.SetTheory.FiniteNaturalSets
-import ZFVP.SetTheory.SymmetricSystems
+module
+
+public import ZFVP.SetTheory.InternalTranspositions
+public import ZFVP.SetTheory.FiniteNaturalSets
+public import ZFVP.SetTheory.SymmetricSystems
+
+@[expose] public section
 
 /-! Permutations of `ω × ω` preserving the first coordinate: each column is permuted
 separately. A finite set of coordinates above column `n` can be moved off any finite

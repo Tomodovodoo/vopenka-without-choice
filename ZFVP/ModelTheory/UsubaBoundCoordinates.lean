@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.UsubaBoundInvariant
-import ZFVP.ModelTheory.QuotientSequenceProjection
-import ZFVP.ModelTheory.IdentityQuotientClosure
+module
+
+public import ZFVP.ModelTheory.UsubaBoundInvariant
+public import ZFVP.ModelTheory.QuotientSequenceProjection
+public import ZFVP.ModelTheory.IdentityQuotientClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

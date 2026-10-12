@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LimitRankEmbedding
+module
+
+public import ZFVP.ModelTheory.LimitRankEmbedding
+
+@[expose] public section
 
 /-! The critical-point rank criterion for embeddings from limit rank segments. -/
 

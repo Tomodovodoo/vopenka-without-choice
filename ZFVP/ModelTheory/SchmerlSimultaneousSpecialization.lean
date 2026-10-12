@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlCofinalSpecialization
+module
+
+public import ZFVP.ModelTheory.SchmerlCofinalSpecialization
+
+@[expose] public section
 
 /-! One finite-support forcing for a whole family of ranked trees. The forcing
 strictly specializes the disjoint union of their constructed Aronszajn cores.

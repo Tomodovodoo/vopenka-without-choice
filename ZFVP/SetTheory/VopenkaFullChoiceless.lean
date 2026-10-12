@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.VopenkaChoicelessExtendible
-import ZFVP.SetTheory.ChoicelessEquivalence
-import ZFVP.SetTheory.LeastOrdinalChoice
-import ZFVP.SetTheory.OrdinalIterationLimit
+module
+
+public import ZFVP.SetTheory.VopenkaChoicelessExtendible
+public import ZFVP.SetTheory.ChoicelessEquivalence
+public import ZFVP.SetTheory.LeastOrdinalChoice
+public import ZFVP.SetTheory.OrdinalIterationLimit
+
+@[expose] public section
 
 /-! Full Vopenka gives unbounded choiceless cardinals. The construction
 uses least relative witnesses and an internal omega iteration. -/

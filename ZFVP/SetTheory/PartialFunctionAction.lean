@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FinitePartialFunctions
-import ZFVP.SetTheory.InternalPermutations
+module
+
+public import ZFVP.SetTheory.FinitePartialFunctions
+public import ZFVP.SetTheory.InternalPermutations
+
+@[expose] public section
 
 namespace ZFVP
 

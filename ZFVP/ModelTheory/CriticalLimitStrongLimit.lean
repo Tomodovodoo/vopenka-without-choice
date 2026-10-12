@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.CriticalLimitCardinal
-import ZFVP.ModelTheory.CriticalSequenceZF
-import ZFVP.SetTheory.ChoicelessInaccessibleRank
-import ZFVP.SetTheory.WellOrderingChoice
-import ZFVP.SetTheory.InverseFunction
+module
+
+public import ZFVP.ModelTheory.CriticalLimitCardinal
+public import ZFVP.ModelTheory.CriticalSequenceZF
+public import ZFVP.SetTheory.ChoicelessInaccessibleRank
+public import ZFVP.SetTheory.WellOrderingChoice
+public import ZFVP.SetTheory.InverseFunction
+
+@[expose] public section
 
 /-! Under choice every rank stage below a choiceless inaccessible injects into it, so the
 critical limit of a coded rank self-embedding is a strong limit. -/

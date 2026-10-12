@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.OmegaJonssonSelection
-import ZFVP.SetTheory.PowerCountableSubsets
-import ZFVP.ModelTheory.OmegaJonssonEmbedding
+module
+
+public import ZFVP.SetTheory.OmegaJonssonSelection
+public import ZFVP.SetTheory.PowerCountableSubsets
+public import ZFVP.ModelTheory.OmegaJonssonEmbedding
+
+@[expose] public section
 
 /-! Existence of an omega-Jonsson function, the Erdos-Hajnal construction.
 

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ForcingIterationTables
+module
+
+public import ZFVP.SetTheory.ForcingIterationTables
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.Syntax.SigmaOneMembershipModelTruth
+module
+
+public import ZFVP.Syntax.SigmaOneMembershipModelTruth
+
+@[expose] public section
 
 /-! Sigma-one and Pi-one definitions of satisfaction over arbitrary set domains. -/
 

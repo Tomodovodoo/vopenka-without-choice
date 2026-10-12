@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LevySwapDeterminedSupport
-import ZFVP.ModelTheory.LevySupportValueBound
-import ZFVP.ModelTheory.SolovayFiniteSupportTransfer
+module
+
+public import ZFVP.ModelTheory.LevySwapDeterminedSupport
+public import ZFVP.ModelTheory.LevySupportValueBound
+public import ZFVP.ModelTheory.SolovayFiniteSupportTransfer
+
+@[expose] public section
 
 /-! The cone hypothesis of the Solovay corollary as one statement about a value-swap pair.
 

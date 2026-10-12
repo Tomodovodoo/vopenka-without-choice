@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalNaturalUnpairing
-import Mathlib.Computability.Primrec.Basic
+module
+
+public import ZFVP.ModelTheory.InternalNaturalUnpairing
+public import Mathlib.Computability.Primrec.Basic
+
+@[expose] public section
 
 /-! Primitive recursion with a carried parameter on every internal natural number. -/
 

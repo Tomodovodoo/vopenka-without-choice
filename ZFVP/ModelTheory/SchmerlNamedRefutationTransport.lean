@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedRefutation
-import ZFVP.ModelTheory.SchmerlNamedDeadEndCodingGround
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedRefutation
+public import ZFVP.ModelTheory.SchmerlNamedDeadEndCodingGround
+
+@[expose] public section
 
 set_option autoImplicit false
 namespace ZFVP.Schmerl

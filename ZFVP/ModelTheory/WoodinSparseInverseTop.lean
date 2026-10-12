@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseInverseBase
-import ZFVP.ModelTheory.ForcingRecodedExtension
+module
+
+public import ZFVP.ModelTheory.WoodinSparseInverseBase
+public import ZFVP.ModelTheory.ForcingRecodedExtension
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

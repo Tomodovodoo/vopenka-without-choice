@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ChoicelessSupercompact
-import ZFVP.ModelTheory.RankEmbeddingPairPreimages
-import ZFVP.ModelTheory.EmbeddingCnTransfer
-import ZFVP.ModelTheory.CriticalComposition
+module
+
+public import ZFVP.SetTheory.ChoicelessSupercompact
+public import ZFVP.ModelTheory.RankEmbeddingPairPreimages
+public import ZFVP.ModelTheory.EmbeddingCnTransfer
+public import ZFVP.ModelTheory.CriticalComposition
+
+@[expose] public section
 
 /-! Positive-level interpolation of choiceless supercompactness witnesses.
 In the restriction case we also pull back the outer critical point, so the

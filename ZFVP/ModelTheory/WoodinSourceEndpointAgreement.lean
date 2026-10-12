@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSourcePresentationRankAgreement
+module
+
+public import ZFVP.ModelTheory.WoodinSourcePresentationRankAgreement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

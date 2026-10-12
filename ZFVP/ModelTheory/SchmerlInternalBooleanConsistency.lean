@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlInternalBooleanTransport
-import ZFVP.ModelTheory.SchmerlCodedSatisfiability
-import ZFVP.ModelTheory.SchmerlInternalInfinitaryFragmentAgreement
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalBooleanTransport
+public import ZFVP.ModelTheory.SchmerlCodedSatisfiability
+public import ZFVP.ModelTheory.SchmerlInternalInfinitaryFragmentAgreement
+
+@[expose] public section
 
 /-! Coded satisfiability excludes Boolean derivations of the negation of
 the given sentence, even with that sentence as a hypothesis. The model's

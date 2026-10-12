@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlInternalFinitaryClosureClub
-import ZFVP.ModelTheory.SchmerlCodedDefinitionInclusion
-import ZFVP.ModelTheory.InternalNamedSeparationOmission
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalFinitaryClosureClub
+public import ZFVP.ModelTheory.SchmerlCodedDefinitionInclusion
+public import ZFVP.ModelTheory.InternalNamedSeparationOmission
+
+@[expose] public section
 
 /-! An actual club reflecting nondefinability to literal coded elementary stages.
 The closure operation uses all internal formulas and internally finite parameters. -/

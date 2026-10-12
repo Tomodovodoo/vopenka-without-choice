@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CriticalSequence
-import ZFVP.SetTheory.NaturalAddition
+module
+
+public import ZFVP.ModelTheory.CriticalSequence
+public import ZFVP.SetTheory.NaturalAddition
+
+@[expose] public section
 
 /-! Composition powers of an elementary graph through all internal naturals. -/
 

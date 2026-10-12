@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ForcingWeaklyLSCardinal
-import ZFVP.ModelTheory.ForcingLowRankAssignments
-import ZFVP.ModelTheory.ForcingHierarchyCover
-import ZFVP.SetTheory.LSCorrectLimits
-import ZFVP.SetTheory.StrongLSWeakLS
+module
+
+public import ZFVP.ModelTheory.ForcingWeaklyLSCardinal
+public import ZFVP.ModelTheory.ForcingLowRankAssignments
+public import ZFVP.ModelTheory.ForcingHierarchyCover
+public import ZFVP.SetTheory.LSCorrectLimits
+public import ZFVP.SetTheory.StrongLSWeakLS
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingSaturatedName
-import ZFVP.ModelTheory.ForcingNameUnions
-import ZFVP.SetTheory.ForcingUnionClosure
+module
+
+public import ZFVP.ModelTheory.ForcingSaturatedName
+public import ZFVP.ModelTheory.ForcingNameUnions
+public import ZFVP.SetTheory.ForcingUnionClosure
+
+@[expose] public section
 
 namespace ZFVP
 

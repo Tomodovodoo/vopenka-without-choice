@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseDirectBase
-import ZFVP.ModelTheory.WoodinRecodedDirect
+module
+
+public import ZFVP.ModelTheory.WoodinSparseDirectBase
+public import ZFVP.ModelTheory.WoodinRecodedDirect
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

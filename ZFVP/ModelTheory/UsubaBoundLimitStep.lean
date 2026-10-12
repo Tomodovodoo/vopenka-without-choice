@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.UsubaCommonLiftInduction
-import ZFVP.ModelTheory.UsubaBoundCoordinates
-import ZFVP.ModelTheory.QuotientLiftCompatibility
+module
+
+public import ZFVP.ModelTheory.UsubaCommonLiftInduction
+public import ZFVP.ModelTheory.UsubaBoundCoordinates
+public import ZFVP.ModelTheory.QuotientLiftCompatibility
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlInternalCodedHullClosure
-import ZFVP.Syntax.FormulaInduction
-import ZFVP.Syntax.StandardTuples
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalCodedHullClosure
+public import ZFVP.Syntax.FormulaInduction
+public import ZFVP.Syntax.StandardTuples
+
+@[expose] public section
 
 /-! Countability of all internally finite formulas from countability of
 the symbol sets. No hereditary countability of the symbols is assumed. -/

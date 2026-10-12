@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.InternalRationalField
-import ZFVP.SetTheory.NaturalIteration
-import ZFVP.SetTheory.UniformParameterizedRecursion
+module
+
+public import ZFVP.SetTheory.InternalRationalField
+public import ZFVP.SetTheory.NaturalIteration
+public import ZFVP.SetTheory.UniformParameterizedRecursion
+
+@[expose] public section
 
 /-! Rational sequence sums through the model's whole omega. -/
 

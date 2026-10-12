@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.CountableCohenModel
-import ZFVP.ModelTheory.CountableZFTransfer
-import ZFVP.SetTheory.SymmetricSystemDictionary
-import ZFVP.SetTheory.HartogsDictionary
-import ZFVP.SetTheory.ElementaryForcing
+module
+
+public import ZFVP.ModelTheory.CountableCohenModel
+public import ZFVP.ModelTheory.CountableZFTransfer
+public import ZFVP.SetTheory.SymmetricSystemDictionary
+public import ZFVP.SetTheory.HartogsDictionary
+public import ZFVP.SetTheory.ElementaryForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

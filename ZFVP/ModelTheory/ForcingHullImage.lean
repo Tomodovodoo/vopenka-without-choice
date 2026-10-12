@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ElementaryForcingTableWitness
-import ZFVP.ModelTheory.InternalGenericTruth
-import ZFVP.ModelTheory.InternalTarskiVaughtCriterion
-import ZFVP.SetTheory.FormulaFamilyRank
+module
+
+public import ZFVP.ModelTheory.ElementaryForcingTableWitness
+public import ZFVP.ModelTheory.InternalGenericTruth
+public import ZFVP.ModelTheory.InternalTarskiVaughtCriterion
+public import ZFVP.SetTheory.FormulaFamilyRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

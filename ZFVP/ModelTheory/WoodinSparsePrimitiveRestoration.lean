@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseRestorationLevelPrimrec
-import ZFVP.ModelTheory.WoodinSparseSatLevelPrimrec
-import ZFVP.ModelTheory.WoodinSparseFiniteRestorationRange
+module
+
+public import ZFVP.ModelTheory.WoodinSparseRestorationLevelPrimrec
+public import ZFVP.ModelTheory.WoodinSparseSatLevelPrimrec
+public import ZFVP.ModelTheory.WoodinSparseFiniteRestorationRange
+
+@[expose] public section
 
 /-! The primitive-recursive finite-restoration index and its actual endpoint.
 The ground assumptions are ZF, UE, and failure of Choice. The endpoint satisfies

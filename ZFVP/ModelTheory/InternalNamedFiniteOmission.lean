@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalNamedModel
-import ZFVP.ModelTheory.SchmerlCodedExtensionRelabeling
+module
+
+public import ZFVP.ModelTheory.InternalNamedModel
+public import ZFVP.ModelTheory.SchmerlCodedExtensionRelabeling
+
+@[expose] public section
 
 /-! Actual omission tasks for old internally finite sets. Meeting these
 candidate sets implies finite-trace preservation; density is a separate claim. -/

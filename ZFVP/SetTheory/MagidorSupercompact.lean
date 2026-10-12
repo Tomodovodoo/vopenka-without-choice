@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinSupercompactMagidor
-import ZFVP.SetTheory.GroundUniqueness
+module
+
+public import ZFVP.SetTheory.WoodinSupercompactMagidor
+public import ZFVP.SetTheory.GroundUniqueness
+
+@[expose] public section
 
 /-! # Magidor's small-embedding predicate
 

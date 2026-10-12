@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ElementaryBoundedWitness
-import ZFVP.SetTheory.RankBounds
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.ModelTheory.ElementaryBoundedWitness
+public import ZFVP.SetTheory.RankBounds
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

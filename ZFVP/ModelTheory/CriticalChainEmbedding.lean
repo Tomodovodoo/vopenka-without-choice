@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ModelEmbeddingHierarchy
-import ZFVP.ModelTheory.CriticalChainCn
-import ZFVP.ModelTheory.CriticalPointRestriction
+module
+
+public import ZFVP.ModelTheory.ModelEmbeddingHierarchy
+public import ZFVP.ModelTheory.CriticalChainCn
+public import ZFVP.ModelTheory.CriticalPointRestriction
+
+@[expose] public section
 
 /-! Embeddings between critical stages transport correctness inside the critical limit. -/
 

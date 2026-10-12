@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinDirectedForcingClosure
-import ZFVP.ModelTheory.WoodinSparseQuotientInputs
+module
+
+public import ZFVP.ModelTheory.WoodinDirectedForcingClosure
+public import ZFVP.ModelTheory.WoodinSparseQuotientInputs
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

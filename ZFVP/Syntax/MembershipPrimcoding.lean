@@ -1,5 +1,9 @@
-import Foundation.FirstOrder.Basic.PrimrecCoding
-import ZFVP.ModelTheory.GeneratedZFVPTheory
+module
+
+public import Foundation.FirstOrder.Basic.PrimrecCoding
+public import ZFVP.ModelTheory.GeneratedZFVPTheory
+
+@[expose] public section
 
 /-! Primitive recursive natural-number decoding for the actual pure membership syntax. -/
 

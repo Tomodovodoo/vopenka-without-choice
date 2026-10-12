@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseDirectBase
-import ZFVP.ModelTheory.WoodinSparseCodeLaws
-import ZFVP.ModelTheory.ForcingThreadIsomorphism
+module
+
+public import ZFVP.ModelTheory.WoodinSparseDirectBase
+public import ZFVP.ModelTheory.WoodinSparseCodeLaws
+public import ZFVP.ModelTheory.ForcingThreadIsomorphism
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

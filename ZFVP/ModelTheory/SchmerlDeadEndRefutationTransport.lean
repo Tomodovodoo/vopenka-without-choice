@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedRefutation
-import ZFVP.ModelTheory.SchmerlCodedDeadEndEquality
-import ZFVP.ModelTheory.SchmerlCodedDeadEndLanguageTransport
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedRefutation
+public import ZFVP.ModelTheory.SchmerlCodedDeadEndEquality
+public import ZFVP.ModelTheory.SchmerlCodedDeadEndLanguageTransport
+
+@[expose] public section
 
 /-! A standard refutation supplies its own countable ground support. The
 checked support contradicts an actual coded realization after forcing. -/

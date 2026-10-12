@@ -1,6 +1,10 @@
-import ZFVP.Syntax.FormulaSubstitutionDefinability
-import ZFVP.Syntax.FormulaSubstitutionEquations
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.Syntax.FormulaSubstitutionDefinability
+public import ZFVP.Syntax.FormulaSubstitutionEquations
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 /-! Substitution depends only on the variable-table values used by the source context. -/
 

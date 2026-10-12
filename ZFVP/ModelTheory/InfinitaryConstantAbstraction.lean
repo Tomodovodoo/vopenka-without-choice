@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryConstantDerivation
+module
+
+public import ZFVP.ModelTheory.InfinitaryConstantDerivation
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

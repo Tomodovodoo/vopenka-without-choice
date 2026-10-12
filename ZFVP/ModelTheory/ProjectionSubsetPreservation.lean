@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ProjectionClosedPreservation
-import ZFVP.SetTheory.EndExtensionSubsetCoding
+module
+
+public import ZFVP.ModelTheory.ProjectionClosedPreservation
+public import ZFVP.SetTheory.EndExtensionSubsetCoding
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

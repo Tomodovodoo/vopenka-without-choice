@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.UltrapowerClosure
-import ZFVP.SetTheory.UltrapowerEmbeddingMap
+module
+
+public import ZFVP.SetTheory.UltrapowerClosure
+public import ZFVP.SetTheory.UltrapowerEmbeddingMap
+
+@[expose] public section
 
 /-! # Rank stages of size at most `lam` sit inside the ultrapower target
 

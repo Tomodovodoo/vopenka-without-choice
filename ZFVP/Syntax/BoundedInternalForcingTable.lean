@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedForcingQuantifiers
-import ZFVP.Syntax.MembershipTruthTableDefinition
+module
+
+public import ZFVP.Syntax.BoundedForcingQuantifiers
+public import ZFVP.Syntax.MembershipTruthTableDefinition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

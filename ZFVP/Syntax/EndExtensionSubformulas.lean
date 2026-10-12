@@ -1,5 +1,9 @@
-import ZFVP.Syntax.EndExtensionFormulas
-import ZFVP.SetTheory.EndExtensionRelations
+module
+
+public import ZFVP.Syntax.EndExtensionFormulas
+public import ZFVP.SetTheory.EndExtensionRelations
+
+@[expose] public section
 
 /-! Immediate subformulas and their predecessor sets agree across end extensions. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.Syntax.LevyForcingStepSemantics
+module
+
+public import ZFVP.Syntax.LevyForcingStepSemantics
+
+@[expose] public section
 
 namespace ZFVP
 

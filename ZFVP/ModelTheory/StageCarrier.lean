@@ -1,6 +1,10 @@
-import Mathlib.SetTheory.Cardinal.Arithmetic
-import Mathlib.Logic.Equiv.Set
-import ZFVP.SetTheory.DiamondOmegaOne
+module
+
+public import Mathlib.SetTheory.Cardinal.Arithmetic
+public import Mathlib.Logic.Equiv.Set
+public import ZFVP.SetTheory.DiamondOmegaOne
+
+@[expose] public section
 
 /-! Bookkeeping for an ω₁-length chain of countable models on one fixed carrier.
 

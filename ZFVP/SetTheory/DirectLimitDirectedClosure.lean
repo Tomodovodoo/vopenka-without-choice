@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.DirectLimitClosure
-import ZFVP.SetTheory.ForcingDirectedClosure
+module
+
+public import ZFVP.SetTheory.DirectLimitClosure
+public import ZFVP.SetTheory.ForcingDirectedClosure
+
+@[expose] public section
 
 namespace ZFVP
 

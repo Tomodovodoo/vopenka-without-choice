@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseSourceHomogeneity
-import ZFVP.ModelTheory.ProjectionFactorization
+module
+
+public import ZFVP.ModelTheory.WoodinSparseSourceHomogeneity
+public import ZFVP.ModelTheory.ProjectionFactorization
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlGeneralizedInfinitarySemantics
-import ZFVP.ModelTheory.InfinitarySubformulas
+module
+
+public import ZFVP.ModelTheory.SchmerlGeneralizedInfinitarySemantics
+public import ZFVP.ModelTheory.InfinitarySubformulas
+
+@[expose] public section
 
 /-! A derivation needs Q-union and Q-interchange only on countably many
 specified formulas. Its soundness certificate is uniform in the model and Q. -/

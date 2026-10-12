@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ClosedEvaluatedHullDC
-import ZFVP.ModelTheory.ElementaryOrdinalSequenceClosure
-import ZFVP.ModelTheory.UsubaCollapseModel
-import ZFVP.SetTheory.SingularLSClosedHull
-import ZFVP.SetTheory.UsubaCollapseRank
+module
+
+public import ZFVP.ModelTheory.ClosedEvaluatedHullDC
+public import ZFVP.ModelTheory.ElementaryOrdinalSequenceClosure
+public import ZFVP.ModelTheory.UsubaCollapseModel
+public import ZFVP.SetTheory.SingularLSClosedHull
+public import ZFVP.SetTheory.UsubaCollapseRank
+
+@[expose] public section
 
 /-! Usuba Proposition 4.7, the actual DCκ conclusion. Strong LS closure
 captures short sequences of names. Bounded forcing tables reflect dense

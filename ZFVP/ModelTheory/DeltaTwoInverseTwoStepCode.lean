@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.DeltaOneTwoStepColumns
-import ZFVP.ModelTheory.DeltaOneTwoStepOrder
-import ZFVP.ModelTheory.DeltaTwoForcingLimitCodes
+module
+
+public import ZFVP.ModelTheory.DeltaOneTwoStepColumns
+public import ZFVP.ModelTheory.DeltaOneTwoStepOrder
+public import ZFVP.ModelTheory.DeltaTwoForcingLimitCodes
+
+@[expose] public section
 
 set_option maxRecDepth 8192
 set_option maxHeartbeats 800000

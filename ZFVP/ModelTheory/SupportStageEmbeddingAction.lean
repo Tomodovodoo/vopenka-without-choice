@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LimitRankRestriction
-import ZFVP.ModelTheory.EmbeddingAssignments
+module
+
+public import ZFVP.ModelTheory.LimitRankRestriction
+public import ZFVP.ModelTheory.EmbeddingAssignments
+
+@[expose] public section
 
 /-! Rank stages closed under successor act like correct stages for the hierarchy formula,
 and coded embeddings between them restrict to smaller stages. -/

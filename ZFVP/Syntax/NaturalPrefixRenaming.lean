@@ -1,4 +1,8 @@
-import ZFVP.Syntax.TemplatePrimrec
+module
+
+public import ZFVP.Syntax.TemplatePrimrec
+
+@[expose] public section
 
 /-! Uniform natural-number lists representing the schema parameter renamings. -/
 

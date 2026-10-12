@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.UsubaSaturatedIterand
-import ZFVP.ModelTheory.WoodinIterationInitial
-import ZFVP.SetTheory.ClassForcingTowerCodes
+module
+
+public import ZFVP.ModelTheory.UsubaSaturatedIterand
+public import ZFVP.ModelTheory.WoodinIterationInitial
+public import ZFVP.SetTheory.ClassForcingTowerCodes
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

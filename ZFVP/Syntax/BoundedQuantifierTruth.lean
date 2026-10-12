@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedTruthClauses
-import ZFVP.Syntax.BoundedAssignments
+module
+
+public import ZFVP.Syntax.BoundedTruthClauses
+public import ZFVP.Syntax.BoundedAssignments
+
+@[expose] public section
 
 /-! Bounded truth-table checks for guarded quantifiers. -/
 

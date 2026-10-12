@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SaturatedHartogsSuccessor
-import ZFVP.SetTheory.TwoStepRankBounds
-import ZFVP.ModelTheory.TwoStepRankDCForcingAgreement
+module
+
+public import ZFVP.ModelTheory.SaturatedHartogsSuccessor
+public import ZFVP.SetTheory.TwoStepRankBounds
+public import ZFVP.ModelTheory.TwoStepRankDCForcingAgreement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

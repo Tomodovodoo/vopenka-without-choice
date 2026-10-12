@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.PrimitiveProgramAgreement
-import ZFVP.Syntax.PrimitiveProgramListLength
-import ZFVP.SetTheory.FiniteSequences
+module
+
+public import ZFVP.ModelTheory.PrimitiveProgramAgreement
+public import ZFVP.Syntax.PrimitiveProgramListLength
+public import ZFVP.SetTheory.FiniteSequences
+
+@[expose] public section
 
 /-! Internal finite sequences decoded from all internal natural-number list codes. -/
 

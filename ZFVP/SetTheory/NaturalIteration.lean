@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.NaturalPredecessor
-import ZFVP.SetTheory.FunctionValue
-import Foundation.FirstOrder.SetTheory.Recursion
+module
+
+public import ZFVP.SetTheory.NaturalPredecessor
+public import ZFVP.SetTheory.FunctionValue
+public import Foundation.FirstOrder.SetTheory.Recursion
+
+@[expose] public section
 
 /-! Iteration of a definable operation through all internal natural numbers. -/
 

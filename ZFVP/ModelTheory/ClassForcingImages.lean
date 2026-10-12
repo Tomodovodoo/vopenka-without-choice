@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ClassForcingImageName
-import ZFVP.ModelTheory.ClassForcingPretameness
+module
+
+public import ZFVP.ModelTheory.ClassForcingImageName
+public import ZFVP.ModelTheory.ClassForcingPretameness
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

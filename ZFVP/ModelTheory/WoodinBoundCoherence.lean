@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinPrefixCoordinates
-import ZFVP.ModelTheory.WoodinQuotientBoundEquations
+module
+
+public import ZFVP.ModelTheory.WoodinPrefixCoordinates
+public import ZFVP.ModelTheory.WoodinQuotientBoundEquations
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

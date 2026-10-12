@@ -1,4 +1,8 @@
-import ZFVP.Syntax.FormulaSubstitutionComposition
+module
+
+public import ZFVP.Syntax.FormulaSubstitutionComposition
+
+@[expose] public section
 
 /-! Constructor equations for substitution, including the binder-lifted state. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.Cofinality
-import ZFVP.SetTheory.WitnessClosure
-import ZFVP.SetTheory.CodingUniverse
+module
+
+public import ZFVP.SetTheory.Cofinality
+public import ZFVP.SetTheory.WitnessClosure
+public import ZFVP.SetTheory.CodingUniverse
+
+@[expose] public section
 
 /-! No cofinal maps from low-rank sets gives Collection within the rank segment. -/
 

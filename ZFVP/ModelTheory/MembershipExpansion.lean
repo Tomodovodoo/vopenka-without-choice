@@ -1,5 +1,9 @@
-import ZFVP.Syntax.MembershipLanguageExtension
-import ZFVP.ModelTheory.CodedMembershipEmbedding
+module
+
+public import ZFVP.Syntax.MembershipLanguageExtension
+public import ZFVP.ModelTheory.CodedMembershipEmbedding
+
+@[expose] public section
 
 /-! Forgetting added symbols preserves all internally coded membership formulas. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.NormalizedTwoStepGenerics
-import ZFVP.ModelTheory.ForcingProjection
+module
+
+public import ZFVP.ModelTheory.NormalizedTwoStepGenerics
+public import ZFVP.ModelTheory.ForcingProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

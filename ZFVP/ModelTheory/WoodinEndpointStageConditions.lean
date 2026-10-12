@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinEndpointFiltration
-import ZFVP.SetTheory.ForcingStageConditions
+module
+
+public import ZFVP.ModelTheory.WoodinEndpointFiltration
+public import ZFVP.SetTheory.ForcingStageConditions
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

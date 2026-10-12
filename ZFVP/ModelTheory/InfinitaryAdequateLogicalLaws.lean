@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryAdequateEvaluation
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateEvaluation
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

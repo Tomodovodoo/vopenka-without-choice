@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinStageRuleComplexityOnIteration
-import ZFVP.ModelTheory.DeltaOneForcingCodeUnion
-import ZFVP.ModelTheory.DeltaOneWoodinHistoryTables
+module
+
+public import ZFVP.ModelTheory.WoodinStageRuleComplexityOnIteration
+public import ZFVP.ModelTheory.DeltaOneForcingCodeUnion
+public import ZFVP.ModelTheory.DeltaOneWoodinHistoryTables
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

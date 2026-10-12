@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LocalAtomicTruth
-import ZFVP.ModelTheory.ForcingModel
-import ZFVP.SetTheory.EndExtensionAtomicForcing
+module
+
+public import ZFVP.ModelTheory.LocalAtomicTruth
+public import ZFVP.ModelTheory.ForcingModel
+public import ZFVP.SetTheory.EndExtensionAtomicForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

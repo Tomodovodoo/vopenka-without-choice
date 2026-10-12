@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.TransitiveZFArithmetic
+module
+
+public import ZFVP.ModelTheory.TransitiveZFArithmetic
+
+@[expose] public section
 
 /-! The entire interpreted arithmetic is invariant under passage to a transitive ZF model. -/
 

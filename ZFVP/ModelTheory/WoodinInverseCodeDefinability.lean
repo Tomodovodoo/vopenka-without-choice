@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LimitCodeDefinability
-import ZFVP.ModelTheory.WoodinInverseStageBounds
-import ZFVP.ModelTheory.ForcingHartogsUniform
+module
+
+public import ZFVP.ModelTheory.LimitCodeDefinability
+public import ZFVP.ModelTheory.WoodinInverseStageBounds
+public import ZFVP.ModelTheory.ForcingHartogsUniform
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

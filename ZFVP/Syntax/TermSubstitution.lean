@@ -1,4 +1,8 @@
-import ZFVP.Syntax.TermEvaluation
+module
+
+public import ZFVP.Syntax.TermEvaluation
+
+@[expose] public section
 
 /-! Simultaneous substitution of internal bound and free variables by term codes. -/
 

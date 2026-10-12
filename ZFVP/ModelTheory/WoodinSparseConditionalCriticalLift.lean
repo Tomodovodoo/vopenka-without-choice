@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseAdjustedGeneric
-import ZFVP.ModelTheory.ForcingInternalLiftTransport
-import ZFVP.ModelTheory.WoodinSparseArbitraryCriticalLift
+module
+
+public import ZFVP.ModelTheory.WoodinSparseAdjustedGeneric
+public import ZFVP.ModelTheory.ForcingInternalLiftTransport
+public import ZFVP.ModelTheory.WoodinSparseArbitraryCriticalLift
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

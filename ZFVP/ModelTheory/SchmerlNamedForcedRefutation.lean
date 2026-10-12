@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlNamedRefutationTransport
-import ZFVP.ModelTheory.SchmerlNamedWeaklyRubinRealization
-import ZFVP.ModelTheory.SchmerlForcedWeaklyRubinConstruction
-import ZFVP.ModelTheory.CodedBinaryElementaryMap
+module
+
+public import ZFVP.ModelTheory.SchmerlNamedRefutationTransport
+public import ZFVP.ModelTheory.SchmerlNamedWeaklyRubinRealization
+public import ZFVP.ModelTheory.SchmerlForcedWeaklyRubinConstruction
+public import ZFVP.ModelTheory.CodedBinaryElementaryMap
+
+@[expose] public section
 
 set_option autoImplicit false
 namespace ZFVP.Schmerl

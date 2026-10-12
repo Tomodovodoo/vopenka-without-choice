@@ -1,5 +1,9 @@
-import ZFVP.Syntax.NaturalProofRewritingPrimrec
-import ZFVP.Syntax.GeneratedAxiomPrimrec
+module
+
+public import ZFVP.Syntax.NaturalProofRewritingPrimrec
+public import ZFVP.Syntax.GeneratedAxiomPrimrec
+
+@[expose] public section
 
 /-! Primitive recursive operations used by Foundation's first-order proof rules. -/
 

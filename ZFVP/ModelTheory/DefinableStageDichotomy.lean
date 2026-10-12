@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ConservativeRankExtension
-import ZFVP.ModelTheory.DirectedElementaryUnion
-import ZFVP.ModelTheory.CodedSequentSemantics
-import ZFVP.Syntax.MembershipRenaming
-import ZFVP.SetTheory.RankBounds
+module
+
+public import ZFVP.ModelTheory.ConservativeRankExtension
+public import ZFVP.ModelTheory.DirectedElementaryUnion
+public import ZFVP.ModelTheory.CodedSequentSemantics
+public import ZFVP.Syntax.MembershipRenaming
+public import ZFVP.SetTheory.RankBounds
+
+@[expose] public section
 
 /-! Definability inside a rank stage and auxiliary intersections over old parameters.
 

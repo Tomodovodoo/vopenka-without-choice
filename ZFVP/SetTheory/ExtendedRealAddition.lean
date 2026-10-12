@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RealCoverInfimum
+module
+
+public import ZFVP.SetTheory.RealCoverInfimum
+
+@[expose] public section
 
 /-! Addition of extended nonnegative cuts, including the full rational cut at infinity. -/
 

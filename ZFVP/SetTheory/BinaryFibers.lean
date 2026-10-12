@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.BinaryExpansionReals
-import ZFVP.SetTheory.BinaryPrefixSeparation
-import ZFVP.SetTheory.DedekindRealTopology
-import ZFVP.SetTheory.FiniteSets
+module
+
+public import ZFVP.SetTheory.BinaryExpansionReals
+public import ZFVP.SetTheory.BinaryPrefixSeparation
+public import ZFVP.SetTheory.DedekindRealTopology
+public import ZFVP.SetTheory.FiniteSets
+
+@[expose] public section
 
 /-! Every fiber of the actual binary map has at most two members. -/
 

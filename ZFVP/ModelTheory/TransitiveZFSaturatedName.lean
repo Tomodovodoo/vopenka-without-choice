@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TransitiveZFAtomicForcing
-import ZFVP.ModelTheory.TransitiveZFForcingOrders
-import ZFVP.SetTheory.ForcingSaturatedName
+module
+
+public import ZFVP.ModelTheory.TransitiveZFAtomicForcing
+public import ZFVP.ModelTheory.TransitiveZFForcingOrders
+public import ZFVP.SetTheory.ForcingSaturatedName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

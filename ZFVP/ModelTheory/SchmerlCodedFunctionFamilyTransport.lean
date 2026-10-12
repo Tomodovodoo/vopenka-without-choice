@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedFunctionFamily
-import ZFVP.ModelTheory.SchmerlCodedFunctionTransport
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedFunctionFamily
+public import ZFVP.ModelTheory.SchmerlCodedFunctionTransport
+
+@[expose] public section
 
 /-! A single actual relation records every selected finite domain. The family
 graphs and this relation commute with membership end extensions. -/

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SemanticStandardCodedZFModel
-import ZFVP.ModelTheory.SchmerlUniverseGraphs
+module
+
+public import ZFVP.ModelTheory.SemanticStandardCodedZFModel
+public import ZFVP.ModelTheory.SchmerlUniverseGraphs
+
+@[expose] public section
 
 /-! An external elementary map between represented structures has an actual
 internal graph preserving every internal formula code in Universe. -/

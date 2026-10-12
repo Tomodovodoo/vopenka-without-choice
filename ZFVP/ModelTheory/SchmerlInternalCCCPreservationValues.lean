@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingFunctionValues
-import ZFVP.SetTheory.MaximalAntichains
-import ZFVP.SetTheory.CountableSets
-import ZFVP.SetTheory.InternalChoice
+module
+
+public import ZFVP.ModelTheory.ForcingFunctionValues
+public import ZFVP.SetTheory.MaximalAntichains
+public import ZFVP.SetTheory.CountableSets
+public import ZFVP.SetTheory.InternalChoice
+
+@[expose] public section
 
 /-! Internal ccc bounds the possible checked values of an actual forcing name.
 Ground Choice selects one deciding condition per possible value. Their range

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.EndpointForcingAbsoluteness
-import ZFVP.ModelTheory.ForcingWindowTransfer
+module
+
+public import ZFVP.ModelTheory.EndpointForcingAbsoluteness
+public import ZFVP.ModelTheory.ForcingWindowTransfer
+
+@[expose] public section
 
 /-! # The two halves of the endpoint forcing agreement
 

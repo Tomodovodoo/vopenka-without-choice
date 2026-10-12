@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryConditionRealization
-import ZFVP.ModelTheory.InfinitaryConditionWitness
+module
+
+public import ZFVP.ModelTheory.InfinitaryConditionRealization
+public import ZFVP.ModelTheory.InfinitaryConditionWitness
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

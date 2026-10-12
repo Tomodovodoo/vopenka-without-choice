@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinCollapseInitialGeneric
-import ZFVP.SetTheory.WoodinCollapseRetraction
-import ZFVP.ModelTheory.WoodinCollapsePreservation
-import ZFVP.ModelTheory.ForcingRetractionSequences
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseInitialGeneric
+public import ZFVP.SetTheory.WoodinCollapseRetraction
+public import ZFVP.ModelTheory.WoodinCollapsePreservation
+public import ZFVP.ModelTheory.ForcingRetractionSequences
+
+@[expose] public section
 
 namespace ZFVP
 

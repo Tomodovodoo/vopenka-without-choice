@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinTailNameActionForcing
-import ZFVP.SetTheory.LevyForcingUniqueName
+module
+
+public import ZFVP.ModelTheory.WoodinTailNameActionForcing
+public import ZFVP.SetTheory.LevyForcingUniqueName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

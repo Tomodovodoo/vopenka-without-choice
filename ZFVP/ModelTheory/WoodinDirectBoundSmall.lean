@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinUniformTailSupport
-import ZFVP.ModelTheory.WoodinDirectIndex
+module
+
+public import ZFVP.ModelTheory.WoodinUniformTailSupport
+public import ZFVP.ModelTheory.WoodinDirectIndex
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

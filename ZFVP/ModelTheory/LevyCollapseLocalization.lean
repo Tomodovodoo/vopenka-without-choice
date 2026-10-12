@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.LevyCollapseSubmodel
-import ZFVP.SetTheory.LevyCollapseRowPermutations
-import ZFVP.SetTheory.ForcingFormulaNameAction
-import ZFVP.ModelTheory.ForcingFunctionValues
+module
+
+public import ZFVP.ModelTheory.LevyCollapseSubmodel
+public import ZFVP.SetTheory.LevyCollapseRowPermutations
+public import ZFVP.SetTheory.ForcingFormulaNameAction
+public import ZFVP.ModelTheory.ForcingFunctionValues
+
+@[expose] public section
 
 /-! Localization for the Levy collapse (lem:Solovay-localization, the homogeneity step): a
 condition forcing a statement about names for the subcollapse below `β` can be cut below `β`,

@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.QuotientSplitProjection
-import ZFVP.ModelTheory.SplitSeparativeOrder
-import ZFVP.ModelTheory.ForcingCompositionName
-import ZFVP.SetTheory.ForcingClosure
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.ModelTheory.QuotientSplitProjection
+public import ZFVP.ModelTheory.SplitSeparativeOrder
+public import ZFVP.ModelTheory.ForcingCompositionName
+public import ZFVP.SetTheory.ForcingClosure
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.RationalFiniteSumReindex
-import ZFVP.SetTheory.FiniteNaturalSets
-import ZFVP.SetTheory.SchroederBernstein
-import ZFVP.SetTheory.RealIntervalCovers
+module
+
+public import ZFVP.SetTheory.RationalFiniteSumReindex
+public import ZFVP.SetTheory.FiniteNaturalSets
+public import ZFVP.SetTheory.SchroederBernstein
+public import ZFVP.SetTheory.RealIntervalCovers
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

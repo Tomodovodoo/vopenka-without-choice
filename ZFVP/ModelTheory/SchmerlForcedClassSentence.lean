@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlForcedRubinConstruction
-import ZFVP.ModelTheory.SchmerlCodedSourceClassSentence
-import ZFVP.ModelTheory.ForcingCheckedTruth
-import ZFVP.ModelTheory.EndExtensionBinaryRelation
+module
+
+public import ZFVP.ModelTheory.SchmerlForcedRubinConstruction
+public import ZFVP.ModelTheory.SchmerlCodedSourceClassSentence
+public import ZFVP.ModelTheory.ForcingCheckedTruth
+public import ZFVP.ModelTheory.EndExtensionBinaryRelation
+
+@[expose] public section
 
 /-! The two forcing steps produce the checked fixed class-tree sentence
 from an actual countable original model and an actual fragment coding. -/

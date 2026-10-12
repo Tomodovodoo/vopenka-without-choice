@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.OrdinalProductBound
-import ZFVP.SetTheory.OrdinalIndexedChoice
-import ZFVP.SetTheory.WellOrderedCardinal
+module
+
+public import ZFVP.SetTheory.OrdinalProductBound
+public import ZFVP.SetTheory.OrdinalIndexedChoice
+public import ZFVP.SetTheory.WellOrderedCardinal
+
+@[expose] public section
 
 namespace ZFVP
 

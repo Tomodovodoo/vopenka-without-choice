@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinTailNameOrderAction
+module
+
+public import ZFVP.ModelTheory.WoodinTailNameOrderAction
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

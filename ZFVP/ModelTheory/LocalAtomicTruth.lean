@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LocalAtomicSoundness
+module
+
+public import ZFVP.ModelTheory.LocalAtomicSoundness
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

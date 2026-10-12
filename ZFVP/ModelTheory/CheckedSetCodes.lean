@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingModelRank
-import ZFVP.SetTheory.GodelPairing
-import ZFVP.SetTheory.EndExtensionCollapseDescent
-import ZFVP.SetTheory.SetCodes
+module
+
+public import ZFVP.ModelTheory.ForcingModelRank
+public import ZFVP.SetTheory.GodelPairing
+public import ZFVP.SetTheory.EndExtensionCollapseDescent
+public import ZFVP.SetTheory.SetCodes
+
+@[expose] public section
 
 /-! Set codes across a forcing extension.
 

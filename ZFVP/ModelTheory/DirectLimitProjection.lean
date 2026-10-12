@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingSectionThread
-import ZFVP.SetTheory.ForcingThreadMaps
-import ZFVP.ModelTheory.ForcingProjection
+module
+
+public import ZFVP.SetTheory.ForcingSectionThread
+public import ZFVP.SetTheory.ForcingThreadMaps
+public import ZFVP.ModelTheory.ForcingProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

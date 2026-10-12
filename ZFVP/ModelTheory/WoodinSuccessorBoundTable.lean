@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SuccessorCoherentBounds
-import ZFVP.ModelTheory.WoodinSuccessorUnionBounds
-import ZFVP.ModelTheory.WoodinIterationInvariant
+module
+
+public import ZFVP.ModelTheory.SuccessorCoherentBounds
+public import ZFVP.ModelTheory.WoodinSuccessorUnionBounds
+public import ZFVP.ModelTheory.WoodinIterationInvariant
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

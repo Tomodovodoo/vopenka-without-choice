@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InverseTwoStepCode
-import ZFVP.ModelTheory.SaturatedCollapseBounds
+module
+
+public import ZFVP.ModelTheory.InverseTwoStepCode
+public import ZFVP.ModelTheory.SaturatedCollapseBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

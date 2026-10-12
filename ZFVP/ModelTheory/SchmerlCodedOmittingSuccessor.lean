@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedCofinalSuccessor
-import ZFVP.ModelTheory.InternalNamedFiniteOmission
-import ZFVP.ModelTheory.InternalNamedSeparationOmission
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedCofinalSuccessor
+public import ZFVP.ModelTheory.InternalNamedFiniteOmission
+public import ZFVP.ModelTheory.InternalNamedSeparationOmission
+
+@[expose] public section
 
 /-! A single actual successor meeting both omission families and every cofinal
 background demand. Only density of the two omission families is left as an

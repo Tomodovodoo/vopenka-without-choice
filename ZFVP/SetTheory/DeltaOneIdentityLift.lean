@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.LevyGraphAssembly
-import ZFVP.SetTheory.BoundedProduct
-import ZFVP.SetTheory.BoundedIdentity
-import ZFVP.SetTheory.ForcingLiftExtension
+module
+
+public import ZFVP.SetTheory.LevyGraphAssembly
+public import ZFVP.SetTheory.BoundedProduct
+public import ZFVP.SetTheory.BoundedIdentity
+public import ZFVP.SetTheory.ForcingLiftExtension
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

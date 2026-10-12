@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingAtomicSemanticConsequence
-import ZFVP.ModelTheory.UsubaRestorationClosure
-import ZFVP.ModelTheory.TransportedTwoStepSequence
-import ZFVP.ModelTheory.QuotientClosureComposition
+module
+
+public import ZFVP.ModelTheory.ForcingAtomicSemanticConsequence
+public import ZFVP.ModelTheory.UsubaRestorationClosure
+public import ZFVP.ModelTheory.TransportedTwoStepSequence
+public import ZFVP.ModelTheory.QuotientClosureComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

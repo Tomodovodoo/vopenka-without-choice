@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InfinitaryRenaming
-import ZFVP.ModelTheory.UncountableQuantifierLaws
-import Foundation.FirstOrder.Basic.Operator
+module
+
+public import ZFVP.ModelTheory.InfinitaryRenaming
+public import ZFVP.ModelTheory.UncountableQuantifierLaws
+public import Foundation.FirstOrder.Basic.Operator
+
+@[expose] public section
 
 /-! Equality and the two-point smallness axiom in standard Q semantics. -/
 

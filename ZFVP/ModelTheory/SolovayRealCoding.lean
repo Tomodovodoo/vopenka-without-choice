@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.GroundRealsHOD
-import ZFVP.ModelTheory.SolovayHODBridge
-import ZFVP.ModelTheory.SolovayModel
-import ZFVP.SetTheory.NaturalPairing
-import ZFVP.SetTheory.NaturalPredecessor
+module
+
+public import ZFVP.ModelTheory.GroundRealsHOD
+public import ZFVP.ModelTheory.SolovayHODBridge
+public import ZFVP.ModelTheory.SolovayModel
+public import ZFVP.SetTheory.NaturalPairing
+public import ZFVP.SetTheory.NaturalPredecessor
+
+@[expose] public section
 
 /-! The coding bridge between the two descriptions of the reals of a forcing extension: the HOD
 track allows as parameters the subsets of `ω̌`, while the symmetric track produces subsets of

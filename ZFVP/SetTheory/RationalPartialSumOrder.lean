@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RationalPartialSums
+module
+
+public import ZFVP.SetTheory.RationalPartialSums
+
+@[expose] public section
 
 /-! Shift decomposition and monotonicity for nonnegative internal rational sums. -/
 

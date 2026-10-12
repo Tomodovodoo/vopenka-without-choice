@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FunctionClosureClub
-import ZFVP.ModelTheory.SchmerlInternalCodedChainUnion
+module
+
+public import ZFVP.SetTheory.FunctionClosureClub
+public import ZFVP.ModelTheory.SchmerlInternalCodedChainUnion
+
+@[expose] public section
 
 /-! The actual internal club on which a continuous countable carrier chain
 agrees with its ordinal labels. -/

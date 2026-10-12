@@ -1,0 +1,274 @@
+\documentclass[11pt,a4paper]{amsart}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,mathtools,microtype}
+\usepackage[hidelinks]{hyperref}
+\urlstyle{same}
+\newcommand{\ZF}{\ensuremath{\mathsf{ZF}}}
+\newcommand{\ZFC}{\ensuremath{\mathsf{ZFC}}}
+\newcommand{\AC}{\ensuremath{\mathsf{AC}}}
+\newcommand{\VP}{\ensuremath{\mathsf{VP}}}
+\newcommand{\DC}{\ensuremath{\mathsf{DC}}}
+\newcommand{\HS}{\ensuremath{\mathsf{HS}}}
+\newcommand{\Ord}{\ensuremath{\mathrm{Ord}}}
+\newcommand{\Def}{\ensuremath{\operatorname{Def}}}
+\newcommand{\HOD}{\ensuremath{\operatorname{HOD}}}
+\newcommand{\crit}{\ensuremath{\operatorname{crit}}}
+\newcommand{\rank}{\ensuremath{\operatorname{rank}}}
+\newcommand{\cf}{\ensuremath{\operatorname{cf}}}
+\newcommand{\Coll}{\ensuremath{\operatorname{Coll}}}
+\newcommand{\LM}{\ensuremath{\mathsf{LM}}}
+\newcommand{\BP}{\ensuremath{\mathsf{BP}}}
+\newcommand{\PSP}{\ensuremath{\mathsf{PSP}}}
+\newcommand{\Con}{\ensuremath{\operatorname{Con}}}
+\newcommand{\restr}{\mathbin{\upharpoonright}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\title[Supplementary proofs]{Supplementary proofs for\\ Vop\v{e}nka's principle without Choice}
+\author{Tom de Groot}
+\author{Wojciech Aleksander Wo{\l}oszyn}
+\date{12 October 2026}
+\hypersetup{pdftitle={Supplementary proofs for Vopenka's principle without Choice},pdfauthor={Tom de Groot and Wojciech Aleksander Woloszyn}}
+\begin{document}
+\begin{abstract}
+We give the construction and lifting arguments used in the consistency transfer, the full Solovay identification, and the membership-language end-extension theorem. We also describe the interpretation of the principal conclusions in the Lean formalization. All references to numbered results in the paper refer to \emph{Vop\v{e}nka's Principle without Choice: Preservation under Symmetric Extensions}.
+\end{abstract}
+\maketitle
+
+\section{Conventions}
+The object universe satisfies \ZF. Uses of Choice in external model constructions take place in an ambient \ZFC\ universe. Dependent choice $\DC_\xi$ concerns histories of ordinal length $\xi$. A forcing has a largest condition, and stronger conditions are smaller. Quotient closure is measured in the separative preorder: $p\leq^*q$ means that every extension of $p$ is compatible with $q$.
+
+Woodin supercompactness has the small-embedding meaning of \cite[Definition 220 and Lemma 222]{Woodin}, equivalently the definition used in the paper. The complete code of an iteration prefix consists of its carriers, orders, largest conditions, projections, inclusions, prefix-replacement maps and cutoff table. These data determine the bounded coordinate-name pools. A marked stage has its cutoff equal to its index.
+
+The mathematical arguments below use ordinary set forcing and its truth theorem in \ZF, the cited large-cardinal characterizations, the omitting-types theorem and standard-$Q$ completeness. The implementation represents the same operations by internal sets and formula codes. Definitions, statements and exported proofs can be read in the \href{https://github.com/Tomodovodoo/vopenka-without-choice}{companion repository}.
+
+\section{Fragments, finite syntax and model interpretation}\label{sec:syntax}
+For a fixed standard formula of positive L\'evy level, symmetric forcing has a definition of the same polarity and level. The atomic recursion is witnessed by tables on a subname-closed set. Existence and uniqueness give two presentations of its bounded part, hence a $\Delta_1$ definition. Bounded quantifiers range over the supplied domains. The existential clause asks for a hereditarily symmetric witness on a dense set; its condition quantifiers range over the set forcing. Collection gathers the required certificates. Negation gives the dual clause. Induction on a fixed formula gives the positive-level bound.
+
+The rank supply in paper Lemma 3.2 follows from $\VP(\Pi_1)$. The structures with universe $V_{\lambda+\omega}$, membership, a constant for $\lambda$, and constants for a fixed low rank form a $\Pi_1$ class. An elementary embedding between distinct members has a critical point $\kappa$ above that fixed rank. It fixes every member of $V_\kappa$. A cofinal map $f:a\to\kappa$, $a\in V_\kappa$, would have an image cofinal in $j(\kappa)$ with the same domain and values, a contradiction. The rank criterion therefore gives $V_\kappa\models\ZF$. In Corollary 3.4 the ambient height
+\[
+h_\alpha=\max\{\theta_\alpha,\rank(d_\alpha)\}+\omega
+\]
+contains both the selected rank and its leastness certificate. Its definition is $\Delta_1$ once those objects are supplied.
+
+\begin{lemma}\label{lem:finite}
+For any finite set $F$ of parameterized arbitrary-language VP instances, a natural number $N\geq1$ can be computed such that
+\[
+\ZF+\text{``the $C^{(N)}$-extendible cardinals are unbounded''}\vdash F.
+\]
+\end{lemma}
+\begin{proof}
+Fix the formulas defining the finitely many classes, with their language and set parameters as free variables. Include the fixed formulas for structure codes, internally finite syntax and satisfaction. Eliminate the defined predicates and compute a prenex complexity bound for both polarities of every resulting formula. The rank-embedding argument of paper Lemma 5.1 needs a correctness level bounded by these finitely many syntactic numbers. This number is independent of the values of the language and parameters. At that level, choose an extendible cardinal above their ranks. The embedding preserves the language and its interpretations, and the reflected structures and embeddings meet the original instance. Take the maximum of the finitely many sufficient levels. This is an effective operation on the fixed formula codes.
+\end{proof}
+
+In a consistency argument the countable model need not be externally well-founded. For a generic $H$ over such a model, use its internal names. Set $\sigma\equiv_H\tau$ if some $p\in H$ internally forces $\sigma=\tau$, and put $[\sigma]\in_H[\tau]$ if some $p\in H$ internally forces $\sigma\in\tau$. Atomic forcing makes membership independent of representatives. The Boolean and quantifier induction gives the truth theorem for every standard formula. All recursions used here are recursions inside the ground model. External countability supplies a generic meeting its countable collection of dense sets.
+
+Each finite fragment of $\ZFC+\VP$ is obtained by applying paper Theorem 5.11 at the computed level of Lemma~\ref{lem:finite}. First-order compactness gives a model of the full theory. The completeness theorem identifies this model-existence assertion with syntactic consistency.
+
+\section{The completed Woodin iteration}\label{sec:woodin}
+\subsection{Construction and quotient bounds}
+Assume $\neg\AC$. Let $\mu$ be the least failure of dependent choice and let $\Omega>\mu$ be Woodin supercompact. The least-failure ordinal is an infinite regular cardinal. Indeed, at a singular least failure, dependent choice along a cofinal sequence joins coherent blocks constructed with the smaller dependent-choice principles. Small-embedding reflection places $\mu$ below every Woodin supercompact.
+
+For infinite regular $\nu$, let $C_\nu^\kappa$ consist of partial functions on $\nu\times\kappa$ whose domains have size below $\nu$ and whose values at $(i,\xi)$ lie in $V_{1+\xi}$. Order conditions by reverse inclusion. Its parameters are interpreted in the extension preceding the collapse.
+
+Start with the trivial completed forcing $P_0$ and cutoff $c_0=\mu$. At a successor, choose the least ground strongly inaccessible $c_{i+1}>c_i$ such that
+\[
+P_i*\dot C_{c_i}^{c_{i+1}}\Vdash
+\operatorname{Reg}(c_{i+1})\land\DC_{<c_{i+1}},
+\]
+and let that two-step forcing be $P_{i+1}$. At a limit $i$, put $\lambda=\sup_{j<i}c_j$. If $\lambda$ is ground strongly inaccessible, take the direct limit and set $c_i=\lambda$. Otherwise take the raw inverse limit $R_i$, retaining all earlier direct-limit support restrictions. In the raw extension put $d=(\lambda^+)^{V[H]}$. Append $C_d^{c_i}$ at the least successful ground inaccessible cutoff. Weak homogeneity makes $d$ a fixed ordinal.
+
+Here are the bounds that justify this recursion. The collapse theorem \cite[Lemma 225]{Woodin}, applied with a small prefix, gives regularity of a bounding supercompact and dependent choice below it. A small ground embedding with critical point above the prefix and the prescribed bound reflects the successful collapse to that critical point. Strengthened $\Sigma_1$ correctness identifies the reflected DC assertion with DC in the full extension. Thus a successful cutoff can be chosen strictly below every bounding supercompact. No assertion that the prefix preserves its supercompactness enters this argument.
+
+For each completed prefix $i$, a later quotient has lower bounds for directed families with an ordinal enumeration of length below $c_i$. To construct a bound, use one prefix-forcing name for the enumeration. At each coordinate collect all possible graph entries together with the ground conditions deciding them. Guard each entry by its deciding condition and the already constructed prefix. Directedness makes overlapping values agree. Regularity of the lower collapse index bounds the union's domain. At an inaccessible direct cut, the possible support bounds are indexed by a ground set of smaller rank; strong inaccessibility bounds their union. The coordinate recursion therefore produces a legal condition, including at inverse limits. It is a lower bound in the separative quotient order. This construction takes specified unions and requires no choices of coordinate lower bounds.
+
+Applying this bound to descending condition-and-name histories proves preservation of earlier DC and absence of new shorter sequences of old sets. In the raw inverse extension it gives $\DC_{<\lambda}$. Failure of ground strong inaccessibility is witnessed by an unbounded map from some $V_\rho$, $\rho<\lambda$, to $\lambda$. An earlier collapse enumerates its domain, so $\lambda$ becomes singular. Dependent choice at $\cf(\lambda)$ builds coherent blocks, proving $\DC_\lambda$. Every ordinal below the raw extension's own $\lambda^+$ has cardinality at most $\lambda$, so
+\[
+R_i\Vdash\DC_{<(\lambda^+)^{V[\dot H]}}
+\land\operatorname{Reg}((\lambda^+)^{V[\dot H]}).
+\]
+Regularity follows by using $\DC_\lambda$ to bound a proposed shorter cofinal sequence in $\lambda^+$. This establishes the premises for the appended collapse.
+
+Simultaneous induction bounds the completed forcing and cutoff below $\Omega$ at every index below $\Omega$. Repeat the induction with any ground supercompact $\delta\leq\Omega$ as bound. It gives $i\leq c_i<\delta$ for $i<\delta$, so the supremum at $\delta$ is $\delta$ and the direct rule makes $\delta$ marked.
+
+Use bounded normalized coordinate names, literal prefix inclusions and restriction projections. The normalization fixes its image, is order-equivalent to the identity, and commutes with prefixes. The successor, direct and inverse constructors transport names and their evaluations along these fixed normalizers. Induction on the constructors gives one coherent sparse presentation with the same generics and separative quotients. Each operation is defined by set recursion and has a fixed finite first-order complexity bound. At a supercompact endpoint, $C^{(2)}$ correctness makes the positive DC tests and their failures agree with the universe. Supplied recursion histories and bounded operation tables therefore define the actual completed prefixes there. The complete code $a_\eta$ at a marked $\eta$ belongs to $V_{\eta+\omega}$.
+
+The same induction gives the enumeration invariant
+\begin{equation}\label{eq:enum}
+V[G_i]\models\forall\rho<i\ \exists\nu<c_i\ \exists f:\nu\twoheadrightarrow V_\rho.
+\end{equation}
+At a successor the actual collapse enumerates the earlier ranks. Their short enumerations and the quotient bound imply that the tail adds no subsets of them: pull a proposed subset back to the enumeration and use absence of new short sequences. At a limit, for a fixed $\rho$, choose $i=\rho+1$ below the limit and retain that enumeration. This proves the invariant at the endpoint as well.
+
+At a marked $\eta$, equation~\eqref{eq:enum} supplies Choice in the final rank. Its regular cutoff bounds ranks of outputs of each definable function on a set, giving Replacement. The other ZF axioms follow from low-name evaluation and transitivity. Consequently
+\begin{equation}\label{eq:rank}
+(V[G])_\eta=V_\eta[G\cap P_\eta]=(V[G\cap P_\eta])_\eta\models\ZFC.
+\end{equation}
+Coordinate row permutations give weak homogeneity. They can fix any specified earlier completed prefix. If $t\in P_\Omega$ has its $i$-prefix in $G_i$, use the supported row permutations and their coherent inverses to obtain a generic $G^*$ with
+\begin{equation}\label{eq:move}
+t\in G^*,\qquad G_i^*=G_i,\qquad V[G^*]=V[G].
+\end{equation}
+
+\subsection{The marked-rank lift}
+\begin{theorem}\label{thm:lift}
+Let $G\subseteq P_\Omega$ be generic. Suppose $J:V_{\bar\gamma+\omega}\to V_{\gamma+\omega}$ is elementary,
+\[
+J(\bar\gamma)=\gamma<\Omega,\quad
+\bar\delta=\crit(J)<\bar\gamma<J(\bar\delta)=\delta,
+\quad c_\gamma=\gamma,\quad J(a_{\bar\gamma})=a_\gamma.
+\]
+Then $\bar\gamma$ is marked and there is an elementary map
+\[
+e:(V[G])_{\bar\gamma}\longrightarrow(V[G])_\gamma
+\]
+agreeing with $J$ on ground members of $V_{\bar\gamma}$. Its critical point is $\bar\delta$, it sends $\bar\delta$ to $\delta$, and its graph has rank below $\gamma+\omega<\Omega$.
+\end{theorem}
+\begin{proof}
+The captured cutoff table gives $c_{\bar\gamma}=\bar\gamma$. For $i<\bar\delta$, both $i$ and $c_i$ are fixed by $J$. If $c_i\geq\bar\delta$, their equality would give $c_i=J(c_i)\geq\delta>\bar\gamma$, a contradiction. Thus $c_i<\bar\delta$.
+
+Rank induction shows that $J$ fixes $V_{\bar\delta}$ pointwise. A ground unbounded map $V_\xi\to\bar\delta$, $\xi<\bar\delta$, would have an image unbounded in $\delta$ with the same values, a contradiction. Hence $\bar\delta$ is ground strongly inaccessible. The inequalities $i\leq c_i<\bar\delta$ make it marked, and elementarity makes $\delta$ marked.
+
+Projection covariance gives, for $q\in G_{\bar\gamma}$,
+\[
+J(q)\restr\delta=J(q\restr\bar\delta)=q\restr\bar\delta\in G_\delta.
+\]
+In the ambient $V[G_\delta]$, the directed set $J''G_{\bar\gamma}$ lies in $P_\gamma/G_\delta$. By \eqref{eq:enum} its source has an ordinal enumeration of length below $\delta$. The quotient bound supplies a master condition $t$. Equation~\eqref{eq:move} gives $G^*$ with $t\in G^*$, the same $\delta$-prefix and the same full extension. A generic containing a separative lower bound contains every member of the bounded family. Therefore $J''G_{\bar\gamma}\subseteq G_\gamma^*$, and the source generic is unchanged.
+
+Let $N_\eta$ be the $P_\eta$-names in $V_\eta$. The bounded low-name test and the captured hierarchy give $J(N_{\bar\gamma})=N_\gamma$. Atomic forcing tables and the finite formula/assignment recursion tables belong to $V_{\eta+\omega}$. Their equations are bounded in the supplied sets and have unique solutions, so $J$ transports the source tables to the target tables. The truth theorem makes
+\[
+e(\tau^{G_{\bar\gamma}})=J(\tau)^{G_\gamma^*}\qquad(\tau\in N_{\bar\gamma})
+\]
+well defined and elementary. Equation~\eqref{eq:rank} identifies its domain and codomain. Check names give ground agreement. Replacement forms the graph, whose pairs have a fixed finite rank buffer above $\gamma$.
+\end{proof}
+
+\subsection{Low-name truth and finite windows}
+At a marked endpoint $\eta$, every low name uses a bounded prefix. Bound the least prefix indices of the conditions in its subname closure using strong inaccessibility. Bounded forcing can therefore be computed at a prefix containing the names and the condition; complete projections make this independent of the prefix. Extend the relation by Boolean connectives and the existential density clause over names in $V_\eta$.
+
+For a prefix generic induced by an ambient iteration generic, each decision or witness class definable over $V_\eta$ is externally a ground set. The generic meets these classes. Induction on the formula gives truth in the low-name structure, which is $(V[G])_\eta$ by \eqref{eq:rank}. Translate a fixed-level partial satisfaction formula, including both polarities, to obtain one uniform formula $\vartheta_k$ for that level. Assign a fixed value to invalid codes.
+
+Let $\mathcal D$ be the finite list defining the actual presentation and its complete codes. Predicate elimination gives a finite ground correctness level $r_k$ containing the complexity of $\vartheta_k$ and its negation. If $\theta<\Lambda$ are the supercompact endpoints used in the paper and both have this correctness, low-name forcing for $q\in P_\theta$ agrees at the two endpoints. Soundness and truth then give
+\[
+(V[G])_\theta\prec_{\Sigma_k}(V[G])_\Lambda.
+\]
+For example, truth at the smaller endpoint yields a forcing condition in $G_\theta$, which transfers to the larger endpoint. Applying this implication to the negated formula gives the converse.
+
+In finite restoration capture $x=a_\theta$ in the reflected tuple. The reflected predicate identifies its preimage with $a_{\bar\theta}$, so the restriction of the ground embedding retains $J(a_{\bar\theta})=a_\theta$. Theorem~\ref{thm:lift} gives the required embedding directly. The finite-window calculation gives the correctness of both final ranks. The small-embedding characterization of $C^{(n)}$-extendibility \cite[Corollary 2.7]{BagariaPoveda} then proves the conclusion of paper Theorem 5.11.
+
+\section{The full Solovay model}\label{sec:solovay}
+Let $V\models\ZFC$, let $\kappa$ be measurable, and let $G$ be generic for $\Coll(\omega,{<}\kappa)$. Write $R$ for the reals of $V[G]$ and
+\[
+S=\HOD_{V\cup R}^{V[G]}.
+\]
+\begin{lemma}
+The model $S$ satisfies $\ZF+\DC+\LM+\BP+\PSP$, and $\omega_1^S=\kappa$.
+\end{lemma}
+\begin{proof}
+Apply the regularity arguments of \cite[III.1.3--III.1.11]{Solovay} with a ground-set parameter and a real parameter. A real has bounded collapse support. Quotient homogeneity localizes every ordinal set defined from these parameters to that bounded extension. For sequence closure, the $\kappa$-chain condition bounds the possible values of a countable sequence of ground parameters by a ground set of size below $\kappa$. A sufficiently late bounded collapse makes this set countable. Its enumeration and the sequence of real parameters can be coded by one real. The sequence-closure argument of \cite[III.2.4--III.2.11]{Solovay} therefore applies in the hereditary model and supplies DC. The localized measure and category approximations give LM and BP; the tree construction gives the perfect-set dichotomy with the same parameters. All ordinals below $\kappa$ are countable in $S$, while the $\kappa$-chain condition preserves its uncountability.
+
+For the ordinary-real interpretation use rational interval covers and their countable sums. Binary expansion maps Cantor space onto $[0,1]$, with a countable exceptional set of ambiguous expansions. Null envelopes transfer along cylinder intervals. Compact restriction of the expansion map away from these fibers transfers Baire and perfect-set assertions. Countable integer translates cover the real line. These constructions take place internally under DC and give the ordinary-real LM, BP and PSP statements used in the paper.
+\end{proof}
+
+\begin{proposition}\label{prop:symmetric}
+The model $S$ is obtained from a set-sized symmetric system in $V$.
+\end{proposition}
+\begin{proof}
+Let $B$ be the Boolean completion of the collapse, $H$ the induced generic and $\dot R$ the canonical Boolean class name for all reals. It is invariant under $\operatorname{Aut}(B)$ and self-reflecting: a fixed ground real has the same stabilizer and is forced to belong to it. Use the orbit system $\mathcal O(B,\dot R)$ of \cite[Definitions 9.1--9.2 and Proposition 9.4]{KaragilaSchilhan}.
+
+The comparison generics in the orbit argument are defined as follows. Let $T\in V$ be the set of canonical Boolean names for subsets of $B$. Among the $V$-generics $H'\in V[H]$, require
+\[
+\forall X\subseteq B\text{ in }V[H]\ \exists\tau\in T\quad X=\tau^{H'}.
+\]
+This uses ground parameters only. The actual $H$ satisfies it. Applying it to $X=H$ gives $H\in V[H']$, hence $V[H']=V[H]$. Thus these generics meet the hypothesis of the orbit-comparison lemma \cite[Lemma 9.3]{KaragilaSchilhan}. Its definability argument yields both inclusions between the hereditarily symmetric interpretations and $\HOD_{V\cup R}^{V[H]}$. The Boolean algebra, its automorphism group and the generated normal filter are sets in $V$, so the symmetric system is set-sized.
+\end{proof}
+
+Apply paper Theorem A to Proposition~\ref{prop:symmetric}. The localized ground measure extends to the ultrafilter in paper Lemma 8.3: every internal sequence of fewer than $\kappa$ measure-one sets localizes to one small-forcing extension, where the extended measure is $\kappa$-complete. This gives the full ordinary-real Solovay consistency consequence, including its ultrafilter clause.
+
+\section{The membership-language existence theorem}\label{sec:enayat}
+\begin{theorem}\label{thm:end}
+Every countable model $M_0\models\ZF$ has an elementary extension of cardinality $\aleph_1$ with no proper end extension satisfying \ZF.
+\end{theorem}
+\begin{proof}
+Work in ambient \ZFC. The construction has three parts: an elementary chain with definable class filters, simultaneous tree specialization, and standard-$Q$ transfer. We give the inputs needed for the membership reduct.
+
+\emph{Elementary successors.} For a countable model $M$, enumerate its parametrically definable directed orders without a last element. Add a constant $d_i$ above all old points of each order, together with the complete elementary diagram. If a sentence uses finitely many $d_i$, abstract them to a tuple $s$ and call the resulting formula $\sigma^*(s)$. Consistency with the upper-bound theory is equivalent to
+\[
+M\models\forall r\ \exists s\,
+\bigl[\bigwedge_i r_i<_i s_i\land\sigma^*(s)\bigr].
+\]
+A failure supplies a finite refutation using the witnessing old bounds. Conversely, every finite collection of upper-bound constraints is realized by the displayed simultaneous block and directedness. Its dual is the eventual assertion $\exists r\,\forall s>r\,\neg\sigma^*(s)$.
+
+For an inseparable pair $U,W$ in $M$, omit the types asserting that a new-parameter formula separates the pair. If a consistent $\theta(x)$ isolated such a type, form the two old predicates saying eventually that no $\theta$-witness makes $\psi(v,x)$ false, respectively true. They contain $U$, respectively $W$. They are disjoint: combine their eventual bounds and use the simultaneous block to obtain one common $\theta$-witness. They would separate $U,W$, a contradiction.
+
+For each internally finite old set $a$, also omit
+\[
+\{x\in a\}\cup\{x\ne m:m\in^M a\}.
+\]
+Finite-set induction inside $M$ combines the eventual bounds excluding its members. The simultaneous block then contradicts the assertion that a witness belongs to $a$. This permits an internally finite set to have an externally infinite trace. A countable Henkin schedule decides sentences, supplies existential witnesses and omits all these types. Its quotient model gives an elementary successor with the prescribed upper bounds, preservation of the inseparable pairs and no new members of old finite sets.
+
+\emph{The chain.} Under $\diamondsuit$, iterate these successors through $\omega_1$. At limit stages take elementary unions. Schedule all definable directed orders and use the diamond guesses to record candidate class filters and their separating types. Every order without a maximum acquires a cofinal $\omega_1$-chain. A maximally compatible class filter with such a chain is parametrically definable in the membership language: a correct stationary guess makes an undefinable candidate inseparable from its complement, and the successor omission preserves that inseparability. A defining parameter in the final union would occur at a later countable stage and contradict the preserved pair. Old finite sets keep their members, so each internally finite trace is externally countable.
+
+Consider the class tree of pairs $(x,\alpha)$ with $x\subseteq V_\alpha$, ordered by restriction. Every cofinal branch is a definable class. For each internally infinite $s$, choose a cofinal $\omega_1$-chain $C_s$ of internally finite subsets. The binary functions on these domains form a second tree. A cofinal branch $B$ generates
+\[
+F_B=\{p\in\operatorname{Fin}^M(s,2):\exists b\in B\ p\subseteq b\}.
+\]
+This filter is maximally compatible, since every finite domain is contained in a later selected domain. Its class definition yields, by Separation on the internal finite-function set, a member-code for the full filter. There are at most $\aleph_1$ branches of each tree, from the membership-language definitions or filter codes.
+
+\emph{Specialization.} Restrict the rank orders to cofinal copies of $\omega_1$, enumerate the branches and remove each tail beyond a marker after its divergences from earlier branches. The remaining cores have only countable chains. Finite colorings of their tagged disjoint union, assigning different colors to comparable points, give a ccc specialization forcing. Its square is the same finite-coloring forcing on two disjoint copies and is ccc. The anchor maps extend the colorings to the full trees.
+
+For completeness, this forcing preserves the old cofinal branches. For a branch name, choose a maximal antichain of pairs of conditions forcing incompatible nodes in its two copies. Square ccc makes the antichain countable; bound all its splitting ranks by $\gamma$. Below any condition choose $q$ forcing a node above $\gamma$. The pair $(q,q)$ is incompatible with every antichain member. No two extensions of $q$ can force splitting nodes, by maximality. The possible nodes below $q$ therefore form an old cofinal branch, and such $q$ are dense.
+
+\emph{A fixed infinitary sentence.} Use the countable membership language with constants for $M_0$ and finitely many relations for rank orders, selected domains and color graphs. Form one $L_{\omega_1,\omega}(Q)$ sentence containing the elementary diagram, ZF and the following clauses. A selected rank class $D$ is uncountable, cofinal and has countable bounded parts:
+\[
+(Qd)D(d),\qquad
+\forall a\,\neg(Qd)(D(d)\land d\leq a),\qquad
+\forall a\,\exists d\in D\ (a\leq d).
+\]
+The color range is countable. The weak coloring satisfies
+\[
+x\leq y,z\ \land f(x)=f(y)=f(z)\ \Longrightarrow\ y\leq z\ \lor z\leq y.
+\]
+For every selected $b$, its comparable predecessors and its same-colored successors, with downward closure, define a branch candidate. Every cofinal branch is such a candidate: an uncountable-cofinality rank order and a countable color range give a color occurring cofinally. Require each cofinal class-tree candidate to have one of the countably many membership-language definitions with finite parameter tuples. For a function-tree candidate require a code for its entire generated finite-function filter. Include countability of each internally finite member trace. These are fixed countable disjunctions and quantified clauses; the language does not depend on the later uncountable carrier.
+
+The specialized extension satisfies this sentence. The named-model application uses a coding ground containing the elementary-diagram names and the countable support of any proposed syntactic refutation. Perform the diamond and specialization constructions there. Soundness in the $\omega_1$-preserving extension excludes that refutation, and standard-$Q$ completeness \cite{Keisler} supplies a standard model of the named sentence. Standard-$Q$ semantics are preserved by $\omega_1$-preserving extensions. Close an $\aleph_1$-sized set under existential witnesses and $\aleph_1$ distinct witnesses for each true $Q$ formula. Structural induction on the fragment shows that the resulting submodel still satisfies the sentence and has size $\aleph_1$.
+
+\emph{End extensions.} Let $M$ be its membership reduct. An amenable class gives a branch of the class tree, hence has a membership-language definition. Thus $M$ is rather classless. In a ZF end extension, each binary function on an old set restricts to old functions on the selected internally finite domains. These restrictions form a branch; its full filter has a code $m\in M$, and its union is the given binary function. All subsets of old sets are therefore old. The trace of any class definable in the extension is amenable, hence definable in $M$. Such an end extension is conservative. The conservative-end-extension theorem for ZF \cite{Enayat} rules out a proper extension.
+\end{proof}
+
+Apply Theorem~\ref{thm:end} to a countable $M_0\models\ZF+\VP+\neg\AC$. Elementarity retains the full VP scheme and failure of Choice. A quotient-of-names forcing extension is an end extension by the atomic recursion; if it adds a set, it is proper. This proves the input used in paper Proposition 9.7.
+
+\section{Class restoration from L\"owenheim--Skolem cardinals}
+The class-restoration application in paper Corollary 4.5 uses Usuba's local collapse \cite{Usuba}. Choose the successive restoration targets along a definable cofinal sequence of suitable L\"owenheim--Skolem cardinals. Use bounded saturated coordinate names, full inverse limits and the canonical complete projections. At each stage the local collapse supplies the next DC principle.
+
+The tail bound is proved by coordinatewise guarded unions of one name for a descending sequence. In the completed base extension, DC forms the sequence. Each lower collapse index is regular and exceeds its length, so the union of the compatible partial functions is a condition. Normalize this specified union in the bounded name pool. At inverse limits the restrictions already constructed form a legal thread. This gives separative tail closure and DC preservation simultaneously.
+
+To verify pretameness, fix a set-indexed collection of definable dense classes and a condition. Collapse a ground set collecting their indices and relevant names. At a later regular restoration stage, Collection gathers a set of witnesses to the density clauses. Rehead the witness conditions to one common earlier prefix by the complete projections and prefix-replacement maps. The gathered sets are predense below that common condition. This is the predense-reduction criterion for pretameness; it supplies the definability and truth theorem for class forcing.
+
+For a fixed old rank choose a later L\"owenheim--Skolem limit above its names and the forcing rank. Collapse the bounded pool of names there. The tail bound then adds no subsets to that pool, so its evaluated rank stabilizes. Each final set therefore belongs to a bounded stage where it has an ordinal enumeration, giving Choice. Stabilization and pretameness supply the ZF axioms in the full class extension. These are the hypotheses needed for the stated class-restoration application.
+
+\clearpage
+\section{Correspondence with the formal statements}
+\emergencystretch=2em
+The object-model definitions of Choice, dependent choice, languages, structures and satisfaction are internal definitions. Lean's metatheoretic \texttt{Classical.choice} does not assert Choice in an object model. The independent statement files describe the same membership structures; dictionary theorems identify their syntax and satisfaction with the proof library.
+
+The principal Palomar declarations are in \texttt{PalomarPaperSolution}. They are:
+\begin{itemize}
+\item \path{VopenkaWithoutChoice.palomar_preservation}: existence of the specified symmetric quotient and ZF plus full VP in every presentation, given its generic;
+\item \path{VopenkaWithoutChoice.palomar_equiconsistency}: existence of a ZFC plus VP model if and only if existence of a ZF plus VP model;
+\item \path{VopenkaWithoutChoice.palomar_dependent_choice}: the DC and failure-of-Choice model-existence consequence;
+\item \path{VopenkaWithoutChoice.palomar_solovay_reals}: the ordinary-real LM, BP and PSP consequence, with DC, failure of Choice and the nonprincipal $\omega_1$-complete ultrafilter.
+\end{itemize}
+The statement vocabularies impose no external well-foundedness or countability condition on the ground. Completeness connects their model-existence formulations to consistency. The fragment-preservation theorem and the end-extension application are additional exports in the library. The combined Palomar configuration selects the four declarations displayed above.
+
+For the Woodin application, \texttt{Woodin\allowbreak Sparse\allowbreak Actual\allowbreak Critical\allowbreak Lift} supplies the marked-rank map, \texttt{Woodin\allowbreak Sparse\allowbreak Finite\allowbreak Reflection} supplies the finite reflected tuple, and \texttt{Woodin\allowbreak Sparse\allowbreak Restoration\allowbreak Theorem} proves equiconsistency. The full captured code is an input to the lift and an output of the reflection argument. \texttt{Real\allowbreak Solovay\allowbreak Consistency} gives the ordinary-real consequence. \texttt{Schmerl\allowbreak Named\allowbreak Consistency} supplies the membership-language existence input. The \texttt{PalomarBridge}, preservation, DC and Solovay dictionary modules prove correspondence to the independent statements.
+
+\begin{thebibliography}{9}
+\bibitem{BagariaPoveda} J.~Bagaria and A.~Poveda, \emph{More on the preservation of large cardinals under class forcing}, J. Symb. Log. \textbf{88} (2023), 290--323.
+\bibitem{Enayat} A.~Enayat, \emph{Models of set theory: extensions and dead-ends}, \href{https://arxiv.org/abs/2406.14790v7}{arXiv:2406.14790v7}; J. Symb. Log. (2026), \href{https://doi.org/10.1017/jsl.2026.10199}{doi:10.1017/jsl.2026.10199}.
+\bibitem{KaragilaSchilhan} A.~Karagila and P.~Schilhan, \emph{Towards a theory of symmetric extensions}, \href{https://arxiv.org/abs/2602.17338v1}{arXiv:2602.17338v1}.
+\bibitem{Keisler} H.~J.~Keisler, \emph{Logic with the quantifier ``there exist uncountably many''}, Ann. Math. Logic \textbf{1} (1970), 1--93.
+\bibitem{Solovay} R.~M.~Solovay, \emph{A model of set-theory in which every set of reals is Lebesgue measurable}, Ann. of Math. \textbf{92} (1970), 1--56.
+\bibitem{Usuba} T.~Usuba, \emph{A note on L\"owenheim--Skolem cardinals}, \href{https://arxiv.org/abs/2004.01515v2}{arXiv:2004.01515v2}.
+\bibitem{Woodin} W.~H.~Woodin, \emph{Suitable extender models I}, J. Math. Log. \textbf{10} (2010), 101--339.
+\end{thebibliography}
+\end{document}

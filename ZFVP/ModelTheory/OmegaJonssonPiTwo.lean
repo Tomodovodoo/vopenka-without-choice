@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.OmegaJonssonEmbedding
-import ZFVP.SetTheory.PiOneInitialOrdinal
-import ZFVP.SetTheory.BoundedNaturals
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.ModelTheory.OmegaJonssonEmbedding
+public import ZFVP.SetTheory.PiOneInitialOrdinal
+public import ZFVP.SetTheory.BoundedNaturals
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 /-! A Pi-two formula for the omega-Jonsson predicate, and transfer of the predicate along a coded
 self-embedding of a `C(2)` rank stage. -/

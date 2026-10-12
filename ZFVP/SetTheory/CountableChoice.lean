@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.PathDependentChoice
-import ZFVP.SetTheory.ChoiceDictionary
+module
+
+public import ZFVP.SetTheory.PathDependentChoice
+public import ZFVP.SetTheory.ChoiceDictionary
+
+@[expose] public section
 
 namespace ZFVP
 

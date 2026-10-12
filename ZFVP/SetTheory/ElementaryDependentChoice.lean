@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ElementaryMap
-import ZFVP.SetTheory.OrdinalDependentChoice
+module
+
+public import ZFVP.SetTheory.ElementaryMap
+public import ZFVP.SetTheory.OrdinalDependentChoice
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

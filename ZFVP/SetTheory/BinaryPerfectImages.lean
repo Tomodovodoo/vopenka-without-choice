@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.BinaryClosedImages
-import ZFVP.SetTheory.BinaryFibers
-import ZFVP.SetTheory.PerfectTreeBranches
+module
+
+public import ZFVP.SetTheory.BinaryClosedImages
+public import ZFVP.SetTheory.BinaryFibers
+public import ZFVP.SetTheory.PerfectTreeBranches
+
+@[expose] public section
 
 /-! A perfect binary tree has a nonempty perfect image on the real line. -/
 

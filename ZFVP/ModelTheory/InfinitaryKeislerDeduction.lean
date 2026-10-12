@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InfinitaryKeislerSoundness
-import ZFVP.ModelTheory.InfinitaryBooleanDeduction
-import ZFVP.ModelTheory.InfinitaryRewritingLaws
+module
+
+public import ZFVP.ModelTheory.InfinitaryKeislerSoundness
+public import ZFVP.ModelTheory.InfinitaryBooleanDeduction
+public import ZFVP.ModelTheory.InfinitaryRewritingLaws
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

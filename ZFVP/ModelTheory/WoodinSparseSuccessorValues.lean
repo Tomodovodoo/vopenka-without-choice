@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseSuccessor
-import ZFVP.SetTheory.WoodinSparseBounds
+module
+
+public import ZFVP.ModelTheory.WoodinSparseSuccessor
+public import ZFVP.SetTheory.WoodinSparseBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

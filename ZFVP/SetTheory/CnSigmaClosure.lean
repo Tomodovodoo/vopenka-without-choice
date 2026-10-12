@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CnAbsoluteness
-import ZFVP.SetTheory.DeltaOneCheckNames
+module
+
+public import ZFVP.SetTheory.CnAbsoluteness
+public import ZFVP.SetTheory.DeltaOneCheckNames
+
+@[expose] public section
 
 namespace ZFVP
 

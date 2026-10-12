@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingOrder
-import Mathlib.Order.Ideal
+module
+
+public import ZFVP.SetTheory.ForcingOrder
+public import Mathlib.Order.Ideal
+
+@[expose] public section
 
 namespace ZFVP
 

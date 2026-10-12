@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ForcingLeastRankNameBounds
-import ZFVP.ModelTheory.ForcingSemanticConsequence
-import ZFVP.ModelTheory.CountableZFTransfer
-import ZFVP.ModelTheory.ForcingCheckedTruth
-import ZFVP.SetTheory.ClassForcingCongruence
+module
+
+public import ZFVP.ModelTheory.ForcingLeastRankNameBounds
+public import ZFVP.ModelTheory.ForcingSemanticConsequence
+public import ZFVP.ModelTheory.CountableZFTransfer
+public import ZFVP.ModelTheory.ForcingCheckedTruth
+public import ZFVP.SetTheory.ClassForcingCongruence
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

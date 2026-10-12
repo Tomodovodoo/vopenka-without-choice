@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.RetractionHartogsNames
-import ZFVP.ModelTheory.ForcingIsomorphismCanonicalNames
-import ZFVP.ModelTheory.WoodinSourceCutoff
-import ZFVP.ModelTheory.RetractionIsomorphism
+module
+
+public import ZFVP.ModelTheory.RetractionHartogsNames
+public import ZFVP.ModelTheory.ForcingIsomorphismCanonicalNames
+public import ZFVP.ModelTheory.WoodinSourceCutoff
+public import ZFVP.ModelTheory.RetractionIsomorphism
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

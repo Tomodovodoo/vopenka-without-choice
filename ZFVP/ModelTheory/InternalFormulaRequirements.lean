@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalFormulaRequirementEquations
+module
+
+public import ZFVP.ModelTheory.InternalFormulaRequirementEquations
+
+@[expose] public section
 
 /-! Soundness of formula requirement checks on every internal natural input. -/
 

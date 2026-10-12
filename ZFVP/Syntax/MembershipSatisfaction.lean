@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.MembershipStructure
-import ZFVP.SetTheory.BoundedFormulas
+module
+
+public import ZFVP.ModelTheory.MembershipStructure
+public import ZFVP.SetTheory.BoundedFormulas
+
+@[expose] public section
 
 /-! Set-coded satisfaction agrees with evaluation on the represented set. -/
 

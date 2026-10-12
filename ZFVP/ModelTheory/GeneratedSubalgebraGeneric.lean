@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.GeneratedSubalgebra
-import ZFVP.ModelTheory.BooleanAntichains
-import ZFVP.SetTheory.StageGenericUniqueness
-import ZFVP.SetTheory.EndExtensionRegular
-import ZFVP.SetTheory.ForcingNegationCalculus
+module
+
+public import ZFVP.ModelTheory.GeneratedSubalgebra
+public import ZFVP.ModelTheory.BooleanAntichains
+public import ZFVP.SetTheory.StageGenericUniqueness
+public import ZFVP.SetTheory.EndExtensionRegular
+public import ZFVP.SetTheory.ForcingNegationCalculus
+
+@[expose] public section
 
 /-! The generic ultrafilter on the checked Boolean completion inside `V[G]`, and the uniqueness
 theorem: any antichain-generic ultrafilter of `V[G]` on the checked regular sets that agrees with

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSuccessorStepRankAgreement
+module
+
+public import ZFVP.ModelTheory.WoodinSuccessorStepRankAgreement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.MagidorFailureStages
-import ZFVP.SetTheory.MagidorSupercompactBounded
-import ZFVP.SetTheory.CnAbsoluteness
+module
+
+public import ZFVP.SetTheory.MagidorFailureStages
+public import ZFVP.SetTheory.MagidorSupercompactBounded
+public import ZFVP.SetTheory.CnAbsoluteness
+
+@[expose] public section
 
 /-! # The side condition of the Pi_1 class of Bagaria's Theorem 4.3
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.PrefixFreeWeights
-import ZFVP.SetTheory.SchroederBernstein
+module
+
+public import ZFVP.SetTheory.PrefixFreeWeights
+public import ZFVP.SetTheory.SchroederBernstein
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

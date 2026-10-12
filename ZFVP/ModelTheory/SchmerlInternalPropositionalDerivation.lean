@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalProofComposition
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalProofComposition
+
+@[expose] public section
 
 /-! Constructed propositional derivations used to discharge assumptions in the
 internal calculus. All new formula labels lie in explicitly countable fragments. -/

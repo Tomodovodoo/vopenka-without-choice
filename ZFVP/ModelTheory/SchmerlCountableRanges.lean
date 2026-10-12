@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlCofinalSpecialization
+module
+
+public import ZFVP.ModelTheory.SchmerlCofinalSpecialization
+
+@[expose] public section
 
 /-! Semantic bridges for the countability quantifier in Schmerl's expanded
 structure. A coloring need only have countable range, and an uncountable

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalNamedSeparationOmission
-import ZFVP.ModelTheory.SchmerlInfinitaryDefinitions
-import ZFVP.ModelTheory.RubinStage
+module
+
+public import ZFVP.ModelTheory.InternalNamedSeparationOmission
+public import ZFVP.ModelTheory.SchmerlInfinitaryDefinitions
+public import ZFVP.ModelTheory.RubinStage
+
+@[expose] public section
 
 /-! External definable predicates have actual internal codes. Consequently,
 coded inseparability implies inseparability of the represented binary model. -/

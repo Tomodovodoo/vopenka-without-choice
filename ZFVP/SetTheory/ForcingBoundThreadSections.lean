@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingBoundSectionCompatibility
-import ZFVP.SetTheory.ForcingSectionFamilies
-import ZFVP.SetTheory.ForcingBoundThreads
+module
+
+public import ZFVP.SetTheory.ForcingBoundSectionCompatibility
+public import ZFVP.SetTheory.ForcingSectionFamilies
+public import ZFVP.SetTheory.ForcingBoundThreads
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

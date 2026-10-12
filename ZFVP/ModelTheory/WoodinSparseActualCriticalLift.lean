@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseActualGenericMovement
-import ZFVP.ModelTheory.WoodinSparseConditionalCriticalLift
+module
+
+public import ZFVP.ModelTheory.WoodinSparseActualGenericMovement
+public import ZFVP.ModelTheory.WoodinSparseConditionalCriticalLift
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

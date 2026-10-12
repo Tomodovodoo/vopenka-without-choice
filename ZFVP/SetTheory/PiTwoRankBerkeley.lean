@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.PiOneInitialOrdinal
-import ZFVP.SetTheory.RankBerkeley
+module
+
+public import ZFVP.SetTheory.PiOneInitialOrdinal
+public import ZFVP.SetTheory.RankBerkeley
+
+@[expose] public section
 
 /-! Pi-two dictionaries for the rank-Berkeley clause and its nonzero form.
 Embedding witnesses are bounded by an explicitly named function space. -/

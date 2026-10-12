@@ -1,5 +1,9 @@
-import ZFVP.Syntax.ClassForcingTranslation
-import ZFVP.ModelTheory.ForcingRankTruth
+module
+
+public import ZFVP.Syntax.ClassForcingTranslation
+public import ZFVP.ModelTheory.ForcingRankTruth
+
+@[expose] public section
 
 set_option maxHeartbeats 800000
 namespace ZFVP

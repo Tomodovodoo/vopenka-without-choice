@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LevyOrbitTransferCone
+module
+
+public import ZFVP.ModelTheory.LevyOrbitTransferCone
+
+@[expose] public section
 
 /-! Support clauses for the cone isomorphisms coming from an automorphism.
 

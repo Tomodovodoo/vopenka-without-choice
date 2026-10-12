@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ElementaryFiniteFunctionClosure
-import ZFVP.Syntax.BoundedForcingQuantifiers
+module
+
+public import ZFVP.ModelTheory.ElementaryFiniteFunctionClosure
+public import ZFVP.Syntax.BoundedForcingQuantifiers
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

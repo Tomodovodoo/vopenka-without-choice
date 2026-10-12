@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.UniquePiWitnessCodes
-import ZFVP.SetTheory.CodingUniverse
+module
+
+public import ZFVP.SetTheory.UniquePiWitnessCodes
+public import ZFVP.SetTheory.CodingUniverse
+
+@[expose] public section
 
 /-! A least-witness code stays in any limit rank containing one witness. -/
 

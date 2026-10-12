@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinSeedPrefix
-import ZFVP.SetTheory.ForcingIterationInitial
+module
+
+public import ZFVP.SetTheory.WoodinSeedPrefix
+public import ZFVP.SetTheory.ForcingIterationInitial
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

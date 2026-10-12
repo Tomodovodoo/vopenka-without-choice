@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlFiniteDomainCoverage
-import ZFVP.ModelTheory.SchmerlInfinitarySmallDeadEnd
+module
+
+public import ZFVP.ModelTheory.SchmerlFiniteDomainCoverage
+public import ZFVP.ModelTheory.SchmerlInfinitarySmallDeadEnd
+
+@[expose] public section
 
 /-! Full weak Rubinness from the strengthened standard-Q sentence. Its coding
 conclusion applies to every maximal filter in the original contract. -/

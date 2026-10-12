@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.UsubaCanonicalBoundInduction
-import ZFVP.ModelTheory.ProjectionClosedPreservation
+module
+
+public import ZFVP.ModelTheory.UsubaCanonicalBoundInduction
+public import ZFVP.ModelTheory.ProjectionClosedPreservation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

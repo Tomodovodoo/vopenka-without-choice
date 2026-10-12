@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LevyGaloisStep
-import ZFVP.ModelTheory.BooleanAntichainClosure
-import ZFVP.SetTheory.LevyCollapseSmallSets
+module
+
+public import ZFVP.ModelTheory.LevyGaloisStep
+public import ZFVP.ModelTheory.BooleanAntichainClosure
+public import ZFVP.SetTheory.LevyCollapseSmallSets
+
+@[expose] public section
 
 /-! The algebra of regular sets of the Levy collapse determined below an ordinal `ξ`.
 

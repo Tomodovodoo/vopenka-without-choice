@@ -1,4 +1,8 @@
-import ZFVP.Syntax.FormulaInduction
+module
+
+public import ZFVP.Syntax.FormulaInduction
+
+@[expose] public section
 
 /-! Every internal formula is produced by one of the eight constructors. -/
 

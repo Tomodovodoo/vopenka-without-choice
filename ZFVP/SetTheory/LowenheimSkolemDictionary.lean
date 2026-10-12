@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.LowenheimSkolemCardinals
-import ZFVP.ModelTheory.CodedEmbeddingTransport
-import ZFVP.SetTheory.GroundUniquenessFormulas
-import ZFVP.SetTheory.CofinalityDictionary
+module
+
+public import ZFVP.SetTheory.LowenheimSkolemCardinals
+public import ZFVP.ModelTheory.CodedEmbeddingTransport
+public import ZFVP.SetTheory.GroundUniquenessFormulas
+public import ZFVP.SetTheory.CofinalityDictionary
+
+@[expose] public section
 
 namespace ZFVP
 

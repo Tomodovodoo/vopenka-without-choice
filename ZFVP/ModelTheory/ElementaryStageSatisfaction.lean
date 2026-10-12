@@ -1,11 +1,15 @@
-import ZFVP.Syntax.EndExtensionMembershipSyntax
-import ZFVP.ModelTheory.TarskiUndefinability
-import ZFVP.ModelTheory.ConservativeRankExtension
-import ZFVP.ModelTheory.DirectedElementaryUnion
-import ZFVP.ModelTheory.CodedSequentSemantics
-import ZFVP.ModelTheory.EndExtensionLanguage
-import ZFVP.Syntax.EndExtensionFormulas
-import ZFVP.Syntax.EndExtensionAssignments
+module
+
+public import ZFVP.Syntax.EndExtensionMembershipSyntax
+public import ZFVP.ModelTheory.TarskiUndefinability
+public import ZFVP.ModelTheory.ConservativeRankExtension
+public import ZFVP.ModelTheory.DirectedElementaryUnion
+public import ZFVP.ModelTheory.CodedSequentSemantics
+public import ZFVP.ModelTheory.EndExtensionLanguage
+public import ZFVP.Syntax.EndExtensionFormulas
+public import ZFVP.Syntax.EndExtensionAssignments
+
+@[expose] public section
 
 /-! Case I of Enayat's Theorem 4.4(b) in "Models of set theory: extensions and dead ends",
 in the conservative case.

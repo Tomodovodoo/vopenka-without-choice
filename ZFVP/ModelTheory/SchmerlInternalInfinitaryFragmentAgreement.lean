@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalInfinitaryInduction
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalInfinitaryInduction
+
+@[expose] public section
 
 /-! Internal truth at a formula does not depend on the choice of a valid
 fragment containing that formula. -/

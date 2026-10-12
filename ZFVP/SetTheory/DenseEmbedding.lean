@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingOrder
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.SetTheory.ForcingOrder
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 /-! Dense embeddings of forcing preorders: order-preserving maps with dense range that preserve
 incompatibility. -/

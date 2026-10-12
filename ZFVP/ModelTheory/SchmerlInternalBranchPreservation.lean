@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlInternalBMR
-import ZFVP.SetTheory.ProductForcing
-import ZFVP.SetTheory.HartogsRegular
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalBMR
+public import ZFVP.SetTheory.ProductForcing
+public import ZFVP.SetTheory.HartogsRegular
+
+@[expose] public section
 
 /-! The splitting-antichain argument inside the ground ZF model. In particular,
 the splitting set, its antichain, the witness family, and its rank bound are

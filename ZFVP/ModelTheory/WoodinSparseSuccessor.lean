@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinRecodedSuccessorValues
-import ZFVP.ModelTheory.SparseNormalizedTwoStep
-import ZFVP.SetTheory.WoodinSourceIndex
+module
+
+public import ZFVP.ModelTheory.WoodinRecodedSuccessorValues
+public import ZFVP.ModelTheory.SparseNormalizedTwoStep
+public import ZFVP.SetTheory.WoodinSourceIndex
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.NormalizedNameTransportBounds
-import ZFVP.SetTheory.AtomicForcingSubstitution
-import ZFVP.SetTheory.EquivalentRetractionAtoms
-import ZFVP.SetTheory.EquivalentRetractionForcing
+module
+
+public import ZFVP.ModelTheory.NormalizedNameTransportBounds
+public import ZFVP.SetTheory.AtomicForcingSubstitution
+public import ZFVP.SetTheory.EquivalentRetractionAtoms
+public import ZFVP.SetTheory.EquivalentRetractionForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

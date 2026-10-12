@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RealTranslations
+module
+
+public import ZFVP.SetTheory.RealTranslations
+
+@[expose] public section
 
 /-! Rational translation acts on internal sets and preserves real open sets. -/
 

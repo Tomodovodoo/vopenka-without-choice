@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinSparseDirectMapRankAgreement
-import ZFVP.ModelTheory.WoodinSparseSuccessorMapRankAgreement
-import ZFVP.ModelTheory.WoodinSparseInitialRankAgreement
-import ZFVP.ModelTheory.WoodinSparseRecursion
+module
+
+public import ZFVP.ModelTheory.WoodinSparseDirectMapRankAgreement
+public import ZFVP.ModelTheory.WoodinSparseSuccessorMapRankAgreement
+public import ZFVP.ModelTheory.WoodinSparseInitialRankAgreement
+public import ZFVP.ModelTheory.WoodinSparseRecursion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

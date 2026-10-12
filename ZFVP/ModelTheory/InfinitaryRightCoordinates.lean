@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryLargeConditionFreezing
+module
+
+public import ZFVP.ModelTheory.InfinitaryLargeConditionFreezing
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

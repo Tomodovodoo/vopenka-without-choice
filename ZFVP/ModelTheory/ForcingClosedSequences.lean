@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingFunctionDecisionDensity
-import ZFVP.SetTheory.ForcingClosure
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.ModelTheory.ForcingFunctionDecisionDensity
+public import ZFVP.SetTheory.ForcingClosure
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 namespace ZFVP
 

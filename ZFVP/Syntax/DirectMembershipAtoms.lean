@@ -1,4 +1,8 @@
-import ZFVP.Syntax.MembershipAtomicSyntax
+module
+
+public import ZFVP.Syntax.MembershipAtomicSyntax
+
+@[expose] public section
 
 /-! Atomic membership truth expressed directly using assignment values. -/
 

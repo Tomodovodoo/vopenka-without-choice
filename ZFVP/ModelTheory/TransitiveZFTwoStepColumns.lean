@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TransitiveZFSuccessorColumns
-import ZFVP.ModelTheory.TransitiveZFTwoStepForcing
-import ZFVP.ModelTheory.TwoStepColumnCode
+module
+
+public import ZFVP.ModelTheory.TransitiveZFSuccessorColumns
+public import ZFVP.ModelTheory.TransitiveZFTwoStepForcing
+public import ZFVP.ModelTheory.TwoStepColumnCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

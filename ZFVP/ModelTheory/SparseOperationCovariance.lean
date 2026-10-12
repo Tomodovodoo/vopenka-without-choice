@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.EmbeddingSetOperations
-import ZFVP.SetTheory.BoundedRestriction
-import ZFVP.SetTheory.BoundedRelationDomain
-import ZFVP.SetTheory.BoundedUnion
-import ZFVP.SetTheory.SparseSplice
+module
+
+public import ZFVP.ModelTheory.EmbeddingSetOperations
+public import ZFVP.SetTheory.BoundedRestriction
+public import ZFVP.SetTheory.BoundedRelationDomain
+public import ZFVP.SetTheory.BoundedUnion
+public import ZFVP.SetTheory.SparseSplice
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

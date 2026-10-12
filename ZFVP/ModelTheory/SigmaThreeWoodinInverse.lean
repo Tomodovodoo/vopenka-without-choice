@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SigmaThreeInverseSourceCutoff
-import ZFVP.ModelTheory.DeltaTwoInverseTwoStepCode
+module
+
+public import ZFVP.ModelTheory.SigmaThreeInverseSourceCutoff
+public import ZFVP.ModelTheory.DeltaTwoInverseTwoStepCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalProofExtension
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalProofExtension
+
+@[expose] public section
 
 /-! Finite constructor closure of actual internal fragments, with countability
 preserved in ZF. No choice of external enumerations is used. -/

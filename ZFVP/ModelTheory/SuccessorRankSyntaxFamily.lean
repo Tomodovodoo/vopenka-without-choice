@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SuccessorRankPairPreimages
-import ZFVP.SetTheory.CnSigmaClosure
-import ZFVP.Syntax.SigmaOneMembershipFamily
+module
+
+public import ZFVP.ModelTheory.SuccessorRankPairPreimages
+public import ZFVP.SetTheory.CnSigmaClosure
+public import ZFVP.Syntax.SigmaOneMembershipFamily
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

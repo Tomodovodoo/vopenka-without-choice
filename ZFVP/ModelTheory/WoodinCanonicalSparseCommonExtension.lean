@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinCanonicalTailCommonBound
-import ZFVP.ModelTheory.WoodinSparseTailCommonExtension
+module
+
+public import ZFVP.ModelTheory.WoodinCanonicalTailCommonBound
+public import ZFVP.ModelTheory.WoodinSparseTailCommonExtension
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

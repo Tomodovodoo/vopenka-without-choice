@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CorrectRankComplexity
+module
+
+public import ZFVP.SetTheory.CorrectRankComplexity
+
+@[expose] public section
 
 /-! Correctness expressed directly by the partial-truth predicates and internal codes. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedCodingPrimitives
-import ZFVP.SetTheory.DefinableGraph
+module
+
+public import ZFVP.SetTheory.BoundedCodingPrimitives
+public import ZFVP.SetTheory.DefinableGraph
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

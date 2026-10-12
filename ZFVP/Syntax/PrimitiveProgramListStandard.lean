@@ -1,6 +1,10 @@
-import ZFVP.Syntax.PrimitiveProgramListMemberEquations
-import ZFVP.Syntax.PrimitiveProgramLKCertificate
-import ZFVP.Syntax.PrimitiveProgramProofRewriteStandard
+module
+
+public import ZFVP.Syntax.PrimitiveProgramListMemberEquations
+public import ZFVP.Syntax.PrimitiveProgramLKCertificate
+public import ZFVP.Syntax.PrimitiveProgramProofRewriteStandard
+
+@[expose] public section
 
 /-! Exact behavior of the list programs on standard encoded lists. -/
 

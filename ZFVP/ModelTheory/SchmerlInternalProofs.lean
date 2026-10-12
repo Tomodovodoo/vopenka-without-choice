@@ -1,12 +1,16 @@
-import ZFVP.ModelTheory.SchmerlInternalCoreProofs
-import ZFVP.ModelTheory.SchmerlInternalQUnion
-import ZFVP.ModelTheory.SchmerlInternalQTwoPoints
-import ZFVP.ModelTheory.SchmerlInternalQInterchangeTransport
-import ZFVP.ModelTheory.SchmerlInternalSubstitutionRule
-import ZFVP.ModelTheory.SchmerlInternalFOCoherence
-import ZFVP.ModelTheory.SchmerlInternalInstantiation
-import ZFVP.ModelTheory.SchmerlInternalEqualityAxioms
-import ZFVP.ModelTheory.SchmerlInternalOrdinaryQuantifierAxioms
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalCoreProofs
+public import ZFVP.ModelTheory.SchmerlInternalQUnion
+public import ZFVP.ModelTheory.SchmerlInternalQTwoPoints
+public import ZFVP.ModelTheory.SchmerlInternalQInterchangeTransport
+public import ZFVP.ModelTheory.SchmerlInternalSubstitutionRule
+public import ZFVP.ModelTheory.SchmerlInternalFOCoherence
+public import ZFVP.ModelTheory.SchmerlInternalInstantiation
+public import ZFVP.ModelTheory.SchmerlInternalEqualityAxioms
+public import ZFVP.ModelTheory.SchmerlInternalOrdinaryQuantifierAxioms
+
+@[expose] public section
 
 /-! Internal derivations with Q countable union, two-points, interchange
 and capture-avoiding simultaneous substitution, with finite first-order

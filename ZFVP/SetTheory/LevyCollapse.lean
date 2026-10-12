@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FinitePartialFunctions
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.SetTheory.FinitePartialFunctions
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 /-! The Levy collapse `Coll(ω, <κ)`: finite partial functions `p` on `ω × κ` with
 `p(n, α) ∈ α`, ordered by reverse inclusion, with the empty condition on top. -/

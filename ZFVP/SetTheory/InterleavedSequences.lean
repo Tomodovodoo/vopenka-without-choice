@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.NaturalParity
-import ZFVP.SetTheory.RealCoverApproximation
+module
+
+public import ZFVP.SetTheory.NaturalParity
+public import ZFVP.SetTheory.RealCoverApproximation
+
+@[expose] public section
 
 /-! Interleaving two internal sequences without external enumeration. -/
 

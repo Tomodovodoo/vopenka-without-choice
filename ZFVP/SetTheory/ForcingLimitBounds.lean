@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingBoundThreads
-import ZFVP.SetTheory.ForcingBoundExtension
-import ZFVP.SetTheory.ForcingLimitColumns
+module
+
+public import ZFVP.SetTheory.ForcingBoundThreads
+public import ZFVP.SetTheory.ForcingBoundExtension
+public import ZFVP.SetTheory.ForcingLimitColumns
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

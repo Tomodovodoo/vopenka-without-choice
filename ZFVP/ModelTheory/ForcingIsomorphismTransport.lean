@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.ForcingIsomorphism
-import ZFVP.SetTheory.NameAction
-import ZFVP.SetTheory.NameActionClosure
-import ZFVP.SetTheory.FunctionUnion
-import ZFVP.ModelTheory.ForcingSplitProjection
+module
+
+public import ZFVP.SetTheory.ForcingIsomorphism
+public import ZFVP.SetTheory.NameAction
+public import ZFVP.SetTheory.NameActionClosure
+public import ZFVP.SetTheory.FunctionUnion
+public import ZFVP.ModelTheory.ForcingSplitProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

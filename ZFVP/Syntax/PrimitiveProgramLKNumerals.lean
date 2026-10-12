@@ -1,6 +1,10 @@
-import ZFVP.Syntax.PrimitiveProgramLKComposition
-import ZFVP.Syntax.PrimitiveProgramLKStandardCertificate
-import ZFVP.Syntax.ArithmeticPrimitiveProgramNumerals
+module
+
+public import ZFVP.Syntax.PrimitiveProgramLKComposition
+public import ZFVP.Syntax.PrimitiveProgramLKStandardCertificate
+public import ZFVP.Syntax.ArithmeticPrimitiveProgramNumerals
+
+@[expose] public section
 
 /-! Standard syntax checks and logical certificates hold in every internal arithmetic model. -/
 

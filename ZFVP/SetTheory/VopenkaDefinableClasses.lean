@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.VopenkaScheme
-import ZFVP.Syntax.PackFiniteParameters
+module
+
+public import ZFVP.SetTheory.VopenkaScheme
+public import ZFVP.Syntax.PackFiniteParameters
+
+@[expose] public section
 
 /-! The two-variable Vopenka scheme applies to every class definable with
 finitely many set parameters. -/

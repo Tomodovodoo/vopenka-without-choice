@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.WoodinCollapseInitialModel
-import ZFVP.ModelTheory.SuccessorRankLiftChecks
-import ZFVP.ModelTheory.SuccessorRankWoodinCollapse
-import ZFVP.ModelTheory.SuccessorRankOrdinal
-import ZFVP.SetTheory.WoodinCollapseRank
-import ZFVP.SetTheory.HighCriticalWoodinWitness
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseInitialModel
+public import ZFVP.ModelTheory.SuccessorRankLiftChecks
+public import ZFVP.ModelTheory.SuccessorRankWoodinCollapse
+public import ZFVP.ModelTheory.SuccessorRankOrdinal
+public import ZFVP.SetTheory.WoodinCollapseRank
+public import ZFVP.SetTheory.HighCriticalWoodinWitness
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.WoodinSupercompact
-import ZFVP.ModelTheory.RelativeSigmaCorrectness
-import ZFVP.ModelTheory.DeltaOneMembershipEmbedding
-import ZFVP.ModelTheory.TransitiveZFValues
-import ZFVP.SetTheory.CodingUniverse
+module
+
+public import ZFVP.SetTheory.WoodinSupercompact
+public import ZFVP.ModelTheory.RelativeSigmaCorrectness
+public import ZFVP.ModelTheory.DeltaOneMembershipEmbedding
+public import ZFVP.ModelTheory.TransitiveZFValues
+public import ZFVP.SetTheory.CodingUniverse
+
+@[expose] public section
 
 /-! Downward absoluteness of the small-embedding witness predicate to a transitive model. -/
 

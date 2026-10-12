@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RealCountableSubadditivity
-import ZFVP.SetTheory.RealMeasurableAlgebra
+module
+
+public import ZFVP.SetTheory.RealCountableSubadditivity
+public import ZFVP.SetTheory.RealMeasurableAlgebra
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.LevySubstitution
+module
+
+public import ZFVP.SetTheory.LevySubstitution
+
+@[expose] public section
 
 /-! Computable upper bounds for fixed formulas and finite predicate dictionaries.
 These bounds count every quantifier and do not claim to be optimal. -/

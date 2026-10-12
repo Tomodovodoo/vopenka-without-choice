@@ -1,5 +1,9 @@
-import ZFVP.Syntax.ZFSchemaCodes
-import ZFVP.ModelTheory.OpenCodedSequentSoundness
+module
+
+public import ZFVP.Syntax.ZFSchemaCodes
+public import ZFVP.ModelTheory.OpenCodedSequentSoundness
+
+@[expose] public section
 
 /-! The seven fixed ZF axioms and a finite equality basis as sentence codes. -/
 

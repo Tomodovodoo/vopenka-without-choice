@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LocalPartialTruthQuantifiers
+module
+
+public import ZFVP.ModelTheory.LocalPartialTruthQuantifiers
+
+@[expose] public section
 
 /-! Partial truth in a transitive ZF model agrees with its full internal satisfaction relation. -/
 

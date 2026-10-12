@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ClassForcingQuotientFamily
-import ZFVP.ModelTheory.ClassForcingDenseRestriction
+module
+
+public import ZFVP.ModelTheory.ClassForcingQuotientFamily
+public import ZFVP.ModelTheory.ClassForcingDenseRestriction
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

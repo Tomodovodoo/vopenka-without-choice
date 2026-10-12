@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.EmbeddingCnTransfer
-import ZFVP.SetTheory.LevyComplexityBound
+module
+
+public import ZFVP.ModelTheory.EmbeddingCnTransfer
+public import ZFVP.SetTheory.LevyComplexityBound
+
+@[expose] public section
 
 /-! The omega-Jonsson predicate used by Kunen's inconsistency argument, its defining formula,
 a crude Levy bound for that formula, and transfer of the predicate along a coded self-embedding

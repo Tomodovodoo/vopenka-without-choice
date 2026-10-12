@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalQuantifierAxioms
-import ZFVP.Syntax.EndExtensionMembershipSyntax
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalQuantifierAxioms
+public import ZFVP.Syntax.EndExtensionMembershipSyntax
+
+@[expose] public section
 
 /-! The internal Q two-points axiom uses logical equality tokens, rather
 than a language's distinguished relation. Indices range over internal

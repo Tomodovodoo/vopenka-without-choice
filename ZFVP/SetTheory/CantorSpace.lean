@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.FiniteSequences
-import ZFVP.SetTheory.CountableUnions
-import ZFVP.SetTheory.UniformNumerals
+module
+
+public import ZFVP.SetTheory.FiniteSequences
+public import ZFVP.SetTheory.CountableUnions
+public import ZFVP.SetTheory.UniformNumerals
+
+@[expose] public section
 
 /-! Internal reals as the Cantor space `2^ω`, binary trees and their bodies, basic open sets,
 perfect and nowhere dense trees, meagre sets, and the perfect set property and Baire property

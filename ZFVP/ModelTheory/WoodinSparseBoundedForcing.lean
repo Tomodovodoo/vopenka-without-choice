@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.BoundedForcingPrefixTransfer
-import ZFVP.ModelTheory.WoodinSparseCodeCompatibility
-import ZFVP.ModelTheory.SuccessorLowNameFamily
+module
+
+public import ZFVP.ModelTheory.BoundedForcingPrefixTransfer
+public import ZFVP.ModelTheory.WoodinSparseCodeCompatibility
+public import ZFVP.ModelTheory.SuccessorLowNameFamily
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SparseBoundedForcingBaseBound
-import ZFVP.ModelTheory.WoodinSparseForcingTranslation
+module
+
+public import ZFVP.ModelTheory.SparseBoundedForcingBaseBound
+public import ZFVP.ModelTheory.WoodinSparseForcingTranslation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

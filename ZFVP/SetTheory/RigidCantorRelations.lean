@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CantorLexOrder
-import ZFVP.SetTheory.NaturalPredecessor
+module
+
+public import ZFVP.SetTheory.CantorLexOrder
+public import ZFVP.SetTheory.NaturalPredecessor
+
+@[expose] public section
 
 /-! The remaining case of the Hamkins-Palumbo theorem that in ZF every set of reals carries a
 rigid relation. A Dedekind infinite set of reals contains an injective `ω`-sequence `z`, and the

@@ -1,7 +1,11 @@
-import ZFVP.Syntax.EndExtensionAtomicTruth
-import ZFVP.Syntax.EndExtensionAssignments
-import ZFVP.Syntax.EndExtensionSubformulas
-import ZFVP.Syntax.SatisfactionStepEquations
+module
+
+public import ZFVP.Syntax.EndExtensionAtomicTruth
+public import ZFVP.Syntax.EndExtensionAssignments
+public import ZFVP.Syntax.EndExtensionSubformulas
+public import ZFVP.Syntax.SatisfactionStepEquations
+
+@[expose] public section
 
 /-! Full arbitrary-language satisfaction is absolute under ZF membership end extensions. -/
 

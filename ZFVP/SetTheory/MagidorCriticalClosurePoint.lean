@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.MagidorLemmaThreeOne
-import ZFVP.SetTheory.MagidorLeastClosurePointTransfer
-import ZFVP.SetTheory.MagidorClosureLimitPoint
+module
+
+public import ZFVP.SetTheory.MagidorLemmaThreeOne
+public import ZFVP.SetTheory.MagidorLeastClosurePointTransfer
+public import ZFVP.SetTheory.MagidorClosureLimitPoint
+
+@[expose] public section
 
 /-! # The critical point of a Vopenka embedding is a Magidor closure point
 

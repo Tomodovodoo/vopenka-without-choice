@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CohenFixedOrbitName
-import ZFVP.SetTheory.CohenOrbitMemberTransfer
+module
+
+public import ZFVP.SetTheory.CohenFixedOrbitName
+public import ZFVP.SetTheory.CohenOrbitMemberTransfer
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.RubinFiniteBlockUnion
+module
+
+public import ZFVP.ModelTheory.RubinFiniteBlockUnion
+
+@[expose] public section
 
 /-! The types forbidding new members of old internally finite sets are locally
 omitted by the same Rubin theory used for the inseparable-pair construction. -/

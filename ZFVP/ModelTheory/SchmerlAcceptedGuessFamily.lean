@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalNamedSeparationOmission
-import ZFVP.SetTheory.CountableSets
+module
+
+public import ZFVP.ModelTheory.InternalNamedSeparationOmission
+public import ZFVP.SetTheory.CountableSets
+
+@[expose] public section
 
 /-! Diamond guesses accepted along an actual coded history form an actual
 countable family. The preservation invariant supplies the successor input. -/

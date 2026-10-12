@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseLiftRow
+module
+
+public import ZFVP.ModelTheory.WoodinSparseLiftRow
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinEndpointStageMap
-import ZFVP.ModelTheory.SplitSeparativeOrder
-import ZFVP.ModelTheory.IterationSystemProjection
+module
+
+public import ZFVP.ModelTheory.WoodinEndpointStageMap
+public import ZFVP.ModelTheory.SplitSeparativeOrder
+public import ZFVP.ModelTheory.IterationSystemProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

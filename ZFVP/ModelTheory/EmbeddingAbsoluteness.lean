@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.PiOneMembershipEmbedding
-import ZFVP.SetTheory.CnAbsoluteness
+module
+
+public import ZFVP.ModelTheory.PiOneMembershipEmbedding
+public import ZFVP.SetTheory.CnAbsoluteness
+
+@[expose] public section
 
 /-! Downward truth and C(n)-rank absoluteness of the coded membership embedding dictionary. -/
 

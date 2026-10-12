@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.LowenheimSkolemCardinals
-import ZFVP.SetTheory.InverseFunction
-import ZFVP.SetTheory.RankBounds
+module
+
+public import ZFVP.SetTheory.LowenheimSkolemCardinals
+public import ZFVP.SetTheory.InverseFunction
+public import ZFVP.SetTheory.RankBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

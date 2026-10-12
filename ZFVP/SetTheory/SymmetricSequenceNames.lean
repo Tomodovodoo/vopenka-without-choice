@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingSequenceNames
-import ZFVP.SetTheory.SymmetricPairNames
-import ZFVP.SetTheory.HereditarySymmetry
+module
+
+public import ZFVP.SetTheory.ForcingSequenceNames
+public import ZFVP.SetTheory.SymmetricPairNames
+public import ZFVP.SetTheory.HereditarySymmetry
+
+@[expose] public section
 
 /-! A sequence name built from hereditarily symmetric names is hereditarily symmetric
 once one member of the filter fixes every entry. -/

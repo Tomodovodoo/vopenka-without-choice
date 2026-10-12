@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.RankEnumerations
-import ZFVP.ModelTheory.SaturatedTwoStepTransfer
-import ZFVP.ModelTheory.ForcingCodeUniform
+module
+
+public import ZFVP.SetTheory.RankEnumerations
+public import ZFVP.ModelTheory.SaturatedTwoStepTransfer
+public import ZFVP.ModelTheory.ForcingCodeUniform
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

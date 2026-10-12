@@ -1,8 +1,12 @@
-import ZFVP.Syntax.MembershipTailTemplates
-import ZFVP.Syntax.UniformPrefixTuples
-import ZFVP.Syntax.UniformStandardCodes
-import ZFVP.Syntax.UniformMembershipRenaming
-import ZFVP.Syntax.UniformNegation
+module
+
+public import ZFVP.Syntax.MembershipTailTemplates
+public import ZFVP.Syntax.UniformPrefixTuples
+public import ZFVP.Syntax.UniformStandardCodes
+public import ZFVP.Syntax.UniformMembershipRenaming
+public import ZFVP.Syntax.UniformNegation
+
+@[expose] public section
 
 /-! A parameter-free dictionary for each finite template compiler, including parameter tails. -/
 

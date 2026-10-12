@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlNamedConsistency
-import ZFVP.ModelTheory.DeadEndModelAlephOne
+module
+
+public import ZFVP.ModelTheory.SchmerlNamedConsistency
+public import ZFVP.ModelTheory.DeadEndModelAlephOne
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramFormulaRequirements
-import ZFVP.Syntax.PrimitiveProgramNegationStandard
+module
+
+public import ZFVP.Syntax.PrimitiveProgramFormulaRequirements
+public import ZFVP.Syntax.PrimitiveProgramNegationStandard
+
+@[expose] public section
 
 /-! Well-formed standard membership syntax is accepted with its stated bound-variable context. -/
 

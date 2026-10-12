@@ -1,4 +1,8 @@
-import PalomarSolovayBridge.ArithmeticDictionary
+module
+
+public import PalomarSolovayBridge.ArithmeticDictionary
+
+@[expose] public section
 
 namespace PalomarSolovayBridge
 open PalomarBridge LO LO.FirstOrder LO.FirstOrder.SetTheory

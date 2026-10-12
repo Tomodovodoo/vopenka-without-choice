@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalBranchNames
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalBranchNames
+
+@[expose] public section
 
 /-! Internal square ccc prevents new full cofinal branches in the actual
 forcing quotient. The ground branch is the internal set of all possible

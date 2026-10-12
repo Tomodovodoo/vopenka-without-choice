@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ForcingNameFamily
+module
+
+public import ZFVP.SetTheory.ForcingNameFamily
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

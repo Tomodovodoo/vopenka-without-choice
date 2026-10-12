@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.EventualRankCertificates
-import ZFVP.ModelTheory.TransitiveZFInaccessible
-import ZFVP.SetTheory.WoodinClosedFiniteModels
+module
+
+public import ZFVP.SetTheory.EventualRankCertificates
+public import ZFVP.ModelTheory.TransitiveZFInaccessible
+public import ZFVP.SetTheory.WoodinClosedFiniteModels
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

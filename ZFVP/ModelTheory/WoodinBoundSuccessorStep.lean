@@ -1,10 +1,14 @@
-import ZFVP.ModelTheory.WoodinBoundInvariantSemantics
-import ZFVP.ModelTheory.WoodinBoundCoherence
-import ZFVP.ModelTheory.WoodinSuccessorCoordinates
-import ZFVP.ModelTheory.TransportedLocalUnionPair
-import ZFVP.ModelTheory.LocalUnionQuotientBound
-import ZFVP.ModelTheory.WoodinBoundNormalization
-import ZFVP.ModelTheory.TransportedLocalUnionNormalization
+module
+
+public import ZFVP.ModelTheory.WoodinBoundInvariantSemantics
+public import ZFVP.ModelTheory.WoodinBoundCoherence
+public import ZFVP.ModelTheory.WoodinSuccessorCoordinates
+public import ZFVP.ModelTheory.TransportedLocalUnionPair
+public import ZFVP.ModelTheory.LocalUnionQuotientBound
+public import ZFVP.ModelTheory.WoodinBoundNormalization
+public import ZFVP.ModelTheory.TransportedLocalUnionNormalization
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

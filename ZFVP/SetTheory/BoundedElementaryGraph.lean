@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.EmbeddingBoundedOperations
-import ZFVP.SetTheory.FunctionMap
+module
+
+public import ZFVP.ModelTheory.EmbeddingBoundedOperations
+public import ZFVP.SetTheory.FunctionMap
+
+@[expose] public section
 
 namespace ZFVP
 

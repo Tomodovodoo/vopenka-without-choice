@@ -1,10 +1,14 @@
-import ZFVP.SetTheory.ForcingIterationSystem
-import ZFVP.SetTheory.ForcingLimitOrder
-import ZFVP.SetTheory.ForcingLimitTop
-import ZFVP.ModelTheory.SuccessorForcingOrder
-import ZFVP.ModelTheory.SuccessorForcingTop
-import ZFVP.ModelTheory.ForcingColumnFunctions
-import ZFVP.ModelTheory.ForcingColumnSectionCompatibility
+module
+
+public import ZFVP.SetTheory.ForcingIterationSystem
+public import ZFVP.SetTheory.ForcingLimitOrder
+public import ZFVP.SetTheory.ForcingLimitTop
+public import ZFVP.ModelTheory.SuccessorForcingOrder
+public import ZFVP.ModelTheory.SuccessorForcingTop
+public import ZFVP.ModelTheory.ForcingColumnFunctions
+public import ZFVP.ModelTheory.ForcingColumnSectionCompatibility
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RankZF
-import ZFVP.Syntax.DeltaOneMembershipTruth
+module
+
+public import ZFVP.SetTheory.RankZF
+public import ZFVP.Syntax.DeltaOneMembershipTruth
+
+@[expose] public section
 
 /-! Separation, Collection and Replacement for all internal membership formula codes. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalPrimitiveProgram
+module
+
+public import ZFVP.ModelTheory.InternalPrimitiveProgram
+
+@[expose] public section
 
 /-! The program equations hold throughout internal omega, including at nonstandard inputs. -/
 

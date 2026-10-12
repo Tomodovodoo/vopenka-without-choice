@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LevyConeTraceAlignment
-import ZFVP.SetTheory.LevyCollapseSmallSets
+module
+
+public import ZFVP.ModelTheory.LevyConeTraceAlignment
+public import ZFVP.SetTheory.LevyCollapseSmallSets
+
+@[expose] public section
 
 /-! How far `ForcingContext.ConeTraceAligned` gets from the cone construction, and what is left.
 

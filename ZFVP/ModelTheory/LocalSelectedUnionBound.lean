@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingLocalCanonicalName
-import ZFVP.ModelTheory.ForcingSelectedUnion
-import ZFVP.SetTheory.WoodinCollapseRank
-import ZFVP.ModelTheory.ForcingSmallInaccessible
+module
+
+public import ZFVP.ModelTheory.ForcingLocalCanonicalName
+public import ZFVP.ModelTheory.ForcingSelectedUnion
+public import ZFVP.SetTheory.WoodinCollapseRank
+public import ZFVP.ModelTheory.ForcingSmallInaccessible
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

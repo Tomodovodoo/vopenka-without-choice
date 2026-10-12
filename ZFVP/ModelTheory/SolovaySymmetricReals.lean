@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SolovayNiceNameValues
-import ZFVP.ModelTheory.SolovayRealCoding
-import ZFVP.ModelTheory.SymmetricModelSeparation
-import ZFVP.SetTheory.BoundedCodingPrimitives
+module
+
+public import ZFVP.ModelTheory.SolovayNiceNameValues
+public import ZFVP.ModelTheory.SolovayRealCoding
+public import ZFVP.ModelTheory.SymmetricModelSeparation
+public import ZFVP.SetTheory.BoundedCodingPrimitives
+
+@[expose] public section
 
 /-! Every real of a forcing extension lies in the Solovay symmetric model, in the coding the
 `HOD` track uses.

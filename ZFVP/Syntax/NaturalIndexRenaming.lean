@@ -1,4 +1,8 @@
-import ZFVP.Syntax.NaturalFormulaClosure
+module
+
+public import ZFVP.Syntax.NaturalFormulaClosure
+
+@[expose] public section
 
 /-! Capture-avoiding bound-variable renaming on natural-number formula codes. -/
 

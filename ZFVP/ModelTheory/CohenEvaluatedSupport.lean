@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CohenModel
-import ZFVP.SetTheory.CohenLocalSupport
+module
+
+public import ZFVP.ModelTheory.CohenModel
+public import ZFVP.SetTheory.CohenLocalSupport
+
+@[expose] public section
 
 namespace ZFVP
 

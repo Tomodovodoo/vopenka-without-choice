@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.RubinChainCriterion
-import ZFVP.ModelTheory.StageSuccessor
-import ZFVP.ModelTheory.SubmodelChain
-import ZFVP.SetTheory.DiamondOmegaOne
+module
+
+public import ZFVP.ModelTheory.RubinChainCriterion
+public import ZFVP.ModelTheory.StageSuccessor
+public import ZFVP.ModelTheory.SubmodelChain
+public import ZFVP.SetTheory.DiamondOmegaOne
+
+@[expose] public section
 
 /-! # The union of an increasing ω₁-chain of stages
 

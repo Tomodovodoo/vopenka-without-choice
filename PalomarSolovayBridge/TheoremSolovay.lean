@@ -1,4 +1,8 @@
-import PalomarSolovayBridge.TargetDictionary
+module
+
+public import PalomarSolovayBridge.TargetDictionary
+
+@[expose] public section
 
 namespace PalomarSolovayBridge
 open PalomarBridge LO LO.FirstOrder LO.FirstOrder.SetTheory

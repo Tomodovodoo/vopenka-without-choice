@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlSpecializingForcing
-import Mathlib.Data.Sigma.Order
-import Mathlib.Data.Sum.Order
+module
+
+public import ZFVP.ModelTheory.SchmerlSpecializingForcing
+public import Mathlib.Data.Sigma.Order
+public import Mathlib.Data.Sum.Order
+
+@[expose] public section
 
 /-! Disjoint tree sums and products of finite strict-specialization forcings.
 The product chain condition is the combinatorial input for the no-new-branch

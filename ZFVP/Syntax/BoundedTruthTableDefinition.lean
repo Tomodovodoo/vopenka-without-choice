@@ -1,6 +1,10 @@
-import ZFVP.Syntax.BoundedQuantifierTruth
-import ZFVP.Syntax.CodingSupportSyntax
-import ZFVP.Syntax.BoundedAtomicDefinition
+module
+
+public import ZFVP.Syntax.BoundedQuantifierTruth
+public import ZFVP.Syntax.CodingSupportSyntax
+public import ZFVP.Syntax.BoundedAtomicDefinition
+
+@[expose] public section
 
 /-! A bounded formula checks all constructor equations of a bounded truth table. -/
 

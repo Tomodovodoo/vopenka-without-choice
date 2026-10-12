@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingEvaluatedUnion
-import ZFVP.ModelTheory.ForcingCompositionName
-import ZFVP.SetTheory.WoodinCollapseSeparative
+module
+
+public import ZFVP.ModelTheory.ForcingEvaluatedUnion
+public import ZFVP.ModelTheory.ForcingCompositionName
+public import ZFVP.SetTheory.WoodinCollapseSeparative
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import Mathlib.Data.Set.Countable
+module
+
+public import Mathlib.Data.Set.Countable
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 universe u v

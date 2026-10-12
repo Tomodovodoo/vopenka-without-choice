@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryAdequateOmegaOneConstruction
-import ZFVP.ModelTheory.InfinitaryOmegaOneCardinality
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateOmegaOneConstruction
+public import ZFVP.ModelTheory.InfinitaryOmegaOneCardinality
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

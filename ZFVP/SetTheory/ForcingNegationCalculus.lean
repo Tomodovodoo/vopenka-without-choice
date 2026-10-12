@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.RegularSetAlgebra
-import ZFVP.SetTheory.FormulaForcing
-import ZFVP.SetTheory.ForcingFormulaWitnesses
+module
+
+public import ZFVP.SetTheory.RegularSetAlgebra
+public import ZFVP.SetTheory.FormulaForcing
+public import ZFVP.SetTheory.ForcingFormulaWitnesses
+
+@[expose] public section
 
 /-! The forcing calculus for negation and implication: the set of conditions forcing `∼φ` is the
 forcing negation of the set forcing `φ`, implications are joins with negations, and the resulting

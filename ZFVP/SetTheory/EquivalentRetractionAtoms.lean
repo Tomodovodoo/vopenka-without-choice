@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingRetraction
-import ZFVP.SetTheory.NameActionEquivalentConditions
-import ZFVP.SetTheory.AtomicForcingSubstitution
+module
+
+public import ZFVP.SetTheory.ForcingRetraction
+public import ZFVP.SetTheory.NameActionEquivalentConditions
+public import ZFVP.SetTheory.AtomicForcingSubstitution
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

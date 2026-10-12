@@ -1,6 +1,10 @@
-import ZFVP.Syntax.RawFormulaCoding
-import ZFVP.Syntax.PrimitiveProgramFormulaTransformEquations
-import ZFVP.Syntax.PrimitiveProgramNegationStandard
+module
+
+public import ZFVP.Syntax.RawFormulaCoding
+public import ZFVP.Syntax.PrimitiveProgramFormulaTransformEquations
+public import ZFVP.Syntax.PrimitiveProgramNegationStandard
+
+@[expose] public section
 
 /-! Raw truth and falsity payloads do not affect explicit formula transformations. -/
 

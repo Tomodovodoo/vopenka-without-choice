@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedForcingTranslation
-import ZFVP.Syntax.BoundedForcingStepSemantics
+module
+
+public import ZFVP.Syntax.BoundedForcingTranslation
+public import ZFVP.Syntax.BoundedForcingStepSemantics
+
+@[expose] public section
 
 namespace ZFVP
 

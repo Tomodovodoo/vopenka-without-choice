@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LevyUnaryFormulaName
-import ZFVP.ModelTheory.ForcingEntailment
-import ZFVP.Syntax.SigmaOneBinaryTuple
+module
+
+public import ZFVP.ModelTheory.LevyUnaryFormulaName
+public import ZFVP.ModelTheory.ForcingEntailment
+public import ZFVP.Syntax.SigmaOneBinaryTuple
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

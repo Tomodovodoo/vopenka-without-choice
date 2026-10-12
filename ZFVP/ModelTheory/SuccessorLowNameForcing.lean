@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SuccessorLowNameCovariance
-import ZFVP.ModelTheory.BoundedSetForcingCovariance
+module
+
+public import ZFVP.ModelTheory.SuccessorLowNameCovariance
+public import ZFVP.ModelTheory.BoundedSetForcingCovariance
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

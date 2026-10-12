@@ -1,51 +1,50 @@
-# Vopěnka's principle without choice
+# VopÄ›nkaâ€™s principle without Choice
 
-Lean formalization and proposed proof repairs for *Vopěnka's Principle without Choice: Preservation under Symmetric Extensions*, by Tom de Groot and Wojciech Aleksander Wołoszyn.
+Lean formalization of *VopÄ›nkaâ€™s Principle without Choice: Preservation under
+Symmetric Extensions*, with its supporting mathematical arguments.
 
-[Original paper on arXiv](https://arxiv.org/abs/2609.06856v1) · [V14 minimal revision](paper/vopenka_without_choice_V14.pdf) · [Manuscripts and exact changes](paper/README.md)
+[Paper PDF](paper/vopenka_without_choice_V3.pdf) Â·
+[Supplement PDF](paper/supplement.pdf) Â·
+[arXiv article](https://arxiv.org/abs/2609.06856) Â·
+[Submission instructions](docs/submission.md)
 
-## Results and remaining gaps
+The library proves symmetric preservation, same-level fragment preservation,
+equiconsistency of ZF+VP and ZFC+VP, and the stated model-construction
+consequences. The paper uses a completed Woodin iteration, a marked-rank lift,
+finite definability bounds and induced-generic endpoint truth. The supplement
+states the supporting arguments and the correspondence with the formal exports.
 
-The formalized routes cover symmetric preservation, Theorem A; the equiconsistency conclusion, Theorem B; the arbitrary-ground Cohen application with a supplied generic; and the ordinary-real Solovay conclusion. The publication checkout's local full build completed 5,076 jobs. Both four-result configurations passed protected Comparator and NanoDa. See [verification and its limits](docs/verification.md).
+## Build and verification
 
-V14 uses the sufficient finite definability bound and ambient-induced generic truth in the Woodin application. V13 retains two broader auxiliary clauses: a sharp Σ₃ bound for its specified sparse presentation, and endpoint forcing truth with its full endpoint and class-generic quantifiers. The [scope audit](repairs/formalization/README.md) records those V13 differences. V14 avoids requiring them; it does not prove the stronger assertions.
-
-## Where to find the repairs
-
-* [Repair index](repairs/README.md): source-paper issues, their consequences, and proposed placement.
-* [Where each repair belongs](repairs/placement.md): individual arguments for source corrections, downstream citation changes, and formalization-only work.
-* [Consequences for our manuscript](repairs/our-paper/README.md): which source repairs need a citation or changed input, and which additions are proof details.
-* [Woodin and Spoerl](repairs/sources/woodin-spoerl/README.md): iteration conventions, restricted lifting, and the separate unresolved ambient-HOD clause.
-* [Enayat](repairs/sources/enayat/README.md): Rubin definitions, block quantifiers, branch preservation, and finite-domain coverage.
-* [Other cited results](repairs/sources/other/README.md): rank-Berkeley's zero case, same-extension generics, and clarification of imported results.
-* [Rejected formalization routes](repairs/development/README.md): failed intermediate claims that should not be attributed to the cited authors.
-
-Each entry links to Lean source and, where available, a detailed mathematical argument. A proposed correction here is not an author-approved erratum. Unresolved source arguments are distinguished from counterexamples to literal statements.
-
-## Build
-
-[Palomar and Comparator setup](docs/palomar.md) · [Documentation index](docs/README.md)
-
-[comparator-palomar.json](comparator-palomar.json) selects all four principal
-result families in one standalone statement for one Palomar entry. Its vocabulary
-imports only mathlib; proved dictionaries connect it to the existing proofs.
-The [setup account](docs/palomar.md) links each bridge and the submission gates.
-
-Individual configurations remain available for diagnosis. `comparator.json`
-also checks the four results in their original Foundation encoding. That
-configuration is outside Palomar's Challenge import policy.
-
-Install [elan](https://github.com/leanprover/elan), then run from this directory:
+Install the pinned Lean toolchain with elan, then run:
 
 ```sh
 lake exe cache get
-lake build ZFVP
+lake build ZFVP PalomarPaperChallenge PalomarPaperSolution
 ```
 
-The toolchain is Lean `v4.34.0-rc2`. The manifest pins mathlib and its transitive dependencies. Foundation is included as source, with the local compatibility changes already applied. Do not replace it with an unpatched upstream checkout. The first build needs network access for dependencies.
+The project pins Lean 4.35.0-rc2 and its matching Mathlib revision. Foundation is
+included as source with its compatibility changes and licence. Dependency
+builds belong to this checkoutâ€™s own `.lake` directory.
 
-`ZFVP.lean` is the main import target. `ZFVP/ModelTheory` contains model constructions and forcing applications; `ZFVP/SetTheory` contains their internal set-theoretic statements. Additional source modules include supporting and optional results. Presence in the repository alone does not establish correspondence with a paper statement.
+[Verification records](docs/verification.md) identify the exact source snapshots
+and checks. The [Palomar setup](docs/palomar.md) describes the four selected
+principal result families and their independent statements. Palomar intake
+requires its complete reusable mechanical preflight for the submitted commit.
 
-## Manuscripts and licensing
+## Publication files
 
-The original manuscript and V13 are preserved unchanged. V14 applies minimal edits to the original and cites the separate source supplements. External source papers are linked rather than redistributed. See [dependency provenance and licensing](docs/provenance.md).
+`paper/vopenka_without_choice_V3.tex` is the article source and
+`paper/supplement.tex` is the companion mathematical text. The articleâ€™s
+bibliography cites the supplement by section and theorem. Run
+`python scripts/package-publication.py` to create the arXiv source archive.
+
+The Lean files, statement dictionaries, sources, metadata and Comparator
+configuration remain at the repository root. One Palomar configuration,
+`comparator-palomar.json`, selects full symmetric VP preservation,
+equiconsistency, the DC consequence and the ordinary-real Solovay consequence.
+The additional library exports remain available from the same source snapshot.
+
+Code and documentation use Apache-2.0. The article and supplement use CC-BY-4.0
+under [paper/LICENSE](paper/LICENSE). Dependencies retain their licences and
+copyright notices. [Dependency provenance](docs/provenance.md).

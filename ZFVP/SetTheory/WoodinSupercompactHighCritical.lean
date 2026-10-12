@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.HighCriticalWoodinWitness
-import ZFVP.SetTheory.SigmaOneStarUnbounded
-import ZFVP.ModelTheory.SuccessorRankPairPreimages
-import ZFVP.ModelTheory.EmbeddingOmegaFixation
+module
+
+public import ZFVP.SetTheory.HighCriticalWoodinWitness
+public import ZFVP.SetTheory.SigmaOneStarUnbounded
+public import ZFVP.ModelTheory.SuccessorRankPairPreimages
+public import ZFVP.ModelTheory.EmbeddingOmegaFixation
+
+@[expose] public section
 
 namespace ZFVP
 

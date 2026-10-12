@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.FiniteRankLiftGraph
-import ZFVP.ModelTheory.ForcingLowRankNames
+module
+
+public import ZFVP.ModelTheory.FiniteRankLiftGraph
+public import ZFVP.ModelTheory.ForcingLowRankNames
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

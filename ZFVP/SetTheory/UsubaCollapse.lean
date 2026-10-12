@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinCollapseDense
-import ZFVP.SetTheory.ForcingClosure
+module
+
+public import ZFVP.SetTheory.WoodinCollapseDense
+public import ZFVP.SetTheory.ForcingClosure
+
+@[expose] public section
 
 /-! Usuba, Definition 4.6: `Col(κ,S)` consists of partial functions from
 `κ` to `S` with well-orderable domain of cardinality below `κ`, ordered

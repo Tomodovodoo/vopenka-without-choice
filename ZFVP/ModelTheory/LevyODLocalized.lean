@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SolovayLocalization
-import ZFVP.SetTheory.OrdinalDefinability
-import ZFVP.Syntax.EndExtensionMembershipSyntax
-import ZFVP.ModelTheory.EndExtensionLanguage
-import ZFVP.ModelTheory.ConstantStructure
+module
+
+public import ZFVP.ModelTheory.SolovayLocalization
+public import ZFVP.SetTheory.OrdinalDefinability
+public import ZFVP.Syntax.EndExtensionMembershipSyntax
+public import ZFVP.ModelTheory.EndExtensionLanguage
+public import ZFVP.ModelTheory.ConstantStructure
+
+@[expose] public section
 
 /-! Ordinal definability in the Levy extension and localization. A bounded stage `V[G_ξ]` is the
 range of an end extension, so it is closed downwards under membership and closed under pairing:

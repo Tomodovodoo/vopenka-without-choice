@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.DedekindRealTopology
+module
+
+public import ZFVP.SetTheory.DedekindRealTopology
+
+@[expose] public section
 
 /-! Rational translations of actual internal Dedekind cuts. -/
 

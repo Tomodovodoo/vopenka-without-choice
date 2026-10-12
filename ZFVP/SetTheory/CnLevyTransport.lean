@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CnAbsoluteness
+module
+
+public import ZFVP.SetTheory.CnAbsoluteness
+
+@[expose] public section
 
 /-! One level above correctness: Sigma(k+2) truth goes up from a C(k+1) stage and
 Pi(k+2) truth goes down into it. -/

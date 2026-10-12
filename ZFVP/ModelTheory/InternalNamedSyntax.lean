@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalElementaryDiagram
-import ZFVP.Syntax.InternalFiniteConjunction
+module
+
+public import ZFVP.ModelTheory.InternalElementaryDiagram
+public import ZFVP.Syntax.InternalFiniteConjunction
+
+@[expose] public section
 
 /-! Raw finite formulas with an actual finite tuple of fixed names. -/
 

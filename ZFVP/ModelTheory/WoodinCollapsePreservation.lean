@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingClosedCardinals
-import ZFVP.ModelTheory.WoodinCollapseModel
-import ZFVP.SetTheory.WoodinCollapseDistributivity
+module
+
+public import ZFVP.ModelTheory.ForcingClosedCardinals
+public import ZFVP.ModelTheory.WoodinCollapseModel
+public import ZFVP.SetTheory.WoodinCollapseDistributivity
+
+@[expose] public section
 
 namespace ZFVP
 

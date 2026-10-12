@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.RegularSetAlgebra
-import ZFVP.SetTheory.InternalWellFounded
-import ZFVP.SetTheory.UniformCollapse
+module
+
+public import ZFVP.SetTheory.RegularSetAlgebra
+public import ZFVP.SetTheory.InternalWellFounded
+public import ZFVP.SetTheory.UniformCollapse
+
+@[expose] public section
 
 /-! Uniqueness of generic ultrafilters on a subalgebra presented by closure stages: two
 antichain-generic ultrafilters on the regular sets that agree on the generators agree on every

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalBinaryQuotient
+module
+
+public import ZFVP.ModelTheory.InternalBinaryQuotient
+
+@[expose] public section
 
 /-! Formula truth descends from names to the actual internal quotient.
 Equality on names is the internal equivalence relation. -/

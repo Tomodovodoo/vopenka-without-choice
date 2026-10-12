@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.WoodinSeedSystem
-import ZFVP.SetTheory.WoodinSeedOrder
-import ZFVP.ModelTheory.WoodinIterationInitial
+module
+
+public import ZFVP.SetTheory.WoodinSeedSystem
+public import ZFVP.SetTheory.WoodinSeedOrder
+public import ZFVP.ModelTheory.WoodinIterationInitial
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

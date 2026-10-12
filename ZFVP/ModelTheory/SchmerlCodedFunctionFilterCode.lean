@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlCodedFunctionTransport
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedFunctionTransport
+
+@[expose] public section
 
 /-! Rubin-definable function filters have membership codes in the represented
 model, since the full finite-function poset is bounded by one of its sets. -/

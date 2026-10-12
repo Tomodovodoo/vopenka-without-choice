@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlCodedDeadEndExpansion
-import ZFVP.ModelTheory.SchmerlCodedClassLanguageTransport
-import ZFVP.ModelTheory.SchmerlFragmentHull
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedDeadEndExpansion
+public import ZFVP.ModelTheory.SchmerlCodedClassLanguageTransport
+public import ZFVP.ModelTheory.SchmerlFragmentHull
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 /-! The canonical finite dead-end language agrees across end extensions,
 elementary maps, and the actual fragment coding hull. -/

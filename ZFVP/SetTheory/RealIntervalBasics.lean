@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.DedekindRealTopology
+module
+
+public import ZFVP.SetTheory.DedekindRealTopology
+
+@[expose] public section
 
 /-! Refinement and separation for the internal rational interval basis. -/
 

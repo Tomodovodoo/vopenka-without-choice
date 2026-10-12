@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedQuantifierAxioms
-import ZFVP.ModelTheory.SchmerlKeislerCountableSupport
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedQuantifierAxioms
+public import ZFVP.ModelTheory.SchmerlKeislerCountableSupport
+
+@[expose] public section
 
 /-! Soundness of a standard Keisler derivation in internally coded models.
 The countable support is extracted from the derivation before any model is

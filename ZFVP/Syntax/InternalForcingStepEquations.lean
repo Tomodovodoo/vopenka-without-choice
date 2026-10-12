@@ -1,4 +1,8 @@
-import ZFVP.Syntax.InternalForcingSatisfaction
+module
+
+public import ZFVP.Syntax.InternalForcingSatisfaction
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

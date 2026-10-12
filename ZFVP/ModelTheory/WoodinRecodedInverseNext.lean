@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.NameTwoStepOrderDefinability
-import ZFVP.ModelTheory.WoodinRecodedInverseCoherence
-import ZFVP.ModelTheory.ForcingRecodedExtension
+module
+
+public import ZFVP.ModelTheory.NameTwoStepOrderDefinability
+public import ZFVP.ModelTheory.WoodinRecodedInverseCoherence
+public import ZFVP.ModelTheory.ForcingRecodedExtension
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ChoicelessExtendibleSupercompact
-import ZFVP.ModelTheory.CriticalPointCardinal
+module
+
+public import ZFVP.SetTheory.ChoicelessExtendibleSupercompact
+public import ZFVP.ModelTheory.CriticalPointCardinal
+
+@[expose] public section
 
 /-! Removing the prescribed lower bound on the critical point.
 Cardinality follows from the small embedding witnesses. -/

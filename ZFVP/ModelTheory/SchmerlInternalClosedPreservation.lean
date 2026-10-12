@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingFiniteFunctions
-import ZFVP.SetTheory.CountableSets
-import ZFVP.SetTheory.EndExtensionFinite
-import ZFVP.SetTheory.InjectionRetraction
+module
+
+public import ZFVP.ModelTheory.ForcingFiniteFunctions
+public import ZFVP.SetTheory.CountableSets
+public import ZFVP.SetTheory.EndExtensionFinite
+public import ZFVP.SetTheory.InjectionRetraction
+
+@[expose] public section
 
 /-! Closure at the ground model's internal omega preserves its omega-one
 in the actual forcing quotient. The sequence theorem used below constructs

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InfinitaryKeislerConsistency
-import ZFVP.ModelTheory.ConstantExpansion
-import ZFVP.ModelTheory.InfinitaryLanguageMap
+module
+
+public import ZFVP.ModelTheory.InfinitaryKeislerConsistency
+public import ZFVP.ModelTheory.ConstantExpansion
+public import ZFVP.ModelTheory.InfinitaryLanguageMap
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

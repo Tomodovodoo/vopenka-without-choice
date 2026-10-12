@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LevyODLocalized
-import ZFVP.ModelTheory.LevyGroundDefinable
-import ZFVP.SetTheory.NameClosureRecursion
+module
+
+public import ZFVP.ModelTheory.LevyODLocalized
+public import ZFVP.ModelTheory.LevyGroundDefinable
+public import ZFVP.SetTheory.NameClosureRecursion
+
+@[expose] public section
 
 /-! Localization as a definable class of the Levy extension.
 

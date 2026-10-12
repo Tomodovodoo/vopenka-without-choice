@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.UsubaIterationStages
-import ZFVP.ModelTheory.UsubaTransportedLocalUnion
-import ZFVP.ModelTheory.ForcingCompositionName
+module
+
+public import ZFVP.ModelTheory.UsubaIterationStages
+public import ZFVP.ModelTheory.UsubaTransportedLocalUnion
+public import ZFVP.ModelTheory.ForcingCompositionName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InfinitaryExistentialWitness
-import ZFVP.ModelTheory.InfinitaryBooleanHenkin
-import ZFVP.ModelTheory.InfinitaryLanguageDerivation
+module
+
+public import ZFVP.ModelTheory.InfinitaryExistentialWitness
+public import ZFVP.ModelTheory.InfinitaryBooleanHenkin
+public import ZFVP.ModelTheory.InfinitaryLanguageDerivation
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

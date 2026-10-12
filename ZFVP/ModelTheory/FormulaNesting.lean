@@ -1,4 +1,8 @@
-import Foundation.FirstOrder.Basic.Definability
+module
+
+public import Foundation.FirstOrder.Basic.Definability
+
+@[expose] public section
 
 /-! Evaluation support for five- and seven-argument relation formulas. -/
 

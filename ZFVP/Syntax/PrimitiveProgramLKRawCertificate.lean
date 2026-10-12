@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramLKRawRule
-import ZFVP.Syntax.PrimitiveProgramLKStandardCertificate
+module
+
+public import ZFVP.Syntax.PrimitiveProgramLKRawRule
+public import ZFVP.Syntax.PrimitiveProgramLKStandardCertificate
+
+@[expose] public section
 
 /-! Every accepted raw standard LK certificate reconstructs a Foundation derivation. -/
 

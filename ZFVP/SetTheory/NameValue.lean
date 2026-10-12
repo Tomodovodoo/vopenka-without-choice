@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.SubnameRecursion
-import ZFVP.SetTheory.CheckNames
+module
+
+public import ZFVP.SetTheory.SubnameRecursion
+public import ZFVP.SetTheory.CheckNames
+
+@[expose] public section
 
 namespace ZFVP
 

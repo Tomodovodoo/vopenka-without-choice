@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingFiniteFunctions
-import ZFVP.ModelTheory.ForcingModelEvaluation
-import ZFVP.ModelTheory.ForcingModelSequences
-import ZFVP.SetTheory.FiniteFunctionLift
+module
+
+public import ZFVP.ModelTheory.ForcingFiniteFunctions
+public import ZFVP.ModelTheory.ForcingModelEvaluation
+public import ZFVP.ModelTheory.ForcingModelSequences
+public import ZFVP.SetTheory.FiniteFunctionLift
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

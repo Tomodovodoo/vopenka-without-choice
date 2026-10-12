@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CorrectDomainClosure
+module
+
+public import ZFVP.SetTheory.CorrectDomainClosure
+
+@[expose] public section
 
 /-! The two partial-truth polarities evaluated in sufficiently correct set domains. -/
 

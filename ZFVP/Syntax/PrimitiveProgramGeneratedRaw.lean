@@ -1,6 +1,10 @@
-import ZFVP.Syntax.PrimitiveProgramGeneratedStandard
-import ZFVP.Syntax.PrimitiveProgramRawFormulas
-import ZFVP.Syntax.PrimitiveProgramRawTransform
+module
+
+public import ZFVP.Syntax.PrimitiveProgramGeneratedStandard
+public import ZFVP.Syntax.PrimitiveProgramRawFormulas
+public import ZFVP.Syntax.PrimitiveProgramRawTransform
+
+@[expose] public section
 
 /-! The standard range of the explicit axiom program is exactly the generated ZF+VP theory. -/
 

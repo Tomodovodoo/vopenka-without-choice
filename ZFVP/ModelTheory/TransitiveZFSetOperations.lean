@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TransitiveZFCoding
-import ZFVP.SetTheory.ForcingNames
+module
+
+public import ZFVP.ModelTheory.TransitiveZFCoding
+public import ZFVP.SetTheory.ForcingNames
+
+@[expose] public section
 
 namespace ZFVP
 

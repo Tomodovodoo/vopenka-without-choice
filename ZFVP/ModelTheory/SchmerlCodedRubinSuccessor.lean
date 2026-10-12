@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlCodedOmittingSuccessor
-import ZFVP.ModelTheory.SchmerlNamedSeparationDensity
-import ZFVP.ModelTheory.SchmerlNamedFiniteDensity
-import ZFVP.ModelTheory.SchmerlCodedProperSuccessor
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedOmittingSuccessor
+public import ZFVP.ModelTheory.SchmerlNamedSeparationDensity
+public import ZFVP.ModelTheory.SchmerlNamedFiniteDensity
+public import ZFVP.ModelTheory.SchmerlCodedProperSuccessor
+
+@[expose] public section
 
 /-! The actual Rubin successor: both omission families are proved dense, then
 one internal filter constructs the countable model with all required properties. -/

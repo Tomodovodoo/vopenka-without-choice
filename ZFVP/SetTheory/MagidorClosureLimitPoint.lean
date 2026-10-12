@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.MagidorClosurePoint
-import ZFVP.SetTheory.OrdinalClosureClass
+module
+
+public import ZFVP.SetTheory.MagidorClosurePoint
+public import ZFVP.SetTheory.OrdinalClosureClass
+
+@[expose] public section
 
 /-! # Limit points of the Magidor closure point class
 

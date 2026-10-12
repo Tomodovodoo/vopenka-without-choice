@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SuccessorRankSetOperations
-import ZFVP.SetTheory.SigmaOneStarCorrectness
+module
+
+public import ZFVP.ModelTheory.SuccessorRankSetOperations
+public import ZFVP.SetTheory.SigmaOneStarCorrectness
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

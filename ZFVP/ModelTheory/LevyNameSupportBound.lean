@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LevyDeterminedSubalgebra
-import ZFVP.SetTheory.RegularUnions
+module
+
+public import ZFVP.ModelTheory.LevyDeterminedSubalgebra
+public import ZFVP.SetTheory.RegularUnions
+
+@[expose] public section
 
 /-! One ordinal `ξ < κ` below which every condition of a small set of nice names is determined.
 

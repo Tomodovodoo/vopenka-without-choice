@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.SplittingScheme
-import ZFVP.ModelTheory.GroundForcingGeneric
-import ZFVP.SetTheory.Hessenberg
+module
+
+public import ZFVP.SetTheory.SplittingScheme
+public import ZFVP.ModelTheory.GroundForcingGeneric
+public import ZFVP.SetTheory.Hessenberg
+
+@[expose] public section
 
 /-! The perfect-set core of Solovay's argument, inside one model: the tree of initial segments of
 the `τ`-values along a binary splitting scheme is perfect, and every real in its body is the union

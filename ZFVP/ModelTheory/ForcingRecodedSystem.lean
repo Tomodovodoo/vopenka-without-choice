@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingRecodedCode
+module
+
+public import ZFVP.ModelTheory.ForcingRecodedCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSuccessorIterand
-import ZFVP.ModelTheory.WoodinPrefixSemantics
+module
+
+public import ZFVP.ModelTheory.WoodinSuccessorIterand
+public import ZFVP.ModelTheory.WoodinPrefixSemantics
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

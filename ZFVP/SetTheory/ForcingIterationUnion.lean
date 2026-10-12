@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingIterationCongruence
-import ZFVP.SetTheory.IterationTableUnion
+module
+
+public import ZFVP.SetTheory.ForcingIterationCongruence
+public import ZFVP.SetTheory.IterationTableUnion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

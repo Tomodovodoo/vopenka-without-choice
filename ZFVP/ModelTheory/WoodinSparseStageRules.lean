@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseStageLaws
+module
+
+public import ZFVP.ModelTheory.WoodinSparseStageLaws
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

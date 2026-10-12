@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.IndexedClubs
+module
+
+public import ZFVP.SetTheory.IndexedClubs
+
+@[expose] public section
 
 namespace ZFVP
 

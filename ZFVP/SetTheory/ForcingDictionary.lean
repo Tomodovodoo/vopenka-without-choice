@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingOrder
-import ZFVP.SetTheory.ForcingNames
+module
+
+public import ZFVP.SetTheory.ForcingOrder
+public import ZFVP.SetTheory.ForcingNames
+
+@[expose] public section
 
 namespace ZFVP
 

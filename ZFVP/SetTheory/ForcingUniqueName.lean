@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ForcingNames
-import ZFVP.SetTheory.Collection
-import ZFVP.SetTheory.LeastOrdinalChoice
-import ZFVP.SetTheory.ForcingUnionName
+module
+
+public import ZFVP.SetTheory.ForcingNames
+public import ZFVP.SetTheory.Collection
+public import ZFVP.SetTheory.LeastOrdinalChoice
+public import ZFVP.SetTheory.ForcingUnionName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

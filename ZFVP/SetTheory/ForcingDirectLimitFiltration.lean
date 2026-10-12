@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ForcingSectionMaps
+module
+
+public import ZFVP.SetTheory.ForcingSectionMaps
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

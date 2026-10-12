@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlFunctionCandidates
+module
+
+public import ZFVP.ModelTheory.SchmerlFunctionCandidates
+
+@[expose] public section
 
 /-! Extracting the finite-domain index order from the predicates used in the
 uniform infinitary sentence. All order and cofinality facts are consequences of

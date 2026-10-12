@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalCountableTheories
-import ZFVP.ModelTheory.CodedElementaryEmbedding
+module
+
+public import ZFVP.ModelTheory.InternalCountableTheories
+public import ZFVP.ModelTheory.CodedElementaryEmbedding
+
+@[expose] public section
 
 /-! Internal countable types and realization in arbitrary structure codes.
 Elementarity preserves realization by old tuples; it does not prevent a larger

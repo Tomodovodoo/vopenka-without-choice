@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BaireRunRegularity
-import ZFVP.SetTheory.PerfectTreeBranches
+module
+
+public import ZFVP.SetTheory.BaireRunRegularity
+public import ZFVP.SetTheory.PerfectTreeBranches
+
+@[expose] public section
 
 /-! The perfect-set property transfers to Baire space in arbitrary internal ZF models. -/
 

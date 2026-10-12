@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.GroundLikeFormulas
-import ZFVP.SetTheory.GodelPairing
+module
+
+public import ZFVP.SetTheory.GroundLikeFormulas
+public import ZFVP.SetTheory.GodelPairing
+
+@[expose] public section
 
 /-! The internal predicate that picks out a ground model from one parameter.
 

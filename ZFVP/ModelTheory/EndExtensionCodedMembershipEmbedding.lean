@@ -1,5 +1,9 @@
-import ZFVP.Syntax.EndExtensionMembershipSatisfaction
-import ZFVP.ModelTheory.SigmaOneMembershipEmbedding
+module
+
+public import ZFVP.Syntax.EndExtensionMembershipSatisfaction
+public import ZFVP.ModelTheory.SigmaOneMembershipEmbedding
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.BinaryRelationZFModel
-import ZFVP.ModelTheory.GeneratedZFVPTheoryEquivalence
+module
+
+public import ZFVP.ModelTheory.BinaryRelationZFModel
+public import ZFVP.ModelTheory.GeneratedZFVPTheoryEquivalence
+
+@[expose] public section
 
 /-! The converse from external ZF truth requires control of the entire internal
 syntax. These hypotheses are external and are not inferred from ZF alone. -/

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CohenLeastSupport
+module
+
+public import ZFVP.SetTheory.CohenLeastSupport
+
+@[expose] public section
 
 namespace ZFVP
 

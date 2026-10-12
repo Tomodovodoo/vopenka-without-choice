@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.GroundAtomicTruth
+module
+
+public import ZFVP.ModelTheory.GroundAtomicTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

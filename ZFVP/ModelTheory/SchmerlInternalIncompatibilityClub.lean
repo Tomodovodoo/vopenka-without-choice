@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedRubinSource
-import ZFVP.SetTheory.FunctionClosureClub
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedRubinSource
+public import ZFVP.SetTheory.FunctionClosureClub
+
+@[expose] public section
 
 /-! A club reflecting actual incompatibility witnesses for a maximal compatible family. -/
 

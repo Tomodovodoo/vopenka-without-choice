@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SaturatedQuotientClosure
-import ZFVP.ModelTheory.ProjectionQuotientClosureForcing
+module
+
+public import ZFVP.ModelTheory.SaturatedQuotientClosure
+public import ZFVP.ModelTheory.ProjectionQuotientClosureForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

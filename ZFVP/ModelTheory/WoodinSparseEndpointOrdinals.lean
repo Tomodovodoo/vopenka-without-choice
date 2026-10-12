@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseRestrictedLiftRank
+module
+
+public import ZFVP.ModelTheory.WoodinSparseRestrictedLiftRank
+
+@[expose] public section
 
 /-! Ground ordinals enumerate the ordinals of the actual sparse endpoint rank. -/
 

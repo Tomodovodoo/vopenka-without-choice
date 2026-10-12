@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryHenkinSequenceDensity
+module
+
+public import ZFVP.ModelTheory.InfinitaryHenkinSequenceDensity
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

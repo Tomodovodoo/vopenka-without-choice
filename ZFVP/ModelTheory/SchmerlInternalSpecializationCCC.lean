@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalStrictFamilies
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalStrictFamilies
+
+@[expose] public section
 
 /-! The internal countable chain condition for strict specialization.
 Induction and the final countable union use the model's own omega, so the

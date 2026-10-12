@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.SchmerlInternalBranchMarkers
-import ZFVP.ModelTheory.SchmerlInternalBranchCore
-import ZFVP.ModelTheory.SchmerlInternalSpecializationProducts
-import ZFVP.ModelTheory.SchmerlInternalCCCPreservation
-import ZFVP.ModelTheory.SchmerlInternalBranchNamesPreservation
-import ZFVP.ModelTheory.ForcingChoice
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalBranchMarkers
+public import ZFVP.ModelTheory.SchmerlInternalBranchCore
+public import ZFVP.ModelTheory.SchmerlInternalSpecializationProducts
+public import ZFVP.ModelTheory.SchmerlInternalCCCPreservation
+public import ZFVP.ModelTheory.SchmerlInternalBranchNamesPreservation
+public import ZFVP.ModelTheory.ForcingChoice
+
+@[expose] public section
 
 /-! The actual internal corrected weak-specialization extension. Markers,
 the core, the poset, and the coloring are constructed; square ccc supplies

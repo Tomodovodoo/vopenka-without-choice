@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.StationarySets
+module
+
+public import ZFVP.SetTheory.StationarySets
+
+@[expose] public section
 
 namespace ZFVP
 

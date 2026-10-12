@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SolovaySymmetricRange
-import ZFVP.ModelTheory.SolovayHODInRange
+module
+
+public import ZFVP.ModelTheory.SolovaySymmetricRange
+public import ZFVP.ModelTheory.SolovayHODInRange
+
+@[expose] public section
 
 /-! The paper's `cor:Solovay` with the reverse inclusion discharged.
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.UltrapowerBase
-import ZFVP.ModelTheory.ConstantStructure
+module
+
+public import ZFVP.SetTheory.UltrapowerBase
+public import ZFVP.ModelTheory.ConstantStructure
+
+@[expose] public section
 
 /-! Constant functions in the internal ultrapower. The two almost everywhere relations are
 computed on a constant function: against an arbitrary function the index set reduces to a

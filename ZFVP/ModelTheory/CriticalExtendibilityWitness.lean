@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CriticalChainEmbedding
-import ZFVP.ModelTheory.CriticalSequenceIndexBounds
+module
+
+public import ZFVP.ModelTheory.CriticalChainEmbedding
+public import ZFVP.ModelTheory.CriticalSequenceIndexBounds
+
+@[expose] public section
 
 /-! Every internal critical stage has all positive-level extendibility witnesses in the limit. -/
 

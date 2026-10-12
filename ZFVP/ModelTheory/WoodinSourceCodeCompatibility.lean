@@ -1,16 +1,20 @@
-import ZFVP.ModelTheory.WoodinSourceGenericProjection
-import ZFVP.ModelTheory.ForcingCanonicalTransport
-import ZFVP.ModelTheory.WoodinSourceSeedLimitMaps
-import ZFVP.ModelTheory.WoodinSourceInvariant
-import ZFVP.ModelTheory.WoodinSourceCode
-import ZFVP.ModelTheory.WoodinSourceEndpoint
-import ZFVP.ModelTheory.WoodinSourceLimits
-import ZFVP.ModelTheory.WoodinSourceLimitMaps
-import ZFVP.ModelTheory.WoodinSourceLimitReplacement
-import ZFVP.ModelTheory.WoodinSourceCompletedInverse
-import ZFVP.ModelTheory.WoodinSourceCompletedSections
-import ZFVP.ModelTheory.WoodinSourceCompletedReplacement
-import ZFVP.SetTheory.WoodinSeedPrefix
+module
+
+public import ZFVP.ModelTheory.WoodinSourceGenericProjection
+public import ZFVP.ModelTheory.ForcingCanonicalTransport
+public import ZFVP.ModelTheory.WoodinSourceSeedLimitMaps
+public import ZFVP.ModelTheory.WoodinSourceInvariant
+public import ZFVP.ModelTheory.WoodinSourceCode
+public import ZFVP.ModelTheory.WoodinSourceEndpoint
+public import ZFVP.ModelTheory.WoodinSourceLimits
+public import ZFVP.ModelTheory.WoodinSourceLimitMaps
+public import ZFVP.ModelTheory.WoodinSourceLimitReplacement
+public import ZFVP.ModelTheory.WoodinSourceCompletedInverse
+public import ZFVP.ModelTheory.WoodinSourceCompletedSections
+public import ZFVP.ModelTheory.WoodinSourceCompletedReplacement
+public import ZFVP.SetTheory.WoodinSeedPrefix
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]

@@ -1,5 +1,9 @@
-import ZFVP.Syntax.EndExtensionDefinableInduction
-import ZFVP.Syntax.FormulaNegation
+module
+
+public import ZFVP.Syntax.EndExtensionDefinableInduction
+public import ZFVP.Syntax.FormulaNegation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

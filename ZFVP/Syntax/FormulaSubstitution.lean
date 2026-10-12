@@ -1,5 +1,9 @@
-import ZFVP.Syntax.FormulaDepthRecursion
-import ZFVP.Syntax.SubstitutionStates
+module
+
+public import ZFVP.Syntax.FormulaDepthRecursion
+public import ZFVP.Syntax.SubstitutionStates
+
+@[expose] public section
 
 /-! Internal formula substitution, carrying the precomputed binder-depth states. -/
 

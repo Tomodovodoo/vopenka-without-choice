@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.NormalizedTwoStepComparison
-import ZFVP.ModelTheory.TransitiveZFTwoStepForcing
+module
+
+public import ZFVP.ModelTheory.NormalizedTwoStepComparison
+public import ZFVP.ModelTheory.TransitiveZFTwoStepForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

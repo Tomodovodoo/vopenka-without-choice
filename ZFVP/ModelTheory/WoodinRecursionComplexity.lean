@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SigmaThreeWoodinRecursion
-import ZFVP.ModelTheory.WoodinRawInverseSingular
+module
+
+public import ZFVP.ModelTheory.SigmaThreeWoodinRecursion
+public import ZFVP.ModelTheory.WoodinRawInverseSingular
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

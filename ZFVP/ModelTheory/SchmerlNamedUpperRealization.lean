@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlNamedUpperBackground
-import ZFVP.ModelTheory.SchmerlFiniteUpperBounds
+module
+
+public import ZFVP.ModelTheory.SchmerlNamedUpperBackground
+public import ZFVP.ModelTheory.SchmerlFiniteUpperBounds
+
+@[expose] public section
 
 /-! Every internally finite fragment of the actual cofinal background has an
 actual source realization fixing all old names. -/

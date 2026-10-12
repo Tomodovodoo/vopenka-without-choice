@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CountablePartialFunctions
-import ZFVP.SetTheory.PartialFunctionAutomorphisms
+module
+
+public import ZFVP.SetTheory.CountablePartialFunctions
+public import ZFVP.SetTheory.PartialFunctionAutomorphisms
+
+@[expose] public section
 
 /-! Permutations of the index set act on countable partial functions by
 permuting first coordinates; each such action is a forcing automorphism. -/

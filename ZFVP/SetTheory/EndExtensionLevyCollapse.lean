@@ -1,11 +1,15 @@
-import ZFVP.SetTheory.EndExtensionCoding
-import ZFVP.SetTheory.EndExtensionRelations
-import ZFVP.SetTheory.EndExtensionFinite
-import ZFVP.SetTheory.EndExtensionSets
-import ZFVP.SetTheory.EndExtensionWellOrdering
-import ZFVP.SetTheory.EndExtensionNameValue
-import ZFVP.SetTheory.FiniteSequences
-import ZFVP.SetTheory.LevyCollapseUpper
+module
+
+public import ZFVP.SetTheory.EndExtensionCoding
+public import ZFVP.SetTheory.EndExtensionRelations
+public import ZFVP.SetTheory.EndExtensionFinite
+public import ZFVP.SetTheory.EndExtensionSets
+public import ZFVP.SetTheory.EndExtensionWellOrdering
+public import ZFVP.SetTheory.EndExtensionNameValue
+public import ZFVP.SetTheory.FiniteSequences
+public import ZFVP.SetTheory.LevyCollapseUpper
+
+@[expose] public section
 
 /-! Absoluteness of finiteness, finite partial functions and the Levy collapse for membership end
 extensions: `j (Coll(ω,<κ)) = Coll(ω,<j κ)`, and likewise for its order, cuts and upper parts. -/

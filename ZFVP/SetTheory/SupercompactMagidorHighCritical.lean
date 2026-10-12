@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.SupercompactUltrapowerBound
-import ZFVP.SetTheory.SupercompactInaccessible
-import ZFVP.SetTheory.MagidorUltrapowerReflection
-import ZFVP.SetTheory.MagidorVopenkaForwardSharp
+module
+
+public import ZFVP.SetTheory.SupercompactUltrapowerBound
+public import ZFVP.SetTheory.SupercompactInaccessible
+public import ZFVP.SetTheory.MagidorUltrapowerReflection
+public import ZFVP.SetTheory.MagidorVopenkaForwardSharp
+
+@[expose] public section
 
 /-! Normal fine measures yield high-critical small embeddings into inaccessible ranks. -/
 

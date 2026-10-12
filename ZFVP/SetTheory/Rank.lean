@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.TransitiveClosure
+module
+
+public import ZFVP.SetTheory.TransitiveClosure
+
+@[expose] public section
 
 /-! Rank in an arbitrary internal ZF model. The proof of existence uses
 definable set induction and Replacement of unique least ordinal witnesses.

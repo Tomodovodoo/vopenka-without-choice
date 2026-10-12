@@ -1,4 +1,8 @@
-import ZFVP.Syntax.LevyDerivationSteps
+module
+
+public import ZFVP.Syntax.LevyDerivationSteps
+
+@[expose] public section
 
 /-! Bounded formulas for the constructor rules of a Levy extension. -/
 

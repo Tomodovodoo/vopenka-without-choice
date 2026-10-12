@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.LeastChoicelessLastPoint
-import ZFVP.SetTheory.CnCofinalUnbounded
+module
+
+public import ZFVP.SetTheory.LeastChoicelessLastPoint
+public import ZFVP.SetTheory.CnCofinalUnbounded
+
+@[expose] public section
 
 /-! Mohammd Proposition 6.5(ii): the least relative extendible ordinal
 is a limit of correct heights one level higher. -/

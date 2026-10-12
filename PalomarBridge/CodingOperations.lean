@@ -1,5 +1,9 @@
-import PalomarBridge.ZFDictionary
-import ZFVP.SetTheory.FunctionComposition
+module
+
+public import PalomarBridge.ZFDictionary
+public import ZFVP.SetTheory.FunctionComposition
+
+@[expose] public section
 
 /-! Exact agreement of the independent set operations with Foundation.
 These equalities justify the shared definitions in the independent VP dictionary. -/

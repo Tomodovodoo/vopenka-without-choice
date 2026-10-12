@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseArbitraryEndpointLift
+module
+
+public import ZFVP.ModelTheory.WoodinSparseArbitraryEndpointLift
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

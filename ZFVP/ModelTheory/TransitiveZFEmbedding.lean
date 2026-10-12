@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TransitiveZFCoding
-import ZFVP.ModelTheory.EmbeddingCriticalPointImage
-import ZFVP.SetTheory.HartogsDictionary
+module
+
+public import ZFVP.ModelTheory.TransitiveZFCoding
+public import ZFVP.ModelTheory.EmbeddingCriticalPointImage
+public import ZFVP.SetTheory.HartogsDictionary
+
+@[expose] public section
 
 /-! Internal elementary graphs, critical points and cardinal witnesses in transitive ZF models. -/
 

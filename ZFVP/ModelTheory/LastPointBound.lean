@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LastPoint
+module
+
+public import ZFVP.ModelTheory.LastPoint
+
+@[expose] public section
 
 /-! An ordinal mapped above the source bounds every fixed source ordinal. -/
 

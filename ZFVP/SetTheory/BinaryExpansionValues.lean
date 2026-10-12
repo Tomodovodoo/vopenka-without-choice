@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BinaryExpansionNumerator
+module
+
+public import ZFVP.SetTheory.BinaryExpansionNumerator
+
+@[expose] public section
 
 /-! Rational endpoints of the closed intervals specified by binary prefixes. -/
 

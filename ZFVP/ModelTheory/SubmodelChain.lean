@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ElementaryMap
+module
+
+public import ZFVP.SetTheory.ElementaryMap
+
+@[expose] public section
 
 /-! # Tarski-Vaught for an increasing chain of subsets of one model
 

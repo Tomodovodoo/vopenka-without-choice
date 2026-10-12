@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedFunctionColors
-import ZFVP.ModelTheory.SchmerlCodedFunctionFamilyTransport
-import ZFVP.ModelTheory.SchmerlCodedFiniteDomainSelection
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedFunctionColors
+public import ZFVP.ModelTheory.SchmerlCodedFunctionFamilyTransport
+public import ZFVP.ModelTheory.SchmerlCodedFiniteDomainSelection
+
+@[expose] public section
 
 /-! The uniform function-tree sentence follows from the actual family of
 colors and the original membership codes for preserved candidates. -/

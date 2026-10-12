@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.DeltaOnePairProjections
-import ZFVP.SetTheory.DeltaOneUnaryComposition
-import ZFVP.SetTheory.ForcingIterationCode
+module
+
+public import ZFVP.SetTheory.DeltaOnePairProjections
+public import ZFVP.SetTheory.DeltaOneUnaryComposition
+public import ZFVP.SetTheory.ForcingIterationCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

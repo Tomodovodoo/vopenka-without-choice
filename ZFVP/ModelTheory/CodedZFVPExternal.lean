@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalZFExternal
-import ZFVP.Syntax.ZFVPOpenAxiomSet
-import ZFVP.ModelTheory.ProtoRankBerkeleyCodedVP
+module
+
+public import ZFVP.ModelTheory.InternalZFExternal
+public import ZFVP.Syntax.ZFVPOpenAxiomSet
+public import ZFVP.ModelTheory.ProtoRankBerkeleyCodedVP
+
+@[expose] public section
 
 /-! External ZF+VP models obtained from the full internal axiom dictionary. -/
 

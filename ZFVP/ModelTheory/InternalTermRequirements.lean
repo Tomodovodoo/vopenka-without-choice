@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramRequirementCharacterization
-import ZFVP.ModelTheory.NaturalSyntaxStandard
+module
+
+public import ZFVP.Syntax.PrimitiveProgramRequirementCharacterization
+public import ZFVP.ModelTheory.NaturalSyntaxStandard
+
+@[expose] public section
 
 /-! Accepted internal natural term codes decode to terms in their stated context. -/
 

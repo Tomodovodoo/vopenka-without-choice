@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CohenModel
-import ZFVP.SetTheory.CohenStableRepresentativeSupport
+module
+
+public import ZFVP.ModelTheory.CohenModel
+public import ZFVP.SetTheory.CohenStableRepresentativeSupport
+
+@[expose] public section
 
 namespace ZFVP
 

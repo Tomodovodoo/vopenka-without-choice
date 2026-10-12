@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseRestorationTheorem
-import ZFVP.SetTheory.CnExtendibleAllLowerLevels
+module
+
+public import ZFVP.ModelTheory.WoodinSparseRestorationTheorem
+public import ZFVP.SetTheory.CnExtendibleAllLowerLevels
+
+@[expose] public section
 
 /-! A single actual endpoint restores all levels up to a prescribed finite
 index. Its small-embedding graphs are quantified as elements of that endpoint.

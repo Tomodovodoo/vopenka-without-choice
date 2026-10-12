@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinCollapseLiftDomain
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseLiftDomain
+
+@[expose] public section
 
 namespace ZFVP
 

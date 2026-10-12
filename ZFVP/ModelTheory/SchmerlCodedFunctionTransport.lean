@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedTreeTransport
-import ZFVP.ModelTheory.SchmerlCodedFunctionBranchFilter
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedTreeTransport
+public import ZFVP.ModelTheory.SchmerlCodedFunctionBranchFilter
+
+@[expose] public section
 
 /-! Transport of the actual finite-domain selection and branch filters. -/
 

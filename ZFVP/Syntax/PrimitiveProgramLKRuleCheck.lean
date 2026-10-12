@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramLKRuleCore
+module
+
+public import ZFVP.Syntax.PrimitiveProgramLKRuleCore
+
+@[expose] public section
 
 /-! The local LK checker validates every decoded formula and sequent before checking its rule. -/
 

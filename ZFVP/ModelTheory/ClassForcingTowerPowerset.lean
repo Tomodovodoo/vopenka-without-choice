@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ClassForcingTowerModel
-import ZFVP.SetTheory.EndExtensionCoding
+module
+
+public import ZFVP.ModelTheory.ClassForcingTowerModel
+public import ZFVP.SetTheory.EndExtensionCoding
+
+@[expose] public section
 
 namespace ZFVP
 

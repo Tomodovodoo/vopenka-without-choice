@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingQuotientImages
+module
+
+public import ZFVP.ModelTheory.ForcingQuotientImages
+
+@[expose] public section
 
 namespace ZFVP
 

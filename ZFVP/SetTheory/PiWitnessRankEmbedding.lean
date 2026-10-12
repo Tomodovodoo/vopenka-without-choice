@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.PiWitnessRankClass
+module
+
+public import ZFVP.SetTheory.PiWitnessRankClass
+
+@[expose] public section
 
 /-! Restricted Vopenka supplies the inner ZF embedding needed for fragment preservation. -/
 

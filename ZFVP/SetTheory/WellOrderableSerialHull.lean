@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.DependentChoice
-import ZFVP.SetTheory.WellOrderingChoice
+module
+
+public import ZFVP.SetTheory.DependentChoice
+public import ZFVP.SetTheory.WellOrderingChoice
+
+@[expose] public section
 
 /-! The last step of Usuba, Proposition 3.6: a serial relation on a
 well-orderable set admits a path, without internal Choice. Constructing the

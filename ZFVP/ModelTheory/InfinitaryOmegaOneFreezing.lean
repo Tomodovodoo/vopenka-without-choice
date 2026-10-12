@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryOmegaOneStandardTruth
+module
+
+public import ZFVP.ModelTheory.InfinitaryOmegaOneStandardTruth
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder
@@ -59,7 +63,7 @@ theorem preservesSmallFibers_of_successors_and_continuity
       Formula.WeakEval (C.model j).Q φ (x :> C.map hij ∘ b) →
         ∃ y : (C.model i).Domain, C.map hij y = x := by
     intro j
-    induction j using (IsWellFounded.wf (α := OmegaOne) (r := (· < ·))).induction with
+    induction j using (wellFounded_lt (α := OmegaOne)).induction with
     | h j ih =>
       intro hij x hx
       by_cases he : i = j

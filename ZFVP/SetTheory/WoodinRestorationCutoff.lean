@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSupercompactRestoration
-import ZFVP.SetTheory.ChoicelessInaccessibleRank
-import ZFVP.SetTheory.LeastOrdinalChoice
+module
+
+public import ZFVP.ModelTheory.WoodinSupercompactRestoration
+public import ZFVP.SetTheory.ChoicelessInaccessibleRank
+public import ZFVP.SetTheory.LeastOrdinalChoice
+
+@[expose] public section
 
 /-! Least inaccessible local restoration cutoffs. These are computed in one
 ZF model. Applying this selection inside an iterated forcing extension still

@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgram
-import ZFVP.ModelTheory.InternalPrimitiveRecursion
+module
+
+public import ZFVP.Syntax.PrimitiveProgram
+public import ZFVP.ModelTheory.InternalPrimitiveRecursion
+
+@[expose] public section
 
 /-! Uniform, total interpretations of explicit primitive-recursive programs in internal omega. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlCodedFunctionBranchSequence
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedFunctionBranchSequence
+
+@[expose] public section
 
 /-! A full-tree maximally compatible filter reconstructed from a selected
 cofinal branch. The Rubin clause applies to this full definable poset. -/

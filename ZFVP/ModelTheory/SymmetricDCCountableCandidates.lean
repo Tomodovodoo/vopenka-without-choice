@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.SymmetricModelGraph
-import ZFVP.SetTheory.SymmetricSequenceNames
-import ZFVP.SetTheory.ForcingClosure
-import ZFVP.SetTheory.DependentChoice
-import ZFVP.SetTheory.ForcingDependentChoicePaths
-import ZFVP.SetTheory.EndExtensionCoding
+module
+
+public import ZFVP.ModelTheory.SymmetricModelGraph
+public import ZFVP.SetTheory.SymmetricSequenceNames
+public import ZFVP.SetTheory.ForcingClosure
+public import ZFVP.SetTheory.DependentChoice
+public import ZFVP.SetTheory.ForcingDependentChoicePaths
+public import ZFVP.SetTheory.EndExtensionCoding
+
+@[expose] public section
 
 /-! Karagila, Preserving dependent choice, Lemma 3.1 in the form used by the paper:
 a symmetric extension by a forcing closed under descending omega-sequences, with a

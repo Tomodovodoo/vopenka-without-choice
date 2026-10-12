@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.RankSparseNormalizedTwoStep
-import ZFVP.ModelTheory.RankSaturatedPrefixNameAgreement
-import ZFVP.ModelTheory.WoodinSparseInitial
-import ZFVP.ModelTheory.WoodinInitialStageRankAgreement
-import ZFVP.ModelTheory.RankNormalizationMaps
+module
+
+public import ZFVP.ModelTheory.RankSparseNormalizedTwoStep
+public import ZFVP.ModelTheory.RankSaturatedPrefixNameAgreement
+public import ZFVP.ModelTheory.WoodinSparseInitial
+public import ZFVP.ModelTheory.WoodinInitialStageRankAgreement
+public import ZFVP.ModelTheory.RankNormalizationMaps
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

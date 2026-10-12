@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.DeltaOneAtomicForcing
-import ZFVP.SetTheory.EndExtensionLevy
-import ZFVP.SetTheory.EndExtensionWellOrdering
-import ZFVP.SetTheory.AtomicSeparation
+module
+
+public import ZFVP.SetTheory.DeltaOneAtomicForcing
+public import ZFVP.SetTheory.EndExtensionLevy
+public import ZFVP.SetTheory.EndExtensionWellOrdering
+public import ZFVP.SetTheory.AtomicSeparation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

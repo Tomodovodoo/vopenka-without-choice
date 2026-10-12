@@ -1,5 +1,9 @@
-import ZFVP.Syntax.FormulaCodes
-import ZFVP.Syntax.UniformTerms
+module
+
+public import ZFVP.Syntax.FormulaCodes
+public import ZFVP.Syntax.UniformTerms
+
+@[expose] public section
 
 /-! Shared first-order formulas for the eight constructors and valid atomic arguments. -/
 

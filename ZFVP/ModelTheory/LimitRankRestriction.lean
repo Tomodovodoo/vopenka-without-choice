@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.LimitRankEmbeddingAction
-import ZFVP.ModelTheory.TruthTableRestriction
-import ZFVP.ModelTheory.TransitiveZFCoding
-import ZFVP.SetTheory.CorrectDomainReflection
+module
+
+public import ZFVP.ModelTheory.LimitRankEmbeddingAction
+public import ZFVP.ModelTheory.TruthTableRestriction
+public import ZFVP.ModelTheory.TransitiveZFCoding
+public import ZFVP.SetTheory.CorrectDomainReflection
+
+@[expose] public section
 
 /-! Restriction to an inner transitive ZF model using a truth table in a limit rank segment. -/
 

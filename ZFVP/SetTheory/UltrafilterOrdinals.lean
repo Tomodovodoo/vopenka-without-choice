@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.UltrafilterFibers
-import ZFVP.SetTheory.CofinalityDictionary
-import ZFVP.SetTheory.OrdinalProductBound
-import ZFVP.SetTheory.FiniteSets
+module
+
+public import ZFVP.SetTheory.UltrafilterFibers
+public import ZFVP.SetTheory.CofinalityDictionary
+public import ZFVP.SetTheory.OrdinalProductBound
+public import ZFVP.SetTheory.FiniteSets
+
+@[expose] public section
 
 /-! Ordinal combinatorics of a nonprincipal complete ultrafilter on an ordinal `κ`: small
 ordinals are not members, `κ` is closed under successor, finite subsets are bounded, `κ` is

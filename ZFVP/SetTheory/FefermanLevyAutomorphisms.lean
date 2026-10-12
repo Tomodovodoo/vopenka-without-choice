@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FefermanLevyForcing
-import ZFVP.SetTheory.PartialFunctionAutomorphisms
+module
+
+public import ZFVP.SetTheory.FefermanLevyForcing
+public import ZFVP.SetTheory.PartialFunctionAutomorphisms
+
+@[expose] public section
 
 /-! Column permutations act on the Feferman-Levy conditions by permuting positions
 within each column; the induced maps form an automorphism group, and permutations

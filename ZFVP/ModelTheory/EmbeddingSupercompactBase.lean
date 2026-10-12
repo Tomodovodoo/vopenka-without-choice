@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ChoicelessSupercompactWitnessInRank
-import ZFVP.ModelTheory.CriticalPointRestriction
+module
+
+public import ZFVP.SetTheory.ChoicelessSupercompactWitnessInRank
+public import ZFVP.ModelTheory.CriticalPointRestriction
+
+@[expose] public section
 
 /-! The first interval of the last-point supercompactness argument. -/
 

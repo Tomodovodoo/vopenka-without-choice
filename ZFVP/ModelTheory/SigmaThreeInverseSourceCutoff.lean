@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.DeltaTwoInverseComponents
-import ZFVP.ModelTheory.SigmaThreeSaturatedHartogsNames
-import ZFVP.SetTheory.PiTwoNamedPrefixCutoff
+module
+
+public import ZFVP.ModelTheory.DeltaTwoInverseComponents
+public import ZFVP.ModelTheory.SigmaThreeSaturatedHartogsNames
+public import ZFVP.SetTheory.PiTwoNamedPrefixCutoff
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

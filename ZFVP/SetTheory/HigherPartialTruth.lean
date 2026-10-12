@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CorrectDomainReflection
+module
+
+public import ZFVP.SetTheory.CorrectDomainReflection
+
+@[expose] public section
 
 /-! Correct partial truth at every positive standard Levy level. -/
 

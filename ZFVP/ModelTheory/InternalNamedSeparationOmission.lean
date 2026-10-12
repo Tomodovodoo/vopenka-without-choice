@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalNamedFiniteOmission
-import ZFVP.ModelTheory.SchmerlCodedDefinitionParameters
-import ZFVP.SetTheory.SurjectionAssignmentLift
+module
+
+public import ZFVP.ModelTheory.InternalNamedFiniteOmission
+public import ZFVP.ModelTheory.SchmerlCodedDefinitionParameters
+public import ZFVP.SetTheory.SurjectionAssignmentLift
+
+@[expose] public section
 
 /-! Actual omission tasks preventing separation of a specified pair of sets.
 All target parameter tuples lift to actual name tuples; density is separate. -/

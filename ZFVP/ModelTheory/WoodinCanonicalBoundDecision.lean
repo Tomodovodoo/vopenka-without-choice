@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinBoundInvariantSemantics
-import ZFVP.ModelTheory.ForcingFunctionValues
-import ZFVP.ModelTheory.ForcingCompositionName
+module
+
+public import ZFVP.ModelTheory.WoodinBoundInvariantSemantics
+public import ZFVP.ModelTheory.ForcingFunctionValues
+public import ZFVP.ModelTheory.ForcingCompositionName
+
+@[expose] public section
 
 /-! The base condition that decides the selected coordinate values.
 

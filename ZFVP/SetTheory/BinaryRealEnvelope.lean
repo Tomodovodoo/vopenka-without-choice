@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RealGDeltaCodes
-import ZFVP.SetTheory.LebesgueNull
+module
+
+public import ZFVP.SetTheory.RealGDeltaCodes
+public import ZFVP.SetTheory.LebesgueNull
+
+@[expose] public section
 
 /-! A real G-delta envelope whose excess lies in the binary image of the Cantor excess. -/
 

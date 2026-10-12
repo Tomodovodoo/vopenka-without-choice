@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInfinitaryClassSentence
-import ZFVP.ModelTheory.SchmerlInfinitaryBranchConstruction
+module
+
+public import ZFVP.ModelTheory.SchmerlInfinitaryClassSentence
+public import ZFVP.ModelTheory.SchmerlInfinitaryBranchConstruction
+
+@[expose] public section
 
 /-! The construction direction of the fixed class-tree sentence. A selected
 cofinal rank predicate and a weak coloring suffice when all original branches

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseRestorationGround
-import ZFVP.ModelTheory.WoodinSparseEndpointZFC
+module
+
+public import ZFVP.ModelTheory.WoodinSparseRestorationGround
+public import ZFVP.ModelTheory.WoodinSparseEndpointZFC
+
+@[expose] public section
 
 /-! Existence of an actual generic endpoint for finite restoration.
 Countability is external; no external well-foundedness of the ground model

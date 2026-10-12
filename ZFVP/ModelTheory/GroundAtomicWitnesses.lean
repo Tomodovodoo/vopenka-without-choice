@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.GroundForcingGeneric
-import ZFVP.ModelTheory.TransitiveZFAtomicForcing
-import ZFVP.SetTheory.AtomicWitnesses
+module
+
+public import ZFVP.ModelTheory.GroundForcingGeneric
+public import ZFVP.ModelTheory.TransitiveZFAtomicForcing
+public import ZFVP.SetTheory.AtomicWitnesses
+
+@[expose] public section
 
 namespace ZFVP
 

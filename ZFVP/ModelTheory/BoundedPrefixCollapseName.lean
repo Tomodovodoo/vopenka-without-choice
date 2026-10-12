@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SaturatedEmptyIterand
-import ZFVP.ModelTheory.ForcingCnOneTruth
-import ZFVP.ModelTheory.SuccessorRankWoodinCollapse
-import ZFVP.ModelTheory.ForcingSmallInaccessible
-import ZFVP.SetTheory.TwoStepRankBounds
+module
+
+public import ZFVP.ModelTheory.SaturatedEmptyIterand
+public import ZFVP.ModelTheory.ForcingCnOneTruth
+public import ZFVP.ModelTheory.SuccessorRankWoodinCollapse
+public import ZFVP.ModelTheory.ForcingSmallInaccessible
+public import ZFVP.SetTheory.TwoStepRankBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

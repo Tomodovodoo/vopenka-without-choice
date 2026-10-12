@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedCodes
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.Syntax.BoundedCodes
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 /-! Atomic semantics for internal membership-language codes. -/
 

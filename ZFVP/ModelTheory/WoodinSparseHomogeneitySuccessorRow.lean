@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseHomogeneityBuilder
-import ZFVP.ModelTheory.CoherentAutomorphismSuccessorRow
-import ZFVP.ModelTheory.WoodinSparseWitnessPrefix
+module
+
+public import ZFVP.ModelTheory.WoodinSparseHomogeneityBuilder
+public import ZFVP.ModelTheory.CoherentAutomorphismSuccessorRow
+public import ZFVP.ModelTheory.WoodinSparseWitnessPrefix
+
+@[expose] public section
 
 set_option maxHeartbeats 1000000
 

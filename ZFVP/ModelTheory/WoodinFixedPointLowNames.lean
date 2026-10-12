@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinFixedPointStageMap
-import ZFVP.ModelTheory.WoodinFixedPointModel
-import ZFVP.ModelTheory.ForcingLowRankNames
+module
+
+public import ZFVP.ModelTheory.WoodinFixedPointStageMap
+public import ZFVP.ModelTheory.WoodinFixedPointModel
+public import ZFVP.ModelTheory.ForcingLowRankNames
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

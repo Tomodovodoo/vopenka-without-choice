@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinRecursionUniform
-import ZFVP.ModelTheory.WoodinCoordinateProjection
-import ZFVP.SetTheory.ForcingStageConditions
-import ZFVP.SetTheory.ForcingSectionOrder
+module
+
+public import ZFVP.ModelTheory.WoodinRecursionUniform
+public import ZFVP.ModelTheory.WoodinCoordinateProjection
+public import ZFVP.SetTheory.ForcingStageConditions
+public import ZFVP.SetTheory.ForcingSectionOrder
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LastPointWitness
-import ZFVP.ModelTheory.LastPointBound
-import ZFVP.SetTheory.Collection
+module
+
+public import ZFVP.ModelTheory.LastPointWitness
+public import ZFVP.ModelTheory.LastPointBound
+public import ZFVP.SetTheory.Collection
+
+@[expose] public section
 
 /-! Mohammd Proposition 6.5(i): eventual equality with the last point.
 ZF Collection bounds the sources for all smaller last points at once. -/

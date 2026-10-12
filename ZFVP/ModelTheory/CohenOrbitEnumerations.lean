@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CohenOrbitFamily
-import ZFVP.SetTheory.FiniteDomainEnumerationFamily
-import ZFVP.SetTheory.EndExtensionRelations
+module
+
+public import ZFVP.ModelTheory.CohenOrbitFamily
+public import ZFVP.SetTheory.FiniteDomainEnumerationFamily
+public import ZFVP.SetTheory.EndExtensionRelations
+
+@[expose] public section
 
 namespace ZFVP
 

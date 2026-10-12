@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RandomExhaustion
-import ZFVP.SetTheory.MeasurableStrongLimit
+module
+
+public import ZFVP.SetTheory.RandomExhaustion
+public import ZFVP.SetTheory.MeasurableStrongLimit
+
+@[expose] public section
 
 /-! Null codes: sequences of covers, one of measure `2^{-m}` for each `m`, and the coded null `G_δ`
 sets they determine. Non-positive trees have codes enumerating a small level for each precision,

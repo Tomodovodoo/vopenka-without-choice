@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedConstructorExpressions
-import ZFVP.Syntax.MembershipSatisfaction
+module
+
+public import ZFVP.Syntax.BoundedConstructorExpressions
+public import ZFVP.Syntax.MembershipSatisfaction
+
+@[expose] public section
 
 /-! Bounded constructor expressions for each externally finite membership formula. -/
 

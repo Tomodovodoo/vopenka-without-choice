@@ -1,4 +1,8 @@
-import ZFVP.Syntax.LevyNegation
+module
+
+public import ZFVP.Syntax.LevyNegation
+
+@[expose] public section
 
 /-! Internal Sigma-one upward and Pi-one downward preservation. -/
 

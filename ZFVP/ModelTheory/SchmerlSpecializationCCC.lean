@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlStrictSpecialization
-import Mathlib.Order.Filter.Cocardinal
-import Mathlib.Order.Filter.Ultrafilter.Basic
-import Mathlib.Data.Set.Card
+module
+
+public import ZFVP.ModelTheory.SchmerlStrictSpecialization
+public import Mathlib.Order.Filter.Cocardinal
+public import Mathlib.Order.Filter.Ultrafilter.Basic
+public import Mathlib.Data.Set.Card
+
+@[expose] public section
 
 /-! The countable chain condition for finite strict specializations of a tree
 whose chains are countable. The proof uses induction on condition size and the

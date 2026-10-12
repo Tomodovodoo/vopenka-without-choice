@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.DeltaOneWoodinStageCode
-import ZFVP.ModelTheory.SigmaThreeWoodinSuccessor
-import ZFVP.SetTheory.DeltaThreeWoodinSeed
+module
+
+public import ZFVP.ModelTheory.DeltaOneWoodinStageCode
+public import ZFVP.ModelTheory.SigmaThreeWoodinSuccessor
+public import ZFVP.SetTheory.DeltaThreeWoodinSeed
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

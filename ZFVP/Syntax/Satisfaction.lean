@@ -1,6 +1,10 @@
-import ZFVP.Syntax.FormulaRecursion
-import ZFVP.Syntax.AtomicSatisfaction
-import ZFVP.Syntax.Assignments
+module
+
+public import ZFVP.Syntax.FormulaRecursion
+public import ZFVP.Syntax.AtomicSatisfaction
+public import ZFVP.Syntax.Assignments
+
+@[expose] public section
 
 /-! Internal satisfaction: recursion assigns each formula its satisfying bound assignments. -/
 

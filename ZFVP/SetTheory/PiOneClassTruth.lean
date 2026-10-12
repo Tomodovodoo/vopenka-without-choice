@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.LevelOneTruth
-import ZFVP.SetTheory.TransfiniteIteration
+module
+
+public import ZFVP.SetTheory.LevelOneTruth
+public import ZFVP.SetTheory.TransfiniteIteration
+
+@[expose] public section
 
 /-! Downward absoluteness of a Π₁ formula in two free variables to a transitive set, in the raw
 evaluation form and in the internally coded form built on `MembershipSatisfies`, together with a

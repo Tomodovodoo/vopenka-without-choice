@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.BoundedEmbeddingTables
+module
+
+public import ZFVP.ModelTheory.BoundedEmbeddingTables
+
+@[expose] public section
 
 /-! Complete truth tables give a Sigma-one certificate for coded elementarity. -/
 

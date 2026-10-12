@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramProofRewriteLimits
-import ZFVP.Syntax.PrimitiveProgramFormulaTransformEquations
+module
+
+public import ZFVP.Syntax.PrimitiveProgramProofRewriteLimits
+public import ZFVP.Syntax.PrimitiveProgramFormulaTransformEquations
+
+@[expose] public section
 
 /-! Constructor equations for the proof-rule rewrite specialization. -/
 

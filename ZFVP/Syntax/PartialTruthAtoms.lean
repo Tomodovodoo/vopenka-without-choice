@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PartialTruthConnectives
+module
+
+public import ZFVP.Syntax.PartialTruthConnectives
+
+@[expose] public section
 
 /-! Constants, atomic formulas and level changes for internal partial truth. -/
 

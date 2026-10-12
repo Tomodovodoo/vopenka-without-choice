@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.NaturalArithmeticLaws
-import ZFVP.SetTheory.NaturalArithmeticOrder
+module
+
+public import ZFVP.SetTheory.NaturalArithmeticLaws
+public import ZFVP.SetTheory.NaturalArithmeticOrder
+
+@[expose] public section
 
 /-! Exponentiation by recursion over every element of internal omega. -/
 

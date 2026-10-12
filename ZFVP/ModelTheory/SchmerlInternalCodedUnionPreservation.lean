@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalCodedFiniteTraces
-import ZFVP.ModelTheory.InternalNamedSeparationOmission
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalCodedFiniteTraces
+public import ZFVP.ModelTheory.InternalNamedSeparationOmission
+
+@[expose] public section
 
 /-! Inseparability and finite end-extension at actual internal chain unions.
 The separator argument moves its full internal finite parameter tuple into

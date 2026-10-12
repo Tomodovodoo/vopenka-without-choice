@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.AmenableReplacement
-import ZFVP.SetTheory.PathDependentChoice
+module
+
+public import ZFVP.SetTheory.AmenableReplacement
+public import ZFVP.SetTheory.PathDependentChoice
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

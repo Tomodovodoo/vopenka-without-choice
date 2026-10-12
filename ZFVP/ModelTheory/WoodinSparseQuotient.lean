@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseQuotientInputs
-import ZFVP.ModelTheory.QuotientEquivalenceTransport
-import ZFVP.ModelTheory.QuotientEquivalenceClosure
+module
+
+public import ZFVP.ModelTheory.WoodinSparseQuotientInputs
+public import ZFVP.ModelTheory.QuotientEquivalenceTransport
+public import ZFVP.ModelTheory.QuotientEquivalenceClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

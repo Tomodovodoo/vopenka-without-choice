@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SigmaThreeWoodinStageRule
-import ZFVP.ModelTheory.WoodinSuccessorComplexityOnIteration
-import ZFVP.ModelTheory.WoodinInverseComplexityOnIteration
+module
+
+public import ZFVP.ModelTheory.SigmaThreeWoodinStageRule
+public import ZFVP.ModelTheory.WoodinSuccessorComplexityOnIteration
+public import ZFVP.ModelTheory.WoodinInverseComplexityOnIteration
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

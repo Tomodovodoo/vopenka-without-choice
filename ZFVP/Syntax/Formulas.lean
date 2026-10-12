@@ -1,4 +1,8 @@
-import ZFVP.Syntax.FormulaCodes
+module
+
+public import ZFVP.Syntax.FormulaCodes
+
+@[expose] public section
 
 /-! The least internal family of formulas in all finite bound-variable contexts. -/
 

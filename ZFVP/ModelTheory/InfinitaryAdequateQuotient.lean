@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryAdequateLogicalLaws
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateLogicalLaws
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

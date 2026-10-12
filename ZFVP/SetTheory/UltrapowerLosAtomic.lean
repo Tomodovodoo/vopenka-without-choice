@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.UltrapowerCollapse
-import ZFVP.SetTheory.UltrapowerAssignment
-import ZFVP.SetTheory.FunctionComposition
-import ZFVP.Syntax.DirectMembershipAtoms
+module
+
+public import ZFVP.SetTheory.UltrapowerCollapse
+public import ZFVP.SetTheory.UltrapowerAssignment
+public import ZFVP.SetTheory.FunctionComposition
+public import ZFVP.Syntax.DirectMembershipAtoms
+
+@[expose] public section
 
 /-! The atomic clause of Los's theorem for the internal ultrapower.
 

@@ -1,4 +1,8 @@
-import ZFVP.Syntax.ProofRulePrimrec
+module
+
+public import ZFVP.Syntax.ProofRulePrimrec
+
+@[expose] public section
 
 /-! A finite, decidable witness format for each first-order LK rule. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WeaklyLSCofinalityBounds
-import ZFVP.SetTheory.NoncofinalMapBounds
+module
+
+public import ZFVP.SetTheory.WeaklyLSCofinalityBounds
+public import ZFVP.SetTheory.NoncofinalMapBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

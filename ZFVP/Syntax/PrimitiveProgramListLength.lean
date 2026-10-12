@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramLists
+module
+
+public import ZFVP.Syntax.PrimitiveProgramLists
+
+@[expose] public section
 
 /-! The length of every internal successor-pair list code. -/
 

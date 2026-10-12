@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalHenkinLiftAlgebra
-import ZFVP.SetTheory.NaturalArithmeticLaws
+module
+
+public import ZFVP.ModelTheory.InternalHenkinLiftAlgebra
+public import ZFVP.SetTheory.NaturalArithmeticLaws
+
+@[expose] public section
 
 /-! Later Henkin stages imply every earlier stage after extending its context. -/
 

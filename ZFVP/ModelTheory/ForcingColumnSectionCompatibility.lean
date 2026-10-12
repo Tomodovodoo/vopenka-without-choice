@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SuccessorForcingColumns
-import ZFVP.SetTheory.ForcingLimitLiftColumns
-import ZFVP.SetTheory.ForcingLiftSectionCompatibility
+module
+
+public import ZFVP.ModelTheory.SuccessorForcingColumns
+public import ZFVP.SetTheory.ForcingLimitLiftColumns
+public import ZFVP.SetTheory.ForcingLiftSectionCompatibility
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

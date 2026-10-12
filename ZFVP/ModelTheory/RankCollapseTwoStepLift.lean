@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.RankCollapseCombinedContext
-import ZFVP.ModelTheory.SuccessorRankTwoStep
-import ZFVP.ModelTheory.SuccessorRankLiftDC
+module
+
+public import ZFVP.ModelTheory.RankCollapseCombinedContext
+public import ZFVP.ModelTheory.SuccessorRankTwoStep
+public import ZFVP.ModelTheory.SuccessorRankLiftDC
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

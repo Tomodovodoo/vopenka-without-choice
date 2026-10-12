@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinInvariantUniform
-import ZFVP.ModelTheory.WoodinConstructionCountable
-import ZFVP.ModelTheory.CountableZFTransfer
-import ZFVP.SetTheory.ChoiceDictionary
+module
+
+public import ZFVP.ModelTheory.WoodinInvariantUniform
+public import ZFVP.ModelTheory.WoodinConstructionCountable
+public import ZFVP.ModelTheory.CountableZFTransfer
+public import ZFVP.SetTheory.ChoiceDictionary
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

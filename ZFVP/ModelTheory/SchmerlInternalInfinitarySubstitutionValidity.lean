@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlInternalInfinitarySubstitution
-import ZFVP.SetTheory.CountableSets
-import ZFVP.SetTheory.NaturalClosureCardinality
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalInfinitarySubstitution
+public import ZFVP.SetTheory.CountableSets
+public import ZFVP.SetTheory.NaturalClosureCardinality
+
+@[expose] public section
 
 /-! The image of an internal fragment under simultaneous substitution is an
 actual valid fragment. Its quantifiers use the successor substitution state. -/

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalNaturalPairing
+module
+
+public import ZFVP.ModelTheory.InternalNaturalPairing
+
+@[expose] public section
 
 /-! Uniform inverse projections for the natural-number pairing used by the syntax encoding. -/
 

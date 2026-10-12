@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.FiniteRankLiftGraph
-import ZFVP.ModelTheory.FiniteRankCheckNameCovariance
+module
+
+public import ZFVP.ModelTheory.FiniteRankLiftGraph
+public import ZFVP.ModelTheory.FiniteRankCheckNameCovariance
+
+@[expose] public section
 
 namespace ZFVP
 

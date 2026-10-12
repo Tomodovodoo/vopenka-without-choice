@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.FiniteSatisfactionCode
-import ZFVP.Syntax.TermSubstitutionSemantics
+module
+
+public import ZFVP.ModelTheory.FiniteSatisfactionCode
+public import ZFVP.Syntax.TermSubstitutionSemantics
+
+@[expose] public section
 
 /-! Extracting an elementary embedding from the finite satisfaction codes.
 Pointwise fixing of the common label copy is an explicit hypothesis. No

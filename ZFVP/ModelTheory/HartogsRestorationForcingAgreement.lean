@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.HartogsRestorationForcingAgreementCountable
-import ZFVP.Syntax.LowRankBinaryForcingTruth
-import ZFVP.ModelTheory.CountableZFTransfer
-import ZFVP.ModelTheory.ForcingHartogsUniform
-import ZFVP.SetTheory.WoodinNamedPrefixCutoff
+module
+
+public import ZFVP.ModelTheory.HartogsRestorationForcingAgreementCountable
+public import ZFVP.Syntax.LowRankBinaryForcingTruth
+public import ZFVP.ModelTheory.CountableZFTransfer
+public import ZFVP.ModelTheory.ForcingHartogsUniform
+public import ZFVP.SetTheory.WoodinNamedPrefixCutoff
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

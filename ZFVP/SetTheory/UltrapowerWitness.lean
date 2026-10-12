@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.UltrapowerStage
-import ZFVP.SetTheory.InternalChoice
+module
+
+public import ZFVP.SetTheory.UltrapowerStage
+public import ZFVP.SetTheory.InternalChoice
+
+@[expose] public section
 
 /-! The choice step of the existential case of Los's theorem for the internal ultrapower, stated
 without any syntax. A definable family of subsets of `A` indexed by `P` that is nonempty at every

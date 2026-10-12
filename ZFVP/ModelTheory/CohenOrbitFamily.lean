@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CohenOrbitEvaluation
-import ZFVP.SetTheory.CohenOrbitFamilyName
+module
+
+public import ZFVP.ModelTheory.CohenOrbitEvaluation
+public import ZFVP.SetTheory.CohenOrbitFamilyName
+
+@[expose] public section
 
 namespace ZFVP
 

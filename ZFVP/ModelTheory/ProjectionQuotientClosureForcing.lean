@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ProjectionClosureComposition
-import ZFVP.ModelTheory.ForcingCheckedTruth
+module
+
+public import ZFVP.ModelTheory.ProjectionClosureComposition
+public import ZFVP.ModelTheory.ForcingCheckedTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

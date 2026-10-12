@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.UsubaPretameness
-import ZFVP.ModelTheory.UsubaLSClassRestoration
-import ZFVP.ModelTheory.ClassForcingTowerForcing
+module
+
+public import ZFVP.ModelTheory.UsubaPretameness
+public import ZFVP.ModelTheory.UsubaLSClassRestoration
+public import ZFVP.ModelTheory.ClassForcingTowerForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

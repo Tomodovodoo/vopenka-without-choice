@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CodedBinaryIsomorphism
-import ZFVP.ModelTheory.CodedZFModel
-import ZFVP.SetTheory.CountableSets
+module
+
+public import ZFVP.ModelTheory.CodedBinaryIsomorphism
+public import ZFVP.ModelTheory.CodedZFModel
+public import ZFVP.SetTheory.CountableSets
+
+@[expose] public section
 
 /-! Transport an actual binary structure along any internal injection. Its
 new carrier is the actual range of the injection. -/

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalNamedConditions
-import ZFVP.ModelTheory.GroundForcingGeneric
-import ZFVP.SetTheory.FiniteDirectedUnions
+module
+
+public import ZFVP.ModelTheory.InternalNamedConditions
+public import ZFVP.ModelTheory.GroundForcingGeneric
+public import ZFVP.SetTheory.FiniteDirectedUnions
+
+@[expose] public section
 
 /-! The actual union of a filter of finite named conditions is finitely
 realizable. Meeting decision sets makes this union complete. -/

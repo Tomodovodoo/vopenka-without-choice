@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CohenTranspositions
-import ZFVP.SetTheory.CohenSetName
+module
+
+public import ZFVP.SetTheory.CohenTranspositions
+public import ZFVP.SetTheory.CohenSetName
+
+@[expose] public section
 
 namespace ZFVP
 

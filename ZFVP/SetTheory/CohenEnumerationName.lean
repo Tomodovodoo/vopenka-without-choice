@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CohenSetName
-import ZFVP.SetTheory.ForcingPairNames
+module
+
+public import ZFVP.SetTheory.CohenSetName
+public import ZFVP.SetTheory.ForcingPairNames
+
+@[expose] public section
 
 namespace ZFVP
 

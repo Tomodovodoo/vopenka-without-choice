@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.RankCollapsePrefixReflection
+module
+
+public import ZFVP.ModelTheory.RankCollapsePrefixReflection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

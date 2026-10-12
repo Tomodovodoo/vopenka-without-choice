@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WeaklyLSImageHull
-import ZFVP.SetTheory.SmallCollapseSurjection
+module
+
+public import ZFVP.SetTheory.WeaklyLSImageHull
+public import ZFVP.SetTheory.SmallCollapseSurjection
+
+@[expose] public section
 
 /-! The directed family of small elementary hulls used in Usuba Lemma 3.1. -/
 

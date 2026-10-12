@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalFiniteNamingData
+module
+
+public import ZFVP.ModelTheory.InternalFiniteNamingData
+
+@[expose] public section
 
 /-! A finite name context has an injective external enumeration of precisely
 the upper indices it mentions. The context length is a standard natural. -/

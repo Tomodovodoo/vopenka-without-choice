@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.PiWitnessRankStages
-import ZFVP.Syntax.BoundedStandardTuples
+module
+
+public import ZFVP.SetTheory.PiWitnessRankStages
+public import ZFVP.Syntax.BoundedStandardTuples
+
+@[expose] public section
 
 /-! Bounded assembly of the least-witness tuple inside a transitive ambient set. -/
 

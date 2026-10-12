@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.StageRun
+module
+
+public import ZFVP.ModelTheory.StageRun
+
+@[expose] public section
 
 /-! # Club sets of closure points for an ω₁-filtration
 

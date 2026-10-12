@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CohenProductPresentation
-import ZFVP.ModelTheory.SolovayLocalization
+module
+
+public import ZFVP.ModelTheory.CohenProductPresentation
+public import ZFVP.ModelTheory.SolovayLocalization
+
+@[expose] public section
 
 /-! The Levy extension as a product extension over a generic filter: for a ground poset `Q` and a
 filter `H` of `V[G]` on `Q̌` meeting every ground dense set and lying in a bounded stage, `V[G]` is

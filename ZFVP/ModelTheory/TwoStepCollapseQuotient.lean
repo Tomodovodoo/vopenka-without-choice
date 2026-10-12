@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TwoStepQuotientClosure
-import ZFVP.SetTheory.WoodinCollapseSeparative
+module
+
+public import ZFVP.ModelTheory.TwoStepQuotientClosure
+public import ZFVP.SetTheory.WoodinCollapseSeparative
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

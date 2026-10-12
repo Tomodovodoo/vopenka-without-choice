@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.WellOrderedProducts
+module
+
+public import ZFVP.SetTheory.WellOrderedProducts
+
+@[expose] public section
 
 namespace ZFVP
 

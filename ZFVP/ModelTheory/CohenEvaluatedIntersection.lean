@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CohenModel
-import ZFVP.SetTheory.CohenRepresentativeIntersection
+module
+
+public import ZFVP.ModelTheory.CohenModel
+public import ZFVP.SetTheory.CohenRepresentativeIntersection
+
+@[expose] public section
 
 namespace ZFVP
 

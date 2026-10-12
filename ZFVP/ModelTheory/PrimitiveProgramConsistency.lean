@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.PrimitiveProgramAgreement
-import ZFVP.Syntax.ArithmeticPrimitiveProgramStandard
+module
+
+public import ZFVP.ModelTheory.PrimitiveProgramAgreement
+public import ZFVP.Syntax.ArithmeticPrimitiveProgramStandard
+
+@[expose] public section
 
 /-! A program's universal rejection statement has matching arithmetic and set-theoretic meanings. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingSelectedName
-import ZFVP.SetTheory.NameActionMembership
+module
+
+public import ZFVP.SetTheory.ForcingSelectedName
+public import ZFVP.SetTheory.NameActionMembership
+
+@[expose] public section
 
 namespace ZFVP
 

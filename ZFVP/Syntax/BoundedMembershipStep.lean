@@ -1,4 +1,8 @@
-import ZFVP.Syntax.MembershipFixedPoints
+module
+
+public import ZFVP.Syntax.MembershipFixedPoints
+
+@[expose] public section
 
 /-! A bounded formula checks one step of an internally finite syntax derivation. -/
 

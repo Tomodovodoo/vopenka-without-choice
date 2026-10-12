@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinRawHistorySelectedBound
-import ZFVP.ModelTheory.WoodinEarlierRawPreservation
-import ZFVP.ModelTheory.WoodinEarlierRawSmall
-import ZFVP.ModelTheory.WoodinBoundSuccessorStep
+module
+
+public import ZFVP.ModelTheory.WoodinRawHistorySelectedBound
+public import ZFVP.ModelTheory.WoodinEarlierRawPreservation
+public import ZFVP.ModelTheory.WoodinEarlierRawSmall
+public import ZFVP.ModelTheory.WoodinBoundSuccessorStep
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedSourceForcing
-import ZFVP.ModelTheory.SchmerlCodedClassSemantics
-import ZFVP.ModelTheory.SchmerlCodedClassLanguageTransport
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedSourceForcing
+public import ZFVP.ModelTheory.SchmerlCodedClassSemantics
+public import ZFVP.ModelTheory.SchmerlCodedClassLanguageTransport
+
+@[expose] public section
 
 /-! An actual coded Rubin source produces a concrete class-language expansion
 in a forcing extension satisfying the checked fixed class-tree sentence code.

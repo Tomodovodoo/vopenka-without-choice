@@ -1,7 +1,11 @@
-import Mathlib.SetTheory.Cardinal.Aleph
-import ZFVP.ModelTheory.FiniteSubsetsAbsolute
-import ZFVP.SetTheory.SplittingScheme
-import ZFVP.SetTheory.UniformNumerals
+module
+
+public import Mathlib.SetTheory.Cardinal.Aleph
+public import ZFVP.ModelTheory.FiniteSubsetsAbsolute
+public import ZFVP.SetTheory.SplittingScheme
+public import ZFVP.SetTheory.UniformNumerals
+
+@[expose] public section
 
 /-! The poset vocabulary of Enayat's Definitions 5.10, 5.11, 5.12 and 5.16 in "Models of set
 theory: extensions and dead ends", for an internal poset ordered by inclusion: filters over the

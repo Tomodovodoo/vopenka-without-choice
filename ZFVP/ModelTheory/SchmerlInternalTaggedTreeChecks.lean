@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlInternalTaggedTrees
-import ZFVP.SetTheory.FunctionUnion
-import ZFVP.SetTheory.EndExtensionWellOrdering
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalTaggedTrees
+public import ZFVP.SetTheory.FunctionUnion
+public import ZFVP.SetTheory.EndExtensionWellOrdering
+
+@[expose] public section
 
 /-! Checked names commute with the actual tagged tree construction. -/
 

@@ -1,9 +1,13 @@
-import ZFVP.SetTheory.TransfiniteIteration
-import ZFVP.SetTheory.RegularUnions
-import ZFVP.SetTheory.LeastOrdinalChoice
-import ZFVP.SetTheory.LevyCollapseSmallSets
-import ZFVP.SetTheory.FiniteCardinalArithmetic
-import ZFVP.SetTheory.PulledWellOrder
+module
+
+public import ZFVP.SetTheory.TransfiniteIteration
+public import ZFVP.SetTheory.RegularUnions
+public import ZFVP.SetTheory.LeastOrdinalChoice
+public import ZFVP.SetTheory.LevyCollapseSmallSets
+public import ZFVP.SetTheory.FiniteCardinalArithmetic
+public import ZFVP.SetTheory.PulledWellOrder
+
+@[expose] public section
 
 /-! Laver's uniqueness lemma (Reitz, Lemma 6.2), first step: two transitive sets with the
 `δ`-cover and `δ`-approximation properties over the same ordinals admit simultaneous covers: every

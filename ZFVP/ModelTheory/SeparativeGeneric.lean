@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingSeparativeOrder
-import ZFVP.ModelTheory.ForcingGeneric
+module
+
+public import ZFVP.SetTheory.ForcingSeparativeOrder
+public import ZFVP.ModelTheory.ForcingGeneric
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

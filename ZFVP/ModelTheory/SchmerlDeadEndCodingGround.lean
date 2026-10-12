@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedDeadEndLanguageTransport
-import ZFVP.ModelTheory.SemanticStandardCodedZFModel
-import ZFVP.Syntax.StandardOmegaMembershipSyntax
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedDeadEndLanguageTransport
+public import ZFVP.ModelTheory.SemanticStandardCodedZFModel
+public import ZFVP.Syntax.StandardOmegaMembershipSyntax
+
+@[expose] public section
 
 /-! A countable ground containing the fixed dead-end fragment and an exact
 representation of any given countable set-language structure. -/

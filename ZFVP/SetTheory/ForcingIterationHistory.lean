@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ForcingIterationCode
+module
+
+public import ZFVP.SetTheory.ForcingIterationCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

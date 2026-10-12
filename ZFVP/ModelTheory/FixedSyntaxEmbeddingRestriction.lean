@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.BoundedSupportEmbeddingRestriction
+module
+
+public import ZFVP.ModelTheory.BoundedSupportEmbeddingRestriction
+
+@[expose] public section
 
 /-! Truth-table restriction for transitive sources whose embeddings fix internal syntax. -/
 

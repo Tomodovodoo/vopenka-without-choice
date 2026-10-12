@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SplitClosureDownward
+module
+
+public import ZFVP.ModelTheory.SplitClosureDownward
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

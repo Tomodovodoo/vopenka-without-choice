@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.MarkerMembership
-import ZFVP.ModelTheory.LimitCriticalPoint
-import ZFVP.SetTheory.VopenkaDefinableClasses
-import ZFVP.SetTheory.NaturalAddition
-import ZFVP.SetTheory.WitnessClosure
+module
+
+public import ZFVP.ModelTheory.MarkerMembership
+public import ZFVP.ModelTheory.LimitCriticalPoint
+public import ZFVP.SetTheory.VopenkaDefinableClasses
+public import ZFVP.SetTheory.NaturalAddition
+public import ZFVP.SetTheory.WitnessClosure
+
+@[expose] public section
 
 /-! The one-marker rank structures in the direct proof of the ZF-rank lemma. -/
 

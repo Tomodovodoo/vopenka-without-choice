@@ -1,9 +1,13 @@
-import ZFVP.SetTheory.SmallSubsetClosedModel
-import ZFVP.ModelTheory.EndExtensionCodedEmbedding
-import ZFVP.ModelTheory.EndExtensionCriticalPoint
-import ZFVP.ModelTheory.TransitiveZFInaccessible
-import ZFVP.ModelTheory.CriticalPointRestriction
-import ZFVP.ModelTheory.TransitiveZFInaccessibleDownward
+module
+
+public import ZFVP.SetTheory.SmallSubsetClosedModel
+public import ZFVP.ModelTheory.EndExtensionCodedEmbedding
+public import ZFVP.ModelTheory.EndExtensionCriticalPoint
+public import ZFVP.ModelTheory.TransitiveZFInaccessible
+public import ZFVP.ModelTheory.CriticalPointRestriction
+public import ZFVP.ModelTheory.TransitiveZFInaccessibleDownward
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SigmaThreeWoodinInitialCode
-import ZFVP.ModelTheory.SigmaThreeWoodinCardinalNext
-import ZFVP.ModelTheory.SigmaThreeWoodinInverse
-import ZFVP.ModelTheory.WoodinStageRule
-import ZFVP.SetTheory.PiOneRegularInaccessible
+module
+
+public import ZFVP.ModelTheory.SigmaThreeWoodinInitialCode
+public import ZFVP.ModelTheory.SigmaThreeWoodinCardinalNext
+public import ZFVP.ModelTheory.SigmaThreeWoodinInverse
+public import ZFVP.ModelTheory.WoodinStageRule
+public import ZFVP.SetTheory.PiOneRegularInaccessible
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryKeislerSoundness
+module
+
+public import ZFVP.ModelTheory.InfinitaryKeislerSoundness
+
+@[expose] public section
 
 /-! Infinitary semantics with an extensional generalized quantifier. Variable
 operations and first-order schemas are independent of the choice of Q. -/

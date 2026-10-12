@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinDependentChoiceFailure
-import ZFVP.SetTheory.LeastOrdinalChoice
+module
+
+public import ZFVP.SetTheory.WoodinDependentChoiceFailure
+public import ZFVP.SetTheory.LeastOrdinalChoice
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

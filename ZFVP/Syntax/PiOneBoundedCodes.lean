@@ -1,6 +1,10 @@
-import ZFVP.Syntax.SigmaOneBoundedCodes
-import ZFVP.Syntax.LocalBoundedClosure
-import ZFVP.SetTheory.BoundedIdentity
+module
+
+public import ZFVP.Syntax.SigmaOneBoundedCodes
+public import ZFVP.Syntax.LocalBoundedClosure
+public import ZFVP.SetTheory.BoundedIdentity
+
+@[expose] public section
 
 /-! Universal bounded closure tests give a Pi-one definition of bounded syntax. -/
 

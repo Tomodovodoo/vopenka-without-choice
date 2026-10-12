@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseEndpointOrdinals
+module
+
+public import ZFVP.ModelTheory.WoodinSparseEndpointOrdinals
+
+@[expose] public section
 
 /-! Images of checked ordinals under the lift, computed inside the endpoint rank. -/
 

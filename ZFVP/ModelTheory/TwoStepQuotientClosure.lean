@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TwoStepQuotientProjection
-import ZFVP.ModelTheory.ProjectionSeparativeClosure
+module
+
+public import ZFVP.ModelTheory.TwoStepQuotientProjection
+public import ZFVP.ModelTheory.ProjectionSeparativeClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

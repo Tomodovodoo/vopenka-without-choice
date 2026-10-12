@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingClosedSequences
-import ZFVP.SetTheory.LeastDependentChoiceFailure
+module
+
+public import ZFVP.ModelTheory.ForcingClosedSequences
+public import ZFVP.SetTheory.LeastDependentChoiceFailure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

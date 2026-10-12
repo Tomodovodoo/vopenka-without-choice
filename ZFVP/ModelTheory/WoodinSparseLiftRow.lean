@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseStageRules
-import ZFVP.SetTheory.SparseSplice
+module
+
+public import ZFVP.ModelTheory.WoodinSparseStageRules
+public import ZFVP.SetTheory.SparseSplice
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

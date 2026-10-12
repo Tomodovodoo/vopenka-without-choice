@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseUniformRestoration
-import ZFVP.SetTheory.CnSyntacticBoundPrimrec
-import Mathlib.Computability.Primrec.Basic
+module
+
+public import ZFVP.ModelTheory.WoodinSparseUniformRestoration
+public import ZFVP.SetTheory.CnSyntacticBoundPrimrec
+public import Mathlib.Computability.Primrec.Basic
+
+@[expose] public section
 
 /-! Primitive recursion of the arithmetic which assembles the finite
 restoration bound from the syntax bounds of correctness and extendibility.

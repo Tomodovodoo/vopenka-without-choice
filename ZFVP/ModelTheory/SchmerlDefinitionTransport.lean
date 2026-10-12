@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlNamedUpperEntries
-import ZFVP.ModelTheory.CodedElementaryEmbedding
+module
+
+public import ZFVP.ModelTheory.SchmerlNamedUpperEntries
+public import ZFVP.ModelTheory.CodedElementaryEmbedding
+
+@[expose] public section
 
 /-! Parameter transport in actual raw definitions and named requirements. -/
 

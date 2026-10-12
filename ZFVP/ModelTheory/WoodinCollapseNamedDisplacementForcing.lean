@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinCollapseDisplacementForcing
-import ZFVP.SetTheory.ForcingRenaming
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseDisplacementForcing
+public import ZFVP.SetTheory.ForcingRenaming
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

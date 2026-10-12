@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.UniformWoodinSparseRecursion
-import ZFVP.ModelTheory.UniformWoodinSourceCode
-import ZFVP.ModelTheory.WoodinSparseFiniteReflection
+module
+
+public import ZFVP.ModelTheory.UniformWoodinSparseRecursion
+public import ZFVP.ModelTheory.UniformWoodinSourceCode
+public import ZFVP.ModelTheory.WoodinSparseFiniteReflection
+
+@[expose] public section
 
 /-! A fixed graph formula for the complete actual sparse code captured by
 finite reflection. Its checked finite complexity bound is not asserted to be 3. -/

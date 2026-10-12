@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.WeaklyLSHullFamily
-import ZFVP.SetTheory.SmallCollapseUnionSurjection
-import ZFVP.SetTheory.Cofinality
-import ZFVP.ModelTheory.ElementaryDirectedFamily
-import ZFVP.ModelTheory.DirectedElementaryAmbientUnion
+module
+
+public import ZFVP.SetTheory.WeaklyLSHullFamily
+public import ZFVP.SetTheory.SmallCollapseUnionSurjection
+public import ZFVP.SetTheory.Cofinality
+public import ZFVP.ModelTheory.ElementaryDirectedFamily
+public import ZFVP.ModelTheory.DirectedElementaryAmbientUnion
+
+@[expose] public section
 
 /-! Union of the small weakly LS hulls contained in an elementary submodel. -/
 namespace ZFVP

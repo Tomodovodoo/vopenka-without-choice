@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinInverseCodeRankAgreement
-import ZFVP.ModelTheory.WoodinRawInverseSingular
+module
+
+public import ZFVP.ModelTheory.WoodinInverseCodeRankAgreement
+public import ZFVP.ModelTheory.WoodinRawInverseSingular
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]

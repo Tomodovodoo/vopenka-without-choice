@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SolovaySymmetricRange
-import ZFVP.ModelTheory.LevyInternalLocalization
+module
+
+public import ZFVP.ModelTheory.SolovaySymmetricRange
+public import ZFVP.ModelTheory.LevyInternalLocalization
+
+@[expose] public section
 
 /-! The range of the Solovay symmetric inclusion is a definable class of the Levy extension.
 

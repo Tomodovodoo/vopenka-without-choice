@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinSourceIndex
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.SetTheory.WoodinSourceIndex
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

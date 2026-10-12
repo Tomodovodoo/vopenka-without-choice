@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.VopenkaDefinableClasses
-import ZFVP.SetTheory.ChoicelessFailureObstruction
+module
+
+public import ZFVP.SetTheory.VopenkaDefinableClasses
+public import ZFVP.SetTheory.ChoicelessFailureObstruction
+
+@[expose] public section
 
 /-! Full Vopenka yields extendibility with any prescribed lower bound on
 the critical point. This is the forward construction of Mohammd's Theorem 3.1. -/

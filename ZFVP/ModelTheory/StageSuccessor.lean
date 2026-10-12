@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SeparatingTypesOmitted
-import ZFVP.ModelTheory.StageCarrier
-import ZFVP.SetTheory.MembershipIso
+module
+
+public import ZFVP.ModelTheory.SeparatingTypesOmitted
+public import ZFVP.ModelTheory.StageCarrier
+public import ZFVP.SetTheory.MembershipIso
+
+@[expose] public section
 
 /-! # The successor step of Enayat's ω₁-length construction
 

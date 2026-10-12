@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FiniteCofinality
-import ZFVP.SetTheory.NaturalIteration
+module
+
+public import ZFVP.SetTheory.FiniteCofinality
+public import ZFVP.SetTheory.NaturalIteration
+
+@[expose] public section
 
 namespace ZFVP
 

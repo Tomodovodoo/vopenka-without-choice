@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinDirectIndex
-import ZFVP.SetTheory.DirectLimitRelativeClosure
+module
+
+public import ZFVP.ModelTheory.WoodinDirectIndex
+public import ZFVP.SetTheory.DirectLimitRelativeClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

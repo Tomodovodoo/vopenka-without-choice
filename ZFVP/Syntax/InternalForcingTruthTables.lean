@@ -1,5 +1,9 @@
-import ZFVP.Syntax.InternalForcingEquations
-import ZFVP.Syntax.MembershipTruthTables
+module
+
+public import ZFVP.Syntax.InternalForcingEquations
+public import ZFVP.Syntax.MembershipTruthTables
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

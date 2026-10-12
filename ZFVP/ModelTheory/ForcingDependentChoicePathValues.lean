@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingModelSequences
-import ZFVP.ModelTheory.ForcingFunctionValues
-import ZFVP.SetTheory.ForcingDependentChoicePaths
+module
+
+public import ZFVP.ModelTheory.ForcingModelSequences
+public import ZFVP.ModelTheory.ForcingFunctionValues
+public import ZFVP.SetTheory.ForcingDependentChoicePaths
+
+@[expose] public section
 
 namespace ZFVP
 

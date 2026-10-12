@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LevyConeComplementHomogeneity
+module
+
+public import ZFVP.ModelTheory.LevyConeComplementHomogeneity
+
+@[expose] public section
 
 /-! The cone hypothesis of the Solovay corollary split into two hypotheses that the empty-support
 counterexample does not refute.

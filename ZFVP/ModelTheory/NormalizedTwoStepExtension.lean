@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.NormalizedTwoStepForcing
-import ZFVP.ModelTheory.EquivalentSuborderRetraction
-import ZFVP.ModelTheory.EquivalentRetractionModel
+module
+
+public import ZFVP.ModelTheory.NormalizedTwoStepForcing
+public import ZFVP.ModelTheory.EquivalentSuborderRetraction
+public import ZFVP.ModelTheory.EquivalentRetractionModel
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

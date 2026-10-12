@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingNormalizedSupportCodes
-import ZFVP.ModelTheory.WoodinNormalizedCode
-import ZFVP.ModelTheory.WoodinDirectIndex
-import ZFVP.ModelTheory.ForcingCanonicalTransport
+module
+
+public import ZFVP.ModelTheory.ForcingNormalizedSupportCodes
+public import ZFVP.ModelTheory.WoodinNormalizedCode
+public import ZFVP.ModelTheory.WoodinDirectIndex
+public import ZFVP.ModelTheory.ForcingCanonicalTransport
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

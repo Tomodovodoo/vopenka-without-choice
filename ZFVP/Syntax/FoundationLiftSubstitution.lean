@@ -1,4 +1,8 @@
-import ZFVP.Syntax.LiftSubstitution
+module
+
+public import ZFVP.Syntax.LiftSubstitution
+
+@[expose] public section
 
 /-! Binder lifting of internal replacement tables matches Foundation's `Rew.q`. -/
 

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SolovayLocalization
-import ZFVP.ModelTheory.GroundRealsHODClosure
-import ZFVP.SetTheory.EndExtensionReplacement
-import ZFVP.SetTheory.EndExtensionSets
+module
+
+public import ZFVP.ModelTheory.SolovayLocalization
+public import ZFVP.ModelTheory.GroundRealsHODClosure
+public import ZFVP.SetTheory.EndExtensionReplacement
+public import ZFVP.SetTheory.EndExtensionSets
+
+@[expose] public section
 
 /-! Lemma Solovay-localization, second clause: a definable sequence `⟨A_ξ : ξ < δ⟩` of subsets of
 `κ` with `δ < κ` lies in one bounded-stage extension. The sequence is coded by the set of pairs

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSourceCode
-import ZFVP.ModelTheory.WoodinSparseCanonicalLift
+module
+
+public import ZFVP.ModelTheory.WoodinSourceCode
+public import ZFVP.ModelTheory.WoodinSparseCanonicalLift
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

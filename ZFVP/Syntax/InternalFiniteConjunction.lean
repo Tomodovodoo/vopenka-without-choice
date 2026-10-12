@@ -1,5 +1,9 @@
-import ZFVP.Syntax.UniformSatisfaction
-import ZFVP.SetTheory.FiniteSets
+module
+
+public import ZFVP.Syntax.UniformSatisfaction
+public import ZFVP.SetTheory.FiniteSets
+
+@[expose] public section
 
 /-! Finite conjunctions for actual internally finite sets of raw formulas. -/
 

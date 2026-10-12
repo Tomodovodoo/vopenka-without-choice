@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.FiniteRestorationReflection
-import ZFVP.SetTheory.FiniteRestorationLevel
-import ZFVP.SetTheory.ChoicelessCorrectness
-import ZFVP.SetTheory.CnExtendibleDownward
-import ZFVP.SetTheory.CnAbsoluteness
-import ZFVP.SetTheory.BoundedOrdinalOmega
+module
+
+public import ZFVP.ModelTheory.FiniteRestorationReflection
+public import ZFVP.SetTheory.FiniteRestorationLevel
+public import ZFVP.SetTheory.ChoicelessCorrectness
+public import ZFVP.SetTheory.CnExtendibleDownward
+public import ZFVP.SetTheory.CnAbsoluteness
+public import ZFVP.SetTheory.BoundedOrdinalOmega
+
+@[expose] public section
 
 /-! The ground-model half of Theorem thm:finite-restoration.
 

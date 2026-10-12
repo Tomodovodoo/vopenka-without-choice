@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingSmallFunctions
-import ZFVP.SetTheory.WeaklyLSNoSmallSurjection
-import ZFVP.SetTheory.InjectionRetraction
-import ZFVP.SetTheory.PulledWellOrder
+module
+
+public import ZFVP.ModelTheory.ForcingSmallFunctions
+public import ZFVP.SetTheory.WeaklyLSNoSmallSurjection
+public import ZFVP.SetTheory.InjectionRetraction
+public import ZFVP.SetTheory.PulledWellOrder
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

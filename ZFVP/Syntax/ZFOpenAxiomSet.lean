@@ -1,5 +1,9 @@
-import ZFVP.Syntax.FixedZFAxiomCodes
-import ZFVP.Syntax.TailTemplateDefinability
+module
+
+public import ZFVP.Syntax.FixedZFAxiomCodes
+public import ZFVP.Syntax.TailTemplateDefinability
+
+@[expose] public section
 
 /-! The complete internal ZF axiom set, indexed by each formula's parameter context. -/
 

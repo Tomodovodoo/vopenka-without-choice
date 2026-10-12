@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinLimitCardinals
-import ZFVP.ModelTheory.ForcingLimitCode
-import ZFVP.SetTheory.DirectLimitClosure
+module
+
+public import ZFVP.ModelTheory.WoodinLimitCardinals
+public import ZFVP.ModelTheory.ForcingLimitCode
+public import ZFVP.SetTheory.DirectLimitClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

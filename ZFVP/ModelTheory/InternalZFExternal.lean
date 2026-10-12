@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalZFModel
-import ZFVP.Syntax.CloseParameters
+module
+
+public import ZFVP.ModelTheory.InternalZFModel
+public import ZFVP.Syntax.CloseParameters
+
+@[expose] public section
 
 /-! Every internally coded ZF model satisfies all external ZF axiom instances. -/
 

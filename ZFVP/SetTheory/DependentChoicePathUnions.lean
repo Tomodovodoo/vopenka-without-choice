@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.DependentChoicePaths
-import ZFVP.SetTheory.MonotoneCofinality
-import ZFVP.SetTheory.FormulaReflection
+module
+
+public import ZFVP.SetTheory.DependentChoicePaths
+public import ZFVP.SetTheory.MonotoneCofinality
+public import ZFVP.SetTheory.FormulaReflection
+
+@[expose] public section
 
 namespace ZFVP
 

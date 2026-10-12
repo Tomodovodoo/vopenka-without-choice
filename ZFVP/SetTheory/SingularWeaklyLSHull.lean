@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.WeaklyLSHullFamily
-import ZFVP.SetTheory.SmallCollapseUnionSurjection
-import ZFVP.SetTheory.Cofinality
-import ZFVP.ModelTheory.ElementaryDirectedFamily
-import ZFVP.ModelTheory.DirectedElementaryAmbientUnion
+module
+
+public import ZFVP.SetTheory.WeaklyLSHullFamily
+public import ZFVP.SetTheory.SmallCollapseUnionSurjection
+public import ZFVP.SetTheory.Cofinality
+public import ZFVP.ModelTheory.ElementaryDirectedFamily
+public import ZFVP.ModelTheory.DirectedElementaryAmbientUnion
+
+@[expose] public section
 
 /-! The elementary-hull and surjection clauses of Usuba Lemma 3.1.
 These are the clauses used to prove DC after collapsing the singular weakly

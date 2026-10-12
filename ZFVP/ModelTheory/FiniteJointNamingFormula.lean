@@ -1,4 +1,8 @@
-import Foundation.FirstOrder.SetTheory.ZF
+module
+
+public import Foundation.FirstOrder.SetTheory.ZF
+
+@[expose] public section
 
 /-! A first-order formula for a finite tuple subject to a formula, prescribed
 parameter values, and equalities with an outer tuple. -/

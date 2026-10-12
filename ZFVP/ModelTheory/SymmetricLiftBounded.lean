@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SymmetricLiftDomainClosure
-import ZFVP.SetTheory.BoundedFunctionDomain
+module
+
+public import ZFVP.ModelTheory.SymmetricLiftDomainClosure
+public import ZFVP.SetTheory.BoundedFunctionDomain
+
+@[expose] public section
 
 /-! Bounded elementarity of the internal symmetric graph, derived from the ordinary lift. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.FiniteSets
-import ZFVP.SetTheory.ForcingOrder
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.SetTheory.FiniteSets
+public import ZFVP.SetTheory.ForcingOrder
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 /-! The forcing of internal finite partial functions, ordered by reverse inclusion. -/
 

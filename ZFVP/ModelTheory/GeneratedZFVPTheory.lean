@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.FoundationProofCoding
-import ZFVP.Syntax.ZFVPOpenAxiomSet
-import ZFVP.Syntax.TemplateInstantiation
+module
+
+public import ZFVP.ModelTheory.FoundationProofCoding
+public import ZFVP.Syntax.ZFVPOpenAxiomSet
+public import ZFVP.Syntax.TemplateInstantiation
+
+@[expose] public section
 
 /-! Standard sentence instances of the internal ZF+VP axiom generators. -/
 

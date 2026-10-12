@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedRubinSource
-import ZFVP.ModelTheory.SchmerlInfinitaryClassSentence
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedRubinSource
+public import ZFVP.ModelTheory.SchmerlInfinitaryClassSentence
+
+@[expose] public section
 
 /-! Internal sets interpreting the ordinal order and Keisler class tree of
 an arbitrary coded binary model. Membership remains the represented relation. -/

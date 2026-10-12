@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.PiTwoRankBerkeley
+module
+
+public import ZFVP.SetTheory.PiTwoRankBerkeley
+
+@[expose] public section
 
 /-! A Sigma-two formula for a rank at which the rank-Berkeley property fails. -/
 

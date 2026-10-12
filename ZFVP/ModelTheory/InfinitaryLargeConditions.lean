@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryProjectedSequenceDensity
-import ZFVP.ModelTheory.InfinitaryQInterchangeDensity
+module
+
+public import ZFVP.ModelTheory.InfinitaryProjectedSequenceDensity
+public import ZFVP.ModelTheory.InfinitaryQInterchangeDensity
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

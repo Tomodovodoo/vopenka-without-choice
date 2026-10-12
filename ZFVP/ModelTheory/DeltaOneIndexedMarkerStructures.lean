@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.BoundedIndexedMarkers
+module
+
+public import ZFVP.ModelTheory.BoundedIndexedMarkers
+
+@[expose] public section
 
 /-! Delta-one definitions for membership structures with an indexed family of constants. -/
 

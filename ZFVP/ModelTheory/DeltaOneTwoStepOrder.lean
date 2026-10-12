@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.DeltaOneTwoStepConditions
-import ZFVP.SetTheory.DeltaOnePairProjections
-import ZFVP.SetTheory.DeltaOneBoundedForcing
+module
+
+public import ZFVP.ModelTheory.DeltaOneTwoStepConditions
+public import ZFVP.SetTheory.DeltaOnePairProjections
+public import ZFVP.SetTheory.DeltaOneBoundedForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

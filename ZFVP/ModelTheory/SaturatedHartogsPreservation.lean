@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SaturatedHartogsFormulas
+module
+
+public import ZFVP.ModelTheory.SaturatedHartogsFormulas
+
+@[expose] public section
 
 namespace ZFVP
 

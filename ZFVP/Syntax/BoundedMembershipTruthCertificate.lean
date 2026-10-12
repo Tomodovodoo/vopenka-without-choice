@@ -1,4 +1,8 @@
-import ZFVP.Syntax.DeltaOneMembershipTruth
+module
+
+public import ZFVP.Syntax.DeltaOneMembershipTruth
+
+@[expose] public section
 
 /-! A single set contains every witness needed to check set-domain truth boundedly. -/
 

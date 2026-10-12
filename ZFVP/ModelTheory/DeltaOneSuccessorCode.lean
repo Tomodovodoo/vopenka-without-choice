@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.DeltaOneTwoStepOrder
-import ZFVP.ModelTheory.DeltaOneSuccessorColumns
-import ZFVP.ModelTheory.DeltaOneForcingCodeNext
+module
+
+public import ZFVP.ModelTheory.DeltaOneTwoStepOrder
+public import ZFVP.ModelTheory.DeltaOneSuccessorColumns
+public import ZFVP.ModelTheory.DeltaOneForcingCodeNext
+
+@[expose] public section
 
 set_option maxRecDepth 4096
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CriticalPointZF
-import ZFVP.SetTheory.BoundedRankTables
+module
+
+public import ZFVP.ModelTheory.CriticalPointZF
+public import ZFVP.SetTheory.BoundedRankTables
+
+@[expose] public section
 
 /-! Rank preservation needs only a limit source rank and a transitive target.
 The bounded rank table used in the proof belongs to the source rank. -/

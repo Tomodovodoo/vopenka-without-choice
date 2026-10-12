@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.EquivalentRetractionGenericContext
-import ZFVP.ModelTheory.QuotientEquivalenceClosure
-import ZFVP.ModelTheory.ProjectionQuotientClosureForcing
-import ZFVP.ModelTheory.RetractionIsomorphism
+module
+
+public import ZFVP.ModelTheory.EquivalentRetractionGenericContext
+public import ZFVP.ModelTheory.QuotientEquivalenceClosure
+public import ZFVP.ModelTheory.ProjectionQuotientClosureForcing
+public import ZFVP.ModelTheory.RetractionIsomorphism
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

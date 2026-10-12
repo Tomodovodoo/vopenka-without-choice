@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinTailNameAction
-import ZFVP.ModelTheory.ForcingAtomicSemanticConsequence
-import ZFVP.ModelTheory.NormalizedTwoStepComparison
+module
+
+public import ZFVP.ModelTheory.WoodinTailNameAction
+public import ZFVP.ModelTheory.ForcingAtomicSemanticConsequence
+public import ZFVP.ModelTheory.NormalizedTwoStepComparison
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

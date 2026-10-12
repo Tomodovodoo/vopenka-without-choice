@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinSparseTranslationCoefficient
-import ZFVP.ModelTheory.ClassForcingTranslationBound
-import ZFVP.SetTheory.DomainTruthStructuralHeightPrimrec
-import ZFVP.ModelTheory.WoodinSparseFiniteTruthWindow
+module
+
+public import ZFVP.ModelTheory.WoodinSparseTranslationCoefficient
+public import ZFVP.ModelTheory.ClassForcingTranslationBound
+public import ZFVP.SetTheory.DomainTruthStructuralHeightPrimrec
+public import ZFVP.ModelTheory.WoodinSparseFiniteTruthWindow
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

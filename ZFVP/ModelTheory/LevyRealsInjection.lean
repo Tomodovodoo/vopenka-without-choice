@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.LevyOrdinalLocalization
-import ZFVP.ModelTheory.StageCountability
-import ZFVP.ModelTheory.LevyCollapseOmegaOne
-import ZFVP.SetTheory.Hartogs
+module
+
+public import ZFVP.ModelTheory.LevyOrdinalLocalization
+public import ZFVP.ModelTheory.StageCountability
+public import ZFVP.ModelTheory.LevyCollapseOmegaOne
+public import ZFVP.SetTheory.Hartogs
+
+@[expose] public section
 
 /-! No injection of `κ̌` into the reals of the Levy extension has a code that lies in a bounded
 stage: the reals of a stage are countable in `V[G]` while `κ̌` is its first uncountable ordinal.

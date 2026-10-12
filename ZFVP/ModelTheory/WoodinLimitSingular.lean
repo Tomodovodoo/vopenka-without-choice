@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinLimitCardinals
-import ZFVP.SetTheory.RegularLimitInaccessible
+module
+
+public import ZFVP.ModelTheory.WoodinLimitCardinals
+public import ZFVP.SetTheory.RegularLimitInaccessible
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

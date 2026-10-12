@@ -1,7 +1,11 @@
-import ZFVP.Syntax.SigmaOneInternalForcing
-import ZFVP.SetTheory.ForcingNameFamily
-import ZFVP.SetTheory.DeltaOneBoundedTruth
-import ZFVP.SetTheory.CnSigmaClosure
+module
+
+public import ZFVP.Syntax.SigmaOneInternalForcing
+public import ZFVP.SetTheory.ForcingNameFamily
+public import ZFVP.SetTheory.DeltaOneBoundedTruth
+public import ZFVP.SetTheory.CnSigmaClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

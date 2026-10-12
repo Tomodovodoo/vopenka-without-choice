@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.SchmerlElementaryFragmentCoding
-import ZFVP.ModelTheory.SchmerlUniverseFragmentCoding
-import ZFVP.ModelTheory.FiniteParameterElementarity
-import ZFVP.SetTheory.ChoiceDictionary
-import ZFVP.ModelTheory.ElementaryLanguageSymbols
-import Foundation.FirstOrder.SetTheory.LoewenheimSkolem
+module
+
+public import ZFVP.ModelTheory.SchmerlElementaryFragmentCoding
+public import ZFVP.ModelTheory.SchmerlUniverseFragmentCoding
+public import ZFVP.ModelTheory.FiniteParameterElementarity
+public import ZFVP.SetTheory.ChoiceDictionary
+public import ZFVP.ModelTheory.ElementaryLanguageSymbols
+public import Foundation.FirstOrder.SetTheory.LoewenheimSkolem
+
+@[expose] public section
 
 /-! A countable elementary hull containing the represented support of a
 proof. Its represented fragment is transported by explicit constructor laws. -/

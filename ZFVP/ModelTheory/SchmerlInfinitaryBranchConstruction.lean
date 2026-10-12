@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInfinitaryTreeSentence
+module
+
+public import ZFVP.ModelTheory.SchmerlInfinitaryTreeSentence
+
+@[expose] public section
 
 /-! The construction direction of the branch sentence: preserved original
 branch definitions and a weak coloring imply its one-node definition clause. -/

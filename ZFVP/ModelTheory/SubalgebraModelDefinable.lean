@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.GeneratedSubalgebraTrace
-import ZFVP.ModelTheory.GenericFilterModel
-import ZFVP.ModelTheory.LevyStageDefinable
-import ZFVP.ModelTheory.LevyODParameterTree
-import ZFVP.ModelTheory.SolovayRealCoding
+module
+
+public import ZFVP.ModelTheory.GeneratedSubalgebraTrace
+public import ZFVP.ModelTheory.GenericFilterModel
+public import ZFVP.ModelTheory.LevyStageDefinable
+public import ZFVP.ModelTheory.LevyODParameterTree
+public import ZFVP.ModelTheory.SolovayRealCoding
+
+@[expose] public section
 
 /-! Second half of the forward direction of Karagila-Schilhan Lemma 9.3: everything in the
 intermediate extension by a complete subalgebra `D` is definable in `V[G]` from the trace of the

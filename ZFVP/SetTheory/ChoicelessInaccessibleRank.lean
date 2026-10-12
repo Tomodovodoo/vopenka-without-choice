@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ChoicelessInaccessible
-import ZFVP.SetTheory.PiOneRankCriterion
-import ZFVP.SetTheory.FiniteCofinality
+module
+
+public import ZFVP.SetTheory.ChoicelessInaccessible
+public import ZFVP.SetTheory.PiOneRankCriterion
+public import ZFVP.SetTheory.FiniteCofinality
+
+@[expose] public section
 
 namespace ZFVP
 

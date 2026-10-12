@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.StageGenericUniqueness
-import ZFVP.ModelTheory.GeneratedSubalgebra
+module
+
+public import ZFVP.SetTheory.StageGenericUniqueness
+public import ZFVP.ModelTheory.GeneratedSubalgebra
+
+@[expose] public section
 
 /-! The trace of a generic on a generated subalgebra, computed by an internal recursion along the
 closure stages from the decisions on the generators: at each stage the complements of undecided

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FiniteSets
-import ZFVP.SetTheory.FiniteCofinality
+module
+
+public import ZFVP.SetTheory.FiniteSets
+public import ZFVP.SetTheory.FiniteCofinality
+
+@[expose] public section
 
 namespace ZFVP
 

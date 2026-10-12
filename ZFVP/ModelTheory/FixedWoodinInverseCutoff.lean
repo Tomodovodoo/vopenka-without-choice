@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.FixedNamedPrefixCutoffTests
-import ZFVP.ModelTheory.WoodinSparseOwnCutoffs
-import ZFVP.ModelTheory.WoodinSparseActualInverseRankAgreement
+module
+
+public import ZFVP.SetTheory.FixedNamedPrefixCutoffTests
+public import ZFVP.ModelTheory.WoodinSparseOwnCutoffs
+public import ZFVP.ModelTheory.WoodinSparseActualInverseRankAgreement
+
+@[expose] public section
 
 /-! Fixed cutoff tests at the completed sparse inverse-stage parameters.
 The constructed iteration supplies the forcing invariants and a successful least

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseFiniteRank
-import ZFVP.ModelTheory.WoodinSourceFiniteRank
+module
+
+public import ZFVP.ModelTheory.WoodinSparseFiniteRank
+public import ZFVP.ModelTheory.WoodinSourceFiniteRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.LevyGroundStages
-import ZFVP.ModelTheory.GroundCoverGeneral
-import ZFVP.ModelTheory.ForcingChoice
-import ZFVP.ModelTheory.ForcingModelRank
-import ZFVP.SetTheory.HartogsRegularChoice
+module
+
+public import ZFVP.ModelTheory.LevyGroundStages
+public import ZFVP.ModelTheory.GroundCoverGeneral
+public import ZFVP.ModelTheory.ForcingChoice
+public import ZFVP.ModelTheory.ForcingModelRank
+public import ZFVP.SetTheory.HartogsRegularChoice
+
+@[expose] public section
 
 /-! The Levy collapse of a measurable `κ` keeps the successor of `κ`. In the extension the Hartogs
 number of `κ̌` is the check of the Hartogs number of `κ`, and that ordinal is a regular cardinal

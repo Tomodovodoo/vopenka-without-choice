@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.SmallSubsetsStage
-import ZFVP.SetTheory.SupercompactMeasure
+module
+
+public import ZFVP.SetTheory.SmallSubsetsStage
+public import ZFVP.SetTheory.SupercompactMeasure
+
+@[expose] public section
 
 /-! # Supercompactness in the measure sense inside a rank stage
 

@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.NameClosureRecursion
-import ZFVP.SetTheory.NameActionBounds
-import ZFVP.SetTheory.SymmetricSystems
-import ZFVP.SetTheory.TransfiniteIteration
+module
+
+public import ZFVP.SetTheory.NameClosureRecursion
+public import ZFVP.SetTheory.NameActionBounds
+public import ZFVP.SetTheory.SymmetricSystems
+public import ZFVP.SetTheory.TransfiniteIteration
+
+@[expose] public section
 
 /-! An ordinal rank on forcing names measured by the tree of subnames rather than by the
 Kuratowski coding of conditions. The automorphism action rewrites conditions but not the

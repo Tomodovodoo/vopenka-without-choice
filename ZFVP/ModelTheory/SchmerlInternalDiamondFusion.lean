@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalDiamondClubSteps
-import ZFVP.SetTheory.InfiniteDependentChoice
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalDiamondClubSteps
+public import ZFVP.SetTheory.InfiniteDependentChoice
+
+@[expose] public section
 
 /-! Fusion through the ground model's full internal omega. The union
 condition decides its entire domain and forces that domain into the club. -/

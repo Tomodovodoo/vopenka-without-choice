@@ -1,6 +1,10 @@
-import ZFVP.Syntax.BoundedForcingLookup
-import ZFVP.Syntax.BoundedInternalForcingAtoms
-import ZFVP.Syntax.BoundedTruthClauses
+module
+
+public import ZFVP.Syntax.BoundedForcingLookup
+public import ZFVP.Syntax.BoundedInternalForcingAtoms
+public import ZFVP.Syntax.BoundedTruthClauses
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

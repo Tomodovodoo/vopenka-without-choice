@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.Collection
+module
+
+public import ZFVP.SetTheory.Collection
+
+@[expose] public section
 
 /-! A set of bounded definable ordinal fibers has a uniform ordinal bound. -/
 

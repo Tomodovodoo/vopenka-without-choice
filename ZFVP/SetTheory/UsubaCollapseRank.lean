@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.UsubaCollapse
-import ZFVP.SetTheory.RegularSmallRank
+module
+
+public import ZFVP.SetTheory.UsubaCollapse
+public import ZFVP.SetTheory.RegularSmallRank
+
+@[expose] public section
 
 /-! Conditions in Usuba's collapse of a rank lie in that rank when the
 allowed domain sizes are below its cofinality. -/

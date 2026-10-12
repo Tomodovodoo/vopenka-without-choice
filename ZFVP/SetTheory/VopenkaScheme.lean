@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ProperClassRanks
-import ZFVP.ModelTheory.CodedElementaryEmbedding
+module
+
+public import ZFVP.SetTheory.ProperClassRanks
+public import ZFVP.ModelTheory.CodedElementaryEmbedding
+
+@[expose] public section
 
 /-! Parameterized Vopenka instances for arbitrary internal set-sized languages. -/
 

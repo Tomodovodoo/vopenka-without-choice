@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.SupercompactMeasure
+module
+
+public import ZFVP.SetTheory.SupercompactMeasure
+
+@[expose] public section
 
 /-! # Normality for functions whose values need not lie below `lam`
 

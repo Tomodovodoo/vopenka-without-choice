@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalHenkinNameAtoms
-import ZFVP.ModelTheory.InternalHenkinNameQuantifiers
-import ZFVP.ModelTheory.InternalBinaryQuotientTruth
+module
+
+public import ZFVP.ModelTheory.InternalHenkinNameAtoms
+public import ZFVP.ModelTheory.InternalHenkinNameQuantifiers
+public import ZFVP.ModelTheory.InternalBinaryQuotientTruth
+
+@[expose] public section
 
 /-! All eight constructor clauses hold for the actual internal Henkin table. -/
 

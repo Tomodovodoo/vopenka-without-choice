@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.UsubaSuccessorStageModel
+module
+
+public import ZFVP.ModelTheory.UsubaSuccessorStageModel
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

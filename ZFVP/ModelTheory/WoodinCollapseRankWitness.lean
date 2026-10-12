@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.WoodinCollapse
-import ZFVP.SetTheory.OrdinalLeftOne
-import ZFVP.SetTheory.RankBounds
-import ZFVP.SetTheory.InternalWellFounded
+module
+
+public import ZFVP.SetTheory.WoodinCollapse
+public import ZFVP.SetTheory.OrdinalLeftOne
+public import ZFVP.SetTheory.RankBounds
+public import ZFVP.SetTheory.InternalWellFounded
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.SigmaOneStarCorrectness
-import ZFVP.Syntax.SigmaOneBoundedCodes
+module
+
+public import ZFVP.SetTheory.SigmaOneStarCorrectness
+public import ZFVP.Syntax.SigmaOneBoundedCodes
+
+@[expose] public section
 
 /-! Pi-one presentations of C(1) and of Sigma-one-star correctness, relative to a
 Sigma-one graph of the cumulative hierarchy.

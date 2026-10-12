@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.NameActionClosure
-import ZFVP.SetTheory.NameValue
-import ZFVP.SetTheory.NameAction
+module
+
+public import ZFVP.SetTheory.NameActionClosure
+public import ZFVP.SetTheory.NameValue
+public import ZFVP.SetTheory.NameAction
+
+@[expose] public section
 
 /-! The value of a name reads only the conditions that occur in the name. `nameConditionsClosure τ`
 collects the second coordinates of all pairs occurring in the iterated subnames of `τ`, and two

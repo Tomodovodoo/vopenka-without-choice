@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryHenkinTruth
+module
+
+public import ZFVP.ModelTheory.InfinitaryHenkinTruth
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

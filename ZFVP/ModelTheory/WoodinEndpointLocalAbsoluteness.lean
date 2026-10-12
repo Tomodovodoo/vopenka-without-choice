@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSourceEndpointAgreement
-import ZFVP.ModelTheory.WoodinLocalPresentation
+module
+
+public import ZFVP.ModelTheory.WoodinSourceEndpointAgreement
+public import ZFVP.ModelTheory.WoodinLocalPresentation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

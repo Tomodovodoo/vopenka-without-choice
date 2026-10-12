@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedMembershipTruthCertificate
-import ZFVP.ModelTheory.OpenCodedSequentSoundness
+module
+
+public import ZFVP.Syntax.BoundedMembershipTruthCertificate
+public import ZFVP.ModelTheory.OpenCodedSequentSoundness
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

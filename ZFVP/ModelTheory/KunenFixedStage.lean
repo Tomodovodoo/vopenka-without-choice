@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.FixedStageSelfRestriction
-import ZFVP.ModelTheory.KunenFromJonsson
+module
+
+public import ZFVP.ModelTheory.FixedStageSelfRestriction
+public import ZFVP.ModelTheory.KunenFromJonsson
+
+@[expose] public section
 
 /-! Kunen's contradiction at a fixed rank stage.
 

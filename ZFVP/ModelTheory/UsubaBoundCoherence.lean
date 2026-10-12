@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.UsubaQuotientBoundRecursion
-import ZFVP.ModelTheory.ClassForcingTowerSplitProjection
+module
+
+public import ZFVP.ModelTheory.UsubaQuotientBoundRecursion
+public import ZFVP.ModelTheory.ClassForcingTowerSplitProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

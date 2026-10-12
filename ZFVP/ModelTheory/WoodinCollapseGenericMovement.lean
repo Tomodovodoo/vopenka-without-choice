@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.RelativeAutomorphismGeneric
-import ZFVP.SetTheory.WoodinCollapseDisplacement
+module
+
+public import ZFVP.ModelTheory.RelativeAutomorphismGeneric
+public import ZFVP.SetTheory.WoodinCollapseDisplacement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SymmetricModel
-import ZFVP.SetTheory.SymmetricSelectedName
-import ZFVP.SetTheory.TupleNameStabilizer
+module
+
+public import ZFVP.ModelTheory.SymmetricModel
+public import ZFVP.SetTheory.SymmetricSelectedName
+public import ZFVP.SetTheory.TupleNameStabilizer
+
+@[expose] public section
 
 namespace ZFVP
 

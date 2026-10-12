@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingFunctionValues
-import ZFVP.SetTheory.UltrafilterFibers
+module
+
+public import ZFVP.ModelTheory.ForcingFunctionValues
+public import ZFVP.SetTheory.UltrafilterFibers
+
+@[expose] public section
 
 /-! Banerjee, Theorem 2.5(2): a nonprincipal `κ`-complete ultrafilter `U` on a measurable
 ordinal `κ` generates, in any forcing extension by a poset of size below `κ`, a nonprincipal

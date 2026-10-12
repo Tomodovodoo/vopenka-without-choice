@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.WoodinCollapse
-import ZFVP.SetTheory.OrdinalLeftOne
-import ZFVP.SetTheory.BoundedFunctionDomain
-import ZFVP.SetTheory.PiOneInitialOrdinal
-import ZFVP.SetTheory.PiOneHierarchy
+module
+
+public import ZFVP.SetTheory.WoodinCollapse
+public import ZFVP.SetTheory.OrdinalLeftOne
+public import ZFVP.SetTheory.BoundedFunctionDomain
+public import ZFVP.SetTheory.PiOneInitialOrdinal
+public import ZFVP.SetTheory.PiOneHierarchy
+
+@[expose] public section
 
 namespace ZFVP
 

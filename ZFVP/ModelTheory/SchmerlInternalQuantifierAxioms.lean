@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalBooleanAxioms
-import ZFVP.ModelTheory.SchmerlInternalQuantifierLaws
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalBooleanAxioms
+public import ZFVP.ModelTheory.SchmerlInternalQuantifierLaws
+
+@[expose] public section
 
 /-! Universal closure and monotonicity schemas for existential and internal
 uncountability quantifiers. Axiom recognition is a predicate on actual

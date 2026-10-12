@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LevyConePairArrangement
-import ZFVP.ModelTheory.LevyConeAlgebraProperties
-import ZFVP.ModelTheory.LevySupportGalois
+module
+
+public import ZFVP.ModelTheory.LevyConePairArrangement
+public import ZFVP.ModelTheory.LevyConeAlgebraProperties
+public import ZFVP.ModelTheory.LevySupportGalois
+
+@[expose] public section
 
 /-! What the residue `ForcingContext.ValueOfConeIsCone` of the two-cone form of Jech, Set Theory,
 Lemma 25.5 amounts to, and one sufficient condition for it that the Levy collapse can supply.

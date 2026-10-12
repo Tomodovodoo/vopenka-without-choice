@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.FiniteParameterElementarity
-import ZFVP.SetTheory.ElementaryMap
+module
+
+public import ZFVP.ModelTheory.FiniteParameterElementarity
+public import ZFVP.SetTheory.ElementaryMap
+
+@[expose] public section
 
 /-! A bijection preserving and reflecting membership is an isomorphism of set structures, hence
 elementary: it preserves the truth of every formula. -/

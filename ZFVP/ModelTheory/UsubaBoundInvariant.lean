@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.UsubaBoundCoherence
-import ZFVP.ModelTheory.ProjectionQuotientSequenceForcing
-import ZFVP.SetTheory.AtomicForcingDictionary
+module
+
+public import ZFVP.ModelTheory.UsubaBoundCoherence
+public import ZFVP.ModelTheory.ProjectionQuotientSequenceForcing
+public import ZFVP.SetTheory.AtomicForcingDictionary
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

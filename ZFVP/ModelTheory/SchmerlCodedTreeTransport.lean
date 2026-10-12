@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedRepresentedDefinitions
-import ZFVP.ModelTheory.SchmerlCodedBranchFilter
-import ZFVP.SetTheory.EndExtensionRegular
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedRepresentedDefinitions
+public import ZFVP.ModelTheory.SchmerlCodedBranchFilter
+public import ZFVP.SetTheory.EndExtensionRegular
+
+@[expose] public section
 
 /-! The selected tree and its full-filter reconstruction commute with a
 membership end extension. The represented model itself retains its original

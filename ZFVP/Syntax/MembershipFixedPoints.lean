@@ -1,4 +1,8 @@
-import ZFVP.Syntax.BoundedLevySteps
+module
+
+public import ZFVP.Syntax.BoundedLevySteps
+
+@[expose] public section
 
 /-! Local constructor equations for the full pure membership syntax family. -/
 

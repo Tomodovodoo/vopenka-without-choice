@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LevyConeTraceArrangement
-import ZFVP.ModelTheory.LevyOrbitTransferCone
-import ZFVP.ModelTheory.LevyBooleanHomogeneity
+module
+
+public import ZFVP.ModelTheory.LevyConeTraceArrangement
+public import ZFVP.ModelTheory.LevyOrbitTransferCone
+public import ZFVP.ModelTheory.LevyBooleanHomogeneity
+
+@[expose] public section
 
 /-! How far the cone data of Jech, Set Theory, Lemma 25.5 can be shrunk, and why both sides cannot
 be regular cones of conditions at once.

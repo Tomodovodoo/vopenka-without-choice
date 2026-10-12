@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlNamedUpperFragments
+module
+
+public import ZFVP.ModelTheory.SchmerlNamedUpperFragments
+
+@[expose] public section
 
 /-! Exact cofinal realizability criterion for a finite named condition over
 the full Rubin upper-bound background. -/

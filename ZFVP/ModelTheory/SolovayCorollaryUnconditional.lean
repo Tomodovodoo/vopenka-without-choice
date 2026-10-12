@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LevyHighConeTransfer
+module
+
+public import ZFVP.ModelTheory.LevyHighConeTransfer
+
+@[expose] public section
 
 /-! The full Solovay model package from the stated Levy ground data.
 

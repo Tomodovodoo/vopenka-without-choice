@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.EndExtensionNameValue
-import ZFVP.SetTheory.NameValueAction
+module
+
+public import ZFVP.SetTheory.EndExtensionNameValue
+public import ZFVP.SetTheory.NameValueAction
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

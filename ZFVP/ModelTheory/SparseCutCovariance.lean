@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseOrderCovariance
-import ZFVP.SetTheory.NameHierarchyTableFormula
+module
+
+public import ZFVP.ModelTheory.WoodinSparseOrderCovariance
+public import ZFVP.SetTheory.NameHierarchyTableFormula
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

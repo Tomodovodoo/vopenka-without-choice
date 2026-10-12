@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.StandardTruthMatrix
+module
+
+public import ZFVP.SetTheory.StandardTruthMatrix
+
+@[expose] public section
 
 /-! Every positive Levy class admits a single leading quantifier over a matrix of the dual lower class. -/
 

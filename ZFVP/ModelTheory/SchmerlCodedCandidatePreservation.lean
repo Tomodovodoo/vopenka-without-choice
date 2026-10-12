@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedClassCandidates
-import ZFVP.ModelTheory.SchmerlCodedTreeTransport
-import ZFVP.SetTheory.EndExtensionHierarchyAgreement
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedClassCandidates
+public import ZFVP.ModelTheory.SchmerlCodedTreeTransport
+public import ZFVP.SetTheory.EndExtensionHierarchyAgreement
+
+@[expose] public section
 
 /-! A cofinal candidate in the specializing extension has a full original
 definition: preserve its selected branch, reconstruct the ground full filter,

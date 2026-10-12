@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BinaryRealNullImagesIntervals
+module
+
+public import ZFVP.SetTheory.BinaryRealNullImagesIntervals
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

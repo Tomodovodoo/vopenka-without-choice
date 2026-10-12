@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.DirectLimitQuotientClosure
+module
+
+public import ZFVP.ModelTheory.DirectLimitQuotientClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

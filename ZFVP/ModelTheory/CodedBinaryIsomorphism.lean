@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.CodedElementaryEmbedding
-import ZFVP.Syntax.BinaryRelationInternalSemantics
-import ZFVP.Syntax.MembershipSwap
-import ZFVP.SetTheory.InverseFunction
+module
+
+public import ZFVP.ModelTheory.CodedElementaryEmbedding
+public import ZFVP.Syntax.BinaryRelationInternalSemantics
+public import ZFVP.Syntax.MembershipSwap
+public import ZFVP.SetTheory.InverseFunction
+
+@[expose] public section
 
 /-! An actual bijection preserving an internal binary relation preserves all
 internal formulas, by definable induction over the coded syntax. -/

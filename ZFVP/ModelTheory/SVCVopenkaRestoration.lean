@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CollapseModel
-import ZFVP.ModelTheory.ForcingVopenkaPreservation
-import ZFVP.ModelTheory.CodedZFVPExternal
+module
+
+public import ZFVP.ModelTheory.CollapseModel
+public import ZFVP.ModelTheory.ForcingVopenkaPreservation
+public import ZFVP.ModelTheory.CodedZFVPExternal
+
+@[expose] public section
 
 namespace ZFVP
 

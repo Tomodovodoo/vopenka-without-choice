@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingIsomorphismModel
+module
+
+public import ZFVP.ModelTheory.ForcingIsomorphismModel
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

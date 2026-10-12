@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.RankWitnessStructures
-import ZFVP.SetTheory.BoundedOrdinalOmega
-import ZFVP.SetTheory.BoundedUnion
-import ZFVP.SetTheory.DeltaOneRank
+module
+
+public import ZFVP.SetTheory.RankWitnessStructures
+public import ZFVP.SetTheory.BoundedOrdinalOmega
+public import ZFVP.SetTheory.BoundedUnion
+public import ZFVP.SetTheory.DeltaOneRank
+
+@[expose] public section
 
 /-! A Pi-one graph for the rank bound used in the fragment construction. -/
 

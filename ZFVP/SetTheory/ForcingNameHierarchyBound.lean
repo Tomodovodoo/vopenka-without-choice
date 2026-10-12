@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ForcingNameHierarchy
-import ZFVP.SetTheory.ChoicelessInaccessibleRank
-import ZFVP.SetTheory.RankCollection
-import ZFVP.SetTheory.FiniteCodingClosure
+module
+
+public import ZFVP.SetTheory.ForcingNameHierarchy
+public import ZFVP.SetTheory.ChoicelessInaccessibleRank
+public import ZFVP.SetTheory.RankCollection
+public import ZFVP.SetTheory.FiniteCodingClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

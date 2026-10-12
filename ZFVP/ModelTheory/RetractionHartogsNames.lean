@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SaturatedHartogsSpecification
-import ZFVP.ModelTheory.RetractionCanonicalNames
+module
+
+public import ZFVP.ModelTheory.SaturatedHartogsSpecification
+public import ZFVP.ModelTheory.RetractionCanonicalNames
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

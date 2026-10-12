@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.RankCollapseCombinedRestoration
-import ZFVP.ModelTheory.WoodinCollapseRestorationBelow
-import ZFVP.ModelTheory.WoodinCollapseForcesRestoration
+module
+
+public import ZFVP.ModelTheory.RankCollapseCombinedRestoration
+public import ZFVP.ModelTheory.WoodinCollapseRestorationBelow
+public import ZFVP.ModelTheory.WoodinCollapseForcesRestoration
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

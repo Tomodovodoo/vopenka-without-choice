@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.EndExtensionRelations
+module
+
+public import ZFVP.SetTheory.EndExtensionRelations
+
+@[expose] public section
 
 set_option maxHeartbeats 400000
 

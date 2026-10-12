@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ProjectionRegularPreservation
-import ZFVP.ModelTheory.SaturatedWoodinSuccessor
-import ZFVP.ModelTheory.ForcingSingularDependentChoice
-import ZFVP.ModelTheory.ProjectionQuotientClosureForcing
-import ZFVP.SetTheory.HartogsLimitRegular
+module
+
+public import ZFVP.ModelTheory.ProjectionRegularPreservation
+public import ZFVP.ModelTheory.SaturatedWoodinSuccessor
+public import ZFVP.ModelTheory.ForcingSingularDependentChoice
+public import ZFVP.ModelTheory.ProjectionQuotientClosureForcing
+public import ZFVP.SetTheory.HartogsLimitRegular
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,10 +1,14 @@
-import ZFVP.ModelTheory.CriticalPointCardinal
-import ZFVP.ModelTheory.EmbeddingAssignments
-import ZFVP.ModelTheory.EmbeddingOmegaFixation
-import ZFVP.SetTheory.GroundUniquenessCoding
-import ZFVP.SetTheory.InverseFunction
-import ZFVP.SetTheory.RegularUnions
-import ZFVP.SetTheory.CnAbsoluteness
+module
+
+public import ZFVP.ModelTheory.CriticalPointCardinal
+public import ZFVP.ModelTheory.EmbeddingAssignments
+public import ZFVP.ModelTheory.EmbeddingOmegaFixation
+public import ZFVP.SetTheory.GroundUniquenessCoding
+public import ZFVP.SetTheory.InverseFunction
+public import ZFVP.SetTheory.RegularUnions
+public import ZFVP.SetTheory.CnAbsoluteness
+
+@[expose] public section
 
 /-! The pointwise image `imageSet f X = {f ‘ x | x ∈ X}` of a set under a coded membership
 embedding, with the facts Kunen's inconsistency argument uses.

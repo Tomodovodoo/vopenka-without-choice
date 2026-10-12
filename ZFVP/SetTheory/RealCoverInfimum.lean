@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RealNullPadding
+module
+
+public import ZFVP.SetTheory.RealNullPadding
+
+@[expose] public section
 
 /-! Cover costs are suprema of internal partial sums; outer measure is their infimum. -/
 

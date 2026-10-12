@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ChoicelessInaccessibleRank
-import ZFVP.SetTheory.Hartogs
+module
+
+public import ZFVP.SetTheory.ChoicelessInaccessibleRank
+public import ZFVP.SetTheory.Hartogs
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

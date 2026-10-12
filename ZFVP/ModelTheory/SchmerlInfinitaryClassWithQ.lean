@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInfinitaryQFree
+module
+
+public import ZFVP.ModelTheory.SchmerlInfinitaryQFree
+
+@[expose] public section
 
 /-! Construct the fixed class sentence using an arbitrary extensional Q.
 Only the two cardinality clauses use Q; branch definitions remain in the

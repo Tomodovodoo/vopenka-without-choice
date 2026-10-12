@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.UsubaLSSequence
-import ZFVP.SetTheory.Cn
-import ZFVP.SetTheory.NaturalIteration
+module
+
+public import ZFVP.SetTheory.UsubaLSSequence
+public import ZFVP.SetTheory.Cn
+public import ZFVP.SetTheory.NaturalIteration
+
+@[expose] public section
 
 /-! Unbounded LS cardinals supply unbounded limits of LS cardinals at
 correct rank stages. Alternating least choices needs no choice axiom. -/

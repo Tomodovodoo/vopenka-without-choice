@@ -1,5 +1,9 @@
-import ZFVP.Syntax.SetNumeralQuotation
-import ZFVP.ModelTheory.InternalPrimitiveProgram
+module
+
+public import ZFVP.Syntax.SetNumeralQuotation
+public import ZFVP.ModelTheory.InternalPrimitiveProgram
+
+@[expose] public section
 
 /-! A constructive diagonal lemma for the relational language of set theory. -/
 

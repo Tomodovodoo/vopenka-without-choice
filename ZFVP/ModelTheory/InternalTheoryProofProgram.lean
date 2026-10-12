@@ -1,6 +1,10 @@
-import ZFVP.Syntax.PrimitiveProgramTheoryProof
-import ZFVP.ModelTheory.InternalGeneratedAxiomSoundness
-import ZFVP.ModelTheory.InternalLKCertificateSoundness
+module
+
+public import ZFVP.Syntax.PrimitiveProgramTheoryProof
+public import ZFVP.ModelTheory.InternalGeneratedAxiomSoundness
+public import ZFVP.ModelTheory.InternalLKCertificateSoundness
+
+@[expose] public section
 
 /-! Internal equations for the generated-theory certificate checker. -/
 

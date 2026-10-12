@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.LeastGoodLimitPointClass
-import ZFVP.SetTheory.ParamMarkerRankClass
-import ZFVP.SetTheory.CriticalPointGoodClosure
-import ZFVP.SetTheory.CnExtendibleSmallEmbedding
-import ZFVP.ModelTheory.CriticalPointCardinal
+module
+
+public import ZFVP.SetTheory.LeastGoodLimitPointClass
+public import ZFVP.SetTheory.ParamMarkerRankClass
+public import ZFVP.SetTheory.CriticalPointGoodClosure
+public import ZFVP.SetTheory.CnExtendibleSmallEmbedding
+public import ZFVP.ModelTheory.CriticalPointCardinal
+
+@[expose] public section
 
 /-! The converse of Bagaria's Theorem 4.12: the `Pi_{k+2}` fragment of Vopenka's principle gives
 unboundedly many `C(k+1)`-extendible cardinals.

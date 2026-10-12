@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SuccessorRankNameDomain
-import ZFVP.SetTheory.BoundedAtomicTruth
-import ZFVP.SetTheory.NameValueRank
+module
+
+public import ZFVP.ModelTheory.SuccessorRankNameDomain
+public import ZFVP.SetTheory.BoundedAtomicTruth
+public import ZFVP.SetTheory.NameValueRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

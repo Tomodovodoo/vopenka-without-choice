@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.LevyColumnSplitting
+module
+
+public import ZFVP.SetTheory.LevyColumnSplitting
+
+@[expose] public section
 
 /-! Relative column splitting: a column collapse on `C'` splits at a sub-column set `C ⊆ C'` into
 the product of the column collapses on `C` and on `C' \ C`, by inverse dense embeddings. -/

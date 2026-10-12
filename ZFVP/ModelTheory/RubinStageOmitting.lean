@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.RubinStage
-import ZFVP.ModelTheory.OmittingTypesEq
+module
+
+public import ZFVP.ModelTheory.RubinStage
+public import ZFVP.ModelTheory.OmittingTypesEq
+
+@[expose] public section
 
 /-! # Enayat's Lemma A.2 without the omitting types hypothesis
 

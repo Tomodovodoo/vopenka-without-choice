@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CohenAutomorphisms
-import ZFVP.SetTheory.InternalTranspositions
+module
+
+public import ZFVP.SetTheory.CohenAutomorphisms
+public import ZFVP.SetTheory.InternalTranspositions
+
+@[expose] public section
 
 namespace ZFVP
 

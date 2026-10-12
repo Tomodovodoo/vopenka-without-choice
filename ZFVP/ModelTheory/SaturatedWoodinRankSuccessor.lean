@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinCollapseRankInvariant
-import ZFVP.ModelTheory.SaturatedWoodinSuccessor
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseRankInvariant
+public import ZFVP.ModelTheory.SaturatedWoodinSuccessor
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

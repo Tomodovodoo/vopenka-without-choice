@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TwoStepFirstGeneration
-import ZFVP.SetTheory.EndExtensionReplacement
+module
+
+public import ZFVP.ModelTheory.TwoStepFirstGeneration
+public import ZFVP.SetTheory.EndExtensionReplacement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

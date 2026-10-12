@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.FiniteRankLift
-import ZFVP.ModelTheory.ForcingModelGraph
-import ZFVP.ModelTheory.ForcingRetractionModel
+module
+
+public import ZFVP.ModelTheory.FiniteRankLift
+public import ZFVP.ModelTheory.ForcingModelGraph
+public import ZFVP.ModelTheory.ForcingRetractionModel
+
+@[expose] public section
 
 namespace ZFVP
 

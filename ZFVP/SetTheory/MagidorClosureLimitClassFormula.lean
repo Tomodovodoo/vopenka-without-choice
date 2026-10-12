@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.MagidorClosureLimitPoint
+module
+
+public import ZFVP.SetTheory.MagidorClosureLimitPoint
+
+@[expose] public section
 
 /-! # The side condition of the `Pi_1` class indexed by closure limit points
 

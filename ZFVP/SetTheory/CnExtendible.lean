@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.TransitiveZFEmbedding
+module
+
+public import ZFVP.ModelTheory.TransitiveZFEmbedding
+
+@[expose] public section
 
 /-! The paper's C(n)-extendibility predicate and its uniform first-order dictionary. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.SymmetricFormulaForcing
-import ZFVP.SetTheory.FormulaForcing
+module
+
+public import ZFVP.SetTheory.SymmetricFormulaForcing
+public import ZFVP.SetTheory.FormulaForcing
+
+@[expose] public section
 
 namespace ZFVP
 

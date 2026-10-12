@@ -1,5 +1,9 @@
-import ZFVP.Syntax.EndExtensionSatisfaction
-import ZFVP.Syntax.EndExtensionMembershipSyntax
+module
+
+public import ZFVP.Syntax.EndExtensionSatisfaction
+public import ZFVP.Syntax.EndExtensionMembershipSyntax
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

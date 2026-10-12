@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.RankDCForcingAgreement
-import ZFVP.ModelTheory.RankWoodinRestoration
-import ZFVP.ModelTheory.SuccessorRankWoodinCollapse
-import ZFVP.SetTheory.WoodinSupercompactStarCorrect
+module
+
+public import ZFVP.ModelTheory.RankDCForcingAgreement
+public import ZFVP.ModelTheory.RankWoodinRestoration
+public import ZFVP.ModelTheory.SuccessorRankWoodinCollapse
+public import ZFVP.SetTheory.WoodinSupercompactStarCorrect
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

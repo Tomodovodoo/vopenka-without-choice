@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingRegularGenericEquality
-import ZFVP.SetTheory.ForcingSaturatedName
+module
+
+public import ZFVP.ModelTheory.ForcingRegularGenericEquality
+public import ZFVP.SetTheory.ForcingSaturatedName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

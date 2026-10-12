@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalClosedTemplateProgram
-import ZFVP.Syntax.PrimitiveProgramGeneratedAxioms
+module
+
+public import ZFVP.ModelTheory.InternalClosedTemplateProgram
+public import ZFVP.Syntax.PrimitiveProgramGeneratedAxioms
+
+@[expose] public section
 
 /-! Internal equations for the explicit ZF+VP axiom enumerator. -/
 

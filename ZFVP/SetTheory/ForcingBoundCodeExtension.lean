@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingBoundCongruence
-import ZFVP.SetTheory.ForcingIterationCode
+module
+
+public import ZFVP.SetTheory.ForcingBoundCongruence
+public import ZFVP.SetTheory.ForcingIterationCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

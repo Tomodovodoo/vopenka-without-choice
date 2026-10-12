@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.FiniteRankLiftAssignments
+module
 
-import ZFVP.ModelTheory.InternalGenericTruth
-import ZFVP.Syntax.EndExtensionMembershipNegation
+public import ZFVP.ModelTheory.FiniteRankLiftAssignments
+
+public import ZFVP.ModelTheory.InternalGenericTruth
+public import ZFVP.Syntax.EndExtensionMembershipNegation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ChoicelessSupercompactInterpolation
-import ZFVP.SetTheory.ChoicelessSupercompactAbsoluteness
+module
+
+public import ZFVP.SetTheory.ChoicelessSupercompactInterpolation
+public import ZFVP.SetTheory.ChoicelessSupercompactAbsoluteness
+
+@[expose] public section
 
 /-! Reading bounded choiceless supercompactness in correct rank stages. -/
 

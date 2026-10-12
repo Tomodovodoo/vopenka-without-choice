@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalCodedSkolem
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalCodedSkolem
+
+@[expose] public section
 
 /-! Internal countable downward Löwenheim–Skolem for arbitrary language
 and structure codes, with elementarity for every internally finite formula. -/

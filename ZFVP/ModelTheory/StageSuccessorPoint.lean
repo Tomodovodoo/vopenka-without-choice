@@ -1,6 +1,10 @@
-import Foundation.FirstOrder.SetTheory.Ordinal
-import Foundation.FirstOrder.SetTheory.ZF
-import ZFVP.ModelTheory.StageSuccessorAll
+module
+
+public import Foundation.FirstOrder.SetTheory.Ordinal
+public import Foundation.FirstOrder.SetTheory.ZF
+public import ZFVP.ModelTheory.StageSuccessorAll
+
+@[expose] public section
 
 /-! # The successor step absorbs a prescribed point of the carrier
 

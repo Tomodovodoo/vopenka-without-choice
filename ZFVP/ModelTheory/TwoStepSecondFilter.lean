@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.TwoStepProjection
+module
+
+public import ZFVP.ModelTheory.TwoStepProjection
+
+@[expose] public section
 
 namespace ZFVP
 

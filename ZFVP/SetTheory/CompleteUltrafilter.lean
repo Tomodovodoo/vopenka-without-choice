@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.HartogsDictionary
-import Foundation.FirstOrder.SetTheory.Function
+module
+
+public import ZFVP.SetTheory.HartogsDictionary
+public import Foundation.FirstOrder.SetTheory.Function
+
+@[expose] public section
 
 /-! Nonprincipal internally complete ultrafilters on an ordinal, and the sentence
 "omega_1 carries a nonprincipal omega_1-complete ultrafilter". -/

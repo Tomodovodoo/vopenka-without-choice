@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingRankRestrictedNames
-import ZFVP.ModelTheory.SuccessorRankSeparation
-import ZFVP.SetTheory.WoodinCollapseFormula
-import ZFVP.ModelTheory.SuccessorRankLiftChecks
+module
+
+public import ZFVP.ModelTheory.ForcingRankRestrictedNames
+public import ZFVP.ModelTheory.SuccessorRankSeparation
+public import ZFVP.SetTheory.WoodinCollapseFormula
+public import ZFVP.ModelTheory.SuccessorRankLiftChecks
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

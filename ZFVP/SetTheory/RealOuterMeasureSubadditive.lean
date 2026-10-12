@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RealRationalBrackets
-import Mathlib.Tactic.Linarith
+module
+
+public import ZFVP.SetTheory.RealRationalBrackets
+public import Mathlib.Tactic.Linarith
+
+@[expose] public section
 
 /-! Finite subadditivity of the actual interval-cover outer measure. -/
 

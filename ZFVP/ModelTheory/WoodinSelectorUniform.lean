@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingInverseTwoStepUniform
-import ZFVP.ModelTheory.WoodinInverseCodeDefinability
-import ZFVP.SetTheory.WoodinSeedCardinal
+module
+
+public import ZFVP.ModelTheory.ForcingInverseTwoStepUniform
+public import ZFVP.ModelTheory.WoodinInverseCodeDefinability
+public import ZFVP.SetTheory.WoodinSeedCardinal
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BoundedSetUnionInter
+module
+
+public import ZFVP.SetTheory.BoundedSetUnionInter
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

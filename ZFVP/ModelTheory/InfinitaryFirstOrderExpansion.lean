@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitarySyntax
+module
+
+public import ZFVP.ModelTheory.InfinitarySyntax
+
+@[expose] public section
 
 /-! Embedded first-order formulas expand into infinitary connectives while
 retaining only truth and atomic relations as embedded first-order nodes. -/

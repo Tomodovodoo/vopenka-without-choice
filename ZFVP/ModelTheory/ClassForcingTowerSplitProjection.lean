@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ClassForcingTower
-import ZFVP.ModelTheory.ForcingSplitProjection
+module
+
+public import ZFVP.SetTheory.ClassForcingTower
+public import ZFVP.ModelTheory.ForcingSplitProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

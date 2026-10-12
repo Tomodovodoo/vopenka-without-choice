@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.QuotientSplitProjection
-import ZFVP.ModelTheory.SplitSeparativeClosureEquivalence
+module
+
+public import ZFVP.ModelTheory.QuotientSplitProjection
+public import ZFVP.ModelTheory.SplitSeparativeClosureEquivalence
+
+@[expose] public section
 
 /-! Order-reflecting ground projections induce separative and closure equivalences on quotients. -/
 

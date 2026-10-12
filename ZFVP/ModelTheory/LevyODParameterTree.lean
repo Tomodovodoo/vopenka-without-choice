@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LevyODLocalized
-import ZFVP.ModelTheory.LevyStageDefinable
+module
+
+public import ZFVP.ModelTheory.LevyODLocalized
+public import ZFVP.ModelTheory.LevyStageDefinable
+
+@[expose] public section
 
 /-! The converse half of the Solovay model bridge: a set of the Levy extension that is ordinal
 definable from a class of localized parameters is hereditarily definable from ground sets, reals

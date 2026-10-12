@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCofinalSpecialization
-import Foundation.FirstOrder.Basic.Coding
+module
+
+public import ZFVP.ModelTheory.SchmerlCofinalSpecialization
+public import Foundation.FirstOrder.Basic.Coding
+
+@[expose] public section
 
 /-! An aleph-one structure in a countable language has at most aleph-one
 definable subsets, including parameters. The proof constructs finite parameter

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SymmetricLift
-import ZFVP.ModelTheory.SymmetricRankWitnesses
+module
+
+public import ZFVP.ModelTheory.SymmetricLift
+public import ZFVP.ModelTheory.SymmetricRankWitnesses
+
+@[expose] public section
 
 /-! A moved pair of full witness sets gives distinct class members related by the symmetric lift. -/
 

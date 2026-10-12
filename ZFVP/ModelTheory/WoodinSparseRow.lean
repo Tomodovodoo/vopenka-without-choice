@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseHistory
-import ZFVP.ModelTheory.WoodinRecodingConstruction
+module
+
+public import ZFVP.ModelTheory.WoodinSparseHistory
+public import ZFVP.ModelTheory.WoodinRecodingConstruction
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

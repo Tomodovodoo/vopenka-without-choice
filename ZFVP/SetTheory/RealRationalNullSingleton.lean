@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RealHalfLineMeasurable
+module
+
+public import ZFVP.SetTheory.RealHalfLineMeasurable
+
+@[expose] public section
 
 /-! Genuine geometric covers of rational points on the real line. -/
 

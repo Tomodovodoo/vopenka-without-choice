@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.FiniteRankInternalForcing
-import ZFVP.ModelTheory.SuccessorNameElementaryLift
-import ZFVP.ModelTheory.WoodinSparseEndpointTruth
+module
+
+public import ZFVP.ModelTheory.FiniteRankInternalForcing
+public import ZFVP.ModelTheory.SuccessorNameElementaryLift
+public import ZFVP.ModelTheory.WoodinSparseEndpointTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

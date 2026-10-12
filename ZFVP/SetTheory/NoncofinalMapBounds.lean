@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.Cofinality
+module
+
+public import ZFVP.SetTheory.Cofinality
+
+@[expose] public section
 
 /-! Bounds for noncofinal maps into an ordinal, with arbitrary set domain. -/
 

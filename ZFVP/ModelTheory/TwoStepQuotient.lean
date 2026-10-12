@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TwoStepEquivalence
-import ZFVP.ModelTheory.ForcingContextCongruence
+module
+
+public import ZFVP.ModelTheory.TwoStepEquivalence
+public import ZFVP.ModelTheory.ForcingContextCongruence
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

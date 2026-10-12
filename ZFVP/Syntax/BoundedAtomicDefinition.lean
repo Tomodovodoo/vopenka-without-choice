@@ -1,4 +1,8 @@
-import ZFVP.Syntax.BoundedConstructorExpressions
+module
+
+public import ZFVP.Syntax.BoundedConstructorExpressions
+
+@[expose] public section
 
 /-! A bounded definition of atomic arguments, relative to a coding support. -/
 

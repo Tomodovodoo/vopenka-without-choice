@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingPairNames
-import ZFVP.SetTheory.HereditarySymmetry
-import ZFVP.SetTheory.NameValue
+module
+
+public import ZFVP.SetTheory.ForcingPairNames
+public import ZFVP.SetTheory.HereditarySymmetry
+public import ZFVP.SetTheory.NameValue
+
+@[expose] public section
 
 namespace ZFVP
 

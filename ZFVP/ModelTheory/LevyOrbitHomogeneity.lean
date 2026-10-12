@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SolovayOrbitDefinable
-import ZFVP.ModelTheory.LevyGaloisFactor
+module
+
+public import ZFVP.ModelTheory.SolovayOrbitDefinable
+public import ZFVP.ModelTheory.LevyGaloisFactor
+
+@[expose] public section
 
 /-! What an orbit filter of Karagila-Schilhan, Proposition 9.4, gives without a ground
 automorphism.

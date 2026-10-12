@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitarySyntax
+module
+
+public import ZFVP.ModelTheory.InfinitarySyntax
+
+@[expose] public section
 
 /-! Capture-avoiding term substitution for formulas with countable operations and Q. -/
 

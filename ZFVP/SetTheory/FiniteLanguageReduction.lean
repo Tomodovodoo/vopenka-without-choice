@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CnExtendibleVopenka
-import ZFVP.ModelTheory.CodedZFVPExternal
+module
+
+public import ZFVP.SetTheory.CnExtendibleVopenka
+public import ZFVP.ModelTheory.CodedZFVPExternal
+
+@[expose] public section
 
 /-! # Finite fragments of the Vopenka scheme sit at one Levy level
 

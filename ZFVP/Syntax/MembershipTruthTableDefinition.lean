@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedTruthTableDefinition
-import ZFVP.Syntax.MembershipQuantifierTruth
+module
+
+public import ZFVP.Syntax.BoundedTruthTableDefinition
+public import ZFVP.Syntax.MembershipQuantifierTruth
+
+@[expose] public section
 
 /-! A bounded formula checks all constructor equations of a membership truth table. -/
 

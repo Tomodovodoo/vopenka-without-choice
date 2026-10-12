@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingDirectedClosure
-import ZFVP.SetTheory.FunctionComposition
+module
+
+public import ZFVP.SetTheory.ForcingDirectedClosure
+public import ZFVP.SetTheory.FunctionComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

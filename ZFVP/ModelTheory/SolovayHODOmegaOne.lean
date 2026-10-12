@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SolovayHODBridge
-import ZFVP.ModelTheory.SolovayOmegaOne
-import ZFVP.SetTheory.HODOmegaOne
+module
+
+public import ZFVP.ModelTheory.SolovayHODBridge
+public import ZFVP.ModelTheory.SolovayOmegaOne
+public import ZFVP.SetTheory.HODOmegaOne
+
+@[expose] public section
 
 /-! `κ` is the first uncountable ordinal of the HOD class model built inside the Levy extension
 (lem:Solovay-regularity, clause `κ = ω₁^{Sol}`).

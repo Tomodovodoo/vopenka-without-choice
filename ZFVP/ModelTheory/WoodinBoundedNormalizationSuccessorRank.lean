@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseSuccessorRankAgreement
-import ZFVP.ModelTheory.RankNormalizedBaseTwoStep
-import ZFVP.ModelTheory.WoodinNormalizationSuccessor
+module
+
+public import ZFVP.ModelTheory.WoodinSparseSuccessorRankAgreement
+public import ZFVP.ModelTheory.RankNormalizedBaseTwoStep
+public import ZFVP.ModelTheory.WoodinNormalizationSuccessor
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

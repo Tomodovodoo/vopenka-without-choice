@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramNegation
+module
+
+public import ZFVP.Syntax.PrimitiveProgramNegation
+
+@[expose] public section
 
 /-! Explicit term and argument rewriting for the eigenvariable and witness rules. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.StandardNaturals
+module
+
+public import ZFVP.SetTheory.StandardNaturals
+
+@[expose] public section
 
 /-! A shared parameter-free formula for each standard internal numeral. -/
 

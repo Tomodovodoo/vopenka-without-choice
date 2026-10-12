@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.InternalDedekindReals
-import ZFVP.SetTheory.InternalRationalField
+module
+
+public import ZFVP.SetTheory.InternalDedekindReals
+public import ZFVP.SetTheory.InternalRationalField
+
+@[expose] public section
 
 /-! The rational interval basis on the actual internal Dedekind real line. -/
 

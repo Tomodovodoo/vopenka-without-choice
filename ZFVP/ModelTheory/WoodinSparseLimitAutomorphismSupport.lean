@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseActualLimitAutomorphisms
+module
+
+public import ZFVP.ModelTheory.WoodinSparseActualLimitAutomorphisms
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingRealizationEmbedding
-import ZFVP.ModelTheory.ForcingModelNameValue
+module
+
+public import ZFVP.ModelTheory.ForcingRealizationEmbedding
+public import ZFVP.ModelTheory.ForcingModelNameValue
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.GroundUniqueness
-import ZFVP.SetTheory.CodingUniverse
-import ZFVP.SetTheory.WellOrderedSurjection
+module
+
+public import ZFVP.SetTheory.GroundUniqueness
+public import ZFVP.SetTheory.CodingUniverse
+public import ZFVP.SetTheory.WellOrderedSurjection
+
+@[expose] public section
 
 /-! A rank stage at a regular cardinal absorbs the subsets of itself that are small. -/
 

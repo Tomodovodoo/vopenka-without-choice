@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlSpecializationProducts
+module
+
+public import ZFVP.ModelTheory.SchmerlSpecializationProducts
+
+@[expose] public section
 
 /-! The combinatorial no-new-branch theorem for a forcing with ccc square.
 A cofinal branch name is represented by its monotone node-forcing relation,

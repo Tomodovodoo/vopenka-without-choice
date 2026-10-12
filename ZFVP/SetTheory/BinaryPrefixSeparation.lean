@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BinaryExpansionValues
+module
+
+public import ZFVP.SetTheory.BinaryExpansionValues
+
+@[expose] public section
 
 /-! Distinct equal-length binary prefixes have separated dyadic intervals. -/
 

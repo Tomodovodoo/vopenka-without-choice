@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalProofConstruction
-import ZFVP.ModelTheory.SchmerlInternalBMR
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalProofConstruction
+public import ZFVP.ModelTheory.SchmerlInternalBMR
+
+@[expose] public section
 
 /-! Countable conjunction from an actual internally indexed family of derivation
 codes. Internal Choice bounds the two countable unions and selects premise

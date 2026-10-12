@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingIsomorphismFormula
-import ZFVP.SetTheory.TwoStepForcing
-import ZFVP.SetTheory.WoodinSeedOrder
+module
+
+public import ZFVP.ModelTheory.ForcingIsomorphismFormula
+public import ZFVP.SetTheory.TwoStepForcing
+public import ZFVP.SetTheory.WoodinSeedOrder
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

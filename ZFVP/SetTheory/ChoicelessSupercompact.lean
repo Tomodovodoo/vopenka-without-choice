@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ChoicelessExtendible
-import ZFVP.SetTheory.CnSandwich
+module
+
+public import ZFVP.SetTheory.ChoicelessExtendible
+public import ZFVP.SetTheory.CnSandwich
+
+@[expose] public section
 
 /-! The alpha-relative choiceless supercompactness witnesses of
 Mohammd's Definition 2.3. -/

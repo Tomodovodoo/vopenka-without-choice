@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.DeltaOneHistoryTables
-import ZFVP.ModelTheory.DeltaOneForcingCodeComponents
-import ZFVP.ModelTheory.BoundedForcingCode
+module
+
+public import ZFVP.ModelTheory.DeltaOneHistoryTables
+public import ZFVP.ModelTheory.DeltaOneForcingCodeComponents
+public import ZFVP.ModelTheory.BoundedForcingCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

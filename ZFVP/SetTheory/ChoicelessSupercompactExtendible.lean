@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.ChoicelessSupercompact
-import ZFVP.SetTheory.ChoicelessExtendibleWitness
-import ZFVP.ModelTheory.RankEmbeddingPairPreimages
-import ZFVP.ModelTheory.EmbeddingCnTransfer
-import ZFVP.ModelTheory.CriticalPointRestriction
+module
+
+public import ZFVP.SetTheory.ChoicelessSupercompact
+public import ZFVP.SetTheory.ChoicelessExtendibleWitness
+public import ZFVP.ModelTheory.RankEmbeddingPairPreimages
+public import ZFVP.ModelTheory.EmbeddingCnTransfer
+public import ZFVP.ModelTheory.CriticalPointRestriction
+
+@[expose] public section
 
 /-! Mohammd Lemma 2.7: positive-level choiceless supercompactness
 gives choiceless extendibility one level lower. -/

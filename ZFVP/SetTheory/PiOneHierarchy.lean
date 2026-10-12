@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.DeltaOneRank
+module
+
+public import ZFVP.SetTheory.DeltaOneRank
+
+@[expose] public section
 
 /-! The graph of the cumulative hierarchy on ordinals is Pi-one. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SuccessorRankEmbedding
-import ZFVP.ModelTheory.CriticalPointCofinality
+module
+
+public import ZFVP.ModelTheory.SuccessorRankEmbedding
+public import ZFVP.ModelTheory.CriticalPointCofinality
+
+@[expose] public section
 
 namespace ZFVP
 

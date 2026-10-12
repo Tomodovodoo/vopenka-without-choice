@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BoundedAtomicTruth
+module
+
+public import ZFVP.SetTheory.BoundedAtomicTruth
+
+@[expose] public section
 
 /-! Membership forcing is a bounded density test against an atomic equality table. -/
 

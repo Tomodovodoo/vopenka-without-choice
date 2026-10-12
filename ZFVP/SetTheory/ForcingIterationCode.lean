@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingIterationUnion
-import ZFVP.SetTheory.ForcingIterationInitial
+module
+
+public import ZFVP.SetTheory.ForcingIterationUnion
+public import ZFVP.SetTheory.ForcingIterationInitial
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

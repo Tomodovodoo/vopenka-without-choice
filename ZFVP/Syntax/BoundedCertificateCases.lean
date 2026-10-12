@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedPreviousCodes
-import ZFVP.Syntax.BoundedCertificates
+module
+
+public import ZFVP.Syntax.BoundedPreviousCodes
+public import ZFVP.Syntax.BoundedCertificates
+
+@[expose] public section
 
 /-! Bounded constructor checks for individual derivation steps. -/
 

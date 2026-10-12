@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinCanonicalBoundRawInduction
-import ZFVP.ModelTheory.WoodinCanonicalBoundInverseIterand
-import ZFVP.ModelTheory.WoodinCanonicalBoundDecision
+module
+
+public import ZFVP.ModelTheory.WoodinCanonicalBoundRawInduction
+public import ZFVP.ModelTheory.WoodinCanonicalBoundInverseIterand
+public import ZFVP.ModelTheory.WoodinCanonicalBoundDecision
+
+@[expose] public section
 
 /-! Discharging the iterand and decision premises of the raw lift bound.
 

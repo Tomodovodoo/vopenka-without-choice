@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingInverseBoundTable
-import ZFVP.ModelTheory.WoodinDirectIndex
-import ZFVP.SetTheory.DirectCoherentBounds
-import ZFVP.SetTheory.LimitBoundSections
+module
+
+public import ZFVP.ModelTheory.ForcingInverseBoundTable
+public import ZFVP.ModelTheory.WoodinDirectIndex
+public import ZFVP.SetTheory.DirectCoherentBounds
+public import ZFVP.SetTheory.LimitBoundSections
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

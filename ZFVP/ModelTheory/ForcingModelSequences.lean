@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingModelPairs
-import ZFVP.SetTheory.ForcingSequenceNames
-import ZFVP.SetTheory.EndExtensionWellOrdering
+module
+
+public import ZFVP.ModelTheory.ForcingModelPairs
+public import ZFVP.SetTheory.ForcingSequenceNames
+public import ZFVP.SetTheory.EndExtensionWellOrdering
+
+@[expose] public section
 
 namespace ZFVP
 

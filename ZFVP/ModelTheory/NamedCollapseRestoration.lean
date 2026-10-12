@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ForcingConditionalEquivalence
-import ZFVP.ModelTheory.WoodinCollapseIterand
-import ZFVP.ModelTheory.ForcingCheckedBounded
-import ZFVP.ModelTheory.TwoStepCheckedTransfer
-import ZFVP.ModelTheory.WoodinCollapseEmptyIterand
+module
+
+public import ZFVP.ModelTheory.ForcingConditionalEquivalence
+public import ZFVP.ModelTheory.WoodinCollapseIterand
+public import ZFVP.ModelTheory.ForcingCheckedBounded
+public import ZFVP.ModelTheory.TwoStepCheckedTransfer
+public import ZFVP.ModelTheory.WoodinCollapseEmptyIterand
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BaireRunBlocks
+module
+
+public import ZFVP.SetTheory.BaireRunBlocks
+
+@[expose] public section
 
 /-! Uniform internal recursion for the finite prefixes of the run encoding. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramNegation
-import ZFVP.Syntax.NaturalFormulaNegation
+module
+
+public import ZFVP.Syntax.PrimitiveProgramNegation
+public import ZFVP.Syntax.NaturalFormulaNegation
+
+@[expose] public section
 
 /-! The explicit negation program implements negation of the standard membership syntax. -/
 

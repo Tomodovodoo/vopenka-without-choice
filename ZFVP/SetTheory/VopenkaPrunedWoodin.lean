@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CnExtendibleWoodinSupercompact
-import ZFVP.SetTheory.VopenkaPruningUE
+module
+
+public import ZFVP.SetTheory.CnExtendibleWoodinSupercompact
+public import ZFVP.SetTheory.VopenkaPruningUE
+
+@[expose] public section
 
 namespace ZFVP
 

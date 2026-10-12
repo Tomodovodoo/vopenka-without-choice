@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ProjectionStagePreservation
+module
+
+public import ZFVP.ModelTheory.ProjectionStagePreservation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

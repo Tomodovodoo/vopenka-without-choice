@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.NameEvaluationGraph
-import ZFVP.SetTheory.NameRecursionDictionary
+module
+
+public import ZFVP.SetTheory.NameEvaluationGraph
+public import ZFVP.SetTheory.NameRecursionDictionary
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

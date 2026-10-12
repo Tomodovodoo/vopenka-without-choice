@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FinitePartialFunctions
-import ZFVP.SetTheory.InverseFunction
+module
+
+public import ZFVP.SetTheory.FinitePartialFunctions
+public import ZFVP.SetTheory.InverseFunction
+
+@[expose] public section
 
 namespace ZFVP
 

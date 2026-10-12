@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramBounded
-import ZFVP.Syntax.ArithmeticPrimitiveProgramStandard
+module
+
+public import ZFVP.Syntax.PrimitiveProgramBounded
+public import ZFVP.Syntax.ArithmeticPrimitiveProgramStandard
+
+@[expose] public section
 
 /-! Explicit operations on successor-pair list codes. -/
 

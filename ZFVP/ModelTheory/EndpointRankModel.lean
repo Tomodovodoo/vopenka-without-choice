@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingModel
-import ZFVP.SetTheory.PiOneRankCriterion
-import ZFVP.SetTheory.InternalChoice
+module
+
+public import ZFVP.ModelTheory.ForcingModel
+public import ZFVP.SetTheory.PiOneRankCriterion
+public import ZFVP.SetTheory.InternalChoice
+
+@[expose] public section
 
 /-! # The endpoint rank model `M = (V[G])_Λ`
 

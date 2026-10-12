@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.OmittingTypes
+module
+
+public import ZFVP.ModelTheory.OmittingTypes
+
+@[expose] public section
 
 /-! # The omitting types statement, as stated, is false
 

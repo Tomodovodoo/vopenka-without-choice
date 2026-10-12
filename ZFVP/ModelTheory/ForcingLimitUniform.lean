@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingCodeConstructionUniform
-import ZFVP.SetTheory.ForcingLimitColumnDefinability
+module
+
+public import ZFVP.ModelTheory.ForcingCodeConstructionUniform
+public import ZFVP.SetTheory.ForcingLimitColumnDefinability
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

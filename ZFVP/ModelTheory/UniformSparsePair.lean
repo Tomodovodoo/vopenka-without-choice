@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SparsePairPresentation
-import ZFVP.SetTheory.LevyComplexityBound
+module
+
+public import ZFVP.ModelTheory.SparsePairPresentation
+public import ZFVP.SetTheory.LevyComplexityBound
+
+@[expose] public section
 
 /-! Fixed membership-language syntax for sparse pairs and their order pullback. -/
 

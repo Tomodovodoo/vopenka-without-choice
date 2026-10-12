@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.CohenLeastSupport
-import ZFVP.SetTheory.LocalizedSaturatedName
-import ZFVP.SetTheory.NameOrbit
+module
+
+public import ZFVP.SetTheory.CohenLeastSupport
+public import ZFVP.SetTheory.LocalizedSaturatedName
+public import ZFVP.SetTheory.NameOrbit
+
+@[expose] public section
 
 namespace ZFVP
 

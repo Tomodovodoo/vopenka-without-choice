@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinDirectedQuotientBounds
-import ZFVP.ModelTheory.TransportedTwoStepSequence
-import ZFVP.ModelTheory.TwoStepLocalUnionBound
-import ZFVP.ModelTheory.TwoStepQuotientClosure
+module
+
+public import ZFVP.ModelTheory.WoodinDirectedQuotientBounds
+public import ZFVP.ModelTheory.TransportedTwoStepSequence
+public import ZFVP.ModelTheory.TwoStepLocalUnionBound
+public import ZFVP.ModelTheory.TwoStepQuotientClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

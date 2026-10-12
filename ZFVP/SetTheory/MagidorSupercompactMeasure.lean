@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.MagidorWitnessMeasures
-import ZFVP.SetTheory.NormalFineMeasureStage
-import ZFVP.SetTheory.ClosedRankStages
-import ZFVP.SetTheory.PiOneVopenkaMagidorUnconditional
-import ZFVP.SetTheory.MagidorVopenkaForward
+module
+
+public import ZFVP.SetTheory.MagidorWitnessMeasures
+public import ZFVP.SetTheory.NormalFineMeasureStage
+public import ZFVP.SetTheory.ClosedRankStages
+public import ZFVP.SetTheory.PiOneVopenkaMagidorUnconditional
+public import ZFVP.SetTheory.MagidorVopenkaForward
+
+@[expose] public section
 
 /-! # From small embeddings to normal fine measures
 

@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.OmegaJonssonPiTwo
-import ZFVP.ModelTheory.EmbeddingPointwiseImage
-import ZFVP.ModelTheory.CriticalSequenceFixedPoint
-import ZFVP.ModelTheory.FixedStageSelfRestriction
-import ZFVP.SetTheory.CnSequenceNames
+module
+
+public import ZFVP.ModelTheory.OmegaJonssonPiTwo
+public import ZFVP.ModelTheory.EmbeddingPointwiseImage
+public import ZFVP.ModelTheory.CriticalSequenceFixedPoint
+public import ZFVP.ModelTheory.FixedStageSelfRestriction
+public import ZFVP.SetTheory.CnSequenceNames
+
+@[expose] public section
 
 /-! Kunen's contradiction with the stage only assumed to be in `C(2)`.
 

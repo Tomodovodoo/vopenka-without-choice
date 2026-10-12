@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingQuotientNames
-import ZFVP.SetTheory.ForcingImageName
+module
+
+public import ZFVP.ModelTheory.ForcingQuotientNames
+public import ZFVP.SetTheory.ForcingImageName
+
+@[expose] public section
 
 namespace ZFVP
 

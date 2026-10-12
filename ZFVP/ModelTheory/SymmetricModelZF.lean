@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SymmetricModelBasic
-import ZFVP.ModelTheory.SymmetricModelPower
-import ZFVP.ModelTheory.SymmetricModelReplacement
-import ZFVP.Syntax.CloseTailParameters
+module
+
+public import ZFVP.ModelTheory.SymmetricModelBasic
+public import ZFVP.ModelTheory.SymmetricModelPower
+public import ZFVP.ModelTheory.SymmetricModelReplacement
+public import ZFVP.Syntax.CloseTailParameters
+
+@[expose] public section
 
 namespace ZFVP
 

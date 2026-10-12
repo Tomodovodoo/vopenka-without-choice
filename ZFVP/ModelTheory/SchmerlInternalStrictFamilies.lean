@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlInternalStrictConditions
-import ZFVP.ModelTheory.SchmerlInternalBMR
-import ZFVP.SetTheory.InjectionRetraction
-import ZFVP.SetTheory.MaximalAntichains
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalStrictConditions
+public import ZFVP.ModelTheory.SchmerlInternalBMR
+public import ZFVP.SetTheory.InjectionRetraction
+public import ZFVP.SetTheory.MaximalAntichains
+
+@[expose] public section
 
 /-! Internal antichain fibers and uniformly bounded domain enumerations.
 These are the induction steps preceding the sparse-tuple argument. -/

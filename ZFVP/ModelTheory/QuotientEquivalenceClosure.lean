@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.QuotientEquivalenceTransport
-import ZFVP.ModelTheory.SplitSeparativeClosureEquivalence
-import ZFVP.ModelTheory.ProjectionQuotientClosureTransport
-import ZFVP.SetTheory.MembershipIso
+module
+
+public import ZFVP.ModelTheory.QuotientEquivalenceTransport
+public import ZFVP.ModelTheory.SplitSeparativeClosureEquivalence
+public import ZFVP.ModelTheory.ProjectionQuotientClosureTransport
+public import ZFVP.SetTheory.MembershipIso
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedCofinalSuccessor
-import ZFVP.ModelTheory.SchmerlCodedCofinalOrdinals
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedCofinalSuccessor
+public import ZFVP.ModelTheory.SchmerlCodedCofinalOrdinals
+
+@[expose] public section
 
 /-! Strict cofinal bounds produce an actual point outside the old embedding.
 The ordinal poset supplies a concrete index in every coded ZF source. -/

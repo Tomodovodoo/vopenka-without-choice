@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.OrdinalClosureSequence
-import ZFVP.SetTheory.RegularSmallRank
+module
+
+public import ZFVP.SetTheory.OrdinalClosureSequence
+public import ZFVP.SetTheory.RegularSmallRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

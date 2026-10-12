@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinDirectedSparseTransfer
-import ZFVP.ModelTheory.WoodinDirectedSeedTransfer
+module
+
+public import ZFVP.ModelTheory.WoodinDirectedSparseTransfer
+public import ZFVP.ModelTheory.WoodinDirectedSeedTransfer
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

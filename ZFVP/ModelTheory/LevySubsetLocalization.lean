@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LevyCollapseReals
+module
+
+public import ZFVP.ModelTheory.LevyCollapseReals
+
+@[expose] public section
 
 /-! Localization of subsets of a small ground set: every subset of `θ̌`, `θ < κ`, in the Levy
 extension lies in some bounded stage `V[G_ξ]`. This is the real-localization argument with the

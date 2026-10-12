@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlInternalRenaming
-import ZFVP.ModelTheory.SchmerlInternalInfinitaryFragmentAgreement
-import ZFVP.Syntax.MembershipSwap
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalRenaming
+public import ZFVP.ModelTheory.SchmerlInternalInfinitaryFragmentAgreement
+public import ZFVP.Syntax.MembershipSwap
+
+@[expose] public section
 
 /-! Actual internal syntax swapping the first two bound variables. The
 truth equation can be used in any valid fragment containing the result,

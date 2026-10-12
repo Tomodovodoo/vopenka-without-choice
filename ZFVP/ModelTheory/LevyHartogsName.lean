@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LevyEquivalentUnaryName
-import ZFVP.ModelTheory.ForcingHartogsName
-import ZFVP.SetTheory.DeltaTwoHartogs
+module
+
+public import ZFVP.ModelTheory.LevyEquivalentUnaryName
+public import ZFVP.ModelTheory.ForcingHartogsName
+public import ZFVP.SetTheory.DeltaTwoHartogs
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

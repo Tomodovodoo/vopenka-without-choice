@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingIsomorphismGenericContext
-import ZFVP.ModelTheory.ForcingProjectionComposition
-import ZFVP.SetTheory.ForcingAutomorphisms
+module
+
+public import ZFVP.ModelTheory.ForcingIsomorphismGenericContext
+public import ZFVP.ModelTheory.ForcingProjectionComposition
+public import ZFVP.SetTheory.ForcingAutomorphisms
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

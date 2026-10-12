@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.SplittingNameTransfer
-import ZFVP.ModelTheory.DecidedName
-import ZFVP.ModelTheory.FilterDecision
-import ZFVP.ModelTheory.LevySmallSetLocalization
-import ZFVP.ModelTheory.LevyCollapseOmegaOne
-import ZFVP.SetTheory.MeasurableStrongLimit
+module
+
+public import ZFVP.ModelTheory.SplittingNameTransfer
+public import ZFVP.ModelTheory.DecidedName
+public import ZFVP.ModelTheory.FilterDecision
+public import ZFVP.ModelTheory.LevySmallSetLocalization
+public import ZFVP.ModelTheory.LevyCollapseOmegaOne
+public import ZFVP.SetTheory.MeasurableStrongLimit
+
+@[expose] public section
 
 /-! The perfect set property for sets of reals of the Levy extension definable from ground
 parameters, over an arbitrary ground model. A definable set either consists of ground reals, hence

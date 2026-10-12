@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinCanonicalBoundRawOrder
-import ZFVP.ModelTheory.WoodinCoordinateProjection
+module
+
+public import ZFVP.ModelTheory.WoodinCanonicalBoundRawOrder
+public import ZFVP.ModelTheory.WoodinCoordinateProjection
+
+@[expose] public section
 
 /-! The raw-order comparison of the canonical lift with a ground thread, taken at an intermediate
 coordinate `j ∈ θ` instead of at the top coordinate `θ`.

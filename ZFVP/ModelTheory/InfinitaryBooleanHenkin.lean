@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryKeislerConsistency
+module
+
+public import ZFVP.ModelTheory.InfinitaryKeislerConsistency
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

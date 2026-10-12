@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingDirectLimitFiltration
-import ZFVP.SetTheory.Rank
+module
+
+public import ZFVP.SetTheory.ForcingDirectLimitFiltration
+public import ZFVP.SetTheory.Rank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

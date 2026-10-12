@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CriticalSequenceZF
-import ZFVP.SetTheory.BoundedIdentity
+module
+
+public import ZFVP.ModelTheory.CriticalSequenceZF
+public import ZFVP.SetTheory.BoundedIdentity
+
+@[expose] public section
 
 /-! Internal elementary inclusions and the successive critical rank segments. -/
 

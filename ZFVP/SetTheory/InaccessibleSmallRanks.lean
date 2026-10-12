@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ChoicelessInaccessibleRank
-import ZFVP.SetTheory.WellOrderingChoice
-import ZFVP.SetTheory.WellOrderedCardinal
-import ZFVP.SetTheory.CofinalityCardinal
+module
+
+public import ZFVP.SetTheory.ChoicelessInaccessibleRank
+public import ZFVP.SetTheory.WellOrderingChoice
+public import ZFVP.SetTheory.WellOrderedCardinal
+public import ZFVP.SetTheory.CofinalityCardinal
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

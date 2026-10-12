@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.InverseFunction
-import ZFVP.SetTheory.NaturalPairing
+module
+
+public import ZFVP.SetTheory.InverseFunction
+public import ZFVP.SetTheory.NaturalPairing
+
+@[expose] public section
 
 /-! An injection of an ordinal into `ω` is definable from reals: it is the inverse of the unique
 order isomorphism between the coded well-order on naturals and the ordinal. Automorphisms of

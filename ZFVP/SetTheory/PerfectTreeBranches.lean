@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.TreeBodies
+module
+
+public import ZFVP.SetTheory.TreeBodies
+
+@[expose] public section
 
 /-! Every node of an internal perfect binary tree lies on a branch, already in ZF. -/
 

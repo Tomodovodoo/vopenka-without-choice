@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinPrefixCoordinates
+module
+
+public import ZFVP.ModelTheory.WoodinPrefixCoordinates
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

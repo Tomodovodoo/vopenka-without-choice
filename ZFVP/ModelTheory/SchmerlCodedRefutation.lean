@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlCodedKeislerSoundness
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedKeislerSoundness
+
+@[expose] public section
 
 /-! A coded realization of a refutation's countable support contradicts the
 actual syntactic refutation, using internal uncountability throughout. -/

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalNamedCompleteTheory
-import ZFVP.Syntax.MembershipRenamingAtoms
-import ZFVP.ModelTheory.InternalBinaryQuotientAtoms
+module
+
+public import ZFVP.ModelTheory.InternalNamedCompleteTheory
+public import ZFVP.Syntax.MembershipRenamingAtoms
+public import ZFVP.ModelTheory.InternalBinaryQuotientAtoms
+
+@[expose] public section
 
 /-! Source-valid consequences and raw renaming in the completed named table. -/
 

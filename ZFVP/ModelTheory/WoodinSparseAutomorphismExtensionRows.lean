@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.WoodinSparseActualAutomorphisms
-import ZFVP.ModelTheory.CoherentAutomorphismCodeTransport
-import ZFVP.ModelTheory.CoherentAutomorphismSuccessorRow
-import ZFVP.ModelTheory.WoodinSparseCompletedFamilyAutomorphism
-import ZFVP.ModelTheory.WoodinSparseLimitAutomorphismSupport
+module
+
+public import ZFVP.ModelTheory.WoodinSparseActualAutomorphisms
+public import ZFVP.ModelTheory.CoherentAutomorphismCodeTransport
+public import ZFVP.ModelTheory.CoherentAutomorphismSuccessorRow
+public import ZFVP.ModelTheory.WoodinSparseCompletedFamilyAutomorphism
+public import ZFVP.ModelTheory.WoodinSparseLimitAutomorphismSupport
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

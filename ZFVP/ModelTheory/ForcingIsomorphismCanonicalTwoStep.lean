@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSourceCutoff
-import ZFVP.ModelTheory.ForcingIsomorphismTwoStep
-import ZFVP.SetTheory.NameActionClosure
+module
+
+public import ZFVP.ModelTheory.WoodinSourceCutoff
+public import ZFVP.ModelTheory.ForcingIsomorphismTwoStep
+public import ZFVP.SetTheory.NameActionClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

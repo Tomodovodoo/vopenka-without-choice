@@ -1,5 +1,9 @@
-import ZFVP.Syntax.DeltaOneMembershipTruth
-import ZFVP.SetTheory.DeltaOneBoundedTruth
+module
+
+public import ZFVP.Syntax.DeltaOneMembershipTruth
+public import ZFVP.SetTheory.DeltaOneBoundedTruth
+
+@[expose] public section
 
 /-! Exact Levy-complexity bounds for the ambient level-one truth predicates. -/
 

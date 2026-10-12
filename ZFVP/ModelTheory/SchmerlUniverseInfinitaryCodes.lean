@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlUniverseGraphs
-import ZFVP.ModelTheory.SchmerlInternalInfinitaryEquations
-import ZFVP.ModelTheory.InfinitarySubformulas
-import ZFVP.Syntax.FoundationSemantics
+module
+
+public import ZFVP.ModelTheory.SchmerlUniverseGraphs
+public import ZFVP.ModelTheory.SchmerlInternalInfinitaryEquations
+public import ZFVP.ModelTheory.InfinitarySubformulas
+public import ZFVP.Syntax.FoundationSemantics
+
+@[expose] public section
 
 /-! Each external infinitary formula has an actual countable code fragment
 in the standard universe, with genuine omega-indexed conjunction graphs. -/

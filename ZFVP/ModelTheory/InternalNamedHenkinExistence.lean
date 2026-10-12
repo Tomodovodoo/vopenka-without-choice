@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalNamedWitnessSets
-import ZFVP.ModelTheory.InternalNamedFilterUnion
-import ZFVP.ModelTheory.InternalRasiowaSikorski
+module
+
+public import ZFVP.ModelTheory.InternalNamedWitnessSets
+public import ZFVP.ModelTheory.InternalNamedFilterUnion
+public import ZFVP.ModelTheory.InternalRasiowaSikorski
+
+@[expose] public section
 
 /-! Construct an actual complete named Henkin theory over a finitely realizable
 background, while meeting any additional internally countable family of dense sets. -/

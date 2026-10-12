@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.UsubaSingularCollapseConsistency
-import ZFVP.ModelTheory.CohenVopenkaConsistency
+module
+
+public import ZFVP.ModelTheory.UsubaSingularCollapseConsistency
+public import ZFVP.ModelTheory.CohenVopenkaConsistency
+
+@[expose] public section
 
 /-! V13 Corollary 6.4: DC is independent of ZF + VP + not Choice,
 relative to the consistency of ZF + VP. -/

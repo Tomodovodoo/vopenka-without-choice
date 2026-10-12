@@ -1,5 +1,9 @@
-import ZFVP.Syntax.FormulaSubstitutionComposition
-import ZFVP.Syntax.MembershipSubstitutionGuards
+module
+
+public import ZFVP.Syntax.FormulaSubstitutionComposition
+public import ZFVP.Syntax.MembershipSubstitutionGuards
+
+@[expose] public section
 
 /-! Capture-avoiding composition of membership substitutions. -/
 

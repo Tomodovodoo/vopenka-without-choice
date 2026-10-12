@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramCourseRec
+module
+
+public import ZFVP.Syntax.PrimitiveProgramCourseRec
+
+@[expose] public section
 
 /-! Explicit finite tables of primitive-program values, stored in reverse index order. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.PrunedUnboundedExtendibility
-import Foundation.FirstOrder.SetTheory.LoewenheimSkolem
+module
+
+public import ZFVP.ModelTheory.PrunedUnboundedExtendibility
+public import Foundation.FirstOrder.SetTheory.LoewenheimSkolem
+
+@[expose] public section
 
 /-! The ground model used at the start of the proof of Theorem B: from consistency of
 ZF+VP, a countable set-structure model of ZF+VP+UE+"there is no nonzero rank-Berkeley

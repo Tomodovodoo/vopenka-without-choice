@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseRowRankAgreement
-import ZFVP.ModelTheory.WoodinSparseInverseMapRankAgreement
+module
+
+public import ZFVP.ModelTheory.WoodinSparseRowRankAgreement
+public import ZFVP.ModelTheory.WoodinSparseInverseMapRankAgreement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

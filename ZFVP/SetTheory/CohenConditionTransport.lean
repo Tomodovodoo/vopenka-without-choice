@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CohenSupportProjection
+module
+
+public import ZFVP.SetTheory.CohenSupportProjection
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.Rank
+module
+
+public import ZFVP.SetTheory.Rank
+
+@[expose] public section
 
 /-! A definable least-ordinal operation, with zero as its value when no
 ordinal satisfies the relation. -/

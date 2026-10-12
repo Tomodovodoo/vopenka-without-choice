@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingNormalizationFamily
-import ZFVP.SetTheory.FunctionComposition
+module
+
+public import ZFVP.ModelTheory.ForcingNormalizationFamily
+public import ZFVP.SetTheory.FunctionComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SingularWeaklyLSCollapseDC
-import ZFVP.SetTheory.VopenkaWeaklyLowenheimSkolem
-import ZFVP.ModelTheory.ForcingVopenkaPreservation
-import ZFVP.ModelTheory.CountableCohenVopenkaConsistency
+module
+
+public import ZFVP.ModelTheory.SingularWeaklyLSCollapseDC
+public import ZFVP.SetTheory.VopenkaWeaklyLowenheimSkolem
+public import ZFVP.ModelTheory.ForcingVopenkaPreservation
+public import ZFVP.ModelTheory.CountableCohenVopenkaConsistency
+
+@[expose] public section
 
 /-! V13 Section 6.3 from its original consistency hypothesis. The singular
 weakly LS collapse gives DC and preserves VP. If Choice holds there, the

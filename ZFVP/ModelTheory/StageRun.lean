@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.StageChainUnion
+module
+
+public import ZFVP.ModelTheory.StageChainUnion
+
+@[expose] public section
 
 /-! # The data produced by Enayat's ω₁-length construction
 

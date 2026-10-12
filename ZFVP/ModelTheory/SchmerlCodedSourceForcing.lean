@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlCodedSourceBridge
-import ZFVP.ModelTheory.SchmerlCodedBranchFilter
-import ZFVP.ModelTheory.SchmerlCodedDefinitionCardinality
-import ZFVP.ModelTheory.SchmerlInternalWeakSpecialization
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedSourceBridge
+public import ZFVP.ModelTheory.SchmerlCodedBranchFilter
+public import ZFVP.ModelTheory.SchmerlCodedDefinitionCardinality
+public import ZFVP.ModelTheory.SchmerlInternalWeakSpecialization
+
+@[expose] public section
 
 /-! The actual coded Rubin source supplies the full branch bound and hence
 the internal weak-specializing forcing extension. Source existence is separate. -/

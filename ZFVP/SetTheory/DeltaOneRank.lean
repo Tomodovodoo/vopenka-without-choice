@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedRankTables
-import ZFVP.SetTheory.LevySubstitution
+module
+
+public import ZFVP.SetTheory.BoundedRankTables
+public import ZFVP.SetTheory.LevySubstitution
+
+@[expose] public section
 
 /-! Sigma-one and Pi-one definitions of the rank function. -/
 

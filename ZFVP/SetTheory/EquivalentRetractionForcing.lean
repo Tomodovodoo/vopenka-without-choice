@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.EquivalentRetractionAtoms
-import ZFVP.SetTheory.RetractionForcingOperations
-import ZFVP.SetTheory.ClassFormulaForcingAction
-import ZFVP.SetTheory.FormulaForcing
+module
+
+public import ZFVP.SetTheory.EquivalentRetractionAtoms
+public import ZFVP.SetTheory.RetractionForcingOperations
+public import ZFVP.SetTheory.ClassFormulaForcingAction
+public import ZFVP.SetTheory.FormulaForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

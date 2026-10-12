@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSuccessorCoordinates
+module
+
+public import ZFVP.ModelTheory.WoodinSuccessorCoordinates
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

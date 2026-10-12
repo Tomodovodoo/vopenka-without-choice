@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingRealization
-import ZFVP.ModelTheory.ForcingQuotientGeneric
+module
+
+public import ZFVP.ModelTheory.ForcingRealization
+public import ZFVP.ModelTheory.ForcingQuotientGeneric
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

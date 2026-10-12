@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CriticalExtendibilityWitness
-import ZFVP.SetTheory.CnExtendible
+module
+
+public import ZFVP.ModelTheory.CriticalExtendibilityWitness
+public import ZFVP.SetTheory.CnExtendible
+
+@[expose] public section
 
 /-! The critical limit satisfies every positive standard instance of unbounded extendibility. -/
 

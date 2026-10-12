@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.UltrafilterFibers
-import ZFVP.SetTheory.LevyCollapseSmallSets
-import ZFVP.SetTheory.BooleanCompletionValues
+module
+
+public import ZFVP.SetTheory.UltrafilterFibers
+public import ZFVP.SetTheory.LevyCollapseSmallSets
+public import ZFVP.SetTheory.BooleanCompletionValues
+
+@[expose] public section
 
 /-! Since a measurable cardinal is a strong limit, the power set of a set of size below `κ` has
 size below `κ`; consequently the Boolean completion of a sub-collapse `Coll(ω, <ξ)`, `ξ < κ`,

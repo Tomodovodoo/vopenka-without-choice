@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.WoodinSeedInsertion
+module
+
+public import ZFVP.SetTheory.WoodinSeedInsertion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

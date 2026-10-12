@@ -1,4 +1,8 @@
-import ZFVP.Syntax.MembershipPrimcoding
+module
+
+public import ZFVP.Syntax.MembershipPrimcoding
+
+@[expose] public section
 
 /-! The standard formula-code relation allows arbitrary payloads for truth and falsity. -/
 

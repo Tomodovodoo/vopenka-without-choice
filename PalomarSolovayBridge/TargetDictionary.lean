@@ -1,6 +1,10 @@
-import PalomarSolovayBridge.RegularityDictionary
-import PalomarDCBridge.Dictionary
-import ZFVP.ModelTheory.RealSolovayConsistency
+module
+
+public import PalomarSolovayBridge.RegularityDictionary
+public import PalomarDCBridge.Dictionary
+public import ZFVP.ModelTheory.RealSolovayConsistency
+
+@[expose] public section
 
 namespace PalomarSolovayBridge
 open PalomarBridge LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSuccessorRestoration
-import ZFVP.ModelTheory.TwoStepIntermediate
+module
+
+public import ZFVP.ModelTheory.WoodinSuccessorRestoration
+public import ZFVP.ModelTheory.TwoStepIntermediate
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

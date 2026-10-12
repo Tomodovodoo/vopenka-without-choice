@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryAdequateStandardModel
-import ZFVP.ModelTheory.InfinitaryAdequateInitialModel
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateStandardModel
+public import ZFVP.ModelTheory.InfinitaryAdequateInitialModel
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryFiniteSupport
+module
+
+public import ZFVP.ModelTheory.InfinitaryFiniteSupport
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

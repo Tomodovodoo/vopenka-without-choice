@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.TwoStepCombinedGeneric
-import ZFVP.ModelTheory.ForcingModelEvaluation
-import ZFVP.ModelTheory.ForcingModelGeneric
-import ZFVP.ModelTheory.ForcingRealizationEmbedding
+module
+
+public import ZFVP.ModelTheory.TwoStepCombinedGeneric
+public import ZFVP.ModelTheory.ForcingModelEvaluation
+public import ZFVP.ModelTheory.ForcingModelGeneric
+public import ZFVP.ModelTheory.ForcingRealizationEmbedding
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

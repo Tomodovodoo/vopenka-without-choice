@@ -1,4 +1,8 @@
-import ZFVP.Syntax.InternalForcingStepEquations
+module
+
+public import ZFVP.Syntax.InternalForcingStepEquations
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

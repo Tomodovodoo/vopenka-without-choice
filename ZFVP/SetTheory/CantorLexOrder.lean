@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.RigidRelation
-import ZFVP.SetTheory.DedekindFinite
-import ZFVP.SetTheory.CantorSpace
-import ZFVP.SetTheory.NaturalIteration
+module
+
+public import ZFVP.SetTheory.RigidRelation
+public import ZFVP.SetTheory.DedekindFinite
+public import ZFVP.SetTheory.CantorSpace
+public import ZFVP.SetTheory.NaturalIteration
+
+@[expose] public section
 
 /-! The third case of the Hamkins-Palumbo theorem that every set of reals carries a rigid
 relation: a strict linear order on a Dedekind finite set is rigid, because a point moved by an

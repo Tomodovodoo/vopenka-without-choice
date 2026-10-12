@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LastPointSupercompact
-import ZFVP.SetTheory.ChoicelessSupercompactExtendible
+module
+
+public import ZFVP.ModelTheory.LastPointSupercompact
+public import ZFVP.SetTheory.ChoicelessSupercompactExtendible
+
+@[expose] public section
 
 /-! Arbitrarily high embeddings with a fixed last point yield global
 choiceless supercompactness at that last point. -/

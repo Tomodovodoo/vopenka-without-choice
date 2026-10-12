@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.CodedSequentRules
+module
+
+public import ZFVP.ModelTheory.CodedSequentRules
+
+@[expose] public section
 
 /-! Soundness by induction through the entire internal natural-number domain of a proof. -/
 

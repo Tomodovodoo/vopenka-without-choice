@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RealBaireTransfer
-import ZFVP.SetTheory.RealPerfectTransfer
+module
+
+public import ZFVP.SetTheory.RealBaireTransfer
+public import ZFVP.SetTheory.RealPerfectTransfer
+
+@[expose] public section
 
 /-! Fixed parameter-free sentences for category and PSP on actual Dedekind reals. -/
 

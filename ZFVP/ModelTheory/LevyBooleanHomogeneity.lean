@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LevyComplementCone
+module
+
+public import ZFVP.ModelTheory.LevyComplementCone
+
+@[expose] public section
 
 /-! How far the cones of the Boolean completion of the Levy collapse are alike.
 

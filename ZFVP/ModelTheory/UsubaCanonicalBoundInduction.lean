@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.UsubaBoundSuccessorStep
-import ZFVP.ModelTheory.UsubaBoundLimitStep
-import ZFVP.ModelTheory.UsubaClosureFromBounds
+module
+
+public import ZFVP.ModelTheory.UsubaBoundSuccessorStep
+public import ZFVP.ModelTheory.UsubaBoundLimitStep
+public import ZFVP.ModelTheory.UsubaClosureFromBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

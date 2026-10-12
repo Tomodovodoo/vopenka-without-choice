@@ -1,5 +1,9 @@
-import ZFVP.Syntax.DirectMembershipAtoms
-import ZFVP.Syntax.BoundedConstructorExpressions
+module
+
+public import ZFVP.Syntax.DirectMembershipAtoms
+public import ZFVP.Syntax.BoundedConstructorExpressions
+
+@[expose] public section
 
 /-! Bounded evaluation of the atomic formulas of the membership language. -/
 

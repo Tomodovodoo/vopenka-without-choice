@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.UniformLeastRankNormalization
-import ZFVP.ModelTheory.UniformSparsePair
-import ZFVP.ModelTheory.SparseNormalizedTwoStep
-import ZFVP.SetTheory.UniformFunctionOperations
+module
+
+public import ZFVP.ModelTheory.UniformLeastRankNormalization
+public import ZFVP.ModelTheory.UniformSparsePair
+public import ZFVP.ModelTheory.SparseNormalizedTwoStep
+public import ZFVP.SetTheory.UniformFunctionOperations
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

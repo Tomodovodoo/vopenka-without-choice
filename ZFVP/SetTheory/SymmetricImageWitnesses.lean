@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.Collection
-import ZFVP.SetTheory.NameOrbit
+module
+
+public import ZFVP.SetTheory.Collection
+public import ZFVP.SetTheory.NameOrbit
+
+@[expose] public section
 
 namespace ZFVP
 

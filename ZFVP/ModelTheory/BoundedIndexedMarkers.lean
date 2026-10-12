@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.IndexedMarkerMembership
-import ZFVP.ModelTheory.BoundedMarkerFunctions
+module
+
+public import ZFVP.ModelTheory.IndexedMarkerMembership
+public import ZFVP.ModelTheory.BoundedMarkerFunctions
+
+@[expose] public section
 
 /-! Bounded checks for the marker symbol set and its constant interpretations. -/
 

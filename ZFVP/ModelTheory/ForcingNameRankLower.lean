@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ForcingModelRank
-import ZFVP.ModelTheory.CountableZFTransfer
-import ZFVP.ModelTheory.ForcingSemanticConsequence
-import ZFVP.SetTheory.EndExtensionRank
-import ZFVP.SetTheory.AtomicForcingDictionary
+module
+
+public import ZFVP.ModelTheory.ForcingModelRank
+public import ZFVP.ModelTheory.CountableZFTransfer
+public import ZFVP.ModelTheory.ForcingSemanticConsequence
+public import ZFVP.SetTheory.EndExtensionRank
+public import ZFVP.SetTheory.AtomicForcingDictionary
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

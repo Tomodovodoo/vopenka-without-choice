@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSourceCompletedSections
-import ZFVP.ModelTheory.WoodinSourceLimitReplacement
+module
+
+public import ZFVP.ModelTheory.WoodinSourceCompletedSections
+public import ZFVP.ModelTheory.WoodinSourceLimitReplacement
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]

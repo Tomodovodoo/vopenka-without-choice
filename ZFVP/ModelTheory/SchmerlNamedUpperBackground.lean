@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlNamedUpperEntries
-import ZFVP.ModelTheory.SchmerlCodedDirectedPosetFamily
-import ZFVP.ModelTheory.InternalJointSourceNaming
-import ZFVP.SetTheory.FiniteCardinalArithmetic
+module
+
+public import ZFVP.ModelTheory.SchmerlNamedUpperEntries
+public import ZFVP.ModelTheory.SchmerlCodedDirectedPosetFamily
+public import ZFVP.ModelTheory.InternalJointSourceNaming
+public import ZFVP.SetTheory.FiniteCardinalArithmetic
+
+@[expose] public section
 
 /-! The actual Rubin cofinal background and the finite set of old-point
 demands extracted from a finite fragment. -/

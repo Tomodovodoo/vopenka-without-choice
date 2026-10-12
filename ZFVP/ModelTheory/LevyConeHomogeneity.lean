@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.BooleanConePartitionGlue
-import ZFVP.ModelTheory.LevyConePartitionData
-import ZFVP.ModelTheory.LevyBooleanHomogeneity
-import ZFVP.SetTheory.SchroederBernstein
-import ZFVP.SetTheory.Hessenberg
+module
+
+public import ZFVP.ModelTheory.BooleanConePartitionGlue
+public import ZFVP.ModelTheory.LevyConePartitionData
+public import ZFVP.ModelTheory.LevyBooleanHomogeneity
+public import ZFVP.SetTheory.SchroederBernstein
+public import ZFVP.SetTheory.Hessenberg
+
+@[expose] public section
 
 /-! Homogeneity of the Boolean completion of the Levy collapse.
 

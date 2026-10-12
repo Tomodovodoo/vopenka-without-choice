@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ForcingIsomorphismGenericContext
-import ZFVP.ModelTheory.CodedEmbeddingTransport
-import ZFVP.SetTheory.UniformRank
-import ZFVP.SetTheory.MembershipIso
-import ZFVP.ModelTheory.EndExtensionCriticalPoint
+module
+
+public import ZFVP.ModelTheory.ForcingIsomorphismGenericContext
+public import ZFVP.ModelTheory.CodedEmbeddingTransport
+public import ZFVP.SetTheory.UniformRank
+public import ZFVP.SetTheory.MembershipIso
+public import ZFVP.ModelTheory.EndExtensionCriticalPoint
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

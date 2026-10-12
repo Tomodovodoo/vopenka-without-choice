@@ -1,5 +1,9 @@
-import ZFVP.Syntax.LevyForcingSteps
-import ZFVP.SetTheory.ForcingFormulaWitnesses
+module
+
+public import ZFVP.Syntax.LevyForcingSteps
+public import ZFVP.SetTheory.ForcingFormulaWitnesses
+
+@[expose] public section
 
 namespace ZFVP
 

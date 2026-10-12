@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.BaireSpace
-import ZFVP.SetTheory.NaturalArithmeticOrder
-import ZFVP.SetTheory.NaturalIteration
+module
+
+public import ZFVP.SetTheory.BaireSpace
+public import ZFVP.SetTheory.NaturalArithmeticOrder
+public import ZFVP.SetTheory.NaturalIteration
+
+@[expose] public section
 
 /-! Finite blocks for the map a ↦ 0^(a(0)) 1 0^(a(1)) 1 ... . -/
 

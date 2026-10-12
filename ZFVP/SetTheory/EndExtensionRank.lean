@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.EndExtensionLevy
-import ZFVP.SetTheory.DeltaOneRank
+module
+
+public import ZFVP.SetTheory.EndExtensionLevy
+public import ZFVP.SetTheory.DeltaOneRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

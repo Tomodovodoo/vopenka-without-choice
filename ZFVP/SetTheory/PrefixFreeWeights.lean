@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BinaryShadowWeightsSums
-import ZFVP.SetTheory.PerfectSetCore
+module
+
+public import ZFVP.SetTheory.BinaryShadowWeightsSums
+public import ZFVP.SetTheory.PerfectSetCore
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

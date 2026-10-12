@@ -1,4 +1,8 @@
-import ZFVP.Syntax.BoundedCertificateStep
+module
+
+public import ZFVP.Syntax.BoundedCertificateStep
+
+@[expose] public section
 
 /-! Bounded verification of a complete internally finite certificate. -/
 

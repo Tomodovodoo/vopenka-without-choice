@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingFiniteAssignments
-import ZFVP.ModelTheory.ForcingLowRankNames
-import ZFVP.ModelTheory.SuccessorRankNameDomain
+module
+
+public import ZFVP.ModelTheory.ForcingFiniteAssignments
+public import ZFVP.ModelTheory.ForcingLowRankNames
+public import ZFVP.ModelTheory.SuccessorRankNameDomain
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

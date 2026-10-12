@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramRawAtoms
-import ZFVP.Syntax.PrimitiveProgramLKStandardInputs
+module
+
+public import ZFVP.Syntax.PrimitiveProgramRawAtoms
+public import ZFVP.Syntax.PrimitiveProgramLKStandardInputs
+
+@[expose] public section
 
 /-! Accepted raw standard formula codes decode to well-formed typed formulas. -/
 

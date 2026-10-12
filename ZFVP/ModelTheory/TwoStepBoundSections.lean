@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TwoStepBoundColumns
-import ZFVP.ModelTheory.SuccessorBoundSections
-import ZFVP.ModelTheory.ForcingSplitProjection
+module
+
+public import ZFVP.ModelTheory.TwoStepBoundColumns
+public import ZFVP.ModelTheory.SuccessorBoundSections
+public import ZFVP.ModelTheory.ForcingSplitProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

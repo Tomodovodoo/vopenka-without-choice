@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SaturatedTwoStepTransfer
-import ZFVP.ModelTheory.WoodinCollapseUnionName
-import ZFVP.ModelTheory.WoodinPrefixNameFormulas
-import ZFVP.ModelTheory.ForcingSmallInaccessible
-import ZFVP.SetTheory.WoodinCollapseClosedCut
+module
+
+public import ZFVP.ModelTheory.SaturatedTwoStepTransfer
+public import ZFVP.ModelTheory.WoodinCollapseUnionName
+public import ZFVP.ModelTheory.WoodinPrefixNameFormulas
+public import ZFVP.ModelTheory.ForcingSmallInaccessible
+public import ZFVP.SetTheory.WoodinCollapseClosedCut
+
+@[expose] public section
 
 namespace ZFVP
 

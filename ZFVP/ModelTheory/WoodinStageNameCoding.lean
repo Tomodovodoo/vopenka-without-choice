@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinEndpointStageMap
-import ZFVP.ModelTheory.ForcingNameActionRank
-import ZFVP.SetTheory.InaccessibleFunctionClosure
+module
+
+public import ZFVP.ModelTheory.WoodinEndpointStageMap
+public import ZFVP.ModelTheory.ForcingNameActionRank
+public import ZFVP.SetTheory.InaccessibleFunctionClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

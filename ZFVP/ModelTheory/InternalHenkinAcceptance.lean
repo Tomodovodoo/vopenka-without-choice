@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalHenkinRefinement
+module
+
+public import ZFVP.ModelTheory.InternalHenkinRefinement
+
+@[expose] public section
 
 /-! The internally defined completed diagram determined by coherent Henkin
 stages. It decides each formula and never accepts opposite literals. -/

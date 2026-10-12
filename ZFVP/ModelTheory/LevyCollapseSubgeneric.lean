@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.LevyCollapseSupport
-import ZFVP.ModelTheory.ForcingModel
+module
+
+public import ZFVP.SetTheory.LevyCollapseSupport
+public import ZFVP.ModelTheory.ForcingModel
+
+@[expose] public section
 
 /-! The subcollapse `Coll(ω, <β)` inside `Coll(ω, <κ)`: cutting a generic filter below `β`
 gives a generic filter for the subcollapse, so both collapses provide forcing contexts over

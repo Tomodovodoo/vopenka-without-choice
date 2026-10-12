@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedInfinitarySemantics
-import ZFVP.ModelTheory.SchmerlInfinitaryClassSentence
-import ZFVP.ModelTheory.BinaryRelationStructure
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedInfinitarySemantics
+public import ZFVP.ModelTheory.SchmerlInfinitaryClassSentence
+public import ZFVP.ModelTheory.BinaryRelationStructure
+
+@[expose] public section
 
 /-! The fixed class language has an actual finite language code. Its expansion
 retains the supplied binary relation and interprets selected ranks and colors

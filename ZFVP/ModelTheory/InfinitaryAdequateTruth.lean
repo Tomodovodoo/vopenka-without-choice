@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryAdequateFirstOrderTruth
-import ZFVP.ModelTheory.InfinitaryAdequateQuantifier
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateFirstOrderTruth
+public import ZFVP.ModelTheory.InfinitaryAdequateQuantifier
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LevyBinaryFormulaName
-import ZFVP.SetTheory.SigmaTwoWoodinCollapse
-import ZFVP.ModelTheory.WoodinCollapseName
+module
+
+public import ZFVP.ModelTheory.LevyBinaryFormulaName
+public import ZFVP.SetTheory.SigmaTwoWoodinCollapse
+public import ZFVP.ModelTheory.WoodinCollapseName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

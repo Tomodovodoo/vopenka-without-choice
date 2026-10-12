@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.GroundRealsHOD
-import ZFVP.SetTheory.OrdinalDefinabilityClosure
+module
+
+public import ZFVP.ModelTheory.GroundRealsHOD
+public import ZFVP.SetTheory.OrdinalDefinabilityClosure
+
+@[expose] public section
 
 /-! The two descriptions of the full Solovay model agree in one direction: a set of the extension
 that is definable from ground sets, reals and ordinals is ordinal definable over the extension

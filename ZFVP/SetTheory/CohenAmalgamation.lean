@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.FinitePermutationExtension
-import ZFVP.SetTheory.CohenLeastSupport
-import ZFVP.SetTheory.AtomicForcingAction
-import ZFVP.SetTheory.AtomicEqualityTransitivity
+module
+
+public import ZFVP.SetTheory.FinitePermutationExtension
+public import ZFVP.SetTheory.CohenLeastSupport
+public import ZFVP.SetTheory.AtomicForcingAction
+public import ZFVP.SetTheory.AtomicEqualityTransitivity
+
+@[expose] public section
 
 namespace ZFVP
 

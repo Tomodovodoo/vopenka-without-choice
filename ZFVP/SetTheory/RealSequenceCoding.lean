@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.RigidProductRelations
-import ZFVP.SetTheory.NaturalPairing
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.SetTheory.RigidProductRelations
+public import ZFVP.SetTheory.NaturalPairing
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 /-! Coding a finite sequence of reals by a single real, in ZF and without any choice.
 

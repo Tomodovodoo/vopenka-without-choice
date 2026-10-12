@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CodedEmbeddingRestriction
-import ZFVP.SetTheory.CnAbsoluteness
+module
+
+public import ZFVP.ModelTheory.CodedEmbeddingRestriction
+public import ZFVP.SetTheory.CnAbsoluteness
+
+@[expose] public section
 
 namespace ZFVP
 

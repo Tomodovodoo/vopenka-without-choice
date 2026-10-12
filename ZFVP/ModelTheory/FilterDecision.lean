@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.FilterProductPresentation
-import ZFVP.ModelTheory.ProductHomogeneity
-import ZFVP.ModelTheory.MemEquivElementary
-import ZFVP.ModelTheory.ForcingFunctionValues
-import ZFVP.SetTheory.NameActionClosure
+module
+
+public import ZFVP.ModelTheory.FilterProductPresentation
+public import ZFVP.ModelTheory.ProductHomogeneity
+public import ZFVP.ModelTheory.MemEquivElementary
+public import ZFVP.ModelTheory.ForcingFunctionValues
+public import ZFVP.SetTheory.NameActionClosure
+
+@[expose] public section
 
 /-! Decision of a formula at the value of a ground name under a small filter: for a ground
 `Q`-name `τ` and a localized `Q̌`-filter `H` meeting the ground dense sets, a formula with ground

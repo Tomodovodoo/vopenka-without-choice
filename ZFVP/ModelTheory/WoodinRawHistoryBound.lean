@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinCanonicalBoundInduction
+module
+
+public import ZFVP.ModelTheory.WoodinCanonicalBoundInduction
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.LevyCollapseReals
-import ZFVP.SetTheory.LevyCollapseSmallSets
-import ZFVP.ModelTheory.ForcingModelGeneric
-import ZFVP.SetTheory.WellOrderedSurjection
-import ZFVP.SetTheory.Hartogs
-import ZFVP.SetTheory.CountableUnions
+module
+
+public import ZFVP.ModelTheory.LevyCollapseReals
+public import ZFVP.SetTheory.LevyCollapseSmallSets
+public import ZFVP.ModelTheory.ForcingModelGeneric
+public import ZFVP.SetTheory.WellOrderedSurjection
+public import ZFVP.SetTheory.Hartogs
+public import ZFVP.SetTheory.CountableUnions
+
+@[expose] public section
 
 /-! The Levy collapse at a measurable `κ` makes `κ` the first uncountable ordinal of the
 extension (lem:Solovay-regularity, second paragraph): every `β < κ` is collapsed to `ω` by the

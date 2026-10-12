@@ -1,9 +1,13 @@
-import ZFVP.SetTheory.UltrapowerConstant
-import ZFVP.SetTheory.SupercompactMeasure
-import ZFVP.SetTheory.UniformCollapse
-import ZFVP.SetTheory.DependentChoice
-import ZFVP.SetTheory.InternalChoice
-import ZFVP.ModelTheory.ConstantStructure
+module
+
+public import ZFVP.SetTheory.UltrapowerConstant
+public import ZFVP.SetTheory.SupercompactMeasure
+public import ZFVP.SetTheory.UniformCollapse
+public import ZFVP.SetTheory.DependentChoice
+public import ZFVP.SetTheory.InternalChoice
+public import ZFVP.ModelTheory.ConstantStructure
+
+@[expose] public section
 
 /-! The almost everywhere layer of the internal ultrapower on the
 supercompactness side of the import graph. It uses the shared constant-function

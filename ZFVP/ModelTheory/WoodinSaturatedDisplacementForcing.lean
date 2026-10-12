@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.WoodinCollapseNamedDisplacementForcing
-import ZFVP.ModelTheory.SaturatedPrefixSpecification
-import ZFVP.ModelTheory.SaturatedHartogsSpecification
-import ZFVP.ModelTheory.ForcingCheckedBounded
-import ZFVP.ModelTheory.ForcedOrderLaws
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseNamedDisplacementForcing
+public import ZFVP.ModelTheory.SaturatedPrefixSpecification
+public import ZFVP.ModelTheory.SaturatedHartogsSpecification
+public import ZFVP.ModelTheory.ForcingCheckedBounded
+public import ZFVP.ModelTheory.ForcedOrderLaws
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

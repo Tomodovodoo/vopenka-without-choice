@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalSkolemStep
-import ZFVP.ModelTheory.InternalTarskiVaughtCriterion
+module
+
+public import ZFVP.ModelTheory.InternalSkolemStep
+public import ZFVP.ModelTheory.InternalTarskiVaughtCriterion
+
+@[expose] public section
 
 /-! Internal elementary hulls of bounded cardinality, constructed using Choice. -/
 

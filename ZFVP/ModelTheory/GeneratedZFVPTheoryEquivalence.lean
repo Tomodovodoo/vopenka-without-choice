@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.GeneratedZFVPModels
+module
+
+public import ZFVP.ModelTheory.GeneratedZFVPModels
+
+@[expose] public section
 
 /-! The generated recursive presentation and the external ZF+VP theory prove the same sentences. -/
 

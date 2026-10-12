@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SymmetricModelOrdinals
-import ZFVP.SetTheory.OrdinalFiberBounds
-import ZFVP.SetTheory.ProperClassRanks
-import ZFVP.SetTheory.LeastRankWitnesses
-import ZFVP.Syntax.RankedFormula
+module
+
+public import ZFVP.ModelTheory.SymmetricModelOrdinals
+public import ZFVP.SetTheory.OrdinalFiberBounds
+public import ZFVP.SetTheory.ProperClassRanks
+public import ZFVP.SetTheory.LeastRankWitnesses
+public import ZFVP.Syntax.RankedFormula
+
+@[expose] public section
 
 /-! Unbounded value-rank witnesses below one condition, with least-name-rank witness sets. -/
 

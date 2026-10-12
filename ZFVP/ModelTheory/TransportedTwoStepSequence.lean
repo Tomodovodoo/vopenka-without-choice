@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.QuotientSeparativeTower
-import ZFVP.ModelTheory.TwoStepSelectedDescending
-import ZFVP.ModelTheory.ProjectionNameTransport
-import ZFVP.ModelTheory.ProjectionGenericBounds
+module
+
+public import ZFVP.ModelTheory.QuotientSeparativeTower
+public import ZFVP.ModelTheory.TwoStepSelectedDescending
+public import ZFVP.ModelTheory.ProjectionNameTransport
+public import ZFVP.ModelTheory.ProjectionGenericBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

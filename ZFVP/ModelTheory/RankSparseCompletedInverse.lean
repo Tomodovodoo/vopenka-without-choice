@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.RankSparseLimits
-import ZFVP.ModelTheory.RankSparseNormalizedTwoStep
-import ZFVP.ModelTheory.RankSaturatedHartogsNameAgreement
-import ZFVP.ModelTheory.WoodinSourceEndpointAgreement
-import ZFVP.ModelTheory.HartogsLeastPrefixCutoffRankAgreement
-import ZFVP.ModelTheory.WoodinSparseInverseStage
+module
+
+public import ZFVP.ModelTheory.RankSparseLimits
+public import ZFVP.ModelTheory.RankSparseNormalizedTwoStep
+public import ZFVP.ModelTheory.RankSaturatedHartogsNameAgreement
+public import ZFVP.ModelTheory.WoodinSourceEndpointAgreement
+public import ZFVP.ModelTheory.HartogsLeastPrefixCutoffRankAgreement
+public import ZFVP.ModelTheory.WoodinSparseInverseStage
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

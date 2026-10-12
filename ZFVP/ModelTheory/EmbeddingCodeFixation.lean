@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.EmbeddingNaturalFixation
-import ZFVP.Syntax.MembershipTruthTableDefinition
+module
+
+public import ZFVP.ModelTheory.EmbeddingNaturalFixation
+public import ZFVP.Syntax.MembershipTruthTableDefinition
+
+@[expose] public section
 
 /-! Every pure membership formula code is fixed by a coded elementary graph on a coding support. -/
 

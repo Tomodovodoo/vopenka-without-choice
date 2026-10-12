@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseCarrierRecovery
+module
+
+public import ZFVP.ModelTheory.WoodinSparseCarrierRecovery
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

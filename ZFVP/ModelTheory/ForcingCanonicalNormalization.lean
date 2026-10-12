@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingNameNormalizationTransfer
+module
+
+public import ZFVP.ModelTheory.ForcingNameNormalizationTransfer
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

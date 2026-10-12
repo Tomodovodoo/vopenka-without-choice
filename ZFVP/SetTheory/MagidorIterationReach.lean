@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.MagidorLemmaThreeOne
+module
+
+public import ZFVP.SetTheory.MagidorLemmaThreeOne
+
+@[expose] public section
 
 /-! # How far one step of a rank embedding reaches, and what Magidor's Lemma 3.1 still needs
 

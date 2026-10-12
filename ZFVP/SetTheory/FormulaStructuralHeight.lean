@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.LevyComplexityBound
+module
+
+public import ZFVP.SetTheory.LevyComplexityBound
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

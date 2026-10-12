@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ForcingOrder
+module
+
+public import ZFVP.SetTheory.ForcingOrder
+
+@[expose] public section
 
 /-! Product forcing: the componentwise order on `P ×ˢ Q`. -/
 

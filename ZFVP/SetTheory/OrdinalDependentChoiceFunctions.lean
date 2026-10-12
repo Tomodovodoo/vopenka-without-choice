@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.OrdinalDependentChoice
+module
+
+public import ZFVP.SetTheory.OrdinalDependentChoice
+
+@[expose] public section
 
 /-! Equivalence with the nonempty-valued function formulation of
 ordinal dependent choice in Spoerl, Definition 38. -/

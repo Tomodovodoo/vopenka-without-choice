@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.DefinableStageDichotomy
-import ZFVP.ModelTheory.ElementaryStageSatisfaction
-import ZFVP.SetTheory.UniformLowTruth
-import ZFVP.Syntax.UniformAssignments
-import ZFVP.SetTheory.UniformRecursion
-import ZFVP.SetTheory.CnAbsoluteness
+module
+
+public import ZFVP.ModelTheory.DefinableStageDichotomy
+public import ZFVP.ModelTheory.ElementaryStageSatisfaction
+public import ZFVP.SetTheory.UniformLowTruth
+public import ZFVP.Syntax.UniformAssignments
+public import ZFVP.SetTheory.UniformRecursion
+public import ZFVP.SetTheory.CnAbsoluteness
+
+@[expose] public section
 
 /-! Case I of Enayat's Theorem 4.4 ("Models of set theory: extensions and dead ends") for
 conservative end extensions: the Tarski criterion, and the contradiction it yields.

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinCanonicalBoundLift
-import ZFVP.ModelTheory.WoodinBoundCoherence
-import ZFVP.ModelTheory.WoodinDirectLiftCoordinates
+module
+
+public import ZFVP.ModelTheory.WoodinCanonicalBoundLift
+public import ZFVP.ModelTheory.WoodinBoundCoherence
+public import ZFVP.ModelTheory.WoodinDirectLiftCoordinates
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SaturatedWoodinIterand
-import ZFVP.ModelTheory.ForcingIsomorphismCanonicalNames
+module
+
+public import ZFVP.ModelTheory.SaturatedWoodinIterand
+public import ZFVP.ModelTheory.ForcingIsomorphismCanonicalNames
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ClassForcingTower
-import ZFVP.SetTheory.ForcingIterationRecursion
+module
+
+public import ZFVP.SetTheory.ClassForcingTower
+public import ZFVP.SetTheory.ForcingIterationRecursion
+
+@[expose] public section
 
 namespace ZFVP
 

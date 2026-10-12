@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.GroundUniquenessCoding
-import ZFVP.SetTheory.GroundUniquenessFormulas
+module
+
+public import ZFVP.SetTheory.GroundUniquenessCoding
+public import ZFVP.SetTheory.GroundUniquenessFormulas
+
+@[expose] public section
 
 /-! A parameter-free defining formula for the `GroundLike` structure.
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CnDeltaTwo
-import ZFVP.Syntax.PartialTruthDomains
+module
+
+public import ZFVP.SetTheory.CnDeltaTwo
+public import ZFVP.Syntax.PartialTruthDomains
+
+@[expose] public section
 
 /-! Closure and fixed-dictionary absoluteness in positive C(n) rank stages. -/
 

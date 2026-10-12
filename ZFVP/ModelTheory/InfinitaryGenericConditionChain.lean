@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InfinitaryConditionFreezing
-import ZFVP.ModelTheory.InfinitaryConditionWitness
-import ZFVP.ModelTheory.InfinitaryDenseRequirementChain
+module
+
+public import ZFVP.ModelTheory.InfinitaryConditionFreezing
+public import ZFVP.ModelTheory.InfinitaryConditionWitness
+public import ZFVP.ModelTheory.InfinitaryDenseRequirementChain
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

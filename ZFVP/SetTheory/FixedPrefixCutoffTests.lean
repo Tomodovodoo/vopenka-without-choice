@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FixedLevyForcing
-import ZFVP.SetTheory.SigmaThreeLeastPrefixCutoff
+module
+
+public import ZFVP.SetTheory.FixedLevyForcing
+public import ZFVP.SetTheory.SigmaThreeLeastPrefixCutoff
+
+@[expose] public section
 
 /-! Fixed positive and negative tests for successful prefix cutoffs.
 The least-witness certificate has both third-level bounds. The total selector's

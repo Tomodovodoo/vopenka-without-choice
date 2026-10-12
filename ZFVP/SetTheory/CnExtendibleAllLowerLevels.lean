@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CnExtendibleDownward
-import ZFVP.SetTheory.ChoicelessInaccessible
+module
+
+public import ZFVP.SetTheory.CnExtendibleDownward
+public import ZFVP.SetTheory.ChoicelessInaccessible
+
+@[expose] public section
 
 /-! Positive extendibility implies every lower level, including level zero. -/
 

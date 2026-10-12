@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitarySyntax
-import ZFVP.ModelTheory.InfinitaryLanguageMap
+module
+
+public import ZFVP.ModelTheory.InfinitarySyntax
+public import ZFVP.ModelTheory.InfinitaryLanguageMap
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

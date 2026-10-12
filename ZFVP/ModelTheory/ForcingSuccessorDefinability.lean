@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingSuccessorCode
+module
+
+public import ZFVP.ModelTheory.ForcingSuccessorCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

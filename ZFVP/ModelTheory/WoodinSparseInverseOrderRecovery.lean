@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SparseReverseOrderComparison
-import ZFVP.ModelTheory.WoodinSparseOwnCutoffs
-import ZFVP.ModelTheory.WoodinSparseBaseRecovery
+module
+
+public import ZFVP.ModelTheory.SparseReverseOrderComparison
+public import ZFVP.ModelTheory.WoodinSparseOwnCutoffs
+public import ZFVP.ModelTheory.WoodinSparseBaseRecovery
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

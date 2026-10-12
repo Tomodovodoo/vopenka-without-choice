@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingModelEvaluation
-import ZFVP.ModelTheory.ForcingModelChecks
-import ZFVP.SetTheory.EndExtensionWellOrdering
-import ZFVP.SetTheory.SmallViolationsOfChoice
+module
+
+public import ZFVP.ModelTheory.ForcingModelEvaluation
+public import ZFVP.ModelTheory.ForcingModelChecks
+public import ZFVP.SetTheory.EndExtensionWellOrdering
+public import ZFVP.SetTheory.SmallViolationsOfChoice
+
+@[expose] public section
 
 namespace ZFVP
 

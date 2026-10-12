@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.UsubaBoundCoordinates
-import ZFVP.ModelTheory.WoodinSelectedThreadDecision
+module
+
+public import ZFVP.ModelTheory.UsubaBoundCoordinates
+public import ZFVP.ModelTheory.WoodinSelectedThreadDecision
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

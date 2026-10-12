@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingBoundBaseSteps
-import ZFVP.SetTheory.ForcingBoundRecursion
-import ZFVP.ModelTheory.ForcingSuccessorDefinability
+module
+
+public import ZFVP.SetTheory.ForcingBoundBaseSteps
+public import ZFVP.SetTheory.ForcingBoundRecursion
+public import ZFVP.ModelTheory.ForcingSuccessorDefinability
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

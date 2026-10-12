@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalReindexStates
+module
+
+public import ZFVP.ModelTheory.InternalReindexStates
+
+@[expose] public section
 
 /-! Finite renaming tables are the iterated capture-avoiding binder lifts. -/
 

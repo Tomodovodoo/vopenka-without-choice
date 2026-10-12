@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSourceLimitMaps
+module
+
+public import ZFVP.ModelTheory.WoodinSourceLimitMaps
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingNormalizationLimits
-import ZFVP.ModelTheory.TransitiveZFLimitColumns
+module
+
+public import ZFVP.ModelTheory.ForcingNormalizationLimits
+public import ZFVP.ModelTheory.TransitiveZFLimitColumns
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

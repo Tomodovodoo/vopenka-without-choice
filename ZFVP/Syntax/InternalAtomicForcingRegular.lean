@@ -1,5 +1,9 @@
-import ZFVP.Syntax.InternalForcingTruthTables
-import ZFVP.SetTheory.ForcingRegular
+module
+
+public import ZFVP.Syntax.InternalForcingTruthTables
+public import ZFVP.SetTheory.ForcingRegular
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

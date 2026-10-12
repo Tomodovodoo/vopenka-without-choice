@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WeaklyLSNoSurjection
-import ZFVP.SetTheory.SmallCollapseSurjection
+module
+
+public import ZFVP.SetTheory.WeaklyLSNoSurjection
+public import ZFVP.SetTheory.SmallCollapseSurjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

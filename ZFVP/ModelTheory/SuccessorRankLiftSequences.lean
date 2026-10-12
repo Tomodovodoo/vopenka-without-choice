@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SuccessorRankLiftChecks
-import ZFVP.ModelTheory.ForcingRetractionSequences
-import ZFVP.SetTheory.CnSequenceNames
+module
+
+public import ZFVP.ModelTheory.SuccessorRankLiftChecks
+public import ZFVP.ModelTheory.ForcingRetractionSequences
+public import ZFVP.SetTheory.CnSequenceNames
+
+@[expose] public section
 
 namespace ZFVP
 

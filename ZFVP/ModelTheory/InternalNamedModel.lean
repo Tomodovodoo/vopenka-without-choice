@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.InternalNamedTruthTable
-import ZFVP.ModelTheory.InternalNameTruthEquality
-import ZFVP.ModelTheory.InternalNamedHenkinExistence
-import ZFVP.ModelTheory.InternalBinaryQuotientDefinability
+module
+
+public import ZFVP.ModelTheory.InternalNamedTruthTable
+public import ZFVP.ModelTheory.InternalNameTruthEquality
+public import ZFVP.ModelTheory.InternalNamedHenkinExistence
+public import ZFVP.ModelTheory.InternalBinaryQuotientDefinability
+
+@[expose] public section
 
 /-! The actual internal Henkin quotient of a finitely source-realizable named
 background. The source's elementary diagram gives an actual elementary map. -/

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSourceCode
-import ZFVP.ModelTheory.InverseCollapseCode
-import ZFVP.SetTheory.ForcingLimitUniverse
+module
+
+public import ZFVP.ModelTheory.WoodinSourceCode
+public import ZFVP.ModelTheory.InverseCollapseCode
+public import ZFVP.SetTheory.ForcingLimitUniverse
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

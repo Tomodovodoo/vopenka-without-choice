@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.GenericTruthBooleanCases
-import ZFVP.ModelTheory.GenericTruthQuantifierCases
-import ZFVP.Syntax.EndExtensionDefinableInduction
+module
+
+public import ZFVP.ModelTheory.GenericTruthBooleanCases
+public import ZFVP.ModelTheory.GenericTruthQuantifierCases
+public import ZFVP.Syntax.EndExtensionDefinableInduction
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

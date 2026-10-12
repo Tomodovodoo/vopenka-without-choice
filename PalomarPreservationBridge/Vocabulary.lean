@@ -1,4 +1,8 @@
-import PalomarBridge.Vocabulary
+module
+
+public import PalomarBridge.Vocabulary
+
+@[expose] public section
 
 /-! Explicit forcing and symmetric-extension data for Theorem A.
 A standalone Challenge copies this file after the shared membership vocabulary.

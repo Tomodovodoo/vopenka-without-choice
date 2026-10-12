@@ -1,15 +1,15 @@
 {
   "version": "v0.4",
   "project": {
-    "name": "Vopěnka's principle without choice",
-    "description": "Symmetric preservation of arbitrary-language Vopěnka's principle, equiconsistency of ZF+VP and ZFC+VP, and the dependent-choice and ordinary-real Solovay consistency consequences. All four selected result families have standalone mathlib-only statements with proved correspondence to the original formalization.",
+    "name": "VopÄ›nka's principle without choice",
+    "description": "Symmetric preservation of arbitrary-language VopÄ›nka's principle, equiconsistency of ZF+VP and ZFC+VP, and the dependent-choice and ordinary-real Solovay consistency consequences. All four selected result families have standalone mathlib-only statements with proved correspondence to the original formalization.",
     "authors": [
       "Tom de Groot"
     ],
     "responsible_maintainers": [
       "Tom de Groot"
     ],
-    "license": "LicenseRef-Pending-Author-Decision"
+    "license": "Apache-2.0"
   },
   "classification": {
     "arxiv": [
@@ -24,15 +24,57 @@
   },
   "sources": [
     {
-      "title": "Vopěnka's Principle without Choice: Preservation under Symmetric Extensions",
+      "title": "VopÄ›nka's Principle without Choice: Preservation under Symmetric Extensions",
+      "authors": [
+        "Tom de Groot",
+        "Wojciech Aleksander WoÅ‚oszyn"
+      ],
+      "id": "https://arxiv.org/abs/2609.06856v2",
+      "type": "paper",
+      "relationship": "adapts",
+      "note": "Principal conclusions of the paper. Supporting constructions, model interpretation and exact exported-statement correspondence are given in paper/supplement.pdf."
+    },
+    {
+      "title": "Supplementary proofs for Vopěnka's principle without Choice",
       "authors": [
         "Tom de Groot",
         "Wojciech Aleksander Wołoszyn"
       ],
-      "id": "https://arxiv.org/abs/2609.06856v1",
+      "type": "supplement",
+      "relationship": "formalizes",
+      "location": "paper/supplement.pdf",
+      "note": "Companion mathematical text included in this repository snapshot and prepared as ancillary material for the arXiv replacement."
+    },
+    {
+      "title": "Suitable extender models I",
+      "authors": [
+        "W. Hugh Woodin"
+      ],
       "type": "paper",
       "relationship": "adapts",
-      "note": "The original and V13 manuscripts are included. The repair index records changed routes and proposed source corrections; source authorship does not assert coauthorship or endorsement of the formalization."
+      "id": "https://doi.org/10.1142/S021906131000095X",
+      "note": "Choice-restoring construction with completed stages and a marked-rank lift; supplement Section 3 supplies the hypotheses used for finite restoration."
+    },
+    {
+      "title": "Towards a theory of symmetric extensions",
+      "authors": [
+        "Asaf Karagila",
+        "Philipp Schilhan"
+      ],
+      "type": "paper",
+      "relationship": "adapts",
+      "id": "https://arxiv.org/abs/2602.17338v1",
+      "note": "Orbit construction with same-extension comparison generics in supplement Proposition 4.2."
+    },
+    {
+      "title": "Models of set theory: extensions and dead-ends",
+      "authors": [
+        "Ali Enayat"
+      ],
+      "type": "paper",
+      "relationship": "adapts",
+      "id": "https://arxiv.org/abs/2406.14790v7",
+      "note": "Membership-language construction and its application are described in supplement Section 5."
     }
   ],
   "related_formalizations": [
@@ -48,7 +90,7 @@
     }
   ],
   "status": {
-    "scope": "comparator-palomar.json selects all four principal result families in a standalone mathlib-only vocabulary: symmetric quotient existence and preservation, Theorem B, the DC consequence, and the ordinary-real Solovay consequence including its ultrafilter clause. All four statement bridges are proved. Individual comparator-palomar-*.json files support diagnosis. comparator.json checks the original Foundation encoding. V13 retains two unmatched auxiliary clauses, documented in repairs/formalization/README.md. The full ambient-HOD clause and optional stronger research routes are not claimed.",
+    "scope": "The combined configuration comparator-palomar.json selects symmetric quotient existence and full VP preservation, equiconsistency, the DC consequence, and the ordinary-real Solovay consequence including its ultrafilter. Each statement has a proved dictionary correspondence. The supplement states the completed-stage iteration, finite definability bounds and induced-generic truth used in the paper. The library also contains fragment preservation and the end-extension application; they are not selected by this configuration.",
     "sorry_count": 0,
     "sorry_in_definitions": 0,
     "axioms": [
@@ -78,7 +120,7 @@
     "notes": "Tom de Groot directed the work. Model/version details beyond those visible in the retained session are not inferred."
   },
   "fidelity": {
-    "divergences": "See repairs/README.md and docs/paper-coverage.md. The sparse Sigma-three and full endpoint class-generic clauses remain unmatched. Comparator success alone does not establish ordinary-language correspondence or Palomar eligibility."
+    "divergences": "The auxiliary Woodin route uses completed stages, whole-prefix code capture and a marked-rank lift, with fixed finite definability bounds and induced-generic endpoint truth. Supplement Sections 2–5 give the supporting arguments and Section 7 identifies the formal statements. The selected principal conclusions retain their stated hypotheses and scope."
   },
   "review": {
     "status": "Self-assessed with AI-assisted statement inspection; no Palomar review completed",

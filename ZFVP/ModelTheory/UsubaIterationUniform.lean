@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.UsubaIterationStages
-import ZFVP.ModelTheory.ForcingSuccessorUniform
-import ZFVP.ModelTheory.ForcingLimitUniform
-import ZFVP.ModelTheory.DeltaOneInitialCode
-import ZFVP.ModelTheory.ClassForcingTowerDictionary
+module
+
+public import ZFVP.ModelTheory.UsubaIterationStages
+public import ZFVP.ModelTheory.ForcingSuccessorUniform
+public import ZFVP.ModelTheory.ForcingLimitUniform
+public import ZFVP.ModelTheory.DeltaOneInitialCode
+public import ZFVP.ModelTheory.ClassForcingTowerDictionary
+
+@[expose] public section
 
 /-! One family of formulas defines Usuba's iteration in every model of ZF.
 The recursion, including its successor and inverse-limit rules, is the

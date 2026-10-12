@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.TwoStepForcing
-import ZFVP.ModelTheory.ForcingProjection
+module
+
+public import ZFVP.SetTheory.TwoStepForcing
+public import ZFVP.ModelTheory.ForcingProjection
+
+@[expose] public section
 
 namespace ZFVP
 

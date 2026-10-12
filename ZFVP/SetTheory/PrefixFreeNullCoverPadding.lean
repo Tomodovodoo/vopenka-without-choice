@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.PrefixFreeNullCoverEnumeration
+module
+
+public import ZFVP.SetTheory.PrefixFreeNullCoverEnumeration
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

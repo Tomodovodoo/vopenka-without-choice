@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.NormalizedPoolRank
-import ZFVP.ModelTheory.SaturatedCollapseRankWitness
+module
+
+public import ZFVP.ModelTheory.NormalizedPoolRank
+public import ZFVP.ModelTheory.SaturatedCollapseRankWitness
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingCanonicalTransport
-import ZFVP.ModelTheory.WoodinSourceCompletedInverse
-import ZFVP.ModelTheory.WoodinSourceLimitMaps
+module
+
+public import ZFVP.ModelTheory.ForcingCanonicalTransport
+public import ZFVP.ModelTheory.WoodinSourceCompletedInverse
+public import ZFVP.ModelTheory.WoodinSourceLimitMaps
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]

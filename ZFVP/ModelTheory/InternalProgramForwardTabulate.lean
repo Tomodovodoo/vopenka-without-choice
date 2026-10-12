@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalProgramListMap
-import ZFVP.Syntax.PrimitiveProgramForwardTabulate
-import ZFVP.Syntax.PrefixTuples
+module
+
+public import ZFVP.ModelTheory.InternalProgramListMap
+public import ZFVP.Syntax.PrimitiveProgramForwardTabulate
+public import ZFVP.Syntax.PrefixTuples
+
+@[expose] public section
 
 /-! Increasing-index program tables decode to the corresponding internal functions. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingNameHierarchy
-import ZFVP.ModelTheory.ForcingModelEvaluation
-import ZFVP.ModelTheory.ForcingQuotientBoundedNames
+module
+
+public import ZFVP.SetTheory.ForcingNameHierarchy
+public import ZFVP.ModelTheory.ForcingModelEvaluation
+public import ZFVP.ModelTheory.ForcingQuotientBoundedNames
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

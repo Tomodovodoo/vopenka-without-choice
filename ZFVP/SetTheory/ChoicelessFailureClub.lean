@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ChoicelessExtendible
-import ZFVP.SetTheory.WitnessClosure
+module
+
+public import ZFVP.SetTheory.ChoicelessExtendible
+public import ZFVP.SetTheory.WitnessClosure
+
+@[expose] public section
 
 /-! The closed unbounded class of failure-witness ranks in Mohammd's
 Theorem 3.1. The class is unbounded under the stated failure of

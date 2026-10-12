@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.TransitiveZFSetOperations
+module
+
+public import ZFVP.ModelTheory.TransitiveZFSetOperations
+
+@[expose] public section
 
 namespace ZFVP
 

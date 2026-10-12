@@ -1,6 +1,10 @@
-import ZFVP.Syntax.UniformFormulaSubstitution
-import ZFVP.Syntax.UniformNegation
-import ZFVP.Syntax.MembershipRenaming
+module
+
+public import ZFVP.Syntax.UniformFormulaSubstitution
+public import ZFVP.Syntax.UniformNegation
+public import ZFVP.Syntax.MembershipRenaming
+
+@[expose] public section
 
 /-! Substitution and negation commute on every internal formula code. -/
 

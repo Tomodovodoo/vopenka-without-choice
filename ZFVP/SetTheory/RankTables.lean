@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedCodingSupport
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.SetTheory.BoundedCodingSupport
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 /-! Rank is characterized by bounded equations on a transitive set of arguments. -/
 

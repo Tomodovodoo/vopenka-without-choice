@@ -1,4 +1,8 @@
-import ZFVP.Syntax.NaturalProofRewriting
+module
+
+public import ZFVP.Syntax.NaturalProofRewriting
+
+@[expose] public section
 
 /-! Primitive recursion for the natural-code LK rewriting operations. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.Hessenberg
-import ZFVP.SetTheory.SetCodesTransport
-import ZFVP.SetTheory.EndExtensionWellOrdering
+module
+
+public import ZFVP.SetTheory.Hessenberg
+public import ZFVP.SetTheory.SetCodesTransport
+public import ZFVP.SetTheory.EndExtensionWellOrdering
+
+@[expose] public section
 
 /-! The Gödel pairing of an ordinal.
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.DeltaOneWoodinSourceCode
-import ZFVP.ModelTheory.SigmaThreeWoodinPrefixes
+module
+
+public import ZFVP.ModelTheory.DeltaOneWoodinSourceCode
+public import ZFVP.ModelTheory.SigmaThreeWoodinPrefixes
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

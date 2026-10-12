@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingNames
-import ZFVP.SetTheory.WellFoundedRecursion
+module
+
+public import ZFVP.SetTheory.ForcingNames
+public import ZFVP.SetTheory.WellFoundedRecursion
+
+@[expose] public section
 
 namespace ZFVP
 

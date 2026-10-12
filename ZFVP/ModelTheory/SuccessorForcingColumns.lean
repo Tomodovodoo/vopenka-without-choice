@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SuccessorForcingLift
-import ZFVP.SetTheory.ForcingLiftExtension
+module
+
+public import ZFVP.ModelTheory.SuccessorForcingLift
+public import ZFVP.SetTheory.ForcingLiftExtension
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

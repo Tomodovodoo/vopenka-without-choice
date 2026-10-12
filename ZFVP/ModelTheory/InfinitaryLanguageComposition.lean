@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryLanguageDerivation
+module
+
+public import ZFVP.ModelTheory.InfinitaryLanguageDerivation
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

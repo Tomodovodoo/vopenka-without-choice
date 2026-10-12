@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SaturatedUnionBounds
-import ZFVP.ModelTheory.ForcingReverseOrderName
-import ZFVP.SetTheory.TwoStepForcing
+module
+
+public import ZFVP.ModelTheory.SaturatedUnionBounds
+public import ZFVP.ModelTheory.ForcingReverseOrderName
+public import ZFVP.SetTheory.TwoStepForcing
+
+@[expose] public section
 
 namespace ZFVP
 

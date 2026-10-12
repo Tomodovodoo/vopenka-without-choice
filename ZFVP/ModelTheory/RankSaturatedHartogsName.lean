@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.RankInternalHartogsName
-import ZFVP.ModelTheory.RankForcingNameHierarchy
-import ZFVP.ModelTheory.TransitiveZFSaturatedName
-import ZFVP.ModelTheory.SaturatedNameGenericEquality
-import ZFVP.ModelTheory.SaturatedHartogsFormulas
+module
+
+public import ZFVP.ModelTheory.RankInternalHartogsName
+public import ZFVP.ModelTheory.RankForcingNameHierarchy
+public import ZFVP.ModelTheory.TransitiveZFSaturatedName
+public import ZFVP.ModelTheory.SaturatedNameGenericEquality
+public import ZFVP.ModelTheory.SaturatedHartogsFormulas
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

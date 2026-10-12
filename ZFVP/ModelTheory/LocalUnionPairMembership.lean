@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TwoStepLocalUnionBound
-import ZFVP.ModelTheory.SaturatedTwoStepBounds
+module
+
+public import ZFVP.ModelTheory.TwoStepLocalUnionBound
+public import ZFVP.ModelTheory.SaturatedTwoStepBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

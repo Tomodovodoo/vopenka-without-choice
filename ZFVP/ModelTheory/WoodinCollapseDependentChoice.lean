@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingDependentChoiceTransfer
-import ZFVP.ModelTheory.WoodinCollapsePreservation
+module
+
+public import ZFVP.ModelTheory.ForcingDependentChoiceTransfer
+public import ZFVP.ModelTheory.WoodinCollapsePreservation
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.BlockCohenNotRigid
-import ZFVP.ModelTheory.SymmetricVopenkaPreservation
-import ZFVP.ModelTheory.CodedZFVPExternal
-import Foundation.FirstOrder.SetTheory.LoewenheimSkolem
+module
+
+public import ZFVP.ModelTheory.BlockCohenNotRigid
+public import ZFVP.ModelTheory.SymmetricVopenkaPreservation
+public import ZFVP.ModelTheory.CodedZFVPExternal
+public import Foundation.FirstOrder.SetTheory.LoewenheimSkolem
+
+@[expose] public section
 
 /-!
 Consistency of ZF + Vopenka's principle together with the failure of the rigid relation

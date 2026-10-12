@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalGeneratedAxiomProgram
+module
+
+public import ZFVP.ModelTheory.InternalGeneratedAxiomProgram
+
+@[expose] public section
 
 /-! Every internally accepted enumerated axiom is a true sentence in each coded ZF+VP model. -/
 

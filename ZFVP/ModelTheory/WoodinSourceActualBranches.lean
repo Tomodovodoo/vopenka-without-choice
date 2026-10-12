@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSourceInvariant
-import ZFVP.ModelTheory.WoodinSourceCompletedInverse
+module
+
+public import ZFVP.ModelTheory.WoodinSourceInvariant
+public import ZFVP.ModelTheory.WoodinSourceCompletedInverse
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]

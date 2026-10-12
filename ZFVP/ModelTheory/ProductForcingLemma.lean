@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ProductForcing
-import ZFVP.ModelTheory.QuotientEquivalence
+module
+
+public import ZFVP.SetTheory.ProductForcing
+public import ZFVP.ModelTheory.QuotientEquivalence
+
+@[expose] public section
 
 /-! The product lemma: if `G` is generic for `P₁ × P₂`, its first projection `G₁` is `P₁`-generic
 and its second projection is generic for `P₂` over `V[G₁]`. -/

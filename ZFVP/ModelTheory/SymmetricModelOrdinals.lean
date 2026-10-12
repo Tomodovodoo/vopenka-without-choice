@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SymmetricModelZF
-import ZFVP.ModelTheory.ForcingModelRank
+module
+
+public import ZFVP.ModelTheory.SymmetricModelZF
+public import ZFVP.ModelTheory.ForcingModelRank
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SparsePairPresentation
-import ZFVP.ModelTheory.TransitiveZFRankOperations
-import ZFVP.ModelTheory.TransitiveZFWoodinSourceCode
-import ZFVP.ModelTheory.TransitiveZFBoundedQuantifiers
+module
+
+public import ZFVP.ModelTheory.SparsePairPresentation
+public import ZFVP.ModelTheory.TransitiveZFRankOperations
+public import ZFVP.ModelTheory.TransitiveZFWoodinSourceCode
+public import ZFVP.ModelTheory.TransitiveZFBoundedQuantifiers
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

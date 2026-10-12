@@ -1,6 +1,10 @@
-import ZFVP.Syntax.UniformFormulaSubstitution
-import ZFVP.Syntax.MembershipRenaming
-import ZFVP.SetTheory.UniformLowTruth
+module
+
+public import ZFVP.Syntax.UniformFormulaSubstitution
+public import ZFVP.Syntax.MembershipRenaming
+public import ZFVP.SetTheory.UniformLowTruth
+
+@[expose] public section
 
 /-! A parameter-free dictionary for internal membership-variable renaming. -/
 

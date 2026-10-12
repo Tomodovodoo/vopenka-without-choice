@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingCodeConstructionUniform
+module
+
+public import ZFVP.ModelTheory.ForcingCodeConstructionUniform
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

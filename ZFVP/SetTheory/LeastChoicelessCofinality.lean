@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.LeastChoicelessCn
-import ZFVP.ModelTheory.LastPointCofinality
+module
+
+public import ZFVP.SetTheory.LeastChoicelessCn
+public import ZFVP.ModelTheory.LastPointCofinality
+
+@[expose] public section
 
 /-! Mohammd Proposition 6.5(iii): no cofinal map from a lower rank stage. -/
 

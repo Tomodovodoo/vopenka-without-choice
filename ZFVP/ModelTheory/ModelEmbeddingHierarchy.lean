@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ModelEmbeddingRestriction
-import ZFVP.ModelTheory.CriticalPoint
+module
+
+public import ZFVP.ModelTheory.ModelEmbeddingRestriction
+public import ZFVP.ModelTheory.CriticalPoint
+
+@[expose] public section
 
 /-! Rank-segment action for elementary graphs between arbitrary ZF rank models. -/
 

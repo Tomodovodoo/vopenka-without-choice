@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.StandardNaturals
-import Foundation.FirstOrder.SetTheory.Ordinal
+module
+
+public import ZFVP.SetTheory.StandardNaturals
+public import Foundation.FirstOrder.SetTheory.Ordinal
+
+@[expose] public section
 
 /-! Predecessors and index shifts for internal natural numbers. -/
 

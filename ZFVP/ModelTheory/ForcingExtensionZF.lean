@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingQuotientValuation
+module
+
+public import ZFVP.ModelTheory.ForcingQuotientValuation
+
+@[expose] public section
 
 namespace ZFVP
 

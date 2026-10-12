@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CriticalSequenceFixedPoint
-import ZFVP.ModelTheory.CriticalPointRestriction
+module
+
+public import ZFVP.ModelTheory.CriticalSequenceFixedPoint
+public import ZFVP.ModelTheory.CriticalPointRestriction
+
+@[expose] public section
 
 /-! Restricting an embedding between two rank stages to the stage of an ordinal it fixes.
 

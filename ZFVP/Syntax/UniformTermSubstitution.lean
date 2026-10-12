@@ -1,6 +1,10 @@
-import ZFVP.Syntax.TermSubstitution
-import ZFVP.Syntax.UniformTermEvaluation
-import ZFVP.Syntax.UniformSyntaxTransport
+module
+
+public import ZFVP.Syntax.TermSubstitution
+public import ZFVP.Syntax.UniformTermEvaluation
+public import ZFVP.Syntax.UniformSyntaxTransport
+
+@[expose] public section
 
 /-! One parameter-free definition of term substitution in every ZF model. -/
 

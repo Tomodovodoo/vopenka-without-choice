@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlInternalDiamondGuesses
-import ZFVP.ModelTheory.ForcingQuotientGeneric
-import ZFVP.SetTheory.EndExtensionWellOrdering
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalDiamondGuesses
+public import ZFVP.ModelTheory.ForcingQuotientGeneric
+public import ZFVP.SetTheory.EndExtensionWellOrdering
+
+@[expose] public section
 
 /-! The actual quotient's generic union of diamond approximations. -/
 

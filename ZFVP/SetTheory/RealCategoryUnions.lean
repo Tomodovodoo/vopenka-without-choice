@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.RealCategoryClosure
-import ZFVP.SetTheory.CountableUnions
-import ZFVP.SetTheory.InjectionRetraction
+module
+
+public import ZFVP.SetTheory.RealCategoryClosure
+public import ZFVP.SetTheory.CountableUnions
+public import ZFVP.SetTheory.InjectionRetraction
+
+@[expose] public section
 
 /-! Internal countable unions of real opens and coded meagre covers. -/
 

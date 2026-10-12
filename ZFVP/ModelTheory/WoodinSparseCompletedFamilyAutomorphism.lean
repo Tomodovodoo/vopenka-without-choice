@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseCompletedAutomorphism
+module
+
+public import ZFVP.ModelTheory.WoodinSparseCompletedAutomorphism
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

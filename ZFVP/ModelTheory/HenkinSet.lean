@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.HenkinConsistency
-import ZFVP.ModelTheory.OmittingTypes
+module
+
+public import ZFVP.ModelTheory.HenkinConsistency
+public import ZFVP.ModelTheory.OmittingTypes
+
+@[expose] public section
 
 /-! # The maximal Henkin set for the omitting types theorem
 

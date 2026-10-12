@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.HartogsRestorationForcingAgreementCountable
-import ZFVP.ModelTheory.RankInternalHartogsName
+module
+
+public import ZFVP.ModelTheory.HartogsRestorationForcingAgreementCountable
+public import ZFVP.ModelTheory.RankInternalHartogsName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

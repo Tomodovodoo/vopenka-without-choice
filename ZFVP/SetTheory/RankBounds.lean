@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.Rank
-import ZFVP.SetTheory.OrdinalAddition
+module
+
+public import ZFVP.SetTheory.Rank
+public import ZFVP.SetTheory.OrdinalAddition
+
+@[expose] public section
 
 /-! Rank closure bounds for later set-coded syntax and satisfaction. -/
 

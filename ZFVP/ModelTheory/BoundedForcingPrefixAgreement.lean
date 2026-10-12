@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ProjectionBoundedTruth
-import ZFVP.ModelTheory.ForcingRegularGenericEquality
-import ZFVP.ModelTheory.ProjectionQuotientClosureForcing
+module
+
+public import ZFVP.ModelTheory.ProjectionBoundedTruth
+public import ZFVP.ModelTheory.ForcingRegularGenericEquality
+public import ZFVP.ModelTheory.ProjectionQuotientClosureForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

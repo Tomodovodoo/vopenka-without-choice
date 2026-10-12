@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TransitiveZFInaccessible
-import ZFVP.SetTheory.CardinalSmallUnions
-import ZFVP.SetTheory.PiOneInitialOrdinal
+module
+
+public import ZFVP.ModelTheory.TransitiveZFInaccessible
+public import ZFVP.SetTheory.CardinalSmallUnions
+public import ZFVP.SetTheory.PiOneInitialOrdinal
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinLocalStagePresentation
-import ZFVP.ModelTheory.WoodinEndpointStageConditions
-import ZFVP.SetTheory.FiniteCodingClosure
+module
+
+public import ZFVP.ModelTheory.WoodinLocalStagePresentation
+public import ZFVP.ModelTheory.WoodinEndpointStageConditions
+public import ZFVP.SetTheory.FiniteCodingClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

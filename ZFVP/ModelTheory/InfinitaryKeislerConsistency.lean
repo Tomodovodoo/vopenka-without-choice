@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryKeislerDeduction
+module
+
+public import ZFVP.ModelTheory.InfinitaryKeislerDeduction
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

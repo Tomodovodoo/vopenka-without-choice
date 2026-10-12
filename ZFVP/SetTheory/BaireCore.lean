@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CantorSpace
+module
+
+public import ZFVP.SetTheory.CantorSpace
+
+@[expose] public section
 
 /-! The category core of Solovay's Baire-property argument, inside one model: the reals missing
 a dense set of finite sequences form the body of a nowhere dense tree, so a set of reals that is

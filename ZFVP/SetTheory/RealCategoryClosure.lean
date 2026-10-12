@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RealCategoryCodes
+module
+
+public import ZFVP.SetTheory.RealCategoryCodes
+
+@[expose] public section
 
 /-! Finite category operations on actual internal real sets and their codes. -/
 

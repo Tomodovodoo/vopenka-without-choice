@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SymmetricModel
-import ZFVP.SetTheory.SymmetricImageName
-import ZFVP.SetTheory.SymmetricImageWitnesses
+module
+
+public import ZFVP.ModelTheory.SymmetricModel
+public import ZFVP.SetTheory.SymmetricImageName
+public import ZFVP.SetTheory.SymmetricImageWitnesses
+
+@[expose] public section
 
 namespace ZFVP
 

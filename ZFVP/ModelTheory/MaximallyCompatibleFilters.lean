@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.RubinModel
+module
+
+public import ZFVP.ModelTheory.RubinModel
+
+@[expose] public section
 
 /-! Maximally compatible subsets of a poset, the notion Enayat's Appendix argument actually uses.
 

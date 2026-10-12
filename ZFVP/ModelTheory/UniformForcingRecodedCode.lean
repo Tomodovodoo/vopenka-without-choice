@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingRecodedSystem
-import ZFVP.ModelTheory.ForcingCodeUniform
-import ZFVP.ModelTheory.UniformSparsePair
-import ZFVP.SetTheory.UniformFunctionOperations
+module
+
+public import ZFVP.ModelTheory.ForcingRecodedSystem
+public import ZFVP.ModelTheory.ForcingCodeUniform
+public import ZFVP.ModelTheory.UniformSparsePair
+public import ZFVP.SetTheory.UniformFunctionOperations
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ProjectionRankLimit
-import ZFVP.ModelTheory.WoodinRankCoherence
-import ZFVP.ModelTheory.WoodinConstructionCountable
+module
+
+public import ZFVP.ModelTheory.ProjectionRankLimit
+public import ZFVP.ModelTheory.WoodinRankCoherence
+public import ZFVP.ModelTheory.WoodinConstructionCountable
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

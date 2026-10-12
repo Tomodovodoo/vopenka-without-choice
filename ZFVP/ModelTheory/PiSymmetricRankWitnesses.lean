@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SymmetricRankWitnesses
-import ZFVP.Syntax.PiRankWitnessFormula
+module
+
+public import ZFVP.ModelTheory.SymmetricRankWitnesses
+public import ZFVP.Syntax.PiRankWitnessFormula
+
+@[expose] public section
 
 namespace ZFVP
 

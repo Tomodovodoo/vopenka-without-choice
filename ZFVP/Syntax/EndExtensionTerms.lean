@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.EndExtensionLanguage
-import ZFVP.Syntax.GeneratedTerms
+module
+
+public import ZFVP.ModelTheory.EndExtensionLanguage
+public import ZFVP.Syntax.GeneratedTerms
+
+@[expose] public section
 
 /-! All internal term codes agree across ZF membership end extensions. -/
 

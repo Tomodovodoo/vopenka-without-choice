@@ -1,6 +1,10 @@
-import PalomarPreservationBridge.Dictionary
-import ZFVP.ModelTheory.SymmetricModelZF
-import ZFVP.SetTheory.VopenkaIsomorphism
+module
+
+public import PalomarPreservationBridge.Dictionary
+public import ZFVP.ModelTheory.SymmetricModelZF
+public import ZFVP.SetTheory.VopenkaIsomorphism
+
+@[expose] public section
 
 namespace PalomarPreservationBridge
 open PalomarBridge LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SymmetricVopenkaPreservation
-import ZFVP.SetTheory.TrivialSymmetry
-import ZFVP.SetTheory.VopenkaIsomorphism
+module
+
+public import ZFVP.ModelTheory.SymmetricVopenkaPreservation
+public import ZFVP.SetTheory.TrivialSymmetry
+public import ZFVP.SetTheory.VopenkaIsomorphism
+
+@[expose] public section
 
 /-! Ordinary set forcing is the specialization with the trivial symmetry group. -/
 

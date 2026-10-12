@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalProgramListExt
-import ZFVP.ModelTheory.StandardProgramLists
-import ZFVP.Syntax.BoundedAssignments
+module
+
+public import ZFVP.ModelTheory.InternalProgramListExt
+public import ZFVP.ModelTheory.StandardProgramLists
+public import ZFVP.Syntax.BoundedAssignments
+
+@[expose] public section
 
 /-! Every internally finite sequence of naturals has a unique natural-number code. -/
 

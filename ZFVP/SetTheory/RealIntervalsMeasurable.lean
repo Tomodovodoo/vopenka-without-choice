@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RealRationalNullSingleton
+module
+
+public import ZFVP.SetTheory.RealRationalNullSingleton
+
+@[expose] public section
 
 /-! Every rational basic interval is Carathéodory measurable. -/
 

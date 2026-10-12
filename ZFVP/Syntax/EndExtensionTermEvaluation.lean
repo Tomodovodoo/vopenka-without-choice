@@ -1,7 +1,11 @@
-import ZFVP.Syntax.EndExtensionTerms
-import ZFVP.Syntax.TermEvaluation
-import ZFVP.SetTheory.EndExtensionRelations
-import ZFVP.SetTheory.UniformFunctionOperations
+module
+
+public import ZFVP.Syntax.EndExtensionTerms
+public import ZFVP.Syntax.TermEvaluation
+public import ZFVP.SetTheory.EndExtensionRelations
+public import ZFVP.SetTheory.UniformFunctionOperations
+
+@[expose] public section
 
 /-! Internal term evaluation agrees across ZF end extensions, by uniqueness of recursion. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ExternalGenericRestriction
-import ZFVP.SetTheory.MembershipEndExtension
+module
+
+public import ZFVP.ModelTheory.ExternalGenericRestriction
+public import ZFVP.SetTheory.MembershipEndExtension
+
+@[expose] public section
 
 /-! The forcing quotient of a transitive ground submodel includes in the ambient quotient. -/
 

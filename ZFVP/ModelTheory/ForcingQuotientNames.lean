@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingQuotientTruth
-import ZFVP.SetTheory.AtomicWitnesses
-import ZFVP.SetTheory.AtomicSeparation
+module
+
+public import ZFVP.ModelTheory.ForcingQuotientTruth
+public import ZFVP.SetTheory.AtomicWitnesses
+public import ZFVP.SetTheory.AtomicSeparation
+
+@[expose] public section
 
 namespace ZFVP
 

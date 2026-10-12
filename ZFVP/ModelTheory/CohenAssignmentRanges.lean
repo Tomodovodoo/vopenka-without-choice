@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CohenFiniteAssignmentValues
-import ZFVP.SetTheory.EndExtensionFinite
+module
+
+public import ZFVP.ModelTheory.CohenFiniteAssignmentValues
+public import ZFVP.SetTheory.EndExtensionFinite
+
+@[expose] public section
 
 namespace ZFVP
 

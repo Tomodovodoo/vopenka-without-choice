@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LocalUnionNormalization
-import ZFVP.ModelTheory.LocalUnionPairMembership
+module
+
+public import ZFVP.ModelTheory.LocalUnionNormalization
+public import ZFVP.ModelTheory.LocalUnionPairMembership
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

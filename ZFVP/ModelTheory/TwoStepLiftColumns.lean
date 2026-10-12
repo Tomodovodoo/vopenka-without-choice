@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingColumnComposition
+module
+
+public import ZFVP.ModelTheory.ForcingColumnComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

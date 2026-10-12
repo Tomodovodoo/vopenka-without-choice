@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.DeltaOneWoodinSeedColumns
-import ZFVP.ModelTheory.WoodinSourceCode
-import ZFVP.ModelTheory.DeltaOneForcingCodeComponents
-import ZFVP.ModelTheory.BoundedForcingCode
+module
+
+public import ZFVP.SetTheory.DeltaOneWoodinSeedColumns
+public import ZFVP.ModelTheory.WoodinSourceCode
+public import ZFVP.ModelTheory.DeltaOneForcingCodeComponents
+public import ZFVP.ModelTheory.BoundedForcingCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

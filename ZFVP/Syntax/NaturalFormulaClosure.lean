@@ -1,4 +1,8 @@
-import ZFVP.Syntax.NaturalFormulaNegation
+module
+
+public import ZFVP.Syntax.NaturalFormulaNegation
+
+@[expose] public section
 
 /-! Primitive recursive quantifier constructors and full universal closure. -/
 

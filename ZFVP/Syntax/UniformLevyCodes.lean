@@ -1,5 +1,9 @@
-import ZFVP.Syntax.LevyCodes
-import ZFVP.Syntax.UniformBoundedCodes
+module
+
+public import ZFVP.Syntax.LevyCodes
+public import ZFVP.Syntax.UniformBoundedCodes
+
+@[expose] public section
 
 /-! A parameter-free defining formula for each standard internal Levy level. -/
 

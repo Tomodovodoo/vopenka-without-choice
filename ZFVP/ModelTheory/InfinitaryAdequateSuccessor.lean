@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryAdequateParameterizedFibers
-import ZFVP.ModelTheory.InfinitaryAdequateLimits
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateParameterizedFibers
+public import ZFVP.ModelTheory.InfinitaryAdequateLimits
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

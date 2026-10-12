@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.PartialFunctionAction
+module
+
+public import ZFVP.SetTheory.PartialFunctionAction
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.VopenkaScheme
-import ZFVP.SetTheory.CnExtendible
-import ZFVP.SetTheory.CnLevyTransport
-import ZFVP.ModelTheory.GenericRankEmbeddingRestriction
+module
+
+public import ZFVP.SetTheory.VopenkaScheme
+public import ZFVP.SetTheory.CnExtendible
+public import ZFVP.SetTheory.CnLevyTransport
+public import ZFVP.ModelTheory.GenericRankEmbeddingRestriction
+
+@[expose] public section
 
 /-! Bagaria, C(n)-cardinals, Theorem 4.11 in the E_n form used by the paper:
 unboundedly many C(n)-extendible cardinals give every Pi(n+1) instance of the

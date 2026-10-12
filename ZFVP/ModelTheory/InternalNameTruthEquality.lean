@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalNameTruthSemantics
-import ZFVP.Syntax.CanonicalEqualityAxioms
+module
+
+public import ZFVP.ModelTheory.InternalNameTruthSemantics
+public import ZFVP.Syntax.CanonicalEqualityAxioms
+
+@[expose] public section
 
 /-! Truth of the finite equality basis supplies the exact equivalence and
 congruence laws needed by the internal quotient. -/

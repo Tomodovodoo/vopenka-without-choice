@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinIterationContract
-import ZFVP.ModelTheory.LimitSplitProjection
-import ZFVP.ModelTheory.IterationSystemProjection
-import ZFVP.ModelTheory.LimitCodeDefinability
+module
+
+public import ZFVP.ModelTheory.WoodinIterationContract
+public import ZFVP.ModelTheory.LimitSplitProjection
+public import ZFVP.ModelTheory.IterationSystemProjection
+public import ZFVP.ModelTheory.LimitCodeDefinability
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

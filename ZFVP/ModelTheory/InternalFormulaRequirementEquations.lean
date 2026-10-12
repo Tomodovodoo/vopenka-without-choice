@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalAtomicRequirements
+module
+
+public import ZFVP.ModelTheory.InternalAtomicRequirements
+
+@[expose] public section
 
 /-! Constructor equations for the set-theoretic interpretation of syntax requirements. -/
 

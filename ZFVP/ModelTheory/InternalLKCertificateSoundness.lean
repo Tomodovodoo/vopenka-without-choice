@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalLKCertificateEquations
+module
+
+public import ZFVP.ModelTheory.InternalLKCertificateEquations
+
+@[expose] public section
 
 /-! Soundness of the explicit LK certificate checker, including nonstandard finite certificates. -/
 

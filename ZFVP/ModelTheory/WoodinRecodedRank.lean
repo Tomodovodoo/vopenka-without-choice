@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinRecodingCardinals
-import ZFVP.ModelTheory.WoodinRecodedSuccessorNext
-import ZFVP.ModelTheory.NormalizedCarrierRank
+module
+
+public import ZFVP.ModelTheory.WoodinRecodingCardinals
+public import ZFVP.ModelTheory.WoodinRecodedSuccessorNext
+public import ZFVP.ModelTheory.NormalizedCarrierRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

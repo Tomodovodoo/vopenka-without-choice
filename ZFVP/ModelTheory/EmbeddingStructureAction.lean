@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.RankEmbeddingDictionary
+module
+
+public import ZFVP.ModelTheory.RankEmbeddingDictionary
+
+@[expose] public section
 
 /-! Structure domains and validity under sufficiently correct rank embeddings. -/
 

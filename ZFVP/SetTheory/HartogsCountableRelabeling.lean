@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CountableSets
-import ZFVP.SetTheory.InverseFunction
+module
+
+public import ZFVP.SetTheory.CountableSets
+public import ZFVP.SetTheory.InverseFunction
+
+@[expose] public section
 
 /-! Actual injections into the first uncountable ordinal, extending a fixed
 countable set of labels and including a prescribed new label. -/

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.StageRunConstruction
-import ZFVP.ModelTheory.StageRunUpper
-import ZFVP.ModelTheory.StageRunReflect
-import ZFVP.ModelTheory.RubinChainCountabilityEssential
+module
+
+public import ZFVP.ModelTheory.StageRunConstruction
+public import ZFVP.ModelTheory.StageRunUpper
+public import ZFVP.ModelTheory.StageRunReflect
+public import ZFVP.ModelTheory.RubinChainCountabilityEssential
+
+@[expose] public section
 
 /-! # Stage 1 of Enayat's Appendix, assembled
 

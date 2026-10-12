@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BinaryRelationInternalSemantics
-import ZFVP.ModelTheory.SchmerlStandardOmega
+module
+
+public import ZFVP.Syntax.BinaryRelationInternalSemantics
+public import ZFVP.ModelTheory.SchmerlStandardOmega
+
+@[expose] public section
 
 /-! Decoding internal membership formulas up to truth in arbitrary binary
 relation structures. Raw logical equality and relation-symbol equality are

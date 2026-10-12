@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlForcedRubinConstruction
-import ZFVP.ModelTheory.SchmerlCodedWeaklyRubinExpansion
-import ZFVP.ModelTheory.ForcingCheckedTruth
-import ZFVP.ModelTheory.EndExtensionBinaryRelation
+module
+
+public import ZFVP.ModelTheory.SchmerlForcedRubinConstruction
+public import ZFVP.ModelTheory.SchmerlCodedWeaklyRubinExpansion
+public import ZFVP.ModelTheory.ForcingCheckedTruth
+public import ZFVP.ModelTheory.EndExtensionBinaryRelation
+
+@[expose] public section
 
 /-! Starting from the actual countable coded model, construct both forcing
 extensions and a full weakly Rubin expansion. The original elementary map is

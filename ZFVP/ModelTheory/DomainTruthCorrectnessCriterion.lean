@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.RelativeSigmaCorrectness
+module
+
+public import ZFVP.ModelTheory.RelativeSigmaCorrectness
+
+@[expose] public section
 
 /-! Preservation of one fixed partial-truth predicate gives correctness for
 all internally coded formulas at its level. The code and assignment residency

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalNamedSupport
+module
+
+public import ZFVP.ModelTheory.InternalNamedSupport
+
+@[expose] public section
 
 /-! A fresh name witnesses a consistent existential while preserving finite
 satisfiability of the entire fixed-name background theory. -/

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.AmenableSeparation
-import ZFVP.SetTheory.WitnessClosure
+module
+
+public import ZFVP.SetTheory.AmenableSeparation
+public import ZFVP.SetTheory.WitnessClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

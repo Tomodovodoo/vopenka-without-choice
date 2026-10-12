@@ -1,7 +1,11 @@
-import ZFVP.Syntax.StandardCodeExpressions
-import ZFVP.Syntax.BoundedStandardTuples
-import ZFVP.Syntax.BoundedMembershipTruthCertificate
-import ZFVP.SetTheory.HigherPartialTruth
+module
+
+public import ZFVP.Syntax.StandardCodeExpressions
+public import ZFVP.Syntax.BoundedStandardTuples
+public import ZFVP.Syntax.BoundedMembershipTruthCertificate
+public import ZFVP.SetTheory.HigherPartialTruth
+
+@[expose] public section
 
 /-! A single support set bounds the syntax and assignment witnesses of partial truth. -/
 

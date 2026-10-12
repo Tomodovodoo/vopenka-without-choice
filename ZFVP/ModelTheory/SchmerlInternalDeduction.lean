@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalClosedDeduction
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalClosedDeduction
+
+@[expose] public section
 
 /-! Full internal deduction by definable rank induction, including every rule
 and internal countable branching. The discharged assumption is a sentence. -/

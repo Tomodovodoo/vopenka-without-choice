@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.Collection
+module
+
+public import ZFVP.SetTheory.Collection
+
+@[expose] public section
 
 /-! Scott's least-rank witness sets in internal ZF. -/
 

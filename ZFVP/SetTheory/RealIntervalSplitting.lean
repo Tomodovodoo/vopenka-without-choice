@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RealMeasurableAlgebra
+module
+
+public import ZFVP.SetTheory.RealMeasurableAlgebra
+
+@[expose] public section
 
 /-! Splitting genuine intervals at a rational point, with one positive padding cost. -/
 

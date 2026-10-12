@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingSaturatedName
-import ZFVP.SetTheory.AtomicForcingSubstitution
+module
+
+public import ZFVP.SetTheory.ForcingSaturatedName
+public import ZFVP.SetTheory.AtomicForcingSubstitution
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

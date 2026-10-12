@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlFiniteSpecialization
-import ZFVP.ModelTheory.SchmerlBranchMarkers
+module
+
+public import ZFVP.ModelTheory.SchmerlFiniteSpecialization
+public import ZFVP.ModelTheory.SchmerlBranchMarkers
+
+@[expose] public section
 
 /-! The ordinary finite strict-specialization forcing used on the Aronszajn
 core of Baumgartner's reduction. This differs from the finite weak-coloring

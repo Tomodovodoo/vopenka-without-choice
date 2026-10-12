@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.RankBerkeleyDescent
-import ZFVP.ModelTheory.TransitiveModelGodel
+module
+
+public import ZFVP.ModelTheory.RankBerkeleyDescent
+public import ZFVP.ModelTheory.TransitiveModelGodel
+
+@[expose] public section
 
 /-! Consistency of adjoining the absence of nonzero rank-Berkeley cardinals to ZF+VP. -/
 

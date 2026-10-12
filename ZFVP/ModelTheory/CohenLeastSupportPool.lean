@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CohenOrbitFamily
-import ZFVP.SetTheory.CohenRepresentativePool
-import ZFVP.SetTheory.CohenStableRepresentativeSupport
+module
+
+public import ZFVP.ModelTheory.CohenOrbitFamily
+public import ZFVP.SetTheory.CohenRepresentativePool
+public import ZFVP.SetTheory.CohenStableRepresentativeSupport
+
+@[expose] public section
 
 namespace ZFVP
 

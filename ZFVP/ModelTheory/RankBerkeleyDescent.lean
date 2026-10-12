@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.RankBerkeley
-import ZFVP.ModelTheory.InternalProgramZFVPConsistency
-import ZFVP.ModelTheory.CodedZFVPExternal
+module
+
+public import ZFVP.SetTheory.RankBerkeley
+public import ZFVP.ModelTheory.InternalProgramZFVPConsistency
+public import ZFVP.ModelTheory.CodedZFVPExternal
+
+@[expose] public section
 
 /-! Rank-Berkeley descent and its arithmetic consistency implication, with nonzero explicit. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSourceRecursionExit
-import ZFVP.ModelTheory.WoodinSourceCodeCompatibility
+module
+
+public import ZFVP.ModelTheory.WoodinSourceRecursionExit
+public import ZFVP.ModelTheory.WoodinSourceCodeCompatibility
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]

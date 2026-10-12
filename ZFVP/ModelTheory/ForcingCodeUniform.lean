@@ -1,6 +1,10 @@
-import ZFVP.Syntax.FormulaNesting
-import ZFVP.ModelTheory.ForcingSuccessorDefinability
-import ZFVP.ModelTheory.ForcingLimitFormulas
+module
+
+public import ZFVP.Syntax.FormulaNesting
+public import ZFVP.ModelTheory.ForcingSuccessorDefinability
+public import ZFVP.ModelTheory.ForcingLimitFormulas
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

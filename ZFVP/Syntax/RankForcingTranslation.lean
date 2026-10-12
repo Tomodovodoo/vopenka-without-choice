@@ -1,5 +1,9 @@
-import ZFVP.Syntax.LevyForcingStepSemantics
-import ZFVP.SetTheory.CnAbsoluteness
+module
+
+public import ZFVP.Syntax.LevyForcingStepSemantics
+public import ZFVP.SetTheory.CnAbsoluteness
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

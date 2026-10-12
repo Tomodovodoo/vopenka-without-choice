@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.NaturalAddition
-import ZFVP.SetTheory.FiniteCardinalArithmetic
+module
+
+public import ZFVP.SetTheory.NaturalAddition
+public import ZFVP.SetTheory.FiniteCardinalArithmetic
+
+@[expose] public section
 
 /-! Natural addition as a definable relation: for naturals `m`, `j`, the sum `ordinalAdd m j` is
 the unique natural equinumerous with the tagged disjoint union `m ⊔ j`. This makes statements

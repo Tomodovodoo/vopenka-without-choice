@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.NameValue
+module
+
+public import ZFVP.SetTheory.NameValue
+
+@[expose] public section
 
 namespace ZFVP
 

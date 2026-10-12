@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SuccessorRankForcingElementarity
-import ZFVP.ModelTheory.SuccessorRankLiftDomain
-import ZFVP.ModelTheory.FiniteParameterElementarity
+module
+
+public import ZFVP.ModelTheory.SuccessorRankForcingElementarity
+public import ZFVP.ModelTheory.SuccessorRankLiftDomain
+public import ZFVP.ModelTheory.FiniteParameterElementarity
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

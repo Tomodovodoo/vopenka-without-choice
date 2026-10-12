@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.DeltaOneNameClosure
-import ZFVP.SetTheory.ForcingNames
+module
+
+public import ZFVP.SetTheory.DeltaOneNameClosure
+public import ZFVP.SetTheory.ForcingNames
+
+@[expose] public section
 
 /-! Forcing-name validity has uniform Sigma_1 and Pi_1 definitions. -/
 

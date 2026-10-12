@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.RankEnumerationInaccessible
-import ZFVP.SetTheory.InaccessibleFunctionClosure
-import ZFVP.SetTheory.WellOrderingChoice
-import ZFVP.ModelTheory.TransitiveZFValues
+module
+
+public import ZFVP.SetTheory.RankEnumerationInaccessible
+public import ZFVP.SetTheory.InaccessibleFunctionClosure
+public import ZFVP.SetTheory.WellOrderingChoice
+public import ZFVP.ModelTheory.TransitiveZFValues
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

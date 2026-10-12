@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingIterationCode
-import ZFVP.ModelTheory.ForcingIsomorphismFormula
+module
+
+public import ZFVP.SetTheory.ForcingIterationCode
+public import ZFVP.ModelTheory.ForcingIsomorphismFormula
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

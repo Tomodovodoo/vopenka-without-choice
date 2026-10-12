@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ForcingBoundInitial
+module
+
+public import ZFVP.SetTheory.ForcingBoundInitial
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

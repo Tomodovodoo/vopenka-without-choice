@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.EquivalentSuborderGeneric
+module
+
+public import ZFVP.ModelTheory.EquivalentSuborderGeneric
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

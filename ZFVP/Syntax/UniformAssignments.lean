@@ -1,5 +1,9 @@
-import ZFVP.Syntax.Assignments
-import ZFVP.SetTheory.UniformNumerals
+module
+
+public import ZFVP.Syntax.Assignments
+public import ZFVP.SetTheory.UniformNumerals
+
+@[expose] public section
 
 /-! Shared parameter-free formulas for extending bound assignments. -/
 

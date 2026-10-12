@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SymmetricRankWitnesses
-import ZFVP.SetTheory.RankWitnessStructures
+module
+
+public import ZFVP.ModelTheory.SymmetricRankWitnesses
+public import ZFVP.SetTheory.RankWitnessStructures
+
+@[expose] public section
 
 /-! Apply ground-model VP to the canonical family of symmetric value-rank witnesses. -/
 

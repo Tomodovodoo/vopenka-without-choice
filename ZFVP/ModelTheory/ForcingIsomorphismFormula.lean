@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.AtomicMembership
-import ZFVP.SetTheory.ForcingQuantifiers
-import ZFVP.SetTheory.ClassFormulaForcingAction
-import ZFVP.SetTheory.FormulaForcing
-import ZFVP.ModelTheory.ForcingIsomorphismTransport
+module
+
+public import ZFVP.SetTheory.AtomicMembership
+public import ZFVP.SetTheory.ForcingQuantifiers
+public import ZFVP.SetTheory.ClassFormulaForcingAction
+public import ZFVP.SetTheory.FormulaForcing
+public import ZFVP.ModelTheory.ForcingIsomorphismTransport
+
+@[expose] public section
 
 namespace ZFVP
 

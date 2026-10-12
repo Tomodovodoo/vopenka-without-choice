@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.NaturalFormulaDecoder
+module
+
+public import ZFVP.ModelTheory.NaturalFormulaDecoder
+
+@[expose] public section
 
 /-! Constructor equations for the natural-number formula decoder at every internal input. -/
 

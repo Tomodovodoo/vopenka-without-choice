@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ProjectionQuotientTower
-import ZFVP.ModelTheory.ForcedSequenceBounds
-import ZFVP.SetTheory.ElementaryDependentChoice
-import ZFVP.SetTheory.ForcingSeparativeOrder
+module
+
+public import ZFVP.ModelTheory.ProjectionQuotientTower
+public import ZFVP.ModelTheory.ForcedSequenceBounds
+public import ZFVP.SetTheory.ElementaryDependentChoice
+public import ZFVP.SetTheory.ForcingSeparativeOrder
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

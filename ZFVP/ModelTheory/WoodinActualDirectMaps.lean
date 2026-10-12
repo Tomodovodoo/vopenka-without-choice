@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinRecodedDirect
-import ZFVP.ModelTheory.ForcingThreadSpliceTransport
+module
+
+public import ZFVP.ModelTheory.WoodinRecodedDirect
+public import ZFVP.ModelTheory.ForcingThreadSpliceTransport
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

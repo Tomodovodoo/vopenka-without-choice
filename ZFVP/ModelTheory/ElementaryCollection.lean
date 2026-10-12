@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.DirectedElementaryUnion
-import ZFVP.Syntax.MembershipSwap
+module
+
+public import ZFVP.ModelTheory.DirectedElementaryUnion
+public import ZFVP.Syntax.MembershipSwap
+
+@[expose] public section
 
 /-! Reflecting witnesses and Collection through a transitive elementary submodel. -/
 

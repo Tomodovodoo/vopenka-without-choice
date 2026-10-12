@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.EmbeddingStructureAction
-import ZFVP.ModelTheory.CriticalPoint
+module
+
+public import ZFVP.ModelTheory.EmbeddingStructureAction
+public import ZFVP.ModelTheory.CriticalPoint
+
+@[expose] public section
 
 /-! Full internal elementarity in arbitrary coded languages below the critical point. -/
 

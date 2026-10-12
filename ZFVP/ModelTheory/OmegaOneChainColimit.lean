@@ -1,7 +1,11 @@
-import Mathlib.SetTheory.Cardinal.Arithmetic
-import Mathlib.SetTheory.Cardinal.Regular
-import ZFVP.ModelTheory.ElementaryChain
-import ZFVP.SetTheory.DiamondOmegaOne
+module
+
+public import Mathlib.SetTheory.Cardinal.Arithmetic
+public import Mathlib.SetTheory.Cardinal.Regular
+public import ZFVP.ModelTheory.ElementaryChain
+public import ZFVP.SetTheory.DiamondOmegaOne
+
+@[expose] public section
 
 /-! Cardinality of the colimit of an ω₁-chain of countable models.
 

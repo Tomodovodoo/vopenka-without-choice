@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ElementaryDefined
-import Foundation.FirstOrder.SetTheory.LoewenheimSkolem
+module
+
+public import ZFVP.SetTheory.ElementaryDefined
+public import Foundation.FirstOrder.SetTheory.LoewenheimSkolem
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedFixedPoints
-import ZFVP.Syntax.CodingSupportSyntax
+module
+
+public import ZFVP.Syntax.BoundedFixedPoints
+public import ZFVP.Syntax.CodingSupportSyntax
+
+@[expose] public section
 
 /-! Local constructor rules and fixed-point uniqueness for Levy extensions. -/
 

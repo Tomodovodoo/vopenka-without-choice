@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ActionSelectedUnionEmpty
-import ZFVP.ModelTheory.WoodinUniformTailSupport
+module
+
+public import ZFVP.ModelTheory.ActionSelectedUnionEmpty
+public import ZFVP.ModelTheory.WoodinUniformTailSupport
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

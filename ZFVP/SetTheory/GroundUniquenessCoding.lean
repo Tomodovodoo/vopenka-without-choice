@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.GroundUniqueness
-import ZFVP.SetTheory.SetCodes
-import ZFVP.SetTheory.HartogsBound
+module
+
+public import ZFVP.SetTheory.GroundUniqueness
+public import ZFVP.SetTheory.SetCodes
+public import ZFVP.SetTheory.HartogsBound
+
+@[expose] public section
 
 /-! Laver's ground-model uniqueness lemma (Reitz, "The ground axiom", Lemma 6.2), steps 2 and 3.
 

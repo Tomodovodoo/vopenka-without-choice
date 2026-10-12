@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.WoodinCommonLiftProjection
-import ZFVP.ModelTheory.WoodinSuccessorLiftCoordinates
-import ZFVP.ModelTheory.WoodinSelectedThreadDecision
-import ZFVP.ModelTheory.WoodinBoundNormalization
-import ZFVP.ModelTheory.NormalizedUnionStrongerBound
+module
+
+public import ZFVP.ModelTheory.WoodinCommonLiftProjection
+public import ZFVP.ModelTheory.WoodinSuccessorLiftCoordinates
+public import ZFVP.ModelTheory.WoodinSelectedThreadDecision
+public import ZFVP.ModelTheory.WoodinBoundNormalization
+public import ZFVP.ModelTheory.NormalizedUnionStrongerBound
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

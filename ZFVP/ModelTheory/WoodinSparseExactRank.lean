@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseOwnRankLower
-import ZFVP.ModelTheory.WoodinSparseDirectRecovery
+module
+
+public import ZFVP.ModelTheory.WoodinSparseOwnRankLower
+public import ZFVP.ModelTheory.WoodinSparseDirectRecovery
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

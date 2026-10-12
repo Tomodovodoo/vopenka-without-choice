@@ -1,6 +1,10 @@
-import ZFVP.Syntax.FormulaSubstitutionDefinability
-import ZFVP.Syntax.UniformSubstitutionStates
-import ZFVP.Syntax.UniformSubformulas
+module
+
+public import ZFVP.Syntax.FormulaSubstitutionDefinability
+public import ZFVP.Syntax.UniformSubstitutionStates
+public import ZFVP.Syntax.UniformSubformulas
+
+@[expose] public section
 
 /-! A shared parameter-free dictionary for the full internal formula substitution graph. -/
 

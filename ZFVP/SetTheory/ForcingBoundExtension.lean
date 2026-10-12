@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CoherentForcingBounds
-import ZFVP.SetTheory.CompositionLaws
+module
+
+public import ZFVP.SetTheory.CoherentForcingBounds
+public import ZFVP.SetTheory.CompositionLaws
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

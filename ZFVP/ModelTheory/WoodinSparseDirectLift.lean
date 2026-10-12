@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseThreadLift
-import ZFVP.ModelTheory.WoodinRecodedDirectLift
-import ZFVP.ModelTheory.WoodinSparseDirectColumns
+module
+
+public import ZFVP.ModelTheory.WoodinSparseThreadLift
+public import ZFVP.ModelTheory.WoodinRecodedDirectLift
+public import ZFVP.ModelTheory.WoodinSparseDirectColumns
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

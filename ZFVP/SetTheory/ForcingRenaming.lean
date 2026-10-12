@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ClassForcingCongruence
+module
+
+public import ZFVP.SetTheory.ClassForcingCongruence
+
+@[expose] public section
 
 namespace ZFVP
 

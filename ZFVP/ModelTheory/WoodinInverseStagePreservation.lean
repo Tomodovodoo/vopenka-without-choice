@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinLimitSingular
-import ZFVP.ModelTheory.SingularLimitStageTransfer
-import ZFVP.ModelTheory.WoodinInverseIteration
-import ZFVP.ModelTheory.IterationQuotientClosure
+module
+
+public import ZFVP.ModelTheory.WoodinLimitSingular
+public import ZFVP.ModelTheory.SingularLimitStageTransfer
+public import ZFVP.ModelTheory.WoodinInverseIteration
+public import ZFVP.ModelTheory.IterationQuotientClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

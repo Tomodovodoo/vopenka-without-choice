@@ -1,5 +1,9 @@
-import ZFVP.Syntax.EndExtensionFormulaCodes
-import ZFVP.Syntax.GeneratedFormulas
+module
+
+public import ZFVP.Syntax.EndExtensionFormulaCodes
+public import ZFVP.Syntax.GeneratedFormulas
+
+@[expose] public section
 
 /-! Complete formula families agree across arbitrary ZF membership end extensions. -/
 

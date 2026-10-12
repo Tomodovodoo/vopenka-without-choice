@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlInfinitaryClassSentence
-import ZFVP.ModelTheory.SchmerlInfinitaryFunctionSentence
-import ZFVP.ModelTheory.NoConservativeEndExtension
+module
+
+public import ZFVP.ModelTheory.SchmerlInfinitaryClassSentence
+public import ZFVP.ModelTheory.SchmerlInfinitaryFunctionSentence
+public import ZFVP.ModelTheory.NoConservativeEndExtension
+
+@[expose] public section
 
 /-! A fixed countable language and one infinitary sentence whose ZF reducts
 are dead ends. This proves the reduct direction; satisfiability and downward

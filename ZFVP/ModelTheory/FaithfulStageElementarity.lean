@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ElementaryStageSatisfaction
-import ZFVP.ModelTheory.FiniteParameterElementarity
-import ZFVP.Syntax.EndExtensionFoundationEncoding
+module
+
+public import ZFVP.ModelTheory.ElementaryStageSatisfaction
+public import ZFVP.ModelTheory.FiniteParameterElementarity
+public import ZFVP.Syntax.EndExtensionFoundationEncoding
+
+@[expose] public section
 
 /-! A full pullback satisfaction class gives an actual elementary map into its rank stage. -/
 namespace ZFVP

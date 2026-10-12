@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.TwoMarkerMembership
-import ZFVP.SetTheory.VopenkaZFRanks
-import ZFVP.SetTheory.LeastRankWitnesses
-import ZFVP.SetTheory.NaturalAddition
+module
+
+public import ZFVP.ModelTheory.TwoMarkerMembership
+public import ZFVP.SetTheory.VopenkaZFRanks
+public import ZFVP.SetTheory.LeastRankWitnesses
+public import ZFVP.SetTheory.NaturalAddition
+
+@[expose] public section
 
 /-! Canonical expanded ZF rank structures for an unbounded ordinal witness relation. -/
 

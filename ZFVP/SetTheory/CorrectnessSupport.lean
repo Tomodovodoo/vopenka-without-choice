@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CodedCorrectness
+module
+
+public import ZFVP.SetTheory.CodedCorrectness
+
+@[expose] public section
 
 /-! Coded Sigma correctness supplies the support closure needed by the recursive definitions. -/
 

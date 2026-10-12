@@ -1,6 +1,10 @@
-import ZFVP.Syntax.EndExtensionMembershipPreimages
-import ZFVP.Syntax.PiOneBoundedCodes
-import ZFVP.SetTheory.EndExtensionLevy
+module
+
+public import ZFVP.Syntax.EndExtensionMembershipPreimages
+public import ZFVP.Syntax.PiOneBoundedCodes
+public import ZFVP.SetTheory.EndExtensionLevy
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

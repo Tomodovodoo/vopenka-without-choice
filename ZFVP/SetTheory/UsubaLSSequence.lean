@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.LowenheimSkolemCardinals
-import ZFVP.SetTheory.OrdinalClosureSequence
-import ZFVP.SetTheory.LeastOrdinalChoice
+module
+
+public import ZFVP.SetTheory.LowenheimSkolemCardinals
+public import ZFVP.SetTheory.OrdinalClosureSequence
+public import ZFVP.SetTheory.LeastOrdinalChoice
+
+@[expose] public section
 
 /-! Definable targets for the collapse iteration in Usuba Corollary 4.8.
 At each stage take the least LS cardinal above the seed and the supremum

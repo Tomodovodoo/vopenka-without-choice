@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.RubinBlockLemmas
-import ZFVP.ModelTheory.RubinStageOmitting
+module
+
+public import ZFVP.ModelTheory.RubinBlockLemmas
+public import ZFVP.ModelTheory.RubinStageOmitting
+
+@[expose] public section
 
 /-! # Enayat's Lemma A.5
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.FiniteRankLift
-import ZFVP.ModelTheory.EmbeddingAssignments
+module
+
+public import ZFVP.ModelTheory.FiniteRankLift
+public import ZFVP.ModelTheory.EmbeddingAssignments
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

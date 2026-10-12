@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CodedElementaryEmbedding
-import ZFVP.ModelTheory.FiniteParameterElementarity
+module
+
+public import ZFVP.ModelTheory.CodedElementaryEmbedding
+public import ZFVP.ModelTheory.FiniteParameterElementarity
+
+@[expose] public section
 
 /-! Internal elementary graphs induce elementary maps on the represented external structures. -/
 

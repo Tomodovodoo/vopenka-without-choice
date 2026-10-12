@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.FiniteRankLiftExtension
-import ZFVP.ModelTheory.FiniteRankLiftChecks
-import ZFVP.ModelTheory.WoodinSparseMarkedNameCoverage
+module
+
+public import ZFVP.ModelTheory.FiniteRankLiftExtension
+public import ZFVP.ModelTheory.FiniteRankLiftChecks
+public import ZFVP.ModelTheory.WoodinSparseMarkedNameCoverage
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

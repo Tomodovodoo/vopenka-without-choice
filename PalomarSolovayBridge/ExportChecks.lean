@@ -1,4 +1,8 @@
-import PalomarSolovayBridge.TheoremSolovay
+module
+
+public import PalomarSolovayBridge.TheoremSolovay
+
+@[expose] public section
 #print axioms PalomarSolovayBridge.recValue_eq
 #print axioms PalomarSolovayBridge.natAdd_eq
 #print axioms PalomarSolovayBridge.natMul_eq

@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramListLength
+module
+
+public import ZFVP.Syntax.PrimitiveProgramListLength
+
+@[expose] public section
 
 /-! Extensionality of all internal natural-number list codes. -/
 

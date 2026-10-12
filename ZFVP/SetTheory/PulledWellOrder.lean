@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.InternalOrderType
-import ZFVP.SetTheory.Hartogs
+module
+
+public import ZFVP.SetTheory.InternalOrderType
+public import ZFVP.SetTheory.Hartogs
+
+@[expose] public section
 
 /-! Pulling a well-order back along an injective definable map, and two facts about infinite
 initial ordinals: `succ μ ≤# μ` for infinite `μ`, and initial infinite ordinals are closed under

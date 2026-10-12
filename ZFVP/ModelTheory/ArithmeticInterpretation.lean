@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.NaturalMultiplication
-import ZFVP.SetTheory.BoundedNaturals
-import Foundation.FirstOrder.Interpretation
-import Foundation.FirstOrder.Arithmetic.Basic.Model
+module
+
+public import ZFVP.SetTheory.NaturalMultiplication
+public import ZFVP.SetTheory.BoundedNaturals
+public import Foundation.FirstOrder.Interpretation
+public import Foundation.FirstOrder.Arithmetic.Basic.Model
+
+@[expose] public section
 
 /-! A uniform interpretation of arithmetic in the whole omega of a ZF model. -/
 

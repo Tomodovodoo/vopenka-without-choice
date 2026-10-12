@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CantorSpace
+module
+
+public import ZFVP.SetTheory.CantorSpace
+
+@[expose] public section
 
 /-! Lebesgue null sets and Lebesgue measurability on the Cantor space, without real
 arithmetic: the measure of a finite union of basic open sets is compared with `2^{-m}` by

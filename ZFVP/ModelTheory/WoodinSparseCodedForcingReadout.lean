@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseCodedForcingFormula
+module
+
+public import ZFVP.ModelTheory.WoodinSparseCodedForcingFormula
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

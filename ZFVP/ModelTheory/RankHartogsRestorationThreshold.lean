@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.RankHartogsRestorationForcingCountable
-import ZFVP.ModelTheory.HartogsRestorationForcingAgreement
-import ZFVP.SetTheory.BoundedDomainParameters
+module
+
+public import ZFVP.ModelTheory.RankHartogsRestorationForcingCountable
+public import ZFVP.ModelTheory.HartogsRestorationForcingAgreement
+public import ZFVP.SetTheory.BoundedDomainParameters
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

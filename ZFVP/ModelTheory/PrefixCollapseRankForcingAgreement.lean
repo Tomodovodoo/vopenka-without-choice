@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.PrefixCollapseRankDCThreshold
-import ZFVP.ModelTheory.TwoStepRankDCForcingAgreement
+module
+
+public import ZFVP.ModelTheory.PrefixCollapseRankDCThreshold
+public import ZFVP.ModelTheory.TwoStepRankDCForcingAgreement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingQuotientNames
-import ZFVP.SetTheory.ForcingSelectedName
+module
+
+public import ZFVP.ModelTheory.ForcingQuotientNames
+public import ZFVP.SetTheory.ForcingSelectedName
+
+@[expose] public section
 
 namespace ZFVP
 

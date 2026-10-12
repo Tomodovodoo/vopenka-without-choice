@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.StageObligations
-import ZFVP.ModelTheory.StageSuccessor
+module
+
+public import ZFVP.ModelTheory.StageObligations
+public import ZFVP.ModelTheory.StageSuccessor
+
+@[expose] public section
 
 /-! # The successor step with all definable directed sets at once
 

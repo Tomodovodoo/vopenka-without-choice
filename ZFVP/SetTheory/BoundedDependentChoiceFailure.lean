@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BoundedDependentChoicePath
+module
+
+public import ZFVP.SetTheory.BoundedDependentChoicePath
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryAdequateOmegaOneHistory
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateOmegaOneHistory
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.DeltaOneTwoStepConditions
-import ZFVP.ModelTheory.DeltaOneSuccessorMaps
-import ZFVP.ModelTheory.ForcingInverseTwoStepUniform
-import ZFVP.SetTheory.DeltaOneRelationComposition
+module
+
+public import ZFVP.ModelTheory.DeltaOneTwoStepConditions
+public import ZFVP.ModelTheory.DeltaOneSuccessorMaps
+public import ZFVP.ModelTheory.ForcingInverseTwoStepUniform
+public import ZFVP.SetTheory.DeltaOneRelationComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

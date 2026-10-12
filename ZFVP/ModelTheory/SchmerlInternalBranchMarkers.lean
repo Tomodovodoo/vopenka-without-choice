@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalBranchNames
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalBranchNames
+
+@[expose] public section
 
 /-! Separated branch markers constructed as an internal function. All initial
 families, choices, rank bounds, and recursion histories are internal sets. -/

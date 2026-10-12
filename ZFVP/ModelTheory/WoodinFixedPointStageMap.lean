@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinFixedPointDirect
-import ZFVP.ModelTheory.WoodinStageNameCoding
+module
+
+public import ZFVP.ModelTheory.WoodinFixedPointDirect
+public import ZFVP.ModelTheory.WoodinStageNameCoding
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

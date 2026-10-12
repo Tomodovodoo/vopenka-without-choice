@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ClassForcingTowerGeneric
-import ZFVP.ModelTheory.ClassForcingTowerSplitProjection
-import ZFVP.ModelTheory.ProjectionNameTransport
-import ZFVP.ModelTheory.TwoStepInclusion
+module
+
+public import ZFVP.ModelTheory.ClassForcingTowerGeneric
+public import ZFVP.ModelTheory.ClassForcingTowerSplitProjection
+public import ZFVP.ModelTheory.ProjectionNameTransport
+public import ZFVP.ModelTheory.TwoStepInclusion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

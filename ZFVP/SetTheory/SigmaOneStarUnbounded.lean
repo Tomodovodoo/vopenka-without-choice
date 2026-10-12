@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.SigmaOneStarCorrectness
-import ZFVP.SetTheory.CnAbsoluteness
-import ZFVP.SetTheory.LevyComplexityBound
+module
+
+public import ZFVP.SetTheory.SigmaOneStarCorrectness
+public import ZFVP.SetTheory.CnAbsoluteness
+public import ZFVP.SetTheory.LevyComplexityBound
+
+@[expose] public section
 
 /-! The strengthened Sigma-one-correct ranks are unbounded. A single
 finite correctness bound suffices for their internal witness predicate. -/

@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.WoodinCollapseDense
-import ZFVP.ModelTheory.ForcingQuotientGeneric
-import ZFVP.ModelTheory.ForcingModelChecks
-import ZFVP.SetTheory.EndExtensionWellOrdering
-import ZFVP.SetTheory.RegularOrdinalAddition
+module
+
+public import ZFVP.SetTheory.WoodinCollapseDense
+public import ZFVP.ModelTheory.ForcingQuotientGeneric
+public import ZFVP.ModelTheory.ForcingModelChecks
+public import ZFVP.SetTheory.EndExtensionWellOrdering
+public import ZFVP.SetTheory.RegularOrdinalAddition
+
+@[expose] public section
 
 namespace ZFVP
 

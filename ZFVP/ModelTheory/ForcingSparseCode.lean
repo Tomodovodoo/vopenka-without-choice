@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingMinimalSupportCodes
-import ZFVP.ModelTheory.ForcingCodeConstructionUniform
-import ZFVP.ModelTheory.ForcingIsomorphismComposition
+module
+
+public import ZFVP.SetTheory.ForcingMinimalSupportCodes
+public import ZFVP.ModelTheory.ForcingCodeConstructionUniform
+public import ZFVP.ModelTheory.ForcingIsomorphismComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

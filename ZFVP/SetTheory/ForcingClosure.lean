@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingRegular
-import ZFVP.SetTheory.OrdinalDependentChoice
+module
+
+public import ZFVP.SetTheory.ForcingRegular
+public import ZFVP.SetTheory.OrdinalDependentChoice
+
+@[expose] public section
 
 /-! Closure and intersections of dense open sets, with the required
 ordinal instance of dependent choice stated explicitly. -/

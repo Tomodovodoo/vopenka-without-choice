@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.CohenBridgeLemmas
-import ZFVP.ModelTheory.LevyCollapseReals
-import ZFVP.ModelTheory.LevyCollapseSubmodel
-import ZFVP.SetTheory.StandardNaturals
-import ZFVP.SetTheory.EndExtensionSets
-import ZFVP.ModelTheory.GroundRealsHOD
+module
+
+public import ZFVP.ModelTheory.CohenBridgeLemmas
+public import ZFVP.ModelTheory.LevyCollapseReals
+public import ZFVP.ModelTheory.LevyCollapseSubmodel
+public import ZFVP.SetTheory.StandardNaturals
+public import ZFVP.SetTheory.EndExtensionSets
+public import ZFVP.ModelTheory.GroundRealsHOD
+
+@[expose] public section
 
 /-! A Cohen real of the Levy extension lies in a bounded stage `V[G_ξ]`, and its finite initial
 segments there form a filter on the checked Cohen poset which meets every ground dense set and

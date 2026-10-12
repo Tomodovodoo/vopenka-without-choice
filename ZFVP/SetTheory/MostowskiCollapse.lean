@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.WellFoundedRecursion
+module
+
+public import ZFVP.SetTheory.WellFoundedRecursion
+
+@[expose] public section
 
 /-! Mostowski collapse for internal extensional well-founded set relations.
 Well-foundedness is tested on internal subsets; no external well-foundedness

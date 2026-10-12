@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.DenseEmbeddingComposition
+module
+
+public import ZFVP.SetTheory.DenseEmbeddingComposition
+
+@[expose] public section
 
 /-! Dense embeddings of the first factor of a product, and associativity of products as a dense
 embedding (an isomorphism). -/

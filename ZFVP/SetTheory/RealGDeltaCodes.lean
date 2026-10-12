@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RealCoverExistence
+module
+
+public import ZFVP.SetTheory.RealCoverExistence
+
+@[expose] public section
 
 /-! Actual real G-delta codes and null-excess envelopes. -/
 

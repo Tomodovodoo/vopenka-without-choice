@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WellOrderedCardinal
-import ZFVP.SetTheory.HartogsDictionary
+module
+
+public import ZFVP.SetTheory.WellOrderedCardinal
+public import ZFVP.SetTheory.HartogsDictionary
+
+@[expose] public section
 
 /-! The cardinal dictionary retains the well-orderability guard on its total operation. -/
 

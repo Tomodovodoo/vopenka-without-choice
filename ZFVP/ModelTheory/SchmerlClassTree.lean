@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlDefinableBranchBound
-import ZFVP.SetTheory.Rank
+module
+
+public import ZFVP.ModelTheory.SchmerlDefinableBranchBound
+public import ZFVP.SetTheory.Rank
+
+@[expose] public section
 
 /-! Keisler's class tree in an arbitrary (possibly ill-founded) model of ZF.
 Its rank order is the model's external order of ordinals. This supplies the

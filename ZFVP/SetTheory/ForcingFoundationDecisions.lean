@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.AtomicForcingSubstitution
-import ZFVP.SetTheory.ForcingNames
+module
+
+public import ZFVP.SetTheory.AtomicForcingSubstitution
+public import ZFVP.SetTheory.ForcingNames
+
+@[expose] public section
 
 namespace ZFVP
 

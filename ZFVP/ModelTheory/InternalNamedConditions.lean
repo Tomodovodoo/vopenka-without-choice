@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.InternalNamedCompleteTheory
-import ZFVP.ModelTheory.InternalHenkinSourceNames
-import ZFVP.SetTheory.FiniteNaturalSets
-import ZFVP.SetTheory.FinitePartialFunctions
-import ZFVP.SetTheory.SchroederBernstein
+module
+
+public import ZFVP.ModelTheory.InternalNamedCompleteTheory
+public import ZFVP.ModelTheory.InternalHenkinSourceNames
+public import ZFVP.SetTheory.FiniteNaturalSets
+public import ZFVP.SetTheory.FinitePartialFunctions
+public import ZFVP.SetTheory.SchroederBernstein
+
+@[expose] public section
 
 /-! The actual countable poset of finite named requirements and its decision
 dense sets. Unused names are obtained from a sparse naming of the background. -/

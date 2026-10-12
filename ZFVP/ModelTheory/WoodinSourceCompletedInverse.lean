@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingIsomorphismCanonicalTwoStep
-import ZFVP.ModelTheory.WoodinSourceCardinalLimit
+module
+
+public import ZFVP.ModelTheory.ForcingIsomorphismCanonicalTwoStep
+public import ZFVP.ModelTheory.WoodinSourceCardinalLimit
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.MonotoneCofinality
-import ZFVP.SetTheory.LeastOrdinalChoice
+module
+
+public import ZFVP.SetTheory.MonotoneCofinality
+public import ZFVP.SetTheory.LeastOrdinalChoice
+
+@[expose] public section
 
 /-! A strictly increasing sequence cofinal in a limit ordinal has the
 same internal cofinality as its ordinal domain. The inverse comparison

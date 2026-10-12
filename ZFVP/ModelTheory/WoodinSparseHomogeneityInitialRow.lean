@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseHomogeneityBuilder
-import ZFVP.ModelTheory.CoherentAutomorphismWitnessRecursion
+module
+
+public import ZFVP.ModelTheory.WoodinSparseHomogeneityBuilder
+public import ZFVP.ModelTheory.CoherentAutomorphismWitnessRecursion
+
+@[expose] public section
 
 set_option maxHeartbeats 1000000
 

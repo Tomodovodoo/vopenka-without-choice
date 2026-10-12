@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RealCaratheodory
+module
+
+public import ZFVP.SetTheory.RealCaratheodory
+
+@[expose] public section
 
 /-! Finite algebra closure of the full real Carathéodory criterion. -/
 

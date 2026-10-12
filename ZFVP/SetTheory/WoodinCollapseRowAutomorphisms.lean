@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinCollapseHomogeneity
-import ZFVP.SetTheory.InternalTranspositions
+module
+
+public import ZFVP.SetTheory.WoodinCollapseHomogeneity
+public import ZFVP.SetTheory.InternalTranspositions
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

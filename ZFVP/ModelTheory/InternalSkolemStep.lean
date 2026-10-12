@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.DirectedElementaryAmbientUnion
-import ZFVP.SetTheory.NaturalClosureCardinality
-import ZFVP.SetTheory.FiniteCardinalArithmetic
-import ZFVP.SetTheory.WellOrderedSurjection
+module
+
+public import ZFVP.ModelTheory.DirectedElementaryAmbientUnion
+public import ZFVP.SetTheory.NaturalClosureCardinality
+public import ZFVP.SetTheory.FiniteCardinalArithmetic
+public import ZFVP.SetTheory.WellOrderedSurjection
+
+@[expose] public section
 
 /-! A well-order-selected witness operation for internal membership formulas. -/
 

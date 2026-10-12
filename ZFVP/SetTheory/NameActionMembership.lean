@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.SymmetryAction
+module
+
+public import ZFVP.SetTheory.SymmetryAction
+
+@[expose] public section
 
 namespace ZFVP
 

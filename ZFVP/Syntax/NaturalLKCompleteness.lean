@@ -1,4 +1,8 @@
-import ZFVP.Syntax.NaturalLKCertificate
+module
+
+public import ZFVP.Syntax.NaturalLKCertificate
+
+@[expose] public section
 
 /-! The finite certificate checker accepts exactly the derivable LK sequents. -/
 

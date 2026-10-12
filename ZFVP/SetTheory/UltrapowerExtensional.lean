@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.UltrapowerBase
-import ZFVP.SetTheory.InternalChoice
+module
+
+public import ZFVP.SetTheory.UltrapowerBase
+public import ZFVP.SetTheory.InternalChoice
+
+@[expose] public section
 
 /-! Extensionality for the internal ultrapower. If two functions from the index set into a
 transitive set have the same almost everywhere members among all such functions, then they are

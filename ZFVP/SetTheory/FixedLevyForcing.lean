@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.SameLevelForcing
+module
+
+public import ZFVP.SetTheory.SameLevelForcing
+
+@[expose] public section
 
 /-! A forcing compiler whose input is finite syntax and a finite derivation.
 No interpreted structure occurs in the definition of the output formula. -/

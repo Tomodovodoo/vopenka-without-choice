@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinRecodedRank
-import ZFVP.ModelTheory.SparseNormalizedTwoStep
-import ZFVP.SetTheory.WoodinSourceIndex
-import ZFVP.ModelTheory.WoodinLimitCardinals
+module
+
+public import ZFVP.ModelTheory.WoodinRecodedRank
+public import ZFVP.ModelTheory.SparseNormalizedTwoStep
+public import ZFVP.SetTheory.WoodinSourceIndex
+public import ZFVP.ModelTheory.WoodinLimitCardinals
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

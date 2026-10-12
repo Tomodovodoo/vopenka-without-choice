@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalArithmeticModel
-import ZFVP.SetTheory.NaturalArithmeticOrder
-import Foundation.FirstOrder.Arithmetic.PeanoMinus.Basic
+module
+
+public import ZFVP.ModelTheory.InternalArithmeticModel
+public import ZFVP.SetTheory.NaturalArithmeticOrder
+public import Foundation.FirstOrder.Arithmetic.PeanoMinus.Basic
+
+@[expose] public section
 
 /-! ZF's internal omega satisfies all axioms of arithmetic without induction. -/
 

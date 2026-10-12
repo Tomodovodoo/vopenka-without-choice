@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryCountablyDirectedWeakStructure
+module
+
+public import ZFVP.ModelTheory.InfinitaryCountablyDirectedWeakStructure
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

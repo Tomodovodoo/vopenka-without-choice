@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedCodingPrimitives
-import ZFVP.SetTheory.FunctionComposition
+module
+
+public import ZFVP.SetTheory.BoundedCodingPrimitives
+public import ZFVP.SetTheory.FunctionComposition
+
+@[expose] public section
 
 /-! A bounded test for composition between typed function graphs. -/
 

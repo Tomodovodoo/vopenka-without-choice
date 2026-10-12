@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.IterationLimit
-import ZFVP.SetTheory.UniformRecursion
-import ZFVP.SetTheory.CardinalSmallUnions
+module
+
+public import ZFVP.SetTheory.IterationLimit
+public import ZFVP.SetTheory.UniformRecursion
+public import ZFVP.SetTheory.CardinalSmallUnions
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

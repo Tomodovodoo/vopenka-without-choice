@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryClosedFragmentTruth
+module
+
+public import ZFVP.ModelTheory.InfinitaryClosedFragmentTruth
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

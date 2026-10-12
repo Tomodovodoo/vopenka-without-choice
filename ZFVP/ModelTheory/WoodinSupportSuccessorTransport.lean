@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.NormalizedCanonicalTwoStep
-import ZFVP.ModelTheory.WoodinNormalizedSupport
-import ZFVP.ModelTheory.ForcingRetractionCutoff
-import ZFVP.ModelTheory.WoodinNormalizedSuccessorCanonical
+module
+
+public import ZFVP.ModelTheory.NormalizedCanonicalTwoStep
+public import ZFVP.ModelTheory.WoodinNormalizedSupport
+public import ZFVP.ModelTheory.ForcingRetractionCutoff
+public import ZFVP.ModelTheory.WoodinNormalizedSuccessorCanonical
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.PrefixCollapseRankForcingAgreement
-import ZFVP.ModelTheory.RankWoodinRestoration
+module
+
+public import ZFVP.ModelTheory.PrefixCollapseRankForcingAgreement
+public import ZFVP.ModelTheory.RankWoodinRestoration
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
@@ -46,7 +50,7 @@ theorem eventually_prefix_rank_localRestoration_iff_countable [Countable V]
     hnval ▸ (checkName (∅ : SetDomain (hierarchy ξ)) d).property
   have he := hall G hG ξ hβξ hξ hPξ hn
   have hl := rank_woodinLocalRestoration_iff hs k d hdOrd
-  rw [hk, hd] at hl
+  simp only [hk, hd] at hl
   change IsWoodinLocalRestoration k d ↔ ∀ p ∈ woodinCollapse (A.check κ) (A.check γ),
     p ∈ classForcingFormula (woodinCollapse (A.check κ) (A.check γ))
       (woodinCollapseOrder (A.check κ) (A.check γ))

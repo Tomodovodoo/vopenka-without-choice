@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TransitiveZFBoundedQuantifiers
-import ZFVP.ModelTheory.TransitiveZFValues
-import ZFVP.SetTheory.WoodinSuccessorCode
+module
+
+public import ZFVP.ModelTheory.TransitiveZFBoundedQuantifiers
+public import ZFVP.ModelTheory.TransitiveZFValues
+public import ZFVP.SetTheory.WoodinSuccessorCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

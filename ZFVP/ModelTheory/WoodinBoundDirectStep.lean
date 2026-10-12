@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinBoundInvariantSemantics
-import ZFVP.ModelTheory.WoodinDirectBoundMembership
-import ZFVP.ModelTheory.DirectLimitQuotientBound
+module
+
+public import ZFVP.ModelTheory.WoodinBoundInvariantSemantics
+public import ZFVP.ModelTheory.WoodinDirectBoundMembership
+public import ZFVP.ModelTheory.DirectLimitQuotientBound
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

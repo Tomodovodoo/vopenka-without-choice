@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ElementaryInclusionLaws
+module
+
+public import ZFVP.ModelTheory.ElementaryInclusionLaws
+
+@[expose] public section
 
 /-! Directed unions of internal elementary membership inclusions. -/
 

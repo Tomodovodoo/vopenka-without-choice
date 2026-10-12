@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SuccessorRankNameDomain
-import ZFVP.ModelTheory.TransitiveZFNames
-import ZFVP.ModelTheory.TransitiveZFRankOperations
-import ZFVP.ModelTheory.EndExtensionOpenModels
-import ZFVP.Syntax.EndExtensionInternalForcing
+module
+
+public import ZFVP.ModelTheory.SuccessorRankNameDomain
+public import ZFVP.ModelTheory.TransitiveZFNames
+public import ZFVP.ModelTheory.TransitiveZFRankOperations
+public import ZFVP.ModelTheory.EndExtensionOpenModels
+public import ZFVP.Syntax.EndExtensionInternalForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.UsubaCommonLiftInvariant
-import ZFVP.ModelTheory.UsubaSelectedDecision
-import ZFVP.ModelTheory.NormalizedUnionStrongerBound
+module
+
+public import ZFVP.ModelTheory.UsubaCommonLiftInvariant
+public import ZFVP.ModelTheory.UsubaSelectedDecision
+public import ZFVP.ModelTheory.NormalizedUnionStrongerBound
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

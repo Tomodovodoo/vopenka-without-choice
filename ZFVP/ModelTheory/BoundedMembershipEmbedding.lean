@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SigmaOneMembershipEmbedding
-import ZFVP.ModelTheory.SupportStageEmbeddingAction
+module
+
+public import ZFVP.ModelTheory.SigmaOneMembershipEmbedding
+public import ZFVP.ModelTheory.SupportStageEmbeddingAction
+
+@[expose] public section
 
 /-! A bounded formula for the coded membership embedding predicate, with a stage argument.
 

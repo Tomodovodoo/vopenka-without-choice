@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.WoodinBoundDefinability
-import ZFVP.ModelTheory.WoodinFixedBoundSteps
-import ZFVP.SetTheory.ForcingBoundBaseSteps
-import ZFVP.SetTheory.ForcingBoundRecursion
-import ZFVP.SetTheory.NaturalPredecessor
-import ZFVP.SetTheory.ForcingSystemDiagonal
+module
+
+public import ZFVP.ModelTheory.WoodinBoundDefinability
+public import ZFVP.ModelTheory.WoodinFixedBoundSteps
+public import ZFVP.SetTheory.ForcingBoundBaseSteps
+public import ZFVP.SetTheory.ForcingBoundRecursion
+public import ZFVP.SetTheory.NaturalPredecessor
+public import ZFVP.SetTheory.ForcingSystemDiagonal
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ProductForcingLemma
-import ZFVP.SetTheory.EndExtensionNameAction
-import ZFVP.SetTheory.NameValueAction
-import ZFVP.ModelTheory.LevyCollapseSubmodel
+module
+
+public import ZFVP.ModelTheory.ProductForcingLemma
+public import ZFVP.SetTheory.EndExtensionNameAction
+public import ZFVP.SetTheory.NameValueAction
+public import ZFVP.ModelTheory.LevyCollapseSubmodel
+
+@[expose] public section
 
 /-! The product factorization `V[G] ≃ V[G₁][G₂]` for a generic `G` on `P₁ × P₂`, over the
 ground model: names over `P₁` are lifted to the product along `p ↦ ⟨p, 1⟩`. -/

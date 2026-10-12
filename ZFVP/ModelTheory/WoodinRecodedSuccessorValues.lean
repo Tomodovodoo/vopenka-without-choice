@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinRecodedSuccessorNext
-import ZFVP.ModelTheory.WoodinActualSuccessorMaps
+module
+
+public import ZFVP.ModelTheory.WoodinRecodedSuccessorNext
+public import ZFVP.ModelTheory.WoodinActualSuccessorMaps
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

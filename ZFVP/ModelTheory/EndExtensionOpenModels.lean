@@ -1,6 +1,10 @@
-import ZFVP.Syntax.EndExtensionMembershipSatisfaction
-import ZFVP.Syntax.SigmaOneOpenModels
-import ZFVP.SetTheory.EndExtensionLevy
+module
+
+public import ZFVP.Syntax.EndExtensionMembershipSatisfaction
+public import ZFVP.Syntax.SigmaOneOpenModels
+public import ZFVP.SetTheory.EndExtensionLevy
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import PalomarDCBridge.Dictionary
+module
+
+public import PalomarDCBridge.Dictionary
+
+@[expose] public section
 
 namespace PalomarDCBridge
 open PalomarBridge LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.PiOneRankMarkerClass
-import ZFVP.SetTheory.VopenkaLevyClasses
-import ZFVP.ModelTheory.DeltaOneIndexedMarkerStructures
-import ZFVP.SetTheory.CorrectDomainReflection
-import ZFVP.Syntax.BoundedStandardTuples
+module
+
+public import ZFVP.SetTheory.PiOneRankMarkerClass
+public import ZFVP.SetTheory.VopenkaLevyClasses
+public import ZFVP.ModelTheory.DeltaOneIndexedMarkerStructures
+public import ZFVP.SetTheory.CorrectDomainReflection
+public import ZFVP.Syntax.BoundedStandardTuples
+
+@[expose] public section
 
 /-! Rank structures carrying two marked elements, and the embedding a Pi fragment of Vopenka's
 principle produces between two of them. -/

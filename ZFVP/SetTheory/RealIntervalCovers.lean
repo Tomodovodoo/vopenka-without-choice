@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RationalPartialSumOrder
-import ZFVP.SetTheory.RealRegularitySentences
+module
+
+public import ZFVP.SetTheory.RationalPartialSumOrder
+public import ZFVP.SetTheory.RealRegularitySentences
+
+@[expose] public section
 
 /-! Genuine rational interval covers and their internally finite length sums. -/
 

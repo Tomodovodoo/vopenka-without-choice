@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.CheckedSetCodes
-import ZFVP.ModelTheory.LevyGroundStageChoice
-import ZFVP.ModelTheory.LevyExtensionHartogs
-import ZFVP.SetTheory.GroundPredicate
+module
+
+public import ZFVP.ModelTheory.CheckedSetCodes
+public import ZFVP.ModelTheory.LevyGroundStageChoice
+public import ZFVP.ModelTheory.LevyExtensionHartogs
+public import ZFVP.SetTheory.GroundPredicate
+
+@[expose] public section
 
 /-! Laver's theorem for the Levy collapse: the ground model is definable from one parameter.
 

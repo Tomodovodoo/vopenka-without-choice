@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.UniformLeastRankNormalization
-import ZFVP.ModelTheory.NormalizedMapDefinability
-import ZFVP.SetTheory.UniformFunctionOperations
-import ZFVP.SetTheory.ForcingRetractionFixedPoints
+module
+
+public import ZFVP.ModelTheory.UniformLeastRankNormalization
+public import ZFVP.ModelTheory.NormalizedMapDefinability
+public import ZFVP.SetTheory.UniformFunctionOperations
+public import ZFVP.SetTheory.ForcingRetractionFixedPoints
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

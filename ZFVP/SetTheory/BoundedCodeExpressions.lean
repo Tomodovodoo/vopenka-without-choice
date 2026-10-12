@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BoundedCodingSupport
+module
+
+public import ZFVP.SetTheory.BoundedCodingSupport
+
+@[expose] public section
 
 /-! Finite constructor expressions have bounded relational definitions inside coding supports. -/
 

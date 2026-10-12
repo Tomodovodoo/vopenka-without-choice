@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.VopenkaScheme
-import ZFVP.SetTheory.MagidorSupercompact
-import ZFVP.SetTheory.DeltaOneRank
-import ZFVP.ModelTheory.GenericRankEmbeddingRestriction
-import ZFVP.ModelTheory.RankEmbeddingDictionary
+module
+
+public import ZFVP.SetTheory.VopenkaScheme
+public import ZFVP.SetTheory.MagidorSupercompact
+public import ZFVP.SetTheory.DeltaOneRank
+public import ZFVP.ModelTheory.GenericRankEmbeddingRestriction
+public import ZFVP.ModelTheory.RankEmbeddingDictionary
+
+@[expose] public section
 
 set_option maxHeartbeats 1000000
 set_option maxRecDepth 10000

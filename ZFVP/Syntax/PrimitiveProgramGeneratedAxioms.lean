@@ -1,6 +1,10 @@
-import ZFVP.Syntax.PrimitiveProgramTemplate
-import ZFVP.Syntax.PrimitiveProgramSyntaxChecks
-import ZFVP.Syntax.GeneratedAxiomEnumeration
+module
+
+public import ZFVP.Syntax.PrimitiveProgramTemplate
+public import ZFVP.Syntax.PrimitiveProgramSyntaxChecks
+public import ZFVP.Syntax.GeneratedAxiomEnumeration
+
+@[expose] public section
 
 /-! Explicit optional axiom generation from the fixed axioms and the three schema templates. -/
 

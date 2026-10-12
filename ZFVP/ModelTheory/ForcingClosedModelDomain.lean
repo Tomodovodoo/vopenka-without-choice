@@ -1,12 +1,16 @@
-import ZFVP.ModelTheory.ScottFunctionNames
-import ZFVP.ModelTheory.ForcingExtensionZF
-import ZFVP.ModelTheory.ForcingModelNameValue
-import ZFVP.SetTheory.BoundedDomainRelativization
-import ZFVP.SetTheory.DeltaOneForcingNames
-import ZFVP.SetTheory.EndExtensionLevy
-import ZFVP.ModelTheory.ForcingHierarchyCover
-import ZFVP.SetTheory.FunctionComposition
-import ZFVP.SetTheory.FunctionRestrictionClosure
+module
+
+public import ZFVP.ModelTheory.ScottFunctionNames
+public import ZFVP.ModelTheory.ForcingExtensionZF
+public import ZFVP.ModelTheory.ForcingModelNameValue
+public import ZFVP.SetTheory.BoundedDomainRelativization
+public import ZFVP.SetTheory.DeltaOneForcingNames
+public import ZFVP.SetTheory.EndExtensionLevy
+public import ZFVP.ModelTheory.ForcingHierarchyCover
+public import ZFVP.SetTheory.FunctionComposition
+public import ZFVP.SetTheory.FunctionRestrictionClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

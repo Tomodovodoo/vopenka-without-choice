@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.GenericFilterName
-import ZFVP.SetTheory.CantorSpace
+module
+
+public import ZFVP.ModelTheory.GenericFilterName
+public import ZFVP.SetTheory.CantorSpace
+
+@[expose] public section
 
 /-! The name of the generic real of Cohen forcing on finite binary sequences: the pairs `(ž, s)`
 for `z ∈ s`. Its value is the union of the generic filter, in any context whose poset is the set of

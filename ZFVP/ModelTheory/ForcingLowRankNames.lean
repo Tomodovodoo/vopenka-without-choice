@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ForcingNameHierarchyCn
-import ZFVP.ModelTheory.ForcingHierarchyEvaluation
-import ZFVP.ModelTheory.ForcingModelRank
-import ZFVP.SetTheory.ForcingNameHierarchyBound
+module
+
+public import ZFVP.SetTheory.ForcingNameHierarchyCn
+public import ZFVP.ModelTheory.ForcingHierarchyEvaluation
+public import ZFVP.ModelTheory.ForcingModelRank
+public import ZFVP.SetTheory.ForcingNameHierarchyBound
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

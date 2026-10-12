@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BoundedCodingPrimitives
+module
+
+public import ZFVP.SetTheory.BoundedCodingPrimitives
+
+@[expose] public section
 
 /-! A bounded relational definition of binary union. -/
 

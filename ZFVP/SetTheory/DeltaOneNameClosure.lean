@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BoundedNameClosure
+module
+
+public import ZFVP.SetTheory.BoundedNameClosure
+
+@[expose] public section
 
 /-! Sigma_1 and Pi_1 definitions of the full internal subname closure. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinSmallDCFailure
-import ZFVP.SetTheory.ChoicelessInaccessibleRank
+module
+
+public import ZFVP.SetTheory.WoodinSmallDCFailure
+public import ZFVP.SetTheory.ChoicelessInaccessibleRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

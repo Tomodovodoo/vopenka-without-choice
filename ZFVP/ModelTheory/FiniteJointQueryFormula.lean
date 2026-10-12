@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.FiniteJointNamingFormula
+module
+
+public import ZFVP.ModelTheory.FiniteJointNamingFormula
+
+@[expose] public section
 
 /-! The source argument of a query remains an outer bound variable while the
 finite assignment of names is existentially quantified. -/

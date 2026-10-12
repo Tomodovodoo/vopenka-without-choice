@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryAdequateGrowthSpace
-import ZFVP.ModelTheory.InfinitaryWeakOmegaChainSteps
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateGrowthSpace
+public import ZFVP.ModelTheory.InfinitaryWeakOmegaChainSteps
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ClassForcingTowerStageBoundedEquiv
-import ZFVP.ModelTheory.ClassForcingTowerZF
-import ZFVP.ModelTheory.ProjectionSubsetPreservation
+module
+
+public import ZFVP.ModelTheory.ClassForcingTowerStageBoundedEquiv
+public import ZFVP.ModelTheory.ClassForcingTowerZF
+public import ZFVP.ModelTheory.ProjectionSubsetPreservation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

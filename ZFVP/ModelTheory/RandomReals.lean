@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.NullCodes
-import ZFVP.ModelTheory.LevySmallSetLocalization
-import ZFVP.ModelTheory.PerfectSetDecision
-import ZFVP.ModelTheory.DecidedName
+module
+
+public import ZFVP.SetTheory.NullCodes
+public import ZFVP.ModelTheory.LevySmallSetLocalization
+public import ZFVP.ModelTheory.PerfectSetDecision
+public import ZFVP.ModelTheory.DecidedName
+
+@[expose] public section
 
 /-! Random reals over the ground model in the Levy extension: a real is random if it avoids every
 ground-coded null set. The non-random reals form a null set, and a random real determines a

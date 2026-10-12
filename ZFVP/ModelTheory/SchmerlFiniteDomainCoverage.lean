@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInfinitaryFiniteSmall
-import ZFVP.ModelTheory.MaximallyCompatibleFilters
+module
+
+public import ZFVP.ModelTheory.SchmerlInfinitaryFiniteSmall
+public import ZFVP.ModelTheory.MaximallyCompatibleFilters
+
+@[expose] public section
 
 /-! Countability of old finite sets supplies whole-domain coverage for every
 maximal finite-function filter with an omega-one cofinal chain. -/

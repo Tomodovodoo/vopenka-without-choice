@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.HartogsBound
+module
+
+public import ZFVP.SetTheory.HartogsBound
+
+@[expose] public section
 
 /-! Hartogs' number is the least ordinal that does not inject into a given set. -/
 

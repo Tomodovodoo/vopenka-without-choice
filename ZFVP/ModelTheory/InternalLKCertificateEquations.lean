@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalLKRuleSoundness
-import ZFVP.ModelTheory.NaturalListCodeInduction
-import ZFVP.Syntax.PrimitiveProgramLKCertificate
+module
+
+public import ZFVP.ModelTheory.InternalLKRuleSoundness
+public import ZFVP.ModelTheory.NaturalListCodeInduction
+public import ZFVP.Syntax.PrimitiveProgramLKCertificate
+
+@[expose] public section
 
 /-! Set-theoretic equations for the LK certificate program on all internal inputs. -/
 

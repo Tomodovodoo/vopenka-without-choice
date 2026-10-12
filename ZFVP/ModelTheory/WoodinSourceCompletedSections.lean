@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSourceLimitMaps
-import ZFVP.ModelTheory.WoodinSourceCompletedInverse
+module
+
+public import ZFVP.ModelTheory.WoodinSourceLimitMaps
+public import ZFVP.ModelTheory.WoodinSourceCompletedInverse
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

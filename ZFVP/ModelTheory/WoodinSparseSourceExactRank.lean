@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseExactRank
-import ZFVP.ModelTheory.WoodinSparseSourceCode
-import ZFVP.ModelTheory.WoodinSparseQuotientInputs
+module
+
+public import ZFVP.ModelTheory.WoodinSparseExactRank
+public import ZFVP.ModelTheory.WoodinSparseSourceCode
+public import ZFVP.ModelTheory.WoodinSparseQuotientInputs
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

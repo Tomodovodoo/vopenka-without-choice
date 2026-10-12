@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.TwoStepForcing
-import ZFVP.SetTheory.ForcingUniqueNameRank
+module
+
+public import ZFVP.SetTheory.TwoStepForcing
+public import ZFVP.SetTheory.ForcingUniqueNameRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

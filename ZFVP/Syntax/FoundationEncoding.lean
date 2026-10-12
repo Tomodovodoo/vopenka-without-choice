@@ -1,5 +1,9 @@
-import ZFVP.Syntax.StandardTuples
-import ZFVP.Syntax.Formulas
+module
+
+public import ZFVP.Syntax.StandardTuples
+public import ZFVP.Syntax.Formulas
+
+@[expose] public section
 
 /-! Constructor-preserving encoding of Foundation's standard finite syntax.
 Symbol maps specify the representation of the external language in an internal

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SmallRangeFunctionNameHull
-import ZFVP.ModelTheory.WeaklyLSFunctionRangeCover
+module
+
+public import ZFVP.ModelTheory.SmallRangeFunctionNameHull
+public import ZFVP.ModelTheory.WeaklyLSFunctionRangeCover
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

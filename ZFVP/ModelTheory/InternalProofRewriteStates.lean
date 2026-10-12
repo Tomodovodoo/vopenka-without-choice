@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalProofRewriteVariables
-import ZFVP.Syntax.TermSubstitutionSemantics
+module
+
+public import ZFVP.ModelTheory.InternalProofRewriteVariables
+public import ZFVP.Syntax.TermSubstitutionSemantics
+
+@[expose] public section
 
 /-! Valid internal substitution states for free-variable shift, eigenvariable opening, and witnesses. -/
 

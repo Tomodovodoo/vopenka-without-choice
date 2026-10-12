@@ -1,4 +1,8 @@
-import ZFVP.Syntax.BoundedAtomicDefinition
+module
+
+public import ZFVP.Syntax.BoundedAtomicDefinition
+
+@[expose] public section
 
 /-! Bounded lookup of a previously derived formula in a sequence certificate. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.Relativization
+module
+
+public import ZFVP.SetTheory.Relativization
+
+@[expose] public section
 
 /-! Elementary maps for the membership language used by Foundation. -/
 

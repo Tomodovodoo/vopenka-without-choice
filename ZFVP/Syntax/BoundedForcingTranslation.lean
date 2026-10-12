@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedFormulaTree
-import ZFVP.Syntax.BoundedForcingSteps
+module
+
+public import ZFVP.Syntax.BoundedFormulaTree
+public import ZFVP.Syntax.BoundedForcingSteps
+
+@[expose] public section
 
 /-! A computable Sigma_1 translation for each answer to bounded forcing. -/
 

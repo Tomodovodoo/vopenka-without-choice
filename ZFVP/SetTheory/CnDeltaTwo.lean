@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.Cn
+module
+
+public import ZFVP.SetTheory.Cn
+
+@[expose] public section
 
 /-! In ZF, C(1) has both Sigma-two and Pi-two definitions. -/
 

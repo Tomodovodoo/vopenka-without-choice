@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.CohenFiniteAssignmentValues
-import ZFVP.ModelTheory.SymmetricModelGraph
-import ZFVP.SetTheory.CohenOrbitEvaluationName
-import ZFVP.SetTheory.CohenSupportOrbits
+module
+
+public import ZFVP.ModelTheory.CohenFiniteAssignmentValues
+public import ZFVP.ModelTheory.SymmetricModelGraph
+public import ZFVP.SetTheory.CohenOrbitEvaluationName
+public import ZFVP.SetTheory.CohenSupportOrbits
+
+@[expose] public section
 
 namespace ZFVP
 

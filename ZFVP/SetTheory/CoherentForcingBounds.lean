@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ForcingCoordinateFamilies
-import ZFVP.SetTheory.ForcingRelativeClosure
-import ZFVP.SetTheory.ForcingMapExtension
-import ZFVP.SetTheory.ForcingOrderExtension
+module
+
+public import ZFVP.SetTheory.ForcingCoordinateFamilies
+public import ZFVP.SetTheory.ForcingRelativeClosure
+public import ZFVP.SetTheory.ForcingMapExtension
+public import ZFVP.SetTheory.ForcingOrderExtension
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

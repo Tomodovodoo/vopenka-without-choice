@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ClassForcingTowerBasicAxioms
-import ZFVP.ModelTheory.ClassForcingTowerPowerset
-import ZFVP.ModelTheory.ClassForcingSeparation
-import ZFVP.ModelTheory.ClassForcingReplacement
+module
+
+public import ZFVP.ModelTheory.ClassForcingTowerBasicAxioms
+public import ZFVP.ModelTheory.ClassForcingTowerPowerset
+public import ZFVP.ModelTheory.ClassForcingSeparation
+public import ZFVP.ModelTheory.ClassForcingReplacement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

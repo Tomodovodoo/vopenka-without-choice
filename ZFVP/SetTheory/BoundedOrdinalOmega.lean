@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedNaturals
-import ZFVP.SetTheory.NaturalAddition
+module
+
+public import ZFVP.SetTheory.BoundedNaturals
+public import ZFVP.SetTheory.NaturalAddition
+
+@[expose] public section
 
 /-! A bounded graph for addition of omega on ordinals. -/
 

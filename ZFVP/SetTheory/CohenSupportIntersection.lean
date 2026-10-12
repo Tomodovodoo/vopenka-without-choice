@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CohenSupportOrbits
+module
+
+public import ZFVP.SetTheory.CohenSupportOrbits
+
+@[expose] public section
 
 namespace ZFVP
 

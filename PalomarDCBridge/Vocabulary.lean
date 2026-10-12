@@ -1,4 +1,8 @@
-import PalomarBridge.Vocabulary
+module
+
+public import PalomarBridge.Vocabulary
+
+@[expose] public section
 
 namespace PalomarDCBridge
 open PalomarBridge

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitarySyntax
+module
+
+public import ZFVP.ModelTheory.InfinitarySyntax
+
+@[expose] public section
 
 /-! Every infinitary formula has countably many constructor subformulas, including
 across binder depths. Embedded first-order formulas are counted as single nodes. -/

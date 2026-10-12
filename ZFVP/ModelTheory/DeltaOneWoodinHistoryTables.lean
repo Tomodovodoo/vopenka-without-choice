@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.DeltaOneHistoryTables
-import ZFVP.ModelTheory.WoodinIterationRecursion
-import ZFVP.SetTheory.BoundedRelationDomain
-import ZFVP.SetTheory.DeltaOnePairProjections
+module
+
+public import ZFVP.ModelTheory.DeltaOneHistoryTables
+public import ZFVP.ModelTheory.WoodinIterationRecursion
+public import ZFVP.SetTheory.BoundedRelationDomain
+public import ZFVP.SetTheory.DeltaOnePairProjections
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SymmetricDCCountableCandidates
-import ZFVP.ModelTheory.CountableZFTransfer
-import ZFVP.SetTheory.SymmetricSystemDictionary
-import ZFVP.SetTheory.ElementaryForcing
+module
+
+public import ZFVP.ModelTheory.SymmetricDCCountableCandidates
+public import ZFVP.ModelTheory.CountableZFTransfer
+public import ZFVP.SetTheory.SymmetricSystemDictionary
+public import ZFVP.SetTheory.ElementaryForcing
+
+@[expose] public section
 
 /-! The local candidate laws are first-order ZF statements. Their countable-model proofs
 therefore transfer to every ground, while the subsequent DC construction stays unchanged. -/

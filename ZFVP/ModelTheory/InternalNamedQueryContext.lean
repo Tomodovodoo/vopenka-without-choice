@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalNamedSeparationOmission
-import ZFVP.ModelTheory.InternalNamedConjunction
-import ZFVP.ModelTheory.InternalHenkinNameRenaming
+module
+
+public import ZFVP.ModelTheory.InternalNamedSeparationOmission
+public import ZFVP.ModelTheory.InternalNamedConjunction
+public import ZFVP.ModelTheory.InternalHenkinNameRenaming
+
+@[expose] public section
 
 /-! A unary query is compiled with its argument in one distinguished slot and
 its fixed name parameters in a bounded context. -/

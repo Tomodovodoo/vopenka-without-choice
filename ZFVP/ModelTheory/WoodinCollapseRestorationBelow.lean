@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinCollapseRestoration
-import ZFVP.SetTheory.WellOrderedSurjection
-import ZFVP.SetTheory.DependentChoiceCardinal
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseRestoration
+public import ZFVP.SetTheory.WellOrderedSurjection
+public import ZFVP.SetTheory.DependentChoiceCardinal
+
+@[expose] public section
 
 namespace ZFVP
 

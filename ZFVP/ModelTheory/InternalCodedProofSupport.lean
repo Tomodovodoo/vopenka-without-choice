@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.UniformCodedSequentProofs
-import ZFVP.SetTheory.FiniteSets
+module
+
+public import ZFVP.ModelTheory.UniformCodedSequentProofs
+public import ZFVP.SetTheory.FiniteSets
+
+@[expose] public section
 
 /-! Every internally finite proof uses an internally finite part of its theory.
 The original proof graph is retained; no external enumeration of its lines is used. -/

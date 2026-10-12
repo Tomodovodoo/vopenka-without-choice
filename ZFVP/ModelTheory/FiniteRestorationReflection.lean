@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CnCofinalUnbounded
-import ZFVP.SetTheory.CnExtendible
+module
+
+public import ZFVP.SetTheory.CnCofinalUnbounded
+public import ZFVP.SetTheory.CnExtendible
+
+@[expose] public section
 
 /-! Reflection of unboundedness statements below a correct rank stage.
 

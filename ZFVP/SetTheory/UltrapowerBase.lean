@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.SetUltrafilter
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.SetTheory.SetUltrafilter
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 /-! Almost everywhere relations on the functions from an index set into a rank stage, taken with
 respect to a set ultrafilter on the index set. This is the first layer of the internal ultrapower:

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.TransitiveZFNames
-import ZFVP.SetTheory.NameValue
-import ZFVP.SetTheory.HereditarySymmetry
-import ZFVP.SetTheory.GenericName
+module
+
+public import ZFVP.ModelTheory.TransitiveZFNames
+public import ZFVP.SetTheory.NameValue
+public import ZFVP.SetTheory.HereditarySymmetry
+public import ZFVP.SetTheory.GenericName
+
+@[expose] public section
 
 namespace ZFVP
 

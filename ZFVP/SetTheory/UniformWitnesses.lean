@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.LeastRankWitnesses
-import ZFVP.SetTheory.UniformRank
+module
+
+public import ZFVP.SetTheory.LeastRankWitnesses
+public import ZFVP.SetTheory.UniformRank
+
+@[expose] public section
 
 /-! Uniform formulas for least-rank witness sets. -/
 

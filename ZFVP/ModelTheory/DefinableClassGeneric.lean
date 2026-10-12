@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SetDomainDefinableClasses
-import ZFVP.ModelTheory.ForcingGeneric
+module
+
+public import ZFVP.ModelTheory.SetDomainDefinableClasses
+public import ZFVP.ModelTheory.ForcingGeneric
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

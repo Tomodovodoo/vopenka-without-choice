@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InverseSourceCollapseCode
-import ZFVP.ModelTheory.SaturatedCollapseRestoration
+module
+
+public import ZFVP.ModelTheory.InverseSourceCollapseCode
+public import ZFVP.ModelTheory.SaturatedCollapseRestoration
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

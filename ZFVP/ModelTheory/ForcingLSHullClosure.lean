@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingLSHullPreparation
-import ZFVP.ModelTheory.ForcingHullNormalization
-import ZFVP.ModelTheory.WeaklyLSTwoHullFunctionClosure
+module
+
+public import ZFVP.ModelTheory.ForcingLSHullPreparation
+public import ZFVP.ModelTheory.ForcingHullNormalization
+public import ZFVP.ModelTheory.WeaklyLSTwoHullFunctionClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

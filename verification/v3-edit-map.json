@@ -1,0 +1,135 @@
+{
+  "base": "arxiv:2609.06856v2",
+  "base_sha256": "32dfe9fbfd8707da99bb4dc2f386c51300d53637d533dabfeaacc82384511509",
+  "output": "vopenka_without_choice_V3.tex",
+  "edits": [
+    {
+      "locus": "Lemma 2.1 proof",
+      "reason": "Use the direct restriction argument without changing the lemma or its subsequent proof display."
+    },
+    {
+      "locus": "Lemma 3.2 hypothesis",
+      "reason": "State the sufficient fragment used by Corollary 3.4."
+    },
+    {
+      "locus": "Lemma 3.2 proof",
+      "reason": "Justify the fragment hypothesis in one sentence."
+    },
+    {
+      "locus": "Corollary 3.4 forcing complexity",
+      "reason": "Correct the bounded base and fixed-formula scope in the existing paragraph."
+    },
+    {
+      "locus": "Corollary 3.4 fragment application",
+      "reason": "Connect the strengthened lemma to the actual hypothesis."
+    },
+    {
+      "locus": "Rank-Berkeley definition",
+      "reason": "Exclude the vacuous zero case."
+    },
+    {
+      "locus": "Rank-Berkeley descent",
+      "reason": "Expose the single use of the nonzero convention."
+    },
+    {
+      "locus": "Woodin import",
+      "reason": "Cite the repaired construction instead of reproducing it locally."
+    },
+    {
+      "locus": "Complete iteration code",
+      "reason": "Name exactly the input captured by the restricted lift; leave its construction in the source supplement."
+    },
+    {
+      "locus": "Theorem 5.5 attribution",
+      "reason": "Distinguish the sufficient replacement from the original stronger lemma."
+    },
+    {
+      "locus": "Theorem 5.5 definability",
+      "reason": "Only a fixed finite definability bound is used; do not transfer the raw presentation's sharp bound to the selected presentation."
+    },
+    {
+      "locus": "Theorem 5.5(3)",
+      "reason": "State the proved marked-rank lift actually used downstream, rather than the unclosed successor-rank assertion."
+    },
+    {
+      "locus": "Forcing dictionary",
+      "reason": "Include the whole captured code in the existing finite-complexity calculation."
+    },
+    {
+      "locus": "Lemma 5.7 scope",
+      "reason": "Keep final's supercompact endpoint and the generic range actually used; do not import V13's broader auxiliary clause."
+    },
+    {
+      "locus": "Lemma 5.7 presentation",
+      "reason": "Align the existing proof with the imported corrected convention."
+    },
+    {
+      "locus": "Lemma 5.7 limit convention",
+      "reason": "Remove the raw-stage formula that does not describe a completed inverse stage."
+    },
+    {
+      "locus": "Lemma 5.7 prefix indices",
+      "reason": "Use completed prefix indices consistently."
+    },
+    {
+      "locus": "Lemma 5.7 factorization",
+      "reason": "Use the same corrected prefix convention."
+    },
+    {
+      "locus": "Lemma 5.7 forcing proof",
+      "reason": "Use the proved low-name route with a short local argument; avoid importing an unused Boolean-completion route."
+    },
+    {
+      "locus": "Theorem 5.11 finite bounds",
+      "reason": "Keep the original effective-bound argument and clarify its scope."
+    },
+    {
+      "locus": "Theorem 5.11 reflected dictionary",
+      "reason": "Reflect the exact input consumed by the restricted lift."
+    },
+    {
+      "locus": "Theorem 5.11 captured parameter",
+      "reason": "Use the whole code at the already available rank."
+    },
+    {
+      "locus": "Theorem 5.11 reflected equation",
+      "reason": "Preserve the whole-code equation."
+    },
+    {
+      "locus": "Theorem 5.11 source identification",
+      "reason": "State the consequence of reflecting the complete code predicate."
+    },
+    {
+      "locus": "Theorem 5.11 lift application",
+      "reason": "Replace only the use of the stronger lift; retain the surrounding finite-restoration proof."
+    },
+    {
+      "locus": "Theorem 5.13 model interpretation",
+      "reason": "Clarify the original notation in two sentences instead of reproducing the forcing construction."
+    },
+    {
+      "locus": "Lemma 8.1 Solovay import",
+      "reason": "Replace the broad theorem citation by the components for the existing parameter convention."
+    },
+    {
+      "locus": "Lemma 8.4 imported generic comparison",
+      "reason": "Cite the source repair instead of inserting its proof."
+    },
+    {
+      "locus": "Proposition 9.7 Enayat import",
+      "reason": "Keep the application unchanged and cite the repaired source input."
+    },
+    {
+      "locus": "Certificate containment"
+    },
+    {
+      "locus": "Proposition 9.1 language convention"
+    },
+    {
+      "locus": "Supplement citation"
+    },
+    {
+      "locus": "Supplement bibliography"
+    }
+  ]
+}

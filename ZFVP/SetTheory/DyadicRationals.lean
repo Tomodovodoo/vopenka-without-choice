@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.NaturalPower
-import ZFVP.SetTheory.InternalRationalBounds
+module
+
+public import ZFVP.SetTheory.NaturalPower
+public import ZFVP.SetTheory.InternalRationalBounds
+
+@[expose] public section
 
 /-! Dyadic units indexed by every natural number of the model. -/
 

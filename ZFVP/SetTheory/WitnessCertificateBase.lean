@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.LeastWitnessCertificate
-import ZFVP.SetTheory.DeltaOneBoundedTruth
+module
+
+public import ZFVP.SetTheory.LeastWitnessCertificate
+public import ZFVP.SetTheory.DeltaOneBoundedTruth
+
+@[expose] public section
 
 /-! Pi_1 formulas for the rank and set components of a least-witness certificate. -/
 

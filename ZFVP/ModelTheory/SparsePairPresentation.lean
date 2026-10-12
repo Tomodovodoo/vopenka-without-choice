@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.SparseAppend
-import ZFVP.SetTheory.ForcingPullbackOrder
-import ZFVP.ModelTheory.ForcingIsomorphismComposition
+module
+
+public import ZFVP.SetTheory.SparseAppend
+public import ZFVP.SetTheory.ForcingPullbackOrder
+public import ZFVP.ModelTheory.ForcingIsomorphismComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

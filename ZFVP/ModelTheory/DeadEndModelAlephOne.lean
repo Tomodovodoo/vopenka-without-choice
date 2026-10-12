@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CountabilityEssential
-import ZFVP.ModelTheory.NoConservativeEndExtension
+module
+
+public import ZFVP.ModelTheory.CountabilityEssential
+public import ZFVP.ModelTheory.NoConservativeEndExtension
+
+@[expose] public section
 
 /-! The model-theoretic half of the paper's Proposition `prop:countability-essential`, with
 Enayat's Theorem 5.1 discharged.

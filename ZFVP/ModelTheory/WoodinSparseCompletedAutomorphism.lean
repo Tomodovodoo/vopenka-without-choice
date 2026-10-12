@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseAutomorphismHartogs
-import ZFVP.ModelTheory.WoodinSparseActualLimitAutomorphisms
-import ZFVP.ModelTheory.WoodinSparseOwnCutoffs
+module
+
+public import ZFVP.ModelTheory.WoodinSparseAutomorphismHartogs
+public import ZFVP.ModelTheory.WoodinSparseActualLimitAutomorphisms
+public import ZFVP.ModelTheory.WoodinSparseOwnCutoffs
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

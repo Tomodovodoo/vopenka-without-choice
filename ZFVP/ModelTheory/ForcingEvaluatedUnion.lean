@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.UniformNameEvaluation
-import ZFVP.SetTheory.UniformFormulaName
-import ZFVP.ModelTheory.ForcingModelEvaluation
-import ZFVP.SetTheory.FunctionComposition
+module
+
+public import ZFVP.SetTheory.UniformNameEvaluation
+public import ZFVP.SetTheory.UniformFormulaName
+public import ZFVP.ModelTheory.ForcingModelEvaluation
+public import ZFVP.SetTheory.FunctionComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

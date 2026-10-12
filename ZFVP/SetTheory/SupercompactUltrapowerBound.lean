@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.SupercompactUltrapower
-import ZFVP.SetTheory.SmallSubsetsStage
+module
+
+public import ZFVP.SetTheory.SupercompactUltrapower
+public import ZFVP.SetTheory.SmallSubsetsStage
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

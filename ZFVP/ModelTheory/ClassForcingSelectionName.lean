@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ClassForcingPretameness
-import ZFVP.ModelTheory.ClassForcingTowerNameEvaluation
+module
+
+public import ZFVP.ModelTheory.ClassForcingPretameness
+public import ZFVP.ModelTheory.ClassForcingTowerNameEvaluation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

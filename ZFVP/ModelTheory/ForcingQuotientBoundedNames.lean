@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingQuotientSeparation
+module
+
+public import ZFVP.ModelTheory.ForcingQuotientSeparation
+
+@[expose] public section
 
 namespace ZFVP
 

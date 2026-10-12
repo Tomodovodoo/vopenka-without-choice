@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalProofRewriteTables
+module
+
+public import ZFVP.ModelTheory.InternalProofRewriteTables
+
+@[expose] public section
 
 /-! Rewriting binary atomic argument vectors agrees with internal term substitution. -/
 

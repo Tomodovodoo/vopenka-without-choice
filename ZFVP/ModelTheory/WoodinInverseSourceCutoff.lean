@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.WoodinLimitCardinals
-import ZFVP.ModelTheory.InverseSourceCollapseCode
-import ZFVP.ModelTheory.StrictHartogsCutoffTransfer
-import ZFVP.ModelTheory.ForcingHartogsChoice
-import ZFVP.SetTheory.ForcingThreadUnion
+module
+
+public import ZFVP.ModelTheory.WoodinLimitCardinals
+public import ZFVP.ModelTheory.InverseSourceCollapseCode
+public import ZFVP.ModelTheory.StrictHartogsCutoffTransfer
+public import ZFVP.ModelTheory.ForcingHartogsChoice
+public import ZFVP.SetTheory.ForcingThreadUnion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

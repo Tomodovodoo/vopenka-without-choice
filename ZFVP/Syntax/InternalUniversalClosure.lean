@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.UniformParameterizedRecursion
-import ZFVP.SetTheory.NaturalAddition
-import ZFVP.Syntax.UniformFormulaCodes
-import ZFVP.Syntax.UniformSatisfaction
-import ZFVP.ModelTheory.CodedSequentQuantifiers
+module
+
+public import ZFVP.SetTheory.UniformParameterizedRecursion
+public import ZFVP.SetTheory.NaturalAddition
+public import ZFVP.Syntax.UniformFormulaCodes
+public import ZFVP.Syntax.UniformSatisfaction
+public import ZFVP.ModelTheory.CodedSequentQuantifiers
+
+@[expose] public section
 
 /-! Universal closure by any internal finite number of quantifiers. Its
 semantics quantifies over every internal assignment, not just standard tuples. -/

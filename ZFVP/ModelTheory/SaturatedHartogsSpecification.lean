@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SaturatedHartogsStage
-import ZFVP.ModelTheory.SaturatedPrefixSpecification
+module
+
+public import ZFVP.ModelTheory.SaturatedHartogsStage
+public import ZFVP.ModelTheory.SaturatedPrefixSpecification
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

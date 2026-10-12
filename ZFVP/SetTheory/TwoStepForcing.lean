@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcedOrderLaws
+module
+
+public import ZFVP.ModelTheory.ForcedOrderLaws
+
+@[expose] public section
 
 /-! A set presentation of two-step forcing using the subnames of the named
 poset, together with a specified name for its top. Different equivalent names

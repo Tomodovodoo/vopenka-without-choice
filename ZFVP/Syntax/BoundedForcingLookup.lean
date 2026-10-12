@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedExpressionLookup
-import ZFVP.Syntax.InternalForcingTruthTables
+module
+
+public import ZFVP.Syntax.BoundedExpressionLookup
+public import ZFVP.Syntax.InternalForcingTruthTables
+
+@[expose] public section
 
 namespace ZFVP.CodeExpression
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.TreeBodies
-import ZFVP.SetTheory.FiniteRangeFibers
+module
+
+public import ZFVP.SetTheory.TreeBodies
+public import ZFVP.SetTheory.FiniteRangeFibers
+
+@[expose] public section
 
 /-! Internal finite subcovers of binary tree bodies, proved in ZF. -/
 

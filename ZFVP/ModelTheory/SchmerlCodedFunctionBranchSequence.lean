@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlCodedSelectedFunctionTree
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedSelectedFunctionTree
+
+@[expose] public section
 
 /-! Every internal selected-tree cofinal branch has a unique node at each
 selected rank. Those nodes form an actual internal κ-sequence. -/

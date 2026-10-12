@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.BinaryRelationRepresentation
-import ZFVP.SetTheory.CountableSets
-import Foundation.FirstOrder.SetTheory.Universe
-import Mathlib.Basic.Countable.Small
+module
+
+public import ZFVP.ModelTheory.BinaryRelationRepresentation
+public import ZFVP.SetTheory.CountableSets
+public import Foundation.FirstOrder.SetTheory.Universe
+public import Mathlib.Basic.Countable.Small
+
+@[expose] public section
 
 /-! Any countable set-language structure has an actual carrier and relation
 inside the standard set universe. Only its nodes are encoded by naturals;

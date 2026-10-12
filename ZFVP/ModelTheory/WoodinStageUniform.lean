@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinIterationInitial
-import ZFVP.ModelTheory.WoodinSelectorUniform
+module
+
+public import ZFVP.ModelTheory.WoodinIterationInitial
+public import ZFVP.ModelTheory.WoodinSelectorUniform
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseRecursionRankAgreement
-import ZFVP.ModelTheory.WoodinSparseStageCode
+module
+
+public import ZFVP.ModelTheory.WoodinSparseRecursionRankAgreement
+public import ZFVP.ModelTheory.WoodinSparseStageCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.FixedWoodinInverseCutoff
-import ZFVP.ModelTheory.SigmaThreeSaturatedHartogsNames
+module
+
+public import ZFVP.ModelTheory.FixedWoodinInverseCutoff
+public import ZFVP.ModelTheory.SigmaThreeSaturatedHartogsNames
+
+@[expose] public section
 
 /-! A fixed Hartogs-name graph and fixed successful cutoff selectors. Syntax is
 declared before interpreted structures; semantic lemmas hold in arbitrary ZF

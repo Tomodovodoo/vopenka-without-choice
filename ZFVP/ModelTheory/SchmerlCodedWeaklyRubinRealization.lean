@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SchmerlCodedSourceSimultaneousForcing
-import ZFVP.ModelTheory.SchmerlCodedFunctionRealization
-import ZFVP.ModelTheory.SchmerlCodedClassRealization
-import ZFVP.ModelTheory.SchmerlCodedFiniteSmallWithQ
-import ZFVP.ModelTheory.SchmerlInfinitaryDeadEndWithQ
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedSourceSimultaneousForcing
+public import ZFVP.ModelTheory.SchmerlCodedFunctionRealization
+public import ZFVP.ModelTheory.SchmerlCodedClassRealization
+public import ZFVP.ModelTheory.SchmerlCodedFiniteSmallWithQ
+public import ZFVP.ModelTheory.SchmerlInfinitaryDeadEndWithQ
+
+@[expose] public section
 
 /-! The same forcing extension realizes all clauses of the fixed weakly Rubin
 sentence on the faithful representation of the source model. -/

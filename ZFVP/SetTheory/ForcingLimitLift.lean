@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.DirectLimitSplice
+module
+
+public import ZFVP.SetTheory.DirectLimitSplice
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.InfinitarySubformulas
-import Foundation.FirstOrder.Basic.Coding
-import Foundation.FirstOrder.Basic.Semantics.Elementary
-import Mathlib.ModelTheory.Substructures
-import Mathlib.SetTheory.Cardinal.Arithmetic
-import Mathlib.SetTheory.Cardinal.Aleph
+module
+
+public import ZFVP.ModelTheory.InfinitarySubformulas
+public import Foundation.FirstOrder.Basic.Coding
+public import Foundation.FirstOrder.Basic.Semantics.Elementary
+public import Mathlib.ModelTheory.Substructures
+public import Mathlib.SetTheory.Cardinal.Arithmetic
+public import Mathlib.SetTheory.Cardinal.Aleph
+
+@[expose] public section
 
 /-! Witness closure for a countable infinitary fragment. The auxiliary function
 symbols select ordinary witnesses and an injective family of `ℵ₁` witnesses

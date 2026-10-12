@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.TwoStepSecondGeneric
+module
+
+public import ZFVP.ModelTheory.TwoStepSecondGeneric
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

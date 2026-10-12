@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.BinaryExpansionReals
-import ZFVP.SetTheory.DedekindRealTopology
-import ZFVP.SetTheory.BaireCore
+module
+
+public import ZFVP.SetTheory.BinaryExpansionReals
+public import ZFVP.SetTheory.DedekindRealTopology
+public import ZFVP.SetTheory.BaireCore
+
+@[expose] public section
 
 /-! Continuity of the actual binary map for internally coded open sets. -/
 

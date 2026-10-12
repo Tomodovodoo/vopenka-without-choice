@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ShortSequenceWitnessTables
-import ZFVP.ModelTheory.ShortEvaluatedRepresentatives
-import ZFVP.ModelTheory.ForcingLowRankAssignments
-import ZFVP.SetTheory.WellOrderedDependentChoice
+module
+
+public import ZFVP.ModelTheory.ShortSequenceWitnessTables
+public import ZFVP.ModelTheory.ShortEvaluatedRepresentatives
+public import ZFVP.ModelTheory.ForcingLowRankAssignments
+public import ZFVP.SetTheory.WellOrderedDependentChoice
+
+@[expose] public section
 
 /-! Dense next-step witnesses in a well-orderable evaluated set give DC at
 an arbitrary checked ordinal. Short sequences are lifted to ground names. -/

@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PackFiniteParameters
+module
+
+public import ZFVP.Syntax.PackFiniteParameters
+
+@[expose] public section
 
 /-! Packing finitely many parameters without raising a positive Levy level. -/
 

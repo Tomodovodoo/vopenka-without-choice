@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.IterationQuotientClosure
-import ZFVP.ModelTheory.WoodinDirectIndex
-import ZFVP.ModelTheory.DirectLimitQuotientClosure
-import ZFVP.ModelTheory.DirectQuotientClosureTransfer
+module
+
+public import ZFVP.ModelTheory.IterationQuotientClosure
+public import ZFVP.ModelTheory.WoodinDirectIndex
+public import ZFVP.ModelTheory.DirectLimitQuotientClosure
+public import ZFVP.ModelTheory.DirectQuotientClosureTransfer
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

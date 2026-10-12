@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryOmegaOneStandardFibers
+module
+
+public import ZFVP.ModelTheory.InfinitaryOmegaOneStandardFibers
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

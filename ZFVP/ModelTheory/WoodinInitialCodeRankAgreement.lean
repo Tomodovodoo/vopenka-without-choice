@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinInitialStageRankAgreement
-import ZFVP.ModelTheory.TransitiveZFIterationHistory
+module
+
+public import ZFVP.ModelTheory.WoodinInitialStageRankAgreement
+public import ZFVP.ModelTheory.TransitiveZFIterationHistory
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

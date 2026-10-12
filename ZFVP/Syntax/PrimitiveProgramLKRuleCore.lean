@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramBooleanChecks
-import ZFVP.Syntax.PrimitiveProgramSequentOperations
+module
+
+public import ZFVP.Syntax.PrimitiveProgramBooleanChecks
+public import ZFVP.Syntax.PrimitiveProgramSequentOperations
+
+@[expose] public section
 
 /-! An explicit primitive program for the eight local LK rule branches. -/
 

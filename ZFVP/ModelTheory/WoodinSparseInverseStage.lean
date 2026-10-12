@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinSparseInverseTransport
-import ZFVP.ModelTheory.WoodinNormalizedInverseCutoff
-import ZFVP.ModelTheory.NormalizedHartogsIsomorphism
-import ZFVP.ModelTheory.SparseNormalizedTwoStep
+module
+
+public import ZFVP.ModelTheory.WoodinSparseInverseTransport
+public import ZFVP.ModelTheory.WoodinNormalizedInverseCutoff
+public import ZFVP.ModelTheory.NormalizedHartogsIsomorphism
+public import ZFVP.ModelTheory.SparseNormalizedTwoStep
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseConditionalRestoration
-import ZFVP.ModelTheory.ConsistencyTransferPassage
+module
+
+public import ZFVP.ModelTheory.WoodinSparseConditionalRestoration
+public import ZFVP.ModelTheory.ConsistencyTransferPassage
+
+@[expose] public section
 
 /-! The actual sparse endpoint construction feeds the effective finite-model
 and compactness arguments. Correctness preservation and actual relative

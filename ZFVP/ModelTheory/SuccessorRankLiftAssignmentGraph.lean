@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SuccessorRankLiftTruth
-import ZFVP.ModelTheory.SuccessorRankLiftDomain
+module
+
+public import ZFVP.ModelTheory.SuccessorRankLiftTruth
+public import ZFVP.ModelTheory.SuccessorRankLiftDomain
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.Syntax.TermInduction
-import ZFVP.SetTheory.InternalWellFounded
+module
+
+public import ZFVP.Syntax.TermInduction
+public import ZFVP.SetTheory.InternalWellFounded
+
+@[expose] public section
 
 /-! Immediate subterms form an internally well-founded set relation. -/
 

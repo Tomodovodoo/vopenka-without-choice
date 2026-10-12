@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalBinaryQuotient
-import ZFVP.Syntax.BinaryRelationInternalSemantics
-import ZFVP.Syntax.MembershipSwap
+module
+
+public import ZFVP.ModelTheory.InternalBinaryQuotient
+public import ZFVP.Syntax.BinaryRelationInternalSemantics
+public import ZFVP.Syntax.MembershipSwap
+
+@[expose] public section
 
 /-! Raw atomic syntax descends through the actual quotient, including the
 primitive logical equality token and the membership language's equality symbol. -/

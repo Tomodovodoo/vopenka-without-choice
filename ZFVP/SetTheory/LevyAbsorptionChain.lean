@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.AbsorptionInfinite
-import ZFVP.SetTheory.ProductEmbeddings
-import ZFVP.SetTheory.LevyColumnSplittingRelative
-import ZFVP.SetTheory.LevySingleColumn
+module
+
+public import ZFVP.SetTheory.AbsorptionInfinite
+public import ZFVP.SetTheory.ProductEmbeddings
+public import ZFVP.SetTheory.LevyColumnSplittingRelative
+public import ZFVP.SetTheory.LevySingleColumn
+
+@[expose] public section
 
 /-! The poset-level absorption chain: for a poset `Q` of size at most an infinite column `λ ∈ C'`,
 the poset `Y := λ^{<ω} × Coll(columns C' \ {λ})` embeds densely both into `Q × Coll(columns C')`

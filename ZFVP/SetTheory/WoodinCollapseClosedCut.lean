@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.InaccessibleWitnessClosure
-import ZFVP.SetTheory.WoodinCollapseProjection
-import ZFVP.SetTheory.OrdinalLeftOne
+module
+
+public import ZFVP.SetTheory.InaccessibleWitnessClosure
+public import ZFVP.SetTheory.WoodinCollapseProjection
+public import ZFVP.SetTheory.OrdinalLeftOne
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

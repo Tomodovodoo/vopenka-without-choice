@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SingletonNormalizedCollapseIsomorphism
-import ZFVP.ModelTheory.WoodinSparseInitial
-import ZFVP.ModelTheory.ForcingIsomorphismComposition
-import ZFVP.ModelTheory.ForcingIsomorphismTransport
-import ZFVP.SetTheory.WoodinCollapseDisplacement
+module
+
+public import ZFVP.ModelTheory.SingletonNormalizedCollapseIsomorphism
+public import ZFVP.ModelTheory.WoodinSparseInitial
+public import ZFVP.ModelTheory.ForcingIsomorphismComposition
+public import ZFVP.ModelTheory.ForcingIsomorphismTransport
+public import ZFVP.SetTheory.WoodinCollapseDisplacement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

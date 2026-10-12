@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SymmetricLiftTruth
-import ZFVP.ModelTheory.CodedElementaryEmbedding
+module
+
+public import ZFVP.ModelTheory.SymmetricLiftTruth
+public import ZFVP.ModelTheory.CodedElementaryEmbedding
+
+@[expose] public section
 
 /-! Restrict the internal symmetric graph to an arbitrary-language structure. -/
 

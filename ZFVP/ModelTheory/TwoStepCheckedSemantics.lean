@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.TwoStepQuotient
+module
+
+public import ZFVP.ModelTheory.TwoStepQuotient
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

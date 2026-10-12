@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryHenkinFirstOrderTruth
-import ZFVP.ModelTheory.InfinitaryWeakSemantics
+module
+
+public import ZFVP.ModelTheory.InfinitaryHenkinFirstOrderTruth
+public import ZFVP.ModelTheory.InfinitaryWeakSemantics
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

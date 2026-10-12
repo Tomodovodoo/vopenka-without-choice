@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.InternalRationalRing
-import Mathlib.Algebra.Field.Defs
+module
+
+public import ZFVP.SetTheory.InternalRationalRing
+public import Mathlib.Algebra.Field.Defs
+
+@[expose] public section
 
 /-! Reciprocal as an internal set, with a proof of the ordered-field laws.
 The reciprocal is assembled from its uniquely determined fraction class;

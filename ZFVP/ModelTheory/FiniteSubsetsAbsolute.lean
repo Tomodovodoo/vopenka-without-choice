@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.EndExtensionLevyCollapse
-import ZFVP.SetTheory.InfiniteDependentChoice
+module
+
+public import ZFVP.SetTheory.EndExtensionLevyCollapse
+public import ZFVP.SetTheory.InfiniteDependentChoice
+
+@[expose] public section
 
 /-! The set `[A]^{<ω}` of finite subsets of `A`, its absoluteness for membership end extensions
 (Fact (∇) in Enayat's Theorem 5.18), the matching statement for `Fin(A,2)` (Fact (∗∗)), and the two

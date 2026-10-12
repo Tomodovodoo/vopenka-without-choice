@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FiniteDerivations
-import ZFVP.Syntax.MembershipAtomicSyntax
+module
+
+public import ZFVP.SetTheory.FiniteDerivations
+public import ZFVP.Syntax.MembershipAtomicSyntax
+
+@[expose] public section
 
 /-! Internally finite derivations of bounded formula codes.
 Each step checks a constructor and previously derived codes. -/

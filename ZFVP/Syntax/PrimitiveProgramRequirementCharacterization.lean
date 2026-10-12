@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramFormulaRequirements
-import ZFVP.Syntax.PrimitiveProgramListExt
+module
+
+public import ZFVP.Syntax.PrimitiveProgramFormulaRequirements
+public import ZFVP.Syntax.PrimitiveProgramListExt
+
+@[expose] public section
 
 /-! Exact semantic characterizations of the atomic syntax requirement programs. -/
 

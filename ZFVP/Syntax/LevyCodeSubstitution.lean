@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedCodeSubstitution
-import ZFVP.Syntax.LevyCodes
+module
+
+public import ZFVP.Syntax.BoundedCodeSubstitution
+public import ZFVP.Syntax.LevyCodes
+
+@[expose] public section
 
 /-! Every standard internal Levy class is closed under membership substitution. -/
 

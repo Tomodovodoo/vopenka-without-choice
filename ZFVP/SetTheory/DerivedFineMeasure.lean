@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.SupercompactMeasure
-import ZFVP.SetTheory.WellOrderedSurjection
-import ZFVP.ModelTheory.DerivedUltrafilterComplete
+module
+
+public import ZFVP.SetTheory.SupercompactMeasure
+public import ZFVP.SetTheory.WellOrderedSurjection
+public import ZFVP.ModelTheory.DerivedUltrafilterComplete
+
+@[expose] public section
 
 /-! # The normal fine measure derived from a small embedding
 

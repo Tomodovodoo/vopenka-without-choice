@@ -1,4 +1,8 @@
-import ZFVP.Syntax.BoundedConstructorExpressions
+module
+
+public import ZFVP.Syntax.BoundedConstructorExpressions
+
+@[expose] public section
 
 /-! Bounded lookup in a truth table at a constructed formula-context code. -/
 

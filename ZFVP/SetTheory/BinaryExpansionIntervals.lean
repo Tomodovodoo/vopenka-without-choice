@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BinaryExpansionValues
+module
+
+public import ZFVP.SetTheory.BinaryExpansionValues
+
+@[expose] public section
 
 /-! Nesting of binary prefix intervals, including all nonstandard indices. -/
 

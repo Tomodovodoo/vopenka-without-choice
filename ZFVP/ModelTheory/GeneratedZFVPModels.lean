@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.EqualityBasisCompleteness
-import ZFVP.ModelTheory.CodedZFVPExternal
-import ZFVP.Syntax.CloseTailParameters
+module
+
+public import ZFVP.ModelTheory.EqualityBasisCompleteness
+public import ZFVP.ModelTheory.CodedZFVPExternal
+public import ZFVP.Syntax.CloseTailParameters
+
+@[expose] public section
 
 /-! Models of the generated sentence theory satisfy the full external ZF+VP theory. -/
 

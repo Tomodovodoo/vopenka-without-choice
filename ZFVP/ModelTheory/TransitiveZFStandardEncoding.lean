@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TransitiveZFConstructors
-import ZFVP.Syntax.StandardCodeExpressions
+module
+
+public import ZFVP.ModelTheory.TransitiveZFConstructors
+public import ZFVP.Syntax.StandardCodeExpressions
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

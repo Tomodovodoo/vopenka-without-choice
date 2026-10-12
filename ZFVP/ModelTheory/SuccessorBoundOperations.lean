@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingBoundExtension
-import ZFVP.ModelTheory.ForcingColumnFunctions
-import ZFVP.ModelTheory.SaturatedTwoStepBounds
+module
+
+public import ZFVP.SetTheory.ForcingBoundExtension
+public import ZFVP.ModelTheory.ForcingColumnFunctions
+public import ZFVP.ModelTheory.SaturatedTwoStepBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

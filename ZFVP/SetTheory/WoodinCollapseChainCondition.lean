@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.InaccessibleHartogs
-import ZFVP.SetTheory.CardinalSmallComplements
-import ZFVP.SetTheory.Hessenberg
-import ZFVP.SetTheory.WoodinCollapseRank
+module
+
+public import ZFVP.SetTheory.InaccessibleHartogs
+public import ZFVP.SetTheory.CardinalSmallComplements
+public import ZFVP.SetTheory.Hessenberg
+public import ZFVP.SetTheory.WoodinCollapseRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

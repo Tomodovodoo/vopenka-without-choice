@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.WoodinSparseCodedForcingTruth
-import ZFVP.ModelTheory.ForcingRegularGenericEquality
-import ZFVP.ModelTheory.WoodinSparseEndpointGenericPresentation
-import ZFVP.Syntax.LowRankForcingTruth
-import ZFVP.ModelTheory.CountableZFTransfer
-import ZFVP.ModelTheory.LocalSparsePrefixForcingFormula
+module
+
+public import ZFVP.ModelTheory.WoodinSparseCodedForcingTruth
+public import ZFVP.ModelTheory.ForcingRegularGenericEquality
+public import ZFVP.ModelTheory.WoodinSparseEndpointGenericPresentation
+public import ZFVP.Syntax.LowRankForcingTruth
+public import ZFVP.ModelTheory.CountableZFTransfer
+public import ZFVP.ModelTheory.LocalSparsePrefixForcingFormula
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 

@@ -1,5 +1,9 @@
-import ZFVP.Syntax.MembershipTemplates
-import ZFVP.Syntax.PrefixTuples
+module
+
+public import ZFVP.Syntax.MembershipTemplates
+public import ZFVP.Syntax.PrefixTuples
+
+@[expose] public section
 
 /-! Formula templates preserve an arbitrary internal list of parameters. -/
 

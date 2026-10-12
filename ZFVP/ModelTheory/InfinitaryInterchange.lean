@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryRenaming
-import ZFVP.ModelTheory.InfinitaryQuantifierAxioms
+module
+
+public import ZFVP.ModelTheory.InfinitaryRenaming
+public import ZFVP.ModelTheory.InfinitaryQuantifierAxioms
+
+@[expose] public section
 
 /-! The standard Q quantifier interchange axiom, with variable exchange explicit. -/
 

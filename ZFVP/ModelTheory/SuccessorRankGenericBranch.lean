@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SuccessorRankGenericClosure
+module
+
+public import ZFVP.ModelTheory.SuccessorRankGenericClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

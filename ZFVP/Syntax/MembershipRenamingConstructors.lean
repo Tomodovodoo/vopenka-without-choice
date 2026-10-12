@@ -1,5 +1,9 @@
-import ZFVP.Syntax.MembershipRenamingComposition
-import ZFVP.Syntax.FormulaSubstitutionConstructors
+module
+
+public import ZFVP.Syntax.MembershipRenamingComposition
+public import ZFVP.Syntax.FormulaSubstitutionConstructors
+
+@[expose] public section
 
 /-! Renaming beneath a binder fixes zero and raises every old index. -/
 

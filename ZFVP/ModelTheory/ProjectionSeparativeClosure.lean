@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingProjection
-import ZFVP.SetTheory.FunctionComposition
-import ZFVP.SetTheory.ForcingSeparativeOrder
-import ZFVP.SetTheory.ForcingClosure
+module
+
+public import ZFVP.ModelTheory.ForcingProjection
+public import ZFVP.SetTheory.FunctionComposition
+public import ZFVP.SetTheory.ForcingSeparativeOrder
+public import ZFVP.SetTheory.ForcingClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

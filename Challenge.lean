@@ -1,7 +1,9 @@
-import ZFVP.ModelTheory.SymmetricModel
-import ZFVP.ModelTheory.SVCVopenkaRestoration
-import ZFVP.ModelTheory.CountableCohenVopenkaConsistency
-import ZFVP.ModelTheory.RealSolovayTheory
+module
+
+public import ZFVP.ModelTheory.SymmetricModel
+public import ZFVP.ModelTheory.SVCVopenkaRestoration
+public import ZFVP.ModelTheory.CountableCohenVopenkaConsistency
+public import ZFVP.ModelTheory.RealSolovayTheory
 
 /-!
 # Statements compared against the implemented proofs
@@ -11,7 +13,9 @@ encoding. The deliberate holes occur only in this statement file.
 
 This Challenge currently imports Foundation and project definitions. It is
 usable with Comparator, but does not yet meet Palomar's stricter Challenge
-import policy. See docs/palomar.md for the required statement translation.
+public import policy. See docs/palomar.md for the required statement translation.
+
+@[expose] public section
 -/
 
 namespace VopenkaWithoutChoice

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingModelEvaluation
-import ZFVP.SetTheory.OrdinalMeasureInduction
+module
+
+public import ZFVP.ModelTheory.ForcingModelEvaluation
+public import ZFVP.SetTheory.OrdinalMeasureInduction
+
+@[expose] public section
 
 namespace ZFVP
 

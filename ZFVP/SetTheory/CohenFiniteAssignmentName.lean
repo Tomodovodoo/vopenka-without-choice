@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.CohenEnumerationName
-import ZFVP.SetTheory.CohenLeastSupport
-import ZFVP.SetTheory.SymmetricPairNames
+module
+
+public import ZFVP.SetTheory.CohenEnumerationName
+public import ZFVP.SetTheory.CohenLeastSupport
+public import ZFVP.SetTheory.SymmetricPairNames
+
+@[expose] public section
 
 namespace ZFVP
 

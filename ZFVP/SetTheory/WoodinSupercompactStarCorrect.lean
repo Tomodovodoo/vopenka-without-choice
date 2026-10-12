@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.WoodinSupercompactInaccessible
+module
+
+public import ZFVP.SetTheory.WoodinSupercompactInaccessible
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

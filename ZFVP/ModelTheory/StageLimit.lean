@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.StageSuccessor
-import ZFVP.ModelTheory.SubmodelChain
+module
+
+public import ZFVP.ModelTheory.StageSuccessor
+public import ZFVP.ModelTheory.SubmodelChain
+
+@[expose] public section
 
 /-! # The limit step of Enayat's ω₁-length construction
 

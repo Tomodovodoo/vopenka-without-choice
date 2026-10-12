@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinEventualEmptyTails
-import ZFVP.ModelTheory.WoodinDirectBoundSmall
-import ZFVP.ModelTheory.WoodinBoundSupport
+module
+
+public import ZFVP.ModelTheory.WoodinEventualEmptyTails
+public import ZFVP.ModelTheory.WoodinDirectBoundSmall
+public import ZFVP.ModelTheory.WoodinBoundSupport
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

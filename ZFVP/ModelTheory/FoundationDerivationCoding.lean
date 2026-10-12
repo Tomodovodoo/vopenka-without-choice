@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.StandardSequentEncoding
+module
+
+public import ZFVP.ModelTheory.StandardSequentEncoding
+
+@[expose] public section
 
 /-! Every Foundation logical derivation yields a proof accepted by the coded calculus. -/
 

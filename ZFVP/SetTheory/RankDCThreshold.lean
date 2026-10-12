@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.BoundedDomainUnary
-import ZFVP.SetTheory.OrdinalDependentChoice
-import ZFVP.SetTheory.ChoicelessInaccessibleRank
-import ZFVP.SetTheory.UniformLeastOrdinalChoice
+module
+
+public import ZFVP.SetTheory.BoundedDomainUnary
+public import ZFVP.SetTheory.OrdinalDependentChoice
+public import ZFVP.SetTheory.ChoicelessInaccessibleRank
+public import ZFVP.SetTheory.UniformLeastOrdinalChoice
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

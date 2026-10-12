@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramCourseRec
+module
+
+public import ZFVP.Syntax.PrimitiveProgramCourseRec
+
+@[expose] public section
 
 /-! An explicit program for negating natural-number formula codes. -/
 

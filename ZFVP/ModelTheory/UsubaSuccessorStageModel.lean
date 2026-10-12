@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.UsubaSuccessorRestorationModel
-import ZFVP.ModelTheory.UsubaStageDependentChoice
-import ZFVP.ModelTheory.TwoStepIntermediatePreservation
+module
+
+public import ZFVP.ModelTheory.UsubaSuccessorRestorationModel
+public import ZFVP.ModelTheory.UsubaStageDependentChoice
+public import ZFVP.ModelTheory.TwoStepIntermediatePreservation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SuccessorRankDependentChoice
-import ZFVP.SetTheory.DependentChoiceCofinality
+module
+
+public import ZFVP.ModelTheory.SuccessorRankDependentChoice
+public import ZFVP.SetTheory.DependentChoiceCofinality
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

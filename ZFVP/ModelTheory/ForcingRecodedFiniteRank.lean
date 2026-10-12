@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingRecodedGraphBounds
-import ZFVP.ModelTheory.ForcingRecodedSystem
-import ZFVP.ModelTheory.ForcingIterationFiniteRank
+module
+
+public import ZFVP.ModelTheory.ForcingRecodedGraphBounds
+public import ZFVP.ModelTheory.ForcingRecodedSystem
+public import ZFVP.ModelTheory.ForcingIterationFiniteRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

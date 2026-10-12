@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ChoicelessSupercompact
-import ZFVP.ModelTheory.EmbeddingAbsoluteness
+module
+
+public import ZFVP.SetTheory.ChoicelessSupercompact
+public import ZFVP.ModelTheory.EmbeddingAbsoluteness
+
+@[expose] public section
 
 /-! Witnesses below a correct target rank can be read in a surrounding rank
 with one less correctness level. -/

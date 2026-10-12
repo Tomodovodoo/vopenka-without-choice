@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedCheckNames
-import ZFVP.SetTheory.DeltaOneNameAction
+module
+
+public import ZFVP.SetTheory.BoundedCheckNames
+public import ZFVP.SetTheory.DeltaOneNameAction
+
+@[expose] public section
 
 /-! The canonical check-name operation has two existential bounded certificates. -/
 

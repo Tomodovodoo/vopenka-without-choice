@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalHenkinConditions
-import ZFVP.SetTheory.NaturalAddition
+module
+
+public import ZFVP.ModelTheory.InternalHenkinConditions
+public import ZFVP.SetTheory.NaturalAddition
+
+@[expose] public section
 
 /-! Positive Henkin contexts may be enlarged by any internal finite amount.
 The iterated extension is an actual definable set-valued operation. -/

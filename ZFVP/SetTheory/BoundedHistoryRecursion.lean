@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.DependentChoice
-import ZFVP.SetTheory.UniformRecursion
-import ZFVP.SetTheory.FunctionUnion
-import ZFVP.SetTheory.FiniteSequences
+module
+
+public import ZFVP.SetTheory.DependentChoice
+public import ZFVP.SetTheory.UniformRecursion
+public import ZFVP.SetTheory.FunctionUnion
+public import ZFVP.SetTheory.FiniteSequences
+
+@[expose] public section
 
 /-! Actual bounded choice over histories and transfinite recursion with a
 fallback value. Admissibility is required only at the histories where it is

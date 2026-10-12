@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.DeltaOneNameAction
-import ZFVP.SetTheory.SymmetricSystems
+module
+
+public import ZFVP.SetTheory.DeltaOneNameAction
+public import ZFVP.SetTheory.SymmetricSystems
+
+@[expose] public section
 
 namespace ZFVP
 

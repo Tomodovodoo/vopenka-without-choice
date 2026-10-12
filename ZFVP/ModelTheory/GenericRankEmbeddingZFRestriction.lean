@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.EndExtensionCodedEmbedding
-import ZFVP.ModelTheory.GenericRankEmbeddingRestriction
+module
+
+public import ZFVP.ModelTheory.EndExtensionCodedEmbedding
+public import ZFVP.ModelTheory.GenericRankEmbeddingRestriction
+
+@[expose] public section
 
 /-! Arbitrary-language restriction between rank stages that model ZF.
 

@@ -1,4 +1,8 @@
-import Foundation.FirstOrder.SetTheory.Basic
+module
+
+public import Foundation.FirstOrder.SetTheory.Basic
+
+@[expose] public section
 
 /-! Syntactic relativization to a set parameter, including empty domains. -/
 

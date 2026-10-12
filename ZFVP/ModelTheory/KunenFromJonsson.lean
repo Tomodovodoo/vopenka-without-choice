@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.OmegaJonssonEmbedding
-import ZFVP.ModelTheory.EmbeddingPointwiseImage
-import ZFVP.ModelTheory.CriticalSequenceFixedPoint
-import ZFVP.SetTheory.CnSequenceNames
+module
+
+public import ZFVP.ModelTheory.OmegaJonssonEmbedding
+public import ZFVP.ModelTheory.EmbeddingPointwiseImage
+public import ZFVP.ModelTheory.CriticalSequenceFixedPoint
+public import ZFVP.SetTheory.CnSequenceNames
+
+@[expose] public section
 
 /-! Kunen's inconsistency argument, with the omega-Jonsson function taken as a hypothesis.
 

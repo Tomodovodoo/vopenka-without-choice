@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SparseBoundedForcingBaseRank
-import ZFVP.ModelTheory.ClassForcingTranslationMeaning
-import ZFVP.ModelTheory.WoodinSparseStandardFormulaTruth
-import ZFVP.Syntax.InternalForcingStandardEncoding
+module
+
+public import ZFVP.ModelTheory.SparseBoundedForcingBaseRank
+public import ZFVP.ModelTheory.ClassForcingTranslationMeaning
+public import ZFVP.ModelTheory.WoodinSparseStandardFormulaTruth
+public import ZFVP.Syntax.InternalForcingStandardEncoding
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

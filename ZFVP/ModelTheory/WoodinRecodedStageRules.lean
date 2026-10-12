@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinRecodedEndpoint
+module
+
+public import ZFVP.ModelTheory.WoodinRecodedEndpoint
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

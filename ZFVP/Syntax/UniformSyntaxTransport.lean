@@ -1,4 +1,8 @@
-import ZFVP.Syntax.UniformFormulas
+module
+
+public import ZFVP.Syntax.UniformFormulas
+
+@[expose] public section
 
 /-! Elementary maps transport the shared definitions of term and formula sets. -/
 

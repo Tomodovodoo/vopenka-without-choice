@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.StageRun
-import ZFVP.ModelTheory.StageClubs
-import ZFVP.ModelTheory.StageDefinability
-import ZFVP.ModelTheory.StageObligations
+module
+
+public import ZFVP.ModelTheory.StageRun
+public import ZFVP.ModelTheory.StageClubs
+public import ZFVP.ModelTheory.StageDefinability
+public import ZFVP.ModelTheory.StageObligations
+
+@[expose] public section
 
 /-! # The reflection clause of Enayat's ω₁-length construction
 

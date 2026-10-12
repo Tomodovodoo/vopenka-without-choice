@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.StandardProofLists
+module
+
+public import ZFVP.ModelTheory.StandardProofLists
+
+@[expose] public section
 
 /-! Building internally checked proofs from finitely many externally supplied inference steps. -/
 

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ClassForcingQuotientWitnesses
-import ZFVP.ModelTheory.ClassForcingWitnessSchedule
-import ZFVP.ModelTheory.ForcingModelRank
-import ZFVP.SetTheory.StagedForcingDependentChoice
+module
+
+public import ZFVP.ModelTheory.ClassForcingQuotientWitnesses
+public import ZFVP.ModelTheory.ClassForcingWitnessSchedule
+public import ZFVP.ModelTheory.ForcingModelRank
+public import ZFVP.SetTheory.StagedForcingDependentChoice
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

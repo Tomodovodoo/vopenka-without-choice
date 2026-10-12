@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.BooleanAutomorphismLift
-import ZFVP.SetTheory.LevyCollapseFull
-import ZFVP.SetTheory.LevyCollapseRowPermutations
+module
+
+public import ZFVP.ModelTheory.BooleanAutomorphismLift
+public import ZFVP.SetTheory.LevyCollapseFull
+public import ZFVP.SetTheory.LevyCollapseRowPermutations
+
+@[expose] public section
 
 /-! The base-poset side of the Galois step for the Levy collapse. The Solovay symmetric system
 lives over the Boolean completion `B = booleanConditions P R` of a poset `(P, R)`, and its names

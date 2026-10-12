@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CohenAutomorphisms
-import ZFVP.SetTheory.ForcingRegular
+module
+
+public import ZFVP.SetTheory.CohenAutomorphisms
+public import ZFVP.SetTheory.ForcingRegular
+
+@[expose] public section
 
 namespace ZFVP
 

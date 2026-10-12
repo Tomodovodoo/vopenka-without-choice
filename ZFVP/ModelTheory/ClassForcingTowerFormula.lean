@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ClassForcingTowerAtomicRegular
-import ZFVP.ModelTheory.ClassForcingGenericAlgebra
-import ZFVP.ModelTheory.ClassForcingQuotient
+module
+
+public import ZFVP.ModelTheory.ClassForcingTowerAtomicRegular
+public import ZFVP.ModelTheory.ClassForcingGenericAlgebra
+public import ZFVP.ModelTheory.ClassForcingQuotient
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

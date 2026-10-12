@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInfinitaryBranches
+module
+
+public import ZFVP.ModelTheory.SchmerlInfinitaryBranches
+
+@[expose] public section
 
 /-! The tree part of the corrected Schmerl sentence. It combines an explicit
 Q cofinality witness, a countable color range, weak specialization, and original

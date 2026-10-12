@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.CriticalPowerRestrictions
+module
+
+public import ZFVP.ModelTheory.CriticalPowerRestrictions
+
+@[expose] public section
 
 /-! Critical points of set-sized graphs transfer by a bounded formula. -/
 

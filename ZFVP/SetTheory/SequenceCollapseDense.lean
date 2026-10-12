@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.SequenceCollapseAbsorption
-import ZFVP.SetTheory.SetCollapse
+module
+
+public import ZFVP.SetTheory.SequenceCollapseAbsorption
+public import ZFVP.SetTheory.SetCollapse
+
+@[expose] public section
 
 /-! The sequence tree `λ^{<ω}` is a dense subposet of the collapse `Coll(ω, λ)`: the identity is
 a dense embedding. -/

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingNameUnions
-import ZFVP.ModelTheory.ForcingModelSequences
+module
+
+public import ZFVP.SetTheory.ForcingNameUnions
+public import ZFVP.ModelTheory.ForcingModelSequences
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.BooleanAntichains
-import ZFVP.SetTheory.LevyCollapseAntichainSupport
+module
+
+public import ZFVP.ModelTheory.BooleanAntichains
+public import ZFVP.SetTheory.LevyCollapseAntichainSupport
+
+@[expose] public section
 
 /-! Antichains of the Boolean completion of the Levy collapse are localized below an ordinal
 `ξ < κ`: choosing one condition in each element of the antichain gives an antichain of

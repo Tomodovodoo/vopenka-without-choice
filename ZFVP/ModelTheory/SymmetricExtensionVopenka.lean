@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SymmetricExtensionZF
-import ZFVP.ModelTheory.SymmetricVopenkaPreservation
-import ZFVP.SetTheory.VopenkaIsomorphism
+module
+
+public import ZFVP.ModelTheory.SymmetricExtensionZF
+public import ZFVP.ModelTheory.SymmetricVopenkaPreservation
+public import ZFVP.SetTheory.VopenkaIsomorphism
+
+@[expose] public section
 
 /-! Vopenka preservation for the evaluated symmetric extension of a transitive ZF set model. -/
 

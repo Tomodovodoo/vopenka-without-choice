@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.LimitRankEmbedding
-import ZFVP.ModelTheory.BoundedEmbeddingTables
-import ZFVP.ModelTheory.CodedEmbeddingRestriction
-import ZFVP.Syntax.BoundedMembershipTruthCertificate
+module
+
+public import ZFVP.ModelTheory.LimitRankEmbedding
+public import ZFVP.ModelTheory.BoundedEmbeddingTables
+public import ZFVP.ModelTheory.CodedEmbeddingRestriction
+public import ZFVP.Syntax.BoundedMembershipTruthCertificate
+
+@[expose] public section
 
 /-! A truth table inside the source domain suffices to restrict an embedding to a coding support. -/
 

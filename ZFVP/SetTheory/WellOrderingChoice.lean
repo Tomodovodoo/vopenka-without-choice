@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.InternalChoice
-import ZFVP.SetTheory.WellOrderedCardinal
-import ZFVP.SetTheory.InverseFunction
+module
+
+public import ZFVP.SetTheory.InternalChoice
+public import ZFVP.SetTheory.WellOrderedCardinal
+public import ZFVP.SetTheory.InverseFunction
+
+@[expose] public section
 
 namespace ZFVP
 

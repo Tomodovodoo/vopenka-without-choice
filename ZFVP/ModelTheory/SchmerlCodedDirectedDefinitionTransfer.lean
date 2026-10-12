@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlCodedDefinitionInclusion
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedDefinitionInclusion
+
+@[expose] public section
 
 /-! The finite first-order assertion that two predicates define a directed
 poset without a maximum transfers with their raw parameter definitions. -/

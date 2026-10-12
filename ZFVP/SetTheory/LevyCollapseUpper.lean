@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LevyCollapseSubgeneric
+module
+
+public import ZFVP.ModelTheory.LevyCollapseSubgeneric
+
+@[expose] public section
 
 /-! The upper part of a Levy collapse condition (columns `≥ β`), the sub-poset of conditions
 supported above `β`, and gluing lower and upper parts: `Coll(ω,<κ) ≅ Coll(ω,<β) × Coll(ω,[β,κ))`

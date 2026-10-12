@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.StarDependentChoiceFailure
+module
+
+public import ZFVP.SetTheory.StarDependentChoiceFailure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

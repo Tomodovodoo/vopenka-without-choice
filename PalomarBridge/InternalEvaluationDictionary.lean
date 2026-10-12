@@ -1,5 +1,9 @@
-import PalomarBridge.InternalSyntaxDictionary
-import ZFVP.Syntax.SatisfactionDefinability
+module
+
+public import PalomarBridge.InternalSyntaxDictionary
+public import ZFVP.Syntax.SatisfactionDefinability
+
+@[expose] public section
 
 namespace PalomarBridge
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

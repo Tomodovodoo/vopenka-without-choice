@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.LeastRankWitnesses
+module
+
+public import ZFVP.SetTheory.LeastRankWitnesses
+
+@[expose] public section
 
 /-! Well-foundedness relative to the internal subsets of an internal set.
 This is distinct from external well-foundedness of a model's membership. -/

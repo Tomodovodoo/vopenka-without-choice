@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TwoStepColumnCode
-import ZFVP.ModelTheory.ForcingLimitBoundTables
+module
+
+public import ZFVP.ModelTheory.TwoStepColumnCode
+public import ZFVP.ModelTheory.ForcingLimitBoundTables
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

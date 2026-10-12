@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BinaryPerfectImages
-import ZFVP.SetTheory.BinaryGreedySurjection
+module
+
+public import ZFVP.SetTheory.BinaryPerfectImages
+public import ZFVP.SetTheory.BinaryGreedySurjection
+
+@[expose] public section
 
 /-! Transfer of PSP to the actual internal closed unit interval. -/
 

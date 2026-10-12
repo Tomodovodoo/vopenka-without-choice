@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.FiniteStageRun
+module
+
+public import ZFVP.ModelTheory.FiniteStageRun
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

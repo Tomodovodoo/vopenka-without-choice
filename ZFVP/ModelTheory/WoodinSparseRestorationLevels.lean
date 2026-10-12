@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseFiniteReflection
-import ZFVP.SetTheory.CnExtendibleWoodinSupercompact
+module
+
+public import ZFVP.ModelTheory.WoodinSparseFiniteReflection
+public import ZFVP.SetTheory.CnExtendibleWoodinSupercompact
+
+@[expose] public section
 
 /-! Finite ground bounds for the complete sparse-code dictionary.
 The window complexity `r` and graph formula `code` are explicit syntax inputs.

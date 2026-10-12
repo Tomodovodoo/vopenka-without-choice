@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseRestorationEndpoint
-import ZFVP.ModelTheory.UniformWoodinSparseCompleteCode
-import ZFVP.ModelTheory.WoodinSparseCapturedProjection
+module
+
+public import ZFVP.ModelTheory.WoodinSparseRestorationEndpoint
+public import ZFVP.ModelTheory.UniformWoodinSparseCompleteCode
+public import ZFVP.ModelTheory.WoodinSparseCapturedProjection
+
+@[expose] public section
 
 /-! Finite restoration ground data for the fixed formula defining the actual
 complete sparse code. Only the forcing-window level remains a variable.

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlBranchMarkers
+module
+
+public import ZFVP.ModelTheory.SchmerlBranchMarkers
+
+@[expose] public section
 
 /-! Construction of the separated branch markers used by Baumgartner's reduction.
 At each countable stage choose a node above earlier markers and past the split
@@ -109,7 +113,7 @@ theorem exists_branchMarkers_of_card_le (hI : Cardinal.aleph0 < Order.cof I)
     rw [Cardinal.mk_toType, Ordinal.card_omega]
   obtain ⟨e⟩ : Nonempty (J ↪ Ω) := (Cardinal.le_def J Ω).mp (hcard.trans_eq hΩ.symm)
   let : LinearOrder J := LinearOrder.lift' e e.injective
-  let : WellFoundedLT J := ⟨InvImage.wf e wellFounded_lt⟩
+  let : WellFoundedLT J := InvImage.wf e wellFounded_lt
   have hsmallΩ (a : Ω) : (Set.Iio a).Countable := by
     have hord : (Cardinal.mk Ω).ord = Ordinal.type (fun x y : Ω ↦ x < y) := by
       rw [hΩ, Cardinal.ord_aleph]

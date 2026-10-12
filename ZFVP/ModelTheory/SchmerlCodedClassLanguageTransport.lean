@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedClassExpansion
-import ZFVP.ModelTheory.SchmerlEndExtensionFragmentCoding
-import ZFVP.Syntax.EndExtensionMembershipSyntax
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedClassExpansion
+public import ZFVP.ModelTheory.SchmerlEndExtensionFragmentCoding
+public import ZFVP.Syntax.EndExtensionMembershipSyntax
+
+@[expose] public section
 
 /-! The finite class language and its symbol map agree across end extensions,
 so the ground fragment code remains a code for the same fixed sentence. -/

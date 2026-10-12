@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.RealTranslationPerfect
-import ZFVP.SetTheory.CountableUnions
-import ZFVP.SetTheory.InjectionRetraction
+module
+
+public import ZFVP.SetTheory.RealTranslationPerfect
+public import ZFVP.SetTheory.CountableUnions
+public import ZFVP.SetTheory.InjectionRetraction
+
+@[expose] public section
 
 /-! Cantor PSP transfers to every actual internal real set under internal DC. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlGeneralizedInfinitarySemantics
-import ZFVP.ModelTheory.SchmerlUniverseInfinitaryCodes
-import ZFVP.ModelTheory.SchmerlInternalQuantifierLaws
+module
+
+public import ZFVP.ModelTheory.SchmerlGeneralizedInfinitarySemantics
+public import ZFVP.ModelTheory.SchmerlUniverseInfinitaryCodes
+public import ZFVP.ModelTheory.SchmerlInternalQuantifierLaws
+
+@[expose] public section
 
 /-! A represented fragment has an external generalized-quantifier semantics.
 Its Q witnesses are small exactly when an actual internally countable set

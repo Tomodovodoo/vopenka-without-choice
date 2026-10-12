@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.NaturalIteration
-import ZFVP.SetTheory.FiniteSequencesCardinality
-import ZFVP.SetTheory.RegularUnions
+module
+
+public import ZFVP.SetTheory.NaturalIteration
+public import ZFVP.SetTheory.FiniteSequencesCardinality
+public import ZFVP.SetTheory.RegularUnions
+
+@[expose] public section
 
 /-! Cardinal bounds for finite sequences and countable definable closure. -/
 

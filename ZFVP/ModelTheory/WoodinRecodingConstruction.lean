@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinRecodingHistory
-import ZFVP.ModelTheory.WoodinRecodedRank
+module
+
+public import ZFVP.ModelTheory.WoodinRecodingHistory
+public import ZFVP.ModelTheory.WoodinRecodedRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.StandardCodedDerivations
+module
+
+public import ZFVP.ModelTheory.StandardCodedDerivations
+
+@[expose] public section
 
 /-! Constructors for each inference rule of a standard finite coded proof. -/
 

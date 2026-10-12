@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.InverseFunction
+module
+
+public import ZFVP.SetTheory.InverseFunction
+
+@[expose] public section
 
 /-! A specified point extends the inverse of an injection to a surjection. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CodedElementaryEmbedding
-import ZFVP.ModelTheory.ConstantStructure
+module
+
+public import ZFVP.ModelTheory.CodedElementaryEmbedding
+public import ZFVP.ModelTheory.ConstantStructure
+
+@[expose] public section
 
 /-! The canonical finite relational satisfaction code used in the first stage of
 the fixed-language reduction. The seven symbols describe three sorts, the label

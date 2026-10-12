@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RankZermelo
+module
+
+public import ZFVP.SetTheory.RankZermelo
+
+@[expose] public section
 
 /-! The ZF rank criterion, including every external instance of Replacement. -/
 

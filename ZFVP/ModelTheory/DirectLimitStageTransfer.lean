@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.DirectLimitStagePreservation
+module
+
+public import ZFVP.ModelTheory.DirectLimitStagePreservation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

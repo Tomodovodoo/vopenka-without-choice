@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SymmetricModelSeparation
+module
+
+public import ZFVP.ModelTheory.SymmetricModelSeparation
+
+@[expose] public section
 
 namespace ZFVP
 

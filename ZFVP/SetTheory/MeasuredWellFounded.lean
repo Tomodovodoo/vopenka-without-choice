@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.InternalWellFounded
+module
+
+public import ZFVP.SetTheory.InternalWellFounded
+
+@[expose] public section
 
 /-! Definable ordinal measures establish internal well-foundedness. -/
 

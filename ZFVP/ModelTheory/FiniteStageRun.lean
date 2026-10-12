@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.StageRunConstruction
-import ZFVP.SetTheory.FiniteDictionary
+module
+
+public import ZFVP.ModelTheory.StageRunConstruction
+public import ZFVP.SetTheory.FiniteDictionary
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

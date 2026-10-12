@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinTailTwoStepAction
-import ZFVP.ModelTheory.SparseNormalizedTwoStep
+module
+
+public import ZFVP.ModelTheory.WoodinTailTwoStepAction
+public import ZFVP.ModelTheory.SparseNormalizedTwoStep
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

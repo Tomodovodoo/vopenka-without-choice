@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingInverseLimit
-import ZFVP.SetTheory.CodingUniverse
-import ZFVP.SetTheory.InaccessibleFunctionClosure
+module
+
+public import ZFVP.SetTheory.ForcingInverseLimit
+public import ZFVP.SetTheory.CodingUniverse
+public import ZFVP.SetTheory.InaccessibleFunctionClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

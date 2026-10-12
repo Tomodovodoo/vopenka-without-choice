@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalReindexVariables
-import ZFVP.ModelTheory.InternalProofRewriteArguments
+module
+
+public import ZFVP.ModelTheory.InternalReindexVariables
+public import ZFVP.ModelTheory.InternalProofRewriteArguments
+
+@[expose] public section
 
 /-! Internal variable tables for the explicit bound-variable renaming program. -/
 

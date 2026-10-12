@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinCollapseRows
-import ZFVP.SetTheory.ReindexedPartialFunctions
+module
+
+public import ZFVP.SetTheory.WoodinCollapseRows
+public import ZFVP.SetTheory.ReindexedPartialFunctions
+
+@[expose] public section
 
 namespace ZFVP
 

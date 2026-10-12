@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinInverseSourceCutoff
-import ZFVP.ModelTheory.SaturatedHartogsPreservation
+module
+
+public import ZFVP.ModelTheory.WoodinInverseSourceCutoff
+public import ZFVP.ModelTheory.SaturatedHartogsPreservation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

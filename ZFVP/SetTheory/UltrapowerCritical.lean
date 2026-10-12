@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.UltrapowerSmallValues
-import ZFVP.SetTheory.UltrapowerSeed
-import ZFVP.ModelTheory.CriticalPoint
+module
+
+public import ZFVP.SetTheory.UltrapowerSmallValues
+public import ZFVP.SetTheory.UltrapowerSeed
+public import ZFVP.ModelTheory.CriticalPoint
+
+@[expose] public section
 
 /-! # The critical point of the ultrapower by a normal fine measure
 

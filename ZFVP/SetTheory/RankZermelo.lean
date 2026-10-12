@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.RankCollection
-import ZFVP.SetTheory.FiniteCodingClosure
-import ZFVP.SetTheory.Relativization
+module
+
+public import ZFVP.SetTheory.RankCollection
+public import ZFVP.SetTheory.FiniteCodingClosure
+public import ZFVP.SetTheory.Relativization
+
+@[expose] public section
 
 /-! Every limit rank above omega is a model of Zermelo set theory. -/
 

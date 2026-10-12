@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinNormalizationRecursion
-import ZFVP.ModelTheory.WoodinCoordinateProjection
+module
+
+public import ZFVP.ModelTheory.WoodinNormalizationRecursion
+public import ZFVP.ModelTheory.WoodinCoordinateProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

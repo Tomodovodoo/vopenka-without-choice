@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.Cn
+module
+
+public import ZFVP.SetTheory.Cn
+
+@[expose] public section
 
 /-! A class not covered by a set has members of arbitrarily high rank. -/
 

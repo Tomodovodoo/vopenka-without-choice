@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SingletonForcingTruth
-import ZFVP.ModelTheory.WoodinLeastRestorationRankAgreement
+module
+
+public import ZFVP.ModelTheory.SingletonForcingTruth
+public import ZFVP.ModelTheory.WoodinLeastRestorationRankAgreement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

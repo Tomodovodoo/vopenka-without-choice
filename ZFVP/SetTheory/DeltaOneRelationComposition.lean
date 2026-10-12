@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.BoundedRelationDomain
-import ZFVP.SetTheory.BoundedRelationRange
-import ZFVP.SetTheory.FunctionComposition
-import ZFVP.Syntax.BoundedTruthClauses
+module
+
+public import ZFVP.SetTheory.BoundedRelationDomain
+public import ZFVP.SetTheory.BoundedRelationRange
+public import ZFVP.SetTheory.FunctionComposition
+public import ZFVP.Syntax.BoundedTruthClauses
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

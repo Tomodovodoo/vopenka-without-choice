@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingPairNames
-import ZFVP.SetTheory.RankSurjectionOperations
-import ZFVP.SetTheory.RegularCofinalSurjection
+module
+
+public import ZFVP.SetTheory.ForcingPairNames
+public import ZFVP.SetTheory.RankSurjectionOperations
+public import ZFVP.SetTheory.RegularCofinalSurjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

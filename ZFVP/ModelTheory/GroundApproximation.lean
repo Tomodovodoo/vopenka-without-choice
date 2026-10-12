@@ -1,12 +1,16 @@
-import ZFVP.ModelTheory.ForcingSemanticConsequence
-import ZFVP.ModelTheory.ForcingDependentChoiceTransfer
-import ZFVP.ModelTheory.StageCountability
-import ZFVP.ModelTheory.ForcingSmallUltrafilter
-import ZFVP.ModelTheory.GenericRegularForcing
-import ZFVP.ModelTheory.CountableZFTransfer
-import ZFVP.ModelTheory.ForcingSmallInaccessibleSpecification
-import ZFVP.SetTheory.WellOrderedSurjection
-import ZFVP.SetTheory.WellOrderedCardinal
+module
+
+public import ZFVP.ModelTheory.ForcingSemanticConsequence
+public import ZFVP.ModelTheory.ForcingDependentChoiceTransfer
+public import ZFVP.ModelTheory.StageCountability
+public import ZFVP.ModelTheory.ForcingSmallUltrafilter
+public import ZFVP.ModelTheory.GenericRegularForcing
+public import ZFVP.ModelTheory.CountableZFTransfer
+public import ZFVP.ModelTheory.ForcingSmallInaccessibleSpecification
+public import ZFVP.SetTheory.WellOrderedSurjection
+public import ZFVP.SetTheory.WellOrderedCardinal
+
+@[expose] public section
 
 /-! The approximation property of the ground model (Hamkins): a subset of a checked set in a
 forcing extension all of whose intersections with checked sets of size at most `|P|` are checked

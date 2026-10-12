@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalHenkinTypeProjection
+module
+
+public import ZFVP.ModelTheory.InternalHenkinTypeProjection
+
+@[expose] public section
 
 /-! Omission density for an actual internally coded unary type. Nonprincipality
 has its usual syntactic meaning: no consistent unary formula implies every

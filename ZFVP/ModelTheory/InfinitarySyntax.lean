@@ -1,5 +1,9 @@
-import Foundation.FirstOrder.Basic.Semantics.Semantics
-import Mathlib.Data.Set.Countable
+module
+
+public import Foundation.FirstOrder.Basic.Semantics.Semantics
+public import Mathlib.Data.Set.Countable
+
+@[expose] public section
 
 /-! Finitely many free variables, countable Boolean operations, and the standard
 uncountability quantifier. First-order formulas retain their Foundation syntax. -/

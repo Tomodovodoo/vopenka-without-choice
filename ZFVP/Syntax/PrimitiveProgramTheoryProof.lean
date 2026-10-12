@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramGeneratedAxioms
-import ZFVP.Syntax.PrimitiveProgramLKCertificate
+module
+
+public import ZFVP.Syntax.PrimitiveProgramGeneratedAxioms
+public import ZFVP.Syntax.PrimitiveProgramLKCertificate
+
+@[expose] public section
 
 /-! A primitive recursive checker for LK proofs from enumerated ZF+VP axioms. -/
 

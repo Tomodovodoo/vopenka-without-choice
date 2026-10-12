@@ -1,6 +1,10 @@
-import ZFVP.Syntax.EndExtensionTermEvaluation
-import ZFVP.Syntax.EndExtensionFormulaCodes
-import ZFVP.Syntax.AtomicSatisfaction
+module
+
+public import ZFVP.Syntax.EndExtensionTermEvaluation
+public import ZFVP.Syntax.EndExtensionFormulaCodes
+public import ZFVP.Syntax.AtomicSatisfaction
+
+@[expose] public section
 
 /-! Atomic satisfaction in arbitrary coded languages is absolute under ZF end extensions. -/
 

@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ForcingModelSequences
-import ZFVP.ModelTheory.ForcingModelEvaluation
-import ZFVP.ModelTheory.ForcingDependentChoiceTransfer
-import ZFVP.ModelTheory.ForcingClosedSequences
-import ZFVP.SetTheory.OrdinalIndexedChoice
+module
+
+public import ZFVP.ModelTheory.ForcingModelSequences
+public import ZFVP.ModelTheory.ForcingModelEvaluation
+public import ZFVP.ModelTheory.ForcingDependentChoiceTransfer
+public import ZFVP.ModelTheory.ForcingClosedSequences
+public import ZFVP.SetTheory.OrdinalIndexedChoice
+
+@[expose] public section
 
 namespace ZFVP
 

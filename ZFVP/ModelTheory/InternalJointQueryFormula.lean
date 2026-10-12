@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalJointRealizationFormula
-import ZFVP.ModelTheory.InternalNamedQueryContext
-import ZFVP.ModelTheory.FiniteJointQueryFormula
+module
+
+public import ZFVP.ModelTheory.InternalJointRealizationFormula
+public import ZFVP.ModelTheory.InternalNamedQueryContext
+public import ZFVP.ModelTheory.FiniteJointQueryFormula
+
+@[expose] public section
 
 /-! Uniform first-order formulas for extending a finite condition by a unary
 query or its negation at a varying old source element. -/

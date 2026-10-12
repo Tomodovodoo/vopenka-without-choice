@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.SchroederBernstein
+module
+
+public import ZFVP.SetTheory.SchroederBernstein
+
+@[expose] public section
 
 /-! Images compose as actual sets, and identity graphs fix subsets. -/
 

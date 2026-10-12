@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.RankEmbeddingAction
-import ZFVP.Syntax.DictionaryComplexity
+module
+
+public import ZFVP.ModelTheory.RankEmbeddingAction
+public import ZFVP.Syntax.DictionaryComplexity
+
+@[expose] public section
 
 /-! Finite dictionary bounds transfer arbitrary definable relations between correct rank stages. -/
 

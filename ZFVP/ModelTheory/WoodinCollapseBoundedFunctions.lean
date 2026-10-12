@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinCollapseBoundedGeneric
-import ZFVP.ModelTheory.WoodinCollapseModel
-import ZFVP.ModelTheory.ForcingFunctionDecisionDensity
-import ZFVP.ModelTheory.ForcingSmallFunctions
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseBoundedGeneric
+public import ZFVP.ModelTheory.WoodinCollapseModel
+public import ZFVP.ModelTheory.ForcingFunctionDecisionDensity
+public import ZFVP.ModelTheory.ForcingSmallFunctions
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

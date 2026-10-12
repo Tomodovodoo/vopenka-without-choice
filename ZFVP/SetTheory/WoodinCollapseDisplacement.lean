@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinCollapseRowAutomorphisms
-import ZFVP.SetTheory.DisjointSupportSwap
+module
+
+public import ZFVP.SetTheory.WoodinCollapseRowAutomorphisms
+public import ZFVP.SetTheory.DisjointSupportSwap
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

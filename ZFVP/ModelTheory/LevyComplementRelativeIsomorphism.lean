@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LevyRelativeConeHomogeneity
-import ZFVP.ModelTheory.LevyHighCoordinateTrace
-import ZFVP.ModelTheory.LevyTraceMatching
+module
+
+public import ZFVP.ModelTheory.LevyRelativeConeHomogeneity
+public import ZFVP.ModelTheory.LevyHighCoordinateTrace
+public import ZFVP.ModelTheory.LevyTraceMatching
+
+@[expose] public section
 
 /-! Isomorphism of the two complementary cones for Boolean conditions inside a high cone.
 

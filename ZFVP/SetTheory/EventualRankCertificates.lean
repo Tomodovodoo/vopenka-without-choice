@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.BoundedDomainParameters
-import ZFVP.SetTheory.PiOneHierarchy
-import ZFVP.SetTheory.PiOneRegularInaccessible
+module
+
+public import ZFVP.SetTheory.BoundedDomainParameters
+public import ZFVP.SetTheory.PiOneHierarchy
+public import ZFVP.SetTheory.PiOneRegularInaccessible
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

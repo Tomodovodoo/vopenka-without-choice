@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.NormalizedTwoStepIsomorphism
-import ZFVP.ModelTheory.ForcingIsomorphismWoodinSuccessor
+module
+
+public import ZFVP.ModelTheory.NormalizedTwoStepIsomorphism
+public import ZFVP.ModelTheory.ForcingIsomorphismWoodinSuccessor
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

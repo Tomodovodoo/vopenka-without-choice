@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.EndExtensionLevy
-import ZFVP.SetTheory.BoundedSequenceSupport
-import ZFVP.SetTheory.BoundedFunctionDomain
+module
+
+public import ZFVP.SetTheory.EndExtensionLevy
+public import ZFVP.SetTheory.BoundedSequenceSupport
+public import ZFVP.SetTheory.BoundedFunctionDomain
+
+@[expose] public section
 
 /-! Coding operations and all internally finite assignments agree across ZF end extensions. -/
 

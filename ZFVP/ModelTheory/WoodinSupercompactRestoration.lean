@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinCollapseForcesRestoration
-import ZFVP.SetTheory.WoodinSupercompactInaccessible
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseForcesRestoration
+public import ZFVP.SetTheory.WoodinSupercompactInaccessible
+
+@[expose] public section
 
 namespace ZFVP
 

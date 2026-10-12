@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.LowenheimSkolemCardinals
+module
+
+public import ZFVP.SetTheory.LowenheimSkolemCardinals
+
+@[expose] public section
 
 /-! A nonempty set with a small transitive collapse is a surjective image of a small rank. -/
 

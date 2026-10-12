@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ForcingUniqueName
-import ZFVP.SetTheory.RankBounds
-import ZFVP.SetTheory.CodingUniverse
-import ZFVP.SetTheory.FormulaReflection
+module
+
+public import ZFVP.SetTheory.ForcingUniqueName
+public import ZFVP.SetTheory.RankBounds
+public import ZFVP.SetTheory.CodingUniverse
+public import ZFVP.SetTheory.FormulaReflection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

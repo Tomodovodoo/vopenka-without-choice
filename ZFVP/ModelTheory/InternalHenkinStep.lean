@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalHenkinContextExtension
+module
+
+public import ZFVP.ModelTheory.InternalHenkinContextExtension
+
+@[expose] public section
 
 /-! A definable Henkin step decides one coded formula and supplies a fresh
 witness whenever the chosen literal is existential. -/

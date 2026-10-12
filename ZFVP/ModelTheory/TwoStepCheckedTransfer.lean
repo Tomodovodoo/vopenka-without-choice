@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TwoStepCheckedForcing
-import ZFVP.SetTheory.ForcingIterandFormula
+module
+
+public import ZFVP.ModelTheory.TwoStepCheckedForcing
+public import ZFVP.SetTheory.ForcingIterandFormula
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

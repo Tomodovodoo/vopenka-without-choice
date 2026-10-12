@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.EmbeddingCofinality
-import ZFVP.SetTheory.Cofinality
-import ZFVP.SetTheory.CofinalityDictionary
+module
+
+public import ZFVP.ModelTheory.EmbeddingCofinality
+public import ZFVP.SetTheory.Cofinality
+public import ZFVP.SetTheory.CofinalityDictionary
+
+@[expose] public section
 
 namespace ZFVP
 

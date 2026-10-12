@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.CnExtendibleSmallEmbedding
-import ZFVP.SetTheory.OrdinalAddition
-import ZFVP.SetTheory.LevyComplexityBound
+module
+
+public import ZFVP.SetTheory.CnExtendibleSmallEmbedding
+public import ZFVP.SetTheory.OrdinalAddition
+public import ZFVP.SetTheory.LevyComplexityBound
+
+@[expose] public section
 
 /-! Lemma lem:finite-reflection: a finite dictionary `D` of formulas in the six variables
 `η δ θ ρ α x` is reflected by a `C(k+1)`-extendible cardinal `δ` from a `C(c)` stage `ρ` (with

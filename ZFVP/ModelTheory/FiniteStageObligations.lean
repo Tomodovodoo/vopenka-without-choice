@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.StageObligations
-import ZFVP.ModelTheory.RubinFinitePreservingSuccessor
+module
+
+public import ZFVP.ModelTheory.StageObligations
+public import ZFVP.ModelTheory.RubinFinitePreservingSuccessor
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

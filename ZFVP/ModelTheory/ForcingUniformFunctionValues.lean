@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingSmallFunctions
+module
+
+public import ZFVP.ModelTheory.ForcingSmallFunctions
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RankTables
+module
+
+public import ZFVP.SetTheory.RankTables
+
+@[expose] public section
 
 /-! Bounded relational formulas for rank-table equations. -/
 

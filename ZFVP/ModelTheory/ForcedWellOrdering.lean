@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingWellOrdering
-import ZFVP.SetTheory.CardinalDictionary
+module
+
+public import ZFVP.ModelTheory.ForcingWellOrdering
+public import ZFVP.SetTheory.CardinalDictionary
+
+@[expose] public section
 
 namespace ZFVP
 

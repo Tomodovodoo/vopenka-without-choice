@@ -1,6 +1,10 @@
-import ZFVP.Syntax.InternalForcingTruthTables
-import ZFVP.Syntax.CodingSupportSyntax
-import ZFVP.SetTheory.CnAbsoluteness
+module
+
+public import ZFVP.Syntax.InternalForcingTruthTables
+public import ZFVP.Syntax.CodingSupportSyntax
+public import ZFVP.SetTheory.CnAbsoluteness
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

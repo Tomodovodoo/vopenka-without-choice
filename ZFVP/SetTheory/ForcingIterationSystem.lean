@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ForcingOrderExtension
-import ZFVP.SetTheory.ForcingTopExtension
-import ZFVP.SetTheory.ForcingMapExtension
-import ZFVP.SetTheory.ForcingLiftSectionCompatibility
+module
+
+public import ZFVP.SetTheory.ForcingOrderExtension
+public import ZFVP.SetTheory.ForcingTopExtension
+public import ZFVP.SetTheory.ForcingMapExtension
+public import ZFVP.SetTheory.ForcingLiftSectionCompatibility
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

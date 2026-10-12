@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalNaturalUnpairing
-import ZFVP.Syntax.ArithmeticPrimitiveProgramEquations
+module
+
+public import ZFVP.ModelTheory.InternalNaturalUnpairing
+public import ZFVP.Syntax.ArithmeticPrimitiveProgramEquations
+
+@[expose] public section
 
 /-! Graphs of arithmetic functions transferred to ZF's internal omega. -/
 

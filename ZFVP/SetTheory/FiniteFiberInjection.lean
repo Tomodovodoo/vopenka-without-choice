@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.FiniteRealMapMinimum
-import ZFVP.SetTheory.FiniteRangeFibers
-import ZFVP.SetTheory.FiniteDomainEnumerationFamily
-import ZFVP.SetTheory.WellOrderingChoice
-import ZFVP.SetTheory.FiniteSequences
+module
+
+public import ZFVP.SetTheory.FiniteRealMapMinimum
+public import ZFVP.SetTheory.FiniteRangeFibers
+public import ZFVP.SetTheory.FiniteDomainEnumerationFamily
+public import ZFVP.SetTheory.WellOrderingChoice
+public import ZFVP.SetTheory.FiniteSequences
+
+@[expose] public section
 
 namespace ZFVP
 

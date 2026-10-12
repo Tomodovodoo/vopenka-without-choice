@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryTermSubstitution
-import ZFVP.ModelTheory.InfinitaryRenaming
+module
+
+public import ZFVP.ModelTheory.InfinitaryTermSubstitution
+public import ZFVP.ModelTheory.InfinitaryRenaming
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.UniformRank
-import ZFVP.SetTheory.BoundedFunctionDomain
+module
+
+public import ZFVP.SetTheory.UniformRank
+public import ZFVP.SetTheory.BoundedFunctionDomain
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

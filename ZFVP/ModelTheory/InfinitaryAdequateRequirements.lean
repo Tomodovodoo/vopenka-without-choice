@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryAdequateFiniteConditions
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateFiniteConditions
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

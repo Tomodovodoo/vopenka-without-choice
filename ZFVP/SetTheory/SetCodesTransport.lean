@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.SetCodes
-import ZFVP.SetTheory.EndExtensionRecursion
+module
+
+public import ZFVP.SetTheory.SetCodes
+public import ZFVP.SetTheory.EndExtensionRecursion
+
+@[expose] public section
 
 /-! Transitive collapses move along membership end extensions.
 

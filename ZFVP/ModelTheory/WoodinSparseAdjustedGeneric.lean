@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinSparseCapturedMaster
-import ZFVP.ModelTheory.ProjectionQuotientCheckedBound
-import ZFVP.ModelTheory.RelativeAutomorphismGeneric
-import ZFVP.ModelTheory.WoodinSparseFixedPointInclusion
+module
+
+public import ZFVP.ModelTheory.WoodinSparseCapturedMaster
+public import ZFVP.ModelTheory.ProjectionQuotientCheckedBound
+public import ZFVP.ModelTheory.RelativeAutomorphismGeneric
+public import ZFVP.ModelTheory.WoodinSparseFixedPointInclusion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

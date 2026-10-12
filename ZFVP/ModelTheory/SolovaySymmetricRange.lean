@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SolovayCorollary
-import ZFVP.ModelTheory.SolovaySymmetricReals
-import ZFVP.ModelTheory.SolovaySymmetricSupport
-import ZFVP.ModelTheory.SolovayHODIdentification
+module
+
+public import ZFVP.ModelTheory.SolovayCorollary
+public import ZFVP.ModelTheory.SolovaySymmetricReals
+public import ZFVP.ModelTheory.SolovaySymmetricSupport
+public import ZFVP.ModelTheory.SolovayHODIdentification
+
+@[expose] public section
 
 /-! The paper's Lemma `lem:Solovay-symmetric`, cut down to two open statements.
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.NormalizedReverseOrderComparison
-import ZFVP.ModelTheory.SparseNormalizedTwoStep
+module
+
+public import ZFVP.ModelTheory.NormalizedReverseOrderComparison
+public import ZFVP.ModelTheory.SparseNormalizedTwoStep
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

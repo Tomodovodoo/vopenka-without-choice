@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlUniverseInfinitaryCodes
+module
+
+public import ZFVP.ModelTheory.SchmerlUniverseInfinitaryCodes
+
+@[expose] public section
 
 /-! The standard universe interprets represented infinitary formulas with
 exactly the external standard uncountability quantifier. -/

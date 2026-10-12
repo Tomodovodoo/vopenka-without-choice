@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RealSplitCovers
+module
+
+public import ZFVP.SetTheory.RealSplitCovers
+
+@[expose] public section
 
 /-! Comparing sums of cover costs using common internal finite truncations. -/
 

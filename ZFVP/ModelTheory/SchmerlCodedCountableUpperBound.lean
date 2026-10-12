@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlCodedRubinSource
-import ZFVP.SetTheory.LevyCollapseSmallSets
-import ZFVP.SetTheory.HartogsRegularChoice
-import ZFVP.SetTheory.CountableSets
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedRubinSource
+public import ZFVP.SetTheory.LevyCollapseSmallSets
+public import ZFVP.SetTheory.HartogsRegularChoice
+public import ZFVP.SetTheory.CountableSets
+
+@[expose] public section
 
 /-! Internal countable subsets of a cofinal chain have a common upper bound. -/
 

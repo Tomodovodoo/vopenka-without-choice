@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.DiagonalClubs
-import ZFVP.SetTheory.HartogsRegularChoice
-import ZFVP.SetTheory.CountableSets
-import ZFVP.SetTheory.TransfiniteIteration
+module
+
+public import ZFVP.SetTheory.DiagonalClubs
+public import ZFVP.SetTheory.HartogsRegularChoice
+public import ZFVP.SetTheory.CountableSets
+public import ZFVP.SetTheory.TransfiniteIteration
+
+@[expose] public section
 
 /-! Actual internal clubs of nonzero limit ordinals closed under an internal
 function, including the first uncountable ordinal under internal choice. -/
@@ -12,7 +16,7 @@ namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]
 
-private theorem functionClosureCondition_definable (f : V) :
+theorem functionClosureCondition_definable (f : V) :
     ℒₛₑₜ-predicate[V] (fun α ↦ IsLimitOrdinal α ∧ ∀ β ∈ α, f ‘ β ∈ α) := by
   unfold IsLimitOrdinal
   definability

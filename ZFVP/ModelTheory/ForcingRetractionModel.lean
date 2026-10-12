@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingRetraction
-import ZFVP.ModelTheory.ForcingModel
+module
+
+public import ZFVP.SetTheory.ForcingRetraction
+public import ZFVP.ModelTheory.ForcingModel
+
+@[expose] public section
 
 namespace ZFVP
 

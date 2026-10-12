@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalHenkinNameTruth
+module
+
+public import ZFVP.ModelTheory.InternalHenkinNameTruth
+
+@[expose] public section
 
 /-! Boolean constructor equations for the Henkin truth table on natural names. -/
 

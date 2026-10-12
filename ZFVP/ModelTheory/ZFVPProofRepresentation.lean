@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.GeneratedZFVPModels
+module
+
+public import ZFVP.ModelTheory.GeneratedZFVPModels
+
+@[expose] public section
 
 /-! Every external ZF+VP proof is represented by a checked finite internal proof. -/
 

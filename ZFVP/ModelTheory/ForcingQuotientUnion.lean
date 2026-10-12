@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingQuotientNames
-import ZFVP.SetTheory.ForcingUnionName
+module
+
+public import ZFVP.ModelTheory.ForcingQuotientNames
+public import ZFVP.SetTheory.ForcingUnionName
+
+@[expose] public section
 
 namespace ZFVP
 

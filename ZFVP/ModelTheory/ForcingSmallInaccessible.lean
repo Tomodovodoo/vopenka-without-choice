@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingHierarchyCover
-import ZFVP.ModelTheory.ForcingSmallCardinals
-import ZFVP.SetTheory.ForcingNameHierarchyBound
-import ZFVP.SetTheory.FunctionComposition
+module
+
+public import ZFVP.ModelTheory.ForcingHierarchyCover
+public import ZFVP.ModelTheory.ForcingSmallCardinals
+public import ZFVP.SetTheory.ForcingNameHierarchyBound
+public import ZFVP.SetTheory.FunctionComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

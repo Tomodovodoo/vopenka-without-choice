@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.MembershipEndExtension
-import Mathlib.Order.Lattice
+module
+
+public import ZFVP.SetTheory.MembershipEndExtension
+public import Mathlib.Order.Lattice
+
+@[expose] public section
 
 namespace ZFVP
 

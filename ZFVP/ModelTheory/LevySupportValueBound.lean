@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LevyNameSupportBound
-import ZFVP.ModelTheory.LevyGaloisFactor
+module
+
+public import ZFVP.ModelTheory.LevyNameSupportBound
+public import ZFVP.ModelTheory.LevyGaloisFactor
+
+@[expose] public section
 
 /-! One ordinal `ξ < κ` below which every base support value of a small family is determined.
 

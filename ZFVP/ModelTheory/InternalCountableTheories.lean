@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalCodedProofSupport
-import ZFVP.SetTheory.CountableSets
-import ZFVP.SetTheory.FinitePartialFunctions
+module
+
+public import ZFVP.ModelTheory.InternalCodedProofSupport
+public import ZFVP.SetTheory.CountableSets
+public import ZFVP.SetTheory.FinitePartialFunctions
+
+@[expose] public section
 
 /-! Countable internal membership theories and their finite consistent extensions.
 All sets and proof quantifiers here are internal to the ambient ZF model. -/

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseLowNames
-import ZFVP.ModelTheory.InternalGenericTruth
-import ZFVP.ModelTheory.DefinableClassGeneric
+module
+
+public import ZFVP.ModelTheory.WoodinSparseLowNames
+public import ZFVP.ModelTheory.InternalGenericTruth
+public import ZFVP.ModelTheory.DefinableClassGeneric
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryCoordinateFormulaEvaluation
-import ZFVP.ModelTheory.InfinitaryCoordinateTermFunctions
+module
+
+public import ZFVP.ModelTheory.InfinitaryCoordinateFormulaEvaluation
+public import ZFVP.ModelTheory.InfinitaryCoordinateTermFunctions
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

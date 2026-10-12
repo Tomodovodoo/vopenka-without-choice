@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.PiSymmetricRankWitnesses
-import ZFVP.SetTheory.PiWitnessFamilyCode
+module
+
+public import ZFVP.ModelTheory.PiSymmetricRankWitnesses
+public import ZFVP.SetTheory.PiWitnessFamilyCode
+
+@[expose] public section
 
 namespace ZFVP
 

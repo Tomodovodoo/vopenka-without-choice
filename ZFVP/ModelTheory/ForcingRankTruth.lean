@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingLowRankNames
-import ZFVP.ModelTheory.ClassForcingQuotientTruth
-import ZFVP.SetTheory.ElementaryMap
+module
+
+public import ZFVP.ModelTheory.ForcingLowRankNames
+public import ZFVP.ModelTheory.ClassForcingQuotientTruth
+public import ZFVP.SetTheory.ElementaryMap
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

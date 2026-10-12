@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SigmaThreeWoodinEndpointOrder
-import ZFVP.ModelTheory.WoodinLocalClassGeneric
+module
+
+public import ZFVP.ModelTheory.SigmaThreeWoodinEndpointOrder
+public import ZFVP.ModelTheory.WoodinLocalClassGeneric
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

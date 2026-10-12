@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.RetractionCanonicalNames
-import ZFVP.ModelTheory.NormalizedCanonicalTwoStep
-import ZFVP.ModelTheory.NormalizedBaseTwoStep
-import ZFVP.ModelTheory.ForcingRetractionCutoff
+module
+
+public import ZFVP.ModelTheory.RetractionCanonicalNames
+public import ZFVP.ModelTheory.NormalizedCanonicalTwoStep
+public import ZFVP.ModelTheory.NormalizedBaseTwoStep
+public import ZFVP.ModelTheory.ForcingRetractionCutoff
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

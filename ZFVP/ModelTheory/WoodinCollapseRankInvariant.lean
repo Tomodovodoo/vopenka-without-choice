@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinCollapseRankSuccessor
-import ZFVP.SetTheory.RankEnumerations
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseRankSuccessor
+public import ZFVP.SetTheory.RankEnumerations
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BoundedFormulas
+module
+
+public import ZFVP.SetTheory.BoundedFormulas
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

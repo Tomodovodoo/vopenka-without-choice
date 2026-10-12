@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalProgramListExt
-import ZFVP.Syntax.PrimitiveProgramListMembership
+module
+
+public import ZFVP.ModelTheory.InternalProgramListExt
+public import ZFVP.Syntax.PrimitiveProgramListMembership
+
+@[expose] public section
 
 /-! Arithmetic list tests coincide with membership and inclusion of decoded sequence ranges. -/
 

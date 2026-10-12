@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingSplitProjection
-import ZFVP.ModelTheory.GenericRegularForcing
+module
+
+public import ZFVP.ModelTheory.ForcingSplitProjection
+public import ZFVP.ModelTheory.GenericRegularForcing
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SingletonForcingTruth
-import ZFVP.ModelTheory.NormalizedPoolRank
-import ZFVP.ModelTheory.SaturatedWoodinPrefix
-import Mathlib.Tactic.FinCases
+module
+
+public import ZFVP.ModelTheory.SingletonForcingTruth
+public import ZFVP.ModelTheory.NormalizedPoolRank
+public import ZFVP.ModelTheory.SaturatedWoodinPrefix
+public import Mathlib.Tactic.FinCases
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

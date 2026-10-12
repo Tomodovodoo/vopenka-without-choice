@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingInternalInaccessibleRankTruth
+module
+
+public import ZFVP.ModelTheory.ForcingInternalInaccessibleRankTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

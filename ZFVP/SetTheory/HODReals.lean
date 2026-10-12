@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.HODModelsZF
-import ZFVP.SetTheory.CantorSpace
-import ZFVP.SetTheory.PerfectSetCore
-import ZFVP.SetTheory.InverseFunction
-import ZFVP.SetTheory.SplittingScheme
+module
+
+public import ZFVP.SetTheory.HODModelsZF
+public import ZFVP.SetTheory.CantorSpace
+public import ZFVP.SetTheory.PerfectSetCore
+public import ZFVP.SetTheory.InverseFunction
+public import ZFVP.SetTheory.SplittingScheme
+
+@[expose] public section
 
 /-! Reals-coded objects are hereditarily ordinal definable when the reals are allowed
 parameters: pairs of HOD sets, reals, finite binary sequences and sets of them, sequences of

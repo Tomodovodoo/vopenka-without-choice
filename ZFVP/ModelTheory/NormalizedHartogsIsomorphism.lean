@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.NormalizedCanonicalTwoStep
-import ZFVP.ModelTheory.SaturatedHartogsStage
+module
+
+public import ZFVP.ModelTheory.NormalizedCanonicalTwoStep
+public import ZFVP.ModelTheory.SaturatedHartogsStage
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

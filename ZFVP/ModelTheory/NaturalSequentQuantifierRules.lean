@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.NaturalSequentPropositionalRules
+module
+
+public import ZFVP.ModelTheory.NaturalSequentPropositionalRules
+
+@[expose] public section
 
 /-! Soundness of the eigenvariable and witness rules for arbitrary internal natural formula codes. -/
 

@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.LevyUpperPermutations
-import ZFVP.SetTheory.EndExtensionLevyCollapse
-import ZFVP.ModelTheory.LevyProductEquivalence
-import ZFVP.ModelTheory.ForcingFunctionValues
-import ZFVP.SetTheory.MembershipIso
+module
+
+public import ZFVP.SetTheory.LevyUpperPermutations
+public import ZFVP.SetTheory.EndExtensionLevyCollapse
+public import ZFVP.ModelTheory.LevyProductEquivalence
+public import ZFVP.ModelTheory.ForcingFunctionValues
+public import ZFVP.SetTheory.MembershipIso
+
+@[expose] public section
 
 /-! Truth of statements about ground parameters in a weakly homogeneous extension is decided by
 the top condition. For the Levy collapse: truth in `V[G]` of statements about elements of

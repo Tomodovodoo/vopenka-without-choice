@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.LevyLocalizedRegularity
-import ZFVP.ModelTheory.SolovayMeasure
-import ZFVP.ModelTheory.CohenGenericReals
-import ZFVP.SetTheory.HODRegularity
-import ZFVP.SetTheory.NaturalPairing
+module
+
+public import ZFVP.ModelTheory.LevyLocalizedRegularity
+public import ZFVP.ModelTheory.SolovayMeasure
+public import ZFVP.ModelTheory.CohenGenericReals
+public import ZFVP.SetTheory.HODRegularity
+public import ZFVP.SetTheory.NaturalPairing
+
+@[expose] public section
 
 /-! The regularity properties of `lem:Solovay-regularity` for the HOD class model
 `Sol = HOD_{V ∪ R}^{V[G]}` built inside the Levy collapse extension, and the two clauses of

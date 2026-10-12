@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BinaryShadowWeights
-import ZFVP.SetTheory.RationalPartialSums
+module
+
+public import ZFVP.SetTheory.BinaryShadowWeights
+public import ZFVP.SetTheory.RationalPartialSums
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

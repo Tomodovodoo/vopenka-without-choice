@@ -1,4 +1,8 @@
-import ZFVP.Syntax.MembershipAtomicSemantics
+module
+
+public import ZFVP.Syntax.MembershipAtomicSemantics
+
+@[expose] public section
 
 /-! Atomic membership syntax described without the term-family predicate. -/
 

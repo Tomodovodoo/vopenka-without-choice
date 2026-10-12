@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramNegation
+module
+
+public import ZFVP.Syntax.PrimitiveProgramNegation
+
+@[expose] public section
 
 /-! Explicit right folds, maps and concatenation on internal natural-number list codes. -/
 

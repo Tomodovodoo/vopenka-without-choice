@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramRequirementCharacterization
+module
+
+public import ZFVP.Syntax.PrimitiveProgramRequirementCharacterization
+
+@[expose] public section
 
 /-! Natural-code negation preserves syntax requirements at every internal input. -/
 

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinRecodedDirect
-import ZFVP.ModelTheory.WoodinNormalizedPrefix
-import ZFVP.ModelTheory.ForcingRecodedExtension
-import ZFVP.ModelTheory.ForcingRecodedPrefix
+module
+
+public import ZFVP.ModelTheory.WoodinRecodedDirect
+public import ZFVP.ModelTheory.WoodinNormalizedPrefix
+public import ZFVP.ModelTheory.ForcingRecodedExtension
+public import ZFVP.ModelTheory.ForcingRecodedPrefix
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

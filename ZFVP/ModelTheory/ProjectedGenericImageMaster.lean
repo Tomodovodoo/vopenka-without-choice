@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingProjectedGenericImage
-import ZFVP.SetTheory.ForcingDirectedClosure
-import ZFVP.SetTheory.ForcingSeparativeOrder
+module
+
+public import ZFVP.ModelTheory.ForcingProjectedGenericImage
+public import ZFVP.SetTheory.ForcingDirectedClosure
+public import ZFVP.SetTheory.ForcingSeparativeOrder
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.DeltaOneCheckNames
-import ZFVP.SetTheory.SameLevelForcing
-import ZFVP.Syntax.RankedFormula
+module
+
+public import ZFVP.SetTheory.DeltaOneCheckNames
+public import ZFVP.SetTheory.SameLevelForcing
+public import ZFVP.Syntax.RankedFormula
+
+@[expose] public section
 
 namespace ZFVP
 

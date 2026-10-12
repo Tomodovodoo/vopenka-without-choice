@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.UniformNameEvaluation
-import ZFVP.SetTheory.ForcingSequenceNames
-import ZFVP.ModelTheory.TransitiveZFNames
-import ZFVP.ModelTheory.NormalizedPoolRank
+module
+
+public import ZFVP.SetTheory.UniformNameEvaluation
+public import ZFVP.SetTheory.ForcingSequenceNames
+public import ZFVP.ModelTheory.TransitiveZFNames
+public import ZFVP.ModelTheory.NormalizedPoolRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

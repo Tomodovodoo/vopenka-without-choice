@@ -1,5 +1,9 @@
-import ZFVP.Syntax.UniformParameters
-import ZFVP.SetTheory.UniformFunctionOperations
+module
+
+public import ZFVP.Syntax.UniformParameters
+public import ZFVP.SetTheory.UniformFunctionOperations
+
+@[expose] public section
 
 /-! A shared parameter-free formula for the internal term evaluation graph. -/
 

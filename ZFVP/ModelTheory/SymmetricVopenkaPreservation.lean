@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SymmetricLiftLanguage
-import ZFVP.ModelTheory.SymmetricLiftFixedClosure
-import ZFVP.ModelTheory.SymmetricLiftWitnesses
-import ZFVP.ModelTheory.SymmetricWitnessEmbedding
-import ZFVP.ModelTheory.InternalZFExternal
+module
+
+public import ZFVP.ModelTheory.SymmetricLiftLanguage
+public import ZFVP.ModelTheory.SymmetricLiftFixedClosure
+public import ZFVP.ModelTheory.SymmetricLiftWitnesses
+public import ZFVP.ModelTheory.SymmetricWitnessEmbedding
+public import ZFVP.ModelTheory.InternalZFExternal
+
+@[expose] public section
 
 /-! Full arbitrary-language Vopenka preservation in the symmetric quotient. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.LevelCounting
-import ZFVP.SetTheory.NaturalAdditionDefinable
-import ZFVP.SetTheory.DyadicRationals
+module
+
+public import ZFVP.SetTheory.LevelCounting
+public import ZFVP.SetTheory.NaturalAdditionDefinable
+public import ZFVP.SetTheory.DyadicRationals
+
+@[expose] public section
 
 /-! Rational cardinal weights for finite binary shadows, in arbitrary internal ZF models. -/
 namespace ZFVP

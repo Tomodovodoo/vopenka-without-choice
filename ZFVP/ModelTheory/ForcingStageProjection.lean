@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingProjection
-import ZFVP.SetTheory.ForcingPullbackOrder
-import ZFVP.SetTheory.ForcingStageThreadMap
+module
+
+public import ZFVP.ModelTheory.ForcingProjection
+public import ZFVP.SetTheory.ForcingPullbackOrder
+public import ZFVP.SetTheory.ForcingStageThreadMap
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

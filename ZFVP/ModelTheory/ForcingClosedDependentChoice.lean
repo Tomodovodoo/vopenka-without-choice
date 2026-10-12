@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingDependentChoiceSeriality
-import ZFVP.ModelTheory.ForcingSemanticConsequence
+module
+
+public import ZFVP.ModelTheory.ForcingDependentChoiceSeriality
+public import ZFVP.ModelTheory.ForcingSemanticConsequence
+
+@[expose] public section
 
 namespace ZFVP
 

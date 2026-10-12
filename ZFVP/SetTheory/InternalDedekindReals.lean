@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.InternalRationalOrder
+module
+
+public import ZFVP.SetTheory.InternalRationalOrder
+
+@[expose] public section
 
 /-! Dedekind reals formed inside an arbitrary first-order ZF model. The cuts
 are subsets of the actual internal rational quotient, and their completeness

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ChoiceDictionary
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.SetTheory.ChoiceDictionary
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 /-! Internal choice lifts actual assignments through an actual surjection.
 The index set is arbitrary, including nonstandard internally finite sets. -/

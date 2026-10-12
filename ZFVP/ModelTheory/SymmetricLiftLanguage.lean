@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SymmetricLiftElementary
+module
+
+public import ZFVP.ModelTheory.SymmetricLiftElementary
+
+@[expose] public section
 
 /-! A language name in a fixed transitive ground set supplies fixed symbols. -/
 

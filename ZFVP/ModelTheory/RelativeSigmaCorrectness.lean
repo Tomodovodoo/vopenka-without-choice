@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LocalPartialTruthCorrectness
+module
+
+public import ZFVP.ModelTheory.LocalPartialTruthCorrectness
+
+@[expose] public section
 
 /-! Relative Sigma elementarity and the C(n) classes computed inside transitive ZF models. -/
 

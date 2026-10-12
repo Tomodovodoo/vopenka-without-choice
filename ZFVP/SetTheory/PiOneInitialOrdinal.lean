@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.CriticalPointCardinal
+module
+
+public import ZFVP.ModelTheory.CriticalPointCardinal
+
+@[expose] public section
 
 /-! A bounded injection dictionary and a Pi-one initial-ordinal formula. -/
 

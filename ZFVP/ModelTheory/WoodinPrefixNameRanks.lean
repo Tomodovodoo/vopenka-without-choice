@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingFormulaNameRank
-import ZFVP.ModelTheory.ForcingRankCollapseOrder
-import ZFVP.ModelTheory.WoodinPrefixNameFormulas
+module
+
+public import ZFVP.ModelTheory.ForcingFormulaNameRank
+public import ZFVP.ModelTheory.ForcingRankCollapseOrder
+public import ZFVP.ModelTheory.WoodinPrefixNameFormulas
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

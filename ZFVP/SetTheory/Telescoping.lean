@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.TreeBodies
-import ZFVP.SetTheory.DisjointCounting
+module
+
+public import ZFVP.SetTheory.TreeBodies
+public import ZFVP.SetTheory.DisjointCounting
+
+@[expose] public section
 
 /-! Telescoping for trees: the drop sets `dropSet T M M'` (nodes at level `M'` above a level-`M`
 node of `T` but outside `T`) are eventually small, since a long chain of large drops would give

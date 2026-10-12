@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryParameterAdequacy
+module
+
+public import ZFVP.ModelTheory.InfinitaryParameterAdequacy
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

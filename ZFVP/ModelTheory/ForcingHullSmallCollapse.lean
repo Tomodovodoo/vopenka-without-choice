@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ForcingHullNormalization
-import ZFVP.ModelTheory.ForcingWeaklyLSCardinal
-import ZFVP.ModelTheory.ElementaryInclusionCollapse
-import ZFVP.SetTheory.TransitiveRankSurjection
-import ZFVP.SetTheory.SmallCollapseSurjection
+module
+
+public import ZFVP.ModelTheory.ForcingHullNormalization
+public import ZFVP.ModelTheory.ForcingWeaklyLSCardinal
+public import ZFVP.ModelTheory.ElementaryInclusionCollapse
+public import ZFVP.SetTheory.TransitiveRankSurjection
+public import ZFVP.SetTheory.SmallCollapseSurjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

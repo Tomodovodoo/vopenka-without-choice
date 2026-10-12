@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingGuardedNormalization
-import ZFVP.SetTheory.ClassForcingCongruence
+module
+
+public import ZFVP.ModelTheory.ForcingGuardedNormalization
+public import ZFVP.SetTheory.ClassForcingCongruence
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

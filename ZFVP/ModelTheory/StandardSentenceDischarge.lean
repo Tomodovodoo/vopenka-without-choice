@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.StandardSentenceCoding
-import ZFVP.Syntax.ClosedEncodingInvariance
+module
+
+public import ZFVP.ModelTheory.StandardSentenceCoding
+public import ZFVP.Syntax.ClosedEncodingInvariance
+
+@[expose] public section
 
 /-! Discharging a spare variable while retaining a closed conclusion. -/
 

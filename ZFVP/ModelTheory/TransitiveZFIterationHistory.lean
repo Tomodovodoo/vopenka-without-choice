@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TransitiveZFIterationTables
-import ZFVP.ModelTheory.WoodinIterationRecursion
+module
+
+public import ZFVP.ModelTheory.TransitiveZFIterationTables
+public import ZFVP.ModelTheory.WoodinIterationRecursion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

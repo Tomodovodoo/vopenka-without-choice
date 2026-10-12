@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryAdequateModel
-import ZFVP.ModelTheory.InfinitaryWeakChainSemantics
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateModel
+public import ZFVP.ModelTheory.InfinitaryWeakChainSemantics
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

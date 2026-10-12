@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SeparatingTypesOmitted
+module
+
+public import ZFVP.ModelTheory.SeparatingTypesOmitted
+
+@[expose] public section
 
 /-! # The bookkeeping input of Enayat's Lemma A.2
 

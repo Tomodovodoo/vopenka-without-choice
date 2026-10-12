@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingModel
-import ZFVP.ModelTheory.CountableZFTransfer
-import ZFVP.SetTheory.ElementaryForcing
+module
+
+public import ZFVP.ModelTheory.ForcingModel
+public import ZFVP.ModelTheory.CountableZFTransfer
+public import ZFVP.SetTheory.ElementaryForcing
+
+@[expose] public section
 
 namespace ZFVP
 

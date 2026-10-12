@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.SigmaOneStarCertificates
-import ZFVP.SetTheory.WoodinClosedFiniteModels
-import ZFVP.SetTheory.CnOpenModelCertificates
-import ZFVP.ModelTheory.EndExtensionOpenModels
-import ZFVP.ModelTheory.LimitRankEmbedding
+module
+
+public import ZFVP.SetTheory.SigmaOneStarCertificates
+public import ZFVP.SetTheory.WoodinClosedFiniteModels
+public import ZFVP.SetTheory.CnOpenModelCertificates
+public import ZFVP.ModelTheory.EndExtensionOpenModels
+public import ZFVP.ModelTheory.LimitRankEmbedding
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

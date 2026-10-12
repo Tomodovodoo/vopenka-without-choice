@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.InternalTemplateFixed
-import ZFVP.ModelTheory.InternalReindexRequirements
-import ZFVP.ModelTheory.InternalRequirementConstructors
-import ZFVP.ModelTheory.InternalNegationProgram
+module
+
+public import ZFVP.ModelTheory.InternalTemplateFixed
+public import ZFVP.ModelTheory.InternalReindexRequirements
+public import ZFVP.ModelTheory.InternalRequirementConstructors
+public import ZFVP.ModelTheory.InternalNegationProgram
+
+@[expose] public section
 
 /-! The explicit template compiler agrees with internal parameter-tail compilation. -/
 

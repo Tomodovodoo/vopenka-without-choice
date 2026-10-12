@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.NamedFunctionValues
-import ZFVP.ModelTheory.ForcingModelPairs
+module
+
+public import ZFVP.ModelTheory.NamedFunctionValues
+public import ZFVP.ModelTheory.ForcingModelPairs
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

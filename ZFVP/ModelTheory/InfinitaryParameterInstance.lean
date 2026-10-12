@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryAdequateModel
-import Mathlib.Data.Fin.VecNotation
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateModel
+public import Mathlib.Data.Fin.VecNotation
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.OrdinalAddition
-import ZFVP.SetTheory.ForcingOrder
-import ZFVP.SetTheory.WellOrderedCardinal
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.SetTheory.OrdinalAddition
+public import ZFVP.SetTheory.ForcingOrder
+public import ZFVP.SetTheory.WellOrderedCardinal
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 /-! Maximal antichains inside a well-orderable subset of a forcing poset, built by transfinite
 recursion along an injection of the subset into an ordinal: at each stage the element with that

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.CnSigmaClosure
-import ZFVP.SetTheory.ForcingSequenceNames
-import ZFVP.SetTheory.FiniteCodingClosure
+module
+
+public import ZFVP.SetTheory.CnSigmaClosure
+public import ZFVP.SetTheory.ForcingSequenceNames
+public import ZFVP.SetTheory.FiniteCodingClosure
+
+@[expose] public section
 
 namespace ZFVP
 

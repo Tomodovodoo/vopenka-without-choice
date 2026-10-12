@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalSyntaxChecks
-import ZFVP.ModelTheory.InternalProgramForwardTabulate
-import ZFVP.Syntax.PrimitiveProgramRequirementsStandard
+module
+
+public import ZFVP.ModelTheory.InternalSyntaxChecks
+public import ZFVP.ModelTheory.InternalProgramForwardTabulate
+public import ZFVP.Syntax.PrimitiveProgramRequirementsStandard
+
+@[expose] public section
 
 /-! Standard formula codes satisfy the internal checks in every larger natural context. -/
 

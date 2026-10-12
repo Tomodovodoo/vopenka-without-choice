@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.ProjectionClosureComposition
-import ZFVP.ModelTheory.ProjectionQuotientReconstruction
-import ZFVP.ModelTheory.ForcingContextCongruence
-import ZFVP.ModelTheory.ForcingCheckedTruth
-import ZFVP.ModelTheory.TwoStepCollapseQuotient
-import ZFVP.ModelTheory.ProjectionClosedPreservation
+module
+
+public import ZFVP.ModelTheory.ProjectionClosureComposition
+public import ZFVP.ModelTheory.ProjectionQuotientReconstruction
+public import ZFVP.ModelTheory.ForcingContextCongruence
+public import ZFVP.ModelTheory.ForcingCheckedTruth
+public import ZFVP.ModelTheory.TwoStepCollapseQuotient
+public import ZFVP.ModelTheory.ProjectionClosedPreservation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

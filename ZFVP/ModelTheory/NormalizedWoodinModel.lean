@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.NormalizedTwoStepModel
-import ZFVP.ModelTheory.NormalizedWoodinPrefix
-import ZFVP.ModelTheory.ForcingContextCongruence
-import ZFVP.ModelTheory.TwoStepQuotient
+module
+
+public import ZFVP.ModelTheory.NormalizedTwoStepModel
+public import ZFVP.ModelTheory.NormalizedWoodinPrefix
+public import ZFVP.ModelTheory.ForcingContextCongruence
+public import ZFVP.ModelTheory.TwoStepQuotient
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

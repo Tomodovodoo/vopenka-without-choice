@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingRecodedSparse
-import ZFVP.ModelTheory.ForcingNormalizedDirectOrder
-import ZFVP.ModelTheory.WoodinNormalizedSupport
+module
+
+public import ZFVP.ModelTheory.ForcingRecodedSparse
+public import ZFVP.ModelTheory.ForcingNormalizedDirectOrder
+public import ZFVP.ModelTheory.WoodinNormalizedSupport
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

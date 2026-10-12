@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseRow
-import ZFVP.ModelTheory.WoodinNormalizedPrefixColumns
+module
+
+public import ZFVP.ModelTheory.WoodinSparseRow
+public import ZFVP.ModelTheory.WoodinNormalizedPrefixColumns
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

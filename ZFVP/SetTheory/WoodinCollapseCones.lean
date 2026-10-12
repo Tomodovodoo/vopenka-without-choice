@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.WoodinCollapseReindex
+module
+
+public import ZFVP.SetTheory.WoodinCollapseReindex
+
+@[expose] public section
 
 namespace ZFVP
 

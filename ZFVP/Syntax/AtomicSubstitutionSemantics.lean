@@ -1,5 +1,9 @@
-import ZFVP.Syntax.TermSubstitutionSemantics
-import ZFVP.Syntax.AtomicSatisfaction
+module
+
+public import ZFVP.Syntax.TermSubstitutionSemantics
+public import ZFVP.Syntax.AtomicSatisfaction
+
+@[expose] public section
 
 /-! Equality and relation atoms respect internal simultaneous substitution. -/
 

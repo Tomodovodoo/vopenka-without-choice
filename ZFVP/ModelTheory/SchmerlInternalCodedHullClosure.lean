@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.NaturalClosureCardinality
-import ZFVP.SetTheory.InfiniteDependentChoice
-import ZFVP.SetTheory.CountableSets
+module
+
+public import ZFVP.SetTheory.NaturalClosureCardinality
+public import ZFVP.SetTheory.InfiniteDependentChoice
+public import ZFVP.SetTheory.CountableSets
+
+@[expose] public section
 
 /-! Internal closure under operations on internally finite tuples. Both
 the iteration and the tuple argument run through the model's full omega. -/

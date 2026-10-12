@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.NameHierarchyTableFormula
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.SetTheory.NameHierarchyTableFormula
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

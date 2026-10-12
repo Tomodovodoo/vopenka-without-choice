@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalConsistencyExtension
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalConsistencyExtension
+
+@[expose] public section
 
 /-! The negative-conjunction witness step for internal sentence theories.
 The index ranges over the model's entire omega, and the contradiction uses

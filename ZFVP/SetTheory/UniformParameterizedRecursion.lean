@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.UniformRecursion
+module
+
+public import ZFVP.SetTheory.UniformRecursion
+
+@[expose] public section
 
 /-! Uniform recursion with one carried parameter. -/
 

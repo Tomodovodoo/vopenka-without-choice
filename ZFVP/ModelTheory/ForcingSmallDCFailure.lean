@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinSupercompactStarCorrect
-import ZFVP.ModelTheory.ForcingStarDCFailure
+module
+
+public import ZFVP.SetTheory.WoodinSupercompactStarCorrect
+public import ZFVP.ModelTheory.ForcingStarDCFailure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

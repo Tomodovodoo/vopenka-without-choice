@@ -1,6 +1,10 @@
-import ZFVP.Syntax.PrimitiveProgramReindex
-import ZFVP.Syntax.PrimitiveProgramProofRewriteStandard
-import ZFVP.Syntax.TemplatePrimrec
+module
+
+public import ZFVP.Syntax.PrimitiveProgramReindex
+public import ZFVP.Syntax.PrimitiveProgramProofRewriteStandard
+public import ZFVP.Syntax.TemplatePrimrec
+
+@[expose] public section
 
 /-! The explicit renaming program implements the standard capture-avoiding index renaming. -/
 

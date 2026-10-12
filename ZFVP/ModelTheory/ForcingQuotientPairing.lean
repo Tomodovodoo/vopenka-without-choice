@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingQuotientNames
+module
+
+public import ZFVP.ModelTheory.ForcingQuotientNames
+
+@[expose] public section
 
 namespace ZFVP
 

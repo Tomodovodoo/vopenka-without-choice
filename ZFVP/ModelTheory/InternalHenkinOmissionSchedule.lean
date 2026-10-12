@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalHenkinOmissionStep
-import ZFVP.SetTheory.FiniteNaturalSets
+module
+
+public import ZFVP.ModelTheory.InternalHenkinOmissionStep
+public import ZFVP.SetTheory.FiniteNaturalSets
+
+@[expose] public section
 
 /-! An actual countable schedule repeats every type/name request beyond every
 finite stage. A dummy task handles the empty family. Repetition allows the

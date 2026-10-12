@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ModelEmbeddingHierarchy
-import ZFVP.ModelTheory.CriticalPowerRestrictions
+module
+
+public import ZFVP.ModelTheory.ModelEmbeddingHierarchy
+public import ZFVP.ModelTheory.CriticalPowerRestrictions
+
+@[expose] public section
 
 /-! Restricting a graph above its critical point preserves that critical point. -/
 

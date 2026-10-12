@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedNaturals
-import ZFVP.SetTheory.FiniteCodingClosure
+module
+
+public import ZFVP.SetTheory.BoundedNaturals
+public import ZFVP.SetTheory.FiniteCodingClosure
+
+@[expose] public section
 
 /-! A bounded predicate for transitive sets closed under finite code constructors. -/
 

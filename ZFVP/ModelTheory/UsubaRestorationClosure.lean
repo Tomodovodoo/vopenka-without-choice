@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.UsubaSaturatedIterand
-import ZFVP.ModelTheory.ForcingSelectedUnion
-import ZFVP.ModelTheory.ForcingDependentChoiceTransfer
+module
+
+public import ZFVP.ModelTheory.UsubaSaturatedIterand
+public import ZFVP.ModelTheory.ForcingSelectedUnion
+public import ZFVP.ModelTheory.ForcingDependentChoiceTransfer
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

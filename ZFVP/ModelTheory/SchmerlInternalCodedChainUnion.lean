@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalCodedSubstructure
-import ZFVP.ModelTheory.SchmerlInternalCodedHullClosure
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalCodedSubstructure
+public import ZFVP.ModelTheory.SchmerlInternalCodedHullClosure
+
+@[expose] public section
 
 /-! Actual internal unions of ordinal chains in relational languages.
 Carriers and relation interpretations are constructed by Replacement and Union. -/

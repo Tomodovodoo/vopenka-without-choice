@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PackedSatisfaction
-import ZFVP.Syntax.UniformFormulas
+module
+
+public import ZFVP.Syntax.PackedSatisfaction
+public import ZFVP.Syntax.UniformFormulas
+
+@[expose] public section
 
 /-! Shared parameter-free projections for the satisfaction parameter tuple. -/
 

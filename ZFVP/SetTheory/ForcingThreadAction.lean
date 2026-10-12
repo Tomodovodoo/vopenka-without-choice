@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ForcingDirectLimit
+module
+
+public import ZFVP.SetTheory.ForcingDirectLimit
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

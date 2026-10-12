@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LimitRankEmbedding
+module
+
+public import ZFVP.ModelTheory.LimitRankEmbedding
+
+@[expose] public section
 
 /-! Bounded witnesses to the failure of earlier rank criteria can all be placed below the candidate height. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlBoundedBinaryModelCodes
-import ZFVP.ModelTheory.SchmerlCodedSuccessorTransport
-import ZFVP.ModelTheory.SchmerlInternalCodedUnionPreservation
+module
+
+public import ZFVP.ModelTheory.SchmerlBoundedBinaryModelCodes
+public import ZFVP.ModelTheory.SchmerlCodedSuccessorTransport
+public import ZFVP.ModelTheory.SchmerlInternalCodedUnionPreservation
+
+@[expose] public section
 
 /-! Literal coded elementary inclusions compose, preserve unary formulas,
 and supply the relation coherence needed by actual binary chain unions. -/

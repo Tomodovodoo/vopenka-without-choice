@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalTemplateProgram
+module
+
+public import ZFVP.ModelTheory.InternalTemplateProgram
+
+@[expose] public section
 
 /-! Explicit universal closure preserves internal syntax and universal satisfaction. -/
 

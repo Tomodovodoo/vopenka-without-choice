@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramListMemberEquations
-import ZFVP.Syntax.PrimitiveProgramBooleanChecks
+module
+
+public import ZFVP.Syntax.PrimitiveProgramListMemberEquations
+public import ZFVP.Syntax.PrimitiveProgramBooleanChecks
+
+@[expose] public section
 
 /-! Constructor and concatenation equations for all-element and sequent syntax checks. -/
 

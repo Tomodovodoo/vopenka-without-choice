@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinInverseIterandFromStages
-import ZFVP.ModelTheory.SplitClosureDownward
-import ZFVP.ModelTheory.QuotientSplitProjection
-import ZFVP.ModelTheory.IterationQuotientClosure
+module
+
+public import ZFVP.ModelTheory.WoodinInverseIterandFromStages
+public import ZFVP.ModelTheory.SplitClosureDownward
+public import ZFVP.ModelTheory.QuotientSplitProjection
+public import ZFVP.ModelTheory.IterationQuotientClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

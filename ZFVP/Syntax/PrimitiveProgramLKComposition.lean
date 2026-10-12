@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramLKResume
-import ZFVP.Syntax.PrimitiveProgramListAllEquations
+module
+
+public import ZFVP.Syntax.PrimitiveProgramLKResume
+public import ZFVP.Syntax.PrimitiveProgramListAllEquations
+
+@[expose] public section
 
 /-! Concatenating and extending internally finite accepted LK certificates. -/
 

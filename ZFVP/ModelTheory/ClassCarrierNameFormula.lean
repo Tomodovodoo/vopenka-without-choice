@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.DeltaOneForcingNames
-import ZFVP.ModelTheory.TransitiveZFNames
+module
+
+public import ZFVP.SetTheory.DeltaOneForcingNames
+public import ZFVP.ModelTheory.TransitiveZFNames
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

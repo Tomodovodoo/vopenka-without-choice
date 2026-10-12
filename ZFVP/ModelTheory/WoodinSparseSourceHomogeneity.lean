@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseFullHomogeneity
-import ZFVP.ModelTheory.ProjectionQuotientHomogeneity
-import ZFVP.ModelTheory.WoodinSparseSourceSubgeneric
+module
+
+public import ZFVP.ModelTheory.WoodinSparseFullHomogeneity
+public import ZFVP.ModelTheory.ProjectionQuotientHomogeneity
+public import ZFVP.ModelTheory.WoodinSparseSourceSubgeneric
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

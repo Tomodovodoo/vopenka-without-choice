@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalElementaryDiagram
-import ZFVP.ModelTheory.InternalBinaryQuotientTruth
-import ZFVP.SetTheory.InjectionRetraction
+module
+
+public import ZFVP.ModelTheory.InternalElementaryDiagram
+public import ZFVP.ModelTheory.InternalBinaryQuotientTruth
+public import ZFVP.SetTheory.InjectionRetraction
+
+@[expose] public section
 
 /-! Elementary-diagram requirements with fixed internal names. The requirements
 form an actual countable set, are jointly realized in the source by an internal

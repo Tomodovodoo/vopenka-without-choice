@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.CodedElementaryEmbedding
-import ZFVP.Syntax.EndExtensionSatisfaction
-import ZFVP.ModelTheory.CodedMembershipEmbedding
-import ZFVP.Syntax.EndExtensionMembershipSatisfaction
+module
+
+public import ZFVP.ModelTheory.CodedElementaryEmbedding
+public import ZFVP.Syntax.EndExtensionSatisfaction
+public import ZFVP.ModelTheory.CodedMembershipEmbedding
+public import ZFVP.Syntax.EndExtensionMembershipSatisfaction
+
+@[expose] public section
 
 /-! Arbitrary-language coded elementarity is absolute under ZF membership end extensions. -/
 

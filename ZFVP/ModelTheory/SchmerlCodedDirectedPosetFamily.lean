@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlCodedDefinitionParameters
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedDefinitionParameters
+
+@[expose] public section
 
 /-! The actual countable index of directed posets defined over a source.
 Each index retains separate unary and binary formula/parameter witnesses. -/

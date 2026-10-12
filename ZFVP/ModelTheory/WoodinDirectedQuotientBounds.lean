@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.WoodinCollapseDirectedClosure
-import ZFVP.ModelTheory.LocalSelectedUnionBound
-import ZFVP.ModelTheory.DirectLimitQuotientClosure
+module
+
+public import ZFVP.SetTheory.WoodinCollapseDirectedClosure
+public import ZFVP.ModelTheory.LocalSelectedUnionBound
+public import ZFVP.ModelTheory.DirectLimitQuotientClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

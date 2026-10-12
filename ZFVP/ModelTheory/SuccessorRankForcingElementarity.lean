@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.RankForcingMeaning
-import ZFVP.ModelTheory.SuccessorRankForcing
+module
+
+public import ZFVP.ModelTheory.RankForcingMeaning
+public import ZFVP.ModelTheory.SuccessorRankForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.MaximalAntichains
-import ZFVP.SetTheory.UltrafilterFibers
-import ZFVP.SetTheory.CountableSets
+module
+
+public import ZFVP.SetTheory.MaximalAntichains
+public import ZFVP.SetTheory.UltrafilterFibers
+public import ZFVP.SetTheory.CountableSets
+
+@[expose] public section
 
 /-! Internal ultrafilter extension along a well-ordering of the power set.
 The recursion and its resulting filter are sets in the given ZF model. -/

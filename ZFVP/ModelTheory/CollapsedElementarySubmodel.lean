@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ElementaryRange
-import ZFVP.SetTheory.TransitiveCollapseFixation
+module
+
+public import ZFVP.ModelTheory.ElementaryRange
+public import ZFVP.SetTheory.TransitiveCollapseFixation
+
+@[expose] public section
 
 /-! The inverse collapse of an elementary submodel is an internal elementary
 embedding from a transitive set. No correctness assumption on the ambient rank. -/

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CheckNames
-import ZFVP.SetTheory.BoundedNameAction
+module
+
+public import ZFVP.SetTheory.CheckNames
+public import ZFVP.SetTheory.BoundedNameAction
+
+@[expose] public section
 
 namespace ZFVP
 

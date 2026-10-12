@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ClassForcingDenseWitnessBounds
-import ZFVP.SetTheory.LeastOrdinalChoice
-import ZFVP.SetTheory.TransfiniteIteration
+module
+
+public import ZFVP.ModelTheory.ClassForcingDenseWitnessBounds
+public import ZFVP.SetTheory.LeastOrdinalChoice
+public import ZFVP.SetTheory.TransfiniteIteration
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

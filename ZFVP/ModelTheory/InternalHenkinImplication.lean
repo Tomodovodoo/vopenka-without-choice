@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalHenkinStages
-import ZFVP.Syntax.MembershipRenamingConstructors
+module
+
+public import ZFVP.ModelTheory.InternalHenkinStages
+public import ZFVP.Syntax.MembershipRenamingConstructors
+
+@[expose] public section
 
 /-! Syntactic implications between Henkin conditions and preservation of the
 chosen existential literal by its fresh witness. -/

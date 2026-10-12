@@ -1,6 +1,10 @@
-import ZFVP.Syntax.SigmaOneBoundedForcing
-import ZFVP.SetTheory.FormulaForcing
-import ZFVP.SetTheory.SymmetricFormulaForcing
+module
+
+public import ZFVP.Syntax.SigmaOneBoundedForcing
+public import ZFVP.SetTheory.FormulaForcing
+public import ZFVP.SetTheory.SymmetricFormulaForcing
+
+@[expose] public section
 
 namespace ZFVP
 

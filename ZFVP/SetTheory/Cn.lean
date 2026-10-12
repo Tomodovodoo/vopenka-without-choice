@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CorrectnessSupport
+module
+
+public import ZFVP.SetTheory.CorrectnessSupport
+
+@[expose] public section
 
 /-! The internally coded classes C(n) of Sigma_n-correct rank stages. -/
 

@@ -1,8 +1,12 @@
-import ZFVP.Syntax.InternalAtomicForcingRegular
-import ZFVP.Syntax.MembershipTruthTables
-import ZFVP.Syntax.MembershipSatisfaction
-import ZFVP.Syntax.SetDiagonalization
-import ZFVP.ModelTheory.NaturalSyntaxStandard
+module
+
+public import ZFVP.Syntax.InternalAtomicForcingRegular
+public import ZFVP.Syntax.MembershipTruthTables
+public import ZFVP.Syntax.MembershipSatisfaction
+public import ZFVP.Syntax.SetDiagonalization
+public import ZFVP.ModelTheory.NaturalSyntaxStandard
+
+@[expose] public section
 
 /-! Full satisfaction classes (Enayat, Definition 2.7).
 

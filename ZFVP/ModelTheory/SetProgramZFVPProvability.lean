@@ -1,5 +1,9 @@
-import ZFVP.Syntax.ProgramZFVPProvabilityD2
-import ZFVP.ModelTheory.InternalArithmeticGraphs
+module
+
+public import ZFVP.Syntax.ProgramZFVPProvabilityD2
+public import ZFVP.ModelTheory.InternalArithmeticGraphs
+
+@[expose] public section
 
 /-! Derivability for the explicit proof predicate after interpreting arithmetic in ZF. -/
 

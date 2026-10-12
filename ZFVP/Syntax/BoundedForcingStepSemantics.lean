@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedForcingSteps
-import ZFVP.SetTheory.ClassForcingBounded
+module
+
+public import ZFVP.Syntax.BoundedForcingSteps
+public import ZFVP.SetTheory.ClassForcingBounded
+
+@[expose] public section
 
 namespace ZFVP
 

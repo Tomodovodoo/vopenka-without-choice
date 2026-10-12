@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseDirectRank
-import ZFVP.ModelTheory.WoodinNormalizedEndpoint
+module
+
+public import ZFVP.ModelTheory.WoodinSparseDirectRank
+public import ZFVP.ModelTheory.WoodinNormalizedEndpoint
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]

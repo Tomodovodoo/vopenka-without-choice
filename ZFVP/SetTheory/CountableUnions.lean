@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.CountableChoice
-import ZFVP.SetTheory.WellOrderedCardinal
-import ZFVP.SetTheory.NaturalPairing
+module
+
+public import ZFVP.SetTheory.CountableChoice
+public import ZFVP.SetTheory.WellOrderedCardinal
+public import ZFVP.SetTheory.NaturalPairing
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,4 +1,8 @@
-import ZFVP.Syntax.InternalForcingSets
+module
+
+public import ZFVP.Syntax.InternalForcingSets
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

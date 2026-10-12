@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingFunctionValues
-import ZFVP.ModelTheory.ForcingModelChecks
+module
+
+public import ZFVP.ModelTheory.ForcingFunctionValues
+public import ZFVP.ModelTheory.ForcingModelChecks
+
+@[expose] public section
 
 namespace ZFVP
 

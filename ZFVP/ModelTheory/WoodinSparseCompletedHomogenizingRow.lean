@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseCompletedDisplacement
+module
+
+public import ZFVP.ModelTheory.WoodinSparseCompletedDisplacement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

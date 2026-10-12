@@ -1,6 +1,10 @@
-import ZFVP.Syntax.InternalForcingRegular
-import ZFVP.Syntax.StandardCodeExpressions
-import ZFVP.SetTheory.ClassFormulaForcing
+module
+
+public import ZFVP.Syntax.InternalForcingRegular
+public import ZFVP.Syntax.StandardCodeExpressions
+public import ZFVP.SetTheory.ClassFormulaForcing
+
+@[expose] public section
 
 /-! Internal formula-code forcing agrees with the externally finite formula
 recursion on standard tuple assignments. No forcing-order hypothesis is needed. -/

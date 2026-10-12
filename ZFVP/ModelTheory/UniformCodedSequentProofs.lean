@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.UniformCodedSequents
-import ZFVP.ModelTheory.OpenCodedSequentSoundness
+module
+
+public import ZFVP.ModelTheory.UniformCodedSequents
+public import ZFVP.ModelTheory.OpenCodedSequentSoundness
+
+@[expose] public section
 
 /-! A shared first-order definition of the internally finite sequent proof checker. -/
 

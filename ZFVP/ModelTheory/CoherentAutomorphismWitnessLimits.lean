@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.CoherentAutomorphismWitnessRecursion
+module
+
+public import ZFVP.ModelTheory.CoherentAutomorphismWitnessRecursion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ElementaryInclusion
-import ZFVP.SetTheory.MostowskiCollapse
+module
+
+public import ZFVP.ModelTheory.ElementaryInclusion
+public import ZFVP.SetTheory.MostowskiCollapse
+
+@[expose] public section
 
 /-! The weakly LS and LS definitions in V13, including the collapse and
 function-closure clauses, and their preservation at nonzero limits. -/

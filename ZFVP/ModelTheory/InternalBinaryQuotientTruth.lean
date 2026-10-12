@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.InternalBinaryQuotientAtoms
-import ZFVP.Syntax.MembershipTruthTables
-import ZFVP.Syntax.UniformSatisfaction
-import ZFVP.ModelTheory.CodedZFModel
+module
+
+public import ZFVP.ModelTheory.InternalBinaryQuotientAtoms
+public import ZFVP.Syntax.MembershipTruthTables
+public import ZFVP.Syntax.UniformSatisfaction
+public import ZFVP.ModelTheory.CodedZFModel
+
+@[expose] public section
 
 /-! An actual truth table on names descends through its internal equality
 quotient. The induction covers every internally finite formula code. -/

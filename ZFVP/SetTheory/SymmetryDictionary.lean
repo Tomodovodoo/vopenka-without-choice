@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.NameRecursionDictionary
-import ZFVP.SetTheory.SymmetricSystems
+module
+
+public import ZFVP.SetTheory.NameRecursionDictionary
+public import ZFVP.SetTheory.SymmetricSystems
+
+@[expose] public section
 
 namespace ZFVP
 

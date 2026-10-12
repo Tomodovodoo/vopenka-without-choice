@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.GroundRealsHOD
-import ZFVP.SetTheory.SetCodes
-import ZFVP.SetTheory.CountableSets
-import ZFVP.SetTheory.NaturalPairing
-import ZFVP.SetTheory.EndExtensionWellOrdering
-import ZFVP.SetTheory.EndExtensionFinite
+module
+
+public import ZFVP.ModelTheory.GroundRealsHOD
+public import ZFVP.SetTheory.SetCodes
+public import ZFVP.SetTheory.CountableSets
+public import ZFVP.SetTheory.NaturalPairing
+public import ZFVP.SetTheory.EndExtensionWellOrdering
+public import ZFVP.SetTheory.EndExtensionFinite
+
+@[expose] public section
 
 /-! A set of a forcing extension whose transitive closure is countable is definable from a real.
 

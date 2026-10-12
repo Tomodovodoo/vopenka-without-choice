@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalProofRewriteArguments
-import ZFVP.ModelTheory.InternalFormulaTransformSubstitution
+module
+
+public import ZFVP.ModelTheory.InternalProofRewriteArguments
+public import ZFVP.ModelTheory.InternalFormulaTransformSubstitution
+
+@[expose] public section
 
 /-! The common formula-transformer results specialized to the explicit proof-rule rewrite. -/
 

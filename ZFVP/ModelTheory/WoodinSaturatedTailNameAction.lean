@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseTailNameAction
-import ZFVP.ModelTheory.SaturatedPrefixMemberRank
-import ZFVP.ModelTheory.SaturatedHartogsMemberRank
+module
+
+public import ZFVP.ModelTheory.WoodinSparseTailNameAction
+public import ZFVP.ModelTheory.SaturatedPrefixMemberRank
+public import ZFVP.ModelTheory.SaturatedHartogsMemberRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

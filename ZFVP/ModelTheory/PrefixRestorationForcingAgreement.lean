@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.PrefixRestorationForcingAgreementCountable
-import ZFVP.Syntax.LowRankBinaryForcingTruth
-import ZFVP.ModelTheory.CountableZFTransfer
+module
+
+public import ZFVP.ModelTheory.PrefixRestorationForcingAgreementCountable
+public import ZFVP.Syntax.LowRankBinaryForcingTruth
+public import ZFVP.ModelTheory.CountableZFTransfer
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ClubDictionary
-import ZFVP.SetTheory.IterationLimit
+module
+
+public import ZFVP.SetTheory.ClubDictionary
+public import ZFVP.SetTheory.IterationLimit
+
+@[expose] public section
 
 namespace ZFVP
 

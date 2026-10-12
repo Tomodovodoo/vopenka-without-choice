@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.BooleanConePartitionGlue
-import ZFVP.SetTheory.TransfiniteIteration
+module
+
+public import ZFVP.ModelTheory.BooleanConePartitionGlue
+public import ZFVP.SetTheory.TransfiniteIteration
+
+@[expose] public section
 
 /-! The Schroeder-Bernstein theorem of Sikorski and Tarski for the complete Boolean algebra of
 regular sets of a forcing preorder, in cone form.

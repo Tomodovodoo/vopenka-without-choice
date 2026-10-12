@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ClassRelativization
-import ZFVP.SetTheory.RankZF
+module
+
+public import ZFVP.SetTheory.ClassRelativization
+public import ZFVP.SetTheory.RankZF
+
+@[expose] public section
 
 /-! A definable class which is transitive, contains `ω` and is closed under pairs, unions, relative
 power sets, relativized separation and relativized replacement is a model of the external ZF

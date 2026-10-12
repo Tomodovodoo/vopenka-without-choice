@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.LastPointCn
-import ZFVP.ModelTheory.EmbeddingFixedCofinality
-import ZFVP.SetTheory.OrdinalMapBound
-import ZFVP.SetTheory.ClubSets
+module
+
+public import ZFVP.ModelTheory.LastPointCn
+public import ZFVP.ModelTheory.EmbeddingFixedCofinality
+public import ZFVP.SetTheory.OrdinalMapBound
+public import ZFVP.SetTheory.ClubSets
+
+@[expose] public section
 
 /-! Correct fixed ranks are cofinal below a last point of uncountable cofinality. -/
 

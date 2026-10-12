@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalSubstitutionTransport
-import ZFVP.ModelTheory.SchmerlInternalQInterchange
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalSubstitutionTransport
+public import ZFVP.ModelTheory.SchmerlInternalQInterchange
+
+@[expose] public section
 
 /-! The syntactic Q interchange schema transports its source fragment
 and actual binder swap. No semantic or cardinal-preservation assumption

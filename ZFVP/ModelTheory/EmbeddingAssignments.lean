@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.EmbeddingNaturalFixation
-import ZFVP.SetTheory.BoundedFunctionDomain
-import ZFVP.SetTheory.FunctionUnion
-import ZFVP.Syntax.LiftSubstitution
+module
+
+public import ZFVP.ModelTheory.EmbeddingNaturalFixation
+public import ZFVP.SetTheory.BoundedFunctionDomain
+public import ZFVP.SetTheory.FunctionUnion
+public import ZFVP.Syntax.LiftSubstitution
+
+@[expose] public section
 
 /-! Images of internal function graphs and internally finite parameter assignments. -/
 

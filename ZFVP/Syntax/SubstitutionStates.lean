@@ -1,5 +1,9 @@
-import ZFVP.Syntax.LiftSubstitution
-import ZFVP.SetTheory.NaturalIteration
+module
+
+public import ZFVP.Syntax.LiftSubstitution
+public import ZFVP.SetTheory.NaturalIteration
+
+@[expose] public section
 
 /-! All iterated binder-lifting states form one internal set. -/
 

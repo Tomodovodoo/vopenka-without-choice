@@ -1,6 +1,10 @@
-import ZFVP.Syntax.BinaryRelationSatisfaction
-import ZFVP.Syntax.MembershipTailTemplates
-import ZFVP.Syntax.DirectMembershipAtoms
+module
+
+public import ZFVP.Syntax.BinaryRelationSatisfaction
+public import ZFVP.Syntax.MembershipTailTemplates
+public import ZFVP.Syntax.DirectMembershipAtoms
+
+@[expose] public section
 
 /-! Renaming and schema-template semantics for an arbitrary coded relation.
 Both logical equality tokens and the set language's equality relation use literal equality. -/

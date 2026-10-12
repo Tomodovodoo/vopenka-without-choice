@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.NamedCollapseRestoration
-import ZFVP.ModelTheory.SaturatedCollapseBounds
-import ZFVP.SetTheory.SaturatedNameEquality
-import ZFVP.SetTheory.ClassForcingCongruence
-import ZFVP.SetTheory.WoodinNamedPrefixCutoff
+module
+
+public import ZFVP.ModelTheory.NamedCollapseRestoration
+public import ZFVP.ModelTheory.SaturatedCollapseBounds
+public import ZFVP.SetTheory.SaturatedNameEquality
+public import ZFVP.SetTheory.ClassForcingCongruence
+public import ZFVP.SetTheory.WoodinNamedPrefixCutoff
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

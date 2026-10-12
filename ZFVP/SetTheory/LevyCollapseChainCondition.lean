@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.LevyCollapseSupport
-import ZFVP.SetTheory.UltrafilterOrdinals
-import ZFVP.SetTheory.NaturalPigeonhole
-import ZFVP.SetTheory.LeastOrdinalChoice
+module
+
+public import ZFVP.SetTheory.LevyCollapseSupport
+public import ZFVP.SetTheory.UltrafilterOrdinals
+public import ZFVP.SetTheory.NaturalPigeonhole
+public import ZFVP.SetTheory.LeastOrdinalChoice
+
+@[expose] public section
 
 /-! The `κ`-chain condition for the Levy collapse `Coll(ω, <κ)` at a measurable ordinal `κ`,
 proved with a nonprincipal `κ`-complete ultrafilter `U` instead of the Δ-system lemma: among

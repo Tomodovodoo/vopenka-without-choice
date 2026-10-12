@@ -1,6 +1,10 @@
-import ZFVP.Syntax.MembershipSatisfaction
-import ZFVP.Syntax.PackedSatisfaction
-import ZFVP.SetTheory.TransitiveClosure
+module
+
+public import ZFVP.Syntax.MembershipSatisfaction
+public import ZFVP.Syntax.PackedSatisfaction
+public import ZFVP.SetTheory.TransitiveClosure
+
+@[expose] public section
 
 /-! One definable evaluator for bounded formulas in the ambient universe.
 Correctness below is for codes of external finite bounded formulas. -/

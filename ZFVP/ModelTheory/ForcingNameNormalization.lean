@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingSmallNameValues
-import ZFVP.ModelTheory.ForcingSaturatedName
-import ZFVP.ModelTheory.ForcingFormulaName
-import ZFVP.SetTheory.DeltaOneRank
+module
+
+public import ZFVP.ModelTheory.ForcingSmallNameValues
+public import ZFVP.ModelTheory.ForcingSaturatedName
+public import ZFVP.ModelTheory.ForcingFormulaName
+public import ZFVP.SetTheory.DeltaOneRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

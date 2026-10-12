@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FunctionComposition
-import ZFVP.SetTheory.WellFoundedRecursion
+module
+
+public import ZFVP.SetTheory.FunctionComposition
+public import ZFVP.SetTheory.WellFoundedRecursion
+
+@[expose] public section
 
 /-! Shared formulas for composition and predecessors, with a total recursion interface. -/
 

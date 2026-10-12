@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramReindex
+module
+
+public import ZFVP.Syntax.PrimitiveProgramReindex
+
+@[expose] public section
 
 /-! Binder-lifting equations and bounds for arbitrary internal renaming tables. -/
 

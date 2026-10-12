@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryAdequateLimits
-import ZFVP.ModelTheory.InfinitaryCountablyDirectedWeakLimit
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateLimits
+public import ZFVP.ModelTheory.InfinitaryCountablyDirectedWeakLimit
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

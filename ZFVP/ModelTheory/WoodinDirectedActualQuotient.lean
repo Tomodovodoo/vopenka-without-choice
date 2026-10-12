@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinDirectedCanonicalBound
-import ZFVP.ModelTheory.WoodinEndpointDirect
+module
+
+public import ZFVP.ModelTheory.WoodinDirectedCanonicalBound
+public import ZFVP.ModelTheory.WoodinEndpointDirect
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

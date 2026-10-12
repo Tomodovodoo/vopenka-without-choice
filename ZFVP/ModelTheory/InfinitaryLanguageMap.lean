@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryRewritingLaws
+module
+
+public import ZFVP.ModelTheory.InfinitaryRewritingLaws
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

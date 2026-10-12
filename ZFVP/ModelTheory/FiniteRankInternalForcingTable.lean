@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.FiniteRankMembershipSyntax
-import ZFVP.ModelTheory.InternalForcingTableTransport
-import ZFVP.Syntax.InternalForcingTableBounds
-import ZFVP.SetTheory.CanonicalAtomicTruthTable
+module
+
+public import ZFVP.ModelTheory.FiniteRankMembershipSyntax
+public import ZFVP.ModelTheory.InternalForcingTableTransport
+public import ZFVP.Syntax.InternalForcingTableBounds
+public import ZFVP.SetTheory.CanonicalAtomicTruthTable
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

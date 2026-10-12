@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSuccessorBounds
-import ZFVP.SetTheory.ForcingRelativeClosure
+module
+
+public import ZFVP.ModelTheory.WoodinSuccessorBounds
+public import ZFVP.SetTheory.ForcingRelativeClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.SigmaOneNameStabilizer
-import ZFVP.SetTheory.DeltaOneForcingNames
+module
+
+public import ZFVP.SetTheory.SigmaOneNameStabilizer
+public import ZFVP.SetTheory.DeltaOneForcingNames
+
+@[expose] public section
 
 /-! Hereditary symmetry has Sigma_1 and Pi_1 definitions for families of
 condition functions. In particular this applies to every symmetric system. -/

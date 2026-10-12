@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinEndpointLowNames
-import ZFVP.ModelTheory.ForcingPullbackRealization
-import ZFVP.ModelTheory.ForcingRankTruth
-import ZFVP.SetTheory.MembershipIso
+module
+
+public import ZFVP.ModelTheory.WoodinEndpointLowNames
+public import ZFVP.ModelTheory.ForcingPullbackRealization
+public import ZFVP.ModelTheory.ForcingRankTruth
+public import ZFVP.SetTheory.MembershipIso
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

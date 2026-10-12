@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.PrefixLocalRestorationRankAgreement
+module
+
+public import ZFVP.ModelTheory.PrefixLocalRestorationRankAgreement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.BoundedCoordinatePool
-import ZFVP.ModelTheory.SparseCutCovariance
+module
+
+public import ZFVP.ModelTheory.BoundedCoordinatePool
+public import ZFVP.ModelTheory.SparseCutCovariance
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

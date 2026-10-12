@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingLowRankNames
-import ZFVP.ModelTheory.GenericFilterName
-import ZFVP.SetTheory.CnSigmaClosure
+module
+
+public import ZFVP.ModelTheory.ForcingLowRankNames
+public import ZFVP.ModelTheory.GenericFilterName
+public import ZFVP.SetTheory.CnSigmaClosure
+
+@[expose] public section
 
 /-!
 # Rank of checked sets at a `Sigma_1`-correct stage

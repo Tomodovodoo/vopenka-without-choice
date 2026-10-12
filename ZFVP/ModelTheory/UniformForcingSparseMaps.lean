@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.UniformNormalizationMaps
-import ZFVP.ModelTheory.UniformSparsePair
-import ZFVP.ModelTheory.ForcingRecodedSparse
-import ZFVP.ModelTheory.ForcingLimitUniform
+module
+
+public import ZFVP.ModelTheory.UniformNormalizationMaps
+public import ZFVP.ModelTheory.UniformSparsePair
+public import ZFVP.ModelTheory.ForcingRecodedSparse
+public import ZFVP.ModelTheory.ForcingLimitUniform
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

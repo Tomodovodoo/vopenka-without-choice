@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinRankInduction
-import ZFVP.ModelTheory.WoodinRecursionUniform
-import ZFVP.ModelTheory.CountableZFTransfer
+module
+
+public import ZFVP.ModelTheory.WoodinRankInduction
+public import ZFVP.ModelTheory.WoodinRecursionUniform
+public import ZFVP.ModelTheory.CountableZFTransfer
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

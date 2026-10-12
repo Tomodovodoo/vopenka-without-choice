@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseBoundedEndpointComparison
-import ZFVP.ModelTheory.WoodinSparseEndpointTruth
+module
+
+public import ZFVP.ModelTheory.WoodinSparseBoundedEndpointComparison
+public import ZFVP.ModelTheory.WoodinSparseEndpointTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.NaturalMultiplication
+module
+
+public import ZFVP.SetTheory.NaturalMultiplication
+
+@[expose] public section
 
 /-! Addition and multiplication laws for all internal natural numbers. -/
 

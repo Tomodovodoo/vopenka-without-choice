@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CorrectRankStages
+module
+
+public import ZFVP.SetTheory.CorrectRankStages
+
+@[expose] public section
 
 /-! Elementary transport of the fixed higher-truth and correctness dictionaries. -/
 

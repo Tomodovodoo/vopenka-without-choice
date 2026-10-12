@@ -1,4 +1,8 @@
-import ZFVP.Syntax.SatisfactionDefinability
+module
+
+public import ZFVP.Syntax.SatisfactionDefinability
+
+@[expose] public section
 
 /-! Packing the four satisfaction parameters gives short definability interfaces. -/
 

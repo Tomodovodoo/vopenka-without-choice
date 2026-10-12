@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.FunctionComposition
+module
+
+public import ZFVP.SetTheory.FunctionComposition
+
+@[expose] public section
 
 /-! Composition of internal relation graphs. -/
 

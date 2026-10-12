@@ -1,5 +1,9 @@
-import ZFVP.Syntax.ProgramZFVPProvability
-import ZFVP.Syntax.PrimitiveProgramTheoryComposition
+module
+
+public import ZFVP.Syntax.ProgramZFVPProvability
+public import ZFVP.Syntax.PrimitiveProgramTheoryComposition
+
+@[expose] public section
 
 /-! The explicit ZF+VP proof predicate satisfies the second derivability condition. -/
 

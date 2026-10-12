@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinInverseStageBounds
+module
+
+public import ZFVP.ModelTheory.WoodinInverseStageBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

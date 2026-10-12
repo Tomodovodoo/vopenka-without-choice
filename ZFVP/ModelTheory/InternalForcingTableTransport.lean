@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedInternalForcingTable
-import ZFVP.ModelTheory.LimitRankEmbedding
+module
+
+public import ZFVP.Syntax.BoundedInternalForcingTable
+public import ZFVP.ModelTheory.LimitRankEmbedding
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

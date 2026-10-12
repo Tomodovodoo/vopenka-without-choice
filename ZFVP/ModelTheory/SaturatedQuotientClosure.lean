@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.QuotientClosureComposition
-import ZFVP.ModelTheory.SaturatedWoodinSuccessor
+module
+
+public import ZFVP.ModelTheory.QuotientClosureComposition
+public import ZFVP.ModelTheory.SaturatedWoodinSuccessor
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.NameAction
-import ZFVP.SetTheory.BoundedCodingPrimitives
+module
+
+public import ZFVP.SetTheory.NameAction
+public import ZFVP.SetTheory.BoundedCodingPrimitives
+
+@[expose] public section
 
 /-! Functional tables for the recursive action on a subname-closed family. -/
 

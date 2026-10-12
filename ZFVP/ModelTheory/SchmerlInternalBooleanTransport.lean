@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalBooleanProofs
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalBooleanProofs
+
+@[expose] public section
 
 /-! Membership end extensions preserve the actual internal Boolean proof
 codes and their entire omega-indexed premise families. This is syntactic

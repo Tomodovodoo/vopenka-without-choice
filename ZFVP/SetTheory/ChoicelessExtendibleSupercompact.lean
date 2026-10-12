@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.EmbeddingSupercompactBase
-import ZFVP.SetTheory.ChoicelessExtendible
+module
+
+public import ZFVP.ModelTheory.EmbeddingSupercompactBase
+public import ZFVP.SetTheory.ChoicelessExtendible
+
+@[expose] public section
 
 /-! Relative extendibility supplies the small embeddings required by
 relative supercompactness at levels at least two. -/

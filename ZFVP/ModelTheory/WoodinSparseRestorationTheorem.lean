@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseFiniteRestoration
-import ZFVP.ModelTheory.WoodinSparseSourceRelativeHomogeneity
+module
+
+public import ZFVP.ModelTheory.WoodinSparseFiniteRestoration
+public import ZFVP.ModelTheory.WoodinSparseSourceRelativeHomogeneity
+
+@[expose] public section
 
 /-! Finite restoration and the consistency equivalence from the actual Woodin
 iteration. The ground selection, generic, correctness window, relative

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ChoicelessSupercompactInterpolation
+module
+
+public import ZFVP.SetTheory.ChoicelessSupercompactInterpolation
+
+@[expose] public section
 
 /-! Restricting supercompactness witnesses to lower correct target ranks.
 Including the cutoff ordinal among the parameters preserves nontriviality. -/

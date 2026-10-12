@@ -1,4 +1,8 @@
-import ZFVP.Syntax.FoundationSemantics
+module
+
+public import ZFVP.Syntax.FoundationSemantics
+
+@[expose] public section
 
 /-! The internal diagonal relation and the direct equality-symbol representation. -/
 

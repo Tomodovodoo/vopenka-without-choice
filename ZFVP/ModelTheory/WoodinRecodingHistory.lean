@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinRecodingRecursion
+module
+
+public import ZFVP.ModelTheory.WoodinRecodingRecursion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

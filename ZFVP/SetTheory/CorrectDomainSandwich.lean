@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CnAbsoluteness
+module
+
+public import ZFVP.SetTheory.CnAbsoluteness
+
+@[expose] public section
 
 /-! Correctness between an inner domain and a surrounding correct rank.
 Evaluation in the surrounding rank does not assume that rank is a ZF model. -/

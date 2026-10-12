@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalHenkinUnaryInstances
+module
+
+public import ZFVP.ModelTheory.InternalHenkinUnaryInstances
+
+@[expose] public section
 
 /-! Existentially project a consistent finite condition to one distinguished
 name. If the condition implies all instances of a unary type, its projection

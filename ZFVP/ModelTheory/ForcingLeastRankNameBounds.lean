@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingLeastRankNormalization
-import ZFVP.ModelTheory.CanonicalNormalizationForcing
-import ZFVP.SetTheory.ForcingNameHierarchyBound
+module
+
+public import ZFVP.ModelTheory.ForcingLeastRankNormalization
+public import ZFVP.ModelTheory.CanonicalNormalizationForcing
+public import ZFVP.SetTheory.ForcingNameHierarchyBound
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

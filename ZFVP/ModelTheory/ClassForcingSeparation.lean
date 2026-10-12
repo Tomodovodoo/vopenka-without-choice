@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ClassForcingSelectionName
-import ZFVP.Syntax.CloseTailParameters
+module
+
+public import ZFVP.ModelTheory.ClassForcingSelectionName
+public import ZFVP.Syntax.CloseTailParameters
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

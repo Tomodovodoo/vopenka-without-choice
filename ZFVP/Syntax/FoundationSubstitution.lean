@@ -1,5 +1,9 @@
-import ZFVP.Syntax.TermSubstitution
-import ZFVP.Syntax.FoundationEncoding
+module
+
+public import ZFVP.Syntax.TermSubstitution
+public import ZFVP.Syntax.FoundationEncoding
+
+@[expose] public section
 
 /-! Internal term substitution agrees with Foundation rewriting on encoded terms. -/
 

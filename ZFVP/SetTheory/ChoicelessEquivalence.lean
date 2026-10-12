@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FullChoicelessCardinals
-import ZFVP.SetTheory.ChoicelessSupercompactExtendible
+module
+
+public import ZFVP.SetTheory.FullChoicelessCardinals
+public import ZFVP.SetTheory.ChoicelessSupercompactExtendible
+
+@[expose] public section
 
 /-! The positive-level equivalence between n-choiceless extendibility
 and (n+1)-choiceless supercompactness, including prescribed lower bounds. -/

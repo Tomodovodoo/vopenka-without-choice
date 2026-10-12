@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingFormulaNameSpecification
-import ZFVP.ModelTheory.SuccessorRankSetOperations
+module
+
+public import ZFVP.ModelTheory.ForcingFormulaNameSpecification
+public import ZFVP.ModelTheory.SuccessorRankSetOperations
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

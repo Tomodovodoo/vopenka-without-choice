@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalSpecializationCCC
-import ZFVP.SetTheory.ProductForcing
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalSpecializationCCC
+public import ZFVP.SetTheory.ProductForcing
+
+@[expose] public section
 
 /-! The internal square of the strict-specialization poset is ccc.
 Pairs of conditions are encoded on two disjoint tagged copies of the tree. -/

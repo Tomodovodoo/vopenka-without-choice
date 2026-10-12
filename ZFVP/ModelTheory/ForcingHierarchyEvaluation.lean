@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingHierarchyName
+module
+
+public import ZFVP.ModelTheory.ForcingHierarchyName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

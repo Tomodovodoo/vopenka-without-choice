@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.LevyCollapseRowPermutations
-import ZFVP.SetTheory.LevyCollapseUpper
-import ZFVP.SetTheory.HomogeneousForcing
-import ZFVP.ModelTheory.SubposetRealization
+module
+
+public import ZFVP.SetTheory.LevyCollapseRowPermutations
+public import ZFVP.SetTheory.LevyCollapseUpper
+public import ZFVP.SetTheory.HomogeneousForcing
+public import ZFVP.ModelTheory.SubposetRealization
+
+@[expose] public section
 
 /-! Row permutations above `β` act on the upper collapse `Coll(ω,[β,κ))` and make it weakly
 homogeneous. -/

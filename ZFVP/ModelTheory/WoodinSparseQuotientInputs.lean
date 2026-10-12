@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseGenericContext
-import ZFVP.ModelTheory.IterationSystemProjection
+module
+
+public import ZFVP.ModelTheory.WoodinSparseGenericContext
+public import ZFVP.ModelTheory.IterationSystemProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

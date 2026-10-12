@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.BinaryRelationStructure
-import ZFVP.ModelTheory.EndExtensionCodedEmbedding
+module
+
+public import ZFVP.ModelTheory.BinaryRelationStructure
+public import ZFVP.ModelTheory.EndExtensionCodedEmbedding
+
+@[expose] public section
 
 /-! Binary structure codes and their actual coded elementary embeddings
 are preserved by membership end extensions of ambient ZF models. -/

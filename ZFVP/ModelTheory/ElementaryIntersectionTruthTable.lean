@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CollapsedElementarySubmodel
-import ZFVP.ModelTheory.FixedSyntaxEmbeddingRestriction
-import ZFVP.SetTheory.FormulaFamilyRank
+module
+
+public import ZFVP.ModelTheory.CollapsedElementarySubmodel
+public import ZFVP.ModelTheory.FixedSyntaxEmbeddingRestriction
+public import ZFVP.SetTheory.FormulaFamilyRank
+
+@[expose] public section
 
 /-! A truth table in an elementary submodel makes its intersection with the
 table's domain elementary. Low-rank containment fixes the internal syntax. -/

@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.CohenProductPresentation
-import ZFVP.ModelTheory.ProductHomogeneity
-import ZFVP.ModelTheory.MemEquivElementary
-import ZFVP.ModelTheory.ForcingFunctionValues
-import ZFVP.SetTheory.NameActionClosure
+module
+
+public import ZFVP.ModelTheory.CohenProductPresentation
+public import ZFVP.ModelTheory.ProductHomogeneity
+public import ZFVP.ModelTheory.MemEquivElementary
+public import ZFVP.ModelTheory.ForcingFunctionValues
+public import ZFVP.SetTheory.NameActionClosure
+
+@[expose] public section
 
 /-! The Cohen decision of a definable set of reals: a set of reals of the Levy extension definable
 from ground parameters is decided on the Cohen reals by the ground set of finite sequences `s`

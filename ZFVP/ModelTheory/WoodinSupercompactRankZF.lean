@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinSupercompactInaccessible
-import ZFVP.SetTheory.PiOneRankCriterion
+module
+
+public import ZFVP.SetTheory.WoodinSupercompactInaccessible
+public import ZFVP.SetTheory.PiOneRankCriterion
+
+@[expose] public section
 
 namespace ZFVP
 

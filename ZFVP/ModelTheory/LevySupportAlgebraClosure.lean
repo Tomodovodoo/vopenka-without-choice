@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LevyGaloisStep
-import ZFVP.ModelTheory.SolovayPointwiseDefinable
+module
+
+public import ZFVP.ModelTheory.LevyGaloisStep
+public import ZFVP.ModelTheory.SolovayPointwiseDefinable
+
+@[expose] public section
 
 /-! The Galois closure of a support algebra of the Levy collapse.
 

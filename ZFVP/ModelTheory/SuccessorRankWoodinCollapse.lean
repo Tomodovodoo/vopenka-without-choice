@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SuccessorRankSeparation
-import ZFVP.ModelTheory.SuccessorRankSetOperations
-import ZFVP.SetTheory.WoodinCollapseFormula
+module
+
+public import ZFVP.ModelTheory.SuccessorRankSeparation
+public import ZFVP.ModelTheory.SuccessorRankSetOperations
+public import ZFVP.SetTheory.WoodinCollapseFormula
+
+@[expose] public section
 
 namespace ZFVP
 

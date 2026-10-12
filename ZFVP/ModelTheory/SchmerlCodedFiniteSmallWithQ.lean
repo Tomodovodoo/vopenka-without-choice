@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedDeadEndSemantics
-import ZFVP.ModelTheory.SchmerlInfinitaryDeadEndWithQ
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedDeadEndSemantics
+public import ZFVP.ModelTheory.SchmerlInfinitaryDeadEndWithQ
+
+@[expose] public section
 
 /-! The ambient countable traces give the finite-small clause and remain
 countable after every membership end extension. -/

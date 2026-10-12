@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryGenericFiberInclusion
+module
+
+public import ZFVP.ModelTheory.InfinitaryGenericFiberInclusion
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

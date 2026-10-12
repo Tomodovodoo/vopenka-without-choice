@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedCodingSupport
-import ZFVP.SetTheory.BoundedUnion
+module
+
+public import ZFVP.SetTheory.BoundedCodingSupport
+public import ZFVP.SetTheory.BoundedUnion
+
+@[expose] public section
 
 /-! Bounded support conditions for internally finite assignment graphs. -/
 

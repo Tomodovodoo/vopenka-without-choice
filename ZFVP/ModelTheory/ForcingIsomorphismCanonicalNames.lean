@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingUniqueRelation
-import ZFVP.SetTheory.ClassForcingCongruence
-import ZFVP.ModelTheory.ForcingHartogsName
-import ZFVP.ModelTheory.SaturatedCollapseBounds
+module
+
+public import ZFVP.ModelTheory.ForcingUniqueRelation
+public import ZFVP.SetTheory.ClassForcingCongruence
+public import ZFVP.ModelTheory.ForcingHartogsName
+public import ZFVP.ModelTheory.SaturatedCollapseBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

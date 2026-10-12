@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.LevyCollapseUpper
-import ZFVP.SetTheory.ProductForcing
-import ZFVP.SetTheory.DenseEmbedding
+module
+
+public import ZFVP.SetTheory.LevyCollapseUpper
+public import ZFVP.SetTheory.ProductForcing
+public import ZFVP.SetTheory.DenseEmbedding
+
+@[expose] public section
 
 /-! Column splitting of the Levy collapse: for any set `C` of columns, a condition is the union of
 its restriction to the columns in `C` and its restriction to the remaining columns, and this

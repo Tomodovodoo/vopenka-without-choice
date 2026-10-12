@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinFixedPointRank
-import ZFVP.ModelTheory.WoodinEndpointStageMap
+module
+
+public import ZFVP.ModelTheory.WoodinFixedPointRank
+public import ZFVP.ModelTheory.WoodinEndpointStageMap
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

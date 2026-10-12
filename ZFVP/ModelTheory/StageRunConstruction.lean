@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.StageClubs
-import ZFVP.ModelTheory.StageDefinability
-import ZFVP.ModelTheory.FiniteStageSuccessorPoint
+module
+
+public import ZFVP.ModelTheory.StageClubs
+public import ZFVP.ModelTheory.StageDefinability
+public import ZFVP.ModelTheory.FiniteStageSuccessorPoint
+
+@[expose] public section
 
 /-! # The ω₁-length recursion of Stage 1 of Enayat's Appendix
 

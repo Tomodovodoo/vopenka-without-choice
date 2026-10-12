@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinCanonicalTailNameUniform
-import ZFVP.ModelTheory.WoodinSparseCompletedAutomorphism
-import ZFVP.ModelTheory.WoodinSparseActualInverseRankAgreement
+module
+
+public import ZFVP.ModelTheory.WoodinCanonicalTailNameUniform
+public import ZFVP.ModelTheory.WoodinSparseCompletedAutomorphism
+public import ZFVP.ModelTheory.WoodinSparseActualInverseRankAgreement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

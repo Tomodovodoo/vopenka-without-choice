@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SolovayFactorLemma
-import ZFVP.ModelTheory.HomogeneousTruth
+module
+
+public import ZFVP.ModelTheory.SolovayFactorLemma
+public import ZFVP.ModelTheory.HomogeneousTruth
+
+@[expose] public section
 
 /-! Homogeneity of the upper collapse over the intermediate model: automorphisms and weak
 homogeneity transport along end extensions, so every context over `V[G_β ∩ D]` whose poset is the

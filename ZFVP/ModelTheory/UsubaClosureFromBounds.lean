@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.UsubaConditionalQuotientClosure
-import ZFVP.ModelTheory.UsubaBoundCoordinates
-import ZFVP.SetTheory.ForcingNegationCalculus
+module
+
+public import ZFVP.ModelTheory.UsubaConditionalQuotientClosure
+public import ZFVP.ModelTheory.UsubaBoundCoordinates
+public import ZFVP.SetTheory.ForcingNegationCalculus
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

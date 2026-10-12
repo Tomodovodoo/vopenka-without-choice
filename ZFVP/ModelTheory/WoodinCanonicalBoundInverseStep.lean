@@ -1,14 +1,18 @@
-import ZFVP.ModelTheory.WoodinBoundInvariantSemantics
-import ZFVP.ModelTheory.WoodinBoundCoherence
-import ZFVP.ModelTheory.WoodinCanonicalBoundInverseIterand
-import ZFVP.ModelTheory.WoodinCanonicalBoundInverseClosure
-import ZFVP.ModelTheory.WoodinQuotientClosureInverse
-import ZFVP.ModelTheory.QuotientLiftCompatibility
-import ZFVP.ModelTheory.SaturatedHartogsCollapse
-import ZFVP.ModelTheory.TransportedLocalUnionPair
-import ZFVP.ModelTheory.LocalUnionQuotientBound
-import ZFVP.ModelTheory.WoodinBoundNormalization
-import ZFVP.ModelTheory.TransportedLocalUnionNormalization
+module
+
+public import ZFVP.ModelTheory.WoodinBoundInvariantSemantics
+public import ZFVP.ModelTheory.WoodinBoundCoherence
+public import ZFVP.ModelTheory.WoodinCanonicalBoundInverseIterand
+public import ZFVP.ModelTheory.WoodinCanonicalBoundInverseClosure
+public import ZFVP.ModelTheory.WoodinQuotientClosureInverse
+public import ZFVP.ModelTheory.QuotientLiftCompatibility
+public import ZFVP.ModelTheory.SaturatedHartogsCollapse
+public import ZFVP.ModelTheory.TransportedLocalUnionPair
+public import ZFVP.ModelTheory.LocalUnionQuotientBound
+public import ZFVP.ModelTheory.WoodinBoundNormalization
+public import ZFVP.ModelTheory.TransportedLocalUnionNormalization
+
+@[expose] public section
 
 /-! The inverse-limit step of the canonical quotient-bound induction, the analogue at a
 packed limit coordinate of `woodinQuotientBoundAt_successor_normalized`. -/

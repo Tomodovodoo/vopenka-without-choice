@@ -1,5 +1,9 @@
-import ZFVP.Syntax.VopenkaCodes
-import ZFVP.Syntax.FormulaSubstitutionDefinability
+module
+
+public import ZFVP.Syntax.VopenkaCodes
+public import ZFVP.Syntax.FormulaSubstitutionDefinability
+
+@[expose] public section
 
 /-! The internal set of compiled Vopenka axioms and its model condition. -/
 

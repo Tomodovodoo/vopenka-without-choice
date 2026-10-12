@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BoundedCodingPrimitives
+module
+
+public import ZFVP.SetTheory.BoundedCodingPrimitives
+
+@[expose] public section
 
 /-! The identity graph has a bounded relational definition. -/
 

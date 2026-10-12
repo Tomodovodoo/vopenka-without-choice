@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.SetUltrafilter
-import ZFVP.SetTheory.GroundUniqueness
+module
+
+public import ZFVP.SetTheory.SetUltrafilter
+public import ZFVP.SetTheory.GroundUniqueness
+
+@[expose] public section
 
 /-! # Supercompactness in the measure sense
 

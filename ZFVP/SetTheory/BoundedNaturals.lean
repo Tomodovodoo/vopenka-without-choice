@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedCodingPrimitives
-import ZFVP.SetTheory.NaturalPredecessor
+module
+
+public import ZFVP.SetTheory.BoundedCodingPrimitives
+public import ZFVP.SetTheory.NaturalPredecessor
+
+@[expose] public section
 
 /-! Bounded definitions of standard numerals and of the internal omega set. -/
 

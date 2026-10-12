@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CriticalPointCardinal
-import ZFVP.SetTheory.NaturalIteration
-import ZFVP.SetTheory.FiniteCofinality
+module
+
+public import ZFVP.ModelTheory.CriticalPointCardinal
+public import ZFVP.SetTheory.NaturalIteration
+public import ZFVP.SetTheory.FiniteCofinality
+
+@[expose] public section
 
 /-! The critical sequence runs through all internal natural numbers. -/
 

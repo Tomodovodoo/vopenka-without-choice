@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.EndExtensionAtomicForcing
-import ZFVP.SetTheory.RegularSetAlgebra
+module
+
+public import ZFVP.SetTheory.EndExtensionAtomicForcing
+public import ZFVP.SetTheory.RegularSetAlgebra
+
+@[expose] public section
 
 /-! Regular sets, closures and joins are absolute for membership end extensions. -/
 

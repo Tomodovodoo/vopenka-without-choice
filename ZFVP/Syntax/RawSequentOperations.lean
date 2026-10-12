@@ -1,4 +1,8 @@
-import ZFVP.Syntax.RawSequentCoding
+module
+
+public import ZFVP.Syntax.RawSequentCoding
+
+@[expose] public section
 
 /-! Standard decoding commutes with the formula operations used by the LK rule checker. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalProofRewriteEquations
-import ZFVP.Syntax.FormulaSubstitutionDefinability
-import ZFVP.Syntax.FormulaSubstitutionEquations
+module
+
+public import ZFVP.ModelTheory.InternalProofRewriteEquations
+public import ZFVP.Syntax.FormulaSubstitutionDefinability
+public import ZFVP.Syntax.FormulaSubstitutionEquations
+
+@[expose] public section
 
 /-! Internal variable tables induced by the explicit natural-code rewrite program. -/
 

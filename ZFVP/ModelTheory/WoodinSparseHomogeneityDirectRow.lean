@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseWitnessPrefix
-import ZFVP.ModelTheory.WoodinSparseHomogeneityBuilder
+module
+
+public import ZFVP.ModelTheory.WoodinSparseWitnessPrefix
+public import ZFVP.ModelTheory.WoodinSparseHomogeneityBuilder
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

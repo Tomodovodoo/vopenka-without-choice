@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.PartialFunctionAction
-import ZFVP.SetTheory.CardinalSmallComplements
+module
+
+public import ZFVP.SetTheory.PartialFunctionAction
+public import ZFVP.SetTheory.CardinalSmallComplements
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalHenkinTruthTable
-import ZFVP.ModelTheory.InternalBinaryQuotientSemantics
+module
+
+public import ZFVP.ModelTheory.InternalHenkinTruthTable
+public import ZFVP.ModelTheory.InternalBinaryQuotientSemantics
+
+@[expose] public section
 
 /-! Standard formulas in the accepted table evaluate in the name prestructure.
 The equality basis therefore supplies its internal setoid and congruence laws. -/

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ClassForcingTower
+module
+
+public import ZFVP.SetTheory.ClassForcingTower
+
+@[expose] public section
 
 /-! The direct limit of a definable forcing tower. Conditions are tagged
 by their set stage. Compare two conditions by moving them to a common

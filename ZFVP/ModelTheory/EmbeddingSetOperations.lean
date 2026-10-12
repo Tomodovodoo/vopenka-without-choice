@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LimitRankEmbedding
-import ZFVP.SetTheory.SetUltrafilter
+module
+
+public import ZFVP.ModelTheory.LimitRankEmbedding
+public import ZFVP.SetTheory.SetUltrafilter
+
+@[expose] public section
 
 /-! Bounded transport of subsets, intersections and relative complements. -/
 

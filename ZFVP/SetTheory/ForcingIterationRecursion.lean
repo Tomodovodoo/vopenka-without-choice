@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingIterationDefinability
-import ZFVP.SetTheory.UniformRecursion
+module
+
+public import ZFVP.SetTheory.ForcingIterationDefinability
+public import ZFVP.SetTheory.UniformRecursion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

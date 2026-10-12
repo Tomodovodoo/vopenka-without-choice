@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.DirectLimitQuotientSupport
-import ZFVP.ModelTheory.QuotientSplitProjection
-import ZFVP.ModelTheory.LimitSplitProjection
-import ZFVP.ModelTheory.SplitSeparativeOrder
-import ZFVP.ModelTheory.ForcingSmallCardinals
+module
+
+public import ZFVP.ModelTheory.DirectLimitQuotientSupport
+public import ZFVP.ModelTheory.QuotientSplitProjection
+public import ZFVP.ModelTheory.LimitSplitProjection
+public import ZFVP.ModelTheory.SplitSeparativeOrder
+public import ZFVP.ModelTheory.ForcingSmallCardinals
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

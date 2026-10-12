@@ -1,6 +1,10 @@
-import ZFVP.Syntax.BoundedStandardTuples
-import ZFVP.Syntax.UniformStandardCodes
-import ZFVP.ModelTheory.UniformWoodinSparseClassForcing
+module
+
+public import ZFVP.Syntax.BoundedStandardTuples
+public import ZFVP.Syntax.UniformStandardCodes
+public import ZFVP.ModelTheory.UniformWoodinSparseClassForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

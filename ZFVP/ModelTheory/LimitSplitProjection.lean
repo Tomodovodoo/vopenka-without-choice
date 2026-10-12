@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingSplitProjection
-import ZFVP.ModelTheory.DirectLimitProjection
-import ZFVP.SetTheory.ForcingSectionMaps
+module
+
+public import ZFVP.ModelTheory.ForcingSplitProjection
+public import ZFVP.ModelTheory.DirectLimitProjection
+public import ZFVP.SetTheory.ForcingSectionMaps
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

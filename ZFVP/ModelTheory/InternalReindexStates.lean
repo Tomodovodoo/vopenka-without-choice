@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalReindexTables
-import ZFVP.Syntax.MembershipRenaming
+module
+
+public import ZFVP.ModelTheory.InternalReindexTables
+public import ZFVP.Syntax.MembershipRenaming
+
+@[expose] public section
 
 /-! Finite substitution states for the explicit renaming program. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingNegationCalculus
-import ZFVP.SetTheory.GenericNameSeparative
-import ZFVP.ModelTheory.BooleanValues
+module
+
+public import ZFVP.SetTheory.ForcingNegationCalculus
+public import ZFVP.SetTheory.GenericNameSeparative
+public import ZFVP.ModelTheory.BooleanValues
+
+@[expose] public section
 
 /-! Closure rules for the forcing relation that the rest of the calculus did not yet have.
 

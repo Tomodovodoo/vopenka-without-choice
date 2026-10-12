@@ -1,5 +1,9 @@
-import ZFVP.Syntax.VopenkaAxiomSet
-import ZFVP.SetTheory.FiniteDictionary
+module
+
+public import ZFVP.Syntax.VopenkaAxiomSet
+public import ZFVP.SetTheory.FiniteDictionary
+
+@[expose] public section
 
 /-! Uniform semantics for internally finite membership sequents and their Boolean rules. -/
 

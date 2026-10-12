@@ -1,4 +1,8 @@
-import Foundation.FirstOrder.Basic.Soundness
+module
+
+public import Foundation.FirstOrder.Basic.Soundness
+
+@[expose] public section
 
 /-!
 # Compactness for first-order theories

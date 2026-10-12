@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinDirectedLocalUnionBound
-import ZFVP.ModelTheory.TransportedLocalUnionNormalization
-import ZFVP.ModelTheory.TransportedLocalUnionPair
+module
+
+public import ZFVP.ModelTheory.WoodinDirectedLocalUnionBound
+public import ZFVP.ModelTheory.TransportedLocalUnionNormalization
+public import ZFVP.ModelTheory.TransportedLocalUnionPair
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

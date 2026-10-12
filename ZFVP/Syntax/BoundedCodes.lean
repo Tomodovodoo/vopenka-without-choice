@@ -1,5 +1,9 @@
-import ZFVP.Syntax.MembershipSatisfaction
-import ZFVP.Syntax.FormulaInduction
+module
+
+public import ZFVP.Syntax.MembershipSatisfaction
+public import ZFVP.Syntax.FormulaInduction
+
+@[expose] public section
 
 /-! Bounded set-theory formulas as an internal least closed family.
 The bound variable is an internal index, and all arities range over internal omega. -/

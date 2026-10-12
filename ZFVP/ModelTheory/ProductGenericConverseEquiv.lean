@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ProductGenericConverse
+module
+
+public import ZFVP.ModelTheory.ProductGenericConverse
+
+@[expose] public section
 
 /-! The two-step extension `V[G₁][H]` is the product extension `V[G₁ × H]`, as membership
 structures over the ground model. -/

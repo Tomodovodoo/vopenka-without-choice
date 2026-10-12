@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalClosedPreservation
-import ZFVP.ModelTheory.ForcingSemanticConsequence
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalClosedPreservation
+public import ZFVP.ModelTheory.ForcingSemanticConsequence
+
+@[expose] public section
 
 /-! Simultaneous decisions over internal countable sets. Their construction
 uses an internal enumeration and the internal omega-length dense intersection. -/

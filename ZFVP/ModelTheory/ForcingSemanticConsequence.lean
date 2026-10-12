@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingFunctionValues
+module
+
+public import ZFVP.ModelTheory.ForcingFunctionValues
+
+@[expose] public section
 
 namespace ZFVP
 

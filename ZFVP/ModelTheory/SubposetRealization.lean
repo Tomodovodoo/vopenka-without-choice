@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LevyCollapseSubmodel
+module
+
+public import ZFVP.ModelTheory.LevyCollapseSubmodel
+
+@[expose] public section
 
 /-! Restricting a forcing context to a sub-poset containing the top condition, when the trace
 of the generic on the sub-poset is generic: the intermediate extension `V[G ∩ Q]` is realized

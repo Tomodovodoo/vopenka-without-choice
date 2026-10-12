@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinRecodedSuccessor
-import ZFVP.ModelTheory.WoodinRecodedInverseNext
-import ZFVP.ModelTheory.ForcingRecodedPrefix
+module
+
+public import ZFVP.ModelTheory.WoodinRecodedSuccessor
+public import ZFVP.ModelTheory.WoodinRecodedInverseNext
+public import ZFVP.ModelTheory.ForcingRecodedPrefix
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

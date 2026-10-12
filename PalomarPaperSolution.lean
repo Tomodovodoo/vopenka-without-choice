@@ -1,8 +1,12 @@
 -- Generated from the four individual Solution files.
-import PalomarPreservationBridge.TheoremA
-import PalomarBridge.TheoremB
-import PalomarDCBridge.TheoremDC
-import PalomarSolovayBridge.TheoremSolovay
+module
+
+public import PalomarPreservationBridge.TheoremA
+public import PalomarBridge.TheoremB
+public import PalomarDCBridge.TheoremDC
+public import PalomarSolovayBridge.TheoremSolovay
+
+@[expose] public section
 
 namespace VopenkaWithoutChoice
 

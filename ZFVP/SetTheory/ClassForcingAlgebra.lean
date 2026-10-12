@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.DefinableClassGeneric
-import ZFVP.SetTheory.ClassForcingTowerOrder
+module
+
+public import ZFVP.ModelTheory.DefinableClassGeneric
+public import ZFVP.SetTheory.ClassForcingTowerOrder
+
+@[expose] public section
 
 /-! Regular definable classes of conditions and the logical forcing operations
 for the actual ordinal tower. These are classes, not purported internal sets. -/

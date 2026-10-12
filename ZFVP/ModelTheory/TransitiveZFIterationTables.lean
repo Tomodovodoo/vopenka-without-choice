@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TransitiveZFWoodinStage
-import ZFVP.ModelTheory.LimitRankRestriction
-import ZFVP.ModelTheory.WoodinIterationInitial
+module
+
+public import ZFVP.ModelTheory.TransitiveZFWoodinStage
+public import ZFVP.ModelTheory.LimitRankRestriction
+public import ZFVP.ModelTheory.WoodinIterationInitial
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

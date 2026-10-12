@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinCollapseRankEnumeration
-import ZFVP.ModelTheory.ForcingHierarchyAgreement
-import ZFVP.SetTheory.WoodinCollapseDistributivity
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseRankEnumeration
+public import ZFVP.ModelTheory.ForcingHierarchyAgreement
+public import ZFVP.SetTheory.WoodinCollapseDistributivity
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

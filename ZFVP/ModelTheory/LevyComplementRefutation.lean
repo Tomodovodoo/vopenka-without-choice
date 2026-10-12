@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LevyConeComplementHomogeneity
-import ZFVP.ModelTheory.LevyBooleanHomogeneity
+module
+
+public import ZFVP.ModelTheory.LevyConeComplementHomogeneity
+public import ZFVP.ModelTheory.LevyBooleanHomogeneity
+
+@[expose] public section
 
 /-! The complement cone hypothesis of `LevyConeComplementHomogeneity` is false for the Levy
 collapse, so the export `solovay_corollary_of_complement` is vacuous.

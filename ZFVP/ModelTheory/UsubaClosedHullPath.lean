@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ElementaryBoundedWitness
-import ZFVP.ModelTheory.UsubaCollapseModel
-import ZFVP.SetTheory.WellOrderedDependentChoice
+module
+
+public import ZFVP.ModelTheory.ElementaryBoundedWitness
+public import ZFVP.ModelTheory.UsubaCollapseModel
+public import ZFVP.SetTheory.WellOrderedDependentChoice
+
+@[expose] public section
 
 /-! The final path construction in Usuba Proposition 4.7. Elementarity
 and closure under short sequences make the relation serial on the hull.

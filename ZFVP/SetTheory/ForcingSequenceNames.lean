@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingPairNames
-import ZFVP.SetTheory.CheckNames
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.SetTheory.ForcingPairNames
+public import ZFVP.SetTheory.CheckNames
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 namespace ZFVP
 

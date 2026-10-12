@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ClassForcingQuotient
-import ZFVP.ModelTheory.ForcingQuotientFoundation
-import ZFVP.SetTheory.MembershipEndExtension
+module
+
+public import ZFVP.ModelTheory.ClassForcingQuotient
+public import ZFVP.ModelTheory.ForcingQuotientFoundation
+public import ZFVP.SetTheory.MembershipEndExtension
+
+@[expose] public section
 
 namespace ZFVP
 

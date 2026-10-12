@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryForcesTruth
+module
+
+public import ZFVP.ModelTheory.InfinitaryForcesTruth
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TransitiveZFConstructors
-import ZFVP.Syntax.PartialTruthAtoms
+module
+
+public import ZFVP.ModelTheory.TransitiveZFConstructors
+public import ZFVP.Syntax.PartialTruthAtoms
+
+@[expose] public section
 
 /-! The partial-truth predicates evaluated inside a specified set domain. -/
 

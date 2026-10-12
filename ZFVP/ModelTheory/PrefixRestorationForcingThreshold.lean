@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.PrefixRestorationForcingAgreement
+module
+
+public import ZFVP.ModelTheory.PrefixRestorationForcingAgreement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

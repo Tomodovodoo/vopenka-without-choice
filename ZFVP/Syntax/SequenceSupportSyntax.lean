@@ -1,5 +1,9 @@
-import ZFVP.Syntax.CodingSupportSyntax
-import ZFVP.SetTheory.BoundedSequenceSupport
+module
+
+public import ZFVP.Syntax.CodingSupportSyntax
+public import ZFVP.SetTheory.BoundedSequenceSupport
+
+@[expose] public section
 
 /-! A sequence support containing the symbols contains every internal syntax code. -/
 

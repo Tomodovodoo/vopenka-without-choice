@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.RegularSetAlgebra
-import ZFVP.SetTheory.BooleanCompletionValues
-import ZFVP.ModelTheory.LevyConeAlgebraProperties
+module
+
+public import ZFVP.SetTheory.RegularSetAlgebra
+public import ZFVP.SetTheory.BooleanCompletionValues
+public import ZFVP.ModelTheory.LevyConeAlgebraProperties
+
+@[expose] public section
 
 /-! Gluing an isomorphism of two cones of the Boolean completion out of isomorphisms of the
 pieces of two matched partitions.

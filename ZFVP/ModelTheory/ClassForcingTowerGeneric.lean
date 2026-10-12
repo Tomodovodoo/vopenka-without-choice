@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ClassForcingTowerProjection
-import ZFVP.ModelTheory.DefinableClassGeneric
-import ZFVP.ModelTheory.ForcingModel
+module
+
+public import ZFVP.SetTheory.ClassForcingTowerProjection
+public import ZFVP.ModelTheory.DefinableClassGeneric
+public import ZFVP.ModelTheory.ForcingModel
+
+@[expose] public section
 
 /-! A generic for the definable proper-class direct limit induces an
 ordinary generic at every set stage. The proof uses the complete

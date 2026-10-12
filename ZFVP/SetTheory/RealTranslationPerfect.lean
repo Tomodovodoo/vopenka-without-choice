@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RealUnitCover
-import ZFVP.SetTheory.UnitRealPerfectTransfer
+module
+
+public import ZFVP.SetTheory.RealUnitCover
+public import ZFVP.SetTheory.UnitRealPerfectTransfer
+
+@[expose] public section
 
 /-! Rational translations preserve perfect real sets and the exact PSP dichotomy. -/
 

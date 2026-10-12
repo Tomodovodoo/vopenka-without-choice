@@ -1,6 +1,10 @@
-import ZFVP.Syntax.EndExtensionFormulas
-import ZFVP.Syntax.MembershipTruthTables
-import ZFVP.Syntax.EndExtensionAssignments
+module
+
+public import ZFVP.Syntax.EndExtensionFormulas
+public import ZFVP.Syntax.MembershipTruthTables
+public import ZFVP.Syntax.EndExtensionAssignments
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

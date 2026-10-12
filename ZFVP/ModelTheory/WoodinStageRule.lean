@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.WoodinInverseCodeDefinability
-import ZFVP.ModelTheory.WoodinIterationInitial
-import ZFVP.ModelTheory.WoodinDirectIteration
-import ZFVP.ModelTheory.WoodinInverseStagePreservation
-import ZFVP.ModelTheory.WoodinHistoryBounds
+module
+
+public import ZFVP.ModelTheory.WoodinInverseCodeDefinability
+public import ZFVP.ModelTheory.WoodinIterationInitial
+public import ZFVP.ModelTheory.WoodinDirectIteration
+public import ZFVP.ModelTheory.WoodinInverseStagePreservation
+public import ZFVP.ModelTheory.WoodinHistoryBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

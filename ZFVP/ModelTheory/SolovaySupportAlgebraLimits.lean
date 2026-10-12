@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SolovaySymmetricSubalgebraModel
-import ZFVP.ModelTheory.LevySupportAlgebraClosure
-import ZFVP.ModelTheory.LevyGaloisFactor
+module
+
+public import ZFVP.ModelTheory.SolovaySymmetricSubalgebraModel
+public import ZFVP.ModelTheory.LevySupportAlgebraClosure
+public import ZFVP.ModelTheory.LevyGaloisFactor
+
+@[expose] public section
 
 /-! Where the support algebra route to Lemma 9.3 stops.
 

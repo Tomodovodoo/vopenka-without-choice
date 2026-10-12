@@ -1,6 +1,10 @@
-import ZFVP.Syntax.ProgramZFVPConsistency
-import ZFVP.ModelTheory.InternalTheoryProofSoundness
-import ZFVP.ModelTheory.ProtoRankBerkeleyConsistencySentence
+module
+
+public import ZFVP.Syntax.ProgramZFVPConsistency
+public import ZFVP.ModelTheory.InternalTheoryProofSoundness
+public import ZFVP.ModelTheory.ProtoRankBerkeleyConsistencySentence
+
+@[expose] public section
 
 /-! Proto rank-Berkeley rules out all refutations accepted by the explicit arithmetic checker. -/
 

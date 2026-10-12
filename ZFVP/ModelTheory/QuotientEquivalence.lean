@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.EndExtensionBasics
-import ZFVP.ModelTheory.QuotientForcing
-import ZFVP.ModelTheory.ForcingRealizationGeneration
-import ZFVP.SetTheory.EndExtensionNameValue
+module
+
+public import ZFVP.ModelTheory.EndExtensionBasics
+public import ZFVP.ModelTheory.QuotientForcing
+public import ZFVP.ModelTheory.ForcingRealizationGeneration
+public import ZFVP.SetTheory.EndExtensionNameValue
+
+@[expose] public section
 
 /-! The factorization `V[G] = V[G ∩ D][G / D]`: the Boolean extension is isomorphic, over the
 ground model, to the extension of the intermediate model `V[G ∩ D]` by the quotient forcing with

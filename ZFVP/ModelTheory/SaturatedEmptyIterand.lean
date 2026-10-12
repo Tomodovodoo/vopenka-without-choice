@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinCollapseEmptyIterand
-import ZFVP.ModelTheory.ForcingSaturatedName
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseEmptyIterand
+public import ZFVP.ModelTheory.ForcingSaturatedName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

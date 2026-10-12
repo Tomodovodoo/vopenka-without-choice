@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinSaturatedDisplacementForcing
-import ZFVP.ModelTheory.WoodinSaturatedTailNameAction
-import ZFVP.ModelTheory.WoodinCollapseEmptyIterand
-import ZFVP.SetTheory.ForcingRenaming
+module
+
+public import ZFVP.ModelTheory.WoodinSaturatedDisplacementForcing
+public import ZFVP.ModelTheory.WoodinSaturatedTailNameAction
+public import ZFVP.ModelTheory.WoodinCollapseEmptyIterand
+public import ZFVP.SetTheory.ForcingRenaming
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinSparseHistoryLaws
-import ZFVP.ModelTheory.WoodinSparseDirectColumns
-import ZFVP.ModelTheory.WoodinSparseDirectRank
-import ZFVP.ModelTheory.WoodinSparseDirectTop
+module
+
+public import ZFVP.ModelTheory.WoodinSparseHistoryLaws
+public import ZFVP.ModelTheory.WoodinSparseDirectColumns
+public import ZFVP.ModelTheory.WoodinSparseDirectRank
+public import ZFVP.ModelTheory.WoodinSparseDirectTop
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

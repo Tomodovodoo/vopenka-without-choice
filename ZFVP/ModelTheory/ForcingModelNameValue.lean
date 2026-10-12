@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingModelEvaluation
-import ZFVP.ModelTheory.ForcingModelGeneric
-import ZFVP.SetTheory.EndExtensionNameValue
+module
+
+public import ZFVP.ModelTheory.ForcingModelEvaluation
+public import ZFVP.ModelTheory.ForcingModelGeneric
+public import ZFVP.SetTheory.EndExtensionNameValue
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

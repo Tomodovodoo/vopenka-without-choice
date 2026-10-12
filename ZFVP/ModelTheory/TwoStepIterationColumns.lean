@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TwoStepLiftColumns
-import ZFVP.SetTheory.ForcingIterationSystem
+module
+
+public import ZFVP.ModelTheory.TwoStepLiftColumns
+public import ZFVP.SetTheory.ForcingIterationSystem
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

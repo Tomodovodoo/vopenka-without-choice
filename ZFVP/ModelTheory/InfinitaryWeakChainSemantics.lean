@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryWeakChainStructure
+module
+
+public import ZFVP.ModelTheory.InfinitaryWeakChainStructure
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

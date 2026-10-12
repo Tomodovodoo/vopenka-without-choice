@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingFormulaName
-import ZFVP.SetTheory.UniformLeastOrdinalChoice
-import ZFVP.SetTheory.WoodinRestorationCutoff
+module
+
+public import ZFVP.ModelTheory.ForcingFormulaName
+public import ZFVP.SetTheory.UniformLeastOrdinalChoice
+public import ZFVP.SetTheory.WoodinRestorationCutoff
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

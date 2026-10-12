@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseSourceFiniteRank
-import ZFVP.ModelTheory.LimitRankCriticalPoint
+module
+
+public import ZFVP.ModelTheory.WoodinSparseSourceFiniteRank
+public import ZFVP.ModelTheory.LimitRankCriticalPoint
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

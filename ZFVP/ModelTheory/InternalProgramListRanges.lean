@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalProgramListMap
-import ZFVP.Syntax.PrimitiveProgramListMemberEquations
+module
+
+public import ZFVP.ModelTheory.InternalProgramListMap
+public import ZFVP.Syntax.PrimitiveProgramListMemberEquations
+
+@[expose] public section
 
 /-! Exact ranges of internally decoded list constructors and concatenations. -/
 

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlDefinableBranchBound
-import ZFVP.ModelTheory.ConstantStructure
-import ZFVP.SetTheory.FinitePartialFunctions
-import ZFVP.SetTheory.FiniteSequences
+module
+
+public import ZFVP.ModelTheory.SchmerlDefinableBranchBound
+public import ZFVP.ModelTheory.ConstantStructure
+public import ZFVP.SetTheory.FinitePartialFunctions
+public import ZFVP.SetTheory.FiniteSequences
+
+@[expose] public section
 
 /-! The finite-function trees used in the Schmerl construction. Domains run
 through a cofinal chain of internally finite subsets. Branches correspond to

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalHenkinImplication
+module
+
+public import ZFVP.ModelTheory.InternalHenkinImplication
+
+@[expose] public section
 
 /-! Actual unary instances and finite permutations of Henkin name contexts. -/
 

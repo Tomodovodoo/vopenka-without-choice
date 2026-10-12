@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.CodedElementaryEmbedding
-import ZFVP.ModelTheory.SchmerlInternalCodedSyntaxCountable
-import ZFVP.ModelTheory.SchmerlInternalCodedHullClosure
-import ZFVP.Syntax.NegationSemantics
+module
+
+public import ZFVP.ModelTheory.CodedElementaryEmbedding
+public import ZFVP.ModelTheory.SchmerlInternalCodedSyntaxCountable
+public import ZFVP.ModelTheory.SchmerlInternalCodedHullClosure
+public import ZFVP.Syntax.NegationSemantics
+
+@[expose] public section
 
 /-! The elementary diagram as an actual set of formula/parameter entries.
 Realizing its positive entries already gives full coded elementarity, since

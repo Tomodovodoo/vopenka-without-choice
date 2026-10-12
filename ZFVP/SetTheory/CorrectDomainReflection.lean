@@ -1,4 +1,8 @@
-import ZFVP.Syntax.CorrectDomainAbsoluteness
+module
+
+public import ZFVP.Syntax.CorrectDomainAbsoluteness
+
+@[expose] public section
 
 /-! Arbitrarily large rank stages satisfying each recursive correctness condition. -/
 

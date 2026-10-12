@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.StageChainUnion
-import ZFVP.ModelTheory.StageLimit
+module
+
+public import ZFVP.ModelTheory.StageChainUnion
+public import ZFVP.ModelTheory.StageLimit
+
+@[expose] public section
 
 /-! # Definability along a chain of submodels
 

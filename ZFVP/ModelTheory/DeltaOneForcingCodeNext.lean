@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.DeltaOneForcingCodeComponents
-import ZFVP.ModelTheory.BoundedForcingCode
-import ZFVP.SetTheory.DeltaOneMatrixNext
-import ZFVP.SetTheory.DeltaOneIdentityLift
+module
+
+public import ZFVP.ModelTheory.DeltaOneForcingCodeComponents
+public import ZFVP.ModelTheory.BoundedForcingCode
+public import ZFVP.SetTheory.DeltaOneMatrixNext
+public import ZFVP.SetTheory.DeltaOneIdentityLift
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SymmetricVopenkaPreservation
-import ZFVP.ModelTheory.WoodinSparseRestorationTheorem
-import ZFVP.ModelTheory.CountableCohenVopenkaConsistency
-import ZFVP.ModelTheory.RealSolovayConsistency
+module
+
+public import ZFVP.ModelTheory.SymmetricVopenkaPreservation
+public import ZFVP.ModelTheory.WoodinSparseRestorationTheorem
+public import ZFVP.ModelTheory.CountableCohenVopenkaConsistency
+public import ZFVP.ModelTheory.RealSolovayConsistency
+
+@[expose] public section
 
 /-! Implementations of the exact declarations in Challenge.lean.
 Challenge is deliberately not imported: both modules declare the same names

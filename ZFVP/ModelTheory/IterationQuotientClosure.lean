@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SaturatedQuotientClosureTransfer
-import ZFVP.ModelTheory.IdentityQuotientClosureForcing
-import ZFVP.ModelTheory.IterationSystemProjection
-import ZFVP.ModelTheory.ForcingSuccessorCode
+module
+
+public import ZFVP.ModelTheory.SaturatedQuotientClosureTransfer
+public import ZFVP.ModelTheory.IdentityQuotientClosureForcing
+public import ZFVP.ModelTheory.IterationSystemProjection
+public import ZFVP.ModelTheory.ForcingSuccessorCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

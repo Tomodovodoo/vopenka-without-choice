@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedDeadEndExpansion
-import ZFVP.ModelTheory.SchmerlCodedClassSemantics
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedDeadEndExpansion
+public import ZFVP.ModelTheory.SchmerlCodedClassSemantics
+
+@[expose] public section
 
 /-! The uniform expansion preserves the carrier values used by internal Q. -/
 

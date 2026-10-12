@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ProjectionSubsetPreservation
-import ZFVP.SetTheory.EndExtensionHierarchyAgreement
+module
+
+public import ZFVP.ModelTheory.ProjectionSubsetPreservation
+public import ZFVP.SetTheory.EndExtensionHierarchyAgreement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

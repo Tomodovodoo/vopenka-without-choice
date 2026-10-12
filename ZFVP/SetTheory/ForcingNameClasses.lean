@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.DeltaOneHereditarySymmetry
-import ZFVP.SetTheory.DeltaOneBoundedForcing
+module
+
+public import ZFVP.SetTheory.DeltaOneHereditarySymmetry
+public import ZFVP.SetTheory.DeltaOneBoundedForcing
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalPeanoMinus
-import Foundation.FirstOrder.Arithmetic.Schemata
+module
+
+public import ZFVP.ModelTheory.InternalPeanoMinus
+public import Foundation.FirstOrder.Arithmetic.Schemata
+
+@[expose] public section
 
 /-! Full first-order induction in ZF's internal natural-number structure. -/
 

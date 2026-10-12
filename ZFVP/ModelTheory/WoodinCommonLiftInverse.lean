@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinCommonLiftInverseFirst
-import ZFVP.ModelTheory.WoodinSelectedThreadDecision
-import ZFVP.ModelTheory.WoodinBoundNormalization
-import ZFVP.ModelTheory.NormalizedUnionStrongerBound
+module
+
+public import ZFVP.ModelTheory.WoodinCommonLiftInverseFirst
+public import ZFVP.ModelTheory.WoodinSelectedThreadDecision
+public import ZFVP.ModelTheory.WoodinBoundNormalization
+public import ZFVP.ModelTheory.NormalizedUnionStrongerBound
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryConstantAbstraction
+module
+
+public import ZFVP.ModelTheory.InfinitaryConstantAbstraction
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

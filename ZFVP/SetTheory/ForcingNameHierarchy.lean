@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingNames
-import ZFVP.SetTheory.UniformParameterizedRecursion
+module
+
+public import ZFVP.SetTheory.ForcingNames
+public import ZFVP.SetTheory.UniformParameterizedRecursion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

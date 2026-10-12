@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SparseCollapseRank
-import ZFVP.ModelTheory.WoodinSparseOwnRank
-import ZFVP.ModelTheory.WoodinSparseOwnCutoffs
+module
+
+public import ZFVP.ModelTheory.SparseCollapseRank
+public import ZFVP.ModelTheory.WoodinSparseOwnRank
+public import ZFVP.ModelTheory.WoodinSparseOwnCutoffs
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

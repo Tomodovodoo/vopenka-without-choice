@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.EndExtensionOpenModels
-import ZFVP.ModelTheory.EmbeddingCodeFixation
-import ZFVP.ModelTheory.LimitRankEmbeddingAction
-import ZFVP.Syntax.SigmaOneMembershipFamily
-import ZFVP.SetTheory.CorrectDomainReflection
-import ZFVP.SetTheory.ChoicelessInaccessibleRank
+module
+
+public import ZFVP.ModelTheory.EndExtensionOpenModels
+public import ZFVP.ModelTheory.EmbeddingCodeFixation
+public import ZFVP.ModelTheory.LimitRankEmbeddingAction
+public import ZFVP.Syntax.SigmaOneMembershipFamily
+public import ZFVP.SetTheory.CorrectDomainReflection
+public import ZFVP.SetTheory.ChoicelessInaccessibleRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

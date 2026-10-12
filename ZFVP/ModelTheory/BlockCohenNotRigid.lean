@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.BlockCohenModel
-import ZFVP.SetTheory.RigidRelation
-import ZFVP.SetTheory.InternalTranspositions
+module
+
+public import ZFVP.ModelTheory.BlockCohenModel
+public import ZFVP.SetTheory.RigidRelation
+public import ZFVP.SetTheory.InternalTranspositions
+
+@[expose] public section
 
 /-!
 The set of blocks of the block Cohen symmetric model carries no rigid relation, so the rigid

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.LevyCollapseChainCondition
-import ZFVP.SetTheory.FiniteNaturalSets
+module
+
+public import ZFVP.SetTheory.LevyCollapseChainCondition
+public import ZFVP.SetTheory.FiniteNaturalSets
+
+@[expose] public section
 
 /-! Small subsets of a regular cardinal are bounded, the subcollapses below `κ` are small, and
 the Levy collapse makes every column total and surjective by density. -/

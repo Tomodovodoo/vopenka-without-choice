@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.PiTwoLocalRestoration
-import ZFVP.SetTheory.PiOneRegularInaccessible
-import ZFVP.SetTheory.ForcingRenaming
+module
+
+public import ZFVP.SetTheory.PiTwoLocalRestoration
+public import ZFVP.SetTheory.PiOneRegularInaccessible
+public import ZFVP.SetTheory.ForcingRenaming
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

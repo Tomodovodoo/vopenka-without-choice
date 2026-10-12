@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlRankedTree
+module
+
+public import ZFVP.ModelTheory.SchmerlRankedTree
+
+@[expose] public section
 
 /-! The branch-tail reduction in Baumgartner's weak specialization argument,
 as proved for ranked trees in Switzer, *Destructibility and axiomatizability of

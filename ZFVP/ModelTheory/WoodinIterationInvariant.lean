@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinIterationSuccessor
-import ZFVP.ModelTheory.WoodinSuccessorBounds
+module
+
+public import ZFVP.ModelTheory.WoodinIterationSuccessor
+public import ZFVP.ModelTheory.WoodinSuccessorBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

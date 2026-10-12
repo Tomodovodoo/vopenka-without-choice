@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.UniquePiWitnessCodes
-import ZFVP.SetTheory.WitnessCertificateBase
-import ZFVP.SetTheory.BoundedSextupleBinding
+module
+
+public import ZFVP.SetTheory.UniquePiWitnessCodes
+public import ZFVP.SetTheory.WitnessCertificateBase
+public import ZFVP.SetTheory.BoundedSextupleBinding
+
+@[expose] public section
 
 /-! The least-rank family of Pi witnesses has a canonical code at the same positive Pi level.
 Two Sigma assertions are replaced by their unique Pi certificates. -/

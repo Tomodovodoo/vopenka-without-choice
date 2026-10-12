@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.LevySubstitution
-import Foundation.FirstOrder.SetTheory.Function
+module
+
+public import ZFVP.SetTheory.LevySubstitution
+public import Foundation.FirstOrder.SetTheory.Function
+
+@[expose] public section
 
 /-! Bounded formulas for the elementary constructors used in syntax codes. -/
 

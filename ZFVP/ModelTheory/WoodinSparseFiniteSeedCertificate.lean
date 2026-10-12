@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.BoundedSparseSeedCertificate
-import ZFVP.ModelTheory.WoodinSparseFiniteOrderCertificate
+module
+
+public import ZFVP.ModelTheory.BoundedSparseSeedCertificate
+public import ZFVP.ModelTheory.WoodinSparseFiniteOrderCertificate
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

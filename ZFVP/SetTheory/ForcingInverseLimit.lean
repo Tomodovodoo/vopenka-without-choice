@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingOrder
-import ZFVP.SetTheory.FunctionUnion
-import ZFVP.SetTheory.FiniteSequences
+module
+
+public import ZFVP.SetTheory.ForcingOrder
+public import ZFVP.SetTheory.FunctionUnion
+public import ZFVP.SetTheory.FiniteSequences
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

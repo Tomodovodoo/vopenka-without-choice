@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SymmetricModelBoundedNames
-import ZFVP.SetTheory.SymmetricPowerName
+module
+
+public import ZFVP.ModelTheory.SymmetricModelBoundedNames
+public import ZFVP.SetTheory.SymmetricPowerName
+
+@[expose] public section
 
 namespace ZFVP
 

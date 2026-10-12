@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BinaryRelationSemanticStandardness
-import ZFVP.SetTheory.FormulaFamilyRank
+module
+
+public import ZFVP.Syntax.BinaryRelationSemanticStandardness
+public import ZFVP.SetTheory.FormulaFamilyRank
+
+@[expose] public section
 
 /-! Omega standardness suffices to decode every internal membership formula.
 Only the finite rank of syntax is used, not external well-foundedness of V. -/

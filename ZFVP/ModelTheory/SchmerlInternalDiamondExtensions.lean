@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalDiamondForcing
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalDiamondForcing
+
+@[expose] public section
 
 set_option autoImplicit false
 

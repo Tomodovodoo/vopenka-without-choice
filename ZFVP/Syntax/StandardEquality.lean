@@ -1,4 +1,8 @@
-import ZFVP.Syntax.FoundationEquality
+module
+
+public import ZFVP.Syntax.FoundationEquality
+
+@[expose] public section
 
 /-! A logical equality formula with two bound variables, for arbitrary coded languages. -/
 

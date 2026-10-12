@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SparseCoordinatePoolRecovery
-import ZFVP.SetTheory.BoundedValue
+module
+
+public import ZFVP.ModelTheory.SparseCoordinatePoolRecovery
+public import ZFVP.SetTheory.BoundedValue
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

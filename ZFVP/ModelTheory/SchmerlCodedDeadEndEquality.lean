@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlCodedDeadEndExpansion
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedDeadEndExpansion
+
+@[expose] public section
 
 /-! The distinguished equality symbol has literal equality in the expansion. -/
 

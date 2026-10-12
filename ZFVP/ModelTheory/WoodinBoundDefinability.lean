@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SuccessorBoundDefinability
-import ZFVP.ModelTheory.WoodinLimitBoundTable
-import ZFVP.SetTheory.ForcingBoundSystemDefinability
+module
+
+public import ZFVP.ModelTheory.SuccessorBoundDefinability
+public import ZFVP.ModelTheory.WoodinLimitBoundTable
+public import ZFVP.SetTheory.ForcingBoundSystemDefinability
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

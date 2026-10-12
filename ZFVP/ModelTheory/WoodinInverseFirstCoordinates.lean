@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinInverseLiftCoordinates
+module
+
+public import ZFVP.ModelTheory.WoodinInverseLiftCoordinates
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

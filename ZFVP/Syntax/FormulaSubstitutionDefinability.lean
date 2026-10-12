@@ -1,5 +1,9 @@
-import ZFVP.Syntax.FormulaSubstitutionValidity
-import ZFVP.Syntax.SubstitutionStateDefinability
+module
+
+public import ZFVP.Syntax.FormulaSubstitutionValidity
+public import ZFVP.Syntax.SubstitutionStateDefinability
+
+@[expose] public section
 
 /-! Definability of formula substitution with every input varying. -/
 

@@ -1,5 +1,9 @@
-import PalomarBridge.FoundationTranslation
-import Foundation.FirstOrder.SetTheory.Basic.Axioms
+module
+
+public import PalomarBridge.FoundationTranslation
+public import Foundation.FirstOrder.SetTheory.Basic.Axioms
+
+@[expose] public section
 
 namespace PalomarBridge
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

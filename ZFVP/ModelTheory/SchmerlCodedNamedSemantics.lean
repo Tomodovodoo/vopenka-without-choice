@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedNamedLanguage
-import ZFVP.ModelTheory.SchmerlCodedClassSemantics
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedNamedLanguage
+public import ZFVP.ModelTheory.SchmerlCodedClassSemantics
+
+@[expose] public section
 
 set_option autoImplicit false
 namespace ZFVP.Infinitary.Formula

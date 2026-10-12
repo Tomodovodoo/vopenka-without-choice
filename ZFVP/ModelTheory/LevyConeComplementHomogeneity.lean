@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LevyOrbitTransferCone
+module
+
+public import ZFVP.ModelTheory.LevyOrbitTransferCone
+
+@[expose] public section
 
 /-! The cone hypothesis of the Solovay corollary from a homogeneity statement about the Boolean
 completion alone.

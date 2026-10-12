@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RealCoverExistence
-import ZFVP.SetTheory.ExtendedRealAddition
+module
+
+public import ZFVP.SetTheory.RealCoverExistence
+public import ZFVP.SetTheory.ExtendedRealAddition
+
+@[expose] public section
 
 /-! Rational approximation of the actual interval-cover infimum. -/
 

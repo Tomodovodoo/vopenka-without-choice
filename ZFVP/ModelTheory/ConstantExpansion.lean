@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ElementaryMap
+module
+
+public import ZFVP.SetTheory.ElementaryMap
+
+@[expose] public section
 
 /-! # The language of set theory with constants, and elementary diagrams
 

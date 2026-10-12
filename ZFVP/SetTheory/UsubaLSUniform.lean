@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.UsubaLSSequence
+module
+
+public import ZFVP.SetTheory.UsubaLSSequence
+
+@[expose] public section
 
 namespace ZFVP
 

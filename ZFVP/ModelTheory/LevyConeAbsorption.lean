@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CompleteEmbeddingCompletion
-import ZFVP.ModelTheory.LevyConeAlgebraProperties
-import ZFVP.SetTheory.FunctionComposition
+module
+
+public import ZFVP.ModelTheory.CompleteEmbeddingCompletion
+public import ZFVP.ModelTheory.LevyConeAlgebraProperties
+public import ZFVP.SetTheory.FunctionComposition
+
+@[expose] public section
 
 /-! Absorption of a small poset into a cone of the Levy algebra.
 

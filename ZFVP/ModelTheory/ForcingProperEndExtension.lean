@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingBaseChange
-import ZFVP.ModelTheory.ClassForcingQuotientClosed
-import ZFVP.ModelTheory.EndExtensionBasics
+module
+
+public import ZFVP.ModelTheory.ForcingBaseChange
+public import ZFVP.ModelTheory.ClassForcingQuotientClosed
+public import ZFVP.ModelTheory.EndExtensionBasics
+
+@[expose] public section
 
 /-! The forcing half of the paper's Proposition `prop:countability-essential`.
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingThreadAction
-import ZFVP.ModelTheory.ForcingIsomorphismFormula
+module
+
+public import ZFVP.SetTheory.ForcingThreadAction
+public import ZFVP.ModelTheory.ForcingIsomorphismFormula
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

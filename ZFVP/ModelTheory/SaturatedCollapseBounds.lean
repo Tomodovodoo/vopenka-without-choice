@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SaturatedEmptyIterand
-import ZFVP.ModelTheory.SaturatedTwoStepTransfer
-import ZFVP.ModelTheory.WoodinCollapseUnionName
+module
+
+public import ZFVP.ModelTheory.SaturatedEmptyIterand
+public import ZFVP.ModelTheory.SaturatedTwoStepTransfer
+public import ZFVP.ModelTheory.WoodinCollapseUnionName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

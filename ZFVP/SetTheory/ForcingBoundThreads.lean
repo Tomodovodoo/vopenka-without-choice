@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CoherentForcingBounds
+module
+
+public import ZFVP.SetTheory.CoherentForcingBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

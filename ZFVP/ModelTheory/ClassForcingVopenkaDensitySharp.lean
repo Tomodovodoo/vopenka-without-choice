@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ClassForcingVopenkaDensity
-import ZFVP.SetTheory.CnExtendibleVopenkaSharp
+module
+
+public import ZFVP.ModelTheory.ClassForcingVopenkaDensity
+public import ZFVP.SetTheory.CnExtendibleVopenkaSharp
+
+@[expose] public section
 
 /-! The class-forcing density criterion at every standard fragment m >= 2.
 The sharp transitive-ZF proof removes both numerical dictionary bounds.

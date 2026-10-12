@@ -1,4 +1,8 @@
-import ZFVP.Syntax.FormulaRecursion
+module
+
+public import ZFVP.Syntax.FormulaRecursion
+
+@[expose] public section
 
 /-! Internal negation in the eight-constructor formula language. -/
 

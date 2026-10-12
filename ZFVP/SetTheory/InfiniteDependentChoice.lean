@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.PathDependentChoice
-import ZFVP.SetTheory.WellOrderedCardinal
+module
+
+public import ZFVP.SetTheory.PathDependentChoice
+public import ZFVP.SetTheory.WellOrderedCardinal
+
+@[expose] public section
 
 namespace ZFVP
 

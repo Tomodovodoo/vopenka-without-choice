@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.BoundedSaturatedTwoStep
-import ZFVP.ModelTheory.NormalizedTwoStepForcing
-import ZFVP.ModelTheory.SaturatedWoodinIterand
+module
+
+public import ZFVP.ModelTheory.BoundedSaturatedTwoStep
+public import ZFVP.ModelTheory.NormalizedTwoStepForcing
+public import ZFVP.ModelTheory.SaturatedWoodinIterand
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

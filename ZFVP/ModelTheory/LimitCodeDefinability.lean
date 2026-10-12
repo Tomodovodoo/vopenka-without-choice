@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingLimitColumnDefinability
-import ZFVP.ModelTheory.WoodinBoundDefinability
-import ZFVP.ModelTheory.InverseTwoStepCode
+module
+
+public import ZFVP.SetTheory.ForcingLimitColumnDefinability
+public import ZFVP.ModelTheory.WoodinBoundDefinability
+public import ZFVP.ModelTheory.InverseTwoStepCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

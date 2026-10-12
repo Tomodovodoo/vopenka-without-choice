@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedRubinSource
-import ZFVP.ModelTheory.UniformBinaryRelationStructure
-import ZFVP.SetTheory.ForcingDictionary
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedRubinSource
+public import ZFVP.ModelTheory.UniformBinaryRelationStructure
+public import ZFVP.SetTheory.ForcingDictionary
+
+@[expose] public section
 
 /-! Fixed first-order definitions of the internal Rubin source predicates.
 No ambient-model-dependent definability choice is used for transfer. -/

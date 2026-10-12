@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseRetractions
+module
+
+public import ZFVP.ModelTheory.WoodinSparseRetractions
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

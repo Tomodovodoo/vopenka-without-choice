@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SaturatedHartogsQuotientClosureTransfer
-import ZFVP.ModelTheory.InverseSourceCollapseCode
-import ZFVP.ModelTheory.IterationQuotientClosure
-import ZFVP.ModelTheory.InverseSplitProjection
+module
+
+public import ZFVP.ModelTheory.SaturatedHartogsQuotientClosureTransfer
+public import ZFVP.ModelTheory.InverseSourceCollapseCode
+public import ZFVP.ModelTheory.IterationQuotientClosure
+public import ZFVP.ModelTheory.InverseSplitProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

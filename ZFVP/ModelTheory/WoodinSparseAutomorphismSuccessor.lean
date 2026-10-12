@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseSuccessor
-import ZFVP.ModelTheory.NormalizedCanonicalTwoStep
-import ZFVP.SetTheory.ForcingAutomorphisms
+module
+
+public import ZFVP.ModelTheory.WoodinSparseSuccessor
+public import ZFVP.ModelTheory.NormalizedCanonicalTwoStep
+public import ZFVP.SetTheory.ForcingAutomorphisms
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

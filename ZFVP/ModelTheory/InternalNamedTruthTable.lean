@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalNamedTableRenaming
-import ZFVP.ModelTheory.InternalBinaryQuotientTruth
+module
+
+public import ZFVP.ModelTheory.InternalNamedTableRenaming
+public import ZFVP.ModelTheory.InternalBinaryQuotientTruth
+
+@[expose] public section
 
 /-! A completed theory finitely realized in a binary source supplies all raw
 truth-table clauses. No standardness assumption on the natural numbers is used. -/

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SymmetricVopenkaPreservation
-import ZFVP.ModelTheory.PiSymmetricWitnessEmbedding
+module
+
+public import ZFVP.ModelTheory.SymmetricVopenkaPreservation
+public import ZFVP.ModelTheory.PiSymmetricWitnessEmbedding
+
+@[expose] public section
 
 /-! Every positive Pi fragment of Vopenka is preserved by the symmetric quotient. -/
 

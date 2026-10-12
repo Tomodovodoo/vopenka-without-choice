@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.BoundedPairBinding
-import ZFVP.SetTheory.LeastWitnessBodies
-import ZFVP.SetTheory.LevyPrenexNormalForm
+module
+
+public import ZFVP.SetTheory.BoundedPairBinding
+public import ZFVP.SetTheory.LeastWitnessBodies
+public import ZFVP.SetTheory.LevyPrenexNormalForm
+
+@[expose] public section
 
 /-! A Sigma-k statement has a unique Pi-k code for all its least-rank witnesses. -/
 

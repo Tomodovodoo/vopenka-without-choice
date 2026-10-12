@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FixedPrefixCutoffTests
-import ZFVP.SetTheory.PiTwoNamedPrefixCutoff
+module
+
+public import ZFVP.SetTheory.FixedPrefixCutoffTests
+public import ZFVP.SetTheory.PiTwoNamedPrefixCutoff
+
+@[expose] public section
 
 /-! Fixed tests for the named-parameter restoration cutoff. The positive test is
 Π₂, bounded smaller failures are Σ₂, and the successful least-witness certificate

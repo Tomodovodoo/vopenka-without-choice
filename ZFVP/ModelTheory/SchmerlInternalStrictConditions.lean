@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalSpecialization
-import ZFVP.SetTheory.FiniteCardinalArithmetic
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalSpecialization
+public import ZFVP.SetTheory.FiniteCardinalArithmetic
+
+@[expose] public section
 
 /-! Compatibility and deletion for internally finite strict-coloring conditions.
 The size reduction is a statement about internal cardinal comparison. -/

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RealCoverSumAddition
+module
+
+public import ZFVP.SetTheory.RealCoverSumAddition
+
+@[expose] public section
 
 /-! Rational half-lines satisfy the full Carathéodory criterion. -/
 

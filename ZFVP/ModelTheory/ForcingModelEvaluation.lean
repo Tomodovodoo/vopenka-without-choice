@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingModelPairs
-import ZFVP.SetTheory.NameEvaluationGraph
+module
+
+public import ZFVP.ModelTheory.ForcingModelPairs
+public import ZFVP.SetTheory.NameEvaluationGraph
+
+@[expose] public section
 
 namespace ZFVP
 

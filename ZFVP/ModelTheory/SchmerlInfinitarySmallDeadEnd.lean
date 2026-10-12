@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlInfinitaryDeadEndSentence
-import ZFVP.ModelTheory.SchmerlInfinitaryDownwardLS
-import ZFVP.ModelTheory.SchmerlInfinitaryFiniteSmall
+module
+
+public import ZFVP.ModelTheory.SchmerlInfinitaryDeadEndSentence
+public import ZFVP.ModelTheory.SchmerlInfinitaryDownwardLS
+public import ZFVP.ModelTheory.SchmerlInfinitaryFiniteSmall
+
+@[expose] public section
 
 /-! A standard model of the fixed Schmerl sentence has a ZF dead-end
 submodel of size exactly `ℵ₁`. A countable conjunction retains any specified

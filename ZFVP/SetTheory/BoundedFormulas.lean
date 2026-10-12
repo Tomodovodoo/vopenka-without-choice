@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.Relativization
-import Foundation.FirstOrder.SetTheory.Ordinal
+module
+
+public import ZFVP.SetTheory.Relativization
+public import Foundation.FirstOrder.SetTheory.Ordinal
+
+@[expose] public section
 
 /-! Bounded membership quantifiers in externally finite set-theory syntax. -/
 

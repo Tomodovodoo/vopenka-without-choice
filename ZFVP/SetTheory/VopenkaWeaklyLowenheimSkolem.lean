@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.VopenkaFullChoiceless
-import ZFVP.ModelTheory.RankEmbeddingRangeClosure
+module
+
+public import ZFVP.SetTheory.VopenkaFullChoiceless
+public import ZFVP.ModelTheory.RankEmbeddingRangeClosure
+
+@[expose] public section
 
 /-! Small rank embeddings give weak LS witnesses in the requested rank itself.
 This supplies the weak-LS hypothesis in Usuba's collapse theorem directly from VP. -/

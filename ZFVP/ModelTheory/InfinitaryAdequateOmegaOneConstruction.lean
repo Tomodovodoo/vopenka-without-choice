@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryAdequateOmegaOneRecursion
-import ZFVP.ModelTheory.InfinitaryCountableModelCode
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateOmegaOneRecursion
+public import ZFVP.ModelTheory.InfinitaryCountableModelCode
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

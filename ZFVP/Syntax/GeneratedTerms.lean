@@ -1,4 +1,8 @@
-import ZFVP.Syntax.Subterms
+module
+
+public import ZFVP.Syntax.Subterms
+
+@[expose] public section
 
 /-! Constructor inversion determines the term set, by internal well-foundedness. -/
 

@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.LevyForcingUniqueName
-import ZFVP.SetTheory.UniformLevyForcing
-import ZFVP.ModelTheory.ForcingNameNormalization
-import ZFVP.ModelTheory.ForcingReverseOrderName
+module
+
+public import ZFVP.SetTheory.LevyForcingUniqueName
+public import ZFVP.SetTheory.UniformLevyForcing
+public import ZFVP.ModelTheory.ForcingNameNormalization
+public import ZFVP.ModelTheory.ForcingReverseOrderName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

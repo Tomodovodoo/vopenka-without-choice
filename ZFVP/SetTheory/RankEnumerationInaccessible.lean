@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.RankEnumerations
-import ZFVP.SetTheory.ChoicelessInaccessibleRank
-import ZFVP.SetTheory.WellOrderedSurjection
+module
+
+public import ZFVP.SetTheory.RankEnumerations
+public import ZFVP.SetTheory.ChoicelessInaccessibleRank
+public import ZFVP.SetTheory.WellOrderedSurjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

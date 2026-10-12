@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ForcingOrder
+module
+
+public import ZFVP.SetTheory.ForcingOrder
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

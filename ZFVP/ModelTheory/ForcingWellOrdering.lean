@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingFunctionValues
-import ZFVP.ModelTheory.ForcingModelRank
-import ZFVP.SetTheory.WellOrderedSelection
-import ZFVP.SetTheory.EndExtensionFinite
+module
+
+public import ZFVP.ModelTheory.ForcingFunctionValues
+public import ZFVP.ModelTheory.ForcingModelRank
+public import ZFVP.SetTheory.WellOrderedSelection
+public import ZFVP.SetTheory.EndExtensionFinite
+
+@[expose] public section
 
 namespace ZFVP
 

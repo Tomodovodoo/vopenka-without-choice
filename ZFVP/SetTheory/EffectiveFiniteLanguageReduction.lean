@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CodedZFVPExternal
-import ZFVP.SetTheory.CnExtendibleVopenkaSharp
+module
+
+public import ZFVP.ModelTheory.CodedZFVPExternal
+public import ZFVP.SetTheory.CnExtendibleVopenkaSharp
+
+@[expose] public section
 
 /-! A computable level for a finite set of arbitrary-language Vopenka sentences.
 The input sentences themselves bound their defining formulas, so no formula

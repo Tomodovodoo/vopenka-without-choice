@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CohenRepresentativeIntersection
-import ZFVP.SetTheory.FiniteIntersectionMinimum
+module
+
+public import ZFVP.SetTheory.CohenRepresentativeIntersection
+public import ZFVP.SetTheory.FiniteIntersectionMinimum
+
+@[expose] public section
 
 namespace ZFVP
 

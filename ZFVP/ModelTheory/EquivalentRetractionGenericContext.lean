@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.EquivalentRetractionModel
-import ZFVP.ModelTheory.ForcingIsomorphismGenericContext
-import ZFVP.SetTheory.ForcingRetractionComposition
+module
+
+public import ZFVP.ModelTheory.EquivalentRetractionModel
+public import ZFVP.ModelTheory.ForcingIsomorphismGenericContext
+public import ZFVP.SetTheory.ForcingRetractionComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

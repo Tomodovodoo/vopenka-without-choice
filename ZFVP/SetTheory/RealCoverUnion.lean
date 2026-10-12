@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.InterleavedSequences
+module
+
+public import ZFVP.SetTheory.InterleavedSequences
+
+@[expose] public section
 
 /-! A cover of a union with the sum of the two cover budgets. -/
 

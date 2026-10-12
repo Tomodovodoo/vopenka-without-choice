@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SymmetricLift
-import ZFVP.ModelTheory.ForcingLift
-import ZFVP.ModelTheory.ForcingQuotientInclusion
+module
+
+public import ZFVP.ModelTheory.SymmetricLift
+public import ZFVP.ModelTheory.ForcingLift
+public import ZFVP.ModelTheory.ForcingQuotientInclusion
+
+@[expose] public section
 
 /-! Identify the internal symmetric graph with the ordinary lift on its domain. -/
 

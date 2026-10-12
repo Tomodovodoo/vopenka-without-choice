@@ -1,7 +1,11 @@
-import Foundation.FirstOrder.Basic.Coding
-import ZFVP.ModelTheory.InfinitarySubformulas
-import ZFVP.ModelTheory.InfinitaryRewritingLaws
-import ZFVP.ModelTheory.InfinitaryFirstOrderExpansion
+module
+
+public import Foundation.FirstOrder.Basic.Coding
+public import ZFVP.ModelTheory.InfinitarySubformulas
+public import ZFVP.ModelTheory.InfinitaryRewritingLaws
+public import ZFVP.ModelTheory.InfinitaryFirstOrderExpansion
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

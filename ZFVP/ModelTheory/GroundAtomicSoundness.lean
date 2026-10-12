@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.GroundAtomicWitnesses
-import ZFVP.SetTheory.AtomicForcingSubstitution
-import ZFVP.SetTheory.NameValue
+module
+
+public import ZFVP.ModelTheory.GroundAtomicWitnesses
+public import ZFVP.SetTheory.AtomicForcingSubstitution
+public import ZFVP.SetTheory.NameValue
+
+@[expose] public section
 
 namespace ZFVP
 

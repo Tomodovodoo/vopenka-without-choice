@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.OrdinalDependentChoiceAC
-import ZFVP.SetTheory.OrdinalDependentChoiceFunctions
-import ZFVP.SetTheory.PathDependentChoice
+module
+
+public import ZFVP.SetTheory.OrdinalDependentChoiceAC
+public import ZFVP.SetTheory.OrdinalDependentChoiceFunctions
+public import ZFVP.SetTheory.PathDependentChoice
+
+@[expose] public section
 
 /-! Finite dependent choice and the least ordinal at which it fails. -/
 

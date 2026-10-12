@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramFormulaTransform
-import ZFVP.Syntax.PrimitiveProgramListExt
+module
+
+public import ZFVP.Syntax.PrimitiveProgramFormulaTransform
+public import ZFVP.Syntax.PrimitiveProgramListExt
+
+@[expose] public section
 
 /-! Formula transformation is independent of the auxiliary table limit once depth plus code fits. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.CohenFreshCoreName
-import ZFVP.SetTheory.CohenFreshReverseTransfer
-import ZFVP.SetTheory.CohenSupportTransport
+module
+
+public import ZFVP.SetTheory.CohenFreshCoreName
+public import ZFVP.SetTheory.CohenFreshReverseTransfer
+public import ZFVP.SetTheory.CohenSupportTransport
+
+@[expose] public section
 
 namespace ZFVP
 

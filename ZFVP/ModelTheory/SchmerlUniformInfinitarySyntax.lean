@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalInfinitaryInduction
-import ZFVP.Syntax.UniformSatisfaction
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalInfinitaryInduction
+public import ZFVP.Syntax.UniformSatisfaction
+
+@[expose] public section
 
 /-! Fixed formulas for internal infinitary fragments and their dependency
 relations. The dictionary has no ambient-model parameter. -/

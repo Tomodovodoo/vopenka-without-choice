@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingExtensionZF
+module
+
+public import ZFVP.ModelTheory.ForcingExtensionZF
+
+@[expose] public section
 
 namespace ZFVP
 

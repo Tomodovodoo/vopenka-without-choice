@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingSparseCode
-import ZFVP.ModelTheory.ForcingRecodedLimits
+module
+
+public import ZFVP.ModelTheory.ForcingSparseCode
+public import ZFVP.ModelTheory.ForcingRecodedLimits
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

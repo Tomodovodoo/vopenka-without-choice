@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinStageRankAgreement
-import ZFVP.ModelTheory.RankEnumerationZFC
+module
+
+public import ZFVP.ModelTheory.WoodinStageRankAgreement
+public import ZFVP.ModelTheory.RankEnumerationZFC
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

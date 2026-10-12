@@ -1,5 +1,9 @@
-import ZFVP.Syntax.StandardCodeExpressions
-import ZFVP.SetTheory.UniformCodingUniverse
+module
+
+public import ZFVP.Syntax.StandardCodeExpressions
+public import ZFVP.SetTheory.UniformCodingUniverse
+
+@[expose] public section
 
 /-! Parameter-free definitions of the internal codes of fixed external formulas. -/
 

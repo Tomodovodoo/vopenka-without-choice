@@ -1,6 +1,10 @@
-import ZFVP.Syntax.PrimitiveProgramProofRewriteEquations
-import ZFVP.Syntax.PrimitiveProgramRequirementsStandard
-import ZFVP.Syntax.NaturalProofRewriting
+module
+
+public import ZFVP.Syntax.PrimitiveProgramProofRewriteEquations
+public import ZFVP.Syntax.PrimitiveProgramRequirementsStandard
+public import ZFVP.Syntax.NaturalProofRewriting
+
+@[expose] public section
 
 /-! Standard-natural-number correspondence for the explicit proof-rewriting primitives. -/
 

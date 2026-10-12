@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.NormalizedMapDefinability
-import ZFVP.ModelTheory.ForcingLimitCode
-import ZFVP.SetTheory.ForcingRetractionFixedPoints
+module
+
+public import ZFVP.ModelTheory.NormalizedMapDefinability
+public import ZFVP.ModelTheory.ForcingLimitCode
+public import ZFVP.SetTheory.ForcingRetractionFixedPoints
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

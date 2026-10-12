@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.StructureCode
+module
+
+public import ZFVP.ModelTheory.StructureCode
+
+@[expose] public section
 
 /-! Every coded language has structures on every nonempty internal domain.
 The construction uses one supplied element, not a choice function on symbols. -/

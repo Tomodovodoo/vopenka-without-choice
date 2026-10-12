@@ -1,10 +1,14 @@
-import ZFVP.ModelTheory.ForcingQuotientPairing
-import ZFVP.ModelTheory.ForcingQuotientUnion
-import ZFVP.ModelTheory.ForcingQuotientPower
-import ZFVP.ModelTheory.ForcingQuotientInfinity
-import ZFVP.ModelTheory.ForcingQuotientFoundation
-import ZFVP.ModelTheory.ForcingQuotientReplacement
-import ZFVP.Syntax.CloseTailParameters
+module
+
+public import ZFVP.ModelTheory.ForcingQuotientPairing
+public import ZFVP.ModelTheory.ForcingQuotientUnion
+public import ZFVP.ModelTheory.ForcingQuotientPower
+public import ZFVP.ModelTheory.ForcingQuotientInfinity
+public import ZFVP.ModelTheory.ForcingQuotientFoundation
+public import ZFVP.ModelTheory.ForcingQuotientReplacement
+public import ZFVP.Syntax.CloseTailParameters
+
+@[expose] public section
 
 namespace ZFVP
 

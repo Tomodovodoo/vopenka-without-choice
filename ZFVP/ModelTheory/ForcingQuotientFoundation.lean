@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingQuotientNames
-import ZFVP.SetTheory.ForcingFoundationDecisions
+module
+
+public import ZFVP.ModelTheory.ForcingQuotientNames
+public import ZFVP.SetTheory.ForcingFoundationDecisions
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SuccessorRankInternalForcing
+module
+
+public import ZFVP.ModelTheory.SuccessorRankInternalForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

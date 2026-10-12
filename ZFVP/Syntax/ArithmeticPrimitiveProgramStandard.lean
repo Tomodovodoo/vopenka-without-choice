@@ -1,4 +1,8 @@
-import ZFVP.Syntax.ArithmeticPrimitiveProgramEquations
+module
+
+public import ZFVP.Syntax.ArithmeticPrimitiveProgramEquations
+
+@[expose] public section
 
 /-! Standard-natural-number correctness of the arithmetic program formulas. -/
 

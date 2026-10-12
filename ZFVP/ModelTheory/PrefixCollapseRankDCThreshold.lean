@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.BoundedPrefixCollapseName
-import ZFVP.ModelTheory.TwoStepRankDCThreshold
-import ZFVP.SetTheory.WoodinSupercompactStarCorrect
+module
+
+public import ZFVP.ModelTheory.BoundedPrefixCollapseName
+public import ZFVP.ModelTheory.TwoStepRankDCThreshold
+public import ZFVP.SetTheory.WoodinSupercompactStarCorrect
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

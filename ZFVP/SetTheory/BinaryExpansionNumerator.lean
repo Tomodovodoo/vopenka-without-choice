@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.DyadicRationals
-import ZFVP.SetTheory.CantorSpace
+module
+
+public import ZFVP.SetTheory.DyadicRationals
+public import ZFVP.SetTheory.CantorSpace
+
+@[expose] public section
 
 /-! The numerator of an internal binary prefix, computed by internal recursion. -/
 

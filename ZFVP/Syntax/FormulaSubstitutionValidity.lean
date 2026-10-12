@@ -1,4 +1,8 @@
-import ZFVP.Syntax.FormulaSubstitutionEquations
+module
+
+public import ZFVP.Syntax.FormulaSubstitutionEquations
+
+@[expose] public section
 
 /-! Substitution preserves internal formula validity at every binder depth. -/
 

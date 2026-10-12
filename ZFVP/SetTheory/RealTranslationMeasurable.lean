@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RealTranslationMeasure
-import ZFVP.SetTheory.RealMeasurableAlgebra
+module
+
+public import ZFVP.SetTheory.RealTranslationMeasure
+public import ZFVP.SetTheory.RealMeasurableAlgebra
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

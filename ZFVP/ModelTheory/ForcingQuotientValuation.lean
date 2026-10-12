@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ForcingQuotientZF
-import ZFVP.ModelTheory.TransitiveZFForcingOrders
-import ZFVP.ModelTheory.GroundAtomicTruth
-import ZFVP.ModelTheory.ForcingExtensionDomain
-import ZFVP.SetTheory.MembershipIso
+module
+
+public import ZFVP.ModelTheory.ForcingQuotientZF
+public import ZFVP.ModelTheory.TransitiveZFForcingOrders
+public import ZFVP.ModelTheory.GroundAtomicTruth
+public import ZFVP.ModelTheory.ForcingExtensionDomain
+public import ZFVP.SetTheory.MembershipIso
+
+@[expose] public section
 
 namespace ZFVP
 

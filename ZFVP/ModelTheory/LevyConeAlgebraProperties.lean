@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.LevyBooleanHomogeneity
-import ZFVP.ModelTheory.LevyBooleanAntichainSupport
-import ZFVP.ModelTheory.LevyGroundStages
-import ZFVP.SetTheory.WellOrderedSurjection
+module
+
+public import ZFVP.ModelTheory.LevyBooleanHomogeneity
+public import ZFVP.ModelTheory.LevyBooleanAntichainSupport
+public import ZFVP.ModelTheory.LevyGroundStages
+public import ZFVP.SetTheory.WellOrderedSurjection
+
+@[expose] public section
 
 /-! Structural properties of a cone of the Boolean completion of the Levy collapse.
 

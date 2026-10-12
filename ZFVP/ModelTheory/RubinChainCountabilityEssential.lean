@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.DeadEndModelAlephOne
-import ZFVP.ModelTheory.RubinChainCriterion
-import ZFVP.SetTheory.DiamondOmegaOne
+module
+
+public import ZFVP.ModelTheory.DeadEndModelAlephOne
+public import ZFVP.ModelTheory.RubinChainCriterion
+public import ZFVP.SetTheory.DiamondOmegaOne
+
+@[expose] public section
 
 /-! The top of Enayat's Theorem 5.17 chain, under `◊`, on a hypothesis the Appendix can deliver.
 

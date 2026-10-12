@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedInclusionLaws
-import ZFVP.ModelTheory.SchmerlDirectedPosetFormulas
-import ZFVP.ModelTheory.FiniteParameterElementarity
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedInclusionLaws
+public import ZFVP.ModelTheory.SchmerlDirectedPosetFormulas
+public import ZFVP.ModelTheory.FiniteParameterElementarity
+
+@[expose] public section
 
 /-! Raw definitions retain their meaning under literal coded elementary
 inclusions. Their internally finite parameter tuples enter a common stage. -/

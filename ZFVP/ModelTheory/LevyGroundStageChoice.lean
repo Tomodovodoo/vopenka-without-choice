@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LevyGroundStageLike
-import ZFVP.SetTheory.ClosedRankStages
-import ZFVP.SetTheory.GroundLikeFormulas
+module
+
+public import ZFVP.ModelTheory.LevyGroundStageLike
+public import ZFVP.SetTheory.ClosedRankStages
+public import ZFVP.SetTheory.GroundLikeFormulas
+
+@[expose] public section
 
 /-! Choosing the rank stage used by the ground model definability argument.
 

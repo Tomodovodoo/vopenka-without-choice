@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CodedEmbeddingSemantics
-import ZFVP.Syntax.BinaryRelationSatisfaction
+module
+
+public import ZFVP.ModelTheory.CodedEmbeddingSemantics
+public import ZFVP.Syntax.BinaryRelationSatisfaction
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

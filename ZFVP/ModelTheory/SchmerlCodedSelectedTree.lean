@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedCofinalOrdinals
-import ZFVP.ModelTheory.SchmerlInternalBranchNames
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedCofinalOrdinals
+public import ZFVP.ModelTheory.SchmerlInternalBranchNames
+
+@[expose] public section
 
 /-! Select the actual class-tree levels indexed by the Rubin ordinal chain.
 The resulting rank graph takes values in the ambient ordinal κ. -/

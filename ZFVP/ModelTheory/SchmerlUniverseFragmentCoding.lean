@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlCodedInfinitarySemantics
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedInfinitarySemantics
+
+@[expose] public section
 
 /-! Actual universe fragments represent every supported external constructor. -/
 namespace ZFVP.Infinitary.Internal

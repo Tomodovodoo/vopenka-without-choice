@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.SchroederBernstein
-import ZFVP.SetTheory.FiniteCardinalArithmetic
+module
+
+public import ZFVP.SetTheory.SchroederBernstein
+public import ZFVP.SetTheory.FiniteCardinalArithmetic
+
+@[expose] public section
 
 /-! The family of countably enumerated subsets of a set.
 

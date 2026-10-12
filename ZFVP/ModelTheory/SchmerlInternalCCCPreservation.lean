@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SchmerlInternalCCCPreservationValues
-import ZFVP.ModelTheory.ForcingModelChecks
-import ZFVP.SetTheory.HartogsRegularChoice
-import ZFVP.SetTheory.EndExtensionFinite
-import ZFVP.SetTheory.InjectionRetraction
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalCCCPreservationValues
+public import ZFVP.ModelTheory.ForcingModelChecks
+public import ZFVP.SetTheory.HartogsRegularChoice
+public import ZFVP.SetTheory.EndExtensionFinite
+public import ZFVP.SetTheory.InjectionRetraction
+
+@[expose] public section
 
 /-! Internal ccc preserves omega-one in the actual forcing quotient.
 Internal antichains bound each possible-value set; internal countable union

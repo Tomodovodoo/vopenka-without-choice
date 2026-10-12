@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CnExtendible
-import ZFVP.ModelTheory.RankEmbeddingAction
+module
+
+public import ZFVP.SetTheory.CnExtendible
+public import ZFVP.ModelTheory.RankEmbeddingAction
+
+@[expose] public section
 
 /-! One extra correctness level transfers lower positive C(n) membership. -/
 

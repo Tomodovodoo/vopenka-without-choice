@@ -1,10 +1,14 @@
-import ZFVP.SetTheory.UniformLowTruth
-import ZFVP.SetTheory.UniformRecursion
-import ZFVP.SetTheory.UniformNumerals
-import ZFVP.Syntax.UniformAssignments
-import ZFVP.Syntax.MembershipTruthTables
-import ZFVP.SetTheory.RankBounds
-import ZFVP.SetTheory.LevelOneTruth
+module
+
+public import ZFVP.SetTheory.UniformLowTruth
+public import ZFVP.SetTheory.UniformRecursion
+public import ZFVP.SetTheory.UniformNumerals
+public import ZFVP.Syntax.UniformAssignments
+public import ZFVP.Syntax.MembershipTruthTables
+public import ZFVP.SetTheory.RankBounds
+public import ZFVP.SetTheory.LevelOneTruth
+
+@[expose] public section
 
 /-! Ordinal definability relative to a parameter class. The parameter class is given by a
 two-variable formula `Pf` with one parameter `p`; the allowed parameters are the ordinals, the

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CodedMembershipEmbedding
-import ZFVP.SetTheory.TransitiveRestriction
+module
+
+public import ZFVP.ModelTheory.CodedMembershipEmbedding
+public import ZFVP.SetTheory.TransitiveRestriction
+
+@[expose] public section
 
 /-! The restriction of an internal embedding graph represents the elementary restriction map. -/
 

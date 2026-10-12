@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramLKMonotonicity
+module
+
+public import ZFVP.Syntax.PrimitiveProgramLKMonotonicity
+
+@[expose] public section
 
 /-! Resuming the explicit LK certificate fold from an existing checked state. -/
 

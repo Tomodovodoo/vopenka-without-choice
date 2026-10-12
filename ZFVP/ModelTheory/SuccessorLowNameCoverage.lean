@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SuccessorLowNameValues
+module
+
+public import ZFVP.ModelTheory.SuccessorLowNameValues
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

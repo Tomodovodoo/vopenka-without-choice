@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.RankNormalizedNamePool
-import ZFVP.ModelTheory.TransitiveZFSparsePair
-import ZFVP.ModelTheory.SparseNormalizedTwoStep
-import ZFVP.ModelTheory.TransitiveZFBoundedForcing
-import ZFVP.ModelTheory.NormalizedReverseOrderComparison
+module
+
+public import ZFVP.ModelTheory.RankNormalizedNamePool
+public import ZFVP.ModelTheory.TransitiveZFSparsePair
+public import ZFVP.ModelTheory.SparseNormalizedTwoStep
+public import ZFVP.ModelTheory.TransitiveZFBoundedForcing
+public import ZFVP.ModelTheory.NormalizedReverseOrderComparison
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

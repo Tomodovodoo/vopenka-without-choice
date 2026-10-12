@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingClosedModelDomain
-import ZFVP.SetTheory.CnSigmaClosure
-import ZFVP.ModelTheory.ForcingLowRankNames
+module
+
+public import ZFVP.ModelTheory.ForcingClosedModelDomain
+public import ZFVP.SetTheory.CnSigmaClosure
+public import ZFVP.ModelTheory.ForcingLowRankNames
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalNamedSyntax
-import ZFVP.ModelTheory.InternalNamedDiagram
+module
+
+public import ZFVP.ModelTheory.InternalNamedSyntax
+public import ZFVP.ModelTheory.InternalNamedDiagram
+
+@[expose] public section
 
 /-! Finite satisfiability over an actual source with fixed names. The definition
 tests every internally finite fragment of the entire background requirements.

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryHenkinStep
-import ZFVP.ModelTheory.InfinitaryLanguageComposition
+module
+
+public import ZFVP.ModelTheory.InfinitaryHenkinStep
+public import ZFVP.ModelTheory.InfinitaryLanguageComposition
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

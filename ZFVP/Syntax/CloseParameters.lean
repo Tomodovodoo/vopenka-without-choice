@@ -1,4 +1,8 @@
-import ZFVP.Syntax.MembershipSatisfaction
+module
+
+public import ZFVP.Syntax.MembershipSatisfaction
+
+@[expose] public section
 
 /-! Closing the finitely many free parameters of an external formula. -/
 

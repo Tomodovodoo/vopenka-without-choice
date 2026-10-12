@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinBoundedLocalRestorationAgreement
-import ZFVP.ModelTheory.TransitiveZFInaccessible
-import ZFVP.ModelTheory.WoodinStrictRestoration
+module
+
+public import ZFVP.ModelTheory.WoodinBoundedLocalRestorationAgreement
+public import ZFVP.ModelTheory.TransitiveZFInaccessible
+public import ZFVP.ModelTheory.WoodinStrictRestoration
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedStarDependentChoiceBelow
-import ZFVP.ModelTheory.LimitRankEmbedding
+module
+
+public import ZFVP.SetTheory.BoundedStarDependentChoiceBelow
+public import ZFVP.ModelTheory.LimitRankEmbedding
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

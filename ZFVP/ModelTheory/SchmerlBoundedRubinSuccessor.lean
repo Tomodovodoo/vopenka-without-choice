@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SchmerlCodedRubinSuccessor
-import ZFVP.ModelTheory.SchmerlCodedSuccessorTransport
-import ZFVP.ModelTheory.InternalBinaryGraphRelabeling
-import ZFVP.SetTheory.HartogsCountableRelabeling
-import ZFVP.SetTheory.GraphImageComposition
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedRubinSuccessor
+public import ZFVP.ModelTheory.SchmerlCodedSuccessorTransport
+public import ZFVP.ModelTheory.InternalBinaryGraphRelabeling
+public import ZFVP.SetTheory.HartogsCountableRelabeling
+public import ZFVP.SetTheory.GraphImageComposition
+
+@[expose] public section
 
 /-! Normalize the constructed successor inside a fixed Hartogs carrier,
 fixing every old point and including the current ordinal label. -/

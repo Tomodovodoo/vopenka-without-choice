@@ -1,10 +1,14 @@
-import ZFVP.SetTheory.InaccessibleSmallRanks
-import ZFVP.ModelTheory.ElementaryInclusionCollapse
-import ZFVP.ModelTheory.CollapsedElementarySubmodel
-import ZFVP.ModelTheory.TransitiveZFCoding
-import ZFVP.SetTheory.FormulaFamilyRank
-import ZFVP.Syntax.LevyCodeAbsoluteness
-import ZFVP.ModelTheory.InternalElementaryHull
+module
+
+public import ZFVP.SetTheory.InaccessibleSmallRanks
+public import ZFVP.ModelTheory.ElementaryInclusionCollapse
+public import ZFVP.ModelTheory.CollapsedElementarySubmodel
+public import ZFVP.ModelTheory.TransitiveZFCoding
+public import ZFVP.SetTheory.FormulaFamilyRank
+public import ZFVP.Syntax.LevyCodeAbsoluteness
+public import ZFVP.ModelTheory.InternalElementaryHull
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

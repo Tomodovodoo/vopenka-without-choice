@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramIndexedCourse
-import ZFVP.Syntax.PrimitiveProgramProofRewriteTerm
+module
+
+public import ZFVP.Syntax.PrimitiveProgramIndexedCourse
+public import ZFVP.Syntax.PrimitiveProgramProofRewriteTerm
+
+@[expose] public section
 
 /-! Formula transformation with a supplied argument program and finite tables for binder depth. -/
 

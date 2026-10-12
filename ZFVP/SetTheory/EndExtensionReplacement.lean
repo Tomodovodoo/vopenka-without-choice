@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.EndExtensionSets
+module
+
+public import ZFVP.SetTheory.EndExtensionSets
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

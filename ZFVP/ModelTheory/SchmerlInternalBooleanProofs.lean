@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalBooleanAxioms
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalBooleanAxioms
+
+@[expose] public section
 
 /-! Internally coded Boolean derivations. Each node contains its label, rule
 tag, and premise codes. Conjunction premises form an internal omega-function.

@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.CountingWitness
-import ZFVP.SetTheory.EndExtensionWellOrdering
-import ZFVP.ModelTheory.GroundRealsHOD
-import ZFVP.ModelTheory.LevyCollapseOmegaOne
+module
+
+public import ZFVP.SetTheory.CountingWitness
+public import ZFVP.SetTheory.EndExtensionWellOrdering
+public import ZFVP.ModelTheory.GroundRealsHOD
+public import ZFVP.ModelTheory.LevyCollapseOmegaOne
+
+@[expose] public section
 
 /-! `κ` is the first uncountable ordinal of the Solovay model `HOD_{V ∪ R}` (lem:Solovay-regularity):
 every ordinal below `κ` is collapsed by an injection into `ω` that is itself definable from reals,

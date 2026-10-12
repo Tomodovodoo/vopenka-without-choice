@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryGenericConditionChain
-import ZFVP.ModelTheory.InfinitaryCoordinateTermRelation
+module
+
+public import ZFVP.ModelTheory.InfinitaryGenericConditionChain
+public import ZFVP.ModelTheory.InfinitaryCoordinateTermRelation
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

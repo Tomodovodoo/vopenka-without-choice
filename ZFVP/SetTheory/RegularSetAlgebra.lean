@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BooleanCompletion
+module
+
+public import ZFVP.SetTheory.BooleanCompletion
+
+@[expose] public section
 
 /-! The complete Boolean algebra of regular subsets of a forcing preorder: meets are
 intersections, joins are regular joins, complements are forcing negations. Distributivity of

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinCanonicalBoundRawOrder
-import ZFVP.ModelTheory.WoodinCanonicalBoundRawSuccessor
-import ZFVP.ModelTheory.WoodinCanonicalBoundRawInverse
-import ZFVP.ModelTheory.WoodinCanonicalBoundInduction
+module
+
+public import ZFVP.ModelTheory.WoodinCanonicalBoundRawOrder
+public import ZFVP.ModelTheory.WoodinCanonicalBoundRawSuccessor
+public import ZFVP.ModelTheory.WoodinCanonicalBoundRawInverse
+public import ZFVP.ModelTheory.WoodinCanonicalBoundInduction
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

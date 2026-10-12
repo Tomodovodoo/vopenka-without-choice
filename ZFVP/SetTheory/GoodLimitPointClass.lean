@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ExtendibilityFailureClass
+module
+
+public import ZFVP.SetTheory.ExtendibilityFailureClass
+
+@[expose] public section
 
 /-! Limit points of the good closure point class.
 

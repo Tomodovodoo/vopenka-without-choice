@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramFormulaTransform
+module
+
+public import ZFVP.Syntax.PrimitiveProgramFormulaTransform
+
+@[expose] public section
 
 /-! The proof-rule rewrite program specializes the common formula transformer. -/
 

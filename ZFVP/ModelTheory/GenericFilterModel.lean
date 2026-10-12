@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.GenericFilterTrace
-import ZFVP.SetTheory.TraceStagesTransport
-import ZFVP.ModelTheory.ForcingRealizationGeneration
+module
+
+public import ZFVP.ModelTheory.GenericFilterTrace
+public import ZFVP.SetTheory.TraceStagesTransport
+public import ZFVP.ModelTheory.ForcingRealizationGeneration
+
+@[expose] public section
 
 /-! The intermediate model of a generic filter: a filter `H` of the extension on a checked ground
 poset `Q` that meets every ground dense set determines a forcing context over the ground with

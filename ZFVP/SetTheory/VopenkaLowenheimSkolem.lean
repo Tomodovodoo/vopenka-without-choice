@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.VopenkaFullChoiceless
-import ZFVP.SetTheory.ChoicelessSupercompactLS
+module
+
+public import ZFVP.SetTheory.VopenkaFullChoiceless
+public import ZFVP.SetTheory.ChoicelessSupercompactLS
+
+@[expose] public section
 
 /-! Full VP gives a proper class of LS cardinals. Taking successive least
 LS cardinals gives singular LS cardinals of cofinality omega. -/

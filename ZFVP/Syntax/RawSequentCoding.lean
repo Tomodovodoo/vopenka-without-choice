@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramRawFormulas
-import ZFVP.Syntax.PrimitiveProgramRawTransform
+module
+
+public import ZFVP.Syntax.PrimitiveProgramRawFormulas
+public import ZFVP.Syntax.PrimitiveProgramRawTransform
+
+@[expose] public section
 
 /-! Total standard decoding for raw formula and sequent codes, with exact list operations. -/
 

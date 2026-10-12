@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedTruthTables
-import ZFVP.Syntax.SigmaOneMembershipFamily
+module
+
+public import ZFVP.Syntax.BoundedTruthTables
+public import ZFVP.Syntax.SigmaOneMembershipFamily
+
+@[expose] public section
 
 /-! Tables of truth over a set domain are determined by their constructor equations. -/
 

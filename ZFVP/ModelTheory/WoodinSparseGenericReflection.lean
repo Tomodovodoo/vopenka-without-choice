@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseForcingReflection
-import ZFVP.ModelTheory.WoodinSparseFixedPointInclusion
+module
+
+public import ZFVP.ModelTheory.WoodinSparseForcingReflection
+public import ZFVP.ModelTheory.WoodinSparseFixedPointInclusion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

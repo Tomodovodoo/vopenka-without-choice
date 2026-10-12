@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingFunctionValues
+module
+
+public import ZFVP.ModelTheory.ForcingFunctionValues
+
+@[expose] public section
 
 /-! Initial and successor witnesses can be chosen among subnames of the
 named domain after strengthening a condition. Generic filters are used only

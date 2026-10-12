@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RealTranslationCategory
-import ZFVP.SetTheory.UnitRealBaireTransfer
+module
+
+public import ZFVP.SetTheory.RealTranslationCategory
+public import ZFVP.SetTheory.UnitRealBaireTransfer
+
+@[expose] public section
 
 /-! The real line is covered by rational translates of the closed unit interval. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.PiWitnessRankStages
-import ZFVP.ModelTheory.DeltaOneIndexedMarkerStructures
-import ZFVP.ModelTheory.LimitRankRestriction
+module
+
+public import ZFVP.SetTheory.PiWitnessRankStages
+public import ZFVP.ModelTheory.DeltaOneIndexedMarkerStructures
+public import ZFVP.ModelTheory.LimitRankRestriction
+
+@[expose] public section
 
 /-! The eight distinguished constants of the fragment construction and their rank structures. -/
 

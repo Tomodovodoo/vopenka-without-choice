@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SparseOrderCoordinates
-import ZFVP.ModelTheory.WoodinSparseCutDictionary
-import ZFVP.ModelTheory.WoodinSparseCoordinateNames
-import ZFVP.ModelTheory.WoodinSparseBranchOrderComparison
-import ZFVP.ModelTheory.WoodinSparseCoordinateComparison
+module
+
+public import ZFVP.ModelTheory.SparseOrderCoordinates
+public import ZFVP.ModelTheory.WoodinSparseCutDictionary
+public import ZFVP.ModelTheory.WoodinSparseCoordinateNames
+public import ZFVP.ModelTheory.WoodinSparseBranchOrderComparison
+public import ZFVP.ModelTheory.WoodinSparseCoordinateComparison
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

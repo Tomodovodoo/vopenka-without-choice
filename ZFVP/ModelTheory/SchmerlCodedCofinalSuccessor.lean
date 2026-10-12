@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlNamedUpperRealization
-import ZFVP.ModelTheory.SchmerlDefinitionTransport
-import ZFVP.ModelTheory.InternalNamedModel
+module
+
+public import ZFVP.ModelTheory.SchmerlNamedUpperRealization
+public import ZFVP.ModelTheory.SchmerlDefinitionTransport
+public import ZFVP.ModelTheory.InternalNamedModel
+
+@[expose] public section
 
 /-! An actual countable elementary successor with simultaneous strict bounds
 for every directed poset defined over the source by internal syntax. -/

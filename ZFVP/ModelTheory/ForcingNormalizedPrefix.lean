@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingNormalizedCode
-import ZFVP.SetTheory.ForcingCodeExtensionValues
+module
+
+public import ZFVP.ModelTheory.ForcingNormalizedCode
+public import ZFVP.SetTheory.ForcingCodeExtensionValues
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.BoundedDomainRelativization
-import ZFVP.SetTheory.WoodinClosedContainers
-import ZFVP.ModelTheory.InternalZFExternal
+module
+
+public import ZFVP.SetTheory.BoundedDomainRelativization
+public import ZFVP.SetTheory.WoodinClosedContainers
+public import ZFVP.ModelTheory.InternalZFExternal
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

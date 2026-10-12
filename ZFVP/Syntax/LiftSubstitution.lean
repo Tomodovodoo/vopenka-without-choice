@@ -1,5 +1,9 @@
-import ZFVP.Syntax.TermBoundShift
-import ZFVP.Syntax.Assignments
+module
+
+public import ZFVP.Syntax.TermBoundShift
+public import ZFVP.Syntax.Assignments
+
+@[expose] public section
 
 /-! Lift replacement tables across one binder, avoiding capture of their variables. -/
 

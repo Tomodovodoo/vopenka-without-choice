@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.BooleanOrbitValueMap
-import ZFVP.ModelTheory.BooleanOrbitInverse
-import ZFVP.ModelTheory.LevyConeIsomorphism
+module
+
+public import ZFVP.ModelTheory.BooleanOrbitValueMap
+public import ZFVP.ModelTheory.BooleanOrbitInverse
+public import ZFVP.ModelTheory.LevyConeIsomorphism
+
+@[expose] public section
 
 /-! The core of Jech, Set Theory, Lemma 25.5 for the Boolean completion: an orbit filter and the
 generic are carried to each other by an isomorphism of cones.

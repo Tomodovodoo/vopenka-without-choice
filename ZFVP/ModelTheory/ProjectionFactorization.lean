@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ProjectionInclusion
+module
+
+public import ZFVP.ModelTheory.ProjectionInclusion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

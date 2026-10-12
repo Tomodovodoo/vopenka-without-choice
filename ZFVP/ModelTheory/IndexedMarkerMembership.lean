@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.NamedMembershipEmbedding
+module
+
+public import ZFVP.ModelTheory.NamedMembershipEmbedding
+
+@[expose] public section
 
 /-! Membership structures with constants for a transitive base and an indexed family of markers.
 The marker labelled by j uses the symbol (B,j), disjoint from the base symbols. -/

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.Relativization
+module
+
+public import ZFVP.SetTheory.Relativization
+
+@[expose] public section
 
 /-! Syntactic relativization to a definable class. The class is given by a two-variable formula
 `H`; its second argument is a parameter carried by the reserved free variable `none`. -/

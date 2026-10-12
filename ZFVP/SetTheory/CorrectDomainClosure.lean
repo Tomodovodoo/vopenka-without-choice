@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.HigherPartialTruth
+module
+
+public import ZFVP.SetTheory.HigherPartialTruth
+
+@[expose] public section
 
 /-! Nesting and cofinal closure of the recursively correct rank stages. -/
 

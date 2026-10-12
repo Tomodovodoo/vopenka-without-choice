@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalFormulaRequirements
+module
+
+public import ZFVP.ModelTheory.InternalFormulaRequirements
+
+@[expose] public section
 
 /-! Constructor induction for every internally accepted natural formula code. -/
 

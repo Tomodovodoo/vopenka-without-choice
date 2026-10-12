@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ForcingCheckedTruth
-import ZFVP.SetTheory.EndExtensionFinite
-import ZFVP.SetTheory.FiniteCofinality
-import ZFVP.ModelTheory.WoodinCollapseForcesRestoration
-import ZFVP.SetTheory.LeastDependentChoiceFailure
+module
+
+public import ZFVP.ModelTheory.ForcingCheckedTruth
+public import ZFVP.SetTheory.EndExtensionFinite
+public import ZFVP.SetTheory.FiniteCofinality
+public import ZFVP.ModelTheory.WoodinCollapseForcesRestoration
+public import ZFVP.SetTheory.LeastDependentChoiceFailure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,13 +1,17 @@
-import ZFVP.ModelTheory.SolovayHODSequences
-import ZFVP.ModelTheory.SolovayHODNoChoice
-import ZFVP.ModelTheory.SolovayHODUltrafilter
-import ZFVP.ModelTheory.LevyGroundDefinable
-import ZFVP.ModelTheory.LevySmallSetLocalization
-import ZFVP.ModelTheory.LevyODLocalized
-import ZFVP.ModelTheory.LevyODParameterTree
-import ZFVP.ModelTheory.LevyInternalLocalization
-import ZFVP.SetTheory.HODModelsZF
-import ZFVP.SetTheory.HODReals
+module
+
+public import ZFVP.ModelTheory.SolovayHODSequences
+public import ZFVP.ModelTheory.SolovayHODNoChoice
+public import ZFVP.ModelTheory.SolovayHODUltrafilter
+public import ZFVP.ModelTheory.LevyGroundDefinable
+public import ZFVP.ModelTheory.LevySmallSetLocalization
+public import ZFVP.ModelTheory.LevyODLocalized
+public import ZFVP.ModelTheory.LevyODParameterTree
+public import ZFVP.ModelTheory.LevyInternalLocalization
+public import ZFVP.SetTheory.HODModelsZF
+public import ZFVP.SetTheory.HODReals
+
+@[expose] public section
 
 /-! The Solovay model, as one class model with one parameter.
 

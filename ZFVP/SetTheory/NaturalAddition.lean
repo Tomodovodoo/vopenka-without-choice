@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.OrdinalAddition
-import ZFVP.SetTheory.UniformRecursion
-import ZFVP.SetTheory.NaturalPredecessor
+module
+
+public import ZFVP.SetTheory.OrdinalAddition
+public import ZFVP.SetTheory.UniformRecursion
+public import ZFVP.SetTheory.NaturalPredecessor
+
+@[expose] public section
 
 namespace ZFVP
 

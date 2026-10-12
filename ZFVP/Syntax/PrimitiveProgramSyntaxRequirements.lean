@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramNegation
+module
+
+public import ZFVP.Syntax.PrimitiveProgramNegation
+
+@[expose] public section
 
 /-! Explicit validity and bound-variable requirements for natural atomic syntax.
 A zero result rejects the code. A positive result is one plus the number of

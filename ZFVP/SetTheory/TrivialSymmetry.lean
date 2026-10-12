@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.SymmetricSystems
+module
+
+public import ZFVP.SetTheory.SymmetricSystems
+
+@[expose] public section
 
 /-! The trivial automorphism group makes every forcing name hereditarily symmetric. -/
 

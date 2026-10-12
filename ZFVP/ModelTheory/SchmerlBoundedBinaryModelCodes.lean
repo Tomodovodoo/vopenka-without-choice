@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalBinaryGraphRelabeling
+module
+
+public import ZFVP.ModelTheory.InternalBinaryGraphRelabeling
+
+@[expose] public section
 
 /-! A fixed actual set of bounded binary model codes, and normalization of
 an internally countable initial model into the first uncountable ordinal. -/

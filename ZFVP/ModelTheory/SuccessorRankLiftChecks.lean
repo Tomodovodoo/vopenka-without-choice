@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SuccessorRankLiftGraph
-import ZFVP.SetTheory.CnSigmaClosure
+module
+
+public import ZFVP.ModelTheory.SuccessorRankLiftGraph
+public import ZFVP.SetTheory.CnSigmaClosure
+
+@[expose] public section
 
 namespace ZFVP
 

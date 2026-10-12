@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryLanguageMap
-import ZFVP.ModelTheory.InfinitaryKeislerSoundness
+module
+
+public import ZFVP.ModelTheory.InfinitaryLanguageMap
+public import ZFVP.ModelTheory.InfinitaryKeislerSoundness
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

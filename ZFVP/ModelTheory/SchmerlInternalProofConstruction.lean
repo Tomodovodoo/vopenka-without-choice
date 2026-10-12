@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalFragmentExtension
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalFragmentExtension
+
+@[expose] public section
 
 /-! Constructed countable derivation codes for axioms, modus ponens and universal
 generalization. Each result supplies the proof set and its terminal node. -/

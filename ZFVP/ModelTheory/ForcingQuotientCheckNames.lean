@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingQuotientNames
-import ZFVP.SetTheory.AtomicCheckNames
+module
+
+public import ZFVP.ModelTheory.ForcingQuotientNames
+public import ZFVP.SetTheory.AtomicCheckNames
+
+@[expose] public section
 
 namespace ZFVP
 

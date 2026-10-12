@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.LevyPrenex
+module
+
+public import ZFVP.SetTheory.LevyPrenex
+
+@[expose] public section
 
 /-! Alternating prenex forms, with one set quantifier per positive level and a bounded matrix. -/
 

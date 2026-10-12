@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryOmegaOneWeakLimit
+module
+
+public import ZFVP.ModelTheory.InfinitaryOmegaOneWeakLimit
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

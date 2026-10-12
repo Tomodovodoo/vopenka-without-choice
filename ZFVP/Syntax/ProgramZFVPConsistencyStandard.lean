@@ -1,6 +1,10 @@
-import ZFVP.Syntax.ProgramZFVPConsistency
-import ZFVP.Syntax.PrimitiveProgramTheoryRaw
-import ZFVP.Syntax.ArithmeticZFVPConsistency
+module
+
+public import ZFVP.Syntax.ProgramZFVPConsistency
+public import ZFVP.Syntax.PrimitiveProgramTheoryRaw
+public import ZFVP.Syntax.ArithmeticZFVPConsistency
+
+@[expose] public section
 
 /-! Standard truth of the explicit consistency sentence for exactly ZF+VP. -/
 

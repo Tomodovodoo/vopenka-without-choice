@@ -1,9 +1,13 @@
-import ZFVP.SetTheory.NaturalPigeonhole
-import ZFVP.SetTheory.FiniteSets
-import ZFVP.SetTheory.FiniteSequencesCardinality
-import ZFVP.SetTheory.UltrafilterOrdinals
-import ZFVP.SetTheory.SplittingScheme
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.SetTheory.NaturalPigeonhole
+public import ZFVP.SetTheory.FiniteSets
+public import ZFVP.SetTheory.FiniteSequencesCardinality
+public import ZFVP.SetTheory.UltrafilterOrdinals
+public import ZFVP.SetTheory.SplittingScheme
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 /-! Finite cardinal arithmetic at the level of sets: tagged disjoint unions, commutativity and
 associativity of products up to `≤#`, `2^(n+1) ≋ 2^n × 2`, finiteness of products and of `2^n`,

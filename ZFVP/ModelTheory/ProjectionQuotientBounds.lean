@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ProjectionQuotient
-import ZFVP.SetTheory.ForcingRelativeClosure
-import ZFVP.SetTheory.ForcingClosure
+module
+
+public import ZFVP.ModelTheory.ProjectionQuotient
+public import ZFVP.SetTheory.ForcingRelativeClosure
+public import ZFVP.SetTheory.ForcingClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

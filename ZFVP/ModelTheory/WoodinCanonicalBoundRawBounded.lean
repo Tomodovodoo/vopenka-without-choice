@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinCanonicalBoundRawInduction
-import ZFVP.ModelTheory.WoodinCanonicalBoundRawDischarged
+module
+
+public import ZFVP.ModelTheory.WoodinCanonicalBoundRawInduction
+public import ZFVP.ModelTheory.WoodinCanonicalBoundRawDischarged
+
+@[expose] public section
 
 /-! Range bounded form of the raw lift comparison.
 

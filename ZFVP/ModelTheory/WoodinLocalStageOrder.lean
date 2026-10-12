@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinLocalStagePresentation
-import ZFVP.ModelTheory.ForcingStageProjection
+module
+
+public import ZFVP.ModelTheory.WoodinLocalStagePresentation
+public import ZFVP.ModelTheory.ForcingStageProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

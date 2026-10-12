@@ -1,5 +1,9 @@
-import ZFVP.Syntax.StandardTuples
-import ZFVP.SetTheory.InfiniteDependentChoice
+module
+
+public import ZFVP.Syntax.StandardTuples
+public import ZFVP.SetTheory.InfiniteDependentChoice
+
+@[expose] public section
 
 /-! External finite lists represented by internal sets and sequence graphs. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinEndpointRank
-import ZFVP.ModelTheory.RankEnumerationZFC
+module
+
+public import ZFVP.ModelTheory.WoodinEndpointRank
+public import ZFVP.ModelTheory.RankEnumerationZFC
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

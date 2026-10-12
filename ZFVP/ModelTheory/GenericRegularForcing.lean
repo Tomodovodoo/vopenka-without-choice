@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingGeneric
-import ZFVP.SetTheory.ForcingQuantifiers
+module
+
+public import ZFVP.ModelTheory.ForcingGeneric
+public import ZFVP.SetTheory.ForcingQuantifiers
+
+@[expose] public section
 
 namespace ZFVP
 

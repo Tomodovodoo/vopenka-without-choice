@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ClassForcingDensitySemantics
-import ZFVP.SetTheory.CnExtendibleVopenka
-import ZFVP.SetTheory.PiVopenkaCnExtendible
-import ZFVP.SetTheory.MagidorSupercompactMeasure
+module
+
+public import ZFVP.ModelTheory.ClassForcingDensitySemantics
+public import ZFVP.SetTheory.CnExtendibleVopenka
+public import ZFVP.SetTheory.PiVopenkaCnExtendible
+public import ZFVP.SetTheory.MagidorSupercompactMeasure
+
+@[expose] public section
 
 /-! Class-forcing density for the Vopenka scheme.
 

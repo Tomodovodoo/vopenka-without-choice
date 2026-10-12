@@ -1,4 +1,8 @@
-import ZFVP.Syntax.TermEvaluation
+module
+
+public import ZFVP.Syntax.TermEvaluation
+
+@[expose] public section
 
 /-! Logical equality and arbitrary relation symbols in internal atomic syntax. -/
 

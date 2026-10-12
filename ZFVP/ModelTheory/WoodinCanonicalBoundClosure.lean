@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ProjectionQuotientSequenceForcing
+module
+
+public import ZFVP.ModelTheory.ProjectionQuotientSequenceForcing
+
+@[expose] public section
 
 /-! Packaging step: if every name for a descending sequence in the projection quotient has a
 forced separative bound, then the whole closure statement below `η` is forced. This is the

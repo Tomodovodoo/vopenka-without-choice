@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.PrefixFreeWeightsSums
-import ZFVP.SetTheory.CountableSets
-import ZFVP.SetTheory.FiniteNaturalSets
-import ZFVP.SetTheory.NullSets
+module
+
+public import ZFVP.SetTheory.PrefixFreeWeightsSums
+public import ZFVP.SetTheory.CountableSets
+public import ZFVP.SetTheory.FiniteNaturalSets
+public import ZFVP.SetTheory.NullSets
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SolovayTheory
-import ZFVP.ModelTheory.SolovayCorollaryUnconditional
-import ZFVP.SetTheory.VopenkaMeasurableRanks
-import ZFVP.ModelTheory.WoodinSparseRestorationTheorem
-import Foundation.FirstOrder.SetTheory.LoewenheimSkolem
+module
+
+public import ZFVP.ModelTheory.SolovayTheory
+public import ZFVP.ModelTheory.SolovayCorollaryUnconditional
+public import ZFVP.SetTheory.VopenkaMeasurableRanks
+public import ZFVP.ModelTheory.WoodinSparseRestorationTheorem
+public import Foundation.FirstOrder.SetTheory.LoewenheimSkolem
+
+@[expose] public section
 
 /-! The full Solovay consistency corollary from consistency of ZF + VP.
 

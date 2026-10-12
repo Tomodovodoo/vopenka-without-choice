@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SuccessorRankEmbedding
-import ZFVP.SetTheory.LeastWitnessBodies
-import ZFVP.SetTheory.FinitePartialFunctions
+module
+
+public import ZFVP.ModelTheory.SuccessorRankEmbedding
+public import ZFVP.SetTheory.LeastWitnessBodies
+public import ZFVP.SetTheory.FinitePartialFunctions
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SparseCutOrder
-import ZFVP.ModelTheory.WoodinSparseOrderRecovery
-import ZFVP.ModelTheory.WoodinSparseInverseOrderRecovery
-import ZFVP.ModelTheory.WoodinSparseSourceCarrierRecovery
+module
+
+public import ZFVP.ModelTheory.SparseCutOrder
+public import ZFVP.ModelTheory.WoodinSparseOrderRecovery
+public import ZFVP.ModelTheory.WoodinSparseInverseOrderRecovery
+public import ZFVP.ModelTheory.WoodinSparseSourceCarrierRecovery
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

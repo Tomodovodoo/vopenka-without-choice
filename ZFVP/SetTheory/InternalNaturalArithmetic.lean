@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.NaturalArithmeticOrder
-import Mathlib.Algebra.Ring.Defs
-import Mathlib.Algebra.Order.Ring.Defs
+module
+
+public import ZFVP.SetTheory.NaturalArithmeticOrder
+public import Mathlib.Algebra.Ring.Defs
+public import Mathlib.Algebra.Order.Ring.Defs
+
+@[expose] public section
 
 /-! Algebraic operations on the whole internal omega. The semiring laws come
 from the definable internal inductions in NaturalArithmeticLaws. This interface

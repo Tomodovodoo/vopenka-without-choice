@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.AtomicEqualityRecursion
+module
+
+public import ZFVP.SetTheory.AtomicEqualityRecursion
+
+@[expose] public section
 
 namespace ZFVP
 

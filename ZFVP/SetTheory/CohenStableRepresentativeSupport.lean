@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CohenRepresentativeSupport
-import ZFVP.SetTheory.FiniteSupportStabilization
+module
+
+public import ZFVP.SetTheory.CohenRepresentativeSupport
+public import ZFVP.SetTheory.FiniteSupportStabilization
+
+@[expose] public section
 
 namespace ZFVP
 

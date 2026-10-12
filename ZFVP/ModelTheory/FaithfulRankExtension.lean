@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.FaithfulExtension
-import ZFVP.ModelTheory.RankPowersetExtension
+module
+
+public import ZFVP.ModelTheory.FaithfulExtension
+public import ZFVP.ModelTheory.RankPowersetExtension
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

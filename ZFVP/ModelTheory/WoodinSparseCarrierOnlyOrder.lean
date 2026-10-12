@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinSparseOrderCoordinates
-import ZFVP.ModelTheory.WoodinSparseCutCoordinates
-import ZFVP.ModelTheory.SparseOrderIdentification
-import ZFVP.ModelTheory.WoodinSparseExactRank
+module
+
+public import ZFVP.ModelTheory.WoodinSparseOrderCoordinates
+public import ZFVP.ModelTheory.WoodinSparseCutCoordinates
+public import ZFVP.ModelTheory.SparseOrderIdentification
+public import ZFVP.ModelTheory.WoodinSparseExactRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

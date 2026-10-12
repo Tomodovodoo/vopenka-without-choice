@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinSparseDirectTransport
-import ZFVP.ModelTheory.WoodinActualDirectMaps
-import ZFVP.ModelTheory.ForcingSectionThreadTransport
-import ZFVP.ModelTheory.WoodinNormalizedEndpoint
+module
+
+public import ZFVP.ModelTheory.WoodinSparseDirectTransport
+public import ZFVP.ModelTheory.WoodinActualDirectMaps
+public import ZFVP.ModelTheory.ForcingSectionThreadTransport
+public import ZFVP.ModelTheory.WoodinNormalizedEndpoint
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]

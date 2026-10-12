@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.VopenkaScheme
-import ZFVP.SetTheory.MembershipIso
+module
+
+public import ZFVP.SetTheory.VopenkaScheme
+public import ZFVP.SetTheory.MembershipIso
+
+@[expose] public section
 
 /-! The full Vopenka scheme transfers through membership isomorphisms. -/
 

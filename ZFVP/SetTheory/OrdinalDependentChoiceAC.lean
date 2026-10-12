@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.OrdinalDependentChoice
-import ZFVP.SetTheory.WellOrderedSelection
+module
+
+public import ZFVP.SetTheory.OrdinalDependentChoice
+public import ZFVP.SetTheory.WellOrderedSelection
+
+@[expose] public section
 
 /-! Choice is equivalent to dependent choices at every internal ordinal. -/
 

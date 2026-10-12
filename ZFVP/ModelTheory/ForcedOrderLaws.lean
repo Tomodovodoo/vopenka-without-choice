@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingEntailment
-import ZFVP.SetTheory.ForcingRenaming
+module
+
+public import ZFVP.ModelTheory.ForcingEntailment
+public import ZFVP.SetTheory.ForcingRenaming
+
+@[expose] public section
 
 namespace ZFVP
 

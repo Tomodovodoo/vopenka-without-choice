@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.UsubaLSLimitCofinality
-import ZFVP.SetTheory.UsubaLSUniform
-import ZFVP.SetTheory.SingularWeaklyLSSuccessor
-import ZFVP.SetTheory.StrongLSWeakLS
-import ZFVP.SetTheory.FiniteCofinality
+module
+
+public import ZFVP.SetTheory.UsubaLSLimitCofinality
+public import ZFVP.SetTheory.UsubaLSUniform
+public import ZFVP.SetTheory.SingularWeaklyLSSuccessor
+public import ZFVP.SetTheory.StrongLSWeakLS
+public import ZFVP.SetTheory.FiniteCofinality
+
+@[expose] public section
 
 namespace ZFVP
 

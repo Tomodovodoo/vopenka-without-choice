@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LevyConeAlgebraProperties
-import ZFVP.SetTheory.LevyCollapseSmallSets
+module
+
+public import ZFVP.ModelTheory.LevyConeAlgebraProperties
+public import ZFVP.SetTheory.LevyCollapseSmallSets
+
+@[expose] public section
 
 /-! The collapsing property of a cone of the Boolean completion of the Levy collapse.
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.SigmaOneStarCorrectness
-import ZFVP.SetTheory.CnExtendible
+module
+
+public import ZFVP.SetTheory.SigmaOneStarCorrectness
+public import ZFVP.SetTheory.CnExtendible
+
+@[expose] public section
 
 /-! Woodin's small-embedding definition of supercompactness in ZF,
 as stated in Spoerl, Definition 21. -/

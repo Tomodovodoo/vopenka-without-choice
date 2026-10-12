@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.SparseFunctionUnion
-import ZFVP.SetTheory.ForcingInverseLimit
-import ZFVP.SetTheory.ForcingIsomorphism
+module
+
+public import ZFVP.SetTheory.SparseFunctionUnion
+public import ZFVP.SetTheory.ForcingInverseLimit
+public import ZFVP.SetTheory.ForcingIsomorphism
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

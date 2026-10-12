@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CnExtendible
+module
+
+public import ZFVP.SetTheory.CnExtendible
+
+@[expose] public section
 
 /-! Proto rank-Berkeley cardinals, with the prescribed bound explicitly below the cardinal. -/
 

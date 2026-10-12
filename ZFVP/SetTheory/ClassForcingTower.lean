@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingIterationSystem
-import ZFVP.SetTheory.FormulaReflection
+module
+
+public import ZFVP.SetTheory.ForcingIterationSystem
+public import ZFVP.SetTheory.FormulaReflection
+
+@[expose] public section
 
 /-! A definable ordinal-indexed tower of set forcings, with sections and
 projections. These are the algebraic data of the set stages used to form

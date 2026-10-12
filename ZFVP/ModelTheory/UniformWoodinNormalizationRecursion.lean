@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.UniformNormalizationMaps
-import ZFVP.ModelTheory.WoodinRecursionUniform
-import ZFVP.ModelTheory.WoodinNormalizedCode
+module
+
+public import ZFVP.ModelTheory.UniformNormalizationMaps
+public import ZFVP.ModelTheory.WoodinRecursionUniform
+public import ZFVP.ModelTheory.WoodinNormalizedCode
+
+@[expose] public section
 
 /-! Fixed formulas for the actual normalization recursion and its completed codes.
 The recursion formula includes the specified empty value at non-ordinals. -/

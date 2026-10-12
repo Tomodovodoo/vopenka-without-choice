@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ForcingEntailment
-import ZFVP.SetTheory.ForcingRenaming
-import ZFVP.ModelTheory.ForcingIsomorphismNames
-import ZFVP.SetTheory.SaturatedNameEquality
-import ZFVP.ModelTheory.ForcingFormulaNameSpecification
+module
+
+public import ZFVP.ModelTheory.ForcingEntailment
+public import ZFVP.SetTheory.ForcingRenaming
+public import ZFVP.ModelTheory.ForcingIsomorphismNames
+public import ZFVP.SetTheory.SaturatedNameEquality
+public import ZFVP.ModelTheory.ForcingFormulaNameSpecification
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

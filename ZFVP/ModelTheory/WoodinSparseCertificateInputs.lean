@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseCarrierOnlyOrder
-import ZFVP.ModelTheory.SparseOrderCertificateExistence
+module
+
+public import ZFVP.ModelTheory.WoodinSparseCarrierOnlyOrder
+public import ZFVP.ModelTheory.SparseOrderCertificateExistence
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

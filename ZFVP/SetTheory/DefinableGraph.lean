@@ -1,5 +1,9 @@
-import Foundation.FirstOrder.SetTheory.ZF
-import Foundation.FirstOrder.SetTheory.Function
+module
+
+public import Foundation.FirstOrder.SetTheory.ZF
+public import Foundation.FirstOrder.SetTheory.Function
+
+@[expose] public section
 
 /-!
 Internal graphs of definable functions, for dependency B03.

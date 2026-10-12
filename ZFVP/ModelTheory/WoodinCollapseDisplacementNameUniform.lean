@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinCollapseDisplacementName
-import ZFVP.SetTheory.UniformFormulaName
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseDisplacementName
+public import ZFVP.SetTheory.UniformFormulaName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.Syntax.Subterms
-import ZFVP.SetTheory.WellFoundedRecursion
+module
+
+public import ZFVP.Syntax.Subterms
+public import ZFVP.SetTheory.WellFoundedRecursion
+
+@[expose] public section
 
 /-! Recursion on internal term codes, including nonstandard finite terms. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalNamedConditions
-import ZFVP.ModelTheory.BinaryRelationZFModel
+module
+
+public import ZFVP.ModelTheory.InternalNamedConditions
+public import ZFVP.ModelTheory.BinaryRelationZFModel
+
+@[expose] public section
 
 /-! Actual assignments respecting fixed source names and an independent family
 of names. Disjoint names can share one sparse countable naming. -/

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryGenericOldEmbedding
+module
+
+public import ZFVP.ModelTheory.InfinitaryGenericOldEmbedding
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

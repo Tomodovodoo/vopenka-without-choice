@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.NormalizedTwoStepExtension
+module
+
+public import ZFVP.ModelTheory.NormalizedTwoStepExtension
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

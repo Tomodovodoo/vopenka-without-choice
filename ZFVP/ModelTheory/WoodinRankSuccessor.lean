@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinRankStage
-import ZFVP.ModelTheory.SaturatedWoodinRankSuccessor
-import ZFVP.ModelTheory.WoodinLimitCardinals
+module
+
+public import ZFVP.ModelTheory.WoodinRankStage
+public import ZFVP.ModelTheory.SaturatedWoodinRankSuccessor
+public import ZFVP.ModelTheory.WoodinLimitCardinals
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

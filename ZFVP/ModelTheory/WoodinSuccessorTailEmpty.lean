@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinCoordinateTailEmpty
+module
+
+public import ZFVP.ModelTheory.WoodinCoordinateTailEmpty
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

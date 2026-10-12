@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingRankDCThreshold
-import ZFVP.ModelTheory.RankDCBelowAgreement
-import ZFVP.ModelTheory.ForcingInaccessibleRankTruth
+module
+
+public import ZFVP.ModelTheory.ForcingRankDCThreshold
+public import ZFVP.ModelTheory.RankDCBelowAgreement
+public import ZFVP.ModelTheory.ForcingInaccessibleRankTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

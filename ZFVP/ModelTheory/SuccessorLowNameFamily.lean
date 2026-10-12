@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingRankRestrictedNames
-import ZFVP.SetTheory.NameValueRank
+module
+
+public import ZFVP.ModelTheory.ForcingRankRestrictedNames
+public import ZFVP.SetTheory.NameValueRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

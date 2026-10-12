@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CnSandwich
-import ZFVP.ModelTheory.CodedMembershipEmbedding
+module
+
+public import ZFVP.SetTheory.CnSandwich
+public import ZFVP.ModelTheory.CodedMembershipEmbedding
+
+@[expose] public section
 
 /-! Correct heights cofinal below an ordinal, and their rank interpretation. -/
 

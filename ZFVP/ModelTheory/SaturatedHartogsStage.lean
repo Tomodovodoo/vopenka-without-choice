@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinInverseStageBounds
-import ZFVP.ModelTheory.SaturatedHartogsFormulas
-import ZFVP.ModelTheory.WoodinStageUniform
+module
+
+public import ZFVP.ModelTheory.WoodinInverseStageBounds
+public import ZFVP.ModelTheory.SaturatedHartogsFormulas
+public import ZFVP.ModelTheory.WoodinStageUniform
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 

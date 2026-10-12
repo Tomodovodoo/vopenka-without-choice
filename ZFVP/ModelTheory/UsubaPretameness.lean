@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ClassForcingProgressivePretameness
-import ZFVP.ModelTheory.UsubaClassRestoration
+module
+
+public import ZFVP.ModelTheory.ClassForcingProgressivePretameness
+public import ZFVP.ModelTheory.UsubaClassRestoration
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

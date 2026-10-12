@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedForcingClauses
-import ZFVP.Syntax.BoundedAssignments
+module
+
+public import ZFVP.Syntax.BoundedForcingClauses
+public import ZFVP.Syntax.BoundedAssignments
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

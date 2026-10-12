@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.SupercompactMeasure
-import ZFVP.SetTheory.InverseFunction
+module
+
+public import ZFVP.SetTheory.SupercompactMeasure
+public import ZFVP.SetTheory.InverseFunction
+
+@[expose] public section
 
 /-! # Two working consequences of a normal fine measure
 

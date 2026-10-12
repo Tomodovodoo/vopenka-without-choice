@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.NameTwoStepOrderDefinability
-import ZFVP.ModelTheory.NormalizedIsomorphismDefinability
-import ZFVP.ModelTheory.SparsePairPresentation
+module
+
+public import ZFVP.ModelTheory.NameTwoStepOrderDefinability
+public import ZFVP.ModelTheory.NormalizedIsomorphismDefinability
+public import ZFVP.ModelTheory.SparsePairPresentation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.Hessenberg
-import ZFVP.SetTheory.FiniteSequences
-import ZFVP.SetTheory.CardinalSmallUnions
-import ZFVP.SetTheory.OrdinalDependentChoiceAC
+module
+
+public import ZFVP.SetTheory.Hessenberg
+public import ZFVP.SetTheory.FiniteSequences
+public import ZFVP.SetTheory.CardinalSmallUnions
+public import ZFVP.SetTheory.OrdinalDependentChoiceAC
+
+@[expose] public section
 
 /-! `|λ^{<ω}| = λ` for infinite initial `λ` (with choice): each `λ ^ n` injects into `λ` by
 Hessenberg, and the countable union of the powers injects into `ω × λ`. -/

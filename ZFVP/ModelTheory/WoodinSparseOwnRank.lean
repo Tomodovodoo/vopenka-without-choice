@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseMarkedRank
+module
+
+public import ZFVP.ModelTheory.WoodinSparseMarkedRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

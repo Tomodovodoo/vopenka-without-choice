@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalProgramListExt
-import ZFVP.Syntax.UniformFormulaCodes
-import ZFVP.Syntax.FoundationEncoding
+module
+
+public import ZFVP.ModelTheory.InternalProgramListExt
+public import ZFVP.Syntax.UniformFormulaCodes
+public import ZFVP.Syntax.FoundationEncoding
+
+@[expose] public section
 
 /-! Uniform decoding of natural-number variable and binary-argument codes. -/
 

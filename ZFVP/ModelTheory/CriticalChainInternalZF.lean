@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CriticalChainLimit
-import ZFVP.ModelTheory.ElementaryCollection
+module
+
+public import ZFVP.ModelTheory.CriticalChainLimit
+public import ZFVP.ModelTheory.ElementaryCollection
+
+@[expose] public section
 
 /-! The union of the critical rank chain satisfies the full internal ZF schemas. -/
 

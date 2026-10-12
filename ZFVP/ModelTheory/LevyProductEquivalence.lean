@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LevyProductLemma
+module
+
+public import ZFVP.ModelTheory.LevyProductLemma
+
+@[expose] public section
 
 /-! The product factorization `V[G] ≃ V[G_β][G ∩ Coll(ω,[β,κ))]` over the ground model. -/
 

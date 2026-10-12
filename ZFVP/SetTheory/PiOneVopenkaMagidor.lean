@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.DomainTwoMarkerRankClass
-import ZFVP.SetTheory.MagidorFailureClassFormula
-import ZFVP.SetTheory.MagidorLemmaThreeOne
-import ZFVP.SetTheory.FormulaFamilyRank
+module
+
+public import ZFVP.SetTheory.DomainTwoMarkerRankClass
+public import ZFVP.SetTheory.MagidorFailureClassFormula
+public import ZFVP.SetTheory.MagidorLemmaThreeOne
+public import ZFVP.SetTheory.FormulaFamilyRank
+
+@[expose] public section
 
 /-! # The `Pi_1` case of Bagaria's Theorem 4.3(2)
 

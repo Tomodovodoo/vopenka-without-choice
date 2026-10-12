@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseCapturedGenericImage
+module
+
+public import ZFVP.ModelTheory.WoodinSparseCapturedGenericImage
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

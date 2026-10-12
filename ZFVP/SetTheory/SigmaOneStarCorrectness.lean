@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.Cn
-import ZFVP.Syntax.UniformBoundedCodes
+module
+
+public import ZFVP.SetTheory.Cn
+public import ZFVP.Syntax.UniformBoundedCodes
+
+@[expose] public section
 
 /-! The strengthened Sigma-one reflection of Spoerl, Definition 20.
 The bounded formulas are internal codes, including nonstandard codes. -/

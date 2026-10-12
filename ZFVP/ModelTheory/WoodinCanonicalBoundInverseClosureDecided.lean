@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinCanonicalBoundInverseClosure
-import ZFVP.ModelTheory.WoodinCanonicalBoundDecision
+module
+
+public import ZFVP.ModelTheory.WoodinCanonicalBoundInverseClosure
+public import ZFVP.ModelTheory.WoodinCanonicalBoundDecision
+
+@[expose] public section
 
 /-! The canonical quotient bound at the new inverse-limit coordinate, with a raw comparison
 premise that carries the decision property.

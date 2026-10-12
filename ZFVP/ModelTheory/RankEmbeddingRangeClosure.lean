@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ElementaryRange
-import ZFVP.ModelTheory.RankEmbeddingPairPreimages
+module
+
+public import ZFVP.ModelTheory.ElementaryRange
+public import ZFVP.ModelTheory.RankEmbeddingPairPreimages
+
+@[expose] public section
 
 /-! Function closure of a small rank embedding's range. Pulling a function
 back through the inverse graph gives a function in the source rank. -/

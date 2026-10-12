@@ -1,6 +1,10 @@
-import ZFVP.Syntax.CanonicalEqualityAxioms
-import ZFVP.ModelTheory.CodedStructureSequentSoundness
-import ZFVP.ModelTheory.InternalCodedProofSupport
+module
+
+public import ZFVP.Syntax.CanonicalEqualityAxioms
+public import ZFVP.ModelTheory.CodedStructureSequentSoundness
+public import ZFVP.ModelTheory.InternalCodedProofSupport
+
+@[expose] public section
 
 /-! The internally finite open sequent checker with explicit canonical
 equality axioms. These definitions strengthen consistency of raw syntax. -/

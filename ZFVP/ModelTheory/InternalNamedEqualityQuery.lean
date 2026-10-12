@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalNamedQueryContext
+module
+
+public import ZFVP.ModelTheory.InternalNamedQueryContext
+
+@[expose] public section
 
 /-! Equality with one fixed name as a unary named query. -/
 

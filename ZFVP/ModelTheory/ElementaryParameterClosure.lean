@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ElementaryBoundedWitness
+module
+
+public import ZFVP.ModelTheory.ElementaryBoundedWitness
+
+@[expose] public section
 
 /-! Parameter and finite-pair closure for elementary submodels of transitive sets. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.StandardOmegaCodedProofs
+module
+
+public import ZFVP.ModelTheory.StandardOmegaCodedProofs
+
+@[expose] public section
 
 /-! Boolean inversion for finite coded proofs. These proofs treat each raw
 formula code as a formula; exact encoding by external syntax is unnecessary. -/

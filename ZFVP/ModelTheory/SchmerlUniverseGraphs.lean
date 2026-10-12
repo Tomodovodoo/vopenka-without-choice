@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlStandardOmega
-import ZFVP.SetTheory.CountableSets
-import Mathlib.Basic.Countable.Small
+module
+
+public import ZFVP.ModelTheory.SchmerlStandardOmega
+public import ZFVP.SetTheory.CountableSets
+public import Mathlib.Basic.Countable.Small
+
+@[expose] public section
 
 /-! External functions on a set-sized universe carrier have actual internal
 graphs. For this standard universe, internal and external countability agree. -/

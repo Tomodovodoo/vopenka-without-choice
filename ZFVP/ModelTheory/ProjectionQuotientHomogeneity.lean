@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ProjectionQuotientAutomorphism
+module
+
+public import ZFVP.ModelTheory.ProjectionQuotientAutomorphism
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

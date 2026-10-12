@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ClassFormulaForcing
+module
+
+public import ZFVP.SetTheory.ClassFormulaForcing
+
+@[expose] public section
 
 namespace ZFVP
 

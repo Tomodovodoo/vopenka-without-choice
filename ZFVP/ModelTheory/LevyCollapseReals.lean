@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.LevyCollapseSubmodel
-import ZFVP.ModelTheory.ForcingSmallUltrafilter
-import ZFVP.ModelTheory.GenericRegularForcing
-import ZFVP.SetTheory.LevyCollapseAntichainSupport
+module
+
+public import ZFVP.ModelTheory.LevyCollapseSubmodel
+public import ZFVP.ModelTheory.ForcingSmallUltrafilter
+public import ZFVP.ModelTheory.GenericRegularForcing
+public import ZFVP.SetTheory.LevyCollapseAntichainSupport
+
+@[expose] public section
 
 /-! Every real of the Levy collapse extension lies in a bounded stage `V[G_β]`
 (lem:Solovay-localization, the real-parameter step): the decisions about `ň ∈ τ` for all `n`

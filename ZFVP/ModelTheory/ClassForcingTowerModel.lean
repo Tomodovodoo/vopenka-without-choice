@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ClassForcingTowerBoundedModels
-import ZFVP.ModelTheory.MembershipDirectedLimit
+module
+
+public import ZFVP.ModelTheory.ClassForcingTowerBoundedModels
+public import ZFVP.ModelTheory.MembershipDirectedLimit
+
+@[expose] public section
 
 namespace ZFVP
 

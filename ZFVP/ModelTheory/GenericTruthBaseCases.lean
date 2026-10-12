@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.GenericInternalAtomicTruth
-import ZFVP.ModelTheory.InternalGenericTruthPredicate
+module
+
+public import ZFVP.ModelTheory.GenericInternalAtomicTruth
+public import ZFVP.ModelTheory.InternalGenericTruthPredicate
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

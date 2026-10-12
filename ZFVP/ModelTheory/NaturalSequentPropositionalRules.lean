@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.NaturalSequentSemantics
-import ZFVP.ModelTheory.InternalNegationProgram
-import ZFVP.Syntax.NegationSemantics
+module
+
+public import ZFVP.ModelTheory.NaturalSequentSemantics
+public import ZFVP.ModelTheory.InternalNegationProgram
+public import ZFVP.Syntax.NegationSemantics
+
+@[expose] public section
 
 /-! Soundness of the propositional natural-code LK rules on all internal formula codes. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseCarrierRecovery
-import ZFVP.ModelTheory.WoodinSparseCodeCompatibility
-import ZFVP.ModelTheory.WoodinSparseOwnRank
+module
+
+public import ZFVP.ModelTheory.WoodinSparseCarrierRecovery
+public import ZFVP.ModelTheory.WoodinSparseCodeCompatibility
+public import ZFVP.ModelTheory.WoodinSparseOwnRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

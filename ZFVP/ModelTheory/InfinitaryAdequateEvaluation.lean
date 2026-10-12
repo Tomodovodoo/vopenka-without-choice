@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryAdequateGenericChain
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateGenericChain
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

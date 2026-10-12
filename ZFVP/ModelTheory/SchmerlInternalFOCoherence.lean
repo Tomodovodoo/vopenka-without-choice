@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalQuantifierAxioms
-import ZFVP.Syntax.FormulaInversion
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalQuantifierAxioms
+public import ZFVP.Syntax.FormulaInversion
+
+@[expose] public section
 
 /-! Syntactic coherence between the finite first-order codes and the
 infinitary constructors. Embedded first-order formulas do not behave as

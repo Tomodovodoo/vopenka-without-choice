@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramSyntaxChecks
-import ZFVP.Syntax.PrimitiveProgramListMembership
+module
+
+public import ZFVP.Syntax.PrimitiveProgramSyntaxChecks
+public import ZFVP.Syntax.PrimitiveProgramListMembership
+
+@[expose] public section
 
 /-! Finite conjunction and Boolean normalization for explicit proof-checker tests. -/
 

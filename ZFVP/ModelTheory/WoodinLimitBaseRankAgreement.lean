@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TransitiveZFLimitColumns
-import ZFVP.ModelTheory.TransitiveZFInaccessible
+module
+
+public import ZFVP.ModelTheory.TransitiveZFLimitColumns
+public import ZFVP.ModelTheory.TransitiveZFInaccessible
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

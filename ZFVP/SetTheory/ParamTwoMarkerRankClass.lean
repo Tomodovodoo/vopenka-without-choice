@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.PiTwoMarkerRankClass
+module
+
+public import ZFVP.SetTheory.PiTwoMarkerRankClass
+
+@[expose] public section
 
 /-! The two-marker rank class of `ZFVP.SetTheory.PiTwoMarkerRankClass`, with the base parameter
 `ρ` made visible to the side condition.

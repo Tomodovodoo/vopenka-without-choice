@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedDirectedDefinitionTransfer
-import ZFVP.ModelTheory.SchmerlInternalCofinalSequence
-import ZFVP.ModelTheory.SchmerlInternalRubinChain
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedDirectedDefinitionTransfer
+public import ZFVP.ModelTheory.SchmerlInternalCofinalSequence
+public import ZFVP.ModelTheory.SchmerlInternalRubinChain
+
+@[expose] public section
 
 /-! The first Rubin clause follows from the actual elementary chain and its
 successor bounds. The witness is an actual graph of least ordinal points. -/

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalHenkinStep
-import ZFVP.ModelTheory.SchmerlInternalCodedSyntaxCountable
-import ZFVP.SetTheory.SequenceCollapseAbsorption
+module
+
+public import ZFVP.ModelTheory.InternalHenkinStep
+public import ZFVP.ModelTheory.SchmerlInternalCodedSyntaxCountable
+public import ZFVP.SetTheory.SequenceCollapseAbsorption
+
+@[expose] public section
 
 /-! The Henkin construction is an actual internal function on omega. Its
 recursion uses the definable decision and witness operation. -/

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.DerivedUltrafilter
+module
+
+public import ZFVP.ModelTheory.DerivedUltrafilter
+
+@[expose] public section
 
 /-! Completeness of the derived ultrafilter for every internal ordinal index below the critical point. -/
 

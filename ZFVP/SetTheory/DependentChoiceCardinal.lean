@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.DependentChoiceCofinality
+module
+
+public import ZFVP.SetTheory.DependentChoiceCofinality
+
+@[expose] public section
 
 namespace ZFVP
 

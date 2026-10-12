@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.EnumeratedElementaryDiagram
-import ZFVP.ModelTheory.SchmerlElementaryExtraction
-import ZFVP.ModelTheory.SchmerlCodedDeadEndEquality
-import ZFVP.ModelTheory.InfinitaryKeislerCompleteness
+module
+
+public import ZFVP.ModelTheory.EnumeratedElementaryDiagram
+public import ZFVP.ModelTheory.SchmerlElementaryExtraction
+public import ZFVP.ModelTheory.SchmerlCodedDeadEndEquality
+public import ZFVP.ModelTheory.InfinitaryKeislerCompleteness
+
+@[expose] public section
 
 namespace ZFVP.Schmerl
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import Foundation.FirstOrder.Basic
+module
+
+public import Foundation.FirstOrder.Basic
+
+@[expose] public section
 
 /-! Consistency of a set of syntactic formulas (with free variables) over a theory of sentences.
 

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinIterationInvariant
-import ZFVP.SetTheory.ForcingIterationHistory
-import ZFVP.SetTheory.ForcingBoundCodeExtension
+module
+
+public import ZFVP.ModelTheory.WoodinIterationInvariant
+public import ZFVP.SetTheory.ForcingIterationHistory
+public import ZFVP.SetTheory.ForcingBoundCodeExtension
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

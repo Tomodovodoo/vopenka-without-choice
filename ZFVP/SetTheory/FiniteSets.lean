@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.InfiniteDependentChoice
+module
+
+public import ZFVP.SetTheory.InfiniteDependentChoice
+
+@[expose] public section
 
 /-! Finite-set induction and closure inside arbitrary ZF models. -/
 

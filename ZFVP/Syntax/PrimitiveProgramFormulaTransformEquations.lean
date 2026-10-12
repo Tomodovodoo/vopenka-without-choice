@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramFormulaTransformLimits
+module
+
+public import ZFVP.Syntax.PrimitiveProgramFormulaTransformLimits
+
+@[expose] public section
 
 /-! Constructor equations for formula transformation with any supplied argument program. -/
 

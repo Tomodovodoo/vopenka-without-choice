@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.CardinalSmallUnions
-import ZFVP.SetTheory.DependentChoiceCardinal
-import ZFVP.SetTheory.NaturalPairing
+module
+
+public import ZFVP.SetTheory.CardinalSmallUnions
+public import ZFVP.SetTheory.DependentChoiceCardinal
+public import ZFVP.SetTheory.NaturalPairing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

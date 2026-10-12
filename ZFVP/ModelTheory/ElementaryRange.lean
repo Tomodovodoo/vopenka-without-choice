@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CodedMembershipIsomorphism
-import ZFVP.SetTheory.LowenheimSkolemCardinals
+module
+
+public import ZFVP.ModelTheory.CodedMembershipIsomorphism
+public import ZFVP.SetTheory.LowenheimSkolemCardinals
+
+@[expose] public section
 
 /-! The range of a coded membership embedding is elementary. If the
 source is transitive, its inverse graph is the transitive collapse. -/

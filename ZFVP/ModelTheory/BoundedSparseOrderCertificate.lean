@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.BoundedSparseCarrierCut
-import ZFVP.ModelTheory.BoundedSparseComparison
-import ZFVP.SetTheory.NameHierarchyTableFormula
+module
+
+public import ZFVP.ModelTheory.BoundedSparseCarrierCut
+public import ZFVP.ModelTheory.BoundedSparseComparison
+public import ZFVP.SetTheory.NameHierarchyTableFormula
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

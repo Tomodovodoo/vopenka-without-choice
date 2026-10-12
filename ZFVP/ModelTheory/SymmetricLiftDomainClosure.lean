@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SymmetricLiftStructureDomain
-import ZFVP.ModelTheory.TransitiveZFUnionName
-import ZFVP.SetTheory.EndExtensionCoding
+module
+
+public import ZFVP.ModelTheory.SymmetricLiftStructureDomain
+public import ZFVP.ModelTheory.TransitiveZFUnionName
+public import ZFVP.SetTheory.EndExtensionCoding
+
+@[expose] public section
 
 /-! The internal symmetric lift domain contains all internally finite assignments. -/
 

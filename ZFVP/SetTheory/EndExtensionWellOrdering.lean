@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.EndExtensionFinite
-import ZFVP.SetTheory.WellOrderedSelection
+module
+
+public import ZFVP.SetTheory.EndExtensionFinite
+public import ZFVP.SetTheory.WellOrderedSelection
+
+@[expose] public section
 
 namespace ZFVP
 

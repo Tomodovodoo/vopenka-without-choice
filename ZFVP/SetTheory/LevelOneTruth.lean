@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.BoundedTruth
-import ZFVP.SetTheory.LevyAbsoluteness
-import ZFVP.SetTheory.FormulaReflection
+module
+
+public import ZFVP.SetTheory.BoundedTruth
+public import ZFVP.SetTheory.LevyAbsoluteness
+public import ZFVP.SetTheory.FormulaReflection
+
+@[expose] public section
 
 /-! Definable level-one truth predicates, with correctness on external finite syntax.
 The proofs use transitive-set absoluteness and the proved finite reflection theorem. -/

@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ForcingDirectedMaps
-import ZFVP.SetTheory.ForcingThreadMaps
-import ZFVP.SetTheory.ForcingSectionThread
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.SetTheory.ForcingDirectedMaps
+public import ZFVP.SetTheory.ForcingThreadMaps
+public import ZFVP.SetTheory.ForcingSectionThread
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

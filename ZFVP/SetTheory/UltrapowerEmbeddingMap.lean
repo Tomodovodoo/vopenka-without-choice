@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.UltrapowerCollapse
+module
+
+public import ZFVP.SetTheory.UltrapowerCollapse
+
+@[expose] public section
 
 /-! The canonical map of the internal ultrapower, as an internal set function.
 

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.AtomicTruthTables
-import ZFVP.SetTheory.BoundedCodingPrimitives
-import ZFVP.SetTheory.FiniteCodingClosure
+module
+
+public import ZFVP.SetTheory.AtomicTruthTables
+public import ZFVP.SetTheory.BoundedCodingPrimitives
+public import ZFVP.SetTheory.FiniteCodingClosure
+
+@[expose] public section
 
 /-! The equations for an atomic equality table are bounded in a transitive support. -/
 

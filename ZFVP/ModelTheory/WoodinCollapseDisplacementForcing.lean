@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinCollapseDisplacementName
-import ZFVP.ModelTheory.WoodinTailNameActionTransfer
-import ZFVP.ModelTheory.ForcingEntailment
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseDisplacementName
+public import ZFVP.ModelTheory.WoodinTailNameActionTransfer
+public import ZFVP.ModelTheory.ForcingEntailment
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

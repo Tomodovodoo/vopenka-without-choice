@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinIterationInvariant
-import ZFVP.ModelTheory.ForcingSuccessorDefinability
-import ZFVP.SetTheory.ForcingIterationDefinability
+module
+
+public import ZFVP.ModelTheory.WoodinIterationInvariant
+public import ZFVP.ModelTheory.ForcingSuccessorDefinability
+public import ZFVP.SetTheory.ForcingIterationDefinability
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

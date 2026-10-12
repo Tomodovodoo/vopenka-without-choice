@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.BooleanOrbitConeIsomorphism
-import ZFVP.ModelTheory.LevyComplementCone
-import ZFVP.ModelTheory.LevyOrbitTransferReduction
+module
+
+public import ZFVP.ModelTheory.BooleanOrbitConeIsomorphism
+public import ZFVP.ModelTheory.LevyComplementCone
+public import ZFVP.ModelTheory.LevyOrbitTransferReduction
+
+@[expose] public section
 
 /-! The cone hypothesis of the Solovay corollary, reduced to an alignment statement about regular
 cones of the Levy collapse.

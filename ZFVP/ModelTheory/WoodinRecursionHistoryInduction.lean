@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinRecursionHistory
-import ZFVP.ModelTheory.WoodinIterationDefinability
+module
+
+public import ZFVP.ModelTheory.WoodinRecursionHistory
+public import ZFVP.ModelTheory.WoodinIterationDefinability
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

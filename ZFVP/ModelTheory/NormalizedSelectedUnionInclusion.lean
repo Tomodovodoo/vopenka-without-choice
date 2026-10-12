@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LocalSelectedUnionInclusion
+module
+
+public import ZFVP.ModelTheory.LocalSelectedUnionInclusion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CohenInfiniteSet
-import ZFVP.SetTheory.CohenNameSupport
+module
+
+public import ZFVP.ModelTheory.CohenInfiniteSet
+public import ZFVP.SetTheory.CohenNameSupport
+
+@[expose] public section
 
 namespace ZFVP
 

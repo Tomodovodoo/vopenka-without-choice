@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.BoundedNameAction
-import ZFVP.SetTheory.DeltaOneNameClosure
-import ZFVP.Syntax.SigmaOneBoundedModelTruth
+module
+
+public import ZFVP.SetTheory.BoundedNameAction
+public import ZFVP.SetTheory.DeltaOneNameClosure
+public import ZFVP.Syntax.SigmaOneBoundedModelTruth
+
+@[expose] public section
 
 /-! Name action has both Sigma_1 answers on names and condition functions. -/
 

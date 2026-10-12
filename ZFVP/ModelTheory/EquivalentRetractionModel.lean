@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingRetractionModel
-import ZFVP.SetTheory.NameActionEquivalentConditions
-import ZFVP.SetTheory.MembershipIso
+module
+
+public import ZFVP.ModelTheory.ForcingRetractionModel
+public import ZFVP.SetTheory.NameActionEquivalentConditions
+public import ZFVP.SetTheory.MembershipIso
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

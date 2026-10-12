@@ -9,4 +9,4 @@ name = "Foundation"
 [[require]]
 name = "mathlib"
 git = "https://github.com/leanprover-community/mathlib4"
-rev = "83abb3e776bdefcbc447a1e44d0debe4010039e5"
+rev = "065356127b1dc0016f66b7283ce0ce2c4055aa55"

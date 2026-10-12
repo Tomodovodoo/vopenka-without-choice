@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.EmbeddingSetOperations
-import ZFVP.ModelTheory.LimitCriticalPoint
+module
+
+public import ZFVP.ModelTheory.EmbeddingSetOperations
+public import ZFVP.ModelTheory.LimitCriticalPoint
+
+@[expose] public section
 
 /-! The internal ultrafilter derived from a critical point of a rank embedding. -/
 

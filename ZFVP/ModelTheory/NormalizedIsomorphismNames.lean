@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.NormalizedMapDefinability
-import ZFVP.ModelTheory.ForcingIsomorphismFormula
-import ZFVP.ModelTheory.ForcingNameActionRank
+module
+
+public import ZFVP.ModelTheory.NormalizedMapDefinability
+public import ZFVP.ModelTheory.ForcingIsomorphismFormula
+public import ZFVP.ModelTheory.ForcingNameActionRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

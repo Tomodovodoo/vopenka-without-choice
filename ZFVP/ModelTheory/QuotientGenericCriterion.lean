@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SeparativeGeneric
-import ZFVP.ModelTheory.ProjectionQuotientReconstruction
-import ZFVP.ModelTheory.ProjectionQuotientGeneric
+module
+
+public import ZFVP.ModelTheory.SeparativeGeneric
+public import ZFVP.ModelTheory.ProjectionQuotientReconstruction
+public import ZFVP.ModelTheory.ProjectionQuotientGeneric
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

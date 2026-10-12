@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingNormalizationFamily
-import ZFVP.ModelTheory.ForcingThreadRetraction
-import ZFVP.ModelTheory.LimitCodeDefinability
+module
+
+public import ZFVP.ModelTheory.ForcingNormalizationFamily
+public import ZFVP.ModelTheory.ForcingThreadRetraction
+public import ZFVP.ModelTheory.LimitCodeDefinability
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

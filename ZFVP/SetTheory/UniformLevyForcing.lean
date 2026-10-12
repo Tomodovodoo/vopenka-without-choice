@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.SameLevelForcing
+module
+
+public import ZFVP.SetTheory.SameLevelForcing
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 universe u

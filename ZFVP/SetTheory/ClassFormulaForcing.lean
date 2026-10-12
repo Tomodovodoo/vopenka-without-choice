@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ForcingAtoms
+module
+
+public import ZFVP.SetTheory.ForcingAtoms
+
+@[expose] public section
 
 namespace ZFVP
 

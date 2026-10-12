@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ProjectionQuotient
-import ZFVP.SetTheory.ForcingSeparativeOrder
-import ZFVP.SetTheory.ForcingClosure
-import ZFVP.SetTheory.ForcingSectionThread
+module
+
+public import ZFVP.ModelTheory.ProjectionQuotient
+public import ZFVP.SetTheory.ForcingSeparativeOrder
+public import ZFVP.SetTheory.ForcingClosure
+public import ZFVP.SetTheory.ForcingSectionThread
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

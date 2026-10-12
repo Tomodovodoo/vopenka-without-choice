@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinNormalizedInverseBase
-import ZFVP.ModelTheory.WoodinRecodedDirect
-import ZFVP.ModelTheory.ForcingRecodedInverse
+module
+
+public import ZFVP.ModelTheory.WoodinNormalizedInverseBase
+public import ZFVP.ModelTheory.WoodinRecodedDirect
+public import ZFVP.ModelTheory.ForcingRecodedInverse
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

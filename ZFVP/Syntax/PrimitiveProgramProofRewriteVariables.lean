@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramProofRewriteTerm
+module
+
+public import ZFVP.Syntax.PrimitiveProgramProofRewriteTerm
+
+@[expose] public section
 
 /-! Variable equations used to identify the internal eigenvariable and witness substitutions. -/
 

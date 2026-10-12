@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingClosure
-import ZFVP.SetTheory.DependentChoiceSerialPaths
-import ZFVP.SetTheory.FunctionComposition
+module
+
+public import ZFVP.SetTheory.ForcingClosure
+public import ZFVP.SetTheory.DependentChoiceSerialPaths
+public import ZFVP.SetTheory.FunctionComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

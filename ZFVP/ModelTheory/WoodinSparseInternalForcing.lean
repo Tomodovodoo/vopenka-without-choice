@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.FiniteRankInternalForcing
+module
+
+public import ZFVP.ModelTheory.FiniteRankInternalForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

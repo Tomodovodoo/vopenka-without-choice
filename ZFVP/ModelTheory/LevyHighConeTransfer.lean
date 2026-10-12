@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.LevyOrbitConeSupportGeneral
-import ZFVP.ModelTheory.LevyHighConeDensity
-import ZFVP.ModelTheory.LevyComplementRelativeIsomorphism
-import ZFVP.ModelTheory.LevySwapConeTransfer
+module
+
+public import ZFVP.ModelTheory.LevyOrbitConeSupportGeneral
+public import ZFVP.ModelTheory.LevyHighConeDensity
+public import ZFVP.ModelTheory.LevyComplementRelativeIsomorphism
+public import ZFVP.ModelTheory.LevySwapConeTransfer
+
+@[expose] public section
 
 /-! The cone hypothesis of the Solovay corollary for the Levy collapse, with nothing left open.
 

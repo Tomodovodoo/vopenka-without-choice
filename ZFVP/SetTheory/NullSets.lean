@@ -1,11 +1,15 @@
-import ZFVP.SetTheory.LevelCounting
-import ZFVP.SetTheory.NaturalAdditionDefinable
-import ZFVP.SetTheory.NaturalPredecessor
-import ZFVP.SetTheory.NaturalPairing
-import ZFVP.SetTheory.FiniteNaturalSets
-import ZFVP.SetTheory.InternalChoice
-import ZFVP.SetTheory.SequenceCollapseAbsorption
-import ZFVP.SetTheory.PerfectSetCore
+module
+
+public import ZFVP.SetTheory.LevelCounting
+public import ZFVP.SetTheory.NaturalAdditionDefinable
+public import ZFVP.SetTheory.NaturalPredecessor
+public import ZFVP.SetTheory.NaturalPairing
+public import ZFVP.SetTheory.FiniteNaturalSets
+public import ZFVP.SetTheory.InternalChoice
+public import ZFVP.SetTheory.SequenceCollapseAbsorption
+public import ZFVP.SetTheory.PerfectSetCore
+
+@[expose] public section
 
 /-! Null sets in the coded sense: geometric subadditivity `Σ 2^{-(m+j+1)} ≤ 2^{-m}`, null sets from
 finite small covers, and countable unions of null sets under internal choice. -/

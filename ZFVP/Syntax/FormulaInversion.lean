@@ -1,4 +1,8 @@
-import ZFVP.Syntax.FormulaCases
+module
+
+public import ZFVP.Syntax.FormulaCases
+
+@[expose] public section
 
 /-! Constructor inversion for internal formulas. -/
 

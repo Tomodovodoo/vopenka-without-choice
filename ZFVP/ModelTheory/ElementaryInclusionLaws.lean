@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ElementaryInclusion
+module
+
+public import ZFVP.ModelTheory.ElementaryInclusion
+
+@[expose] public section
 
 /-! Elementary inclusions preserve satisfaction on the original assignment graph. -/
 

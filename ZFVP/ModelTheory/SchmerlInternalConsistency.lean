@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalProofs
-import ZFVP.ModelTheory.SchmerlInternalBooleanConsistency
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalProofs
+public import ZFVP.ModelTheory.SchmerlInternalBooleanConsistency
+
+@[expose] public section
 
 /-! Satisfiability in an end extension rules out an old coded refutation in
 the current calculus with Q countable union, two-points and interchange. No omega-one preservation is needed for this

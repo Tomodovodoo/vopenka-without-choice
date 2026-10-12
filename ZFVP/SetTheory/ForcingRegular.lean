@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingNegation
-import ZFVP.SetTheory.AtomicMembership
+module
+
+public import ZFVP.SetTheory.ForcingNegation
+public import ZFVP.SetTheory.AtomicMembership
+
+@[expose] public section
 
 namespace ZFVP
 

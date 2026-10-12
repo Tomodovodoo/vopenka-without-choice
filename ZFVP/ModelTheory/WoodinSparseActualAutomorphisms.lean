@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseAutomorphismSuccessor
-import ZFVP.ModelTheory.WoodinSparseOwnCutoffs
+module
+
+public import ZFVP.ModelTheory.WoodinSparseAutomorphismSuccessor
+public import ZFVP.ModelTheory.WoodinSparseOwnCutoffs
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

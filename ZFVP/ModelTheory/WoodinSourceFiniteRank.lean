@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSourceCode
-import ZFVP.ModelTheory.ForcingIterationFiniteRank
-import ZFVP.SetTheory.FiniteCodingClosure
+module
+
+public import ZFVP.ModelTheory.WoodinSourceCode
+public import ZFVP.ModelTheory.ForcingIterationFiniteRank
+public import ZFVP.SetTheory.FiniteCodingClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.InternalRationalField
-import Mathlib.Algebra.Order.Field.Basic
+module
+
+public import ZFVP.SetTheory.InternalRationalField
+public import Mathlib.Algebra.Order.Field.Basic
+
+@[expose] public section
 
 /-! Rational bounds by elements of the model's whole omega. These statements
 do not assert external Archimedeanness of a nonstandard model. -/

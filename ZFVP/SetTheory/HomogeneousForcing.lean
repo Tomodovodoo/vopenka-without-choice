@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingFormulaNameAction
-import ZFVP.SetTheory.NameActionClosure
-import ZFVP.SetTheory.CheckNames
+module
+
+public import ZFVP.SetTheory.ForcingFormulaNameAction
+public import ZFVP.SetTheory.NameActionClosure
+public import ZFVP.SetTheory.CheckNames
+
+@[expose] public section
 
 /-! Weak homogeneity: when any two conditions have compatible automorphic images (by automorphisms
 fixing the top), every statement about check names that is forced by some condition is forced by

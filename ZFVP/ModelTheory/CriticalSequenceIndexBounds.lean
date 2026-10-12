@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ShiftedCriticalEmbeddings
+module
+
+public import ZFVP.ModelTheory.ShiftedCriticalEmbeddings
+
+@[expose] public section
 
 /-! Bounds for shifted internal critical-sequence indices. -/
 

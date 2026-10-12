@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.ForcingConjugation
-import ZFVP.SetTheory.FiniteSets
-import ZFVP.SetTheory.AtomicForcingAction
-import ZFVP.SetTheory.AtomicEqualityTransitivity
-import ZFVP.SetTheory.ForcingFormulaNameAction
+module
+
+public import ZFVP.SetTheory.ForcingConjugation
+public import ZFVP.SetTheory.FiniteSets
+public import ZFVP.SetTheory.AtomicForcingAction
+public import ZFVP.SetTheory.AtomicEqualityTransitivity
+public import ZFVP.SetTheory.ForcingFormulaNameAction
+
+@[expose] public section
 
 /-! Stabilizers of names up to forced equality (Karagila–Schilhan's `res(ẋ)`), and the normal
 filter they generate on the names satisfying a fixed formula `φ`: the Solovay-style symmetric

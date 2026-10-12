@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ClassForcingVopenkaDensitySharp
-import ZFVP.SetTheory.SupercompactPiOneVopenka
+module
+
+public import ZFVP.ModelTheory.ClassForcingVopenkaDensitySharp
+public import ZFVP.SetTheory.SupercompactPiOneVopenka
+
+@[expose] public section
 
 /-! The class-forcing density criterion at every positive standard fragment. -/
 

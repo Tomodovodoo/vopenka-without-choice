@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.EndExtensionCoding
+module
+
+public import ZFVP.SetTheory.EndExtensionCoding
+
+@[expose] public section
 
 /-! Set operations used in arbitrary language and structure codes are absolute under end extensions. -/
 

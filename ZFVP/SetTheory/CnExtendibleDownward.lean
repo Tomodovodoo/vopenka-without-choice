@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.EmbeddingCnTransfer
-import ZFVP.ModelTheory.CriticalPointRestriction
+module
+
+public import ZFVP.ModelTheory.EmbeddingCnTransfer
+public import ZFVP.ModelTheory.CriticalPointRestriction
+
+@[expose] public section
 
 /-! Positive C(n)-extendibility decreases with the correctness level, in ZF. -/
 

@@ -1,12 +1,16 @@
-import ZFVP.ModelTheory.ForcingExtensionDomain
-import ZFVP.ModelTheory.ProjectionClosedPreservation
-import ZFVP.ModelTheory.ProjectionRegularPreservation
-import ZFVP.ModelTheory.ProjectionStagePreservation
-import ZFVP.ModelTheory.WoodinFixedPointRank
-import ZFVP.ModelTheory.WoodinFixedPointRankQuotient
-import ZFVP.ModelTheory.WoodinSparseCapturedCutoffs
-import ZFVP.ModelTheory.WoodinSparseSourceTruthWindow
-import ZFVP.SetTheory.FiniteDictionarySourceBounds
+module
+
+public import ZFVP.ModelTheory.ForcingExtensionDomain
+public import ZFVP.ModelTheory.ProjectionClosedPreservation
+public import ZFVP.ModelTheory.ProjectionRegularPreservation
+public import ZFVP.ModelTheory.ProjectionStagePreservation
+public import ZFVP.ModelTheory.WoodinFixedPointRank
+public import ZFVP.ModelTheory.WoodinFixedPointRankQuotient
+public import ZFVP.ModelTheory.WoodinSparseCapturedCutoffs
+public import ZFVP.ModelTheory.WoodinSparseSourceTruthWindow
+public import ZFVP.SetTheory.FiniteDictionarySourceBounds
+
+@[expose] public section
 
 #check ZFVP.symmetricExtensionDomain_transitive
 #print axioms ZFVP.symmetricExtensionDomain_transitive

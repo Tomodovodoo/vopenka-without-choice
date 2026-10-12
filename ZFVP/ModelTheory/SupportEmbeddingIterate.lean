@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SupportStageEmbeddingAction
-import ZFVP.ModelTheory.CriticalPointRestriction
+module
+
+public import ZFVP.ModelTheory.SupportStageEmbeddingAction
+public import ZFVP.ModelTheory.CriticalPointRestriction
+
+@[expose] public section
 
 /-! Finite iterates of a coded embedding between rank stages.
 

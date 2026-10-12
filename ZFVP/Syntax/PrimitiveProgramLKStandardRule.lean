@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramLKStandardInputs
+module
+
+public import ZFVP.Syntax.PrimitiveProgramLKStandardInputs
+
+@[expose] public section
 
 /-! The explicit LK checker agrees with the standard typed rule witness format. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.CohenInfiniteSet
+module
+
+public import ZFVP.ModelTheory.CohenInfiniteSet
+
+@[expose] public section
 
 namespace ZFVP
 

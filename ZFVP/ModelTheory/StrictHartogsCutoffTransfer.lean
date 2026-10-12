@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.StrictHartogsPrefixCutoff
-import ZFVP.ModelTheory.ForcingHartogsUniform
+module
+
+public import ZFVP.ModelTheory.StrictHartogsPrefixCutoff
+public import ZFVP.ModelTheory.ForcingHartogsUniform
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

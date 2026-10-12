@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalReindexSubstitution
-import ZFVP.ModelTheory.InternalPrefixProgram
-import ZFVP.Syntax.PrimitiveProgramReindexRequirements
+module
+
+public import ZFVP.ModelTheory.InternalReindexSubstitution
+public import ZFVP.ModelTheory.InternalPrefixProgram
+public import ZFVP.Syntax.PrimitiveProgramReindexRequirements
+
+@[expose] public section
 
 /-! Internal syntax-check preservation for renaming and parameter-prefix programs. -/
 

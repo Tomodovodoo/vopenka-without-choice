@@ -1,9 +1,13 @@
-import ZFVP.SetTheory.LebesgueNull
-import ZFVP.SetTheory.SetUltrafilter
-import ZFVP.SetTheory.HartogsDictionary
-import ZFVP.SetTheory.ChoiceDictionary
-import ZFVP.SetTheory.VopenkaScheme
-import ZFVP.ModelTheory.CodedZFVPExternal
+module
+
+public import ZFVP.SetTheory.LebesgueNull
+public import ZFVP.SetTheory.SetUltrafilter
+public import ZFVP.SetTheory.HartogsDictionary
+public import ZFVP.SetTheory.ChoiceDictionary
+public import ZFVP.SetTheory.VopenkaScheme
+public import ZFVP.ModelTheory.CodedZFVPExternal
+
+@[expose] public section
 
 /-! The full target theory of the Solovay consistency corollary.
 

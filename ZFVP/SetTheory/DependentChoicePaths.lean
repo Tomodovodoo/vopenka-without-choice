@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.OrdinalDependentChoice
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.SetTheory.OrdinalDependentChoice
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 namespace ZFVP
 

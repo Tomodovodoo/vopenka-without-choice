@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.InternalFormulaTransformEquations
-import ZFVP.Syntax.FormulaSubstitutionDefinability
-import ZFVP.Syntax.FormulaSubstitutionEquations
-import ZFVP.ModelTheory.NaturalFormulaRequirementInduction
+module
+
+public import ZFVP.ModelTheory.InternalFormulaTransformEquations
+public import ZFVP.Syntax.FormulaSubstitutionDefinability
+public import ZFVP.Syntax.FormulaSubstitutionEquations
+public import ZFVP.ModelTheory.NaturalFormulaRequirementInduction
+
+@[expose] public section
 
 /-! A formula transformer agrees with internal substitution whenever its argument program does. -/
 

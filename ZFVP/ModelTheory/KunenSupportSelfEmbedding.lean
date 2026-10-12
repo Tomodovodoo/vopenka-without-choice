@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.KunenBoundedJonsson
-import ZFVP.ModelTheory.SupportStageEmbeddingAction
-import ZFVP.ModelTheory.LimitCriticalPoint
-import ZFVP.SetTheory.BoundedRankCriterionWitnesses
-import ZFVP.SetTheory.BoundedOrdinalOmega
-import ZFVP.SetTheory.FiniteDictionaryReflection
+module
+
+public import ZFVP.ModelTheory.KunenBoundedJonsson
+public import ZFVP.ModelTheory.SupportStageEmbeddingAction
+public import ZFVP.ModelTheory.LimitCriticalPoint
+public import ZFVP.SetTheory.BoundedRankCriterionWitnesses
+public import ZFVP.SetTheory.BoundedOrdinalOmega
+public import ZFVP.SetTheory.FiniteDictionaryReflection
+
+@[expose] public section
 
 /-! Kunen's contradiction at a rank stage that is only closed under successors.
 

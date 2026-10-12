@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryConstantTranslation
+module
+
+public import ZFVP.ModelTheory.InfinitaryConstantTranslation
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

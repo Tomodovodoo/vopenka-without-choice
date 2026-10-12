@@ -1,5 +1,9 @@
-import ZFVP.Syntax.MembershipSubstitutionGuards
-import ZFVP.Syntax.SubstitutionStateDefinability
+module
+
+public import ZFVP.Syntax.MembershipSubstitutionGuards
+public import ZFVP.Syntax.SubstitutionStateDefinability
+
+@[expose] public section
 
 /-! Internal bounded syntax is closed under capture-avoiding membership substitution. -/
 

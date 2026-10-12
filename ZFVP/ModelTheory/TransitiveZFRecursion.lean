@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TransitiveZFSetOperations
-import ZFVP.SetTheory.SubnameRecursion
-import ZFVP.SetTheory.MembershipRecursion
+module
+
+public import ZFVP.ModelTheory.TransitiveZFSetOperations
+public import ZFVP.SetTheory.SubnameRecursion
+public import ZFVP.SetTheory.MembershipRecursion
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.CriticalPoint
+module
+
+public import ZFVP.ModelTheory.CriticalPoint
+
+@[expose] public section
 
 /-! The supremum of the fixed ordinals of a rank embedding. -/
 

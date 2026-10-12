@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramLKNumerals
-import ZFVP.Syntax.PrimitiveProgramTheoryProof
+module
+
+public import ZFVP.Syntax.PrimitiveProgramLKNumerals
+public import ZFVP.Syntax.PrimitiveProgramTheoryProof
+
+@[expose] public section
 
 /-! Combining the axiom lists and LK certificates of accepted theory proofs. -/
 

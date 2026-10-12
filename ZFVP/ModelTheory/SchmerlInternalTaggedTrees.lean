@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalBranchNames
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalBranchNames
+
+@[expose] public section
 
 /-! Actual tagged sums of internal ranked trees and their full cofinal branches. -/
 

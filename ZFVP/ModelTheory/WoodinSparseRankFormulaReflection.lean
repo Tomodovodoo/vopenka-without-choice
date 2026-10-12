@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseGenericReflection
-import ZFVP.ModelTheory.WoodinSparseRankAgreement
-import ZFVP.ModelTheory.WoodinSparseEndpointZFC
+module
+
+public import ZFVP.ModelTheory.WoodinSparseGenericReflection
+public import ZFVP.ModelTheory.WoodinSparseRankAgreement
+public import ZFVP.ModelTheory.WoodinSparseEndpointZFC
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

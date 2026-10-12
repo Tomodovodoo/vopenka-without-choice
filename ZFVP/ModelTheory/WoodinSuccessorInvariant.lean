@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.WoodinSuccessorCode
-import ZFVP.ModelTheory.WoodinPrefixRegularForcing
-import ZFVP.ModelTheory.SaturatedWoodinPreservation
-import ZFVP.ModelTheory.WoodinPrefixSourceCutoff
-import ZFVP.ModelTheory.WoodinStrictPrefixCutoff
+module
+
+public import ZFVP.SetTheory.WoodinSuccessorCode
+public import ZFVP.ModelTheory.WoodinPrefixRegularForcing
+public import ZFVP.ModelTheory.SaturatedWoodinPreservation
+public import ZFVP.ModelTheory.WoodinPrefixSourceCutoff
+public import ZFVP.ModelTheory.WoodinStrictPrefixCutoff
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

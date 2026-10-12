@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ClassForcingTowerOrder
-import ZFVP.SetTheory.DenseEmbedding
+module
+
+public import ZFVP.SetTheory.ClassForcingTowerOrder
+public import ZFVP.SetTheory.DenseEmbedding
+
+@[expose] public section
 
 /-! Each bounded part of the proper-class direct limit is a set forcing.
 Its last stage is densely embedded, so a name with bounded stage support
