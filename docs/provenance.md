@@ -12,6 +12,5 @@ here. The historical scripts adapted the Apache-2.0 PalomarTemplate scripts at
 `128a6c5ce5f48622e69927ccd639cbff401022e8`. Their licence copy is retained in
 [scripts/LICENSE.Apache-2.0](../scripts/LICENSE.Apache-2.0). The root LICENSE supplies the Apache-2.0 licence for project code.
 
-Foundation's Lake `buildDir` points into the root `.lake/foundation-build` so
-the protected comparison can build this vendored path dependency without
-granting write access to its source directory.
+Foundation uses its standard `.lake/build` directory. Palomar grants build
+access to that directory while keeping the vendored sources read-only.

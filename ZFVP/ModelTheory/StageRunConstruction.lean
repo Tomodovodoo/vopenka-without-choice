@@ -87,7 +87,7 @@ theorem isPredIndex_succIndex (α : OmegaOne) : IsPredIndex α (succIndex α) :=
 
 /-- `ω₁` has a least index, since it is well founded and nonempty. -/
 theorem exists_leastIndex : ∃ α : OmegaOne, ¬ ∃ β, β < α := by
-  obtain ⟨α, -, hα⟩ := (IsWellFounded.wf (α := OmegaOne) (r := (· < ·))).has_min Set.univ
+  obtain ⟨α, -, hα⟩ := (wellFounded_lt (α := OmegaOne)).has_min Set.univ
     ⟨Classical.arbitrary OmegaOne, Set.mem_univ _⟩
   exact ⟨α, fun h ↦ hα h.choose (Set.mem_univ _) h.choose_spec⟩
 

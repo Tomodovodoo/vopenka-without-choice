@@ -50,7 +50,7 @@ theorem IsWoodinSupercompact.eventually_rank_localRestoration_iff {δ κ γ : V}
   have hn : checkName (∅ : V) γ ∈ hierarchy ξ := hnval ▸ (checkName (∅ : SetDomain (hierarchy ξ)) d).property
   have he := hall ξ (IsOrdinal.toIsTransitive.mem_trans hβη hηξ) hξ hPξ hn
   have hl := rank_woodinLocalRestoration_iff hs k d hdOrd
-  rw [hk, hd] at hl
+  simp only [hk, hd] at hl
   change IsWoodinLocalRestoration k d ↔ ∀ p ∈ woodinCollapse κ γ,
     p ∈ classForcingFormula (woodinCollapse κ γ) (woodinCollapseOrder κ γ)
       (IsLowRankForcingName (woodinCollapse κ γ) ξ) (by definability)

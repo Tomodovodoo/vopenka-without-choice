@@ -76,7 +76,7 @@ jobs:
         with:
           path: |
             .lake/build
-            .lake/foundation-build
+            vendor/Foundation/.lake/build
           key: proofs-${{ runner.os }}-${{ hashFiles('lean-toolchain', 'lake-manifest.json', 'vendor/Foundation/lakefile.toml') }}-${{ github.sha }}
           restore-keys: |
             proofs-${{ runner.os }}-${{ hashFiles('lean-toolchain', 'lake-manifest.json', 'vendor/Foundation/lakefile.toml') }}-
@@ -99,14 +99,14 @@ jobs:
         run: |
           df -h .
           free -h
-          du -sh .lake/build .lake/foundation-build .lake/packages .cache 2>/dev/null || true
+          du -sh .lake/build vendor/Foundation/.lake/build .lake/packages .cache 2>/dev/null || true
       - name: Preserve completed builds even if a later verification step fails
         if: always() && steps.proof-cache.outputs.cache-hit != 'true'
         uses: actions/cache/save@caa296126883cff596d87d8935842f9db880ef25
         with:
           path: |
             .lake/build
-            .lake/foundation-build
+            vendor/Foundation/.lake/build
           key: ${{ steps.proof-cache.outputs.cache-primary-key }}
   build:
     runs-on: ubuntu-24.04
@@ -135,7 +135,7 @@ jobs:
         with:
           path: |
             .lake/build
-            .lake/foundation-build
+            vendor/Foundation/.lake/build
           key: proofs-${{ runner.os }}-${{ hashFiles('lean-toolchain', 'lake-manifest.json', 'vendor/Foundation/lakefile.toml') }}-${{ github.sha }}-full
           restore-keys: |
             proofs-${{ runner.os }}-${{ hashFiles('lean-toolchain', 'lake-manifest.json', 'vendor/Foundation/lakefile.toml') }}-
@@ -161,5 +161,5 @@ jobs:
         with:
           path: |
             .lake/build
-            .lake/foundation-build
+            vendor/Foundation/.lake/build
           key: ${{ steps.proof-cache.outputs.cache-primary-key }}
