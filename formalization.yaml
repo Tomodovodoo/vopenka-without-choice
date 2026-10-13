@@ -1,8 +1,8 @@
 {
   "version": "v0.4",
   "project": {
-    "name": "VopÄ›nka's principle without choice",
-    "description": "Symmetric preservation of arbitrary-language VopÄ›nka's principle, equiconsistency of ZF+VP and ZFC+VP, and the dependent-choice and ordinary-real Solovay consistency consequences. All four selected result families have standalone mathlib-only statements with proved correspondence to the original formalization.",
+    "name": "Vopěnka's principle without choice",
+    "description": "Symmetric preservation of arbitrary-language Vopěnka's principle, equiconsistency of ZF+VP and ZFC+VP, and the dependent-choice and ordinary-real Solovay consistency consequences. All four selected result families have standalone mathlib-only statements with proved correspondence to the original formalization.",
     "authors": [
       "Tom de Groot"
     ],
@@ -24,12 +24,13 @@
   },
   "sources": [
     {
-      "title": "VopÄ›nka's Principle without Choice: Preservation under Symmetric Extensions",
+      "title": "Vopěnka's Principle without Choice: Preservation under Symmetric Extensions",
       "authors": [
         "Tom de Groot",
-        "Wojciech Aleksander WoÅ‚oszyn"
+        "Wojciech Aleksander Wołoszyn"
       ],
       "id": "https://arxiv.org/abs/2609.06856v2",
+      "location": "paper/vopenka_without_choice_V3.pdf",
       "type": "paper",
       "relationship": "adapts",
       "note": "Principal conclusions of the paper. Supporting constructions, model interpretation and exact exported-statement correspondence are given in paper/supplement.pdf."
