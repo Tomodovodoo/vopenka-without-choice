@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramListStandard
-import ZFVP.Syntax.NaturalLKRule
+module
+
+public import ZFVP.Syntax.PrimitiveProgramListStandard
+public import ZFVP.Syntax.NaturalLKRule
+
+@[expose] public section
 
 /-! Standard LK witnesses pass the explicit input checks and use the encoded Foundation rewrites. -/
 

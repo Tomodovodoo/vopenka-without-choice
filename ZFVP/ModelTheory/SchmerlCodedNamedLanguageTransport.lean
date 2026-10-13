@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedNamedLanguage
-import ZFVP.ModelTheory.ElementaryLanguageSymbols
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedNamedLanguage
+public import ZFVP.ModelTheory.ElementaryLanguageSymbols
+
+@[expose] public section
 
 set_option autoImplicit false
 namespace ZFVP.Schmerl

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingClosedDependentChoice
+module
+
+public import ZFVP.ModelTheory.ForcingClosedDependentChoice
+
+@[expose] public section
 
 namespace ZFVP
 

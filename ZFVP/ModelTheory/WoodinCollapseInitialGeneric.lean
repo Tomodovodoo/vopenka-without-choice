@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinCollapseProjection
-import ZFVP.ModelTheory.ForcingGeneric
+module
+
+public import ZFVP.SetTheory.WoodinCollapseProjection
+public import ZFVP.ModelTheory.ForcingGeneric
+
+@[expose] public section
 
 namespace ZFVP
 

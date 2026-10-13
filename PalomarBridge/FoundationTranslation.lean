@@ -1,6 +1,10 @@
-import PalomarBridge.Vocabulary
-import Foundation.FirstOrder.SetTheory.Basic.Misc
-import Mathlib.Tactic.FinCases
+module
+
+public import PalomarBridge.Vocabulary
+public import Foundation.FirstOrder.SetTheory.Basic.Misc
+public import Mathlib.Tactic.FinCases
+
+@[expose] public section
 
 /-! Translation of the independent membership syntax into Foundation syntax.
 This module is proof-side material and is not an allowed Challenge import. -/

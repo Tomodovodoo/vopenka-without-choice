@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.GenericBoundedTruth
-import ZFVP.ModelTheory.ProjectionNameTransport
-import ZFVP.SetTheory.DeltaOneBoundedTruth
+module
+
+public import ZFVP.ModelTheory.GenericBoundedTruth
+public import ZFVP.ModelTheory.ProjectionNameTransport
+public import ZFVP.SetTheory.DeltaOneBoundedTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

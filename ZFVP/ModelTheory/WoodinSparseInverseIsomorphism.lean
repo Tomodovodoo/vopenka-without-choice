@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseInverseStage
-import ZFVP.ModelTheory.WoodinSparseInverseTop
+module
+
+public import ZFVP.ModelTheory.WoodinSparseInverseStage
+public import ZFVP.ModelTheory.WoodinSparseInverseTop
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

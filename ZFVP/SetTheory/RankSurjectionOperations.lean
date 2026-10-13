@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.SmallCollapseSurjection
-import ZFVP.SetTheory.RankBounds
+module
+
+public import ZFVP.SetTheory.SmallCollapseSurjection
+public import ZFVP.SetTheory.RankBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

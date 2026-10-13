@@ -1,4 +1,8 @@
-import ZFVP.Syntax.FormulaRecursion
+module
+
+public import ZFVP.Syntax.FormulaRecursion
+
+@[expose] public section
 
 /-! Formula recursion carrying an internal natural-number depth. -/
 

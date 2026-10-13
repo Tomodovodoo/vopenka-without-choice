@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCofinalRanks
-import ZFVP.ModelTheory.SchmerlBranchPreservation
+module
+
+public import ZFVP.ModelTheory.SchmerlCofinalRanks
+public import ZFVP.ModelTheory.SchmerlBranchPreservation
+
+@[expose] public section
 
 /-! Branch definitions obtained by specializing only a cofinal rank restriction.
 This applies to rank orders of cofinality omega-one even when their bounded

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.SourceQuantifierBound
+module
+
+public import ZFVP.SetTheory.SourceQuantifierBound
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 @[simp] theorem sourceQuantifierCount_allItr {n} (k : ℕ) (φ : SetTheorySemisentence (n + k)) :

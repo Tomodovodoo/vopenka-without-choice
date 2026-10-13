@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlCodedCofinalSuccessor
-import ZFVP.ModelTheory.SchmerlInternalCodedChainElementarity
-import ZFVP.SetTheory.RegularOrdinalAddition
-import ZFVP.SetTheory.OrdinalLeftOne
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedCofinalSuccessor
+public import ZFVP.ModelTheory.SchmerlInternalCodedChainElementarity
+public import ZFVP.SetTheory.RegularOrdinalAddition
+public import ZFVP.SetTheory.OrdinalLeftOne
+
+@[expose] public section
 
 /-! Choose actual least ordinal upper bounds at successive stages, then
 shift past a parameter stage to obtain an actual cofinal strict sequence. -/

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinCoordinateTailEmpty
-import ZFVP.ModelTheory.InverseSplitProjection
+module
+
+public import ZFVP.ModelTheory.WoodinCoordinateTailEmpty
+public import ZFVP.ModelTheory.InverseSplitProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

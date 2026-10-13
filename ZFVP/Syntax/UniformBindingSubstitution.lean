@@ -1,6 +1,10 @@
-import ZFVP.Syntax.SubstitutionStates
-import ZFVP.Syntax.UniformTermSubstitution
-import ZFVP.Syntax.UniformAssignments
+module
+
+public import ZFVP.Syntax.SubstitutionStates
+public import ZFVP.Syntax.UniformTermSubstitution
+public import ZFVP.Syntax.UniformAssignments
+
+@[expose] public section
 
 /-! Shared definitions for lifting substitutions through binders. -/
 

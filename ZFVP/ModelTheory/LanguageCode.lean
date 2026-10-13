@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FunctionValue
-import ZFVP.SetTheory.FiniteSequences
+module
+
+public import ZFVP.SetTheory.FunctionValue
+public import ZFVP.SetTheory.FiniteSequences
+
+@[expose] public section
 
 /-! Set-coded first-order languages. Symbol sets are arbitrary internal sets;
 no enumeration or well-order of the symbols is part of the definition. -/

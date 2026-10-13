@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ClassForcingCompatibilityReduction
-import ZFVP.ModelTheory.ClassForcingDenseRestriction
+module
+
+public import ZFVP.ModelTheory.ClassForcingCompatibilityReduction
+public import ZFVP.ModelTheory.ClassForcingDenseRestriction
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

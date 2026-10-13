@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.LevySwapDeterminedSupport
-import ZFVP.ModelTheory.LevySupportValueBound
-import ZFVP.ModelTheory.LevyConePairArrangement
-import ZFVP.ModelTheory.LevyDeterminedTrace
+module
+
+public import ZFVP.ModelTheory.LevySwapDeterminedSupport
+public import ZFVP.ModelTheory.LevySupportValueBound
+public import ZFVP.ModelTheory.LevyConePairArrangement
+public import ZFVP.ModelTheory.LevyDeterminedTrace
+
+@[expose] public section
 
 /-! Value swaps of the Levy collapse in the forced stabilizer, and relative homogeneity for
 condition cones.

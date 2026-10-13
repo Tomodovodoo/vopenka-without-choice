@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ForcingMinimalSupport
-import ZFVP.SetTheory.ForcingStageThreadMap
-import ZFVP.SetTheory.ForcingIsomorphism
-import ZFVP.SetTheory.ForcingPullbackOrder
+module
+
+public import ZFVP.SetTheory.ForcingMinimalSupport
+public import ZFVP.SetTheory.ForcingStageThreadMap
+public import ZFVP.SetTheory.ForcingIsomorphism
+public import ZFVP.SetTheory.ForcingPullbackOrder
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

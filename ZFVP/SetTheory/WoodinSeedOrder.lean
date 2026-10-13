@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinSeedSupport
-import ZFVP.SetTheory.ForcingIsomorphism
+module
+
+public import ZFVP.SetTheory.WoodinSeedSupport
+public import ZFVP.SetTheory.ForcingIsomorphism
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlCodedInfinitarySemantics
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedInfinitarySemantics
+
+@[expose] public section
 
 /-! The Q-union and Q-interchange axioms hold for represented formulas.
 Their countable witness families are constructed inside the ambient model. -/

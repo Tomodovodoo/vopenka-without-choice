@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.CollapsingSystem
-import ZFVP.SetTheory.SequenceTree
-import ZFVP.SetTheory.WellFoundedRecursion
-import ZFVP.SetTheory.NaturalPredecessor
-import ZFVP.SetTheory.DenseEmbedding
+module
+
+public import ZFVP.SetTheory.CollapsingSystem
+public import ZFVP.SetTheory.SequenceTree
+public import ZFVP.SetTheory.WellFoundedRecursion
+public import ZFVP.SetTheory.NaturalPredecessor
+public import ZFVP.SetTheory.DenseEmbedding
+
+@[expose] public section
 
 /-! The tree-embedding lemma: a `λ`-splitting poset of size at most `λ` carrying a collapsing
 system for `λ` receives a dense embedding of the tree `λ^{<ω}`. The tree map is built by

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ReflectedPairWitnessTable
-import ZFVP.SetTheory.ForcingPairNames
-import ZFVP.SetTheory.RankBounds
+module
+
+public import ZFVP.ModelTheory.ReflectedPairWitnessTable
+public import ZFVP.SetTheory.ForcingPairNames
+public import ZFVP.SetTheory.RankBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

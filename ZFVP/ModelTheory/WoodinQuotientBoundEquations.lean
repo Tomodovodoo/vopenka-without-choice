@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinQuotientBoundRecursion
+module
+
+public import ZFVP.ModelTheory.WoodinQuotientBoundRecursion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.Syntax.BinaryRelationSemanticStandardness
-import ZFVP.ModelTheory.StandardSyntaxCodedZFModel
-import ZFVP.ModelTheory.CountableStructureUniverse
+module
+
+public import ZFVP.Syntax.BinaryRelationSemanticStandardness
+public import ZFVP.ModelTheory.StandardSyntaxCodedZFModel
+public import ZFVP.ModelTheory.CountableStructureUniverse
+
+@[expose] public section
 
 /-! Reifying full internal ZF from semantic standardness. This criterion is
 proved for Universe and allows the two internal encodings of equality. -/

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SymmetricLiftSyntax
-import ZFVP.Syntax.EndExtensionSatisfaction
-import ZFVP.Syntax.UniformSemanticTransport
+module
+
+public import ZFVP.ModelTheory.SymmetricLiftSyntax
+public import ZFVP.Syntax.EndExtensionSatisfaction
+public import ZFVP.Syntax.UniformSemanticTransport
+
+@[expose] public section
 
 /-! Transfer structure codes and full internal satisfaction through the ordinary lift. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.Syntax.MembershipRenamingConstructors
+module
+
+public import ZFVP.Syntax.MembershipRenamingConstructors
+
+@[expose] public section
 
 /-! Renaming an internal atomic membership formula renames both variable slots. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.LevyRecursionCertificates
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.SetTheory.LevyRecursionCertificates
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

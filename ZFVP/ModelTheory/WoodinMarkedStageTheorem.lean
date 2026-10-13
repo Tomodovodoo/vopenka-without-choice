@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinSparseSourceFactorization
-import ZFVP.ModelTheory.WoodinDirectedSourceTransfer
-import ZFVP.ModelTheory.WoodinFixedPointRankQuotient
-import ZFVP.ModelTheory.WoodinSparseEndpointZFC
+module
+
+public import ZFVP.ModelTheory.WoodinSparseSourceFactorization
+public import ZFVP.ModelTheory.WoodinDirectedSourceTransfer
+public import ZFVP.ModelTheory.WoodinFixedPointRankQuotient
+public import ZFVP.ModelTheory.WoodinSparseEndpointZFC
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

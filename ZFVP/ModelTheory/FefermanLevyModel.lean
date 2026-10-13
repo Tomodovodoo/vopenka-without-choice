@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.FefermanLevyNames
-import ZFVP.ModelTheory.SymmetricModelZF
-import ZFVP.ModelTheory.SymmetricModelOrdinals
-import ZFVP.SetTheory.AtomicForcingAction
-import ZFVP.SetTheory.EndExtensionCoding
+module
+
+public import ZFVP.SetTheory.FefermanLevyNames
+public import ZFVP.ModelTheory.SymmetricModelZF
+public import ZFVP.ModelTheory.SymmetricModelOrdinals
+public import ZFVP.SetTheory.AtomicForcingAction
+public import ZFVP.SetTheory.EndExtensionCoding
+
+@[expose] public section
 
 /-! The Feferman-Levy symmetric extension. A hereditarily symmetric name is fixed by the
 pointwise stabilizer of some stage; membership of check naturals in its value is then

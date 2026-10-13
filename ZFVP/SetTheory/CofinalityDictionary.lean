@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.MonotoneCofinality
-import ZFVP.SetTheory.CardinalDictionary
+module
+
+public import ZFVP.SetTheory.MonotoneCofinality
+public import ZFVP.SetTheory.CardinalDictionary
+
+@[expose] public section
 
 /-! Shared cofinality and infinite regular-cardinal definitions. -/
 

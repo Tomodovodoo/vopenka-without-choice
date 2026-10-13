@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.UltrapowerStage
-import ZFVP.SetTheory.UniformCollapse
-import ZFVP.SetTheory.MostowskiCollapse
-import ZFVP.SetTheory.InternalWellFounded
+module
+
+public import ZFVP.SetTheory.UltrapowerStage
+public import ZFVP.SetTheory.UniformCollapse
+public import ZFVP.SetTheory.MostowskiCollapse
+public import ZFVP.SetTheory.InternalWellFounded
+
+@[expose] public section
 
 /-! The Mostowski collapse of the a.e. membership relation of an internal ultrapower.
 

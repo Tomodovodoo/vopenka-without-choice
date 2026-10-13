@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.PiWitnessRankStages
-import ZFVP.SetTheory.PiOneWitnessRankBound
+module
+
+public import ZFVP.SetTheory.PiWitnessRankStages
+public import ZFVP.SetTheory.PiOneWitnessRankBound
+
+@[expose] public section
 
 /-! The outer rank and its leastness certificate preserve the witness formula's Pi level. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlNamedSeparationDensity
-import ZFVP.ModelTheory.InternalFiniteOmissionFormulas
-import ZFVP.ModelTheory.SchmerlCodedSourceBridge
+module
+
+public import ZFVP.ModelTheory.SchmerlNamedSeparationDensity
+public import ZFVP.ModelTheory.InternalFiniteOmissionFormulas
+public import ZFVP.ModelTheory.SchmerlCodedSourceBridge
+
+@[expose] public section
 
 /-! Every old source-finite set has a dense omission task over the whole
 upper-bound background. The finite induction takes place in the source model. -/

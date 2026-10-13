@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseSuccessorDisplacement
+module
+
+public import ZFVP.ModelTheory.WoodinSparseSuccessorDisplacement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

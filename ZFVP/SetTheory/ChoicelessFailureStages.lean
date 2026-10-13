@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ChoicelessFailureClub
-import ZFVP.SetTheory.FormulaReflection
+module
+
+public import ZFVP.SetTheory.ChoicelessFailureClub
+public import ZFVP.SetTheory.FormulaReflection
+
+@[expose] public section
 
 /-! Failure ranks with additional correctness, and their isolated successors.
 Additional correctness permits transport of C(n) by the rank embeddings. -/

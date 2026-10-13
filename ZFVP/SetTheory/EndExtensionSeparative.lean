@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.EndExtensionRelations
-import ZFVP.SetTheory.ForcingSeparativeOrder
+module
+
+public import ZFVP.SetTheory.EndExtensionRelations
+public import ZFVP.SetTheory.ForcingSeparativeOrder
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

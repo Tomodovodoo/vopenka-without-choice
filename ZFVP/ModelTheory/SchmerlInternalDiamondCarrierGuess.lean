@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalDiamondTruth
-import ZFVP.ModelTheory.SchmerlAcceptedGuessFamily
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalDiamondTruth
+public import ZFVP.ModelTheory.SchmerlAcceptedGuessFamily
+
+@[expose] public section
 
 /-! At a diamond point on the carrier-agreement club, the accepted pair
 is the exact trace of the guessed set and its full carrier complement. -/

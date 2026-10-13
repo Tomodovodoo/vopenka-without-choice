@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.WeaklyLSNoSmallCofinality
-import ZFVP.SetTheory.SuccessorRegularityCriterion
-import ZFVP.SetTheory.RankDomainCofinality
+module
+
+public import ZFVP.SetTheory.WeaklyLSNoSmallCofinality
+public import ZFVP.SetTheory.SuccessorRegularityCriterion
+public import ZFVP.SetTheory.RankDomainCofinality
+
+@[expose] public section
 
 /-! Usuba Theorem 1.2(1): the successor of a singular weakly LS cardinal is
 regular, and the rank Vκ cannot map cofinally into that successor. -/

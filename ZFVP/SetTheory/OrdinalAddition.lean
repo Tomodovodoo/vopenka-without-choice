@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.Hierarchy
+module
+
+public import ZFVP.SetTheory.Hierarchy
+
+@[expose] public section
 
 /-! Ordinal addition by internal ZF recursion. -/
 

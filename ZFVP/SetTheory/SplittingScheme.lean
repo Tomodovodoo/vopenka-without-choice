@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BaireCore
-import ZFVP.SetTheory.TreeEmbedding
+module
+
+public import ZFVP.SetTheory.BaireCore
+public import ZFVP.SetTheory.TreeEmbedding
+
+@[expose] public section
 
 /-! Binary splitting schemes below a condition: for a monotone assignment `τ` of finite binary
 sequences to conditions that splits below every condition, choose for each node two extensions

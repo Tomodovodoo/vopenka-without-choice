@@ -1,4 +1,8 @@
-import ZFVP.Syntax.SatisfactionStepEquations
+module
+
+public import ZFVP.Syntax.SatisfactionStepEquations
+
+@[expose] public section
 
 /-! The eight semantic clauses for valid internal formulas and bound assignments. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CheckNameTables
+module
+
+public import ZFVP.SetTheory.CheckNameTables
+
+@[expose] public section
 
 namespace ZFVP
 

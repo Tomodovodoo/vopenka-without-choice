@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseSeedQuotient
+module
+
+public import ZFVP.ModelTheory.WoodinSparseSeedQuotient
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

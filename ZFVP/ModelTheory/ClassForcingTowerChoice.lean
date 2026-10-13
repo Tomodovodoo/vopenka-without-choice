@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ClassForcingTowerSubsetStabilization
-import ZFVP.SetTheory.EndExtensionWellOrdering
-import ZFVP.SetTheory.WellOrderedSurjection
+module
+
+public import ZFVP.ModelTheory.ClassForcingTowerSubsetStabilization
+public import ZFVP.SetTheory.EndExtensionWellOrdering
+public import ZFVP.SetTheory.WellOrderedSurjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

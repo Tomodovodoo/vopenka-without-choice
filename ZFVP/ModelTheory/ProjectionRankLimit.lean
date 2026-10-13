@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ProjectionHierarchyAgreement
-import ZFVP.ModelTheory.ProjectionStagePreservation
-import ZFVP.ModelTheory.WoodinRankStage
+module
+
+public import ZFVP.ModelTheory.ProjectionHierarchyAgreement
+public import ZFVP.ModelTheory.ProjectionStagePreservation
+public import ZFVP.ModelTheory.WoodinRankStage
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

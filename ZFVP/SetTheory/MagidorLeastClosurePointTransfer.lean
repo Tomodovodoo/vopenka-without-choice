@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.MagidorClosurePoint
+module
+
+public import ZFVP.SetTheory.MagidorClosurePoint
+
+@[expose] public section
 
 /-! # The least closure point above a marker, and its transfer
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinActualStageRuleRankAgreement
+module
+
+public import ZFVP.ModelTheory.WoodinActualStageRuleRankAgreement
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]

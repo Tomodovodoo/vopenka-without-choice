@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseEndpointGenericPresentation
-import ZFVP.ModelTheory.WoodinSparseRestrictedLiftRank
+module
+
+public import ZFVP.ModelTheory.WoodinSparseEndpointGenericPresentation
+public import ZFVP.ModelTheory.WoodinSparseRestrictedLiftRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

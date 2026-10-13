@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramListMap
+module
+
+public import ZFVP.Syntax.PrimitiveProgramListMap
+
+@[expose] public section
 
 /-! An explicit table of the values f(z,0),...,f(z,n-1), in increasing index order. -/
 

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.LevyConeIsomorphism
-import ZFVP.ModelTheory.LevyDeterminedSubalgebra
-import ZFVP.ModelTheory.LevyBooleanHomogeneity
-import ZFVP.SetTheory.LevyCollapseUpper
+module
+
+public import ZFVP.ModelTheory.LevyConeIsomorphism
+public import ZFVP.ModelTheory.LevyDeterminedSubalgebra
+public import ZFVP.ModelTheory.LevyBooleanHomogeneity
+public import ZFVP.SetTheory.LevyCollapseUpper
+
+@[expose] public section
 
 /-! Cone isomorphisms of the Levy collapse that leave the part below `ξ` alone.
 

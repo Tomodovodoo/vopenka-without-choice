@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseInverseStage
-import ZFVP.ModelTheory.NormalizedHartogsIsomorphism
-import ZFVP.SetTheory.ForcingAutomorphisms
+module
+
+public import ZFVP.ModelTheory.WoodinSparseInverseStage
+public import ZFVP.ModelTheory.NormalizedHartogsIsomorphism
+public import ZFVP.SetTheory.ForcingAutomorphisms
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

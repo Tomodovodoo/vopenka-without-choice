@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.CnExtendibleWoodinSupercompact
-import ZFVP.SetTheory.CnExtendibleHighCriticalWoodin
-import ZFVP.SetTheory.ChoicelessCorrectness
+module
+
+public import ZFVP.SetTheory.CnExtendibleWoodinSupercompact
+public import ZFVP.SetTheory.CnExtendibleHighCriticalWoodin
+public import ZFVP.SetTheory.ChoicelessCorrectness
+
+@[expose] public section
 
 set_option maxRecDepth 10000
 

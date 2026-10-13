@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinStrictPrefixCutoff
-import ZFVP.ModelTheory.ForcingHartogsName
-import ZFVP.SetTheory.WoodinNamedPrefixCutoff
-import ZFVP.SetTheory.InaccessibleHartogs
+module
+
+public import ZFVP.ModelTheory.WoodinStrictPrefixCutoff
+public import ZFVP.ModelTheory.ForcingHartogsName
+public import ZFVP.SetTheory.WoodinNamedPrefixCutoff
+public import ZFVP.SetTheory.InaccessibleHartogs
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

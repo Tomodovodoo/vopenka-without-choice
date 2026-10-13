@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SuccessorRankElementaryLift
+module
+
+public import ZFVP.ModelTheory.SuccessorRankElementaryLift
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

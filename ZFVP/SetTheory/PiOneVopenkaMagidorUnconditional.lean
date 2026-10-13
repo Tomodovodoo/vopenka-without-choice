@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.DomainTwoMarkerRankClass
-import ZFVP.SetTheory.MagidorClosureLimitClassFormula
-import ZFVP.SetTheory.MagidorCriticalClosurePoint
-import ZFVP.SetTheory.MagidorClosurePointReflection
-import ZFVP.SetTheory.FormulaFamilyRank
+module
+
+public import ZFVP.SetTheory.DomainTwoMarkerRankClass
+public import ZFVP.SetTheory.MagidorClosureLimitClassFormula
+public import ZFVP.SetTheory.MagidorCriticalClosurePoint
+public import ZFVP.SetTheory.MagidorClosurePointReflection
+public import ZFVP.SetTheory.FormulaFamilyRank
+
+@[expose] public section
 
 /-! # Bagaria's Theorem 4.3(2) at `n = 1`, with no open hypothesis
 

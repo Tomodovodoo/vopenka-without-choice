@@ -1,4 +1,8 @@
-import ZFVP.Syntax.MembershipSubstitutionComposition
+module
+
+public import ZFVP.Syntax.MembershipSubstitutionComposition
+
+@[expose] public section
 
 /-! Identity and composition for every internally finite membership formula. -/
 

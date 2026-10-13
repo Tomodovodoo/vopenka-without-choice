@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.WeaklyLSHullFamily
+module
+
+public import ZFVP.SetTheory.WeaklyLSHullFamily
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

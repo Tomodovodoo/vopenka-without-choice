@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CriticalPointCofinality
-import ZFVP.SetTheory.CnExtendible
-import ZFVP.SetTheory.CnCofinalUnbounded
+module
+
+public import ZFVP.ModelTheory.CriticalPointCofinality
+public import ZFVP.SetTheory.CnExtendible
+public import ZFVP.SetTheory.CnCofinalUnbounded
+
+@[expose] public section
 
 /-! The rank-map definition of inaccessibility in ZF, as in Spoerl Definition 19. -/
 

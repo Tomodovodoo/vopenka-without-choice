@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseInverseBase
+module
+
+public import ZFVP.ModelTheory.WoodinSparseInverseBase
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

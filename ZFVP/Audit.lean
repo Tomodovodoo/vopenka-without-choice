@@ -1,6 +1,10 @@
-import ZFVP
-import Lean.Util.CollectAxioms
-import Lean.Elab.Print
+module
+
+public import ZFVP
+public import Lean.Util.CollectAxioms
+public import Lean.Elab.Print
+
+@[expose] public section
 
 /-! Audit every declaration exported under the project's mathematical namespace.
 This command inspects proof terms; it does not introduce any mathematical facts.

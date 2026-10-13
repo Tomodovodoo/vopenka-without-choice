@@ -1,5 +1,9 @@
-import ZFVP.Syntax.InternalForcingRegular
-import ZFVP.ModelTheory.GenericRegularForcing
+module
+
+public import ZFVP.Syntax.InternalForcingRegular
+public import ZFVP.ModelTheory.GenericRegularForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

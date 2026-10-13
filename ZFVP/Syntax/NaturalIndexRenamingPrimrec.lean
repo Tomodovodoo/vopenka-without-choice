@@ -1,4 +1,8 @@
-import ZFVP.Syntax.NaturalIndexRenaming
+module
+
+public import ZFVP.Syntax.NaturalIndexRenaming
+
+@[expose] public section
 
 /-! Uniform primitive recursion for capture-avoiding index renaming. -/
 

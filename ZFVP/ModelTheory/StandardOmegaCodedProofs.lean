@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.EqualityCodedSequentProofs
-import ZFVP.ModelTheory.StandardCodedRules
-import ZFVP.ModelTheory.SchmerlStandardOmega
+module
+
+public import ZFVP.ModelTheory.EqualityCodedSequentProofs
+public import ZFVP.ModelTheory.StandardCodedRules
+public import ZFVP.ModelTheory.SchmerlStandardOmega
+
+@[expose] public section
 
 /-! In an omega-standard ambient model, every internal finite proof is an
 external finite list of its actual internal lines. Its formulas remain raw codes. -/

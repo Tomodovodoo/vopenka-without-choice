@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TransitiveZFCoding
-import ZFVP.SetTheory.RegularSmallRank
-import ZFVP.SetTheory.MeasuredWellFounded
+module
+
+public import ZFVP.ModelTheory.TransitiveZFCoding
+public import ZFVP.SetTheory.RegularSmallRank
+public import ZFVP.SetTheory.MeasuredWellFounded
+
+@[expose] public section
 
 /-! Recovering small transitive sets and function graphs from subset closure. -/
 

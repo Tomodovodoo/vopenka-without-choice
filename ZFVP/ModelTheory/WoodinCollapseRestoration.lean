@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinCollapseLiftBranch
-import ZFVP.ModelTheory.SuccessorRankPairPreimages
-import ZFVP.SetTheory.SigmaOneStarUnbounded
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseLiftBranch
+public import ZFVP.ModelTheory.SuccessorRankPairPreimages
+public import ZFVP.SetTheory.SigmaOneStarUnbounded
+
+@[expose] public section
 
 namespace ZFVP
 

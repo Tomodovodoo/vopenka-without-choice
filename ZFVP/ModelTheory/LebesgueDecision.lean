@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.LebesgueEnvelope
-import ZFVP.ModelTheory.RandomName
-import ZFVP.ModelTheory.PerfectSetDecision
+module
+
+public import ZFVP.SetTheory.LebesgueEnvelope
+public import ZFVP.ModelTheory.RandomName
+public import ZFVP.ModelTheory.PerfectSetDecision
+
+@[expose] public section
 
 /-! Lebesgue measurability of the sets of reals of the Levy extension definable from ground
 parameters. The random reals of `V[G]` decide the formula through the ground decision set of the

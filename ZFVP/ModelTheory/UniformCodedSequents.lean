@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CodedSequentQuantifiers
-import ZFVP.Syntax.UniformZFVPAxioms
+module
+
+public import ZFVP.ModelTheory.CodedSequentQuantifiers
+public import ZFVP.Syntax.UniformZFVPAxioms
+
+@[expose] public section
 
 /-! Parameter-free definitions of internal sequents and their variable operations. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.FiniteRankLiftElementarity
-import ZFVP.ModelTheory.EndExtensionCodedMembershipEmbedding
+module
+
+public import ZFVP.ModelTheory.FiniteRankLiftElementarity
+public import ZFVP.ModelTheory.EndExtensionCodedMembershipEmbedding
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.StrongLSWeakLS
+module
+
+public import ZFVP.SetTheory.StrongLSWeakLS
+
+@[expose] public section
 
 /-! Weak LS hulls can contain two images of lower rank sets. This supplies
 directedness for the small-hull family in Usuba's singular-cardinal argument. -/

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.HartogsRegular
-import ZFVP.SetTheory.OrdinalPairing
+module
+
+public import ZFVP.SetTheory.HartogsRegular
+public import ZFVP.SetTheory.OrdinalPairing
+
+@[expose] public section
 
 namespace ZFVP
 

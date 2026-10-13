@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingAssignmentDomain
-import ZFVP.Syntax.EndExtensionMembershipSyntax
-import ZFVP.Syntax.InternalAtomicForcingRegular
+module
+
+public import ZFVP.ModelTheory.ForcingAssignmentDomain
+public import ZFVP.Syntax.EndExtensionMembershipSyntax
+public import ZFVP.Syntax.InternalAtomicForcingRegular
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinTailNameActionTransfer
+module
+
+public import ZFVP.ModelTheory.WoodinTailNameActionTransfer
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CohenSetInjection
-import ZFVP.SetTheory.HODOmegaOne
-import ZFVP.SetTheory.AbsorptionInfinite
+module
+
+public import ZFVP.ModelTheory.CohenSetInjection
+public import ZFVP.SetTheory.HODOmegaOne
+public import ZFVP.SetTheory.AbsorptionInfinite
+
+@[expose] public section
 
 namespace ZFVP
 

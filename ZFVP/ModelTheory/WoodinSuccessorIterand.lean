@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSuccessorPosetName
-import ZFVP.ModelTheory.ForcingReverseOrderName
+module
+
+public import ZFVP.ModelTheory.WoodinSuccessorPosetName
+public import ZFVP.ModelTheory.ForcingReverseOrderName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

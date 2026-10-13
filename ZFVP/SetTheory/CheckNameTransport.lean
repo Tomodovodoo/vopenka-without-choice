@@ -1,9 +1,13 @@
-import ZFVP.SetTheory.CheckNames
-import ZFVP.SetTheory.EndExtensionReplacement
-import ZFVP.SetTheory.EndExtensionRelations
-import ZFVP.SetTheory.EndExtensionCoding
-import ZFVP.SetTheory.NameValue
-import ZFVP.ModelTheory.ForcingModelChecks
+module
+
+public import ZFVP.SetTheory.CheckNames
+public import ZFVP.SetTheory.EndExtensionReplacement
+public import ZFVP.SetTheory.EndExtensionRelations
+public import ZFVP.SetTheory.EndExtensionCoding
+public import ZFVP.SetTheory.NameValue
+public import ZFVP.ModelTheory.ForcingModelChecks
+
+@[expose] public section
 
 /-! Membership end extensions commute with check names: `j (x̌) = (j x)̌` with respect to `j one`.
 Hence the value of a checked check name under any filter containing the checked top is the

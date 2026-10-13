@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalInfinitaryTruth
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalInfinitaryTruth
+
+@[expose] public section
 
 /-! Constructor equations and an all-parameter definability interface for
 internal infinitary satisfaction. -/

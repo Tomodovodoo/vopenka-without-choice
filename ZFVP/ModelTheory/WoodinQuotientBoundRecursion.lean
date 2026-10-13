@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinBoundTailName
+module
+
+public import ZFVP.ModelTheory.WoodinBoundTailName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

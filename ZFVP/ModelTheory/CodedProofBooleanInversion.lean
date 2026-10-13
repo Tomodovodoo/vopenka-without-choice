@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.StandardOmegaCodedProofs
+module
+
+public import ZFVP.ModelTheory.StandardOmegaCodedProofs
+
+@[expose] public section
 
 /-! Boolean inversion for finite coded proofs. These proofs treat each raw
 formula code as a formula; exact encoding by external syntax is unnecessary. -/
@@ -120,10 +124,10 @@ theorem invert_and_right {T n Γ φ ψ : V} (h : StandardCodedProvable T n (inse
 
 theorem refute_of_refute_conj_both {T n φ ψ : V}
     (hφ : φ ∈ formulaSet membershipLanguageCode ∅ n) (hψ : ψ ∈ formulaSet membershipLanguageCode ∅ n)
-    (hp : StandardCodedProvable T n {negateFormula membershipLanguageCode ∅ n (andCode φ ψ)})
-    (hq : StandardCodedProvable T n {negateFormula membershipLanguageCode ∅ n
-      (andCode φ (negateFormula membershipLanguageCode ∅ n ψ))}) :
-    StandardCodedProvable T n {negateFormula membershipLanguageCode ∅ n φ} := by
+    (hp : StandardCodedProvable T n ({(negateFormula membershipLanguageCode ∅ n (andCode φ ψ))} : V))
+    (hq : StandardCodedProvable T n ({(negateFormula membershipLanguageCode ∅ n
+      (andCode φ (negateFormula membershipLanguageCode ∅ n ψ)))} : V)) :
+    StandardCodedProvable T n ({(negateFormula membershipLanguageCode ∅ n φ)} : V) := by
   let N := negateFormula membershipLanguageCode ∅ n
   have hn := formulaSet_context membershipLanguageCode_valid hφ
   have hnf := negateFormula_mem membershipLanguageCode_valid hφ

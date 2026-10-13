@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseSuccessorHomogenizingRow
-import ZFVP.ModelTheory.WoodinCanonicalCommonNameUniform
+module
+
+public import ZFVP.ModelTheory.WoodinSparseSuccessorHomogenizingRow
+public import ZFVP.ModelTheory.WoodinCanonicalCommonNameUniform
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

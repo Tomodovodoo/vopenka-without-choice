@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BaireRunCoding
-import ZFVP.SetTheory.CantorRunPositions
+module
+
+public import ZFVP.SetTheory.BaireRunCoding
+public import ZFVP.SetTheory.CantorRunPositions
+
+@[expose] public section
 
 /-! The run parser is an inverse on the dense G-delta of infinitely many ones. -/
 

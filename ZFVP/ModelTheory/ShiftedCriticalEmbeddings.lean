@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.EmbeddingCriticalPointImage
+module
+
+public import ZFVP.ModelTheory.EmbeddingCriticalPointImage
+
+@[expose] public section
 
 /-! Images of restricted powers move the critical point to any critical-sequence stage. -/
 

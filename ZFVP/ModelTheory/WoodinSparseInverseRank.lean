@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseInverseIsomorphism
-import ZFVP.ModelTheory.WoodinRecodingCardinals
+module
+
+public import ZFVP.ModelTheory.WoodinSparseInverseIsomorphism
+public import ZFVP.ModelTheory.WoodinRecodingCardinals
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

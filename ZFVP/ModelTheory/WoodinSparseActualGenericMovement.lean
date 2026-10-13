@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseSourceRelativeHomogeneity
-import ZFVP.ModelTheory.WoodinSparseSourceSubgeneric
-import ZFVP.ModelTheory.RelativeAutomorphismGeneric
+module
+
+public import ZFVP.ModelTheory.WoodinSparseSourceRelativeHomogeneity
+public import ZFVP.ModelTheory.WoodinSparseSourceSubgeneric
+public import ZFVP.ModelTheory.RelativeAutomorphismGeneric
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinRawHistoryBound
+module
+
+public import ZFVP.ModelTheory.WoodinRawHistoryBound
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

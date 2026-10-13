@@ -1,5 +1,9 @@
-import ZFVP.Syntax.DirectMembershipAtoms
-import ZFVP.Syntax.BoundedSatisfaction
+module
+
+public import ZFVP.Syntax.DirectMembershipAtoms
+public import ZFVP.Syntax.BoundedSatisfaction
+
+@[expose] public section
 
 /-! Tables of bounded truth are determined by their constructor equations. -/
 

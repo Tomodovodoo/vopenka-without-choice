@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SolovaySymmetricContext
-import ZFVP.ModelTheory.SymmetricModelOrdinals
-import ZFVP.ModelTheory.ForcingModelRank
+module
+
+public import ZFVP.ModelTheory.SolovaySymmetricContext
+public import ZFVP.ModelTheory.SymmetricModelOrdinals
+public import ZFVP.ModelTheory.ForcingModelRank
+
+@[expose] public section
 
 /-! Values of nice names in the Boolean extension, and what that puts inside the Solovay
 symmetric model. The value of the nice name of `τ` over a ground set `K` is the part of the value

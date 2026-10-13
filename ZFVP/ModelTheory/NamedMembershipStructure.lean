@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.MembershipExpansion
+module
+
+public import ZFVP.ModelTheory.MembershipExpansion
+
+@[expose] public section
 
 /-! Membership structures with an internal set of named elements. -/
 

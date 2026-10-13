@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.HODModelsZF
-import ZFVP.SetTheory.EndExtensionCoding
+module
+
+public import ZFVP.SetTheory.HODModelsZF
+public import ZFVP.SetTheory.EndExtensionCoding
+
+@[expose] public section
 
 /-! Dependent choice in the hereditarily ordinal definable sets: the inclusion of a transitive class
 is a membership end extension, so the bounded vocabulary (pairs, `ω`, function spaces, values) is

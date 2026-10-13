@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.HartogsLeastPrefixCutoffRankAgreement
-import ZFVP.ModelTheory.RankInverseCodeParameters
-import ZFVP.ModelTheory.WoodinInverseSourceCutoff
-import ZFVP.ModelTheory.WoodinInverseStageBounds
+module
+
+public import ZFVP.ModelTheory.HartogsLeastPrefixCutoffRankAgreement
+public import ZFVP.ModelTheory.RankInverseCodeParameters
+public import ZFVP.ModelTheory.WoodinInverseSourceCutoff
+public import ZFVP.ModelTheory.WoodinInverseStageBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

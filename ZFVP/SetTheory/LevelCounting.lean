@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.LebesgueNull
-import ZFVP.SetTheory.FiniteCardinalArithmetic
-import ZFVP.SetTheory.BaireCore
+module
+
+public import ZFVP.SetTheory.LebesgueNull
+public import ZFVP.SetTheory.FiniteCardinalArithmetic
+public import ZFVP.SetTheory.BaireCore
+
+@[expose] public section
 
 /-! Level counting for the coded Lebesgue measure: the shadow of a family of finite sequences at a
 level `M`, its behaviour under passing to higher levels, and subadditivity of `SmallMeasure`:

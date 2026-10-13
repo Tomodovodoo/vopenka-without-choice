@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ForcingOrder
-import ZFVP.SetTheory.InverseFunction
-import ZFVP.SetTheory.CompositionLaws
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.SetTheory.ForcingOrder
+public import ZFVP.SetTheory.InverseFunction
+public import ZFVP.SetTheory.CompositionLaws
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 namespace ZFVP
 

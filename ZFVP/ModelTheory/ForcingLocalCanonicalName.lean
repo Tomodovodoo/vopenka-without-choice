@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingRestrictedName
+module
+
+public import ZFVP.ModelTheory.ForcingRestrictedName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

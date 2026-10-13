@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.RubinStage
+module
+
+public import ZFVP.ModelTheory.RubinStage
+
+@[expose] public section
 
 /-! # Turning the constants `d_n` into bound variables (for Enayat's Lemmas A.3 to A.5)
 

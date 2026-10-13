@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.WoodinActualInverseRankThreshold
-import ZFVP.ModelTheory.WoodinActualSuccessorRankThreshold
-import ZFVP.ModelTheory.WoodinInitialCodeRankAgreement
-import ZFVP.ModelTheory.TransitiveZFWoodinPrefixAgreement
-import ZFVP.ModelTheory.TransitiveZFLimitColumns
-import ZFVP.ModelTheory.WoodinRecursionSuccessor
+module
+
+public import ZFVP.ModelTheory.WoodinActualInverseRankThreshold
+public import ZFVP.ModelTheory.WoodinActualSuccessorRankThreshold
+public import ZFVP.ModelTheory.WoodinInitialCodeRankAgreement
+public import ZFVP.ModelTheory.TransitiveZFWoodinPrefixAgreement
+public import ZFVP.ModelTheory.TransitiveZFLimitColumns
+public import ZFVP.ModelTheory.WoodinRecursionSuccessor
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]

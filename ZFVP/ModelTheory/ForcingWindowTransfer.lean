@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingAgreementDensity
-import ZFVP.ModelTheory.UniformForcingDefinitions
+module
+
+public import ZFVP.ModelTheory.ForcingAgreementDensity
+public import ZFVP.ModelTheory.UniformForcingDefinitions
+
+@[expose] public section
 
 /-!
 # Transfer of satisfaction along a split forcing projection

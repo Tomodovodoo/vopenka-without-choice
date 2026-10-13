@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinEndpointPoset
-import ZFVP.ModelTheory.UniformForcingDefinitions
-import ZFVP.ModelTheory.WoodinSupercompactRankZF
+module
+
+public import ZFVP.ModelTheory.WoodinEndpointPoset
+public import ZFVP.ModelTheory.UniformForcingDefinitions
+public import ZFVP.ModelTheory.WoodinSupercompactRankZF
+
+@[expose] public section
 
 /-! The forcing relation of the endpoint poset `Q_δ`, at a Woodin-supercompact `δ`.
 

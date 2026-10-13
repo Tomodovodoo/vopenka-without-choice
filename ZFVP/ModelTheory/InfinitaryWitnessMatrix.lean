@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryWitnessCoordinates
-import ZFVP.ModelTheory.InfinitaryLargeConditions
+module
+
+public import ZFVP.ModelTheory.InfinitaryWitnessCoordinates
+public import ZFVP.ModelTheory.InfinitaryLargeConditions
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

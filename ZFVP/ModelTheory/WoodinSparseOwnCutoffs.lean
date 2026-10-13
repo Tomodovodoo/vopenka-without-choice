@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseOwnRank
-import ZFVP.ModelTheory.WoodinSparseCodeCompatibility
+module
+
+public import ZFVP.ModelTheory.WoodinSparseOwnRank
+public import ZFVP.ModelTheory.WoodinSparseCodeCompatibility
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

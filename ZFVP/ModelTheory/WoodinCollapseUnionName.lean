@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinCollapseName
-import ZFVP.SetTheory.ForcingUnionClosure
-import ZFVP.ModelTheory.ForcingCheckedBounded
-import ZFVP.SetTheory.AtomicCheckNames
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseName
+public import ZFVP.SetTheory.ForcingUnionClosure
+public import ZFVP.ModelTheory.ForcingCheckedBounded
+public import ZFVP.SetTheory.AtomicCheckNames
+
+@[expose] public section
 
 namespace ZFVP
 

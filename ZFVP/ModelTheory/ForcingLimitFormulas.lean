@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ProjectionQuotientClosureForcing
-import ZFVP.ModelTheory.LimitSplitProjection
+module
+
+public import ZFVP.ModelTheory.ProjectionQuotientClosureForcing
+public import ZFVP.ModelTheory.LimitSplitProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

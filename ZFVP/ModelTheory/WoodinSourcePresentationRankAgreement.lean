@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TransitiveZFWoodinSourceCode
-import ZFVP.ModelTheory.WoodinActualRecursionRankAgreement
-import ZFVP.ModelTheory.WoodinSeedRankAgreement
+module
+
+public import ZFVP.ModelTheory.TransitiveZFWoodinSourceCode
+public import ZFVP.ModelTheory.WoodinActualRecursionRankAgreement
+public import ZFVP.ModelTheory.WoodinSeedRankAgreement
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]

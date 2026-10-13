@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.BooleanCompletion
-import ZFVP.ModelTheory.ForcingModelGeneric
-import ZFVP.ModelTheory.ForcingRealizationGeneration
-import ZFVP.ModelTheory.ForcingModelChecks
+module
+
+public import ZFVP.SetTheory.BooleanCompletion
+public import ZFVP.ModelTheory.ForcingModelGeneric
+public import ZFVP.ModelTheory.ForcingRealizationGeneration
+public import ZFVP.ModelTheory.ForcingModelChecks
+
+@[expose] public section
 
 /-! Forcing with a poset and with its Boolean completion give the same extension: a generic
 filter `G` induces the generic `H` of regular sets met by `G`, conditions are recovered from

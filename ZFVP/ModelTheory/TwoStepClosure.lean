@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcedSequenceBounds
-import ZFVP.SetTheory.ForcingIterandFormula
+module
+
+public import ZFVP.ModelTheory.ForcedSequenceBounds
+public import ZFVP.SetTheory.ForcingIterandFormula
+
+@[expose] public section
 
 namespace ZFVP
 

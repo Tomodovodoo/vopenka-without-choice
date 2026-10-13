@@ -1,6 +1,10 @@
-import PalomarDCBridge.Vocabulary
-import PalomarBridge.TheoremB
-import ZFVP.ModelTheory.CountableCohenVopenkaConsistency
+module
+
+public import PalomarDCBridge.Vocabulary
+public import PalomarBridge.TheoremB
+public import ZFVP.ModelTheory.CountableCohenVopenkaConsistency
+
+@[expose] public section
 
 namespace PalomarDCBridge
 open PalomarBridge LO LO.FirstOrder LO.FirstOrder.SetTheory

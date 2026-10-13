@@ -1,4 +1,8 @@
-import ZFVP.Syntax.Atoms
+module
+
+public import ZFVP.Syntax.Atoms
+
+@[expose] public section
 
 /-! Eight formula constructors, corresponding to Foundation's classical syntax. -/
 

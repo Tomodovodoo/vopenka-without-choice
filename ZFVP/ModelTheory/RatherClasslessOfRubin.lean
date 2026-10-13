@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.MaximallyCompatibleFilters
-import ZFVP.SetTheory.Rank
+module
+
+public import ZFVP.ModelTheory.MaximallyCompatibleFilters
+public import ZFVP.SetTheory.Rank
+
+@[expose] public section
 
 /-! Enayat's Remark 5.14 from "Models of set theory: extensions and dead ends": a model satisfying
 the two clauses of his Definition 5.13 is rather classless.
@@ -103,6 +107,7 @@ theorem isPartialOrderOn_classTree : IsPartialOrderOn (classTree (V := V)) class
 /-- The ordinals under inclusion form a directed poset with no maximum element. Private, because
 `ZFVP.ModelTheory.RubinDefinableFilters` states the same fact under the same name and files that
 import both modules would see a clash. -/
+
 private theorem isDirectedNoMaxOn_isOrdinal :
     IsDirectedNoMaxOn (IsOrdinal (V := V)) (· ⊆ ·) := by
   refine ⟨⟨∅, inferInstance⟩, ?_, ?_⟩

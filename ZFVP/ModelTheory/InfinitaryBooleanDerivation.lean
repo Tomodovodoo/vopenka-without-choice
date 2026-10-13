@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryQuantifierAxioms
+module
+
+public import ZFVP.ModelTheory.InfinitaryQuantifierAxioms
+
+@[expose] public section
 
 /-! A sound syntactic derivation system for the Boolean, countable-conjunction,
 and monotonicity/countable-union parts of Keisler's calculus. First-order

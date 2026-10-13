@@ -1,5 +1,9 @@
-import ZFVP.Syntax.ProgramZFVPConsistencyStandard
-import Foundation.FirstOrder.Incompleteness.ProvabilityAbstraction.Basic
+module
+
+public import ZFVP.Syntax.ProgramZFVPConsistencyStandard
+public import Foundation.FirstOrder.Incompleteness.ProvabilityAbstraction.Basic
+
+@[expose] public section
 
 /-! The explicit proof checker defines a Sigma-one provability predicate and satisfies D1. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.SymmetricPairNames
+module
+
+public import ZFVP.SetTheory.SymmetricPairNames
+
+@[expose] public section
 
 /-! A name for the graph induced by an internal map on a set of names. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LimitRankAbsoluteness
+module
+
+public import ZFVP.ModelTheory.LimitRankAbsoluteness
+
+@[expose] public section
 
 /-! A bounded formula for the graph of the cumulative hierarchy, with a rank stage as parameter.
 

@@ -1,4 +1,8 @@
-import ZFVP.Syntax.BoundedMembershipStep
+module
+
+public import ZFVP.Syntax.BoundedMembershipStep
+
+@[expose] public section
 
 /-! The entire internal pure membership syntax family has a Sigma-one set definition. -/
 

@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.UltrapowerLos
-import ZFVP.SetTheory.UltrapowerEmbeddingMap
-import ZFVP.ModelTheory.CodedMembershipEmbedding
-import ZFVP.ModelTheory.CriticalPoint
+module
+
+public import ZFVP.SetTheory.UltrapowerLos
+public import ZFVP.SetTheory.UltrapowerEmbeddingMap
+public import ZFVP.ModelTheory.CodedMembershipEmbedding
+public import ZFVP.ModelTheory.CriticalPoint
+
+@[expose] public section
 
 /-! The canonical map of the internal ultrapower is elementary.
 

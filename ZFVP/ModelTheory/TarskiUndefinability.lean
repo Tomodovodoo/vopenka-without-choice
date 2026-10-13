@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SatisfactionClass
-import ZFVP.Syntax.PackFiniteParameters
+module
+
+public import ZFVP.ModelTheory.SatisfactionClass
+public import ZFVP.Syntax.PackFiniteParameters
+
+@[expose] public section
 
 /-! Undefinability of a full satisfaction class, with set parameters allowed.
 

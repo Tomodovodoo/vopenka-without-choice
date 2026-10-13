@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SymmetricExtensionZF
+module
+
+public import ZFVP.ModelTheory.SymmetricExtensionZF
+
+@[expose] public section
 
 namespace ZFVP
 

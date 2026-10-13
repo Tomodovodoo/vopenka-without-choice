@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalFormulaTransformEquations
-import ZFVP.Syntax.PrimitiveProgramProofRewriteEquations
+module
+
+public import ZFVP.ModelTheory.InternalFormulaTransformEquations
+public import ZFVP.Syntax.PrimitiveProgramProofRewriteEquations
+
+@[expose] public section
 
 /-! The common formula-transformer results specialized to the explicit proof-rule rewrite. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryAdequateOmegaOneLimits
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateOmegaOneLimits
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

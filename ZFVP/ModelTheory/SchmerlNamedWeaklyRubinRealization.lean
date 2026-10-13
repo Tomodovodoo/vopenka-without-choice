@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedWeaklyRubinExpansion
-import ZFVP.ModelTheory.SchmerlCodedNamedSemantics
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedWeaklyRubinExpansion
+public import ZFVP.ModelTheory.SchmerlCodedNamedSemantics
+
+@[expose] public section
 
 set_option autoImplicit false
 namespace ZFVP.Schmerl

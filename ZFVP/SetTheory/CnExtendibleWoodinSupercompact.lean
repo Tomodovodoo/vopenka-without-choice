@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.WoodinSupercompact
-import ZFVP.ModelTheory.RankEmbeddingDictionary
-import ZFVP.ModelTheory.CriticalPointRestriction
-import ZFVP.SetTheory.CnCofinalUnbounded
+module
+
+public import ZFVP.SetTheory.WoodinSupercompact
+public import ZFVP.ModelTheory.RankEmbeddingDictionary
+public import ZFVP.ModelTheory.CriticalPointRestriction
+public import ZFVP.SetTheory.CnCofinalUnbounded
+
+@[expose] public section
 
 /-! A fixed finite level of C(n)-extendibility implies Woodin
 supercompactness. The bound is computed from the witness formula. -/

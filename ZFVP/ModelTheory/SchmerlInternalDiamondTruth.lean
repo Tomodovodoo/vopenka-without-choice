@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlInternalDiamondModel
-import ZFVP.ModelTheory.SchmerlInternalClosedPreservation
-import ZFVP.ModelTheory.ForcingChoice
-import ZFVP.SetTheory.HartogsDictionary
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalDiamondModel
+public import ZFVP.ModelTheory.SchmerlInternalClosedPreservation
+public import ZFVP.ModelTheory.ForcingChoice
+public import ZFVP.SetTheory.HartogsDictionary
+
+@[expose] public section
 
 set_option autoImplicit false
 

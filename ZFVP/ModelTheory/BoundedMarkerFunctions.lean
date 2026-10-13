@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.BoundedMembershipRelations
-import ZFVP.ModelTheory.MarkerMembership
+module
+
+public import ZFVP.ModelTheory.BoundedMembershipRelations
+public import ZFVP.ModelTheory.MarkerMembership
+
+@[expose] public section
 
 /-! Bounded checks for the constant symbols of a one-marker structure. -/
 

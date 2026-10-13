@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.NormalizedReverseOrderComparison
-import ZFVP.ModelTheory.SaturatedWoodinPrefix
-import ZFVP.ModelTheory.SaturatedHartogsFormulas
+module
+
+public import ZFVP.ModelTheory.NormalizedReverseOrderComparison
+public import ZFVP.ModelTheory.SaturatedWoodinPrefix
+public import ZFVP.ModelTheory.SaturatedHartogsFormulas
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

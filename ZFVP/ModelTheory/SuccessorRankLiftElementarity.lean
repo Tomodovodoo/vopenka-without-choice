@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SuccessorRankLiftAssignmentCoverage
-import ZFVP.Syntax.EndExtensionMembershipSatisfaction
+module
+
+public import ZFVP.ModelTheory.SuccessorRankLiftAssignmentCoverage
+public import ZFVP.Syntax.EndExtensionMembershipSatisfaction
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

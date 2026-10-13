@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalUltrafilter
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalUltrafilter
+
+@[expose] public section
 
 /-! Finite-cover arguments for internal ultrafilters. Finiteness throughout is
 the model's own finiteness, including nonstandard finite index sets. -/

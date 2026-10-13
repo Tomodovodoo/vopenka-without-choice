@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ChoicelessFailureStructures
-import ZFVP.SetTheory.ChoicelessFailureEmbedding
+module
+
+public import ZFVP.SetTheory.ChoicelessFailureStructures
+public import ZFVP.SetTheory.ChoicelessFailureEmbedding
+
+@[expose] public section
 
 /-! Distinct structures in the failure class cannot be elementarily embedded. -/
 

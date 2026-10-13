@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseSuccessorStep
-import ZFVP.ModelTheory.WoodinSparseDirectStep
-import ZFVP.ModelTheory.WoodinSparseInverseStep
+module
+
+public import ZFVP.ModelTheory.WoodinSparseSuccessorStep
+public import ZFVP.ModelTheory.WoodinSparseDirectStep
+public import ZFVP.ModelTheory.WoodinSparseInverseStep
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

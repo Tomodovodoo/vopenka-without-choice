@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.BinaryRelationStructure
-import ZFVP.SetTheory.CountableSets
+module
+
+public import ZFVP.ModelTheory.BinaryRelationStructure
+public import ZFVP.SetTheory.CountableSets
+
+@[expose] public section
 
 /-! Quotients of actual internal binary prestructures. The quotient carrier,
 edge relation, and surjective projection are sets in the ambient ZF model. -/

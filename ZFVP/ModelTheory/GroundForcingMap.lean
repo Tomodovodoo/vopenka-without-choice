@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.GroundFormulaTruth
-import ZFVP.ModelTheory.CodedMembershipEmbedding
-import ZFVP.SetTheory.ElementaryForcing
+module
+
+public import ZFVP.ModelTheory.GroundFormulaTruth
+public import ZFVP.ModelTheory.CodedMembershipEmbedding
+public import ZFVP.SetTheory.ElementaryForcing
+
+@[expose] public section
 
 /-! Elementarity of a coded ground map preserves valuation equality in a common generic. -/
 

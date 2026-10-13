@@ -1,4 +1,8 @@
-import ZFVP.Syntax.LowRankForcingTruth
+module
+
+public import ZFVP.Syntax.LowRankForcingTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

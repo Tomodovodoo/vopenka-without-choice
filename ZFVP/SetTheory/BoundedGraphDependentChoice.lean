@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedElementaryGraph
-import ZFVP.SetTheory.WellOrderedDependentChoice
+module
+
+public import ZFVP.SetTheory.BoundedElementaryGraph
+public import ZFVP.SetTheory.WellOrderedDependentChoice
+
+@[expose] public section
 
 namespace ZFVP
 

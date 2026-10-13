@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.EndExtensionFinite
-import ZFVP.SetTheory.EndExtensionWellOrdering
-import ZFVP.SetTheory.WellOrderingChoice
-import ZFVP.SetTheory.CountableSets
-import ZFVP.Syntax.EndExtensionSatisfaction
+module
+
+public import ZFVP.SetTheory.EndExtensionFinite
+public import ZFVP.SetTheory.EndExtensionWellOrdering
+public import ZFVP.SetTheory.WellOrderingChoice
+public import ZFVP.SetTheory.CountableSets
+public import ZFVP.Syntax.EndExtensionSatisfaction
+
+@[expose] public section
 
 /-! Actual internal countability is absolute for checked ground sets when
 omega-one is preserved. This is the standard-Q step in old-model truth

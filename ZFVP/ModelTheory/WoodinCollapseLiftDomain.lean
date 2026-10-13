@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinCollapseLift
-import ZFVP.ModelTheory.SuccessorRankLiftSequences
-import ZFVP.ModelTheory.ForcingChoice
-import ZFVP.SetTheory.BoundedGraphDependentChoice
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseLift
+public import ZFVP.ModelTheory.SuccessorRankLiftSequences
+public import ZFVP.ModelTheory.ForcingChoice
+public import ZFVP.SetTheory.BoundedGraphDependentChoice
+
+@[expose] public section
 
 namespace ZFVP
 

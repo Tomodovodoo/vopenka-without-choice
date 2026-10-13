@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ProjectionQuotientClosureTransport
-import ZFVP.ModelTheory.ProjectionQuotientSeparative
-import ZFVP.ModelTheory.SplitSeparativeOrder
-import ZFVP.ModelTheory.SeparativeGeneric
-import ZFVP.ModelTheory.ProjectionQuotientDensity
+module
+
+public import ZFVP.ModelTheory.ProjectionQuotientClosureTransport
+public import ZFVP.ModelTheory.ProjectionQuotientSeparative
+public import ZFVP.ModelTheory.SplitSeparativeOrder
+public import ZFVP.ModelTheory.SeparativeGeneric
+public import ZFVP.ModelTheory.ProjectionQuotientDensity
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

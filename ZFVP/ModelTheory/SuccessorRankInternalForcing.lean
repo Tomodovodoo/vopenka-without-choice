@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SuccessorRankForcingTable
-import ZFVP.ModelTheory.SuccessorRankNameDomain
-import ZFVP.Syntax.InternalForcingTableUniqueness
-import ZFVP.Syntax.InternalForcingTableBounds
+module
+
+public import ZFVP.ModelTheory.SuccessorRankForcingTable
+public import ZFVP.ModelTheory.SuccessorRankNameDomain
+public import ZFVP.Syntax.InternalForcingTableUniqueness
+public import ZFVP.Syntax.InternalForcingTableBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.Syntax.Atoms
+module
+
+public import ZFVP.Syntax.Atoms
+
+@[expose] public section
 
 /-! Satisfaction of logical equality and relation atoms using internal term evaluation. -/
 

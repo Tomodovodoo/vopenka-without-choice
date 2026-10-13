@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RigidCantorRelations
+module
+
+public import ZFVP.SetTheory.RigidCantorRelations
+
+@[expose] public section
 
 /-! Theorem 4 of Hamkins and Palumbo: if a set `B` carries a hereditarily rigid irreflexive
 relation `R₁`, then every subset `A` of `cantorSpace V ×ˢ B` carries a rigid relation. The proof

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.LevyConeAlgebraProperties
-import ZFVP.SetTheory.MaximalAntichains
-import ZFVP.SetTheory.RegularSetAlgebra
-import ZFVP.SetTheory.WellOrderingChoice
+module
+
+public import ZFVP.ModelTheory.LevyConeAlgebraProperties
+public import ZFVP.SetTheory.MaximalAntichains
+public import ZFVP.SetTheory.RegularSetAlgebra
+public import ZFVP.SetTheory.WellOrderingChoice
+
+@[expose] public section
 
 /-! Partitions of the Boolean completion of the Levy collapse into cones of conditions.
 

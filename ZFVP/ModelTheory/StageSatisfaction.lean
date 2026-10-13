@@ -1,5 +1,9 @@
-import Foundation.FirstOrder.Completeness.CounterModel
-import ZFVP.ModelTheory.HenkinConsistency
+module
+
+public import Foundation.FirstOrder.Completeness.CounterModel
+public import ZFVP.ModelTheory.HenkinConsistency
+
+@[expose] public section
 
 /-! # A finite stage of a Henkin construction is consistent iff it has a model
 
@@ -32,7 +36,7 @@ variable {L : Language.{u}} {T : Theory L}
 /-! ### Substituting every bound variable of a closure at once -/
 
 /-- Peeling the outermost substituted term off a simultaneous substitution. -/
-private lemma subst_q_subst {n : ℕ} (χ : Semiproposition L (n + 1))
+lemma subst_q_subst {n : ℕ} (χ : Semiproposition L (n + 1))
     (w : Fin (n + 1) → SyntacticTerm L) :
     ((Rew.subst (fun i ↦ w i.succ)).q ▹ χ) ⇜ ![w 0] = χ ⇜ w := by
   have e : (Rew.subst ![w 0]).comp (Rew.subst (fun i ↦ w i.succ)).q = Rew.subst w := by
@@ -53,7 +57,8 @@ def exsClosureIntro {Γ : Sequent L} :
   | _ + 1, χ, w, d =>
       exsClosureIntro (∃¹ χ) (fun i ↦ w i.succ)
         (Derivation.cast
-          (Derivation.exs (t := w 0) (Derivation.cast d (by rw [subst_q_subst]))) (by simp))
+          (Derivation.exs (Γ := Γ) (φ := (Rew.subst (fun i ↦ w i.succ)).q ▹ χ)
+            (t := w 0) (Derivation.cast d (by rw [subst_q_subst]))) (by simp))
 
 /-- Introduce all the quantifiers of the universal closure of `φ` in front of a context that is
 invariant under shifting. -/
@@ -104,7 +109,7 @@ private lemma shifts_embed_neg (A : List (Sentence L)) :
     (∼Sequent.embed A : Sequent L)⁺ = ∼Sequent.embed A := by
   rw [Rewriting.shifts_neg, Sequent.embed_shift]
 
-private lemma fvSup_neg (φ : Proposition L) : (∼φ).fvSup = φ.fvSup := by
+lemma fvSup_neg (φ : Proposition L) : (∼φ).fvSup = φ.fvSup := by
   simp [Semiformula.fvSup]
 
 /-- Strip the universal closure `ψ.univCl'` down to `ψ` in front of an arbitrary context, by

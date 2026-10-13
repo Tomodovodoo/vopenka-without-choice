@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingRetraction
-import ZFVP.SetTheory.FunctionComposition
+module
+
+public import ZFVP.SetTheory.ForcingRetraction
+public import ZFVP.SetTheory.FunctionComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

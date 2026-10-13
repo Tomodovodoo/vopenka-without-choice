@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SymmetricModelImages
-import ZFVP.SetTheory.TupleNameStabilizer
+module
+
+public import ZFVP.ModelTheory.SymmetricModelImages
+public import ZFVP.SetTheory.TupleNameStabilizer
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.DirectedElementaryUnion
+module
+
+public import ZFVP.ModelTheory.DirectedElementaryUnion
+
+@[expose] public section
 
 /-! Directed unions of submodels elementary in a common ambient membership structure. -/
 

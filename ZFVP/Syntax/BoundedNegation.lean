@@ -1,5 +1,9 @@
-import ZFVP.Syntax.NegationSemantics
-import ZFVP.Syntax.BoundedSatisfaction
+module
+
+public import ZFVP.Syntax.NegationSemantics
+public import ZFVP.Syntax.BoundedSatisfaction
+
+@[expose] public section
 
 /-! Internal bounded codes are closed under negation. -/
 

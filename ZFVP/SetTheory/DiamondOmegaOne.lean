@@ -1,5 +1,9 @@
-import Mathlib.SetTheory.Cardinal.Aleph
-import Mathlib.SetTheory.Cardinal.Cofinality.Club
+module
+
+public import Mathlib.SetTheory.Cardinal.Aleph
+public import Mathlib.SetTheory.Cardinal.Cofinality.Club
+
+@[expose] public section
 
 /-! The index order `ω₁` used by the ω₁-length constructions on the ambient universe, and Jensen's
 diamond principle on it. Club and stationary sets come from Mathlib

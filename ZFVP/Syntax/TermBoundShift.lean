@@ -1,5 +1,9 @@
-import ZFVP.Syntax.FoundationSubstitution
-import ZFVP.SetTheory.NaturalPredecessor
+module
+
+public import ZFVP.Syntax.FoundationSubstitution
+public import ZFVP.SetTheory.NaturalPredecessor
+
+@[expose] public section
 
 /-! Bound-variable shifting, the first component of substitution under binders. -/
 

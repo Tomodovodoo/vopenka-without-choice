@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.QuotientGenericCriterion
-import ZFVP.ModelTheory.ProjectionNameTransport
+module
+
+public import ZFVP.ModelTheory.QuotientGenericCriterion
+public import ZFVP.ModelTheory.ProjectionNameTransport
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

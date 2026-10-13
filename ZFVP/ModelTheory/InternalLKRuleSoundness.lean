@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalLKRuleInterpretation
+module
+
+public import ZFVP.ModelTheory.InternalLKRuleInterpretation
+
+@[expose] public section
 
 /-! Every accepted local LK instruction preserves validity in an internal structure. -/
 

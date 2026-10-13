@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.FiniteCardinalArithmetic
+module
+
+public import ZFVP.SetTheory.FiniteCardinalArithmetic
+
+@[expose] public section
 
 namespace ZFVP
 

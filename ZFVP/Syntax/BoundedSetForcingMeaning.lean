@@ -1,6 +1,10 @@
-import ZFVP.Syntax.BoundedSetForcingTranslation
-import ZFVP.Syntax.BoundedForcingMeaning
-import ZFVP.Syntax.ForcingTranslationSemantics
+module
+
+public import ZFVP.Syntax.BoundedSetForcingTranslation
+public import ZFVP.Syntax.BoundedForcingMeaning
+public import ZFVP.Syntax.ForcingTranslationSemantics
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

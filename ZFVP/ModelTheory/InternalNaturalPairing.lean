@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.InternalPeano
-import ZFVP.SetTheory.StandardNaturals
-import Foundation.FirstOrder.Arithmetic.IOpen.Basic
-import Mathlib.Data.Nat.Pairing
+module
+
+public import ZFVP.ModelTheory.InternalPeano
+public import ZFVP.SetTheory.StandardNaturals
+public import Foundation.FirstOrder.Arithmetic.IOpen.Basic
+public import Mathlib.Data.Nat.Pairing
+
+@[expose] public section
 
 /-! Mathlib's natural-number pairing extends to every element of internal omega. -/
 

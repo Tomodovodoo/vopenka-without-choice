@@ -1,5 +1,9 @@
-import ZFVP.Syntax.UniformSatisfaction
-import ZFVP.Syntax.UniformSyntaxTransport
+module
+
+public import ZFVP.Syntax.UniformSatisfaction
+public import ZFVP.Syntax.UniformSyntaxTransport
+
+@[expose] public section
 
 /-! Elementary transport of term evaluation and internal satisfaction. -/
 

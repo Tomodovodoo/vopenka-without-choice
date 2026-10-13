@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SolovayTheory
-import ZFVP.SetTheory.RealRegularitySentences
-import ZFVP.SetTheory.RealCaratheodory
+module
+
+public import ZFVP.ModelTheory.SolovayTheory
+public import ZFVP.SetTheory.RealRegularitySentences
+public import ZFVP.SetTheory.RealCaratheodory
+
+@[expose] public section
 
 /-! The Solovay target with regularity quantified over internal Dedekind reals. -/
 namespace ZFVP

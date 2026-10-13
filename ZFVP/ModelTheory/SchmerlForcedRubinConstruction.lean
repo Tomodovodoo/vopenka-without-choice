@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlInternalRubinConstruction
-import ZFVP.ModelTheory.SchmerlCodedRepresentedDefinitions
-import ZFVP.ModelTheory.SemanticStandardCodedZFModel
-import ZFVP.Syntax.StandardOmegaMembershipSyntax
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalRubinConstruction
+public import ZFVP.ModelTheory.SchmerlCodedRepresentedDefinitions
+public import ZFVP.ModelTheory.SemanticStandardCodedZFModel
+public import ZFVP.Syntax.StandardOmegaMembershipSyntax
+
+@[expose] public section
 
 /-! Force diamond over the actual ambient model, then apply the internal
 Rubin construction there to the checked original model. -/

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseAutomorphismLimit
+module
+
+public import ZFVP.ModelTheory.WoodinSparseAutomorphismLimit
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

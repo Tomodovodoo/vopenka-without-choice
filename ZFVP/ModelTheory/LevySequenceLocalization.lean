@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LevyRangeCover
-import ZFVP.ModelTheory.SolovayLocalization
+module
+
+public import ZFVP.ModelTheory.LevyRangeCover
+public import ZFVP.ModelTheory.SolovayLocalization
+
+@[expose] public section
 
 /-! Countable sequences of the Levy extension lie in a bounded stage: a function from `ω̌` into a
 checked set `θ̌` in `V[G]` is decided value by value on the slices of one maximal antichain of

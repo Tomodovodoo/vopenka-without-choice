@@ -1,6 +1,10 @@
-import ZFVP.Syntax.LowRankForcingTruth
-import ZFVP.ModelTheory.RankDCForcingAgreementCountable
-import ZFVP.ModelTheory.CountableZFTransfer
+module
+
+public import ZFVP.Syntax.LowRankForcingTruth
+public import ZFVP.ModelTheory.RankDCForcingAgreementCountable
+public import ZFVP.ModelTheory.CountableZFTransfer
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SuccessorRankLiftDC
-import ZFVP.ModelTheory.WoodinCollapseLift
-import ZFVP.SetTheory.WoodinRestorationCutoff
-import ZFVP.SetTheory.WoodinClosedFiniteModels
+module
+
+public import ZFVP.ModelTheory.SuccessorRankLiftDC
+public import ZFVP.ModelTheory.WoodinCollapseLift
+public import ZFVP.SetTheory.WoodinRestorationCutoff
+public import ZFVP.SetTheory.WoodinClosedFiniteModels
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

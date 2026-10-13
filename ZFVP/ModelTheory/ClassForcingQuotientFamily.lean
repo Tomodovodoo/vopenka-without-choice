@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ClassForcingBoundedQuotientClosure
+module
+
+public import ZFVP.ModelTheory.ClassForcingBoundedQuotientClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

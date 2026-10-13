@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SuccessorRankFunctionClosure
-import ZFVP.SetTheory.BoundedStarDependentChoice
-import ZFVP.ModelTheory.SuccessorRankElementaryLift
-import ZFVP.ModelTheory.SuccessorRankLiftTruth
-import ZFVP.ModelTheory.ForcingCnOneTruth
+module
+
+public import ZFVP.ModelTheory.SuccessorRankFunctionClosure
+public import ZFVP.SetTheory.BoundedStarDependentChoice
+public import ZFVP.ModelTheory.SuccessorRankElementaryLift
+public import ZFVP.ModelTheory.SuccessorRankLiftTruth
+public import ZFVP.ModelTheory.ForcingCnOneTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

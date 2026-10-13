@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.WellOrderedCardinal
+module
+
+public import ZFVP.SetTheory.WellOrderedCardinal
+
+@[expose] public section
 
 /-! Internal cofinality is the least ordinal length of an unbounded map. -/
 

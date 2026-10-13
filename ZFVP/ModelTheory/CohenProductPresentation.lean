@@ -1,10 +1,14 @@
-import ZFVP.ModelTheory.CohenStage
-import ZFVP.ModelTheory.GenericFilterModel
-import ZFVP.ModelTheory.SolovayFactorLemma
-import ZFVP.ModelTheory.LevyAbsorptionFull
-import ZFVP.ModelTheory.CohenRealName
-import ZFVP.SetTheory.SequenceCollapseAbsorption
-import ZFVP.SetTheory.LevyCollapseFull
+module
+
+public import ZFVP.ModelTheory.CohenStage
+public import ZFVP.ModelTheory.GenericFilterModel
+public import ZFVP.ModelTheory.SolovayFactorLemma
+public import ZFVP.ModelTheory.LevyAbsorptionFull
+public import ZFVP.ModelTheory.CohenRealName
+public import ZFVP.SetTheory.SequenceCollapseAbsorption
+public import ZFVP.SetTheory.LevyCollapseFull
+
+@[expose] public section
 
 /-! The Levy extension as a product extension over a Cohen real: for a real `x` of `V[G]` that is
 Cohen over `V`, the extension `V[G]` is isomorphic to the extension by the product

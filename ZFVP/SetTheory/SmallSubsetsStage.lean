@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.PiOneInitialOrdinal
-import ZFVP.SetTheory.GroundUniqueness
-import ZFVP.SetTheory.CodingUniverse
-import ZFVP.SetTheory.CnAbsoluteness
-import ZFVP.ModelTheory.CodedMembershipEmbedding
+module
+
+public import ZFVP.SetTheory.PiOneInitialOrdinal
+public import ZFVP.SetTheory.GroundUniqueness
+public import ZFVP.SetTheory.CodingUniverse
+public import ZFVP.SetTheory.CnAbsoluteness
+public import ZFVP.ModelTheory.CodedMembershipEmbedding
+
+@[expose] public section
 
 /-! # `P_a(t)` inside a rank stage
 

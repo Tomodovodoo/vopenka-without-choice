@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.WellFoundedAttempts
+module
+
+public import ZFVP.SetTheory.WellFoundedAttempts
+
+@[expose] public section
 
 /-! Internal well-founded recursion, proved using Collection of partial solutions. -/
 

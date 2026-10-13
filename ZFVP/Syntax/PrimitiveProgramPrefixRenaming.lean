@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramTabulateStandard
-import ZFVP.Syntax.NaturalPrefixRenaming
+module
+
+public import ZFVP.Syntax.PrimitiveProgramTabulateStandard
+public import ZFVP.Syntax.NaturalPrefixRenaming
+
+@[expose] public section
 
 /-! Explicit parameter-tail renaming tables for each fixed template hole. -/
 

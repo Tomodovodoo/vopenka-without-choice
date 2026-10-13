@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CardinalSmallUnions
-import ZFVP.SetTheory.LeastDependentChoiceFailure
+module
+
+public import ZFVP.SetTheory.CardinalSmallUnions
+public import ZFVP.SetTheory.LeastDependentChoiceFailure
+
+@[expose] public section
 
 namespace ZFVP
 

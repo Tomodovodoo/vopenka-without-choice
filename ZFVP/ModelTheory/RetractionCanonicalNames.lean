@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SaturatedPrefixSpecification
-import ZFVP.SetTheory.EquivalentRetractionForcing
-import ZFVP.SetTheory.ForcingRetractionComposition
+module
+
+public import ZFVP.ModelTheory.SaturatedPrefixSpecification
+public import ZFVP.SetTheory.EquivalentRetractionForcing
+public import ZFVP.SetTheory.ForcingRetractionComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

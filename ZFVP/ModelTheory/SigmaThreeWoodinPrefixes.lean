@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinRecursionComplexity
+module
+
+public import ZFVP.ModelTheory.WoodinRecursionComplexity
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

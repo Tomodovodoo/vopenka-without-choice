@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.AtomicMembership
+module
+
+public import ZFVP.SetTheory.AtomicMembership
+
+@[expose] public section
 
 /-! A set of equality triples is determined by the atomic forcing equations. -/
 

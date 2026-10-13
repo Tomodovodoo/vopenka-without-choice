@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.LevyTraceProjection
-import ZFVP.ModelTheory.BooleanConeCantorBernstein
-import ZFVP.SetTheory.LevyCollapseSmallSets
-import ZFVP.SetTheory.Hessenberg
+module
+
+public import ZFVP.ModelTheory.LevyTraceProjection
+public import ZFVP.ModelTheory.BooleanConeCantorBernstein
+public import ZFVP.SetTheory.LevyCollapseSmallSets
+public import ZFVP.SetTheory.Hessenberg
+
+@[expose] public section
 
 /-! Cones of conditions that use a coordinate high above `ξ`.
 

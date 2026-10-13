@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingExtensionDomain
-import ZFVP.SetTheory.NameValueRank
+module
+
+public import ZFVP.ModelTheory.ForcingExtensionDomain
+public import ZFVP.SetTheory.NameValueRank
+
+@[expose] public section
 
 namespace ZFVP
 

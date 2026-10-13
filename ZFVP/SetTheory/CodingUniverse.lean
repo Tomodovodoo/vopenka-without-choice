@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RankBounds
-import ZFVP.SetTheory.FiniteSequences
+module
+
+public import ZFVP.SetTheory.RankBounds
+public import ZFVP.SetTheory.FiniteSequences
+
+@[expose] public section
 
 /-! An internal transitive set large enough for finite coding over a given set. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InfinitaryHenkinLanguage
-import ZFVP.ModelTheory.InfinitaryFragmentClosure
-import Mathlib.Order.Filter.AtTopBot.Basic
+module
+
+public import ZFVP.ModelTheory.InfinitaryHenkinLanguage
+public import ZFVP.ModelTheory.InfinitaryFragmentClosure
+public import Mathlib.Order.Filter.AtTopBot.Basic
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder Filter

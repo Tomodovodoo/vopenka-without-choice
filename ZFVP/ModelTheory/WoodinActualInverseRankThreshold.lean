@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinActualInverseRankAgreement
-import ZFVP.ModelTheory.WoodinSuccessorRankThreshold
+module
+
+public import ZFVP.ModelTheory.WoodinActualInverseRankAgreement
+public import ZFVP.ModelTheory.WoodinSuccessorRankThreshold
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 

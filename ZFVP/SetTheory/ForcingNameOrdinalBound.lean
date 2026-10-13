@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.AtomicCheckNames
-import ZFVP.SetTheory.AtomicEqualityTransitivity
-import ZFVP.SetTheory.ChoicelessInaccessibleRank
+module
+
+public import ZFVP.SetTheory.AtomicCheckNames
+public import ZFVP.SetTheory.AtomicEqualityTransitivity
+public import ZFVP.SetTheory.ChoicelessInaccessibleRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

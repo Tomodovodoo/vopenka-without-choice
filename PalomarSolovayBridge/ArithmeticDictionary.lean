@@ -1,7 +1,11 @@
-import PalomarSolovayBridge.Vocabulary
-import PalomarBridge.CodingOperations
-import ZFVP.SetTheory.RealCaratheodory
-import ZFVP.SetTheory.RealRegularitySentences
+module
+
+public import PalomarSolovayBridge.Vocabulary
+public import PalomarBridge.CodingOperations
+public import ZFVP.SetTheory.RealCaratheodory
+public import ZFVP.SetTheory.RealRegularitySentences
+
+@[expose] public section
 
 namespace PalomarSolovayBridge
 open PalomarBridge LO LO.FirstOrder LO.FirstOrder.SetTheory

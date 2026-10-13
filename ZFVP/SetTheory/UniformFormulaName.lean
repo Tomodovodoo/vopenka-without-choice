@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.UniformFormulaWitnessBound
+module
+
+public import ZFVP.SetTheory.UniformFormulaWitnessBound
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

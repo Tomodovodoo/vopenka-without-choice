@@ -1,5 +1,9 @@
-import ZFVP.Syntax.Formulas
-import ZFVP.ModelTheory.MembershipStructure
+module
+
+public import ZFVP.Syntax.Formulas
+public import ZFVP.ModelTheory.MembershipStructure
+
+@[expose] public section
 
 /-! Rank bound for the internal formula family of the membership language.
 

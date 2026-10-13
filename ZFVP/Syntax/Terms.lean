@@ -1,4 +1,8 @@
-import ZFVP.Syntax.Universe
+module
+
+public import ZFVP.Syntax.Universe
+
+@[expose] public section
 
 /-! Internal term codes matching Foundation's bound/free/function constructors.
 The term set is the least internally closed subset of a proved coding bound. -/

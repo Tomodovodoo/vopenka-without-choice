@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.SigmaThreeLeastPrefixCutoff
-import ZFVP.SetTheory.WoodinNamedPrefixCutoff
+module
+
+public import ZFVP.SetTheory.SigmaThreeLeastPrefixCutoff
+public import ZFVP.SetTheory.WoodinNamedPrefixCutoff
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

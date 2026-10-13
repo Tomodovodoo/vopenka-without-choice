@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingFormulaName
-import ZFVP.SetTheory.TwoStepForcing
+module
+
+public import ZFVP.ModelTheory.ForcingFormulaName
+public import ZFVP.SetTheory.TwoStepForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

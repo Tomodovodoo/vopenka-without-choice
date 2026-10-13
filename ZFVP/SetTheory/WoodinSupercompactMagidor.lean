@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinSupercompactHighCritical
-import ZFVP.SetTheory.WoodinSupercompactInaccessible
+module
+
+public import ZFVP.SetTheory.WoodinSupercompactHighCritical
+public import ZFVP.SetTheory.WoodinSupercompactInaccessible
+
+@[expose] public section
 
 /-! # Woodin's small-embedding supercompactness and Magidor's characterization
 

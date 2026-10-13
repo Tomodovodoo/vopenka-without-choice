@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.PiOneRankMarkerClass
-import ZFVP.SetTheory.VopenkaLevyClasses
+module
+
+public import ZFVP.SetTheory.PiOneRankMarkerClass
+public import ZFVP.SetTheory.VopenkaLevyClasses
+
+@[expose] public section
 
 /-! Marker structures whose domain is a correct rank stage `V_lam`, with one marked ordinal
 `r ∈ lam` and one set parameter `ρ`.

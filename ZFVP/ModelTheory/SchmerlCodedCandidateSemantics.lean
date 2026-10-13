@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedCandidatePreservation
-import ZFVP.ModelTheory.SchmerlInfinitaryClassWithQ
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedCandidatePreservation
+public import ZFVP.ModelTheory.SchmerlInfinitaryClassWithQ
+
+@[expose] public section
 
 /-! Identify exactly the candidates quantified by the fixed class sentence.
 Their syntactic cofinality test yields the internal cofinality premise used by

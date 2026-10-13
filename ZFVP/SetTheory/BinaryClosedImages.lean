@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.BinaryExpansionContinuity
-import ZFVP.SetTheory.CantorCompactness
-import ZFVP.SetTheory.RealIntervalBasics
+module
+
+public import ZFVP.SetTheory.BinaryExpansionContinuity
+public import ZFVP.SetTheory.CantorCompactness
+public import ZFVP.SetTheory.RealIntervalBasics
+
+@[expose] public section
 
 /-! Binary images of internal tree bodies are closed on the actual real line. -/
 

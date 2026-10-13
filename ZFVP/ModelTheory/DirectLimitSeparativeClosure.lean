@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LimitSplitProjection
-import ZFVP.ModelTheory.SplitSeparativeOrder
-import ZFVP.SetTheory.DirectLimitClosure
+module
+
+public import ZFVP.ModelTheory.LimitSplitProjection
+public import ZFVP.ModelTheory.SplitSeparativeOrder
+public import ZFVP.SetTheory.DirectLimitClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

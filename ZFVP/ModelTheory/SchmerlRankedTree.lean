@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlWeakSpecialization
+module
+
+public import ZFVP.ModelTheory.SchmerlWeakSpecialization
+
+@[expose] public section
 
 /-! Ranked trees and the complete ranked-tree formulation of Enayat's Lemma A.6.
 The branch definition is also characterized by its cofinal rank, as used to

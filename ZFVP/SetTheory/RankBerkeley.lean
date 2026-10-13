@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ProtoRankBerkeley
+module
+
+public import ZFVP.SetTheory.ProtoRankBerkeley
+
+@[expose] public section
 
 /-! The literal rank-Berkeley clause and its explicit nonzero convention.
 The universal clause alone includes zero. Descent uses the nonzero version. -/

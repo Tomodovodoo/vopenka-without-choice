@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinRecodedInverse
-import ZFVP.ModelTheory.WoodinNormalizedInverseCutoff
-import ZFVP.ModelTheory.NormalizedHartogsIsomorphism
-import ZFVP.ModelTheory.NormalizedIsomorphismDefinability
+module
+
+public import ZFVP.ModelTheory.WoodinRecodedInverse
+public import ZFVP.ModelTheory.WoodinNormalizedInverseCutoff
+public import ZFVP.ModelTheory.NormalizedHartogsIsomorphism
+public import ZFVP.ModelTheory.NormalizedIsomorphismDefinability
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

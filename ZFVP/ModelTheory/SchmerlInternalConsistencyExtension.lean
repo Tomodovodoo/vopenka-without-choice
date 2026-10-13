@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalClassicalDerivation
-import ZFVP.ModelTheory.SchmerlInternalConsistency
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalClassicalDerivation
+public import ZFVP.ModelTheory.SchmerlInternalConsistency
+
+@[expose] public section
 
 /-! Syntactic sentence consistency and the one-sentence decision step.
 The proof operates on actual internal derivation codes, including countable rules. -/

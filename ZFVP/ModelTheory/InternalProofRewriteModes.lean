@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalProofRewriteSubstitution
-import ZFVP.Syntax.PrimitiveProgramProofRewriteModes
+module
+
+public import ZFVP.ModelTheory.InternalProofRewriteSubstitution
+public import ZFVP.Syntax.PrimitiveProgramProofRewriteModes
+
+@[expose] public section
 
 /-! Concrete initial variable tables of the three proof-rule rewrite modes. -/
 

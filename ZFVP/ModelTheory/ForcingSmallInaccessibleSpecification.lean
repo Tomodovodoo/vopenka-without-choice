@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingSmallInaccessible
-import ZFVP.ModelTheory.ForcingCheckedTruth
-import ZFVP.SetTheory.WoodinPrefixCutoff
+module
+
+public import ZFVP.ModelTheory.ForcingSmallInaccessible
+public import ZFVP.ModelTheory.ForcingCheckedTruth
+public import ZFVP.SetTheory.WoodinPrefixCutoff
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.Syntax.LevyForcingSteps
+module
+
+public import ZFVP.Syntax.LevyForcingSteps
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

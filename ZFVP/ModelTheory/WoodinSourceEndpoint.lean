@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSourceCompletedInverse
-import ZFVP.ModelTheory.WoodinEndpointDirect
-import ZFVP.ModelTheory.ForcingIsomorphismModel
+module
+
+public import ZFVP.ModelTheory.WoodinSourceCompletedInverse
+public import ZFVP.ModelTheory.WoodinEndpointDirect
+public import ZFVP.ModelTheory.ForcingIsomorphismModel
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

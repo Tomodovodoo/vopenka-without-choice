@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.OrdinalTriangle
+module
+
+public import ZFVP.SetTheory.OrdinalTriangle
+
+@[expose] public section
 
 namespace ZFVP
 

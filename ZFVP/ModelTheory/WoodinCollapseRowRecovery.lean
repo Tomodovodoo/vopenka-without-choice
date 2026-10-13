@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinCollapseRankWitness
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseRankWitness
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

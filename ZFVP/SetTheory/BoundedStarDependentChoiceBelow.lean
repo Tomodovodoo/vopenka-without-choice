@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BoundedStarDependentChoice
+module
+
+public import ZFVP.SetTheory.BoundedStarDependentChoice
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

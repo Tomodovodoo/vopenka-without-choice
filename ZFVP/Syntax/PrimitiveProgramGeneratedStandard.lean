@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramGeneratedAxioms
-import ZFVP.Syntax.PrimitiveProgramLKStandardInputs
+module
+
+public import ZFVP.Syntax.PrimitiveProgramGeneratedAxioms
+public import ZFVP.Syntax.PrimitiveProgramLKStandardInputs
+
+@[expose] public section
 
 /-! Every standard axiom of the generated theory has an accepted explicit program witness. -/
 

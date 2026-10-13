@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ElementaryInclusionLaws
-import ZFVP.ModelTheory.EmbeddingBoundedOperations
-import ZFVP.SetTheory.BoundedRelationRange
+module
+
+public import ZFVP.ModelTheory.ElementaryInclusionLaws
+public import ZFVP.ModelTheory.EmbeddingBoundedOperations
+public import ZFVP.SetTheory.BoundedRelationRange
+
+@[expose] public section
 
 /-! Elementary submodels of a transitive set contain witnesses to bounded
 relations with their parameters, whenever a witness exists in the ambient set. -/

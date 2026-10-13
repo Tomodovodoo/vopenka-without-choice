@@ -1,4 +1,8 @@
-import ZFVP.Syntax.BoundedCertificateCases
+module
+
+public import ZFVP.Syntax.BoundedCertificateCases
+
+@[expose] public section
 
 /-! A bounded formula checks one step of an internally finite syntax derivation. -/
 

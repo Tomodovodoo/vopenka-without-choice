@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSourceCode
-import ZFVP.ModelTheory.TransitiveZFIterationHistory
-import ZFVP.ModelTheory.TransitiveZFCoding
+module
+
+public import ZFVP.ModelTheory.WoodinSourceCode
+public import ZFVP.ModelTheory.TransitiveZFIterationHistory
+public import ZFVP.ModelTheory.TransitiveZFCoding
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.MembershipEndExtension
-import ZFVP.SetTheory.Rank
-import ZFVP.SetTheory.VopenkaScheme
+module
+
+public import ZFVP.SetTheory.MembershipEndExtension
+public import ZFVP.SetTheory.Rank
+public import ZFVP.SetTheory.VopenkaScheme
+
+@[expose] public section
 
 /-! Basic vocabulary for the dead-end models used in Proposition
 `prop:countability-essential`: proper end extensions, powerset-preserving and rank

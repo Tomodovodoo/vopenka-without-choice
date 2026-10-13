@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SymmetricLift
+module
+
+public import ZFVP.ModelTheory.SymmetricLift
+
+@[expose] public section
 
 /-! A fixed transitive closure of the coded symmetric system supplies the lift hypotheses. -/
 

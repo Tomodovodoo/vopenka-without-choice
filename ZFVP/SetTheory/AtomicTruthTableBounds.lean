@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedAtomicTruth
-import ZFVP.SetTheory.CnAbsoluteness
+module
+
+public import ZFVP.SetTheory.BoundedAtomicTruth
+public import ZFVP.SetTheory.CnAbsoluteness
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

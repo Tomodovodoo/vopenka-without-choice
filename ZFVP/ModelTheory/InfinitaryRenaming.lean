@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitarySyntax
+module
+
+public import ZFVP.ModelTheory.InfinitarySyntax
+
+@[expose] public section
 
 /-! Renaming free variable positions, including below first-order and uncountability binders. -/
 

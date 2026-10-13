@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.RubinFiniteTypes
+module
+
+public import ZFVP.ModelTheory.RubinFiniteTypes
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

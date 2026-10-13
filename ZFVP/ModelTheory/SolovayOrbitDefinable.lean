@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.SubalgebraModelDefinable
-import ZFVP.ModelTheory.SolovaySymmetricSupport
-import ZFVP.ModelTheory.SolovaySymmetricReals
-import ZFVP.ModelTheory.SolovayCorollaryFinal
-import ZFVP.SetTheory.EndExtensionLevyCollapse
-import ZFVP.ModelTheory.SolovayFactorHomogeneity
+module
+
+public import ZFVP.ModelTheory.SubalgebraModelDefinable
+public import ZFVP.ModelTheory.SolovaySymmetricSupport
+public import ZFVP.ModelTheory.SolovaySymmetricReals
+public import ZFVP.ModelTheory.SolovayCorollaryFinal
+public import ZFVP.SetTheory.EndExtensionLevyCollapse
+public import ZFVP.ModelTheory.SolovayFactorHomogeneity
+
+@[expose] public section
 
 /-! The orbit union of Karagila and Schilhan, Proposition 9.4.
 

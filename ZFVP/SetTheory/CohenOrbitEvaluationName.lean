@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.CohenFiniteAssignmentName
-import ZFVP.SetTheory.CohenFixedOrbitName
-import ZFVP.SetTheory.SymmetricPairNames
+module
+
+public import ZFVP.SetTheory.CohenFiniteAssignmentName
+public import ZFVP.SetTheory.CohenFixedOrbitName
+public import ZFVP.SetTheory.SymmetricPairNames
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,6 +1,10 @@
-import ZFVP.Syntax.MembershipRenaming
-import ZFVP.Syntax.NegationSemantics
-import ZFVP.ModelTheory.DirectedElementaryUnion
+module
+
+public import ZFVP.Syntax.MembershipRenaming
+public import ZFVP.Syntax.NegationSemantics
+public import ZFVP.ModelTheory.DirectedElementaryUnion
+
+@[expose] public section
 
 /-! Finite formula templates with a hole for an arbitrary internal membership code. -/
 

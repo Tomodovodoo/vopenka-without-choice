@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingFunctionValues
-import ZFVP.ModelTheory.ForcingModelChecks
-import ZFVP.SetTheory.ChoicelessInaccessibleRank
-import ZFVP.SetTheory.RankCollection
+module
+
+public import ZFVP.ModelTheory.ForcingFunctionValues
+public import ZFVP.ModelTheory.ForcingModelChecks
+public import ZFVP.SetTheory.ChoicelessInaccessibleRank
+public import ZFVP.SetTheory.RankCollection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

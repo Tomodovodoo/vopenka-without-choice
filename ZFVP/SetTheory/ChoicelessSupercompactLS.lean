@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FullChoicelessCardinals
-import ZFVP.ModelTheory.RankEmbeddingRangeClosure
+module
+
+public import ZFVP.SetTheory.FullChoicelessCardinals
+public import ZFVP.ModelTheory.RankEmbeddingRangeClosure
+
+@[expose] public section
 
 /-! Every 2-choiceless supercompact cardinal is LS. The source correct
 rank is closed under function sets, supplying the finite rank padding

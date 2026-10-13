@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.RankEmbeddingDictionary
+module
+
+public import ZFVP.ModelTheory.RankEmbeddingDictionary
+
+@[expose] public section
 
 /-! Recover the components of a pair in the range of a rank embedding. -/
 

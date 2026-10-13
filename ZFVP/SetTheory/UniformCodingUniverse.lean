@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.CodingUniverse
-import ZFVP.SetTheory.UniformParameterizedRecursion
-import ZFVP.SetTheory.UniformRank
+module
+
+public import ZFVP.SetTheory.CodingUniverse
+public import ZFVP.SetTheory.UniformParameterizedRecursion
+public import ZFVP.SetTheory.UniformRank
+
+@[expose] public section
 
 /-! Uniform definitions of ordinal addition and the coding bounds. -/
 

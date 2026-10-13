@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CodedMembershipEmbedding
-import ZFVP.SetTheory.UniformLowTruth
-import ZFVP.Syntax.UniformSyntaxTransport
+module
+
+public import ZFVP.ModelTheory.CodedMembershipEmbedding
+public import ZFVP.SetTheory.UniformLowTruth
+public import ZFVP.Syntax.UniformSyntaxTransport
+
+@[expose] public section
 
 /-! Fixed formulas and elementary transport for coded embedding predicates. -/
 

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.InverseCollapseCode
-import ZFVP.ModelTheory.ForcingHartogsRegular
-import ZFVP.SetTheory.WoodinNamedPrefixCutoff
-import ZFVP.ModelTheory.ForcingCheckedBounded
+module
+
+public import ZFVP.ModelTheory.InverseCollapseCode
+public import ZFVP.ModelTheory.ForcingHartogsRegular
+public import ZFVP.SetTheory.WoodinNamedPrefixCutoff
+public import ZFVP.ModelTheory.ForcingCheckedBounded
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

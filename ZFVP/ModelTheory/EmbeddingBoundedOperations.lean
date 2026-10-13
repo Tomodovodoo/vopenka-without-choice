@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CodedMembershipEmbedding
-import ZFVP.SetTheory.BoundedCodingSupport
+module
+
+public import ZFVP.ModelTheory.CodedMembershipEmbedding
+public import ZFVP.SetTheory.BoundedCodingSupport
+
+@[expose] public section
 
 /-! Bounded set operations commute with coded embeddings between transitive domains. -/
 

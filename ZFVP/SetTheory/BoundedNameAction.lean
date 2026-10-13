@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.NameActionTables
+module
+
+public import ZFVP.SetTheory.NameActionTables
+
+@[expose] public section
 
 namespace ZFVP
 

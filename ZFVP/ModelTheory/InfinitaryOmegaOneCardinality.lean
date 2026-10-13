@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryOmegaOneStandardTruth
+module
+
+public import ZFVP.ModelTheory.InfinitaryOmegaOneStandardTruth
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder Cardinal

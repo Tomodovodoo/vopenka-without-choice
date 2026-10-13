@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RealUnitCover
-import ZFVP.SetTheory.RealCategoryUnions
+module
+
+public import ZFVP.SetTheory.RealUnitCover
+public import ZFVP.SetTheory.RealCategoryUnions
+
+@[expose] public section
 
 /-! Cantor BP implies BP for every actual internal real set under internal DC. -/
 

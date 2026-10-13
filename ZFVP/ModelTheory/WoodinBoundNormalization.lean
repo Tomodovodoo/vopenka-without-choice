@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinBoundInvariant
+module
+
+public import ZFVP.ModelTheory.WoodinBoundInvariant
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

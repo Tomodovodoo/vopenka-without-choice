@@ -1,6 +1,10 @@
-import ZFVP.Syntax.UniformTermEvaluation
-import ZFVP.Syntax.UniformAssignments
-import ZFVP.Syntax.UniformSubformulas
+module
+
+public import ZFVP.Syntax.UniformTermEvaluation
+public import ZFVP.Syntax.UniformAssignments
+public import ZFVP.Syntax.UniformSubformulas
+
+@[expose] public section
 
 /-! Shared parameter-free formulas for internal satisfaction in arbitrary coded structures. -/
 

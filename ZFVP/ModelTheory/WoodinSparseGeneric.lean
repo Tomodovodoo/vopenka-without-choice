@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseRealizationColumns
-import ZFVP.ModelTheory.ForcingReflectingProjection
+module
+
+public import ZFVP.ModelTheory.WoodinSparseRealizationColumns
+public import ZFVP.ModelTheory.ForcingReflectingProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.NamedMembershipStructure
-import ZFVP.ModelTheory.SchmerlNamedDiagram
-import ZFVP.ModelTheory.SchmerlCodedDeadEndLanguageTransport
+module
+
+public import ZFVP.ModelTheory.NamedMembershipStructure
+public import ZFVP.ModelTheory.SchmerlNamedDiagram
+public import ZFVP.ModelTheory.SchmerlCodedDeadEndLanguageTransport
+
+@[expose] public section
 
 set_option autoImplicit false
 namespace ZFVP.Schmerl

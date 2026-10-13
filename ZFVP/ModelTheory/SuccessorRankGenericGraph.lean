@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SuccessorRankLiftGraph
-import ZFVP.ModelTheory.ForcingGenericInclusion
-import ZFVP.ModelTheory.SuccessorRankLiftChecks
-import ZFVP.ModelTheory.ForcingLowRankNames
-import ZFVP.SetTheory.BoundedGraphDependentChoice
+module
+
+public import ZFVP.ModelTheory.SuccessorRankLiftGraph
+public import ZFVP.ModelTheory.ForcingGenericInclusion
+public import ZFVP.ModelTheory.SuccessorRankLiftChecks
+public import ZFVP.ModelTheory.ForcingLowRankNames
+public import ZFVP.SetTheory.BoundedGraphDependentChoice
+
+@[expose] public section
 
 namespace ZFVP
 

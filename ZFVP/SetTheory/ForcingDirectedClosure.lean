@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ForcingClosure
+module
+
+public import ZFVP.SetTheory.ForcingClosure
+
+@[expose] public section
 
 namespace ZFVP
 

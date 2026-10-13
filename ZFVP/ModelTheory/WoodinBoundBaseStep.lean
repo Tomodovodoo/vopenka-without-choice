@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinBoundInvariantSemantics
-import ZFVP.ModelTheory.WoodinBoundCoherence
-import ZFVP.ModelTheory.IdentityQuotientClosure
+module
+
+public import ZFVP.ModelTheory.WoodinBoundInvariantSemantics
+public import ZFVP.ModelTheory.WoodinBoundCoherence
+public import ZFVP.ModelTheory.IdentityQuotientClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

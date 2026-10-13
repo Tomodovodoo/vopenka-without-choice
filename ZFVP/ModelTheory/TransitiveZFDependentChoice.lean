@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TransitiveZFValues
-import ZFVP.SetTheory.DependentChoiceFailureCertificate
+module
+
+public import ZFVP.ModelTheory.TransitiveZFValues
+public import ZFVP.SetTheory.DependentChoiceFailureCertificate
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

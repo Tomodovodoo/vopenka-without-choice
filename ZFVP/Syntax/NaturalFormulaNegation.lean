@@ -1,4 +1,8 @@
-import ZFVP.Syntax.MembershipPrimcoding
+module
+
+public import ZFVP.Syntax.MembershipPrimcoding
+
+@[expose] public section
 
 /-! Primitive recursive negation on the natural-number formula encoding. -/
 

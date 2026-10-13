@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CollapsedElementarySubmodel
-import ZFVP.ModelTheory.ElementaryBoundedWitness
+module
+
+public import ZFVP.ModelTheory.CollapsedElementarySubmodel
+public import ZFVP.ModelTheory.ElementaryBoundedWitness
+
+@[expose] public section
 
 /-! The product-surjection step of Usuba's weak-LS cofinality argument.
 The inverse collapse indexes the surjections present in an elementary hull.

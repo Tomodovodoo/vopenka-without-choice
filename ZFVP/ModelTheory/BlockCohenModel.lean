@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BlockCohenNames
-import ZFVP.ModelTheory.CohenModel
+module
+
+public import ZFVP.SetTheory.BlockCohenNames
+public import ZFVP.ModelTheory.CohenModel
+
+@[expose] public section
 
 /-!
 The symmetric model of Jech's first embedding theorem, packaged as a `SymmetricContext`: Cohen

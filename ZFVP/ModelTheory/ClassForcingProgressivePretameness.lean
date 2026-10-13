@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ClassForcingPretamePreparation
-import ZFVP.ModelTheory.ClassForcingBoundedCover
+module
+
+public import ZFVP.ModelTheory.ClassForcingPretamePreparation
+public import ZFVP.ModelTheory.ClassForcingBoundedCover
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

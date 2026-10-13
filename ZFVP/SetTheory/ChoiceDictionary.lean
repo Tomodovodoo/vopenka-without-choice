@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.DependentChoice
-import ZFVP.SetTheory.UniformRank
+module
+
+public import ZFVP.SetTheory.DependentChoice
+public import ZFVP.SetTheory.UniformRank
+
+@[expose] public section
 
 namespace ZFVP
 

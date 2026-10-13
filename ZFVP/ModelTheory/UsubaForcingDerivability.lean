@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.UsubaIterationUniform
-import ZFVP.ModelTheory.UsubaForcesZFC
-import ZFVP.ModelTheory.CountableZFTransfer
-import ZFVP.SetTheory.LowenheimSkolemDictionary
+module
+
+public import ZFVP.ModelTheory.UsubaIterationUniform
+public import ZFVP.ModelTheory.UsubaForcesZFC
+public import ZFVP.ModelTheory.CountableZFTransfer
+public import ZFVP.SetTheory.LowenheimSkolemDictionary
+
+@[expose] public section
 
 /-! Ground-theory derivability for the actual Usuba class forcing.
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.CompleteSubalgebra
+module
+
+public import ZFVP.ModelTheory.CompleteSubalgebra
+
+@[expose] public section
 
 /-! The projection of a Boolean condition to a complete subalgebra: the least element of the
 subalgebra above it. Every nonzero element of the subalgebra below the projection meets the

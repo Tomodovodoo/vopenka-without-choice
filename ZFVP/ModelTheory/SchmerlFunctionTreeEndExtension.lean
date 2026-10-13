@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SchmerlFunctionTree
-import ZFVP.ModelTheory.SchmerlClassTree
-import ZFVP.SetTheory.EndExtensionLevyCollapse
-import ZFVP.SetTheory.EndExtensionSubsetCoding
-import ZFVP.ModelTheory.EndExtensionBasics
+module
+
+public import ZFVP.ModelTheory.SchmerlFunctionTree
+public import ZFVP.ModelTheory.SchmerlClassTree
+public import ZFVP.SetTheory.EndExtensionLevyCollapse
+public import ZFVP.SetTheory.EndExtensionSubsetCoding
+public import ZFVP.ModelTheory.EndExtensionBasics
+
+@[expose] public section
 
 /-! The end-extension use of the selected finite-function trees. A binary
 function in an end extension gives a branch because every restriction to an

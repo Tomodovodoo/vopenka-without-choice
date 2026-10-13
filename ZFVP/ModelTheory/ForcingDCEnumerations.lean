@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ClassForcingTowerStageModels
-import ZFVP.ModelTheory.ForcingModelRank
-import ZFVP.SetTheory.EndExtensionRank
-import ZFVP.SetTheory.InjectionRetraction
-import ZFVP.SetTheory.OrdinalDependentChoiceAC
+module
+
+public import ZFVP.ModelTheory.ClassForcingTowerStageModels
+public import ZFVP.ModelTheory.ForcingModelRank
+public import ZFVP.SetTheory.EndExtensionRank
+public import ZFVP.SetTheory.InjectionRetraction
+public import ZFVP.SetTheory.OrdinalDependentChoiceAC
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

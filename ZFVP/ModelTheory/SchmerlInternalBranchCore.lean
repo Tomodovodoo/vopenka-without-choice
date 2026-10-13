@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SchmerlInternalBranchNames
-import ZFVP.ModelTheory.SchmerlInternalSpecialization
-import ZFVP.SetTheory.HartogsRegularChoice
-import ZFVP.SetTheory.CountableSets
-import ZFVP.SetTheory.FiniteCardinalArithmetic
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalBranchNames
+public import ZFVP.ModelTheory.SchmerlInternalSpecialization
+public import ZFVP.SetTheory.HartogsRegularChoice
+public import ZFVP.SetTheory.CountableSets
+public import ZFVP.SetTheory.FiniteCardinalArithmetic
+
+@[expose] public section
 
 /-! Separated internal branch markers give a core with only internally countable
 chains. Its internal anchor map extends a strict coloring to a weak coloring. -/

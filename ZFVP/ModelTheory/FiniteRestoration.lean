@@ -1,11 +1,15 @@
-import ZFVP.ModelTheory.ConsistencyTransferPassage
-import ZFVP.ModelTheory.FiniteRestorationGround
-import ZFVP.ModelTheory.EndpointRankModel
-import ZFVP.ModelTheory.EndpointCheckRank
-import ZFVP.ModelTheory.ForcingModelChecks
-import ZFVP.ModelTheory.WoodinEndpointPoset
-import ZFVP.SetTheory.SmallEmbeddingLevels
-import ZFVP.SetTheory.LimitStageEmbedding
+module
+
+public import ZFVP.ModelTheory.ConsistencyTransferPassage
+public import ZFVP.ModelTheory.FiniteRestorationGround
+public import ZFVP.ModelTheory.EndpointRankModel
+public import ZFVP.ModelTheory.EndpointCheckRank
+public import ZFVP.ModelTheory.ForcingModelChecks
+public import ZFVP.ModelTheory.WoodinEndpointPoset
+public import ZFVP.SetTheory.SmallEmbeddingLevels
+public import ZFVP.SetTheory.LimitStageEmbedding
+
+@[expose] public section
 
 /-! # Theorem thm:finite-restoration, assembled from named hypotheses
 

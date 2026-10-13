@@ -1,6 +1,10 @@
-import ZFVP.Syntax.SigmaOneInternalForcing
-import ZFVP.Syntax.SigmaOneInternalNonforcing
-import ZFVP.Syntax.EndExtensionMembershipSyntax
+module
+
+public import ZFVP.Syntax.SigmaOneInternalForcing
+public import ZFVP.Syntax.SigmaOneInternalNonforcing
+public import ZFVP.Syntax.EndExtensionMembershipSyntax
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

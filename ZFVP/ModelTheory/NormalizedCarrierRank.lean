@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.NormalizedTwoStepComparison
-import ZFVP.SetTheory.RankBounds
+module
+
+public import ZFVP.ModelTheory.NormalizedTwoStepComparison
+public import ZFVP.SetTheory.RankBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

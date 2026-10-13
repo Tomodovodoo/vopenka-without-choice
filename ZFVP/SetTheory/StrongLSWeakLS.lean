@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ElementaryIntersectionTruthTable
-import ZFVP.ModelTheory.ElementaryParameterClosure
-import ZFVP.SetTheory.LowenheimSkolemCardinals
-import ZFVP.SetTheory.PulledWellOrder
+module
+
+public import ZFVP.ModelTheory.ElementaryIntersectionTruthTable
+public import ZFVP.ModelTheory.ElementaryParameterClosure
+public import ZFVP.SetTheory.LowenheimSkolemCardinals
+public import ZFVP.SetTheory.PulledWellOrder
+
+@[expose] public section
 
 /-! Strong LS implies weak LS. The hull is intersected with the requested rank;
 a truth table among its parameters ensures elementarity for every internal code. -/

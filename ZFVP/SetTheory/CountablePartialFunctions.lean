@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.CountableSets
-import ZFVP.SetTheory.FinitePartialFunctions
-import ZFVP.SetTheory.ForcingClosure
-import ZFVP.SetTheory.DependentChoicePathUnions
+module
+
+public import ZFVP.SetTheory.CountableSets
+public import ZFVP.SetTheory.FinitePartialFunctions
+public import ZFVP.SetTheory.ForcingClosure
+public import ZFVP.SetTheory.DependentChoicePathUnions
+
+@[expose] public section
 
 /-! The forcing of internal countable partial functions, ordered by reverse inclusion.
 Descending sequences of length at most omega have lower bounds once countable

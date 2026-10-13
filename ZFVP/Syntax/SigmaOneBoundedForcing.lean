@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedForcingMeaning
-import ZFVP.Syntax.BoundedStandardTuples
+module
+
+public import ZFVP.Syntax.BoundedForcingMeaning
+public import ZFVP.Syntax.BoundedStandardTuples
+
+@[expose] public section
 
 /-! External bounded formulas admit both Sigma_1 answers, uniformly in the preorder.
 The name class may be any definable class of names closed under subnames. -/

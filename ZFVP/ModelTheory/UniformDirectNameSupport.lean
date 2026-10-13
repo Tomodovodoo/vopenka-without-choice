@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingUniformFunctionValues
-import ZFVP.ModelTheory.ForcingCompositionName
-import ZFVP.ModelTheory.DirectLimitQuotientSupport
+module
+
+public import ZFVP.ModelTheory.ForcingUniformFunctionValues
+public import ZFVP.ModelTheory.ForcingCompositionName
+public import ZFVP.ModelTheory.DirectLimitQuotientSupport
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

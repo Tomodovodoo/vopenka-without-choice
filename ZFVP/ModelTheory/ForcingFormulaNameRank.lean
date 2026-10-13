@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingUniqueNameRank
-import ZFVP.ModelTheory.ForcingFormulaName
-import ZFVP.ModelTheory.ForcingSemanticConsequence
+module
+
+public import ZFVP.SetTheory.ForcingUniqueNameRank
+public import ZFVP.ModelTheory.ForcingFormulaName
+public import ZFVP.ModelTheory.ForcingSemanticConsequence
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

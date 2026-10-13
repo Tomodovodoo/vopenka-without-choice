@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.WoodinSourceCode
-import ZFVP.SetTheory.WoodinSeedRange
-import ZFVP.ModelTheory.WoodinRecursionHistory
-import ZFVP.ModelTheory.WoodinConstruction
-import ZFVP.ModelTheory.WoodinRecursionHistoryInduction
+module
+
+public import ZFVP.ModelTheory.WoodinSourceCode
+public import ZFVP.SetTheory.WoodinSeedRange
+public import ZFVP.ModelTheory.WoodinRecursionHistory
+public import ZFVP.ModelTheory.WoodinConstruction
+public import ZFVP.ModelTheory.WoodinRecursionHistoryInduction
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

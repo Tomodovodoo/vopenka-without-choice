@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseLocalPrefixRank
-import ZFVP.ModelTheory.ForcingCodeUniform
+module
+
+public import ZFVP.ModelTheory.WoodinSparseLocalPrefixRank
+public import ZFVP.ModelTheory.ForcingCodeUniform
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

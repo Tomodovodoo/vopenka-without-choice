@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.NamedMembershipStructure
-import ZFVP.Syntax.LiftSubstitution
+module
+
+public import ZFVP.ModelTheory.NamedMembershipStructure
+public import ZFVP.Syntax.LiftSubstitution
+
+@[expose] public section
 
 /-! Coded elementary embeddings preserve every named element. -/
 

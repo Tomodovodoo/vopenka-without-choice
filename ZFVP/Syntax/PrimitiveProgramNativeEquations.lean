@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramNegationStandard
+module
+
+public import ZFVP.Syntax.PrimitiveProgramNegationStandard
+
+@[expose] public section
 
 /-! Standard-natural equations for composing the explicit syntax programs. -/
 

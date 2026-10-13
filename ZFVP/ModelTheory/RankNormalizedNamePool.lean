@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingLeastRankNameLocal
-import ZFVP.ModelTheory.NormalizedTwoStepComparison
-import ZFVP.ModelTheory.TransitiveZFRankOperations
-import ZFVP.ModelTheory.TransitiveZFWoodinStage
+module
+
+public import ZFVP.ModelTheory.ForcingLeastRankNameLocal
+public import ZFVP.ModelTheory.NormalizedTwoStepComparison
+public import ZFVP.ModelTheory.TransitiveZFRankOperations
+public import ZFVP.ModelTheory.TransitiveZFWoodinStage
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

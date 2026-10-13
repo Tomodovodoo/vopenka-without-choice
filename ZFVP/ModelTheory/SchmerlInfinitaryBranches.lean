@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInfinitaryCofinality
-import ZFVP.ModelTheory.SchmerlClassTree
+module
+
+public import ZFVP.ModelTheory.SchmerlInfinitaryCofinality
+public import ZFVP.ModelTheory.SchmerlClassTree
+
+@[expose] public section
 
 /-! Actual formulas for the selected-level branch candidates, the cofinal-rank
 test, and the corrected original-language definability requirement.

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ProductGenericConverseEquiv
+module
+
+public import ZFVP.ModelTheory.ProductGenericConverseEquiv
+
+@[expose] public section
 
 /-! Base change: a forcing context over a ground model transports along a membership isomorphism
 of ground models, and the two extensions are isomorphic membership structures compatibly with

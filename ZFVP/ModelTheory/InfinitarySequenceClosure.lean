@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitarySequenceOperations
+module
+
+public import ZFVP.ModelTheory.InfinitarySequenceOperations
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.SigmaTwoWoodinCollapse
-import ZFVP.SetTheory.PiTwoForcingDependentChoice
-import ZFVP.SetTheory.WoodinPrefixCutoff
+module
+
+public import ZFVP.SetTheory.SigmaTwoWoodinCollapse
+public import ZFVP.SetTheory.PiTwoForcingDependentChoice
+public import ZFVP.SetTheory.WoodinPrefixCutoff
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

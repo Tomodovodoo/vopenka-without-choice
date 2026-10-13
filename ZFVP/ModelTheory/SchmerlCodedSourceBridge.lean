@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlCodedSelectedTree
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedSelectedTree
+
+@[expose] public section
 
 /-! Consequences of the genuine internally coded source, including its
 ambient member-trace smallness and the constructed tree forcing data. -/

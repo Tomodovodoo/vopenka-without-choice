@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinNormalizationInverse
+module
+
+public import ZFVP.ModelTheory.WoodinNormalizationInverse
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

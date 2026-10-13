@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingNormalizationLimitFamily
-import ZFVP.ModelTheory.SaturatedHartogsStage
-import ZFVP.ModelTheory.WoodinInverseCodeDefinability
+module
+
+public import ZFVP.ModelTheory.ForcingNormalizationLimitFamily
+public import ZFVP.ModelTheory.SaturatedHartogsStage
+public import ZFVP.ModelTheory.WoodinInverseCodeDefinability
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

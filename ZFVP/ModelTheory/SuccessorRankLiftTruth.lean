@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SuccessorRankLift
-import ZFVP.ModelTheory.SuccessorRankNameAssignments
-import ZFVP.ModelTheory.SuccessorRankCodeFixation
-import ZFVP.ModelTheory.InternalGenericTruth
-import ZFVP.Syntax.EndExtensionMembershipNegation
+module
+
+public import ZFVP.ModelTheory.SuccessorRankLift
+public import ZFVP.ModelTheory.SuccessorRankNameAssignments
+public import ZFVP.ModelTheory.SuccessorRankCodeFixation
+public import ZFVP.ModelTheory.InternalGenericTruth
+public import ZFVP.Syntax.EndExtensionMembershipNegation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

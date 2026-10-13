@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.LevyUpperPermutations
-import ZFVP.SetTheory.LevyColumnSplitting
-import ZFVP.SetTheory.MeasurableStrongLimit
-import ZFVP.SetTheory.Hessenberg
+module
+
+public import ZFVP.SetTheory.LevyUpperPermutations
+public import ZFVP.SetTheory.LevyColumnSplitting
+public import ZFVP.SetTheory.MeasurableStrongLimit
+public import ZFVP.SetTheory.Hessenberg
+
+@[expose] public section
 
 /-! The full Levy collapse as the upper collapse above `∅`: it is weakly homogeneous; the columns
 below `β` form the collapse `Coll(ω, <β)`; and below a measurable the collapse `Coll(ω, <β)` is

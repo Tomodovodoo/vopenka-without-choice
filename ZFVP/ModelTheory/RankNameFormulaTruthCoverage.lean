@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingRankTruth
-import ZFVP.ModelTheory.WoodinSparseEndpointTruth
+module
+
+public import ZFVP.ModelTheory.ForcingRankTruth
+public import ZFVP.ModelTheory.WoodinSparseEndpointTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

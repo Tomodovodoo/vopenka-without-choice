@@ -1,4 +1,8 @@
-import Foundation.FirstOrder.Completeness.CounterModel
+module
+
+public import Foundation.FirstOrder.Completeness.CounterModel
+
+@[expose] public section
 
 /-! # The Henkin-Orey omitting types theorem
 

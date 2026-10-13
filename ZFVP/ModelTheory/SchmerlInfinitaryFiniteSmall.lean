@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInfinitaryDeadEndSentence
+module
+
+public import ZFVP.ModelTheory.SchmerlInfinitaryDeadEndSentence
+
+@[expose] public section
 
 /-! The additional standard-Q clause needed to recover arbitrary maximal
 finite-function filters from selected branches. -/

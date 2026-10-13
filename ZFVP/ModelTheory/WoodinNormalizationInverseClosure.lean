@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingNormalizationThreadClosure
-import ZFVP.ModelTheory.WoodinNormalizationInverseFamily
+module
+
+public import ZFVP.ModelTheory.ForcingNormalizationThreadClosure
+public import ZFVP.ModelTheory.WoodinNormalizationInverseFamily
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

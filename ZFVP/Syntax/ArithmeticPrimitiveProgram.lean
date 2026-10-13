@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgram
-import Foundation.FirstOrder.Arithmetic.HFS.PRF
+module
+
+public import ZFVP.Syntax.PrimitiveProgram
+public import Foundation.FirstOrder.Arithmetic.HFS.PRF
+
+@[expose] public section
 
 /-! Sigma-one arithmetic formulas for explicit primitive-recursive programs. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.DenseEmbeddingComposition
-import ZFVP.SetTheory.FunctionComposition
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.SetTheory.DenseEmbeddingComposition
+public import ZFVP.SetTheory.FunctionComposition
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 /-! Absorption for arbitrary infinite ordinals `λ` (not only initial ones): `λ^{<ω}` embeds
 densely into `P × Coll(ω, λ)` whenever `|P| ≤ λ`. This is the form needed inside extensions,

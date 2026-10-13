@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SuccessorRankCriticalPoint
+module
+
+public import ZFVP.ModelTheory.SuccessorRankCriticalPoint
+
+@[expose] public section
 
 namespace ZFVP
 

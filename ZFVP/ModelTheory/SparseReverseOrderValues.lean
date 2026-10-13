@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SparseReverseOrderComparison
+module
+
+public import ZFVP.ModelTheory.SparseReverseOrderComparison
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

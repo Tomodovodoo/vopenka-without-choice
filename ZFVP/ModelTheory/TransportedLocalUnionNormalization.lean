@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LocalUnionNormalizationForcing
-import ZFVP.ModelTheory.TransportedTwoStepSequence
-import ZFVP.ModelTheory.QuotientClosureComposition
+module
+
+public import ZFVP.ModelTheory.LocalUnionNormalizationForcing
+public import ZFVP.ModelTheory.TransportedTwoStepSequence
+public import ZFVP.ModelTheory.QuotientClosureComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

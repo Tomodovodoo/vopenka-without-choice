@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.OmegaJonssonExistence
-import ZFVP.ModelTheory.CriticalLimitStrongLimit
-import ZFVP.ModelTheory.KunenCnTwo
+module
+
+public import ZFVP.SetTheory.OmegaJonssonExistence
+public import ZFVP.ModelTheory.CriticalLimitStrongLimit
+public import ZFVP.ModelTheory.KunenCnTwo
+
+@[expose] public section
 
 /-! Kunen's theorem with the omega-Jonsson hypothesis discharged.
 

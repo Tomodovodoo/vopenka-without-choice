@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.UniformWoodinSparseSuccessor
-import ZFVP.ModelTheory.UniformSparseThread
-import ZFVP.ModelTheory.WoodinSparseInverseStage
-import ZFVP.ModelTheory.WoodinSparseDirectBase
+module
+
+public import ZFVP.ModelTheory.UniformWoodinSparseSuccessor
+public import ZFVP.ModelTheory.UniformSparseThread
+public import ZFVP.ModelTheory.WoodinSparseInverseStage
+public import ZFVP.ModelTheory.WoodinSparseDirectBase
+
+@[expose] public section
 
 /-! Uniform syntax for the sparse direct and completed inverse constructors. -/
 

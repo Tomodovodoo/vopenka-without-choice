@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.Hartogs
+module
+
+public import ZFVP.SetTheory.Hartogs
+
+@[expose] public section
 
 /-! Cardinal representatives for well-orderable internal sets, with no use of AC. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SingletonNormalizedPoolEvaluation
-import ZFVP.ModelTheory.NormalizedReverseOrderComparison
+module
+
+public import ZFVP.ModelTheory.SingletonNormalizedPoolEvaluation
+public import ZFVP.ModelTheory.NormalizedReverseOrderComparison
+
+@[expose] public section
 
 set_option maxHeartbeats 1000000
 

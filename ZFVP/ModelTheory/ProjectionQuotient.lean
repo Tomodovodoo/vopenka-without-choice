@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingModelGeneric
-import ZFVP.ModelTheory.ForcingModelChecks
-import ZFVP.ModelTheory.ForcingSplitProjection
+module
+
+public import ZFVP.ModelTheory.ForcingModelGeneric
+public import ZFVP.ModelTheory.ForcingModelChecks
+public import ZFVP.ModelTheory.ForcingSplitProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

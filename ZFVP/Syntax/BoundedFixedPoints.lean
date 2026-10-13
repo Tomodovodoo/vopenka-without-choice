@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PiOneBoundedCodes
+module
+
+public import ZFVP.Syntax.PiOneBoundedCodes
+
+@[expose] public section
 
 /-! Constructor equations uniquely determine the bounded syntax family. -/
 

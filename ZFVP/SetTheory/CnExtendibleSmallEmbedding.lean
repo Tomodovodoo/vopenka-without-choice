@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.ChoicelessExtendibleWitness
-import ZFVP.ModelTheory.EmbeddingCnTransfer
-import ZFVP.ModelTheory.RankEmbeddingRestriction
-import ZFVP.ModelTheory.RankEmbeddingDictionary
-import ZFVP.ModelTheory.CriticalPointRestriction
+module
+
+public import ZFVP.SetTheory.ChoicelessExtendibleWitness
+public import ZFVP.ModelTheory.EmbeddingCnTransfer
+public import ZFVP.ModelTheory.RankEmbeddingRestriction
+public import ZFVP.ModelTheory.RankEmbeddingDictionary
+public import ZFVP.ModelTheory.CriticalPointRestriction
+
+@[expose] public section
 
 /-! Bagaria-Poveda Corollary 2.7, the direction used by finite restoration:
 the small-embedding criterion at C(n+1) stages gives C(n)-extendibility. -/

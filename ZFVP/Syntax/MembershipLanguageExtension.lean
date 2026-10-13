@@ -1,4 +1,8 @@
-import ZFVP.Syntax.MembershipAtomicSemantics
+module
+
+public import ZFVP.Syntax.MembershipAtomicSemantics
+
+@[expose] public section
 
 /-! Membership formulas remain valid when additional symbols are added.
 The result includes every internally finite formula code. -/

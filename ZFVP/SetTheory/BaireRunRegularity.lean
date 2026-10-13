@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BaireRunTrees
-import ZFVP.SetTheory.CountableSets
+module
+
+public import ZFVP.SetTheory.BaireRunTrees
+public import ZFVP.SetTheory.CountableSets
+
+@[expose] public section
 
 /-! Transfer of category regularity from Cantor space to the manuscript's Baire space. -/
 

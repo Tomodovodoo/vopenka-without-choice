@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SymmetricModel
-import ZFVP.SetTheory.SymmetricUnionName
+module
+
+public import ZFVP.ModelTheory.SymmetricModel
+public import ZFVP.SetTheory.SymmetricUnionName
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.Rank
-import ZFVP.SetTheory.UniformRecursion
-import ZFVP.SetTheory.ElementaryMap
+module
+
+public import ZFVP.SetTheory.Rank
+public import ZFVP.SetTheory.UniformRecursion
+public import ZFVP.SetTheory.ElementaryMap
+
+@[expose] public section
 
 /-! Uniform rank definition and its preservation by elementary maps. -/
 

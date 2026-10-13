@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CountableEvaluatedHull
-import ZFVP.ModelTheory.SerialForcingCandidates
+module
+
+public import ZFVP.ModelTheory.CountableEvaluatedHull
+public import ZFVP.ModelTheory.SerialForcingCandidates
+
+@[expose] public section
 
 /-! Dense forcing witnesses among a checked countable set of names yield
 an internal path through the interpreted serial relation. -/

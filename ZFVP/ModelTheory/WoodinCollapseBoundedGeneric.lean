@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingPredense
-import ZFVP.SetTheory.WoodinCollapsePredense
+module
+
+public import ZFVP.ModelTheory.ForcingPredense
+public import ZFVP.SetTheory.WoodinCollapsePredense
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

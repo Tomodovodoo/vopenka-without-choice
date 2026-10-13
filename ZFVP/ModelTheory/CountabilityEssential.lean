@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WeaklyRubinDeadEnd
-import ZFVP.SetTheory.ChoiceDictionary
+module
+
+public import ZFVP.ModelTheory.WeaklyRubinDeadEnd
+public import ZFVP.SetTheory.ChoiceDictionary
+
+@[expose] public section
 
 /-! The model-theoretic half of the paper's Proposition `prop:countability-essential`.
 

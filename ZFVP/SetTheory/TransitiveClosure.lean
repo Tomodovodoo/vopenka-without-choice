@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.Hierarchy
+module
+
+public import ZFVP.SetTheory.Hierarchy
+
+@[expose] public section
 
 /-! Internal transitive closure and the definable set-induction schema. -/
 

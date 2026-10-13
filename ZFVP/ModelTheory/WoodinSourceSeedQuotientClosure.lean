@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSourceEndpoint
-import ZFVP.ModelTheory.WoodinInitialSeedQuotientClosure
-import ZFVP.ModelTheory.QuotientClosureCompositionTransfer
+module
+
+public import ZFVP.ModelTheory.WoodinSourceEndpoint
+public import ZFVP.ModelTheory.WoodinInitialSeedQuotientClosure
+public import ZFVP.ModelTheory.QuotientClosureCompositionTransfer
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

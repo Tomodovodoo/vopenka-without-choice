@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.NormalizedWoodinModel
-import ZFVP.SetTheory.HartogsDictionary
-import ZFVP.SetTheory.UniformRank
-import ZFVP.SetTheory.ElementaryDependentChoice
+module
+
+public import ZFVP.ModelTheory.NormalizedWoodinModel
+public import ZFVP.SetTheory.HartogsDictionary
+public import ZFVP.SetTheory.UniformRank
+public import ZFVP.SetTheory.ElementaryDependentChoice
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingPullbackGeneric
-import ZFVP.ModelTheory.ForcingRealizationGeneration
-import ZFVP.SetTheory.EndExtensionNameAction
-import ZFVP.ModelTheory.ForcingGenericInclusion
+module
+
+public import ZFVP.ModelTheory.ForcingPullbackGeneric
+public import ZFVP.ModelTheory.ForcingRealizationGeneration
+public import ZFVP.SetTheory.EndExtensionNameAction
+public import ZFVP.ModelTheory.ForcingGenericInclusion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

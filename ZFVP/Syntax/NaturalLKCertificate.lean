@@ -1,4 +1,8 @@
-import ZFVP.Syntax.NaturalLKRulePrimrec
+module
+
+public import ZFVP.Syntax.NaturalLKRulePrimrec
+
+@[expose] public section
 
 /-! Finite LK certificates with no forward references or circular premises. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.Syntax.FormulaSubstitutionValidity
-import ZFVP.Syntax.MembershipAtomicSyntax
+module
+
+public import ZFVP.Syntax.FormulaSubstitutionValidity
+public import ZFVP.Syntax.MembershipAtomicSyntax
+
+@[expose] public section
 
 /-! Capture-avoiding substitution carries a bounded membership guard to a bounded guard. -/
 

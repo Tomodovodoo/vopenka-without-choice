@@ -1,4 +1,8 @@
-import ZFVP.Syntax.MembershipEncodingRewriting
+module
+
+public import ZFVP.Syntax.MembershipEncodingRewriting
+
+@[expose] public section
 
 /-! Formula codes do not record unused surrounding variable contexts. -/
 

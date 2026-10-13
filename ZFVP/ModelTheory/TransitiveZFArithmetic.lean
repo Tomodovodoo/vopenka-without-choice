@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TransitiveZFCoding
-import ZFVP.ModelTheory.InternalArithmeticGraphs
+module
+
+public import ZFVP.ModelTheory.TransitiveZFCoding
+public import ZFVP.ModelTheory.InternalArithmeticGraphs
+
+@[expose] public section
 
 /-! Addition and multiplication agree in a transitive ZF model and its ambient model. -/
 

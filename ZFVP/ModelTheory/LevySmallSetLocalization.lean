@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.LevySubsetLocalization
-import ZFVP.ModelTheory.CohenStage
-import ZFVP.ModelTheory.SolovayLocalization
-import ZFVP.SetTheory.PerfectSetCore
+module
+
+public import ZFVP.ModelTheory.LevySubsetLocalization
+public import ZFVP.ModelTheory.CohenStage
+public import ZFVP.ModelTheory.SolovayLocalization
+public import ZFVP.SetTheory.PerfectSetCore
+
+@[expose] public section
 
 /-! Localization of subsets of a small checked set: a subset of `Q̌` with `Q ≤# ν < κ` in the Levy
 extension lies in a bounded stage, by transporting along a ground injection of `Q` into `ν`. -/

@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.CohenVopenkaConsistency
-import ZFVP.ModelTheory.ConsistencyTransferPassage
-import ZFVP.ModelTheory.CohenSetInjectionWitness
-import ZFVP.ModelTheory.SVCVopenkaRestoration
-import ZFVP.SetTheory.RealSequenceCoding
+module
+
+public import ZFVP.ModelTheory.CohenVopenkaConsistency
+public import ZFVP.ModelTheory.ConsistencyTransferPassage
+public import ZFVP.ModelTheory.CohenSetInjectionWitness
+public import ZFVP.ModelTheory.SVCVopenkaRestoration
+public import ZFVP.SetTheory.RealSequenceCoding
+
+@[expose] public section
 
 /-! The basic Cohen symmetric model satisfies the rigid relation principle while failing
 choice and dependent choice. The injection into finite sequences of reals times an ordinal

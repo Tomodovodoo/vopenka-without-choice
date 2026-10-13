@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ProjectionQuotientDensity
+module
+
+public import ZFVP.ModelTheory.ProjectionQuotientDensity
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

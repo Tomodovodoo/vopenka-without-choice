@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ChoicelessFailureClub
-import ZFVP.ModelTheory.EmbeddingCnTransfer
-import ZFVP.ModelTheory.CriticalPointRestriction
+module
+
+public import ZFVP.SetTheory.ChoicelessFailureClub
+public import ZFVP.ModelTheory.EmbeddingCnTransfer
+public import ZFVP.ModelTheory.CriticalPointRestriction
+
+@[expose] public section
 
 /-! The rank-restriction contradiction used in the forward Vopenka argument. -/
 

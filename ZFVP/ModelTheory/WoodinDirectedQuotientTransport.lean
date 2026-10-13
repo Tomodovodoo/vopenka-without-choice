@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinDirectedActualQuotient
-import ZFVP.ModelTheory.EquivalentRetractionQuotientTransfer
-import ZFVP.ModelTheory.TwoStepDirectedClosure
+module
+
+public import ZFVP.ModelTheory.WoodinDirectedActualQuotient
+public import ZFVP.ModelTheory.EquivalentRetractionQuotientTransfer
+public import ZFVP.ModelTheory.TwoStepDirectedClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

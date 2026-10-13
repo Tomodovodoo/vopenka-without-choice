@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.UniformCollapse
+module
+
+public import ZFVP.SetTheory.UniformCollapse
+
+@[expose] public section
 
 namespace ZFVP
 

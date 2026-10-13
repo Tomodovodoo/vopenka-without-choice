@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingNormalizationExtension
-import ZFVP.ModelTheory.WoodinNormalizationSuccessorCoherence
+module
+
+public import ZFVP.ModelTheory.ForcingNormalizationExtension
+public import ZFVP.ModelTheory.WoodinNormalizationSuccessorCoherence
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

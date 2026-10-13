@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseCodeRankAgreement
-import ZFVP.ModelTheory.TransitiveZFLowRankInternalForcing
-import ZFVP.ModelTheory.WoodinSparseBoundedEndpointComparison
+module
+
+public import ZFVP.ModelTheory.WoodinSparseCodeRankAgreement
+public import ZFVP.ModelTheory.TransitiveZFLowRankInternalForcing
+public import ZFVP.ModelTheory.WoodinSparseBoundedEndpointComparison
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

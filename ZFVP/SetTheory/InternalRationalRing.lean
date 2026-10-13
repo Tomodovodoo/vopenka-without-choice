@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.InternalRationalArithmetic
+module
+
+public import ZFVP.SetTheory.InternalRationalArithmetic
+
+@[expose] public section
 
 /-! An ordered-ring interface to the actual internal rational quotient.
 All values still range over that quotient. Lean Nat and Int casts below are

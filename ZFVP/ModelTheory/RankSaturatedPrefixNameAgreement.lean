@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.RankSaturatedWoodinName
-import ZFVP.ModelTheory.SaturatedWoodinPrefix
-import ZFVP.SetTheory.BoundedDomainParameters
-import ZFVP.ModelTheory.CountableZFTransfer
+module
+
+public import ZFVP.ModelTheory.RankSaturatedWoodinName
+public import ZFVP.ModelTheory.SaturatedWoodinPrefix
+public import ZFVP.SetTheory.BoundedDomainParameters
+public import ZFVP.ModelTheory.CountableZFTransfer
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

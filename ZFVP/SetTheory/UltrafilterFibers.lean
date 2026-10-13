@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.SetUltrafilter
-import ZFVP.SetTheory.WellOrderedCardinal
-import ZFVP.SetTheory.WellOrderingChoice
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.SetTheory.SetUltrafilter
+public import ZFVP.SetTheory.WellOrderedCardinal
+public import ZFVP.SetTheory.WellOrderingChoice
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 /-! Combinatorics of a nonprincipal `κ`-complete ultrafilter on an ordinal `κ`: a map from
 `κ` into a set of size below `κ` has a fiber in the ultrafilter, `κ` is a strong limit, and

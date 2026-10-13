@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SymmetricModelZF
-import ZFVP.SetTheory.NameMapGraph
+module
+
+public import ZFVP.ModelTheory.SymmetricModelZF
+public import ZFVP.SetTheory.NameMapGraph
+
+@[expose] public section
 
 /-! Interpret a symmetric graph name as a graph inside the symmetric model. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.BinaryGreedySurjection
-import ZFVP.SetTheory.BinaryPrefixSeparation
-import ZFVP.SetTheory.RealIntervalBasics
+module
+
+public import ZFVP.SetTheory.BinaryGreedySurjection
+public import ZFVP.SetTheory.BinaryPrefixSeparation
+public import ZFVP.SetTheory.RealIntervalBasics
+
+@[expose] public section
 
 /-! The interior of a prefix interval has precisely that binary prefix. -/
 

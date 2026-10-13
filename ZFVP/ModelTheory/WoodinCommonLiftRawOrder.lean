@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinCommonLiftInduction
+module
+
+public import ZFVP.ModelTheory.WoodinCommonLiftInduction
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

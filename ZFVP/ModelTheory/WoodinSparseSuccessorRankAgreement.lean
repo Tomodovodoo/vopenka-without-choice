@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.RankSparseNormalizedTwoStep
-import ZFVP.ModelTheory.RankSaturatedPrefixNameAgreement
-import ZFVP.ModelTheory.WoodinSparseSuccessor
-import ZFVP.ModelTheory.WoodinSourceEndpointAgreement
+module
+
+public import ZFVP.ModelTheory.RankSparseNormalizedTwoStep
+public import ZFVP.ModelTheory.RankSaturatedPrefixNameAgreement
+public import ZFVP.ModelTheory.WoodinSparseSuccessor
+public import ZFVP.ModelTheory.WoodinSourceEndpointAgreement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

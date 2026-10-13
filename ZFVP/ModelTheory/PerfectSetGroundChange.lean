@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.PerfectSetDecision
-import ZFVP.ModelTheory.LevyGroundChange
+module
+
+public import ZFVP.ModelTheory.PerfectSetDecision
+public import ZFVP.ModelTheory.LevyGroundChange
+
+@[expose] public section
 
 /-! The perfect set property for all sets of reals of the Levy extension definable from ground
 sets, reals and ordinals, over an arbitrary ground model: change the ground to a bounded stage,

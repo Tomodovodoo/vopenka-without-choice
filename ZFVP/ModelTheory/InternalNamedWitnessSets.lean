@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalNamedConditions
+module
+
+public import ZFVP.ModelTheory.InternalNamedConditions
+
+@[expose] public section
 
 /-! An actual countable family of all named existential-witness requirements. -/
 

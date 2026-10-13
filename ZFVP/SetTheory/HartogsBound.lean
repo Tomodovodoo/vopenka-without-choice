@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.OrderTypeBound
-import ZFVP.SetTheory.InverseFunction
-import ZFVP.SetTheory.MeasuredWellFounded
+module
+
+public import ZFVP.SetTheory.OrderTypeBound
+public import ZFVP.SetTheory.InverseFunction
+public import ZFVP.SetTheory.MeasuredWellFounded
+
+@[expose] public section
 
 /-! Hartogs' non-embedding bound for every internal set, without AC. -/
 

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.TransitiveZFScottSets
-import ZFVP.ModelTheory.TransitiveZFAtomicForcing
-import ZFVP.ModelTheory.TransitiveZFForcingOrders
-import ZFVP.SetTheory.AtomicEqualityTransitivity
+module
+
+public import ZFVP.ModelTheory.TransitiveZFScottSets
+public import ZFVP.ModelTheory.TransitiveZFAtomicForcing
+public import ZFVP.ModelTheory.TransitiveZFForcingOrders
+public import ZFVP.SetTheory.AtomicEqualityTransitivity
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ClassForcingRefinementExtraction
-import ZFVP.ModelTheory.ClassForcingQuotientWitnesses
+module
+
+public import ZFVP.ModelTheory.ClassForcingRefinementExtraction
+public import ZFVP.ModelTheory.ClassForcingQuotientWitnesses
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

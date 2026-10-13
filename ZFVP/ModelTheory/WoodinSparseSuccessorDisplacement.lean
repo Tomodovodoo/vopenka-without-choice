@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinCanonicalTailNameAction
-import ZFVP.ModelTheory.WoodinSparseActualAutomorphisms
-import ZFVP.ModelTheory.WoodinSparseStageInvariant
-import ZFVP.ModelTheory.WoodinCanonicalTailNameUniform
+module
+
+public import ZFVP.ModelTheory.WoodinCanonicalTailNameAction
+public import ZFVP.ModelTheory.WoodinSparseActualAutomorphisms
+public import ZFVP.ModelTheory.WoodinSparseStageInvariant
+public import ZFVP.ModelTheory.WoodinCanonicalTailNameUniform
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

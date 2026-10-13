@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingDictionary
-import ZFVP.SetTheory.NameActionClosure
-import ZFVP.SetTheory.UniformLowTruth
+module
+
+public import ZFVP.SetTheory.ForcingDictionary
+public import ZFVP.SetTheory.NameActionClosure
+public import ZFVP.SetTheory.UniformLowTruth
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryGenericTermEvaluation
-import ZFVP.ModelTheory.InfinitaryGenericExistential
+module
+
+public import ZFVP.ModelTheory.InfinitaryGenericTermEvaluation
+public import ZFVP.ModelTheory.InfinitaryGenericExistential
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

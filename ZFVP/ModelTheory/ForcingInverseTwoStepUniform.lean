@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingSuccessorUniform
-import ZFVP.ModelTheory.ForcingLimitUniform
-import ZFVP.ModelTheory.InverseTwoStepCode
-import ZFVP.SetTheory.UniformFunctionOperations
+module
+
+public import ZFVP.ModelTheory.ForcingSuccessorUniform
+public import ZFVP.ModelTheory.ForcingLimitUniform
+public import ZFVP.ModelTheory.InverseTwoStepCode
+public import ZFVP.SetTheory.UniformFunctionOperations
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.CodedSequentSoundness
+module
+
+public import ZFVP.ModelTheory.CodedSequentSoundness
+
+@[expose] public section
 
 /-! Internally finite proofs with open theory axioms, valid at every assignment. -/
 

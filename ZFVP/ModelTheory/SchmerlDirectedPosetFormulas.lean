@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.InternalJointRealizationFormula
-import ZFVP.ModelTheory.SchmerlCodedDirectedPosetFamily
-import ZFVP.ModelTheory.SchmerlFiniteUpperBounds
-import ZFVP.ModelTheory.RubinStage
+module
+
+public import ZFVP.ModelTheory.InternalJointRealizationFormula
+public import ZFVP.ModelTheory.SchmerlCodedDirectedPosetFamily
+public import ZFVP.ModelTheory.SchmerlFiniteUpperBounds
+public import ZFVP.ModelTheory.RubinStage
+
+@[expose] public section
 
 /-! The actual coded directed posets have ordinary source formulas for their
 domains and strict orders when ambient omega is standard. -/

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.BinaryRelationRepresentation
-import ZFVP.ModelTheory.CodedZFModel
-import ZFVP.Syntax.TemplateInstantiation
-import ZFVP.Syntax.CloseTailParameters
+module
+
+public import ZFVP.ModelTheory.BinaryRelationRepresentation
+public import ZFVP.ModelTheory.CodedZFModel
+public import ZFVP.Syntax.TemplateInstantiation
+public import ZFVP.Syntax.CloseTailParameters
+
+@[expose] public section
 
 /-! Full internal ZF truth implies standard ZF truth for an arbitrary relation.
 The standard fragment quantifies over external formulas only; no converse to

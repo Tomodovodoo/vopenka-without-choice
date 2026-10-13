@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CnCofinal
+module
+
+public import ZFVP.SetTheory.CnCofinal
+
+@[expose] public section
 
 /-! One further correctness level supplies cofinally many correct heights. -/
 

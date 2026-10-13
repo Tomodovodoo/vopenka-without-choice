@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryBooleanDerivation
+module
+
+public import ZFVP.ModelTheory.InfinitaryBooleanDerivation
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

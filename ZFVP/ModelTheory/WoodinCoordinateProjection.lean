@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinPrefixCoordinates
-import ZFVP.ModelTheory.InverseSplitProjection
-import ZFVP.ModelTheory.QuotientSequenceProjection
-import ZFVP.ModelTheory.WoodinUniformTailSupport
+module
+
+public import ZFVP.ModelTheory.WoodinPrefixCoordinates
+public import ZFVP.ModelTheory.InverseSplitProjection
+public import ZFVP.ModelTheory.QuotientSequenceProjection
+public import ZFVP.ModelTheory.WoodinUniformTailSupport
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.WoodinSupercompact
+module
+
+public import ZFVP.SetTheory.WoodinSupercompact
+
+@[expose] public section
 
 /-! Small Woodin embeddings with a specified lower bound for the critical point. -/
 

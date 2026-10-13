@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.OrdinalDefinability
-import ZFVP.SetTheory.FormulaReflection
-import ZFVP.Syntax.PackFiniteParameters
-import ZFVP.Syntax.CloseParameters
+module
+
+public import ZFVP.SetTheory.OrdinalDefinability
+public import ZFVP.SetTheory.FormulaReflection
+public import ZFVP.Syntax.PackFiniteParameters
+public import ZFVP.Syntax.CloseParameters
+
+@[expose] public section
 
 /-! Closure of ordinal definability: a set defined in `V` by a parameter-free formula from
 ordinal definable parameters is ordinal definable. The parameters are unwound into one parameter

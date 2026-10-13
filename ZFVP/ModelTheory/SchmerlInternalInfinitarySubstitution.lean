@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlInternalInfinitaryInduction
-import ZFVP.Syntax.FormulaSubstitutionDefinability
-import ZFVP.Syntax.FormulaSubstitutionSemantics
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalInfinitaryInduction
+public import ZFVP.Syntax.FormulaSubstitutionDefinability
+public import ZFVP.Syntax.FormulaSubstitutionSemantics
+
+@[expose] public section
 
 /-! Actual internal substitution of infinitary codes, including omega-indexed
 conjunctions and lifted substitutions under Q. -/

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.StageRun
-import ZFVP.ModelTheory.StageDefinability
+module
+
+public import ZFVP.ModelTheory.StageRun
+public import ZFVP.ModelTheory.StageDefinability
+
+@[expose] public section
 
 /-! # The upper bound clause of a Rubin chain, from the successor step of a stage run
 

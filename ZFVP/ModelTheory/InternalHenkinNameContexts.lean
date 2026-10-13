@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalHenkinBooleanClosure
-import ZFVP.Syntax.NaturalReverseIndices
+module
+
+public import ZFVP.ModelTheory.InternalHenkinBooleanClosure
+public import ZFVP.Syntax.NaturalReverseIndices
+
+@[expose] public section
 
 /-! Finite context enlargement preserves the natural names assigned by reverse
 indexing, and preserves acceptance of each renamed formula. -/

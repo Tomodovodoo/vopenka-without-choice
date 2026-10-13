@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.DeltaOneSuccessorCode
-import ZFVP.ModelTheory.SigmaThreeSaturatedPrefixNames
-import ZFVP.SetTheory.SigmaThreeLeastPrefixCutoff
-import ZFVP.ModelTheory.WoodinIterationSuccessor
+module
+
+public import ZFVP.ModelTheory.DeltaOneSuccessorCode
+public import ZFVP.ModelTheory.SigmaThreeSaturatedPrefixNames
+public import ZFVP.SetTheory.SigmaThreeLeastPrefixCutoff
+public import ZFVP.ModelTheory.WoodinIterationSuccessor
+
+@[expose] public section
 
 set_option maxRecDepth 8192
 set_option maxHeartbeats 800000

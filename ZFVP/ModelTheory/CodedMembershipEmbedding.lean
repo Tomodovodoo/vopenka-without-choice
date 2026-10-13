@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CodedEmbeddingSemantics
-import ZFVP.Syntax.MembershipSatisfaction
-import ZFVP.SetTheory.ElementaryMap
+module
+
+public import ZFVP.ModelTheory.CodedEmbeddingSemantics
+public import ZFVP.Syntax.MembershipSatisfaction
+public import ZFVP.SetTheory.ElementaryMap
+
+@[expose] public section
 
 /-! From a coded membership embedding to the external elementary map used in the set-theoretic proofs. -/
 

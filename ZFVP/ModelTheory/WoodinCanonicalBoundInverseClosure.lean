@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.WoodinCanonicalBoundClosure
-import ZFVP.ModelTheory.WoodinCanonicalBoundLift
-import ZFVP.ModelTheory.WoodinCanonicalBoundInduction
-import ZFVP.ModelTheory.WoodinBoundInvariantSemantics
-import ZFVP.ModelTheory.QuotientLiftCompatibility
-import ZFVP.ModelTheory.IterationQuotientClosure
+module
+
+public import ZFVP.ModelTheory.WoodinCanonicalBoundClosure
+public import ZFVP.ModelTheory.WoodinCanonicalBoundLift
+public import ZFVP.ModelTheory.WoodinCanonicalBoundInduction
+public import ZFVP.ModelTheory.WoodinBoundInvariantSemantics
+public import ZFVP.ModelTheory.QuotientLiftCompatibility
+public import ZFVP.ModelTheory.IterationQuotientClosure
+
+@[expose] public section
 
 /-! Final assembly of the canonical quotient bound at the new inverse-limit coordinate.
 From the raw order comparison at `θ` we read off the forced separative bound for every

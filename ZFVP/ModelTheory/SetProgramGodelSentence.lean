@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SetProgramZFVPProvability
-import ZFVP.ModelTheory.InternalFormulaRequirementEquations
-import ZFVP.Syntax.SetDiagonalization
+module
+
+public import ZFVP.ModelTheory.SetProgramZFVPProvability
+public import ZFVP.ModelTheory.InternalFormulaRequirementEquations
+public import ZFVP.Syntax.SetDiagonalization
+
+@[expose] public section
 
 /-! A fixed sentence asserting its own unprovability by the explicit ZF+VP checker. -/
 

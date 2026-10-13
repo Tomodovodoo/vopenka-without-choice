@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CountableCohenInjectionCollision
-import ZFVP.SetTheory.WellOrderingChoice
-import ZFVP.ModelTheory.SymmetricModelOrdinals
+module
+
+public import ZFVP.ModelTheory.CountableCohenInjectionCollision
+public import ZFVP.SetTheory.WellOrderingChoice
+public import ZFVP.ModelTheory.SymmetricModelOrdinals
+
+@[expose] public section
 
 /-! The set of generic subsets in the countable-support Cohen model is not well-orderable:
 an injection into an ordinal would have a countable support, and a transposition moving

@@ -1,6 +1,10 @@
-import ZFVP.Syntax.PrimitiveProgramPrefixRenaming
-import ZFVP.Syntax.PrimitiveProgramReindexStandard
-import ZFVP.Syntax.TailTemplatePrimrec
+module
+
+public import ZFVP.Syntax.PrimitiveProgramPrefixRenaming
+public import ZFVP.Syntax.PrimitiveProgramReindexStandard
+public import ZFVP.Syntax.TailTemplatePrimrec
+
+@[expose] public section
 
 /-! Explicit programs compile template instances with any internally finite parameter tail. -/
 

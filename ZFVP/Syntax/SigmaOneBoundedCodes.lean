@@ -1,4 +1,8 @@
-import ZFVP.Syntax.BoundedCertificateDefinition
+module
+
+public import ZFVP.Syntax.BoundedCertificateDefinition
+
+@[expose] public section
 
 /-! Bounded formula-code recognition has a parameter-free Sigma-one definition. -/
 

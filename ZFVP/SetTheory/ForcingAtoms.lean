@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.AtomicForcingDictionary
-import ZFVP.SetTheory.ForcingQuantifiers
-import ZFVP.Syntax.StandardTuples
+module
+
+public import ZFVP.SetTheory.AtomicForcingDictionary
+public import ZFVP.SetTheory.ForcingQuantifiers
+public import ZFVP.Syntax.StandardTuples
+
+@[expose] public section
 
 namespace ZFVP
 

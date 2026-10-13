@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseFiniteTruthWindow
-import ZFVP.ModelTheory.WoodinSparseConsistencyPassage
+module
+
+public import ZFVP.ModelTheory.WoodinSparseFiniteTruthWindow
+public import ZFVP.ModelTheory.WoodinSparseConsistencyPassage
+
+@[expose] public section
 
 /-! Finite restoration with the actual forcing correctness window discharged.
 The only remaining hypothesis is relative homogeneity of the actual sparse

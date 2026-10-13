@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TransitiveZFNames
-import ZFVP.ModelTheory.TransitiveZFForcingOrders
-import ZFVP.SetTheory.ForcingUnionName
+module
+
+public import ZFVP.ModelTheory.TransitiveZFNames
+public import ZFVP.ModelTheory.TransitiveZFForcingOrders
+public import ZFVP.SetTheory.ForcingUnionName
+
+@[expose] public section
 
 /-! The canonical forcing union name is absolute to transitive ZF sets. -/
 

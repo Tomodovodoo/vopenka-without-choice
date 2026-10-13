@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.UniformRank
-import ZFVP.Syntax.UniformAssignments
-import ZFVP.Syntax.StandardTuples
+module
+
+public import ZFVP.SetTheory.UniformRank
+public import ZFVP.Syntax.UniformAssignments
+public import ZFVP.Syntax.StandardTuples
+
+@[expose] public section
 
 /-! Elementary maps preserve operations given by the same parameter-free formula. -/
 

@@ -1,10 +1,14 @@
-import ZFVP.ModelTheory.CodedZFModel
-import ZFVP.ModelTheory.BinaryRelationZFModel
-import ZFVP.SetTheory.FiniteDictionary
-import ZFVP.SetTheory.ForcingOrder
-import ZFVP.SetTheory.HartogsDictionary
-import ZFVP.ModelTheory.SchmerlInternalCodedHullClosure
-import Mathlib.Tactic.FinCases
+module
+
+public import ZFVP.ModelTheory.CodedZFModel
+public import ZFVP.ModelTheory.BinaryRelationZFModel
+public import ZFVP.SetTheory.FiniteDictionary
+public import ZFVP.SetTheory.ForcingOrder
+public import ZFVP.SetTheory.HartogsDictionary
+public import ZFVP.ModelTheory.SchmerlInternalCodedHullClosure
+public import Mathlib.Tactic.FinCases
+
+@[expose] public section
 
 /-! First-order source conditions for the internal Schmerl construction.
 Definitions use internal syntax, parameter tuples, sets, and countability. -/

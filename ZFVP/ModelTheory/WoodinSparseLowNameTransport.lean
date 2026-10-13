@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LowNameCoverageTransport
-import ZFVP.ModelTheory.WoodinSparseGenericContext
+module
+
+public import ZFVP.ModelTheory.LowNameCoverageTransport
+public import ZFVP.ModelTheory.WoodinSparseGenericContext
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

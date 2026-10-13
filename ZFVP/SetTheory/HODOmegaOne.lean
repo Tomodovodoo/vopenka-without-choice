@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.HODCantorTransport
-import ZFVP.SetTheory.CountableSets
-import ZFVP.SetTheory.WellOrderingChoice
-import ZFVP.SetTheory.FiniteCardinalArithmetic
+module
+
+public import ZFVP.SetTheory.HODCantorTransport
+public import ZFVP.SetTheory.CountableSets
+public import ZFVP.SetTheory.WellOrderingChoice
+public import ZFVP.SetTheory.FiniteCardinalArithmetic
+
+@[expose] public section
 
 /-! Two ingredients for reading off `ω₁` of the HOD class model.
 

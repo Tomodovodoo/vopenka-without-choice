@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedCofinalOrdinals
-import ZFVP.SetTheory.FiniteSets
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedCofinalOrdinals
+public import ZFVP.SetTheory.FiniteSets
+
+@[expose] public section
 
 /-! The actual poset of finite subsets of a parameter in a coded model. -/
 

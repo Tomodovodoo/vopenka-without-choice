@@ -1,9 +1,13 @@
-import ZFVP.SetTheory.PerfectSetCore
-import ZFVP.SetTheory.BaireCore
-import ZFVP.ModelTheory.ForcingSmallUltrafilter
-import ZFVP.ModelTheory.GenericFilterName
-import ZFVP.ModelTheory.CohenGenericReals
-import ZFVP.ModelTheory.SubposetRealization
+module
+
+public import ZFVP.SetTheory.PerfectSetCore
+public import ZFVP.SetTheory.BaireCore
+public import ZFVP.ModelTheory.ForcingSmallUltrafilter
+public import ZFVP.ModelTheory.GenericFilterName
+public import ZFVP.ModelTheory.CohenGenericReals
+public import ZFVP.ModelTheory.SubposetRealization
+
+@[expose] public section
 
 /-! Splitting for names of new reals. Over a countable ground model, a name `τ` forced below `p₀`
 to be a real not in the ground model has decided segments `decidedSegment τ p` (finite binary

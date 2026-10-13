@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.SparseAppend
+module
+
+public import ZFVP.SetTheory.SparseAppend
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

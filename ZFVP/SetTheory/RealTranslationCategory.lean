@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RealTranslationImages
-import ZFVP.SetTheory.RealCategoryClosure
+module
+
+public import ZFVP.SetTheory.RealTranslationImages
+public import ZFVP.SetTheory.RealCategoryClosure
+
+@[expose] public section
 
 /-! Translation preserves the internal rational codes for category. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.DedekindFinite
-import ZFVP.SetTheory.UniformRank
+module
+
+public import ZFVP.SetTheory.DedekindFinite
+public import ZFVP.SetTheory.UniformRank
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.WoodinSupercompact
-import ZFVP.ModelTheory.SupportStageEmbeddingAction
-import ZFVP.ModelTheory.CriticalPointRestriction
+module
+
+public import ZFVP.SetTheory.WoodinSupercompact
+public import ZFVP.ModelTheory.SupportStageEmbeddingAction
+public import ZFVP.ModelTheory.CriticalPointRestriction
+
+@[expose] public section
 
 /-! Magidor's step for Woodin's small-embedding supercompactness: a coded membership embedding
 of a support stage `V_{lam+ω}` restricts to a small embedding witnessing

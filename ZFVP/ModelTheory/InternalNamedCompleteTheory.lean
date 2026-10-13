@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalNamedWitnessDensity
+module
+
+public import ZFVP.ModelTheory.InternalNamedWitnessDensity
+
+@[expose] public section
 
 /-! Constructor truth follows from an actual complete, witnessed set of named
 formulas whose finite fragments remain realizable over the source. -/

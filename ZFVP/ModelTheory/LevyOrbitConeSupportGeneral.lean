@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LevySwapConeResidue
+module
+
+public import ZFVP.ModelTheory.LevySwapConeResidue
+
+@[expose] public section
 
 /-! Lemma 25.5 with the cone isomorphism and the support clause available at every shrinking of the
 pair on the side of the generic.

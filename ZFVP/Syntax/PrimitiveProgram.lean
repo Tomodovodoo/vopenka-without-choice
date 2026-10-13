@@ -1,4 +1,8 @@
-import Mathlib.Computability.Primrec.Basic
+module
+
+public import Mathlib.Computability.Primrec.Basic
+
+@[expose] public section
 
 /-! Explicit programs for mathlib's primitive-recursive natural-number functions. -/
 

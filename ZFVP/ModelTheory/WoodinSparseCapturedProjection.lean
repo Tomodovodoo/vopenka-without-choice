@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseCapturedCutoffs
-import ZFVP.ModelTheory.SparseOperationCovariance
+module
+
+public import ZFVP.ModelTheory.WoodinSparseCapturedCutoffs
+public import ZFVP.ModelTheory.SparseOperationCovariance
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

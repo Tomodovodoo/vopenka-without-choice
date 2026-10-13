@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseForcingTranslation
-import ZFVP.SetTheory.CnAbsoluteness
+module
+
+public import ZFVP.ModelTheory.WoodinSparseForcingTranslation
+public import ZFVP.SetTheory.CnAbsoluteness
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

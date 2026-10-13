@@ -1,9 +1,13 @@
-import ZFVP.SetTheory.UltrapowerElementary
-import ZFVP.SetTheory.UltrapowerCritical
-import ZFVP.SetTheory.UltrapowerClosure
-import ZFVP.SetTheory.StageSmallSubsets
-import ZFVP.SetTheory.FiniteCofinality
-import ZFVP.SetTheory.CnAbsoluteness
+module
+
+public import ZFVP.SetTheory.UltrapowerElementary
+public import ZFVP.SetTheory.UltrapowerCritical
+public import ZFVP.SetTheory.UltrapowerClosure
+public import ZFVP.SetTheory.StageSmallSubsets
+public import ZFVP.SetTheory.FiniteCofinality
+public import ZFVP.SetTheory.CnAbsoluteness
+
+@[expose] public section
 
 /-! # The ultrapower of a rank stage by a supercompactness measure
 

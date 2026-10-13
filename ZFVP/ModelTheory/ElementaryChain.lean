@@ -1,5 +1,9 @@
-import Mathlib.SetTheory.Cardinal.Aleph
-import ZFVP.SetTheory.ElementaryMap
+module
+
+public import Mathlib.SetTheory.Cardinal.Aleph
+public import ZFVP.SetTheory.ElementaryMap
+
+@[expose] public section
 
 /-! Elementary chains of models of set theory, indexed by an external linear order, and their
 colimits. The main result is the Tarski-Vaught elementary chain theorem: each stage embeds

@@ -1,6 +1,10 @@
-import ZFVP.Syntax.BinaryRelationInternalSemantics
-import ZFVP.Syntax.UniformZFVPAxioms
-import ZFVP.SetTheory.FiniteSets
+module
+
+public import ZFVP.Syntax.BinaryRelationInternalSemantics
+public import ZFVP.Syntax.UniformZFVPAxioms
+public import ZFVP.SetTheory.FiniteSets
+
+@[expose] public section
 
 /-! A finite equality basis for the raw internal membership syntax, together
 with a nonempty-domain axiom. Open axioms are universally interpreted. -/

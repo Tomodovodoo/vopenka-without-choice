@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinActualInverseMaps
-import ZFVP.ModelTheory.ForcingSectionThreadTransport
-import ZFVP.ModelTheory.WoodinRecodedInverseStage
+module
+
+public import ZFVP.ModelTheory.WoodinActualInverseMaps
+public import ZFVP.ModelTheory.ForcingSectionThreadTransport
+public import ZFVP.ModelTheory.WoodinRecodedInverseStage
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

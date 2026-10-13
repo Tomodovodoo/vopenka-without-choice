@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TransitiveZFIterationHistory
-import ZFVP.ModelTheory.RankForcingNameHierarchy
+module
+
+public import ZFVP.ModelTheory.TransitiveZFIterationHistory
+public import ZFVP.ModelTheory.RankForcingNameHierarchy
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

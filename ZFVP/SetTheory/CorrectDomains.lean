@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ExactLowTruth
-import ZFVP.Syntax.DeltaOneLevyCodes
+module
+
+public import ZFVP.SetTheory.ExactLowTruth
+public import ZFVP.Syntax.DeltaOneLevyCodes
+
+@[expose] public section
 
 /-! A recursive family of set domains and the associated partial-truth formulas.
 The domain conditions record downward truth preservation at preceding levels. -/

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BoundedFormulas
+module
+
+public import ZFVP.SetTheory.BoundedFormulas
+
+@[expose] public section
 
 /-! A bounded syntax tree exposes membership bounds to the forcing translation. -/
 

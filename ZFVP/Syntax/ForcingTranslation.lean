@@ -1,7 +1,11 @@
-import ZFVP.Syntax.UniformAssignments
-import ZFVP.SetTheory.AtomicForcingDictionary
-import ZFVP.SetTheory.SymmetryDictionary
-import ZFVP.SetTheory.ForcingAtoms
+module
+
+public import ZFVP.Syntax.UniformAssignments
+public import ZFVP.SetTheory.AtomicForcingDictionary
+public import ZFVP.SetTheory.SymmetryDictionary
+public import ZFVP.SetTheory.ForcingAtoms
+
+@[expose] public section
 
 namespace ZFVP
 

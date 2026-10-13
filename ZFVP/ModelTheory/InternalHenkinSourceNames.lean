@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CountableUnions
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.SetTheory.CountableUnions
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 /-! Fixed source names with arbitrarily large unused indices, and actual
 assignment extensions respecting those names. All constructions take place

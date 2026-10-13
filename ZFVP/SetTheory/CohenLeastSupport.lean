@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CohenSupportIntersection
+module
+
+public import ZFVP.SetTheory.CohenSupportIntersection
+
+@[expose] public section
 
 namespace ZFVP
 

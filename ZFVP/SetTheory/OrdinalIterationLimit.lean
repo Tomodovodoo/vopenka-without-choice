@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.NaturalIteration
-import ZFVP.SetTheory.FiniteCofinality
-import ZFVP.SetTheory.FormulaReflection
+module
+
+public import ZFVP.SetTheory.NaturalIteration
+public import ZFVP.SetTheory.FiniteCofinality
+public import ZFVP.SetTheory.FormulaReflection
+
+@[expose] public section
 
 /-! The supremum of an internally coded, strictly increasing omega
 iteration of ordinals has internal cofinality omega. -/

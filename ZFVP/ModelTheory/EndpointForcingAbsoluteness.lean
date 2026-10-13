@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.UniformForcingDefinitions
-import ZFVP.SetTheory.CnAbsoluteness
+module
+
+public import ZFVP.ModelTheory.UniformForcingDefinitions
+public import ZFVP.SetTheory.CnAbsoluteness
+
+@[expose] public section
 
 /-! The internal forcing relation is Delta one, hence unchanged by passing to a correct rank.
 

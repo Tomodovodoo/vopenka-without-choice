@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.StandardNaturals
-import ZFVP.SetTheory.NaturalPredecessor
-import ZFVP.SetTheory.ElementaryDefined
-import ZFVP.SetTheory.EndExtensionCoding
-import Foundation.FirstOrder.SetTheory.Universe
+module
+
+public import ZFVP.SetTheory.StandardNaturals
+public import ZFVP.SetTheory.NaturalPredecessor
+public import ZFVP.SetTheory.ElementaryDefined
+public import ZFVP.SetTheory.EndExtensionCoding
+public import Foundation.FirstOrder.SetTheory.Universe
+
+@[expose] public section
 
 /-! Externally standard omega for a well-founded ambient universe, its
  elementary submodels, and their membership end extensions. -/

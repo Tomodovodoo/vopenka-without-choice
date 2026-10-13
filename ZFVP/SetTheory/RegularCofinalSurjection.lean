@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CardinalSmallComplements
+module
+
+public import ZFVP.SetTheory.CardinalSmallComplements
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.RankSaturatedHartogsName
-import ZFVP.ModelTheory.SaturatedHartogsFormulas
-import ZFVP.SetTheory.BoundedDomainParameters
-import ZFVP.ModelTheory.CountableZFTransfer
+module
+
+public import ZFVP.ModelTheory.RankSaturatedHartogsName
+public import ZFVP.ModelTheory.SaturatedHartogsFormulas
+public import ZFVP.SetTheory.BoundedDomainParameters
+public import ZFVP.ModelTheory.CountableZFTransfer
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

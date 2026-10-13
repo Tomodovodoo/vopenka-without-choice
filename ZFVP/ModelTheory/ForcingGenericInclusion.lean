@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingRealizationGeneration
-import ZFVP.SetTheory.ForcingRetraction
-import ZFVP.SetTheory.DeltaOneForcingNames
+module
+
+public import ZFVP.ModelTheory.ForcingRealizationGeneration
+public import ZFVP.SetTheory.ForcingRetraction
+public import ZFVP.SetTheory.DeltaOneForcingNames
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

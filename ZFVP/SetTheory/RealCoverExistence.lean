@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RealCoverInfimum
+module
+
+public import ZFVP.SetTheory.RealCoverInfimum
+
+@[expose] public section
 
 /-! The interval-cover space of every actual real set is nonempty. -/
 

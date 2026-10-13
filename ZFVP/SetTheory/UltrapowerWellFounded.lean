@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.UltrapowerBase
-import ZFVP.SetTheory.UniformCollapse
-import ZFVP.SetTheory.DependentChoice
+module
+
+public import ZFVP.SetTheory.UltrapowerBase
+public import ZFVP.SetTheory.UniformCollapse
+public import ZFVP.SetTheory.DependentChoice
+
+@[expose] public section
 
 /-! The a.e. membership relation of an internal ultrapower, as an internal set, and its
 well-foundedness. The relation `aeMemRelation P U A` holds of a pair of functions from the index

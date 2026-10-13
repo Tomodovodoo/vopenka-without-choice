@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingNameNormalization
-import ZFVP.ModelTheory.SaturatedTwoStepTransfer
+module
+
+public import ZFVP.ModelTheory.ForcingNameNormalization
+public import ZFVP.ModelTheory.SaturatedTwoStepTransfer
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

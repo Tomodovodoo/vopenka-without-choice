@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.CantorLexOrder
-import ZFVP.SetTheory.InternalOrderType
-import ZFVP.SetTheory.FiniteSets
-import ZFVP.SetTheory.Hessenberg
+module
+
+public import ZFVP.SetTheory.CantorLexOrder
+public import ZFVP.SetTheory.InternalOrderType
+public import ZFVP.SetTheory.FiniteSets
+public import ZFVP.SetTheory.Hessenberg
+
+@[expose] public section
 
 /-! Over ZF alone, an internally finite set of reals has exactly one enumeration that increases
 in the lexicographic order of Cantor space. The transitive collapse of the lexicographic order

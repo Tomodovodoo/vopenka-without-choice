@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.MembershipDirectedLimit
-import ZFVP.SetTheory.EndExtensionCoding
+module
+
+public import ZFVP.ModelTheory.MembershipDirectedLimit
+public import ZFVP.SetTheory.EndExtensionCoding
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

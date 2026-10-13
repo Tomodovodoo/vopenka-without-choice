@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinInitialStage
-import ZFVP.ModelTheory.WoodinIterationDefinability
+module
+
+public import ZFVP.ModelTheory.WoodinInitialStage
+public import ZFVP.ModelTheory.WoodinIterationDefinability
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinQuotientClosureDirect
-import ZFVP.ModelTheory.DirectLimitStageTransfer
-import ZFVP.ModelTheory.WoodinLimitBase
+module
+
+public import ZFVP.ModelTheory.WoodinQuotientClosureDirect
+public import ZFVP.ModelTheory.DirectLimitStageTransfer
+public import ZFVP.ModelTheory.WoodinLimitBase
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

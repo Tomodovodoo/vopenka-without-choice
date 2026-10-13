@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CorrectDomainClosure
-import ZFVP.SetTheory.UniformRank
+module
+
+public import ZFVP.SetTheory.CorrectDomainClosure
+public import ZFVP.SetTheory.UniformRank
+
+@[expose] public section
 
 /-! Definable closed unbounded classes of recursively correct rank stages. -/
 

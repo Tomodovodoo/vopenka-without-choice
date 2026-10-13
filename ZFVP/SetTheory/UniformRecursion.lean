@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.Hierarchy
+module
+
+public import ZFVP.SetTheory.Hierarchy
+
+@[expose] public section
 
 /-! Parameter-free formulas for internal recursion and the cumulative hierarchy.
 Definability with unspecified parameters alone cannot justify transport between

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LocalRestorationRankThreshold
+module
+
+public import ZFVP.ModelTheory.LocalRestorationRankThreshold
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

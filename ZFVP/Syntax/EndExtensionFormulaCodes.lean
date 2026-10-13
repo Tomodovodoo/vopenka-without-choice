@@ -1,5 +1,9 @@
-import ZFVP.Syntax.EndExtensionTerms
-import ZFVP.Syntax.FormulaCodes
+module
+
+public import ZFVP.Syntax.EndExtensionTerms
+public import ZFVP.Syntax.FormulaCodes
+
+@[expose] public section
 
 /-! Formula constructors and arbitrary atomic arguments under ZF end extensions. -/
 

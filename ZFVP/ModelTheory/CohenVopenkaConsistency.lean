@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.CohenDedekindFinite
-import ZFVP.ModelTheory.SymmetricVopenkaPreservation
-import ZFVP.ModelTheory.CodedZFVPExternal
-import ZFVP.SetTheory.ChoiceDictionary
-import Foundation.FirstOrder.SetTheory.LoewenheimSkolem
+module
+
+public import ZFVP.ModelTheory.CohenDedekindFinite
+public import ZFVP.ModelTheory.SymmetricVopenkaPreservation
+public import ZFVP.ModelTheory.CodedZFVPExternal
+public import ZFVP.SetTheory.ChoiceDictionary
+public import Foundation.FirstOrder.SetTheory.LoewenheimSkolem
+
+@[expose] public section
 
 namespace ZFVP
 

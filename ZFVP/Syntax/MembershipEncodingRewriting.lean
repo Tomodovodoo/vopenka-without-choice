@@ -1,8 +1,12 @@
-import ZFVP.Syntax.FoundationFormulaSubstitution
-import ZFVP.Syntax.MembershipRenaming
-import ZFVP.Syntax.NegationSemantics
-import ZFVP.Syntax.FiniteVariableClosure
-import ZFVP.ModelTheory.CodedSequentQuantifiers
+module
+
+public import ZFVP.Syntax.FoundationFormulaSubstitution
+public import ZFVP.Syntax.MembershipRenaming
+public import ZFVP.Syntax.NegationSemantics
+public import ZFVP.Syntax.FiniteVariableClosure
+public import ZFVP.ModelTheory.CodedSequentQuantifiers
+
+@[expose] public section
 
 /-! Standard formula rewriting agrees syntactically with the internal code operations. -/
 

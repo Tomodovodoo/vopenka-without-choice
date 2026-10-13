@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TransitiveZFForcingOrders
-import ZFVP.SetTheory.ChoicelessInaccessibleRank
+module
+
+public import ZFVP.ModelTheory.TransitiveZFForcingOrders
+public import ZFVP.SetTheory.ChoicelessInaccessibleRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.FiniteRankLiftAssignmentGraph
-import ZFVP.ModelTheory.ForcingRetractionSequences
+module
+
+public import ZFVP.ModelTheory.FiniteRankLiftAssignmentGraph
+public import ZFVP.ModelTheory.ForcingRetractionSequences
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

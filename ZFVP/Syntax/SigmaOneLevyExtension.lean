@@ -1,4 +1,8 @@
-import ZFVP.Syntax.BoundedLevySteps
+module
+
+public import ZFVP.Syntax.BoundedLevySteps
+
+@[expose] public section
 
 /-! A Levy extension of a valid base family has a Sigma-one set definition. -/
 

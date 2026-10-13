@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlUniformInfinitarySyntax
+module
+
+public import ZFVP.ModelTheory.SchmerlUniformInfinitarySyntax
+
+@[expose] public section
 
 /-! A fixed first-order definition of full internal infinitary truth. Q uses
 internal countability in this definition, so elementary transfer is literal. -/

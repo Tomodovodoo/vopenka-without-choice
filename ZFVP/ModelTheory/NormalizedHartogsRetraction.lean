@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.RetractionHartogsNames
-import ZFVP.ModelTheory.NormalizedRetractionCanonical
+module
+
+public import ZFVP.ModelTheory.RetractionHartogsNames
+public import ZFVP.ModelTheory.NormalizedRetractionCanonical
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

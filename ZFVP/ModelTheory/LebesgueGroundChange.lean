@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LebesgueDecision
-import ZFVP.ModelTheory.PerfectSetGroundChange
+module
+
+public import ZFVP.ModelTheory.LebesgueDecision
+public import ZFVP.ModelTheory.PerfectSetGroundChange
+
+@[expose] public section
 
 /-! Lebesgue measurability for all sets of reals of the Levy extension definable from ground
 sets, reals and ordinals: change the ground to a bounded stage, which is again a model with `κ`

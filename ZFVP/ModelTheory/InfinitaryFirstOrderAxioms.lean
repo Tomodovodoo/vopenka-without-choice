@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryTermSubstitution
-import ZFVP.ModelTheory.InfinitaryEquality
+module
+
+public import ZFVP.ModelTheory.InfinitaryTermSubstitution
+public import ZFVP.ModelTheory.InfinitaryEquality
+
+@[expose] public section
 
 /-! First-order quantifier and equality schemas for arbitrary infinitary formulas. -/
 

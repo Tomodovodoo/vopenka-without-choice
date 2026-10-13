@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.FiniteDictionarySourceBounds
+module
+
+public import ZFVP.SetTheory.FiniteDictionarySourceBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

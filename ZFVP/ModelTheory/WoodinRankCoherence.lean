@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinRankSuccessor
-import ZFVP.ModelTheory.WoodinRecursionHistoryInduction
-import ZFVP.ModelTheory.WoodinRecursionSuccessor
-import ZFVP.SetTheory.ForcingBoundCodeExtension
+module
+
+public import ZFVP.ModelTheory.WoodinRankSuccessor
+public import ZFVP.ModelTheory.WoodinRecursionHistoryInduction
+public import ZFVP.ModelTheory.WoodinRecursionSuccessor
+public import ZFVP.SetTheory.ForcingBoundCodeExtension
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.ForcingSuccessorUniform
-import ZFVP.SetTheory.DeltaOnePairProjections
-import ZFVP.SetTheory.LevyGraphAssembly
-import ZFVP.SetTheory.BoundedValue
-import ZFVP.SetTheory.BoundedProduct
-import Mathlib.Tactic.FinCases
+module
+
+public import ZFVP.ModelTheory.ForcingSuccessorUniform
+public import ZFVP.SetTheory.DeltaOnePairProjections
+public import ZFVP.SetTheory.LevyGraphAssembly
+public import ZFVP.SetTheory.BoundedValue
+public import ZFVP.SetTheory.BoundedProduct
+public import Mathlib.Tactic.FinCases
+
+@[expose] public section
 
 set_option maxHeartbeats 800000
 

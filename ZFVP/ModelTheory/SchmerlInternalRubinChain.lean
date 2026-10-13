@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlRubinRowExtension
-import ZFVP.ModelTheory.SchmerlInternalCarrierAgreementClub
-import ZFVP.SetTheory.BoundedHistoryRecursion
+module
+
+public import ZFVP.ModelTheory.SchmerlRubinRowExtension
+public import ZFVP.ModelTheory.SchmerlInternalCarrierAgreementClub
+public import ZFVP.SetTheory.BoundedHistoryRecursion
+
+@[expose] public section
 
 /-! The Rubin chain is an actual function of length hartogs(ω), obtained
 by bounded Choice and internal transfinite recursion. -/

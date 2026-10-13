@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.RankBerkeleyPruning
-import ZFVP.SetTheory.VopenkaPruningUE
+module
+
+public import ZFVP.ModelTheory.RankBerkeleyPruning
+public import ZFVP.SetTheory.VopenkaPruningUE
+
+@[expose] public section
 
 /-! OH pruning with the nonzero rank-Berkeley convention: adjoining UE
 and absence of rank-Berkeley cardinals preserves consistency of ZF+VP. -/

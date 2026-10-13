@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ChoicelessFailureStages
-import ZFVP.ModelTheory.NamedMembershipEmbedding
-import ZFVP.SetTheory.ProperClassRanks
+module
+
+public import ZFVP.SetTheory.ChoicelessFailureStages
+public import ZFVP.ModelTheory.NamedMembershipEmbedding
+public import ZFVP.SetTheory.ProperClassRanks
+
+@[expose] public section
 
 /-! Expanded rank structures for the failure-class Vopenka argument.
 The extra name is the predecessor marker; the other names fix all ordinals

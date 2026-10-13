@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LevyCollapseOmegaOne
-import ZFVP.ModelTheory.LevySubsetLocalization
-import ZFVP.SetTheory.InverseFunction
+module
+
+public import ZFVP.ModelTheory.LevyCollapseOmegaOne
+public import ZFVP.ModelTheory.LevySubsetLocalization
+public import ZFVP.SetTheory.InverseFunction
+
+@[expose] public section
 
 /-! The chain-condition cover property of the Levy collapse: the range of a function in `V[G]`
 from a checked set `Ď` into a checked set `θ̌` is covered by the check of a ground set of size at

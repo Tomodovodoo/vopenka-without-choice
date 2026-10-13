@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.WoodinRecodingHistory
-import ZFVP.ModelTheory.WoodinSparseInitial
-import ZFVP.ModelTheory.WoodinSparseSuccessor
-import ZFVP.ModelTheory.WoodinSparseInverseStage
-import ZFVP.ModelTheory.WoodinSparseDirectTransport
+module
+
+public import ZFVP.ModelTheory.WoodinRecodingHistory
+public import ZFVP.ModelTheory.WoodinSparseInitial
+public import ZFVP.ModelTheory.WoodinSparseSuccessor
+public import ZFVP.ModelTheory.WoodinSparseInverseStage
+public import ZFVP.ModelTheory.WoodinSparseDirectTransport
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

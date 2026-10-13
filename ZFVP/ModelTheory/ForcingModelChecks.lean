@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingModel
-import ZFVP.SetTheory.BoundedCodingPrimitives
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.ModelTheory.ForcingModel
+public import ZFVP.SetTheory.BoundedCodingPrimitives
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 namespace ZFVP
 

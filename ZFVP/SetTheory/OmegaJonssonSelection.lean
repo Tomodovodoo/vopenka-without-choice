@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.CountableSubsetFamily
-import ZFVP.SetTheory.WellOrderingChoice
-import ZFVP.SetTheory.MembershipRecursion
-import ZFVP.SetTheory.WellOrderedSurjection
+module
+
+public import ZFVP.SetTheory.CountableSubsetFamily
+public import ZFVP.SetTheory.WellOrderingChoice
+public import ZFVP.SetTheory.MembershipRecursion
+public import ZFVP.SetTheory.WellOrderedSurjection
+
+@[expose] public section
 
 /-! The transfinite selection that builds an omega-Jonsson function.
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RealMapOrder
-import ZFVP.SetTheory.FiniteSets
+module
+
+public import ZFVP.SetTheory.RealMapOrder
+public import ZFVP.SetTheory.FiniteSets
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.InaccessibleCnOne
-import ZFVP.SetTheory.SupercompactMagidorHighCritical
-import ZFVP.SetTheory.MagidorSupercompactMeasure
+module
+
+public import ZFVP.SetTheory.InaccessibleCnOne
+public import ZFVP.SetTheory.SupercompactMagidorHighCritical
+public import ZFVP.SetTheory.MagidorSupercompactMeasure
+
+@[expose] public section
 
 /-! The measure-supercompactness characterization of the Pi-one Vopenka scheme. -/
 

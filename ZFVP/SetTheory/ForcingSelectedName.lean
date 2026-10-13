@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingNames
-import ZFVP.SetTheory.ForcingRegular
+module
+
+public import ZFVP.SetTheory.ForcingNames
+public import ZFVP.SetTheory.ForcingRegular
+
+@[expose] public section
 
 namespace ZFVP
 

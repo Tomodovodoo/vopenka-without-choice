@@ -1,4 +1,8 @@
-import ZFVP.Syntax.NaturalLKRule
+module
+
+public import ZFVP.Syntax.NaturalLKRule
+
+@[expose] public section
 
 /-! Every local check in the finite LK witness format is primitive recursive. -/
 

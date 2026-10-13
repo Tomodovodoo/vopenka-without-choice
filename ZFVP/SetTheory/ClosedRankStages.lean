@@ -1,9 +1,13 @@
-import ZFVP.SetTheory.RankBounds
-import ZFVP.SetTheory.UniformCollapse
-import ZFVP.SetTheory.TransfiniteIteration
-import ZFVP.SetTheory.WellOrderedSurjection
-import ZFVP.SetTheory.WellOrderingChoice
-import ZFVP.SetTheory.HartogsRegularChoice
+module
+
+public import ZFVP.SetTheory.RankBounds
+public import ZFVP.SetTheory.UniformCollapse
+public import ZFVP.SetTheory.TransfiniteIteration
+public import ZFVP.SetTheory.WellOrderedSurjection
+public import ZFVP.SetTheory.WellOrderingChoice
+public import ZFVP.SetTheory.HartogsRegularChoice
+
+@[expose] public section
 
 /-! Rank stages closed under Mostowski collapses. A limit ordinal `lam` closed under successor and
 under `β ↦ hartogsNumber (hierarchy β)` gives a stage `hierarchy lam` that contains the transitive

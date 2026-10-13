@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.GenericTruthBaseCases
-import ZFVP.ModelTheory.CodedSequentSemantics
+module
+
+public import ZFVP.ModelTheory.GenericTruthBaseCases
+public import ZFVP.ModelTheory.CodedSequentSemantics
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

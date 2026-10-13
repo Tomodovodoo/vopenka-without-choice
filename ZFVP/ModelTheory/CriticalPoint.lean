@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.RankEmbeddingAction
+module
+
+public import ZFVP.ModelTheory.RankEmbeddingAction
+
+@[expose] public section
 
 /-! Least moved ordinals of internal elementary graphs. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.RankNameFormulaTruthCoverage
+module
+
+public import ZFVP.ModelTheory.RankNameFormulaTruthCoverage
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

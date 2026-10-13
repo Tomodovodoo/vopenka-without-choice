@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalNegationProgramEquations
-import ZFVP.Syntax.PrimitiveProgramFormulaTransformEquations
+module
+
+public import ZFVP.ModelTheory.InternalNegationProgramEquations
+public import ZFVP.Syntax.PrimitiveProgramFormulaTransformEquations
+
+@[expose] public section
 
 /-! The common formula transformer satisfies its equations on every internal natural input. -/
 

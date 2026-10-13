@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinBoundNormalizedSteps
-import ZFVP.ModelTheory.WoodinBoundSuccessorStep
-import ZFVP.ModelTheory.WoodinBoundInverseStep
-import ZFVP.ModelTheory.WoodinHistoryQuotientClosure
+module
+
+public import ZFVP.ModelTheory.WoodinBoundNormalizedSteps
+public import ZFVP.ModelTheory.WoodinBoundSuccessorStep
+public import ZFVP.ModelTheory.WoodinBoundInverseStep
+public import ZFVP.ModelTheory.WoodinHistoryQuotientClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

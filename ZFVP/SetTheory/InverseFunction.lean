@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 /-! Inverting an internal injection on its range requires no choice principle. -/
 

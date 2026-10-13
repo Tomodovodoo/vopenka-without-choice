@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LocalSelectedUnionBound
-import ZFVP.ModelTheory.TwoStepSelectedUnion
-import ZFVP.ModelTheory.WoodinIterationRecursion
+module
+
+public import ZFVP.ModelTheory.LocalSelectedUnionBound
+public import ZFVP.ModelTheory.TwoStepSelectedUnion
+public import ZFVP.ModelTheory.WoodinIterationRecursion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

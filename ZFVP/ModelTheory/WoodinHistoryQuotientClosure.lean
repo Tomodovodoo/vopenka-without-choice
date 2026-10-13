@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinRecursionHistoryInduction
-import ZFVP.ModelTheory.IterationQuotientClosure
-import ZFVP.ModelTheory.WoodinIterationContract
+module
+
+public import ZFVP.ModelTheory.WoodinRecursionHistoryInduction
+public import ZFVP.ModelTheory.IterationQuotientClosure
+public import ZFVP.ModelTheory.WoodinIterationContract
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

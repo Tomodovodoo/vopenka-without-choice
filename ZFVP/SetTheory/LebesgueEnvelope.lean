@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.NullCodes
+module
+
+public import ZFVP.SetTheory.NullCodes
+
+@[expose] public section
 
 /-! The measurable envelope: a countable family of trees together with a null set is contained in
 a `G_δ` set whose difference from the union of the bodies is null. The `G_δ` code is decreasing,

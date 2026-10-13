@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseSourceQuotientClosure
-import ZFVP.ModelTheory.RetractionIsomorphismHartogs
+module
+
+public import ZFVP.ModelTheory.WoodinSparseSourceQuotientClosure
+public import ZFVP.ModelTheory.RetractionIsomorphismHartogs
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

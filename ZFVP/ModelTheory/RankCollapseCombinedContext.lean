@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingRankCollapseOrder
-import ZFVP.ModelTheory.TwoStepCombinedGeneric
-import ZFVP.ModelTheory.WoodinCollapseInitialGeneric
+module
+
+public import ZFVP.ModelTheory.ForcingRankCollapseOrder
+public import ZFVP.ModelTheory.TwoStepCombinedGeneric
+public import ZFVP.ModelTheory.WoodinCollapseInitialGeneric
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

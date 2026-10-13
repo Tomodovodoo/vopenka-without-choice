@@ -1,5 +1,9 @@
-import ZFVP.Syntax.LevyCodes
-import ZFVP.Syntax.BoundedNegation
+module
+
+public import ZFVP.Syntax.LevyCodes
+public import ZFVP.Syntax.BoundedNegation
+
+@[expose] public section
 
 /-! Negation duality for the internal Levy code families. -/
 

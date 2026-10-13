@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.UniformWoodinSparseMaps
-import ZFVP.ModelTheory.UniformForcingRecodedCode
-import ZFVP.ModelTheory.WoodinSparseStageCode
+module
+
+public import ZFVP.ModelTheory.UniformWoodinSparseMaps
+public import ZFVP.ModelTheory.UniformForcingRecodedCode
+public import ZFVP.ModelTheory.WoodinSparseStageCode
+
+@[expose] public section
 
 /-! One fixed formula for the actual sparse recursion, history and stage code.
 Its ingredients are explicit syntax, independent of the interpreted ZF model. -/

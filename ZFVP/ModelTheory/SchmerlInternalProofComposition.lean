@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalCountableProofUnion
-import ZFVP.ModelTheory.SchmerlInternalSubstitutionIdentities
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalCountableProofUnion
+public import ZFVP.ModelTheory.SchmerlInternalSubstitutionIdentities
+
+@[expose] public section
 
 /-! Syntactic composition of internal proofs. Replaced hypotheses may have
 arbitrary internal contexts; no model or satisfiability premise is used. -/

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SolovayNiceNameValues
-import ZFVP.ModelTheory.SolovaySymmetricSupport
+module
+
+public import ZFVP.ModelTheory.SolovayNiceNameValues
+public import ZFVP.ModelTheory.SolovaySymmetricSupport
+
+@[expose] public section
 
 /-! The self-reflection properties of the class name `Ṙ_can` of the Solovay symmetric system
 (Karagila-Schilhan Definitions 9.1 and 9.2), for the realization of `Ṙ_can` used here: the class

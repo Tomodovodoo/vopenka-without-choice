@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TransitiveZFRankOperations
-import ZFVP.SetTheory.WoodinCollapse
+module
+
+public import ZFVP.ModelTheory.TransitiveZFRankOperations
+public import ZFVP.SetTheory.WoodinCollapse
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

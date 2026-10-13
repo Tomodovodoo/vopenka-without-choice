@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.LeastRankCriterionCode
-import ZFVP.SetTheory.LeastWitnessCodeBounds
+module
+
+public import ZFVP.SetTheory.LeastRankCriterionCode
+public import ZFVP.SetTheory.LeastWitnessCodeBounds
+
+@[expose] public section
 
 /-! The least-rank-criterion certificate belongs to V_(theta+omega), as needed by the fragment structure. -/
 

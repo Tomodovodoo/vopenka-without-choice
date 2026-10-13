@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.LevyComplexityBound
-import ZFVP.Syntax.UniformLevyCodes
-import ZFVP.Syntax.UniformNegation
+module
+
+public import ZFVP.SetTheory.LevyComplexityBound
+public import ZFVP.Syntax.UniformLevyCodes
+public import ZFVP.Syntax.UniformNegation
+
+@[expose] public section
 
 /-! Checked upper bounds for the fixed syntax and low-truth dictionaries. -/
 

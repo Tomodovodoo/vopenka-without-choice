@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ElementaryStageCaseOne
-import ZFVP.ModelTheory.WeaklyRubinDeadEnd
-import ZFVP.SetTheory.WitnessClosure
+module
+
+public import ZFVP.ModelTheory.ElementaryStageCaseOne
+public import ZFVP.ModelTheory.WeaklyRubinDeadEnd
+public import ZFVP.SetTheory.WitnessClosure
+
+@[expose] public section
 
 /-! Case II of Enayat's Theorem 4.4 in "Models of set theory: extensions and dead ends", and
 with it his Theorem 5.1: no model of ZF has a conservative proper end extension satisfying ZF.

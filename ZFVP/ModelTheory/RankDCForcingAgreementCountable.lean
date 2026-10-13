@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingRegularGenericEquality
-import ZFVP.ModelTheory.ForcingRankDCBelowAgreement
+module
+
+public import ZFVP.ModelTheory.ForcingRegularGenericEquality
+public import ZFVP.ModelTheory.ForcingRankDCBelowAgreement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

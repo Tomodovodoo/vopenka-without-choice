@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LastPointCorrectFixed
-import ZFVP.ModelTheory.CriticalLimitRankBerkeley
-import ZFVP.SetTheory.LeastChoicelessCofinality
+module
+
+public import ZFVP.ModelTheory.LastPointCorrectFixed
+public import ZFVP.ModelTheory.CriticalLimitRankBerkeley
+public import ZFVP.SetTheory.LeastChoicelessCofinality
+
+@[expose] public section
 
 /-! A critical point strictly below an uncountable-cofinality last point
 produces a nonzero rank-Berkeley cardinal above any lower critical bound. -/

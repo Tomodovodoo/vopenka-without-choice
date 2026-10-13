@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.RankEmbeddingRestriction
-import ZFVP.ModelTheory.TransitiveZFCoding
+module
+
+public import ZFVP.ModelTheory.RankEmbeddingRestriction
+public import ZFVP.ModelTheory.TransitiveZFCoding
+
+@[expose] public section
 
 /-! Restriction preserves all internal formula codes between transitive ZF models. -/
 

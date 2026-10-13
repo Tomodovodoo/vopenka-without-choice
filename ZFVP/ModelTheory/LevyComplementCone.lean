@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LevyConeIsomorphism
+module
+
+public import ZFVP.ModelTheory.LevyConeIsomorphism
+
+@[expose] public section
 
 /-! Complementary cone isomorphisms for the Levy collapse.
 

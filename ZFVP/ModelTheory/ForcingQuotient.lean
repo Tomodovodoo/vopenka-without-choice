@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.GenericRegularForcing
-import ZFVP.SetTheory.AtomicForcingSubstitution
+module
+
+public import ZFVP.ModelTheory.GenericRegularForcing
+public import ZFVP.SetTheory.AtomicForcingSubstitution
+
+@[expose] public section
 
 namespace ZFVP
 

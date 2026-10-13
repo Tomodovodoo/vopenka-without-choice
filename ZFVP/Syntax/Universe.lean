@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FiniteCodingClosure
-import ZFVP.ModelTheory.LanguageCode
+module
+
+public import ZFVP.SetTheory.FiniteCodingClosure
+public import ZFVP.ModelTheory.LanguageCode
+
+@[expose] public section
 
 /-! A common internal coding universe for a language and a free-variable set. -/
 

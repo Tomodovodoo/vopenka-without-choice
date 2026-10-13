@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.InternalRationalCodes
+module
+
+public import ZFVP.SetTheory.InternalRationalCodes
+
+@[expose] public section
 
 /-! The dense linear order of the internally constructed rational quotient. -/
 

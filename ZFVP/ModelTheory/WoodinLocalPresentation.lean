@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinLocalStageOrder
-import ZFVP.ModelTheory.WoodinEndpointLocalCarrier
+module
+
+public import ZFVP.ModelTheory.WoodinLocalStageOrder
+public import ZFVP.ModelTheory.WoodinEndpointLocalCarrier
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
@@ -11,7 +15,7 @@ noncomputable def woodinLocalOrderOn (C : V) : V :=
 
 theorem mem_woodinLocalOrderOn_iff (C z w : V) :
     ⟨z, w⟩ₖ ∈ woodinLocalOrderOn C ↔ z ∈ C ∧ w ∈ C ∧ WoodinLocalStageOrder z w := by
-  unfold woodinLocalOrderOn WoodinLocalStageOrder
+  unfold woodinLocalOrderOn
   rw [mem_sep_iff]
   simp only [kpair_mem_iff, kpair.π₁_kpair, kpair.π₂_kpair]
   tauto

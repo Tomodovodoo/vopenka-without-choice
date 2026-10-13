@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.UsubaCollapseTargets
-import ZFVP.SetTheory.LowenheimSkolemDictionary
-import ZFVP.SetTheory.UniformLeastOrdinalChoice
+module
+
+public import ZFVP.SetTheory.UsubaCollapseTargets
+public import ZFVP.SetTheory.LowenheimSkolemDictionary
+public import ZFVP.SetTheory.UniformLeastOrdinalChoice
+
+@[expose] public section
 
 namespace ZFVP
 

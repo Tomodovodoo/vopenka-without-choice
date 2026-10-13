@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.MostowskiCollapse
+module
+
+public import ZFVP.SetTheory.MostowskiCollapse
+
+@[expose] public section
 
 /-! A definable total collapse operation, with its valid-input contract explicit. -/
 

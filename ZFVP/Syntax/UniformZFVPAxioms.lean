@@ -1,5 +1,9 @@
-import ZFVP.Syntax.ZFVPOpenAxiomSet
-import ZFVP.Syntax.UniformMembershipTemplates
+module
+
+public import ZFVP.Syntax.ZFVPOpenAxiomSet
+public import ZFVP.Syntax.UniformMembershipTemplates
+
+@[expose] public section
 
 /-! Shared parameter-free formulas for the full internal ZF and VP axiom sets. -/
 

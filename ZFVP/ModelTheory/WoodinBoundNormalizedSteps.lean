@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinBoundNormalization
-import ZFVP.ModelTheory.WoodinBoundBaseStep
-import ZFVP.ModelTheory.WoodinBoundDirectStep
+module
+
+public import ZFVP.ModelTheory.WoodinBoundNormalization
+public import ZFVP.ModelTheory.WoodinBoundBaseStep
+public import ZFVP.ModelTheory.WoodinBoundDirectStep
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

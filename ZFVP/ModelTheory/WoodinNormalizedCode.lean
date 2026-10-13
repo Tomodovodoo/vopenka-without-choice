@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinNormalizationClosure
+module
+
+public import ZFVP.ModelTheory.WoodinNormalizationClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

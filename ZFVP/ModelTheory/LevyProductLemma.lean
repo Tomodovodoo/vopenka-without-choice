@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.LevyCollapseUpper
-import ZFVP.ModelTheory.QuotientEquivalence
+module
+
+public import ZFVP.SetTheory.LevyCollapseUpper
+public import ZFVP.ModelTheory.QuotientEquivalence
+
+@[expose] public section
 
 /-! The product lemma for the Levy collapse: the upper part `G ∩ Coll(ω,[β,κ))` of the generic is
 generic over `V[G_β]` for the upper collapse, and `V[G] ≃ V[G_β][G ∩ Coll(ω,[β,κ))]` over the

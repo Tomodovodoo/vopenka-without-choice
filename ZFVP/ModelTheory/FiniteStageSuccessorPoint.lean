@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.StageSuccessorPoint
-import ZFVP.ModelTheory.FiniteStageSuccessorAll
+module
+
+public import ZFVP.ModelTheory.StageSuccessorPoint
+public import ZFVP.ModelTheory.FiniteStageSuccessorAll
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalProofRewriteModes
-import ZFVP.Syntax.OmegaAssignments
-import ZFVP.SetTheory.CompositionLaws
+module
+
+public import ZFVP.ModelTheory.InternalProofRewriteModes
+public import ZFVP.Syntax.OmegaAssignments
+public import ZFVP.SetTheory.CompositionLaws
+
+@[expose] public section
 
 /-! The assignments induced by the proof-rule rewrite tables. -/
 

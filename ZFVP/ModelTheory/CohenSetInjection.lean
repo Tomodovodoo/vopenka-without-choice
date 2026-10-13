@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.CohenFiniteFiberPresentation
-import ZFVP.ModelTheory.CohenOrbitEnumerations
-import ZFVP.ModelTheory.CohenInfiniteSet
-import ZFVP.SetTheory.FiniteFiberInjection
-import ZFVP.SetTheory.EndExtensionWellOrdering
+module
+
+public import ZFVP.ModelTheory.CohenFiniteFiberPresentation
+public import ZFVP.ModelTheory.CohenOrbitEnumerations
+public import ZFVP.ModelTheory.CohenInfiniteSet
+public import ZFVP.SetTheory.FiniteFiberInjection
+public import ZFVP.SetTheory.EndExtensionWellOrdering
+
+@[expose] public section
 
 namespace ZFVP
 

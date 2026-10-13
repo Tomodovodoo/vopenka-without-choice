@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseAutomorphismExtensionRows
-import ZFVP.ModelTheory.WoodinSparseInitialDisplacement
+module
+
+public import ZFVP.ModelTheory.WoodinSparseAutomorphismExtensionRows
+public import ZFVP.ModelTheory.WoodinSparseInitialDisplacement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

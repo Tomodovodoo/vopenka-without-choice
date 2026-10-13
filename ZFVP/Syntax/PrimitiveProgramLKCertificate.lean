@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramLKRuleCheck
+module
+
+public import ZFVP.Syntax.PrimitiveProgramLKRuleCheck
+
+@[expose] public section
 
 /-! Explicit right-fold traversal of LK certificates, accumulating conclusions and a validity bit. -/
 

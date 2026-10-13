@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinSparseLiteralRankReflection
-import ZFVP.ModelTheory.WoodinSparseUniformRestoration
-import ZFVP.ModelTheory.DomainTruthCorrectnessCriterion
-import ZFVP.ModelTheory.WoodinSparseRestrictedLiftRank
+module
+
+public import ZFVP.ModelTheory.WoodinSparseLiteralRankReflection
+public import ZFVP.ModelTheory.WoodinSparseUniformRestoration
+public import ZFVP.ModelTheory.DomainTruthCorrectnessCriterion
+public import ZFVP.ModelTheory.WoodinSparseRestrictedLiftRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

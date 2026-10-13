@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.FiniteRankLiftDomain
-import ZFVP.ModelTheory.EndExtensionRankMembership
+module
+
+public import ZFVP.ModelTheory.FiniteRankLiftDomain
+public import ZFVP.ModelTheory.EndExtensionRankMembership
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

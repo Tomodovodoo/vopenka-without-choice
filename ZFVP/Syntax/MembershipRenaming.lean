@@ -1,6 +1,10 @@
-import ZFVP.Syntax.FormulaSubstitutionSemantics
-import ZFVP.SetTheory.LevelOneTruth
-import ZFVP.SetTheory.CompositionLaws
+module
+
+public import ZFVP.Syntax.FormulaSubstitutionSemantics
+public import ZFVP.SetTheory.LevelOneTruth
+public import ZFVP.SetTheory.CompositionLaws
+
+@[expose] public section
 
 /-! Renaming any internal finite tuple of bound membership variables. -/
 

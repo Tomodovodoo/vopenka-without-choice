@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.EndExtensionRelations
-import ZFVP.SetTheory.FiniteSets
+module
+
+public import ZFVP.SetTheory.EndExtensionRelations
+public import ZFVP.SetTheory.FiniteSets
+
+@[expose] public section
 
 namespace ZFVP
 

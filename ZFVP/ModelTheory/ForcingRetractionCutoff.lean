@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.EquivalentRetractionForcing
-import ZFVP.SetTheory.WoodinPrefixCutoff
+module
+
+public import ZFVP.SetTheory.EquivalentRetractionForcing
+public import ZFVP.SetTheory.WoodinPrefixCutoff
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

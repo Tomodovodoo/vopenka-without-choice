@@ -1,5 +1,9 @@
-import ZFVP.Syntax.FoundationEncoding
-import ZFVP.Syntax.SatisfactionEquations
+module
+
+public import ZFVP.Syntax.FoundationEncoding
+public import ZFVP.Syntax.SatisfactionEquations
+
+@[expose] public section
 
 /-! The external Foundation structure and semantics represented by internal codes. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.DenseEmbedding
-import ZFVP.SetTheory.FunctionComposition
-import ZFVP.SetTheory.SequenceCollapseDense
+module
+
+public import ZFVP.SetTheory.DenseEmbedding
+public import ZFVP.SetTheory.FunctionComposition
+public import ZFVP.SetTheory.SequenceCollapseDense
+
+@[expose] public section
 
 /-! Dense embeddings compose, and a dense embedding of the second factor of a product is a
 dense embedding of the products. Consequently `λ^{<ω}` embeds densely into `P × Coll(ω, λ)`

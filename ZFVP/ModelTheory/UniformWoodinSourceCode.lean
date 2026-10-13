@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.UniformWoodinSparseSuccessor
-import ZFVP.ModelTheory.WoodinSourceCode
+module
+
+public import ZFVP.ModelTheory.UniformWoodinSparseSuccessor
+public import ZFVP.ModelTheory.WoodinSourceCode
+
+@[expose] public section
 
 /-! Total uniform formulas for insertion of the seed coordinate. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.WellOrderedSelection
+module
+
+public import ZFVP.SetTheory.WellOrderedSelection
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.EndExtensionRelations
-import ZFVP.Syntax.StandardTuples
+module
+
+public import ZFVP.SetTheory.EndExtensionRelations
+public import ZFVP.Syntax.StandardTuples
+
+@[expose] public section
 
 /-! Quantifier assignments agree under ZF membership end extensions. -/
 

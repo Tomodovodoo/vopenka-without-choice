@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.RankDCThreshold
-import ZFVP.ModelTheory.WoodinCollapseForcesRestoration
-import ZFVP.ModelTheory.TransitiveZFBoundedQuantifiers
+module
+
+public import ZFVP.SetTheory.RankDCThreshold
+public import ZFVP.ModelTheory.WoodinCollapseForcesRestoration
+public import ZFVP.ModelTheory.TransitiveZFBoundedQuantifiers
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

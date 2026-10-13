@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CnExtendibleSmallEmbedding
-import ZFVP.ModelTheory.CriticalLimitCardinal
+module
+
+public import ZFVP.SetTheory.CnExtendibleSmallEmbedding
+public import ZFVP.ModelTheory.CriticalLimitCardinal
+
+@[expose] public section
 
 /-! The small-embedding criterion itself supplies its initial-ordinal condition. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.WoodinCollapseDirectedClosure
+module
+
+public import ZFVP.SetTheory.WoodinCollapseDirectedClosure
+
+@[expose] public section
 
 namespace ZFVP
 

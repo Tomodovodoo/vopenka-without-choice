@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SymmetricDependentChoice
-import ZFVP.ModelTheory.CountableCohenModel
-import ZFVP.SetTheory.OrdinalDependentChoiceAC
+module
+
+public import ZFVP.ModelTheory.SymmetricDependentChoice
+public import ZFVP.ModelTheory.CountableCohenModel
+public import ZFVP.SetTheory.OrdinalDependentChoiceAC
+
+@[expose] public section
 
 /-! Dependent choice in the countable-support Cohen model at omega_1: the forcing is
 closed under descending omega-sequences and the countable-stabilizer filter is closed

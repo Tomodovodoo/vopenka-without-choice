@@ -1,14 +1,18 @@
-import ZFVP.SetTheory.HODReals
-import ZFVP.SetTheory.HODDependentChoice
-import ZFVP.SetTheory.EndExtensionCoding
-import ZFVP.SetTheory.EndExtensionRelations
-import ZFVP.SetTheory.EndExtensionSets
-import ZFVP.SetTheory.EndExtensionWellOrdering
-import ZFVP.SetTheory.EndExtensionLevyCollapse
-import ZFVP.SetTheory.EndExtensionRegular
-import ZFVP.SetTheory.EndExtensionFinite
-import ZFVP.SetTheory.FiniteSets
-import ZFVP.SetTheory.LebesgueNull
+module
+
+public import ZFVP.SetTheory.HODReals
+public import ZFVP.SetTheory.HODDependentChoice
+public import ZFVP.SetTheory.EndExtensionCoding
+public import ZFVP.SetTheory.EndExtensionRelations
+public import ZFVP.SetTheory.EndExtensionSets
+public import ZFVP.SetTheory.EndExtensionWellOrdering
+public import ZFVP.SetTheory.EndExtensionLevyCollapse
+public import ZFVP.SetTheory.EndExtensionRegular
+public import ZFVP.SetTheory.EndExtensionFinite
+public import ZFVP.SetTheory.FiniteSets
+public import ZFVP.SetTheory.LebesgueNull
+
+@[expose] public section
 
 /-! Transport of the Cantor space vocabulary between `V` and the HOD class model along the
 inclusion: reals, finite sequences, tree bodies, open sets, trees, perfect and nowhere dense trees,

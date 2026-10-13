@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryHenkinStages
-import Mathlib.Data.Nat.Pairing
+module
+
+public import ZFVP.ModelTheory.InfinitaryHenkinStages
+public import Mathlib.Data.Nat.Pairing
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

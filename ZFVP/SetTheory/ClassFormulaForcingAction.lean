@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ClassFormulaForcing
-import ZFVP.SetTheory.AtomicForcingAction
-import ZFVP.SetTheory.ForcingConditionAction
+module
+
+public import ZFVP.SetTheory.ClassFormulaForcing
+public import ZFVP.SetTheory.AtomicForcingAction
+public import ZFVP.SetTheory.ForcingConditionAction
+
+@[expose] public section
 
 namespace ZFVP
 

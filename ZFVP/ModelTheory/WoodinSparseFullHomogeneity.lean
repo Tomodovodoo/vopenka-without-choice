@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseInitialAutomorphismExtension
-import ZFVP.ModelTheory.WoodinSparseRelativeHomogeneityFamily
+module
+
+public import ZFVP.ModelTheory.WoodinSparseInitialAutomorphismExtension
+public import ZFVP.ModelTheory.WoodinSparseRelativeHomogeneityFamily
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

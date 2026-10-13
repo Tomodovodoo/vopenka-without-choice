@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.LevyGraphAssembly
-import ZFVP.SetTheory.BoundedValue
-import ZFVP.SetTheory.ForcingLimitColumns
+module
+
+public import ZFVP.SetTheory.LevyGraphAssembly
+public import ZFVP.SetTheory.BoundedValue
+public import ZFVP.SetTheory.ForcingLimitColumns
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

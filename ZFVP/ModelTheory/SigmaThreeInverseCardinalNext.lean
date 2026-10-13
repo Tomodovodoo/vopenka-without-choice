@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SigmaThreeWoodinInverse
+module
+
+public import ZFVP.ModelTheory.SigmaThreeWoodinInverse
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

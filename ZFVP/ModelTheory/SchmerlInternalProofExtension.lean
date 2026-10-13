@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalProofs
-import ZFVP.SetTheory.CountableSets
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalProofs
+public import ZFVP.SetTheory.CountableSets
+
+@[expose] public section
 
 /-! Actual proof-set extension and union. These operations retain every premise
 code and the exact syntactic axiom witnesses; they do not appeal to soundness. -/

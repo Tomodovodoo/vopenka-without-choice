@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingImageName
-import ZFVP.SetTheory.NameActionMembership
+module
+
+public import ZFVP.SetTheory.ForcingImageName
+public import ZFVP.SetTheory.NameActionMembership
+
+@[expose] public section
 
 namespace ZFVP
 

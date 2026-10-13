@@ -1,5 +1,9 @@
-import Foundation.FirstOrder.Basic.Calculus
-import Foundation.FirstOrder.SetTheory.ZF
+module
+
+public import Foundation.FirstOrder.Basic.Calculus
+public import Foundation.FirstOrder.SetTheory.ZF
+
+@[expose] public section
 
 /-! Finite bound-variable presentations of proof formulas.
 Free variables above the chosen bound are identified with the final variable.

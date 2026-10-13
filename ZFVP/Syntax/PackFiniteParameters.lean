@@ -1,6 +1,10 @@
-import ZFVP.Syntax.CloseTailParameters
-import ZFVP.Syntax.BoundedStandardTuples
-import ZFVP.SetTheory.UniformNumerals
+module
+
+public import ZFVP.Syntax.CloseTailParameters
+public import ZFVP.Syntax.BoundedStandardTuples
+public import ZFVP.SetTheory.UniformNumerals
+
+@[expose] public section
 
 /-! A finite list of free parameters can be represented by one internal tuple.
 This connects ordinary definable classes to the two-variable Vopenka scheme. -/

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.EmbeddingBoundedOperations
-import ZFVP.SetTheory.BoundedSequenceSupport
+module
+
+public import ZFVP.ModelTheory.EmbeddingBoundedOperations
+public import ZFVP.SetTheory.BoundedSequenceSupport
+
+@[expose] public section
 
 /-! Transitive sources of elementary embeddings inherit bounded operation
 closure from their targets. Omega membership is supplied separately. -/

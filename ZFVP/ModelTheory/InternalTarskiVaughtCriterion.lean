@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.DirectedElementaryUnion
+module
+
+public import ZFVP.ModelTheory.DirectedElementaryUnion
+
+@[expose] public section
 
 /-! An internal Tarski--Vaught criterion, including nonstandard formula codes. -/
 

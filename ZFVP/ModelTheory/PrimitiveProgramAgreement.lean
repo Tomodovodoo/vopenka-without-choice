@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalArithmeticGraphs
-import ZFVP.ModelTheory.InternalPrimitiveProgramEquations
+module
+
+public import ZFVP.ModelTheory.InternalArithmeticGraphs
+public import ZFVP.ModelTheory.InternalPrimitiveProgramEquations
+
+@[expose] public section
 
 /-! Arithmetic and set-theoretic program evaluation agree on all internal natural inputs. -/
 

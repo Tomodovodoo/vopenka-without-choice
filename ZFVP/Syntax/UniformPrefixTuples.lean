@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrefixTuples
-import ZFVP.Syntax.UniformAssignments
+module
+
+public import ZFVP.Syntax.PrefixTuples
+public import ZFVP.Syntax.UniformAssignments
+
+@[expose] public section
 
 /-! Shared formulas for standard prefixes with an arbitrary internal parameter tail. -/
 

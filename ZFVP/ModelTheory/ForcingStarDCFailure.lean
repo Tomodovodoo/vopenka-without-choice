@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ClosedModelForcingReflection
-import ZFVP.ModelTheory.ForcingCnOneTruth
-import ZFVP.SetTheory.BoundedStarDependentChoiceBelow
+module
+
+public import ZFVP.ModelTheory.ClosedModelForcingReflection
+public import ZFVP.ModelTheory.ForcingCnOneTruth
+public import ZFVP.SetTheory.BoundedStarDependentChoiceBelow
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

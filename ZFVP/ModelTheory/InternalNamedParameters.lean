@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalNamedSupport
+module
+
+public import ZFVP.ModelTheory.InternalNamedSupport
+
+@[expose] public section
 
 /-! Explicit source parameters and distinguished names in raw unary and binary
 formula instances. Source names are fixed during finite realizations. -/

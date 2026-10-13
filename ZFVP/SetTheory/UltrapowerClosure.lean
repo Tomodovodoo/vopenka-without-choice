@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.UltrapowerCollapse
-import ZFVP.SetTheory.UltrapowerSeed
-import ZFVP.SetTheory.NormalMeasureRegressive
-import ZFVP.SetTheory.MeasureSmallClosure
-import ZFVP.SetTheory.UltrapowerWitness
+module
+
+public import ZFVP.SetTheory.UltrapowerCollapse
+public import ZFVP.SetTheory.UltrapowerSeed
+public import ZFVP.SetTheory.NormalMeasureRegressive
+public import ZFVP.SetTheory.MeasureSmallClosure
+public import ZFVP.SetTheory.UltrapowerWitness
+
+@[expose] public section
 
 /-! # The ultrapower by a normal fine measure is closed under `lam`-indexed families
 

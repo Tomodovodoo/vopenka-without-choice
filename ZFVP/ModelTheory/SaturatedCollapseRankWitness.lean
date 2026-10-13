@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinCollapseRankWitnessForcing
-import ZFVP.ModelTheory.ForcingAtomicSemanticConsequence
-import ZFVP.ModelTheory.SaturatedHartogsSpecification
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseRankWitnessForcing
+public import ZFVP.ModelTheory.ForcingAtomicSemanticConsequence
+public import ZFVP.ModelTheory.SaturatedHartogsSpecification
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

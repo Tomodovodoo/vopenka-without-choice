@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ElementaryInclusionLaws
+module
+
+public import ZFVP.ModelTheory.ElementaryInclusionLaws
+
+@[expose] public section
 
 /-! Embeddings between elementary substructures preserve ambient truth for every internal code. -/
 

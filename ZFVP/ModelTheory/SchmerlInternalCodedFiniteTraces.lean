@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalCodedBinaryUnion
-import ZFVP.ModelTheory.SchmerlUniformCodedSource
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalCodedBinaryUnion
+public import ZFVP.ModelTheory.SchmerlUniformCodedSource
+
+@[expose] public section
 
 /-! Frozen finite traces remain internally countable in the actual coded
 chain union. All predicates use the represented membership relation. -/

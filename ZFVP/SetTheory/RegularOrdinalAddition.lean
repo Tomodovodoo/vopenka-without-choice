@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.UniformCodingUniverse
-import ZFVP.SetTheory.FiniteCofinality
-import ZFVP.SetTheory.FormulaReflection
+module
+
+public import ZFVP.SetTheory.UniformCodingUniverse
+public import ZFVP.SetTheory.FiniteCofinality
+public import ZFVP.SetTheory.FormulaReflection
+
+@[expose] public section
 
 namespace ZFVP
 

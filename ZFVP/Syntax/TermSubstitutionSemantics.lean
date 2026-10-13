@@ -1,5 +1,9 @@
-import ZFVP.Syntax.LiftSubstitution
-import ZFVP.Syntax.TermEvaluation
+module
+
+public import ZFVP.Syntax.LiftSubstitution
+public import ZFVP.Syntax.TermEvaluation
+
+@[expose] public section
 
 /-! Substitution commutes with evaluation for every internal term. -/
 

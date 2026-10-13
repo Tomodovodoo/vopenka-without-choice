@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.DeltaOneAtomicForcing
+module
+
+public import ZFVP.SetTheory.DeltaOneAtomicForcing
+
+@[expose] public section
 
 /-! Sigma_1 constructors for both answers to bounded forcing tests.
 The context is T, P, R, p, followed by the name parameters. -/

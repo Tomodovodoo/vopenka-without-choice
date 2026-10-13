@@ -1,6 +1,10 @@
-import ZFVP.Syntax.FormulaNegation
-import ZFVP.Syntax.SatisfactionEquations
-import ZFVP.Syntax.FoundationEncoding
+module
+
+public import ZFVP.Syntax.FormulaNegation
+public import ZFVP.Syntax.SatisfactionEquations
+public import ZFVP.Syntax.FoundationEncoding
+
+@[expose] public section
 
 /-! Negation complements satisfaction for every valid internal formula. -/
 

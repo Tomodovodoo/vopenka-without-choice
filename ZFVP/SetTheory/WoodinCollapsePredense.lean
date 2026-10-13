@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinCollapseClosedCut
-import ZFVP.SetTheory.WoodinCollapseRank
+module
+
+public import ZFVP.SetTheory.WoodinCollapseClosedCut
+public import ZFVP.SetTheory.WoodinCollapseRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

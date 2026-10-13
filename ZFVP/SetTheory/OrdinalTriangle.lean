@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.OrdinalMultiplication
+module
+
+public import ZFVP.SetTheory.OrdinalMultiplication
+
+@[expose] public section
 
 namespace ZFVP
 

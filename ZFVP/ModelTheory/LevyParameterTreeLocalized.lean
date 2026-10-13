@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LevyInternalLocalization
-import ZFVP.ModelTheory.LevyStageDefinable
+module
+
+public import ZFVP.ModelTheory.LevyInternalLocalization
+public import ZFVP.ModelTheory.LevyStageDefinable
+
+@[expose] public section
 
 /-! Ordinal definability over the Solovay parameter class in the Levy extension.
 

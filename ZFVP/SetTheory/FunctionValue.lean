@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.DefinableGraph
+module
+
+public import ZFVP.SetTheory.DefinableGraph
+
+@[expose] public section
 
 /-! Evaluation of internal function graphs. -/
 

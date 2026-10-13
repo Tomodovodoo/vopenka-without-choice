@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedBranchSequence
-import ZFVP.ModelTheory.SchmerlUniverseGraphs
-import ZFVP.ModelTheory.SchmerlCodedRepresentedDefinitions
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedBranchSequence
+public import ZFVP.ModelTheory.SchmerlUniverseGraphs
+public import ZFVP.ModelTheory.SchmerlCodedRepresentedDefinitions
+
+@[expose] public section
 
 /-! A coded cofinal omega-one chain supplies the exact internal-Q rank
 selection. The bound on every initial segment is witnessed by an actual

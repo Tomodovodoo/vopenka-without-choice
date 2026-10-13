@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.BoundedLowNameFamily
-import ZFVP.ModelTheory.LimitRankEmbeddingAction
-import ZFVP.ModelTheory.WoodinSparseOrderCovariance
+module
+
+public import ZFVP.ModelTheory.BoundedLowNameFamily
+public import ZFVP.ModelTheory.LimitRankEmbeddingAction
+public import ZFVP.ModelTheory.WoodinSparseOrderCovariance
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

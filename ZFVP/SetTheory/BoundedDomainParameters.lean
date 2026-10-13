@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BoundedDomainRelativization
+module
+
+public import ZFVP.SetTheory.BoundedDomainRelativization
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

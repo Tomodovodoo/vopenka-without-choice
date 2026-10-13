@@ -1,5 +1,10 @@
-import ZFVP.ModelTheory.TransitiveZFFormulaForcing
-import ZFVP.ModelTheory.ForcingInaccessibleRankTruth
+module
+
+public import ZFVP.ModelTheory.TransitiveZFFormulaForcing
+import all ZFVP.ModelTheory.TransitiveZFFormulaForcing
+public import ZFVP.ModelTheory.ForcingInaccessibleRankTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
@@ -24,9 +29,10 @@ theorem internalRank_formula_truth_of_inaccessible (hδ : IsChoicelessInaccessib
   have he' : (forcingFormula P R φ (standardTuple w)).val =
       classForcingFormula A.P A.R (IsLowRankForcingName A.P δ) (by definability) φ
         (standardTuple (fun i ↦ (v i).val)) := by
-    rw [hP, hR] at he
-    convert he using 1
-    rfl
+    change (forcingFormula P R φ (standardTuple w)).val =
+      classForcingFormula A.P A.R (fun x ↦ x ∈ hierarchy δ ∧ IsForcingName A.P x)
+        _ φ (standardTuple (fun i ↦ (w i).val))
+    simpa only [hP, hR] using he
   exact (A.rankName_formula_truth_of_inaccessible hδ (hP ▸ P.property) φ v hv).trans
     (congrArg (GenericMeets A.G) he').symm.to_iff
 

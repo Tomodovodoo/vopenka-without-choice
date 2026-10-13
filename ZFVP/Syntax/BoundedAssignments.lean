@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.BoundedSequenceSupport
-import ZFVP.Syntax.Assignments
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.SetTheory.BoundedSequenceSupport
+public import ZFVP.Syntax.Assignments
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 /-! A bounded relational check for prepending to an internal finite assignment. -/
 

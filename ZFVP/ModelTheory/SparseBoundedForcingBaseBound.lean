@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SparseBoundedForcingBase
-import ZFVP.SetTheory.FormulaStructuralHeight
+module
+
+public import ZFVP.ModelTheory.SparseBoundedForcingBase
+public import ZFVP.SetTheory.FormulaStructuralHeight
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
@@ -12,19 +16,19 @@ def sparseAtomicSyntaxDictionary : SetFormulaDictionary :=
    ⟨3, boundedFunctionFormula⟩, ⟨3, boundedPairMemberFormula⟩,
    ⟨4, woodinSparseLocalForcingFormula⟩]
 
-private structure AtomicSyntaxBound (D : SetFormulaDictionary) where
+structure AtomicSyntaxBound (D : SetFormulaDictionary) where
   level : ℕ
   exactValue : level = levyDictionaryBound D + 100
   ge : 100 ≤ level
   bound : ∀ φ ∈ D, levySyntacticBound φ.2 ≤ level
 
-private def makeAtomicSyntaxBound (D : SetFormulaDictionary) : AtomicSyntaxBound D where
+def makeAtomicSyntaxBound (D : SetFormulaDictionary) : AtomicSyntaxBound D where
   level := levyDictionaryBound D + 100
   exactValue := rfl
   ge := Nat.le_add_left 100 (levyDictionaryBound D)
   bound := fun φ hφ ↦ Nat.le_add_right_of_le (levySyntacticBound_le_dictionaryBound D φ hφ)
 
-private opaque atomicSyntaxBound : AtomicSyntaxBound sparseAtomicSyntaxDictionary :=
+opaque atomicSyntaxBound : AtomicSyntaxBound sparseAtomicSyntaxDictionary :=
   makeAtomicSyntaxBound sparseAtomicSyntaxDictionary
 
 /-- A fixed coefficient absorbing every graph formula in the atomic compiler. -/

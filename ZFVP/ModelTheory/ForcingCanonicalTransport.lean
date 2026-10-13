@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingIsomorphismWoodinSuccessor
-import ZFVP.ModelTheory.ForcingIsomorphismNames
-import ZFVP.ModelTheory.ForcingIsomorphismGenericContext
+module
+
+public import ZFVP.ModelTheory.ForcingIsomorphismWoodinSuccessor
+public import ZFVP.ModelTheory.ForcingIsomorphismNames
+public import ZFVP.ModelTheory.ForcingIsomorphismGenericContext
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]

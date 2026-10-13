@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingQuotientCheckNames
+module
+
+public import ZFVP.ModelTheory.ForcingQuotientCheckNames
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramTabulate
+module
+
+public import ZFVP.Syntax.PrimitiveProgramTabulate
+
+@[expose] public section
 
 /-! Course-of-values tables with a bounded auxiliary index for each earlier result. -/
 

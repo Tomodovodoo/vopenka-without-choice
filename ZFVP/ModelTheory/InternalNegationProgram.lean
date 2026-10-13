@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.NaturalFormulaRequirementInduction
-import ZFVP.ModelTheory.InternalNegationProgramEquations
-import ZFVP.Syntax.FormulaNegation
-import ZFVP.Syntax.PrimitiveProgramNegationRequirements
+module
+
+public import ZFVP.ModelTheory.NaturalFormulaRequirementInduction
+public import ZFVP.ModelTheory.InternalNegationProgramEquations
+public import ZFVP.Syntax.FormulaNegation
+public import ZFVP.Syntax.PrimitiveProgramNegationRequirements
+
+@[expose] public section
 
 /-! The explicit natural-code negation program agrees with internal formula negation. -/
 

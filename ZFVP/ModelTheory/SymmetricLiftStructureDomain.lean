@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SymmetricLiftOrdinary
-import ZFVP.ModelTheory.StructureCode
+module
+
+public import ZFVP.ModelTheory.SymmetricLiftOrdinary
+public import ZFVP.ModelTheory.StructureCode
+
+@[expose] public section
 
 /-! Every coded structure represented in the lift domain has an internal domain restriction. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.Syntax.ClassForcingTranslation
-import ZFVP.SetTheory.FormulaStructuralHeight
-import Mathlib.Tactic.Ring
+module
+
+public import ZFVP.Syntax.ClassForcingTranslation
+public import ZFVP.SetTheory.FormulaStructuralHeight
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! A scalar bound for the actual class-forcing translation. Logical height
 counts the Boolean nodes where forcing inserts density quantifiers.

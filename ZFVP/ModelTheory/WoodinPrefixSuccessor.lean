@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinCollapseIterand
-import ZFVP.ModelTheory.WoodinSuccessorRestoration
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseIterand
+public import ZFVP.ModelTheory.WoodinSuccessorRestoration
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

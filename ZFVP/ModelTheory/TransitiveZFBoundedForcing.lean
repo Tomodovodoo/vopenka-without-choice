@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TransitiveZFForcingOrders
-import ZFVP.ModelTheory.TransitiveZFNames
-import ZFVP.SetTheory.DeltaOneBoundedForcing
+module
+
+public import ZFVP.ModelTheory.TransitiveZFForcingOrders
+public import ZFVP.ModelTheory.TransitiveZFNames
+public import ZFVP.SetTheory.DeltaOneBoundedForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

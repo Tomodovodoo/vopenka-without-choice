@@ -1,5 +1,9 @@
-import ZFVP.Syntax.ForcingTranslation
-import ZFVP.SetTheory.ForcingFormulaWitnesses
+module
+
+public import ZFVP.Syntax.ForcingTranslation
+public import ZFVP.SetTheory.ForcingFormulaWitnesses
+
+@[expose] public section
 
 namespace ZFVP
 

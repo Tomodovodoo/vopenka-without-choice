@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ClassForcingTowerOrder
+module
+
+public import ZFVP.SetTheory.ClassForcingTowerOrder
+
+@[expose] public section
 
 /-! Complete projections of the proper-class direct limit onto each set
 stage. The lifting property is proved from the set-stage lifts and the

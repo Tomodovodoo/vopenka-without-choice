@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ClassForcingTowerStageModels
-import ZFVP.ModelTheory.ClassForcingTowerBoundedModels
-import ZFVP.ModelTheory.ForcingContextCongruence
-import ZFVP.ModelTheory.ForcingBaseChange
-import ZFVP.ModelTheory.TwoStepInclusion
+module
+
+public import ZFVP.ModelTheory.ClassForcingTowerStageModels
+public import ZFVP.ModelTheory.ClassForcingTowerBoundedModels
+public import ZFVP.ModelTheory.ForcingContextCongruence
+public import ZFVP.ModelTheory.ForcingBaseChange
+public import ZFVP.ModelTheory.TwoStepInclusion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

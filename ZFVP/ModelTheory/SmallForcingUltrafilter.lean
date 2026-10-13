@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingSmallUltrafilter
+module
+
+public import ZFVP.ModelTheory.ForcingSmallUltrafilter
+
+@[expose] public section
 
 /-! Levy-Solovay for small forcing (Banerjee, Theorem 2.5(2)): a nonprincipal `κ`-complete
 ultrafilter `U` of the ground model generates a nonprincipal internally `κ`-complete

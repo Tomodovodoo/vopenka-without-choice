@@ -1,5 +1,9 @@
-import ZFVP.Syntax.MembershipTailTemplates
-import ZFVP.Syntax.VopenkaAxiomSet
+module
+
+public import ZFVP.Syntax.MembershipTailTemplates
+public import ZFVP.Syntax.VopenkaAxiomSet
+
+@[expose] public section
 
 /-! Definability of the schema compiler with its parameter count as an input. -/
 

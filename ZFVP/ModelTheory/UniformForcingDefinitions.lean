@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.InternalGenericTruth
-import ZFVP.Syntax.BoundedInternalForcingAtoms
-import ZFVP.Syntax.DictionaryComplexity
-import ZFVP.Syntax.SigmaOneInternalForcing
+module
+
+public import ZFVP.ModelTheory.InternalGenericTruth
+public import ZFVP.Syntax.BoundedInternalForcingAtoms
+public import ZFVP.Syntax.DictionaryComplexity
+public import ZFVP.Syntax.SigmaOneInternalForcing
+
+@[expose] public section
 
 /-! Endpoint-free defining formulas for the forcing relation, one per standard Levy level.
 

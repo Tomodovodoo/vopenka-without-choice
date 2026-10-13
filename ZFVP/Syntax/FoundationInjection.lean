@@ -1,5 +1,9 @@
-import ZFVP.Syntax.FoundationEncoding
-import ZFVP.Syntax.FormulaInversion
+module
+
+public import ZFVP.Syntax.FoundationEncoding
+public import ZFVP.Syntax.FormulaInversion
+
+@[expose] public section
 
 /-! Faithfulness of the encoding under injective symbol and variable representations. -/
 

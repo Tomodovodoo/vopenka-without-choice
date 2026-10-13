@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.InaccessibleWitnessStep
-import ZFVP.SetTheory.RegularSequenceLimit
+module
+
+public import ZFVP.SetTheory.InaccessibleWitnessStep
+public import ZFVP.SetTheory.RegularSequenceLimit
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

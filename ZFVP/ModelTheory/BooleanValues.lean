@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.BooleanGenericTransfer
-import ZFVP.ModelTheory.ForcingFunctionValues
-import ZFVP.SetTheory.BooleanCompletionValues
+module
+
+public import ZFVP.ModelTheory.BooleanGenericTransfer
+public import ZFVP.ModelTheory.ForcingFunctionValues
+public import ZFVP.SetTheory.BooleanCompletionValues
+
+@[expose] public section
 
 /-! Boolean values: a generic filter on the Boolean completion contains the regular join of a
 regular set of Boolean conditions exactly when it meets that set, so truth in the Boolean

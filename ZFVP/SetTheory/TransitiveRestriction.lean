@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.MembershipIso
-import Foundation.FirstOrder.SetTheory.Ordinal
+module
+
+public import ZFVP.SetTheory.MembershipIso
+public import Foundation.FirstOrder.SetTheory.Ordinal
+
+@[expose] public section
 
 /-! Restriction between transitive ambient sets, via syntactic relativization. -/
 

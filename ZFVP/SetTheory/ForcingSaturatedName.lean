@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.AtomicForcingDictionary
+module
+
+public import ZFVP.SetTheory.AtomicForcingDictionary
+
+@[expose] public section
 
 namespace ZFVP
 

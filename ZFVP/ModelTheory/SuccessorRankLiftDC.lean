@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.ForcingStarDCFailure
-import ZFVP.ModelTheory.RankDependentChoiceProxy
-import ZFVP.ModelTheory.SuccessorRankLiftChecks
-import ZFVP.ModelTheory.SuccessorRankDependentChoice
-import ZFVP.ModelTheory.SuccessorRankCriticalPoint
-import ZFVP.ModelTheory.SuccessorRankLiftElementarity
+module
+
+public import ZFVP.ModelTheory.ForcingStarDCFailure
+public import ZFVP.ModelTheory.RankDependentChoiceProxy
+public import ZFVP.ModelTheory.SuccessorRankLiftChecks
+public import ZFVP.ModelTheory.SuccessorRankDependentChoice
+public import ZFVP.ModelTheory.SuccessorRankCriticalPoint
+public import ZFVP.ModelTheory.SuccessorRankLiftElementarity
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

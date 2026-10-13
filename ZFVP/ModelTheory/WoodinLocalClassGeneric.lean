@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinLocalRankQuotient
-import ZFVP.ModelTheory.WoodinFixedPointRankQuotient
-import ZFVP.ModelTheory.DefinableClassGeneric
+module
+
+public import ZFVP.ModelTheory.WoodinLocalRankQuotient
+public import ZFVP.ModelTheory.WoodinFixedPointRankQuotient
+public import ZFVP.ModelTheory.DefinableClassGeneric
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

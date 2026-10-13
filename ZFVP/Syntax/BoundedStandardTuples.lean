@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedSequenceSupport
-import ZFVP.Syntax.StandardTuples
+module
+
+public import ZFVP.SetTheory.BoundedSequenceSupport
+public import ZFVP.Syntax.StandardTuples
+
+@[expose] public section
 
 /-! Bounded checks for standard finite parameter tuples inside a support set. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ClassFormulaForcingAction
-import ZFVP.SetTheory.FormulaForcing
-import ZFVP.SetTheory.ForcingAutomorphisms
+module
+
+public import ZFVP.SetTheory.ClassFormulaForcingAction
+public import ZFVP.SetTheory.FormulaForcing
+public import ZFVP.SetTheory.ForcingAutomorphisms
+
+@[expose] public section
 
 /-! Equivariance of the ordinary forcing relation under forcing automorphisms acting on names,
 and names all of whose conditions are fixed by an automorphism are themselves fixed. -/

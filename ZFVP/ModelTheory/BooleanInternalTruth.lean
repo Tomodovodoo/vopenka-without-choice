@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LevyOrbitHomogeneity
-import ZFVP.ModelTheory.LocalAtomicTruth
+module
+
+public import ZFVP.ModelTheory.LevyOrbitHomogeneity
+public import ZFVP.ModelTheory.LocalAtomicTruth
+
+@[expose] public section
 
 /-! The atomic truth lemma for a filter that lives inside the extension.
 

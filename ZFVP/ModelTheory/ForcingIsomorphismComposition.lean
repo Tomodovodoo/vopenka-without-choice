@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingIsomorphismFormula
-import ZFVP.SetTheory.CompositionLaws
+module
+
+public import ZFVP.ModelTheory.ForcingIsomorphismFormula
+public import ZFVP.SetTheory.CompositionLaws
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

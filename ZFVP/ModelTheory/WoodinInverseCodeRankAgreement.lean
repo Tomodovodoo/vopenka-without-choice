@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinInverseCutoffRankAgreement
-import ZFVP.ModelTheory.RankInverseTwoStepCode
-import ZFVP.ModelTheory.RankSaturatedHartogsNameAgreement
-import ZFVP.ModelTheory.SaturatedHartogsStageRankAgreement
+module
+
+public import ZFVP.ModelTheory.WoodinInverseCutoffRankAgreement
+public import ZFVP.ModelTheory.RankInverseTwoStepCode
+public import ZFVP.ModelTheory.RankSaturatedHartogsNameAgreement
+public import ZFVP.ModelTheory.SaturatedHartogsStageRankAgreement
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CriticalLimitExtendibility
-import ZFVP.SetTheory.UEImpliesVopenka
+module
+
+public import ZFVP.ModelTheory.CriticalLimitExtendibility
+public import ZFVP.SetTheory.UEImpliesVopenka
+
+@[expose] public section
 
 /-! Every parameterized Vopenka instance holds in the fixed critical limit model. -/
 

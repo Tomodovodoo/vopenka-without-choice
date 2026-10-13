@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingLSPreservation
-import ZFVP.ModelTheory.UsubaEnumerationBounds
+module
+
+public import ZFVP.ModelTheory.ForcingLSPreservation
+public import ZFVP.ModelTheory.UsubaEnumerationBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

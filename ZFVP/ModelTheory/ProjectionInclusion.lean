@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingGenericInclusion
-import ZFVP.ModelTheory.ProjectionQuotientGeneric
+module
+
+public import ZFVP.ModelTheory.ForcingGenericInclusion
+public import ZFVP.ModelTheory.ProjectionQuotientGeneric
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

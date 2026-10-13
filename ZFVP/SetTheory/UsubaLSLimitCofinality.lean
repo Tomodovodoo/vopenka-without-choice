@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.UsubaLSSequence
-import ZFVP.SetTheory.IncreasingSequenceCofinality
+module
+
+public import ZFVP.SetTheory.UsubaLSSequence
+public import ZFVP.SetTheory.IncreasingSequenceCofinality
+
+@[expose] public section
 
 /-! The definable LS targets have prescribed cofinality. In particular,
 for each infinite regular `κ`, unbounded LS cardinals give singular limits

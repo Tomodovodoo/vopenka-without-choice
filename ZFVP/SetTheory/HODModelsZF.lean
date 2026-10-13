@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.OrdinalDefinabilityClosure
-import ZFVP.SetTheory.ClassModelsZF
+module
+
+public import ZFVP.SetTheory.OrdinalDefinabilityClosure
+public import ZFVP.SetTheory.ClassModelsZF
+
+@[expose] public section
 
 /-! The class of hereditarily ordinal definable sets relative to a parameter class is a transitive
 model of ZF: it contains the ordinals and is closed under the ZF operations by the closure of

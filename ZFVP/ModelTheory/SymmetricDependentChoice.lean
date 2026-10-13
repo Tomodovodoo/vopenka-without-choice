@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SymmetricDCTransfer
+module
+
+public import ZFVP.ModelTheory.SymmetricDCTransfer
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

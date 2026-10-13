@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LastPoint
-import ZFVP.ModelTheory.EmbeddingNextCnFixed
-import ZFVP.SetTheory.CnCofinal
+module
+
+public import ZFVP.ModelTheory.LastPoint
+public import ZFVP.ModelTheory.EmbeddingNextCnFixed
+public import ZFVP.SetTheory.CnCofinal
+
+@[expose] public section
 
 /-! Correct rank heights occur cofinally below the last point and its
 image when that image still lies in the source. -/

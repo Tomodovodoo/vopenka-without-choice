@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.BooleanRealTrace
-import ZFVP.ModelTheory.CompleteSubalgebra
+module
+
+public import ZFVP.ModelTheory.BooleanRealTrace
+public import ZFVP.ModelTheory.CompleteSubalgebra
+
+@[expose] public section
 
 /-! Boolean values of membership in a name over an arbitrary ground index set, and the canonical
 "decision name" of a subset of a checked set: the pairs `(q̌, b_q)` for the Boolean values

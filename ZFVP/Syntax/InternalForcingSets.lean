@@ -1,5 +1,9 @@
-import ZFVP.Syntax.InternalAtomicForcingRegular
-import ZFVP.SetTheory.ForcingQuantifiers
+module
+
+public import ZFVP.Syntax.InternalAtomicForcingRegular
+public import ZFVP.SetTheory.ForcingQuantifiers
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import PalomarBridge.CodingOperations
-import ZFVP.Syntax.Formulas
-import ZFVP.ModelTheory.StructureCode
+module
+
+public import PalomarBridge.CodingOperations
+public import ZFVP.Syntax.Formulas
+public import ZFVP.ModelTheory.StructureCode
+
+@[expose] public section
 
 namespace PalomarBridge
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

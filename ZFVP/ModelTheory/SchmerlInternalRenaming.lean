@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalSubstitution
-import ZFVP.Syntax.UniformMembershipRenaming
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalSubstitution
+public import ZFVP.Syntax.UniformMembershipRenaming
+
+@[expose] public section
 
 /-! Renaming arbitrary internal finite variable tuples in a coded
 infinitary fragment, for any internal language. This constructs syntax

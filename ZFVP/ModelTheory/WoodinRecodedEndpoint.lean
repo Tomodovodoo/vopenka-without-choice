@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinRecodedConstruction
-import ZFVP.ModelTheory.WoodinNormalizedEndpoint
+module
+
+public import ZFVP.ModelTheory.WoodinRecodedConstruction
+public import ZFVP.ModelTheory.WoodinNormalizedEndpoint
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

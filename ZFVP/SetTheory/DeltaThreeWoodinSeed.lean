@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.PiTwoDependentChoice
-import ZFVP.SetTheory.SigmaThreeLeastPrefixCutoff
-import ZFVP.SetTheory.WoodinSeedCardinal
-import ZFVP.SetTheory.BoundedNaturals
+module
+
+public import ZFVP.SetTheory.PiTwoDependentChoice
+public import ZFVP.SetTheory.SigmaThreeLeastPrefixCutoff
+public import ZFVP.SetTheory.WoodinSeedCardinal
+public import ZFVP.SetTheory.BoundedNaturals
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

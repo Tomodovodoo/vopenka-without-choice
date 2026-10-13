@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ClassForcingAlgebra
+module
+
+public import ZFVP.SetTheory.ClassForcingAlgebra
+
+@[expose] public section
 
 /-! Generic truth laws for definable classes of conditions. No set of all
 conditions and no ZF hypothesis on the class extension is used. -/

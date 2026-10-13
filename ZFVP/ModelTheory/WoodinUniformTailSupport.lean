@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinDirectTailSupport
-import ZFVP.ModelTheory.UniformDirectNameSupport
-import ZFVP.ModelTheory.WoodinQuotientBoundRecursion
+module
+
+public import ZFVP.ModelTheory.WoodinDirectTailSupport
+public import ZFVP.ModelTheory.UniformDirectNameSupport
+public import ZFVP.ModelTheory.WoodinQuotientBoundRecursion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

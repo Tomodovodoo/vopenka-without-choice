@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.MembershipStructure
+module
+
+public import ZFVP.ModelTheory.MembershipStructure
+
+@[expose] public section
 
 /-! An internal structure code for an arbitrary binary relation. The relation
 need not agree with ambient membership, and need not be well founded. -/

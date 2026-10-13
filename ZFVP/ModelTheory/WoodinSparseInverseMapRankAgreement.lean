@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseActualInverseRankAgreement
-import ZFVP.ModelTheory.WoodinNormalizedCodeRankAgreement
-import ZFVP.ModelTheory.RankNormalizationMaps
+module
+
+public import ZFVP.ModelTheory.WoodinSparseActualInverseRankAgreement
+public import ZFVP.ModelTheory.WoodinNormalizedCodeRankAgreement
+public import ZFVP.ModelTheory.RankNormalizationMaps
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

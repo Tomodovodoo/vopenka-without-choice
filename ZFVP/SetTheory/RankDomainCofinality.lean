@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.NoncofinalMapBounds
-import ZFVP.SetTheory.CofinalityDictionary
-import ZFVP.SetTheory.RankBounds
+module
+
+public import ZFVP.SetTheory.NoncofinalMapBounds
+public import ZFVP.SetTheory.CofinalityDictionary
+public import ZFVP.SetTheory.RankBounds
+
+@[expose] public section
 
 /-! At a regular target above κ, bounds on each lower-rank domain combine
 to a bound on the entire rank Vκ. -/

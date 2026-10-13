@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LevyAbsorptionModel
-import ZFVP.ModelTheory.SolovayFactorLemma
-import ZFVP.SetTheory.LevyCollapseFull
+module
+
+public import ZFVP.ModelTheory.LevyAbsorptionModel
+public import ZFVP.ModelTheory.SolovayFactorLemma
+public import ZFVP.SetTheory.LevyCollapseFull
+
+@[expose] public section
 
 /-! An extension by the upper collapse `Coll(ω, [β, κ))` is an extension by the full collapse
 `Coll(ω, <κ)`: the small collapse `Coll(ω, <β)` is absorbed into a column above `β`, and the

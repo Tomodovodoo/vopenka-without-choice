@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.LevyTraceProjection
-import ZFVP.ModelTheory.LevyConePartitionData
-import ZFVP.ModelTheory.BooleanConeCantorBernstein
-import ZFVP.ModelTheory.BooleanAntichains
+module
+
+public import ZFVP.ModelTheory.LevyTraceProjection
+public import ZFVP.ModelTheory.LevyConePartitionData
+public import ZFVP.ModelTheory.BooleanConeCantorBernstein
+public import ZFVP.ModelTheory.BooleanAntichains
+
+@[expose] public section
 
 /-! Two steps toward a relative isomorphism of two cones of the Boolean completion of the Levy
 collapse over the algebra `levyDeterminedAlgebra κ ξ` of sets determined below `ξ`.

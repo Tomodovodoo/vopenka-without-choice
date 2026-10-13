@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SuccessorRankEmbedding
-import ZFVP.SetTheory.DeltaOneForcingNames
-import ZFVP.SetTheory.DeltaOneBoundedForcing
+module
+
+public import ZFVP.ModelTheory.SuccessorRankEmbedding
+public import ZFVP.SetTheory.DeltaOneForcingNames
+public import ZFVP.SetTheory.DeltaOneBoundedForcing
+
+@[expose] public section
 
 namespace ZFVP
 

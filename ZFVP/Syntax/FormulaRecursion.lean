@@ -1,4 +1,8 @@
-import ZFVP.Syntax.Subformulas
+module
+
+public import ZFVP.Syntax.Subformulas
+
+@[expose] public section
 
 /-! Internal recursion over context/formula pairs. -/
 

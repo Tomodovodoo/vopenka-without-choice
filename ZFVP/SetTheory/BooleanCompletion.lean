@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingRegular
-import ZFVP.SetTheory.ForcingNegation
+module
+
+public import ZFVP.SetTheory.ForcingRegular
+public import ZFVP.SetTheory.ForcingNegation
+
+@[expose] public section
 
 /-! The Boolean completion of a forcing preorder: its regular subsets ordered by inclusion,
 with intersection as meet, the forcing negation as complement and the regularization of a

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparsePoolRecovery
-import ZFVP.ModelTheory.SingletonNormalizedPoolEvaluation
-import ZFVP.ModelTheory.WoodinCollapseRowRecovery
+module
+
+public import ZFVP.ModelTheory.WoodinSparsePoolRecovery
+public import ZFVP.ModelTheory.SingletonNormalizedPoolEvaluation
+public import ZFVP.ModelTheory.WoodinCollapseRowRecovery
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

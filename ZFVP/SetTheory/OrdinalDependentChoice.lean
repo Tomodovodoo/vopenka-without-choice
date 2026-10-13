@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.DependentChoice
-import ZFVP.SetTheory.FiniteSequences
-import ZFVP.SetTheory.DeltaOneBoundedTruth
+module
+
+public import ZFVP.SetTheory.DependentChoice
+public import ZFVP.SetTheory.FiniteSequences
+public import ZFVP.SetTheory.DeltaOneBoundedTruth
+
+@[expose] public section
 
 /-! Dependent choices of an internal ordinal length. Serial relations
 on shorter sequences represent the nonempty-valued functions in

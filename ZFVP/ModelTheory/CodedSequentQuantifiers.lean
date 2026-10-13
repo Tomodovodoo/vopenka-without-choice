@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CodedSequentSemantics
-import ZFVP.Syntax.MembershipSwap
+module
+
+public import ZFVP.ModelTheory.CodedSequentSemantics
+public import ZFVP.Syntax.MembershipSwap
+
+@[expose] public section
 
 /-! Internally finite variable renaming and the two sequent quantifier rules. -/
 

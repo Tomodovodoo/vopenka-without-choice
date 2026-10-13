@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.HenkinSet
-import ZFVP.ModelTheory.StageSatisfaction
+module
+
+public import ZFVP.ModelTheory.HenkinSet
+public import ZFVP.ModelTheory.StageSatisfaction
+
+@[expose] public section
 
 /-! # The term model of a Henkin set
 

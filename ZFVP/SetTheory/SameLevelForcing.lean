@@ -1,4 +1,8 @@
-import ZFVP.Syntax.LevyForcingMeaning
+module
+
+public import ZFVP.Syntax.LevyForcingMeaning
+
+@[expose] public section
 
 /-! Same-level definitions of ordinary and symmetric forcing for every
 positive level of the external Levy hierarchy. -/

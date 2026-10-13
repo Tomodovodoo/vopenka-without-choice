@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingDependentChoiceSeriality
-import ZFVP.ModelTheory.ReflectedPairWitnessTable
+module
+
+public import ZFVP.ModelTheory.ForcingDependentChoiceSeriality
+public import ZFVP.ModelTheory.ReflectedPairWitnessTable
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
@@ -44,10 +48,10 @@ theorem shortSequence_candidate_countable [Countable V] {P R one κ p q t : V}
   exact ⟨r, hr, ν.val, mem_domain_of_kpair_mem hνu, hrq,
     (forcingFormula_regular hR dependentChoiceNextFormula _).2.1 u hu r hr hru⟩
 
-private def shortWitnessForces {n : ℕ} (φ : SetTheorySemisentence n) (P R p b : V) : Prop :=
+def shortWitnessForces {n : ℕ} (φ : SetTheorySemisentence n) (P R p b : V) : Prop :=
   p ∈ forcingFormula P R φ b
 
-private instance forcingMembership_definable {n : ℕ} (φ : SetTheorySemisentence n) :
+instance shortWitnessForces_definable {n : ℕ} (φ : SetTheorySemisentence n) :
     ℒₛₑₜ-relation₄[V] (shortWitnessForces φ) := by
   exact Language.Definable.substitution
     (f := ![(fun v : Fin 4 → V ↦ v 0), (fun v ↦ v 1), (fun v ↦ v 0),

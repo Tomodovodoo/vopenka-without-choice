@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RealTranslationImages
-import ZFVP.SetTheory.RealCoverInfimum
+module
+
+public import ZFVP.SetTheory.RealTranslationImages
+public import ZFVP.SetTheory.RealCoverInfimum
+
+@[expose] public section
 
 /-! Rational translation preserves genuine interval-cover costs and outer measure. -/
 namespace ZFVP

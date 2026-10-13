@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.LastPointCn
-import ZFVP.ModelTheory.EmbeddingSupercompactBase
-import ZFVP.SetTheory.ChoicelessSupercompactBelow
-import ZFVP.SetTheory.ChoicelessSupercompactDownward
+module
+
+public import ZFVP.ModelTheory.LastPointCn
+public import ZFVP.ModelTheory.EmbeddingSupercompactBase
+public import ZFVP.SetTheory.ChoicelessSupercompactBelow
+public import ZFVP.SetTheory.ChoicelessSupercompactDownward
+
+@[expose] public section
 
 /-! Mohammd Lemma 6.4 at positive lower levels. A least failing target
 replaces the induction along the last sequence; downward restriction

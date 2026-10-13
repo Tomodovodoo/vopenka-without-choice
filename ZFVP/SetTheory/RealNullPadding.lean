@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RealOuterMeasure
+module
+
+public import ZFVP.SetTheory.RealOuterMeasure
+
+@[expose] public section
 
 /-! Total genuine interval covers with arbitrarily small cost, including empty sets. -/
 

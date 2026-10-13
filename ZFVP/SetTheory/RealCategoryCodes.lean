@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BinaryNowhereDenseImages
+module
+
+public import ZFVP.SetTheory.BinaryNowhereDenseImages
+
+@[expose] public section
 
 /-! Actual rational-interval codes for closed sets and meagre real sets. -/
 

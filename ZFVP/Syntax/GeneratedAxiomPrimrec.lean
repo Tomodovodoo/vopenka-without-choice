@@ -1,5 +1,9 @@
-import ZFVP.Syntax.TailTemplatePrimrec
-import ZFVP.Syntax.GeneratedAxiomEnumeration
+module
+
+public import ZFVP.Syntax.TailTemplatePrimrec
+public import ZFVP.Syntax.GeneratedAxiomEnumeration
+
+@[expose] public section
 
 /-! The complete generated ZF+VP axiom enumeration is primitive recursive. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.PrunedUnboundedExtendibility
+module
+
+public import ZFVP.ModelTheory.PrunedUnboundedExtendibility
+
+@[expose] public section
 
 /-! Exact dictionary for the literal rank-Berkeley definition in V13, line 481.
 The paper's universal clause includes the zero initial ordinal. Consequently its

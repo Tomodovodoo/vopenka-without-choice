@@ -1,5 +1,9 @@
-import ZFVP.Syntax.FoundationLiftSubstitution
-import ZFVP.Syntax.FormulaSubstitutionValidity
+module
+
+public import ZFVP.Syntax.FoundationLiftSubstitution
+public import ZFVP.Syntax.FormulaSubstitutionValidity
+
+@[expose] public section
 
 /-! Agreement with Foundation rewriting for externally finite encoded formulas.
 The recursion and its validity theorem still range over all internal syntax. -/

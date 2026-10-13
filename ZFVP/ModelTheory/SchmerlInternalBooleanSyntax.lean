@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalInfinitaryInduction
-import ZFVP.ModelTheory.SchmerlEndExtensionFragmentCoding
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalInfinitaryInduction
+public import ZFVP.ModelTheory.SchmerlEndExtensionFragmentCoding
+
+@[expose] public section
 
 /-! Derived Boolean codes use functions on the model's entire omega. Their
 equations and end-extension transport do not require standard omega. -/

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlRubinTrees
-import ZFVP.ModelTheory.SchmerlSimultaneousSpecialization
+module
+
+public import ZFVP.ModelTheory.SchmerlRubinTrees
+public import ZFVP.ModelTheory.SchmerlSimultaneousSpecialization
+
+@[expose] public section
 
 /-! A single corrected specializing poset for the class tree and every
 finite-function tree of an aleph-one-sized Rubin model. All tree, cofinality,

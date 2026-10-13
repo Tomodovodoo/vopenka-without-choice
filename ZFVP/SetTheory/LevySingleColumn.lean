@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.LevyColumnSplitting
-import ZFVP.SetTheory.SetCollapse
+module
+
+public import ZFVP.SetTheory.LevyColumnSplitting
+public import ZFVP.SetTheory.SetCollapse
+
+@[expose] public section
 
 /-! A single column `λ` of the Levy collapse is the collapse `Coll(ω, λ)`: the maps forgetting and
 restoring the column index are inverse dense embeddings. -/

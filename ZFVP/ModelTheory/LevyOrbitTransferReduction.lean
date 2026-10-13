@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.BooleanGenericAutomorphism
-import ZFVP.ModelTheory.LevyConeIsomorphism
+module
+
+public import ZFVP.ModelTheory.BooleanGenericAutomorphism
+public import ZFVP.ModelTheory.LevyConeIsomorphism
+
+@[expose] public section
 
 /-! The transfer statement of Karagila and Schilhan, Lemma 9.3, reduced to the cone form of
 Jech, Set Theory (3rd ed.), Lemma 25.5.

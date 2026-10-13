@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.RegularCofinalSurjection
-import ZFVP.SetTheory.Hessenberg
-import ZFVP.SetTheory.WellOrderedSurjection
+module
+
+public import ZFVP.SetTheory.RegularCofinalSurjection
+public import ZFVP.SetTheory.Hessenberg
+public import ZFVP.SetTheory.WellOrderedSurjection
+
+@[expose] public section
 
 /-! A set which cannot surject onto κ cannot gain a successor-cardinal surjection by multiplying by lam ≥ κ. -/
 

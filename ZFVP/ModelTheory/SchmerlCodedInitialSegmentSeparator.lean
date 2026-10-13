@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedCountableUpperBound
-import ZFVP.ModelTheory.InternalNamedSeparationOmission
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedCountableUpperBound
+public import ZFVP.ModelTheory.InternalNamedSeparationOmission
+
+@[expose] public section
 
 /-! An internal common upper bound gives an actual coded separator. -/
 

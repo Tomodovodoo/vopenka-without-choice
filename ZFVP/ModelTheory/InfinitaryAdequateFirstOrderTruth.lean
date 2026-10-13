@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryAdequateQuotientStructure
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateQuotientStructure
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

@@ -1,5 +1,9 @@
-import Mathlib.Tactic.FinCases
-import ZFVP.ModelTheory.ArithmeticInterpretation
+module
+
+public import Mathlib.Tactic.FinCases
+public import ZFVP.ModelTheory.ArithmeticInterpretation
+
+@[expose] public section
 
 /-! The interpreted omega model with arithmetic operations and an explicit value map. -/
 

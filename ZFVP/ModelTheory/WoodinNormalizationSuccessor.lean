@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.NormalizedMapDefinability
-import ZFVP.ModelTheory.WoodinIterationDefinability
-import ZFVP.SetTheory.ForcingRetractionFixedPoints
+module
+
+public import ZFVP.ModelTheory.NormalizedMapDefinability
+public import ZFVP.ModelTheory.WoodinIterationDefinability
+public import ZFVP.SetTheory.ForcingRetractionFixedPoints
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

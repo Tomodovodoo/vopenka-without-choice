@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 /-! Definability and evaluation of internal composition (first argument first). -/
 

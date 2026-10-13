@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlInternalBranchPreservation
-import ZFVP.ModelTheory.ForcingSemanticConsequence
-import ZFVP.ModelTheory.ForcingModelChecks
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalBranchPreservation
+public import ZFVP.ModelTheory.ForcingSemanticConsequence
+public import ZFVP.ModelTheory.ForcingModelChecks
+
+@[expose] public section
 
 /-! An actual cofinal-branch formula and its checked-name forcing relation.
 The condition/node relation is an internal separation set. Its local clauses

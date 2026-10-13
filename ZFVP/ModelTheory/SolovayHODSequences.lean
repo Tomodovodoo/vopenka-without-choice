@@ -1,13 +1,17 @@
-import ZFVP.ModelTheory.SolovayHODGroundSequences
-import ZFVP.ModelTheory.SolovayHODBridge
-import ZFVP.ModelTheory.LevyParameterTreeLocalized
-import ZFVP.ModelTheory.LevyCollapseOmegaOne
-import ZFVP.SetTheory.HODFunctionClosure
-import ZFVP.SetTheory.HODCantorTransport
-import ZFVP.SetTheory.HartogsRegularChoice
-import ZFVP.SetTheory.Collection
-import ZFVP.SetTheory.LeastOrdinalChoice
-import ZFVP.SetTheory.DependentChoice
+module
+
+public import ZFVP.ModelTheory.SolovayHODGroundSequences
+public import ZFVP.ModelTheory.SolovayHODBridge
+public import ZFVP.ModelTheory.LevyParameterTreeLocalized
+public import ZFVP.ModelTheory.LevyCollapseOmegaOne
+public import ZFVP.SetTheory.HODFunctionClosure
+public import ZFVP.SetTheory.HODCantorTransport
+public import ZFVP.SetTheory.HartogsRegularChoice
+public import ZFVP.SetTheory.Collection
+public import ZFVP.SetTheory.LeastOrdinalChoice
+public import ZFVP.SetTheory.DependentChoice
+
+@[expose] public section
 
 /-! The Solovay class model is closed under `ω`-sequences of its elements, so dependent choice
 holds there (lem:Solovay-regularity, clause `DC`).

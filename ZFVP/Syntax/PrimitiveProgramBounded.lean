@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramArithmetic
+module
+
+public import ZFVP.Syntax.PrimitiveProgramArithmetic
+
+@[expose] public section
 
 /-! Explicit branching and bounded universal tests for primitive-recursive programs. -/
 

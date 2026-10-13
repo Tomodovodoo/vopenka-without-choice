@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.UsubaBoundCoordinates
-import ZFVP.ModelTheory.UsubaLocalUnionQuotientBound
+module
+
+public import ZFVP.ModelTheory.UsubaBoundCoordinates
+public import ZFVP.ModelTheory.UsubaLocalUnionQuotientBound
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

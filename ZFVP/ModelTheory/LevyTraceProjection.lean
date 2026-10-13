@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LevyRelativeSwapPair
-import ZFVP.SetTheory.RegularSetAlgebra
+module
+
+public import ZFVP.ModelTheory.LevyRelativeSwapPair
+public import ZFVP.SetTheory.RegularSetAlgebra
+
+@[expose] public section
 
 /-! The algebra of the projection `levyTrace κ ξ`.
 

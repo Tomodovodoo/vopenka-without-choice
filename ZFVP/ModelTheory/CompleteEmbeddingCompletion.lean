@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.BooleanCompletion
-import ZFVP.SetTheory.MaximalAntichains
-import ZFVP.SetTheory.DenseEmbedding
-import ZFVP.SetTheory.LevyAbsorptionChain
-import ZFVP.SetTheory.GenericNameSeparative
+module
+
+public import ZFVP.SetTheory.BooleanCompletion
+public import ZFVP.SetTheory.MaximalAntichains
+public import ZFVP.SetTheory.DenseEmbedding
+public import ZFVP.SetTheory.LevyAbsorptionChain
+public import ZFVP.SetTheory.GenericNameSeparative
+
+@[expose] public section
 
 /-! Complete embeddings of forcing preorders and the absorption step of Solovay's uniqueness
 argument for the Levy algebra.

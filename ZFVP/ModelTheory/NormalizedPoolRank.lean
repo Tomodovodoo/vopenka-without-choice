@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingNameRankLower
-import ZFVP.ModelTheory.SparseNormalizedTwoStep
-import ZFVP.ModelTheory.TransitiveZFNames
-import ZFVP.SetTheory.ChoicelessInaccessibleRank
+module
+
+public import ZFVP.ModelTheory.ForcingNameRankLower
+public import ZFVP.ModelTheory.SparseNormalizedTwoStep
+public import ZFVP.ModelTheory.TransitiveZFNames
+public import ZFVP.SetTheory.ChoicelessInaccessibleRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

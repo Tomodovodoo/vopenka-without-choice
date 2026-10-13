@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinInvariantUniform
-import ZFVP.ModelTheory.WoodinCanonicalBoundClosed
-import ZFVP.ModelTheory.WoodinIterationContract
+module
+
+public import ZFVP.ModelTheory.WoodinInvariantUniform
+public import ZFVP.ModelTheory.WoodinCanonicalBoundClosed
+public import ZFVP.ModelTheory.WoodinIterationContract
+
+@[expose] public section
 
 /-! Reducing the Woodin iteration contract to one countability-free statement.
 

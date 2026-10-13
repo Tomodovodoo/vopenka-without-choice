@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ProjectionQuotientTower
-import ZFVP.ModelTheory.ProjectionQuotientSeparative
-import ZFVP.SetTheory.EndExtensionSeparative
-import ZFVP.SetTheory.ForcingClosure
+module
+
+public import ZFVP.ModelTheory.ProjectionQuotientTower
+public import ZFVP.ModelTheory.ProjectionQuotientSeparative
+public import ZFVP.SetTheory.EndExtensionSeparative
+public import ZFVP.SetTheory.ForcingClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

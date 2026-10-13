@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinEndpointMapCoherence
+module
+
+public import ZFVP.ModelTheory.WoodinEndpointMapCoherence
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

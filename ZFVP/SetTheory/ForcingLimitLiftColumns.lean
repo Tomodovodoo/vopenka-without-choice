@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingLimitLift
-import ZFVP.SetTheory.ForcingLimitColumns
-import ZFVP.SetTheory.ForcingLiftExtension
+module
+
+public import ZFVP.SetTheory.ForcingLimitLift
+public import ZFVP.SetTheory.ForcingLimitColumns
+public import ZFVP.SetTheory.ForcingLiftExtension
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RealMeasureBracketFamily
-import Mathlib.Tactic.Linarith
+module
+
+public import ZFVP.SetTheory.RealMeasureBracketFamily
+public import Mathlib.Tactic.Linarith
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

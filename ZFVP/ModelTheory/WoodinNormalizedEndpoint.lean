@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinNormalizedPrefix
-import ZFVP.ModelTheory.WoodinEndpointMapCoherence
+module
+
+public import ZFVP.ModelTheory.WoodinNormalizedPrefix
+public import ZFVP.ModelTheory.WoodinEndpointMapCoherence
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

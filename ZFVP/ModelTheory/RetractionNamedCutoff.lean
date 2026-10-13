@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.RetractionHartogsNames
-import ZFVP.SetTheory.WoodinNamedPrefixCutoff
+module
+
+public import ZFVP.ModelTheory.RetractionHartogsNames
+public import ZFVP.SetTheory.WoodinNamedPrefixCutoff
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

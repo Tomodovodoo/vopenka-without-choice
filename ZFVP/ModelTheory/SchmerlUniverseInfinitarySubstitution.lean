@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlUniverseInfinitaryCodes
-import ZFVP.ModelTheory.SchmerlInternalInfinitarySubstitutionSemantics
-import ZFVP.ModelTheory.InfinitaryTermSubstitution
-import ZFVP.Syntax.FoundationFormulaSubstitution
+module
+
+public import ZFVP.ModelTheory.SchmerlUniverseInfinitaryCodes
+public import ZFVP.ModelTheory.SchmerlInternalInfinitarySubstitutionSemantics
+public import ZFVP.ModelTheory.InfinitaryTermSubstitution
+public import ZFVP.Syntax.FoundationFormulaSubstitution
+
+@[expose] public section
 
 /-! The actual internal infinitary substitution graph agrees with external
 capture-avoiding substitution on every encoded formula. -/

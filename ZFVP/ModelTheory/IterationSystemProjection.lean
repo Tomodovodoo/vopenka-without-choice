@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingIterationSystem
-import ZFVP.ModelTheory.ForcingSplitProjection
+module
+
+public import ZFVP.SetTheory.ForcingIterationSystem
+public import ZFVP.ModelTheory.ForcingSplitProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

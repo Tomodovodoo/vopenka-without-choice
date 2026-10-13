@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinInverseUniform
-import ZFVP.ModelTheory.WoodinIterationRecursion
+module
+
+public import ZFVP.ModelTheory.WoodinInverseUniform
+public import ZFVP.ModelTheory.WoodinIterationRecursion
+
+@[expose] public section
 
 set_option maxRecDepth 4096
 

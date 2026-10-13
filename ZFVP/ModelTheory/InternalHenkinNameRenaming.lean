@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalHenkinNameBooleans
+module
+
+public import ZFVP.ModelTheory.InternalHenkinNameBooleans
+
+@[expose] public section
 
 /-! Substitution of finite natural-name assignments, including the binder slot. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalHenkinOmissionDensity
+module
+
+public import ZFVP.ModelTheory.InternalHenkinOmissionDensity
+
+@[expose] public section
 
 /-! A choice graph on actual sets of unary codes supplies a uniform definable
 omission step. The step leaves the name context unchanged and skips a request

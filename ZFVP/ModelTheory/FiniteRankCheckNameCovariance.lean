@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.NormalizedPoolRank
-import ZFVP.ModelTheory.LimitRankEmbeddingAction
-import ZFVP.SetTheory.BoundedCheckNames
+module
+
+public import ZFVP.ModelTheory.NormalizedPoolRank
+public import ZFVP.ModelTheory.LimitRankEmbeddingAction
+public import ZFVP.SetTheory.BoundedCheckNames
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

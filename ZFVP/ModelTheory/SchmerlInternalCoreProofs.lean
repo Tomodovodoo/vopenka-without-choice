@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalBooleanTransport
-import ZFVP.ModelTheory.SchmerlInternalQuantifierAxioms
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalBooleanTransport
+public import ZFVP.ModelTheory.SchmerlInternalQuantifierAxioms
+
+@[expose] public section
 
 /-! The internal Boolean calculus extended by quantifier monotonicity and
 universal generalization. Hypotheses are interpreted uniformly under all

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.EndExtensionRelations
-import ZFVP.ModelTheory.StructureCode
+module
+
+public import ZFVP.SetTheory.EndExtensionRelations
+public import ZFVP.ModelTheory.StructureCode
+
+@[expose] public section
 
 /-! Language and structure code components under membership end extensions. -/
 

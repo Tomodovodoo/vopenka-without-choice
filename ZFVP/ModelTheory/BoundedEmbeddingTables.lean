@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.PiOneMembershipEmbedding
+module
+
+public import ZFVP.ModelTheory.PiOneMembershipEmbedding
+
+@[expose] public section
 
 /-! Bounded comparison of complete membership truth tables along an embedding graph. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.AtomicMembership
-import ZFVP.SetTheory.SymmetryAction
+module
+
+public import ZFVP.SetTheory.AtomicMembership
+public import ZFVP.SetTheory.SymmetryAction
+
+@[expose] public section
 
 namespace ZFVP
 

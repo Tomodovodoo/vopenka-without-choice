@@ -1,5 +1,9 @@
-import PalomarBridge.VPDictionary
-import ZFVP.ModelTheory.WoodinSparseRestorationTheorem
+module
+
+public import PalomarBridge.VPDictionary
+public import ZFVP.ModelTheory.WoodinSparseRestorationTheorem
+
+@[expose] public section
 
 /-!
 Theorem B with a complete independent membership-language statement.

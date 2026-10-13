@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.BooleanGenericAutomorphism
+module
+
+public import ZFVP.ModelTheory.BooleanGenericAutomorphism
+
+@[expose] public section
 
 /-! The ground map of Jech, Set Theory, Lemma 25.5 (Karagila and Schilhan, Lemma 9.3) in the form
 the development needs.

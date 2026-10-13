@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RealFiniteMeasurableUnions
+module
+
+public import ZFVP.SetTheory.RealFiniteMeasurableUnions
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

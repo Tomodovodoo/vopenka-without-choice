@@ -1,5 +1,9 @@
-import ZFVP.Syntax.SubstitutionStates
-import ZFVP.SetTheory.UniformRecursion
+module
+
+public import ZFVP.Syntax.SubstitutionStates
+public import ZFVP.SetTheory.UniformRecursion
+
+@[expose] public section
 
 /-! Definability of the iteration with all carried parameters varying. -/
 

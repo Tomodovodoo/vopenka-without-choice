@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinInverseSourceStage
-import ZFVP.SetTheory.TwoStepRankBounds
+module
+
+public import ZFVP.ModelTheory.WoodinInverseSourceStage
+public import ZFVP.SetTheory.TwoStepRankBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

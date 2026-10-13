@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TwoStepRankDCThreshold
-import ZFVP.ModelTheory.ForcingRankDCBelowAgreement
-import ZFVP.ModelTheory.ForcingRegularGenericEquality
+module
+
+public import ZFVP.ModelTheory.TwoStepRankDCThreshold
+public import ZFVP.ModelTheory.ForcingRankDCBelowAgreement
+public import ZFVP.ModelTheory.ForcingRegularGenericEquality
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

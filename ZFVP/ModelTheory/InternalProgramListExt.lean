@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalProgramLists
-import ZFVP.Syntax.PrimitiveProgramListExt
-import ZFVP.Syntax.Assignments
+module
+
+public import ZFVP.ModelTheory.InternalProgramLists
+public import ZFVP.Syntax.PrimitiveProgramListExt
+public import ZFVP.Syntax.Assignments
+
+@[expose] public section
 
 /-! Injectivity and constructors of the uniform internal list decoder. -/
 

@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ForcingUniqueName
-import ZFVP.SetTheory.PiOneHierarchy
-import ZFVP.SetTheory.DeltaOneForcingNames
-import ZFVP.SetTheory.SigmaThreeLeastPrefixCutoff
+module
+
+public import ZFVP.SetTheory.ForcingUniqueName
+public import ZFVP.SetTheory.PiOneHierarchy
+public import ZFVP.SetTheory.DeltaOneForcingNames
+public import ZFVP.SetTheory.SigmaThreeLeastPrefixCutoff
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

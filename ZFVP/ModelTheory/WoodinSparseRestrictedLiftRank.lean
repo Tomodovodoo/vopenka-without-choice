@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinSparseRestrictedCriticalLift
-import ZFVP.ModelTheory.WoodinSparseEndpointZFC
-import ZFVP.ModelTheory.EndExtensionCodedEmbedding
-import ZFVP.ModelTheory.TransitiveZFRankOperations
+module
+
+public import ZFVP.ModelTheory.WoodinSparseRestrictedCriticalLift
+public import ZFVP.ModelTheory.WoodinSparseEndpointZFC
+public import ZFVP.ModelTheory.EndExtensionCodedEmbedding
+public import ZFVP.ModelTheory.TransitiveZFRankOperations
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

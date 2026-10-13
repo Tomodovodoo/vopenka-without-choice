@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.CountableUnions
-import ZFVP.SetTheory.FiniteSets
-import ZFVP.SetTheory.WellOrderedSurjection
+module
+
+public import ZFVP.SetTheory.CountableUnions
+public import ZFVP.SetTheory.FiniteSets
+public import ZFVP.SetTheory.WellOrderedSurjection
+
+@[expose] public section
 
 /-! Closure properties of internally countable sets without any choice principle,
 and fresh elements of the first uncountable ordinal. -/

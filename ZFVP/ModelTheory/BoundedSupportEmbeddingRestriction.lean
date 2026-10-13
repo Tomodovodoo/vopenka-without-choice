@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TruthTableRestriction
-import ZFVP.ModelTheory.EmbeddingSetOperations
+module
+
+public import ZFVP.ModelTheory.TruthTableRestriction
+public import ZFVP.ModelTheory.EmbeddingSetOperations
+
+@[expose] public section
 
 /-! Restriction to an arbitrary nonempty domain within a separate sequence support. -/
 

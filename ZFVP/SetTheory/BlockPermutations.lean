@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.CohenTranspositions
-import ZFVP.SetTheory.NaturalArithmeticOrder
-import ZFVP.SetTheory.FiniteNaturalSets
+module
+
+public import ZFVP.SetTheory.CohenTranspositions
+public import ZFVP.SetTheory.NaturalArithmeticOrder
+public import ZFVP.SetTheory.FiniteNaturalSets
+
+@[expose] public section
 
 /-!
 Permutations of the index set `ω ×ˢ ω` that permute the first coordinate (the block) and are

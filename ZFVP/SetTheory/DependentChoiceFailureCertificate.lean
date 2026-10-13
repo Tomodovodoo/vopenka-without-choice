@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedDependentChoiceFailure
-import ZFVP.SetTheory.WoodinClosedContainers
+module
+
+public import ZFVP.SetTheory.BoundedDependentChoiceFailure
+public import ZFVP.SetTheory.WoodinClosedContainers
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

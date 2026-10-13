@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.EmbeddingBoundedOperations
+module
+
+public import ZFVP.ModelTheory.EmbeddingBoundedOperations
+
+@[expose] public section
 
 /-! An internal elementary graph fixes every internal natural, including nonstandard naturals. -/
 

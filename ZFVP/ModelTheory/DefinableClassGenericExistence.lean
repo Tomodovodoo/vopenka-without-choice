@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.DefinableClassGeneric
-import ZFVP.ModelTheory.ClassForcingTowerGeneric
-import Foundation.FirstOrder.Basic.Coding
+module
+
+public import ZFVP.ModelTheory.DefinableClassGeneric
+public import ZFVP.ModelTheory.ClassForcingTowerGeneric
+public import Foundation.FirstOrder.Basic.Coding
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryAdequateHenkin
-import ZFVP.ModelTheory.InfinitaryWeakModelExistence
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateHenkin
+public import ZFVP.ModelTheory.InfinitaryWeakModelExistence
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

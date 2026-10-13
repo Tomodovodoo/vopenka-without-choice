@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.SetCollapse
-import ZFVP.ModelTheory.ForcingChoice
-import ZFVP.ModelTheory.ForcingQuotientGeneric
+module
+
+public import ZFVP.SetTheory.SetCollapse
+public import ZFVP.ModelTheory.ForcingChoice
+public import ZFVP.ModelTheory.ForcingQuotientGeneric
+
+@[expose] public section
 
 namespace ZFVP
 

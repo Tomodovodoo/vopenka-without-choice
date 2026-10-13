@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingPairNames
-import ZFVP.SetTheory.CheckNames
+module
+
+public import ZFVP.SetTheory.ForcingPairNames
+public import ZFVP.SetTheory.CheckNames
+
+@[expose] public section
 
 namespace ZFVP
 

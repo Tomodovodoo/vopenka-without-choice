@@ -1,9 +1,13 @@
-import ZFVP.SetTheory.WellOrderedSurjection
-import ZFVP.SetTheory.WellOrderingChoice
-import ZFVP.SetTheory.Hessenberg
-import ZFVP.SetTheory.LevyCollapseSmallSets
-import ZFVP.SetTheory.InternalChoice
-import ZFVP.SetTheory.WitnessClosure
+module
+
+public import ZFVP.SetTheory.WellOrderedSurjection
+public import ZFVP.SetTheory.WellOrderingChoice
+public import ZFVP.SetTheory.Hessenberg
+public import ZFVP.SetTheory.LevyCollapseSmallSets
+public import ZFVP.SetTheory.InternalChoice
+public import ZFVP.SetTheory.WitnessClosure
+
+@[expose] public section
 
 /-! Unions of small families are small: with choice, the union of a family indexed by `I` of
 sets of size at most `ν` has size at most `|I × ν|`; below a regular cardinal `δ`, unions of

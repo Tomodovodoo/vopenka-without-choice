@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.BoundedMarkerFunctions
+module
+
+public import ZFVP.ModelTheory.BoundedMarkerFunctions
+
+@[expose] public section
 
 /-! Sigma-one and Pi-one graphs for the concrete marker structures. -/
 

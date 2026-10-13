@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.InternalWellFounded
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.SetTheory.InternalWellFounded
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 /-! Compatible partial solutions for internal well-founded recursion. -/
 

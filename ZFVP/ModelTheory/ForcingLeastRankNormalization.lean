@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingScottSets
+module
+
+public import ZFVP.ModelTheory.ForcingScottSets
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

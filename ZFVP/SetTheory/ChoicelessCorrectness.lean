@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ChoicelessEquivalence
-import ZFVP.SetTheory.CnCofinal
+module
+
+public import ZFVP.SetTheory.ChoicelessEquivalence
+public import ZFVP.SetTheory.CnCofinal
+
+@[expose] public section
 
 /-! Correctness of choiceless cardinals. Small embeddings pull back
 correct-domain witnesses while fixing the parameter assignment. -/

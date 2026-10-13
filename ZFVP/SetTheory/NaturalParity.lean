@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BinaryPrefixSeparation
+module
+
+public import ZFVP.SetTheory.BinaryPrefixSeparation
+
+@[expose] public section
 
 /-! Even and odd decomposition throughout the internal omega. -/
 

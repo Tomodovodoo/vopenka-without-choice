@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.DeltaOneThreadCode
-import ZFVP.ModelTheory.DeltaOneForcingCodeUniverse
-import ZFVP.SetTheory.PiOneForcingDirectLimit
+module
+
+public import ZFVP.ModelTheory.DeltaOneThreadCode
+public import ZFVP.ModelTheory.DeltaOneForcingCodeUniverse
+public import ZFVP.SetTheory.PiOneForcingDirectLimit
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

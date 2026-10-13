@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.LeastRankWitnesses
-import ZFVP.SetTheory.BoundedPairBinding
-import ZFVP.SetTheory.PiOneHierarchy
+module
+
+public import ZFVP.SetTheory.LeastRankWitnesses
+public import ZFVP.SetTheory.BoundedPairBinding
+public import ZFVP.SetTheory.PiOneHierarchy
+
+@[expose] public section
 
 /-! A canonical certificate recording the least witness rank, two rank segments,
 and the full set of witnesses at that rank. -/

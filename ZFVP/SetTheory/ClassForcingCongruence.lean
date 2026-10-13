@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ClassFormulaForcing
-import ZFVP.SetTheory.AtomicForcingSubstitution
-import ZFVP.SetTheory.ForcingFormulaWitnesses
+module
+
+public import ZFVP.SetTheory.ClassFormulaForcing
+public import ZFVP.SetTheory.AtomicForcingSubstitution
+public import ZFVP.SetTheory.ForcingFormulaWitnesses
+
+@[expose] public section
 
 /-! Replacing names by names forced equal preserves formula forcing. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ProjectionFactorization
-import ZFVP.ModelTheory.QuotientSplitProjection
+module
+
+public import ZFVP.ModelTheory.ProjectionFactorization
+public import ZFVP.ModelTheory.QuotientSplitProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

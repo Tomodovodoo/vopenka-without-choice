@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlDeadEndTheorem
-import ZFVP.ModelTheory.CohenVopenkaConsistency
-import ZFVP.ModelTheory.ForcingProperEndExtension
-import ZFVP.ModelTheory.ForcingCheckedTruth
+module
+
+public import ZFVP.ModelTheory.SchmerlDeadEndTheorem
+public import ZFVP.ModelTheory.CohenVopenkaConsistency
+public import ZFVP.ModelTheory.ForcingProperEndExtension
+public import ZFVP.ModelTheory.ForcingCheckedTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory Entailment

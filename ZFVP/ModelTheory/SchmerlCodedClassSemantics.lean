@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedClassRealization
-import ZFVP.ModelTheory.SchmerlCodedInfinitarySemantics
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedClassRealization
+public import ZFVP.ModelTheory.SchmerlCodedInfinitarySemantics
+
+@[expose] public section
 
 /-! Transfer the realization to the actual internal class-language code.
 The equivalence preserves the carrier values used by internal Q. -/

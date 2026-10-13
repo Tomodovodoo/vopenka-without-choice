@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TransitiveZFCardinalSmall
-import ZFVP.SetTheory.Hartogs
+module
+
+public import ZFVP.ModelTheory.TransitiveZFCardinalSmall
+public import ZFVP.SetTheory.Hartogs
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

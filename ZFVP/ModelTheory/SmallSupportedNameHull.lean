@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ElementarySmallSubsetClosure
-import ZFVP.ModelTheory.ForcingSaturatedName
+module
+
+public import ZFVP.ModelTheory.ElementarySmallSubsetClosure
+public import ZFVP.ModelTheory.ForcingSaturatedName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

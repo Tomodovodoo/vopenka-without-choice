@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedForcingSteps
-import ZFVP.SetTheory.ForcingFormulaWitnesses
+module
+
+public import ZFVP.Syntax.BoundedForcingSteps
+public import ZFVP.SetTheory.ForcingFormulaWitnesses
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

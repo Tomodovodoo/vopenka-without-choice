@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.GroundForcingGeneric
+module
+
+public import ZFVP.ModelTheory.GroundForcingGeneric
+
+@[expose] public section
 
 namespace ZFVP
 

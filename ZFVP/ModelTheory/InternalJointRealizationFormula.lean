@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalFiniteNamingData
+module
+
+public import ZFVP.ModelTheory.InternalFiniteNamingData
+
+@[expose] public section
 
 /-! With standard omega, a finite named realization condition is a first-order
 formula in the independently named upper values, with source parameters. -/

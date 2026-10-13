@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SolovayHODOmegaOne
-import ZFVP.ModelTheory.LevyRealsInjection
-import ZFVP.ModelTheory.LevyODParameterTree
+module
+
+public import ZFVP.ModelTheory.SolovayHODOmegaOne
+public import ZFVP.ModelTheory.LevyRealsInjection
+public import ZFVP.ModelTheory.LevyODParameterTree
+
+@[expose] public section
 
 /-! Choice fails in the HOD class model `HOD_{V ∪ R}^{V[G]}` built inside the Levy collapse
 extension (lem:Solovay-choice-failure).

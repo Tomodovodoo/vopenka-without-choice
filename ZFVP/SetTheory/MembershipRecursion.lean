@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.UniformCollapse
-import ZFVP.SetTheory.MeasuredWellFounded
+module
+
+public import ZFVP.SetTheory.UniformCollapse
+public import ZFVP.SetTheory.MeasuredWellFounded
+
+@[expose] public section
 
 namespace ZFVP
 

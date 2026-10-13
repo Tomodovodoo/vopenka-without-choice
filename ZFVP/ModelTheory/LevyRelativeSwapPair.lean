@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LevySwapStabilizer
+module
+
+public import ZFVP.ModelTheory.LevySwapStabilizer
+
+@[expose] public section
 
 /-! Relative homogeneity of the Levy collapse over the algebra of sets determined below `ξ`.
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlEndExtensionFragmentCoding
+module
+
+public import ZFVP.ModelTheory.SchmerlEndExtensionFragmentCoding
+
+@[expose] public section
 
 /-! Satisfiability inside an ambient ZF model. A witness is an internal
 structure code, and Q uses internal countability. Logical equality is already

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.EmbeddingPowers
-import ZFVP.ModelTheory.CriticalChainInternalZF
+module
+
+public import ZFVP.ModelTheory.EmbeddingPowers
+public import ZFVP.ModelTheory.CriticalChainInternalZF
+
+@[expose] public section
 
 /-! Restricted composition powers are elementary graphs inside the critical limit rank. -/
 

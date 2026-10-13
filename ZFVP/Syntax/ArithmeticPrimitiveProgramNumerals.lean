@@ -1,5 +1,9 @@
-import ZFVP.Syntax.ArithmeticPrimitiveProgramStandard
-import Foundation.FirstOrder.Arithmetic.Definability.Absoluteness
+module
+
+public import ZFVP.Syntax.ArithmeticPrimitiveProgramStandard
+public import Foundation.FirstOrder.Arithmetic.Definability.Absoluteness
+
+@[expose] public section
 
 /-! Every arithmetic model computes the same values on standard program inputs. -/
 

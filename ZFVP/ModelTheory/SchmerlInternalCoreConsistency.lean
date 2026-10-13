@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalCoreProofs
-import ZFVP.ModelTheory.SchmerlInternalBooleanConsistency
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalCoreProofs
+public import ZFVP.ModelTheory.SchmerlInternalBooleanConsistency
+
+@[expose] public section
 
 /-! Satisfiability in an end extension rules out an old coded refutation in
 the current core calculus. No omega-one preservation is needed for this

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ProtoRankBerkeleyDescent
-import ZFVP.ModelTheory.CriticalLimitVopenka
+module
+
+public import ZFVP.ModelTheory.ProtoRankBerkeleyDescent
+public import ZFVP.ModelTheory.CriticalLimitVopenka
+
+@[expose] public section
 
 /-! A proto rank-Berkeley cardinal yields a set rank model of ZF, UE and parameterized VP. -/
 

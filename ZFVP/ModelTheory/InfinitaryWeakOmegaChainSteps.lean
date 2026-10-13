@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryWeakMapComposition
+module
+
+public import ZFVP.ModelTheory.InfinitaryWeakMapComposition
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

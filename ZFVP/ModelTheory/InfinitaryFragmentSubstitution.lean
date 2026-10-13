@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryEqualityDerivation
+module
+
+public import ZFVP.ModelTheory.InfinitaryEqualityDerivation
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

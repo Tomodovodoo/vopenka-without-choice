@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SolovaySupportAlgebraBase
-import ZFVP.ModelTheory.SubalgebraModelDefinable
-import ZFVP.ModelTheory.SolovaySymmetricSupport
+module
+
+public import ZFVP.ModelTheory.SolovaySupportAlgebraBase
+public import ZFVP.ModelTheory.SubalgebraModelDefinable
+public import ZFVP.ModelTheory.SolovaySymmetricSupport
+
+@[expose] public section
 
 /-! The last link between the support algebra and ground-real definability.
 

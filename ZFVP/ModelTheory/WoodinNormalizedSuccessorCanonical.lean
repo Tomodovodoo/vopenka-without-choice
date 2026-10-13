@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.NormalizedRetractionCanonical
-import ZFVP.ModelTheory.WoodinNormalizedCode
+module
+
+public import ZFVP.ModelTheory.NormalizedRetractionCanonical
+public import ZFVP.ModelTheory.WoodinNormalizedCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

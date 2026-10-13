@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.InternalOrderType
+module
+
+public import ZFVP.SetTheory.InternalOrderType
+
+@[expose] public section
 
 /-! The order types of well-orders on subsets of any internal set form a set. -/
 

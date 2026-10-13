@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedDomainParameters
-import ZFVP.ModelTheory.WoodinLocalRestorationRankAgreement
+module
+
+public import ZFVP.SetTheory.BoundedDomainParameters
+public import ZFVP.ModelTheory.WoodinLocalRestorationRankAgreement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

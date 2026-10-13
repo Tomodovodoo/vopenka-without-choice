@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.FiniteRankInternalForcingTable
-import ZFVP.ModelTheory.FiniteRankLowNameCovariance
-import ZFVP.Syntax.InternalForcingTableUniqueness
+module
+
+public import ZFVP.ModelTheory.FiniteRankInternalForcingTable
+public import ZFVP.ModelTheory.FiniteRankLowNameCovariance
+public import ZFVP.Syntax.InternalForcingTableUniqueness
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

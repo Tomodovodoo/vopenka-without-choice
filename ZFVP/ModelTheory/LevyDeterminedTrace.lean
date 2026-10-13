@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LevyDeterminedSubalgebra
+module
+
+public import ZFVP.ModelTheory.LevyDeterminedSubalgebra
+
+@[expose] public section
 
 /-! The trace of a set of conditions over the algebra of sets determined below `ξ`.
 

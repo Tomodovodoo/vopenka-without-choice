@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInfinitaryDeadEndSentence
-import ZFVP.ModelTheory.SchmerlInfinitaryClassConstruction
+module
+
+public import ZFVP.ModelTheory.SchmerlInfinitaryDeadEndSentence
+public import ZFVP.ModelTheory.SchmerlInfinitaryClassConstruction
+
+@[expose] public section
 
 /-! Interpreting the fixed sentence from the selected ranks, weak colorings,
 and preserved class/filter definitions furnished by the specialization step. -/

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalQuantifierAxioms
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalQuantifierAxioms
+
+@[expose] public section
 
 /-! The internal Q countable-union schema. All three formula sequences
 are actual functions on the model's entire omega. Soundness uses internal

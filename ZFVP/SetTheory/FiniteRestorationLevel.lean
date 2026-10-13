@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.FiniteDictionaryReflection
-import ZFVP.SetTheory.CnExtendibleWoodinSupercompact
-import ZFVP.ModelTheory.UniformForcingDefinitions
+module
+
+public import ZFVP.SetTheory.FiniteDictionaryReflection
+public import ZFVP.SetTheory.CnExtendibleWoodinSupercompact
+public import ZFVP.ModelTheory.UniformForcingDefinitions
+
+@[expose] public section
 
 /-! The integer `t_N` of Theorem thm:finite-restoration.
 

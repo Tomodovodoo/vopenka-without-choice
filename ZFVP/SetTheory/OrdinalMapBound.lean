@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.Cofinality
+module
+
+public import ZFVP.SetTheory.Cofinality
+
+@[expose] public section
 
 /-! Failure of cofinality bounds an ordinal-valued graph. -/
 

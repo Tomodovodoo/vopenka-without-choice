@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingHartogsName
-import ZFVP.SetTheory.HartogsLimitRegular
-import ZFVP.ModelTheory.WoodinCollapseForcesRestoration
-import ZFVP.ModelTheory.ForcingCheckedBounded
+module
+
+public import ZFVP.ModelTheory.ForcingHartogsName
+public import ZFVP.SetTheory.HartogsLimitRegular
+public import ZFVP.ModelTheory.WoodinCollapseForcesRestoration
+public import ZFVP.ModelTheory.ForcingCheckedBounded
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

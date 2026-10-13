@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.PiSymmetricVopenkaPreservation
-import ZFVP.ModelTheory.ForcingExtensionVopenka
-import ZFVP.ModelTheory.SymmetricExtensionVopenka
+module
+
+public import ZFVP.ModelTheory.PiSymmetricVopenkaPreservation
+public import ZFVP.ModelTheory.ForcingExtensionVopenka
+public import ZFVP.ModelTheory.SymmetricExtensionVopenka
+
+@[expose] public section
 
 /-! Positive Pi fragments of VP in ordinary quotients and evaluated forcing extensions. -/
 

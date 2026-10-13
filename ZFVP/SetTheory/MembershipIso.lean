@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ElementaryMap
+module
+
+public import ZFVP.SetTheory.ElementaryMap
+
+@[expose] public section
 
 /-! Membership isomorphisms preserve full first-order satisfaction. -/
 

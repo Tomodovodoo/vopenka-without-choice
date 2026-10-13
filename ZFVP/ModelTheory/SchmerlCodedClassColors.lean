@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedRankSelection
-import ZFVP.ModelTheory.SchmerlCodedClassExpansion
-import ZFVP.ModelTheory.SchmerlInternalBranchCore
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedRankSelection
+public import ZFVP.ModelTheory.SchmerlCodedClassExpansion
+public import ZFVP.ModelTheory.SchmerlInternalBranchCore
+
+@[expose] public section
 
 /-! The specializing coloring takes natural values. The selected ordinal
 chain embeds these colors into the original model's carrier, and an actual

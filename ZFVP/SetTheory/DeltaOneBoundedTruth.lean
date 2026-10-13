@@ -1,4 +1,8 @@
-import ZFVP.Syntax.SigmaOneBoundedModelTruth
+module
+
+public import ZFVP.Syntax.SigmaOneBoundedModelTruth
+
+@[expose] public section
 
 /-! Sigma-one and Pi-one definitions of guarded bounded truth in the ambient universe. -/
 

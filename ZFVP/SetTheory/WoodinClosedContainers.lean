@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinSupercompactFunctionClosure
-import ZFVP.SetTheory.FunctionRestrictionClosure
+module
+
+public import ZFVP.SetTheory.WoodinSupercompactFunctionClosure
+public import ZFVP.SetTheory.FunctionRestrictionClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

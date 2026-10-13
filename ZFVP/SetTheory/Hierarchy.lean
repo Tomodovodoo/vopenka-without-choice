@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.DefinableGraph
-import Foundation.FirstOrder.SetTheory.Recursion
+module
+
+public import ZFVP.SetTheory.DefinableGraph
+public import Foundation.FirstOrder.SetTheory.Recursion
+
+@[expose] public section
 
 /-! The cumulative hierarchy constructed by internal ordinal recursion.
 All stages and the recursion graphs are sets of the given ZF model.

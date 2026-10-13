@@ -1,6 +1,10 @@
-import ZFVP.Syntax.RawSequentOperations
-import ZFVP.Syntax.PrimitiveProgramLKRuleCheck
-import ZFVP.Syntax.NaturalLKRule
+module
+
+public import ZFVP.Syntax.RawSequentOperations
+public import ZFVP.Syntax.PrimitiveProgramLKRuleCheck
+public import ZFVP.Syntax.NaturalLKRule
+
+@[expose] public section
 
 /-! Every accepted raw standard LK instruction yields a Foundation derivation. -/
 

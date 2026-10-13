@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ForcingAutomorphisms
-import ZFVP.ModelTheory.ForcingUniqueName
-import ZFVP.ModelTheory.ForcingFunctionValues
-import ZFVP.ModelTheory.ForcingLeastRankNameBounds
+module
+
+public import ZFVP.SetTheory.ForcingAutomorphisms
+public import ZFVP.ModelTheory.ForcingUniqueName
+public import ZFVP.ModelTheory.ForcingFunctionValues
+public import ZFVP.ModelTheory.ForcingLeastRankNameBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlWeakSpecialization
+module
+
+public import ZFVP.ModelTheory.SchmerlWeakSpecialization
+
+@[expose] public section
 
 /-! Finite conditions for the weak specialization used in Schmerl's argument.
 Every node has a dense set of conditions assigning it a color. A directed family

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinCanonicalBoundInduction
-import ZFVP.ModelTheory.WoodinCanonicalBoundThreadAt
-import ZFVP.ModelTheory.WoodinCanonicalBoundRawBounded
-import ZFVP.ModelTheory.WoodinCanonicalBoundStageInduction
+module
+
+public import ZFVP.ModelTheory.WoodinCanonicalBoundInduction
+public import ZFVP.ModelTheory.WoodinCanonicalBoundThreadAt
+public import ZFVP.ModelTheory.WoodinCanonicalBoundRawBounded
+public import ZFVP.ModelTheory.WoodinCanonicalBoundStageInduction
+
+@[expose] public section
 
 /-! Closing the canonical quotient bound induction.
 

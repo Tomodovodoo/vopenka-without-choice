@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.CodedSequentQuantifiers
+module
+
+public import ZFVP.ModelTheory.CodedSequentQuantifiers
+
+@[expose] public section
 
 /-! Set-coded rules for classical membership sequents, with theory axioms and cut. -/
 

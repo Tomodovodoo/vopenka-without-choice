@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.CofinalityDictionary
-import ZFVP.SetTheory.SmallCollapseSurjection
-import ZFVP.SetTheory.FunctionComposition
+module
+
+public import ZFVP.SetTheory.CofinalityDictionary
+public import ZFVP.SetTheory.SmallCollapseSurjection
+public import ZFVP.SetTheory.FunctionComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

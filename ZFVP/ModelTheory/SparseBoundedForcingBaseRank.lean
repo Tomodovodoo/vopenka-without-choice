@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SparseBoundedForcingBase
-import ZFVP.ModelTheory.TransitiveZFStandardEncoding
+module
+
+public import ZFVP.ModelTheory.SparseBoundedForcingBase
+public import ZFVP.ModelTheory.TransitiveZFStandardEncoding
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

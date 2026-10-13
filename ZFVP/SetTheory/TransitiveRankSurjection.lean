@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ClosedRankStages
+module
+
+public import ZFVP.SetTheory.ClosedRankStages
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

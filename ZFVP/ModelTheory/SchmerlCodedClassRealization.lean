@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlCodedCandidateSemantics
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedCandidateSemantics
+
+@[expose] public section
 
 /-! Realize the fixed class sentence in the specializing extension. The
 cardinality quantifier is the internal countable-cover quantifier throughout. -/

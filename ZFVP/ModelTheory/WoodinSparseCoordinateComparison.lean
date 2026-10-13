@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SparseOrderCoordinates
-import ZFVP.ModelTheory.WoodinSparseCoordinateNames
-import ZFVP.ModelTheory.WoodinSparseAllRestrictions
-import ZFVP.ModelTheory.WoodinSparseCutDictionary
+module
+
+public import ZFVP.ModelTheory.SparseOrderCoordinates
+public import ZFVP.ModelTheory.WoodinSparseCoordinateNames
+public import ZFVP.ModelTheory.WoodinSparseAllRestrictions
+public import ZFVP.ModelTheory.WoodinSparseCutDictionary
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingNameHierarchy
-import ZFVP.SetTheory.CnSigmaClosure
-import ZFVP.SetTheory.WitnessClosure
+module
+
+public import ZFVP.SetTheory.ForcingNameHierarchy
+public import ZFVP.SetTheory.CnSigmaClosure
+public import ZFVP.SetTheory.WitnessClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

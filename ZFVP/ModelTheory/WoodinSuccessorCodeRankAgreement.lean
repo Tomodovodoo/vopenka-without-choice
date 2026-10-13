@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TransitiveZFSuccessorColumns
-import ZFVP.ModelTheory.WoodinSuccessorRankThreshold
+module
+
+public import ZFVP.ModelTheory.TransitiveZFSuccessorColumns
+public import ZFVP.ModelTheory.WoodinSuccessorRankThreshold
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

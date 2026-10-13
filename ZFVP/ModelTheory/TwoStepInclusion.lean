@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TwoStepEquivalence
-import ZFVP.ModelTheory.ForcingGenericInclusion
-import ZFVP.ModelTheory.ForcingRetractionSequences
+module
+
+public import ZFVP.ModelTheory.TwoStepEquivalence
+public import ZFVP.ModelTheory.ForcingGenericInclusion
+public import ZFVP.ModelTheory.ForcingRetractionSequences
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

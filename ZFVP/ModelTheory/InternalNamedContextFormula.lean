@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalJointRealizationFormula
+module
+
+public import ZFVP.ModelTheory.InternalJointRealizationFormula
+
+@[expose] public section
 
 /-! A fixed internal context can be reused to compile several realization
 conditions over the same upper-coordinate list. -/

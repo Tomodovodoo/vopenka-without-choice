@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalSubstitutionIdentities
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalSubstitutionIdentities
+
+@[expose] public section
 
 /-! Substitution commutes with the derived internal Boolean constructors. -/
 namespace ZFVP.Infinitary.Internal

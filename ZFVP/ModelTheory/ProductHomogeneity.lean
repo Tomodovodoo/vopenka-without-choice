@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.HomogeneousForcing
-import ZFVP.SetTheory.ForcingFormulaNameAction
-import ZFVP.SetTheory.InverseFunction
-import ZFVP.ModelTheory.ProductForcingEquivalence
+module
+
+public import ZFVP.SetTheory.HomogeneousForcing
+public import ZFVP.SetTheory.ForcingFormulaNameAction
+public import ZFVP.SetTheory.InverseFunction
+public import ZFVP.ModelTheory.ProductForcingEquivalence
+
+@[expose] public section
 
 /-! Homogeneity of a product in its second coordinate: an automorphism of the second factor acts
 on the product fixing the first coordinate, fixes the names lifted from the first factor and the

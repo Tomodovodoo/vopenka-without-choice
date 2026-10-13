@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingSequenceNames
-import ZFVP.SetTheory.ForcingNameHierarchy
-import ZFVP.SetTheory.DirectLimitClosure
+module
+
+public import ZFVP.SetTheory.ForcingSequenceNames
+public import ZFVP.SetTheory.ForcingNameHierarchy
+public import ZFVP.SetTheory.DirectLimitClosure
+
+@[expose] public section
 
 namespace ZFVP
 

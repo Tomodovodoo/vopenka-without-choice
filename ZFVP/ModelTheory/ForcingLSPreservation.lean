@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingLSHullClosure
-import ZFVP.ModelTheory.ForcingHullSmallCollapse
+module
+
+public import ZFVP.ModelTheory.ForcingLSHullClosure
+public import ZFVP.ModelTheory.ForcingHullSmallCollapse
+
+@[expose] public section
 
 /-! Set forcing preserves an unbounded class of LS cardinals. Correct
 limits of ground LS cardinals provide the name bounds for the two-hull

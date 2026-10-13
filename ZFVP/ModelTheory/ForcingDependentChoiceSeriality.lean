@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingDependentChoicePathValues
+module
+
+public import ZFVP.ModelTheory.ForcingDependentChoicePathValues
+
+@[expose] public section
 
 namespace ZFVP
 

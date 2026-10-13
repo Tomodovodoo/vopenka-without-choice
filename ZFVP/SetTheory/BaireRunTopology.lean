@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BaireRunInverse
+module
+
+public import ZFVP.SetTheory.BaireRunInverse
+
+@[expose] public section
 
 /-! Both directions of the run bijection preserve the internal prefix topology. -/
 

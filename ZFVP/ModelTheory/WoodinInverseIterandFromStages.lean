@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinInverseFirstCoordinates
-import ZFVP.ModelTheory.TwoStepIterandFromTop
+module
+
+public import ZFVP.ModelTheory.WoodinInverseFirstCoordinates
+public import ZFVP.ModelTheory.TwoStepIterandFromTop
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

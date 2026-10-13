@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.LevyCollapseSupport
-import ZFVP.SetTheory.PartialFunctionAutomorphisms
-import ZFVP.SetTheory.InternalTranspositions
-import ZFVP.SetTheory.FiniteNaturalSets
-import ZFVP.SetTheory.FunctionComposition
+module
+
+public import ZFVP.SetTheory.LevyCollapseSupport
+public import ZFVP.SetTheory.PartialFunctionAutomorphisms
+public import ZFVP.SetTheory.InternalTranspositions
+public import ZFVP.SetTheory.FiniteNaturalSets
+public import ZFVP.SetTheory.FunctionComposition
+
+@[expose] public section
 
 /-! Row permutations of the Levy collapse: a permutation `σ` of `ω` acts on `ω × κ` by
 `(n, α) ↦ (σ n, α)` in the columns `α ∉ β` and trivially in the columns below `β`. This gives

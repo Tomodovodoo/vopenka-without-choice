@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalHenkinNameRenaming
+module
+
+public import ZFVP.ModelTheory.InternalHenkinNameRenaming
+
+@[expose] public section
 
 /-! Every axiom of the fixed open theory holds at every natural-name assignment. -/
 

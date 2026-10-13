@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinSparseUniformRestoration
-import ZFVP.ModelTheory.WoodinSparseConditionalCriticalLift
-import ZFVP.ModelTheory.WoodinSparseEndpointOrdinals
-import ZFVP.SetTheory.SmallEmbeddingCriterionCardinal
+module
+
+public import ZFVP.ModelTheory.WoodinSparseUniformRestoration
+public import ZFVP.ModelTheory.WoodinSparseConditionalCriticalLift
+public import ZFVP.ModelTheory.WoodinSparseEndpointOrdinals
+public import ZFVP.SetTheory.SmallEmbeddingCriterionCardinal
+
+@[expose] public section
 
 /-! Actual finite restoration in the selected sparse endpoint, with the two
 remaining forcing obligations stated directly: correctness of the selected

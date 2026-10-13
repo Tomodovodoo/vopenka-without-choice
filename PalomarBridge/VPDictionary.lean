@@ -1,5 +1,9 @@
-import PalomarBridge.InternalEvaluationDictionary
-import ZFVP.SetTheory.VopenkaScheme
+module
+
+public import PalomarBridge.InternalEvaluationDictionary
+public import ZFVP.SetTheory.VopenkaScheme
+
+@[expose] public section
 
 namespace PalomarBridge
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingModel
-import ZFVP.ModelTheory.ClassForcingQuotientClosed
-import ZFVP.ModelTheory.ClassForcingQuotientTruth
-import ZFVP.SetTheory.SymmetricFormulaForcing
+module
+
+public import ZFVP.ModelTheory.ForcingModel
+public import ZFVP.ModelTheory.ClassForcingQuotientClosed
+public import ZFVP.ModelTheory.ClassForcingQuotientTruth
+public import ZFVP.SetTheory.SymmetricFormulaForcing
+
+@[expose] public section
 
 namespace ZFVP
 

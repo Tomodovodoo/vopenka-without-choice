@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LevyGroundStages
-import ZFVP.ModelTheory.GroundCoverGeneral
-import ZFVP.SetTheory.Hessenberg
+module
+
+public import ZFVP.ModelTheory.LevyGroundStages
+public import ZFVP.ModelTheory.GroundCoverGeneral
+public import ZFVP.SetTheory.Hessenberg
+
+@[expose] public section
 
 /-! Cover and approximation for checks of arbitrary members of a rank stage.
 

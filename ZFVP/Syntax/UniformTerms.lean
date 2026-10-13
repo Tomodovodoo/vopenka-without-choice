@@ -1,6 +1,10 @@
-import ZFVP.Syntax.Terms
-import ZFVP.ModelTheory.UniformCodes
-import ZFVP.SetTheory.UniformNumerals
+module
+
+public import ZFVP.Syntax.Terms
+public import ZFVP.ModelTheory.UniformCodes
+public import ZFVP.SetTheory.UniformNumerals
+
+@[expose] public section
 
 /-! Shared parameter-free definitions of internal term syntax. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.MeasuredWellFounded
-import ZFVP.SetTheory.RankBounds
+module
+
+public import ZFVP.SetTheory.MeasuredWellFounded
+public import ZFVP.SetTheory.RankBounds
+
+@[expose] public section
 
 namespace ZFVP
 

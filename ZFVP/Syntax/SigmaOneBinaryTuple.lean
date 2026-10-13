@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedCodingPrimitives
-import ZFVP.Syntax.StandardTuples
+module
+
+public import ZFVP.SetTheory.BoundedCodingPrimitives
+public import ZFVP.Syntax.StandardTuples
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

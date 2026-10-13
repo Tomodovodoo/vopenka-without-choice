@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FiniteDictionaryReflection
-import ZFVP.ModelTheory.WoodinSparseSourceFiniteRank
+module
+
+public import ZFVP.SetTheory.FiniteDictionaryReflection
+public import ZFVP.ModelTheory.WoodinSparseSourceFiniteRank
+
+@[expose] public section
 
 /-! Finite reflection captures the actual sparse forcing tables and cutoff table.
 

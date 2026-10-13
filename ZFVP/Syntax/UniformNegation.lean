@@ -1,7 +1,11 @@
-import ZFVP.Syntax.FormulaNegation
-import ZFVP.Syntax.UniformSubformulas
-import ZFVP.Syntax.UniformSyntaxTransport
-import ZFVP.SetTheory.UniformFunctionOperations
+module
+
+public import ZFVP.Syntax.FormulaNegation
+public import ZFVP.Syntax.UniformSubformulas
+public import ZFVP.Syntax.UniformSyntaxTransport
+public import ZFVP.SetTheory.UniformFunctionOperations
+
+@[expose] public section
 
 /-! A shared parameter-free dictionary for internal negation. -/
 

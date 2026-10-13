@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ShiftedCriticalEmbeddings
-import ZFVP.ModelTheory.CriticalPointRestriction
+module
+
+public import ZFVP.ModelTheory.ShiftedCriticalEmbeddings
+public import ZFVP.ModelTheory.CriticalPointRestriction
+
+@[expose] public section
 
 /-! A fixed rank admits restrictions whose critical points run through
 the critical sequence, obtained by taking images of one restricted graph. -/

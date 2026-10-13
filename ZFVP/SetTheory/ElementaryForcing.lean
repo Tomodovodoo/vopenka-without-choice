@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ElementaryDefined
-import ZFVP.Syntax.ForcingTranslationSemantics
+module
+
+public import ZFVP.SetTheory.ElementaryDefined
+public import ZFVP.Syntax.ForcingTranslationSemantics
+
+@[expose] public section
 
 /-! Uniform forcing formulas commute with elementary maps between ground models. -/
 

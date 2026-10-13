@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryRenaming
-import ZFVP.ModelTheory.SchmerlDefinableBranchBound
+module
+
+public import ZFVP.ModelTheory.InfinitaryRenaming
+public import ZFVP.ModelTheory.SchmerlDefinableBranchBound
+
+@[expose] public section
 
 /-! An actual countable disjunction expressing definability in the original
 language of a reduct. Only original-language formulas occur as disjuncts.

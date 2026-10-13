@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.DeltaOneMarkerStructures
-import ZFVP.SetTheory.BoundedOrdinalOmega
-import ZFVP.SetTheory.PiOneHierarchy
-import ZFVP.SetTheory.BoundedPairBinding
-import ZFVP.SetTheory.RankMarkerStructures
+module
+
+public import ZFVP.ModelTheory.DeltaOneMarkerStructures
+public import ZFVP.SetTheory.BoundedOrdinalOmega
+public import ZFVP.SetTheory.PiOneHierarchy
+public import ZFVP.SetTheory.BoundedPairBinding
+public import ZFVP.SetTheory.RankMarkerStructures
+
+@[expose] public section
 
 /-! The one-marker rank class is Pi-one with the base hierarchy segment as a parameter. -/
 

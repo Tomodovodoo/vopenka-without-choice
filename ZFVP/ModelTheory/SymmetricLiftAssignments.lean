@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SymmetricLiftBounded
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.ModelTheory.SymmetricLiftBounded
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 /-! The symmetric graph acts componentwise on internally finite assignments. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.UniformFormulaName
-import ZFVP.ModelTheory.ForcingEntailment
+module
+
+public import ZFVP.SetTheory.UniformFormulaName
+public import ZFVP.ModelTheory.ForcingEntailment
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

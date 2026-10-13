@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.UltrapowerLosAtomic
-import ZFVP.SetTheory.UltrapowerWitness
-import ZFVP.Syntax.FormulaInduction
-import ZFVP.Syntax.SatisfactionEquations
-import ZFVP.Syntax.MembershipSwap
+module
+
+public import ZFVP.SetTheory.UltrapowerLosAtomic
+public import ZFVP.SetTheory.UltrapowerWitness
+public import ZFVP.Syntax.FormulaInduction
+public import ZFVP.Syntax.SatisfactionEquations
+public import ZFVP.Syntax.MembershipSwap
+
+@[expose] public section
 
 /-! Los's theorem for the internal ultrapower.
 

@@ -1,9 +1,13 @@
-import ZFVP.SetTheory.HODCantorTransport
-import ZFVP.SetTheory.LevelCounting
-import ZFVP.SetTheory.FiniteCardinalArithmetic
-import ZFVP.SetTheory.WellOrderedSurjection
-import ZFVP.SetTheory.SequenceCollapseAbsorption
-import ZFVP.SetTheory.WellOrderedCardinal
+module
+
+public import ZFVP.SetTheory.HODCantorTransport
+public import ZFVP.SetTheory.LevelCounting
+public import ZFVP.SetTheory.FiniteCardinalArithmetic
+public import ZFVP.SetTheory.WellOrderedSurjection
+public import ZFVP.SetTheory.SequenceCollapseAbsorption
+public import ZFVP.SetTheory.WellOrderedCardinal
+
+@[expose] public section
 
 /-! The regularity properties pass from `V` to the HOD class model: a set of reals of HOD which is
 Lebesgue measurable, has the Baire property or has the perfect set property in `V` has the same

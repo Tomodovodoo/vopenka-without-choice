@@ -8,3 +8,5 @@ __pycache__/
 *.log
 *.out
 *.synctex.gz
+paper/*-build.txt
+output/

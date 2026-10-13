@@ -1,6 +1,10 @@
-import ZFVP.Syntax.BoundedAtomicTruth
-import ZFVP.Syntax.BoundedExpressionLookup
-import ZFVP.Syntax.BoundedTruthTables
+module
+
+public import ZFVP.Syntax.BoundedAtomicTruth
+public import ZFVP.Syntax.BoundedExpressionLookup
+public import ZFVP.Syntax.BoundedTruthTables
+
+@[expose] public section
 
 /-! Bounded formulas checking the constant, atomic and Boolean truth clauses. -/
 

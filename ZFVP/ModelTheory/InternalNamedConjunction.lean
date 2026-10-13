@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalNamedSupport
-import ZFVP.SetTheory.FiniteNaturalSets
-import ZFVP.Syntax.BinaryRelationInternalSemantics
+module
+
+public import ZFVP.ModelTheory.InternalNamedSupport
+public import ZFVP.SetTheory.FiniteNaturalSets
+public import ZFVP.Syntax.BinaryRelationInternalSemantics
+
+@[expose] public section
 
 /-! A finite set of named formulas is equivalent to one raw formula in a
 common internal finite context. -/

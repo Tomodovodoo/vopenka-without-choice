@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SuccessorRankForcing
-import ZFVP.ModelTheory.ForcingModel
+module
+
+public import ZFVP.ModelTheory.SuccessorRankForcing
+public import ZFVP.ModelTheory.ForcingModel
+
+@[expose] public section
 
 namespace ZFVP
 

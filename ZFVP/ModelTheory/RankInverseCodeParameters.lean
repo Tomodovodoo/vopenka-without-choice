@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TransitiveZFLimitColumns
-import ZFVP.ModelTheory.InverseCollapseCode
+module
+
+public import ZFVP.ModelTheory.TransitiveZFLimitColumns
+public import ZFVP.ModelTheory.InverseCollapseCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

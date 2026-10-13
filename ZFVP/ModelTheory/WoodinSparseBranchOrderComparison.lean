@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SparseReverseOrderValues
-import ZFVP.ModelTheory.WoodinSparseOwnCutoffs
+module
+
+public import ZFVP.ModelTheory.SparseReverseOrderValues
+public import ZFVP.ModelTheory.WoodinSparseOwnCutoffs
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.PiWitnessFamilyCode
-import ZFVP.SetTheory.RankWitnessStructures
-import ZFVP.SetTheory.PiVopenkaZFRanks
-import ZFVP.SetTheory.RankCriterionCodeBounds
+module
+
+public import ZFVP.SetTheory.PiWitnessFamilyCode
+public import ZFVP.SetTheory.RankWitnessStructures
+public import ZFVP.SetTheory.PiVopenkaZFRanks
+public import ZFVP.SetTheory.RankCriterionCodeBounds
+
+@[expose] public section
 
 /-! The canonical outer rank used for the fragment witness structures. -/
 

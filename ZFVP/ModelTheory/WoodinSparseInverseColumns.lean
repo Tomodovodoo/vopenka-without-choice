@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseInverseValues
-import ZFVP.ModelTheory.WoodinRecodedInverseCoherence
-import ZFVP.ModelTheory.WoodinSparseDirectBase
+module
+
+public import ZFVP.ModelTheory.WoodinSparseInverseValues
+public import ZFVP.ModelTheory.WoodinRecodedInverseCoherence
+public import ZFVP.ModelTheory.WoodinSparseDirectBase
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

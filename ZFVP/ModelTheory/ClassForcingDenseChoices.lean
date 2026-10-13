@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ClassForcingStagedChoices
+module
+
+public import ZFVP.ModelTheory.ClassForcingStagedChoices
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

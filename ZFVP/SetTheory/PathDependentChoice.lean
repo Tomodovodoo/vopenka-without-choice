@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.DependentChoice
-import ZFVP.SetTheory.FiniteSequences
-import ZFVP.SetTheory.NaturalPredecessor
+module
+
+public import ZFVP.SetTheory.DependentChoice
+public import ZFVP.SetTheory.FiniteSequences
+public import ZFVP.SetTheory.NaturalPredecessor
+
+@[expose] public section
 
 namespace ZFVP
 

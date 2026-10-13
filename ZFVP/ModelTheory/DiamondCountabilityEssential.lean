@@ -1,3 +1,7 @@
+module
+
+
+@[expose] public section
 /-! Retired: the top of Enayat's Theorem 5.17 chain under `◊`, in its first form.
 
 This file used to state `RubinExtensionUnderDiamond`, which asked a countable model of `ZF` to have

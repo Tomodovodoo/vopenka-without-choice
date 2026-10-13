@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.HighCriticalWoodinWitness
-import ZFVP.ModelTheory.RankEmbeddingDictionary
-import ZFVP.ModelTheory.CriticalPointRestriction
-import ZFVP.SetTheory.CnCofinalUnbounded
-import ZFVP.SetTheory.ChoicelessCorrectness
+module
+
+public import ZFVP.SetTheory.HighCriticalWoodinWitness
+public import ZFVP.ModelTheory.RankEmbeddingDictionary
+public import ZFVP.ModelTheory.CriticalPointRestriction
+public import ZFVP.SetTheory.CnCofinalUnbounded
+public import ZFVP.SetTheory.ChoicelessCorrectness
+
+@[expose] public section
 
 set_option maxRecDepth 10000
 set_option maxHeartbeats 1000000

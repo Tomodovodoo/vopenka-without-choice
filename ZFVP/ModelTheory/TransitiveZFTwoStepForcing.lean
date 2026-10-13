@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TransitiveZFBoundedForcing
-import ZFVP.ModelTheory.TransitiveZFAtomicForcing
-import ZFVP.SetTheory.TwoStepForcing
+module
+
+public import ZFVP.ModelTheory.TransitiveZFBoundedForcing
+public import ZFVP.ModelTheory.TransitiveZFAtomicForcing
+public import ZFVP.SetTheory.TwoStepForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

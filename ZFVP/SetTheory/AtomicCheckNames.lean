@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.AtomicMembership
-import ZFVP.SetTheory.CheckNames
+module
+
+public import ZFVP.SetTheory.AtomicMembership
+public import ZFVP.SetTheory.CheckNames
+
+@[expose] public section
 
 namespace ZFVP
 

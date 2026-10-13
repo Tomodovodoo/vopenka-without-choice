@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.NaturalSyntaxLeaves
-import ZFVP.SetTheory.UniformRecursion
+module
+
+public import ZFVP.ModelTheory.NaturalSyntaxLeaves
+public import ZFVP.SetTheory.UniformRecursion
+
+@[expose] public section
 
 /-! A uniform set-valued decoder for natural-number formula trees. -/
 

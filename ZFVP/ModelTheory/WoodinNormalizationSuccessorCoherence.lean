@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinNormalizationSuccessor
+module
+
+public import ZFVP.ModelTheory.WoodinNormalizationSuccessor
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

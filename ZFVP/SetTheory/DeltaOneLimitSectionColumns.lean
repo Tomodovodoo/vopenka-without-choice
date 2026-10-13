@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.DeltaOneSectionThread
-import ZFVP.SetTheory.ForcingLimitColumns
+module
+
+public import ZFVP.SetTheory.DeltaOneSectionThread
+public import ZFVP.SetTheory.ForcingLimitColumns
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

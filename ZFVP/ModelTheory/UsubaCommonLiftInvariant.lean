@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.UsubaBoundInvariant
-import ZFVP.ModelTheory.UsubaTowerLifts
+module
+
+public import ZFVP.ModelTheory.UsubaBoundInvariant
+public import ZFVP.ModelTheory.UsubaTowerLifts
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalHenkinExistentialWitness
+module
+
+public import ZFVP.ModelTheory.InternalHenkinExistentialWitness
+
+@[expose] public section
 
 /-! Quantifiers in the actual Henkin name table range over the actual set ω. -/
 

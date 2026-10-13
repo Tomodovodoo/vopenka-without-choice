@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedRubinSource
-import ZFVP.SetTheory.FiniteSets
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedRubinSource
+public import ZFVP.SetTheory.FiniteSets
+
+@[expose] public section
 
 /-! Internal finite demands have strict upper bounds in the directed posets
 used in the Rubin background, and internal choice selects all bounds at once. -/

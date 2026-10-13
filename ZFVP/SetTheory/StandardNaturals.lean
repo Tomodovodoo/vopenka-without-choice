@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.DefinableGraph
+module
+
+public import ZFVP.SetTheory.DefinableGraph
+
+@[expose] public section
 
 /-! The standard natural-number embedding into an arbitrary internal ZF model.
 This does not assert that all internal natural numbers are standard. -/

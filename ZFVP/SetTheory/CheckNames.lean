@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.MembershipRecursion
-import ZFVP.SetTheory.ForcingNames
+module
+
+public import ZFVP.SetTheory.MembershipRecursion
+public import ZFVP.SetTheory.ForcingNames
+
+@[expose] public section
 
 namespace ZFVP
 

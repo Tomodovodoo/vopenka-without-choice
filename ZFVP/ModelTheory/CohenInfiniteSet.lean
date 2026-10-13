@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.CohenModel
-import ZFVP.ModelTheory.ForcingModelPairs
-import ZFVP.SetTheory.CohenEnumerationName
-import ZFVP.SetTheory.EndExtensionFinite
+module
+
+public import ZFVP.ModelTheory.CohenModel
+public import ZFVP.ModelTheory.ForcingModelPairs
+public import ZFVP.SetTheory.CohenEnumerationName
+public import ZFVP.SetTheory.EndExtensionFinite
+
+@[expose] public section
 
 namespace ZFVP
 

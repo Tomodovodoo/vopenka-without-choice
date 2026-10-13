@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinSparseCarrierRecovery
-import ZFVP.SetTheory.UniformLevyForcing
-import ZFVP.SetTheory.UniformParameterizedRecursion
-import Mathlib.Tactic.FinCases
+module
+
+public import ZFVP.ModelTheory.WoodinSparseCarrierRecovery
+public import ZFVP.SetTheory.UniformLevyForcing
+public import ZFVP.SetTheory.UniformParameterizedRecursion
+public import Mathlib.Tactic.FinCases
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

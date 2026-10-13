@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.DenseEmbeddingTransfer
+module
+
+public import ZFVP.ModelTheory.DenseEmbeddingTransfer
+
+@[expose] public section
 
 /-! Pulling a generic back along a dense embedding: the preimage of a `P'`-generic filter under a
 dense embedding `e : P → P'` is `P`-generic, and its image filter recovers the original generic.

@@ -1,6 +1,10 @@
-import ZFVP.Syntax.PartialTruthAtoms
-import ZFVP.Syntax.LevyCodeSubstitution
-import ZFVP.Syntax.FormulaSubstitutionSemantics
+module
+
+public import ZFVP.Syntax.PartialTruthAtoms
+public import ZFVP.Syntax.LevyCodeSubstitution
+public import ZFVP.Syntax.FormulaSubstitutionSemantics
+
+@[expose] public section
 
 /-! Capture-avoiding substitution commutes with every positive internal partial-truth predicate. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlFiniteUpperBounds
-import ZFVP.SetTheory.InverseFunction
+module
+
+public import ZFVP.ModelTheory.SchmerlFiniteUpperBounds
+public import ZFVP.SetTheory.InverseFunction
+
+@[expose] public section
 
 /-! Actual finite demands and cofinality on finitely many distinct coordinates.
 The index set and its finite demands are internal sets; only the displayed

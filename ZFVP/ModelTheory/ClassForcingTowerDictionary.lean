@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ClassForcingFormulaCompiler
+module
+
+public import ZFVP.ModelTheory.ClassForcingFormulaCompiler
+
+@[expose] public section
 
 /-! Fixed formulas for the tagged class forcing of a tower. Only the
 stage carriers, orders and section maps are syntactic inputs. Bounded

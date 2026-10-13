@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ClassForcingAlgebra
-import ZFVP.ModelTheory.ClassForcingTowerAtoms
+module
+
+public import ZFVP.SetTheory.ClassForcingAlgebra
+public import ZFVP.ModelTheory.ClassForcingTowerAtoms
+
+@[expose] public section
 
 namespace ZFVP
 

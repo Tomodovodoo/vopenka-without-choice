@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TransitiveZFRankOperations
-import ZFVP.ModelTheory.TransitiveZFBoundedQuantifiers
-import ZFVP.SetTheory.UniformParameterizedRecursion
+module
+
+public import ZFVP.ModelTheory.TransitiveZFRankOperations
+public import ZFVP.ModelTheory.TransitiveZFBoundedQuantifiers
+public import ZFVP.SetTheory.UniformParameterizedRecursion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

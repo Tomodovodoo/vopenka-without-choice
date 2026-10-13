@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.RankForcingLimits
+module
+
+public import ZFVP.ModelTheory.RankForcingLimits
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

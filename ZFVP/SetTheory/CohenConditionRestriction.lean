@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CohenAutomorphisms
+module
+
+public import ZFVP.SetTheory.CohenAutomorphisms
+
+@[expose] public section
 
 /-! Restricting a Cohen condition to a set of row indices, and gluing two conditions
 that agree on those rows. This is the condition-level toolkit behind Jech's Lemma 5.24

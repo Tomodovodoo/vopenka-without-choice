@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.InternalPermutations
+module
+
+public import ZFVP.SetTheory.InternalPermutations
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SolovayConsistency
-import ZFVP.ModelTheory.RealSolovayTheory
-import ZFVP.ModelTheory.RealSolovayRegularity
+module
+
+public import ZFVP.ModelTheory.SolovayConsistency
+public import ZFVP.ModelTheory.RealSolovayTheory
+public import ZFVP.ModelTheory.RealSolovayRegularity
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory Entailment

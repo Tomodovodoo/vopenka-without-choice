@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlCodedExtensionRelabeling
-import ZFVP.ModelTheory.SchmerlCodedCofinalSuccessor
-import ZFVP.ModelTheory.InternalNamedSeparationOmission
-import ZFVP.SetTheory.SchroederBernstein
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedExtensionRelabeling
+public import ZFVP.ModelTheory.SchmerlCodedCofinalSuccessor
+public import ZFVP.ModelTheory.InternalNamedSeparationOmission
+public import ZFVP.SetTheory.SchroederBernstein
+
+@[expose] public section
 
 /-! Successor properties survive a surjective coded elementary relabeling.
 The parameter transport covers every internally finite raw formula. -/

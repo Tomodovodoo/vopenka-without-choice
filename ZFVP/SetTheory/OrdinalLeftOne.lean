@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.NaturalArithmeticLaws
-import ZFVP.SetTheory.BoundedNaturals
+module
+
+public import ZFVP.SetTheory.NaturalArithmeticLaws
+public import ZFVP.SetTheory.BoundedNaturals
+
+@[expose] public section
 
 namespace ZFVP
 

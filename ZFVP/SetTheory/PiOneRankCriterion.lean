@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.EmbeddingCofinality
-import ZFVP.ModelTheory.InternalZFModel
+module
+
+public import ZFVP.ModelTheory.EmbeddingCofinality
+public import ZFVP.ModelTheory.InternalZFModel
+
+@[expose] public section
 
 /-! The full rank criterion has a parameter-free Pi-one definition. -/
 

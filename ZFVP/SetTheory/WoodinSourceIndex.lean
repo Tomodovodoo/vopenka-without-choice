@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.OrdinalLeftOne
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.SetTheory.OrdinalLeftOne
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

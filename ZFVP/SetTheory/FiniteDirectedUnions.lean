@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.FiniteSets
+module
+
+public import ZFVP.SetTheory.FiniteSets
+
+@[expose] public section
 
 /-! An internal finite subset of a directed union is contained in one member.
 The induction includes sets of internally finite, nonstandard size. -/

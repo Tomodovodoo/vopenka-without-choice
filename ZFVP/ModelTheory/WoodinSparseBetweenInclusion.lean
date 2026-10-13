@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseFixedPointInclusion
-import ZFVP.ModelTheory.TwoStepInclusion
+module
+
+public import ZFVP.ModelTheory.WoodinSparseFixedPointInclusion
+public import ZFVP.ModelTheory.TwoStepInclusion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

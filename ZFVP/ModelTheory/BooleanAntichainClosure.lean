@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.CompleteSubalgebra
-import ZFVP.ModelTheory.LevyConeAlgebraProperties
-import ZFVP.ModelTheory.BooleanAntichains
-import ZFVP.SetTheory.MaximalAntichains
-import ZFVP.SetTheory.RegularUnions
+module
+
+public import ZFVP.ModelTheory.CompleteSubalgebra
+public import ZFVP.ModelTheory.LevyConeAlgebraProperties
+public import ZFVP.ModelTheory.BooleanAntichains
+public import ZFVP.SetTheory.MaximalAntichains
+public import ZFVP.SetTheory.RegularUnions
+
+@[expose] public section
 
 /-! Regular joins reduce to joins of antichains.
 

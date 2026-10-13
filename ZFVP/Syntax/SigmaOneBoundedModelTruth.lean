@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedTruthTableDefinition
-import ZFVP.Syntax.SigmaOneBoundedFamily
+module
+
+public import ZFVP.Syntax.BoundedTruthTableDefinition
+public import ZFVP.Syntax.SigmaOneBoundedFamily
+
+@[expose] public section
 
 /-! Existential bounded certificates for truth and falsity in transitive set domains. -/
 

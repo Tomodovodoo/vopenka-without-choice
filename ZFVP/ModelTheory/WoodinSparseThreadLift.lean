@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseLiftRow
-import ZFVP.SetTheory.SparseSpliceUnion
-import ZFVP.ModelTheory.ForcingThreadSpliceTransport
+module
+
+public import ZFVP.ModelTheory.WoodinSparseLiftRow
+public import ZFVP.SetTheory.SparseSpliceUnion
+public import ZFVP.ModelTheory.ForcingThreadSpliceTransport
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

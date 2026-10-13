@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.BlockPermutations
-import ZFVP.SetTheory.CohenSymmetricSystem
-import ZFVP.SetTheory.CohenNameSupport
+module
+
+public import ZFVP.SetTheory.BlockPermutations
+public import ZFVP.SetTheory.CohenSymmetricSystem
+public import ZFVP.SetTheory.CohenNameSupport
+
+@[expose] public section
 
 /-!
 The symmetric system of Jech's first embedding theorem, built with no atoms: Cohen forcing over

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.TwoStepForcing
+module
+
+public import ZFVP.SetTheory.TwoStepForcing
+
+@[expose] public section
 
 namespace ZFVP
 

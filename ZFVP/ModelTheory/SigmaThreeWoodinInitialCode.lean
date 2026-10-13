@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SigmaThreeWoodinInitialStage
-import ZFVP.ModelTheory.DeltaOneInitialCode
+module
+
+public import ZFVP.ModelTheory.SigmaThreeWoodinInitialStage
+public import ZFVP.ModelTheory.DeltaOneInitialCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

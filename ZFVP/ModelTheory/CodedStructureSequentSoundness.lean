@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CodedZFModel
-import ZFVP.Syntax.BinaryRelationInternalSemantics
+module
+
+public import ZFVP.ModelTheory.CodedZFModel
+public import ZFVP.Syntax.BinaryRelationInternalSemantics
+
+@[expose] public section
 
 /-! Soundness of the complete internal sequent checker in arbitrary coded
 membership-language structures. The represented relation need not be ambient membership. -/

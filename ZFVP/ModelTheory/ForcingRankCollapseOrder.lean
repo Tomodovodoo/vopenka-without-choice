@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingRankFormulaNames
-import ZFVP.ModelTheory.ForcingSemanticConsequence
-import ZFVP.SetTheory.WoodinCollapseProjection
-import ZFVP.ModelTheory.TwoStepCombinationFilter
+module
+
+public import ZFVP.ModelTheory.ForcingRankFormulaNames
+public import ZFVP.ModelTheory.ForcingSemanticConsequence
+public import ZFVP.SetTheory.WoodinCollapseProjection
+public import ZFVP.ModelTheory.TwoStepCombinationFilter
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

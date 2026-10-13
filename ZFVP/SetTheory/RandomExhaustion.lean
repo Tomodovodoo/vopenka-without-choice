@@ -1,9 +1,13 @@
-import ZFVP.SetTheory.PrunedTrees
-import ZFVP.SetTheory.DependentChoice
-import ZFVP.SetTheory.CountableUnions
-import ZFVP.SetTheory.InfiniteDependentChoice
-import ZFVP.SetTheory.PulledWellOrder
-import ZFVP.SetTheory.CountableSets
+module
+
+public import ZFVP.SetTheory.PrunedTrees
+public import ZFVP.SetTheory.DependentChoice
+public import ZFVP.SetTheory.CountableUnions
+public import ZFVP.SetTheory.InfiniteDependentChoice
+public import ZFVP.SetTheory.PulledWellOrder
+public import ZFVP.SetTheory.CountableSets
+
+@[expose] public section
 
 /-! Exhaustion for the random conditions: every dense set `D` of positive trees contains a
 countable family with pairwise disjoint bodies whose union is co-null, together with a finitary

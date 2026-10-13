@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.Rank
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.SetTheory.Rank
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 namespace ZFVP
 

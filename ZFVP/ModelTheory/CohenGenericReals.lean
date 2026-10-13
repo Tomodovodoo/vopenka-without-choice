@@ -1,10 +1,14 @@
-import ZFVP.SetTheory.BaireCore
-import ZFVP.SetTheory.FiniteSequencesCardinality
-import ZFVP.SetTheory.MeasurableStrongLimit
-import ZFVP.SetTheory.SequenceCollapseAbsorption
-import ZFVP.SetTheory.EndExtensionCoding
-import ZFVP.SetTheory.EndExtensionFinite
-import ZFVP.ModelTheory.LevyCollapseOmegaOne
+module
+
+public import ZFVP.SetTheory.BaireCore
+public import ZFVP.SetTheory.FiniteSequencesCardinality
+public import ZFVP.SetTheory.MeasurableStrongLimit
+public import ZFVP.SetTheory.SequenceCollapseAbsorption
+public import ZFVP.SetTheory.EndExtensionCoding
+public import ZFVP.SetTheory.EndExtensionFinite
+public import ZFVP.ModelTheory.LevyCollapseOmegaOne
+
+@[expose] public section
 
 /-! Cohen reals over the ground model of a forcing extension: reals meeting every ground dense
 set of finite binary sequences. When the ground dense sets are enumerated in the extension, a

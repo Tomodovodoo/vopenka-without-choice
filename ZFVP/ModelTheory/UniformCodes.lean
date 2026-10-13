@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ConstantStructure
-import ZFVP.SetTheory.UniformRank
+module
+
+public import ZFVP.ModelTheory.ConstantStructure
+public import ZFVP.SetTheory.UniformRank
+
+@[expose] public section
 
 /-! Uniform first-order definitions of language and structure codes. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SparseOrderCoordinates
+module
+
+public import ZFVP.ModelTheory.SparseOrderCoordinates
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

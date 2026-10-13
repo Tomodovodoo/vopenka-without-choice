@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseStageInvariant
-import ZFVP.ModelTheory.WoodinRankConstruction
+module
+
+public import ZFVP.ModelTheory.WoodinSparseStageInvariant
+public import ZFVP.ModelTheory.WoodinRankConstruction
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

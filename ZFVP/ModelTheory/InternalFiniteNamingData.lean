@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalJointNamedConjunction
-import ZFVP.ModelTheory.FiniteJointNamingFormula
-import ZFVP.Syntax.StandardOmegaMembershipSyntax
+module
+
+public import ZFVP.ModelTheory.InternalJointNamedConjunction
+public import ZFVP.ModelTheory.FiniteJointNamingFormula
+public import ZFVP.Syntax.StandardOmegaMembershipSyntax
+
+@[expose] public section
 
 /-! The finite parameter and variable positions used to express internal
 source and upper-name restrictions in first-order syntax. -/

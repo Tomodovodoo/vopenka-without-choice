@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CriticalSequence
-import ZFVP.ModelTheory.EmbeddingCofinality
+module
+
+public import ZFVP.ModelTheory.CriticalSequence
+public import ZFVP.ModelTheory.EmbeddingCofinality
+
+@[expose] public section
 
 /-! A critical-sequence limit in the source is fixed, and supports an elementary restriction. -/
 

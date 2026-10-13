@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.EmbeddingCofinality
-import ZFVP.SetTheory.PiOneRankCriterion
+module
+
+public import ZFVP.ModelTheory.EmbeddingCofinality
+public import ZFVP.SetTheory.PiOneRankCriterion
+
+@[expose] public section
 
 /-! The critical point satisfies the ZF rank criterion. -/
 

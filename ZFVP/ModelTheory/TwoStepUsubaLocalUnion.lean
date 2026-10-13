@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.UsubaRestorationClosure
-import ZFVP.ModelTheory.TwoStepSelectedDescending
+module
+
+public import ZFVP.ModelTheory.UsubaRestorationClosure
+public import ZFVP.ModelTheory.TwoStepSelectedDescending
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

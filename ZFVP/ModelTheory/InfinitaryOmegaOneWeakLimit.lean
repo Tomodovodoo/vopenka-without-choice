@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryCountablyDirectedWeakLimit
-import ZFVP.ModelTheory.OmegaOneChainColimit
+module
+
+public import ZFVP.ModelTheory.InfinitaryCountablyDirectedWeakLimit
+public import ZFVP.ModelTheory.OmegaOneChainColimit
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

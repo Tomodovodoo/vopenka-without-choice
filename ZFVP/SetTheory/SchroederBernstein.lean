@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.InverseFunction
+module
+
+public import ZFVP.SetTheory.InverseFunction
+
+@[expose] public section
 
 /-! The Schröder–Bernstein theorem inside a model of ZF: injections `f : A → B` and `g : B → A`
 yield a bijection. The proof uses the greatest post-fixed point of the monotone operator

@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.InternalOrderType
-import ZFVP.SetTheory.WellOrderingChoice
-import ZFVP.SetTheory.InverseFunction
-import ZFVP.SetTheory.TransitiveClosure
+module
+
+public import ZFVP.SetTheory.InternalOrderType
+public import ZFVP.SetTheory.WellOrderingChoice
+public import ZFVP.SetTheory.InverseFunction
+public import ZFVP.SetTheory.TransitiveClosure
+
+@[expose] public section
 
 /-! Coding sets by well-founded extensional relations on ordinals.
 

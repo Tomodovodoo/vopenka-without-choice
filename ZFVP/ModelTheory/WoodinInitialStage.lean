@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ForcingOmegaTruth
-import ZFVP.ModelTheory.WoodinSuccessorBounds
-import ZFVP.SetTheory.ForcingIterationInitial
-import ZFVP.SetTheory.WoodinSeedCardinal
-import ZFVP.ModelTheory.SingletonForcingTruth
+module
+
+public import ZFVP.ModelTheory.ForcingOmegaTruth
+public import ZFVP.ModelTheory.WoodinSuccessorBounds
+public import ZFVP.SetTheory.ForcingIterationInitial
+public import ZFVP.SetTheory.WoodinSeedCardinal
+public import ZFVP.ModelTheory.SingletonForcingTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

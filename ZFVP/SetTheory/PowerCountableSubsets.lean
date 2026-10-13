@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.CountableSubsetFamily
-import ZFVP.SetTheory.Hessenberg
-import ZFVP.SetTheory.InternalChoice
-import ZFVP.SetTheory.Cofinality
-import ZFVP.SetTheory.PulledWellOrder
+module
+
+public import ZFVP.SetTheory.CountableSubsetFamily
+public import ZFVP.SetTheory.Hessenberg
+public import ZFVP.SetTheory.InternalChoice
+public import ZFVP.SetTheory.Cofinality
+public import ZFVP.SetTheory.PulledWellOrder
+
+@[expose] public section
 
 /-! The counting step of the Erdos-Hajnal construction.
 

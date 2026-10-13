@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.VopenkaScheme
-import ZFVP.SetTheory.CnExtendible
-import ZFVP.ModelTheory.GenericRankEmbeddingRestriction
+module
+
+public import ZFVP.SetTheory.VopenkaScheme
+public import ZFVP.SetTheory.CnExtendible
+public import ZFVP.ModelTheory.GenericRankEmbeddingRestriction
+
+@[expose] public section
 
 /-! Unbounded C(n)-extendibility proves every parameterized arbitrary-language Vopenka instance. -/
 

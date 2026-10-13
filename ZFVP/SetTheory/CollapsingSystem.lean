@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.MaximalAntichains
-import ZFVP.SetTheory.SchroederBernstein
-import ZFVP.SetTheory.InternalChoice
+module
+
+public import ZFVP.SetTheory.MaximalAntichains
+public import ZFVP.SetTheory.SchroederBernstein
+public import ZFVP.SetTheory.InternalChoice
+
+@[expose] public section
 
 /-! Collapsing systems and `λ`-indexed maximal antichains. A collapsing system for `P` and `λ`
 is a sequence of labelled maximal antichains such that every label below `λ` is realised

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.SourceNestedQuantifierBound
-import ZFVP.ModelTheory.WoodinSparseSourceTruthWindow
-import ZFVP.ModelTheory.ForcingSequenceNameDictionary
+module
+
+public import ZFVP.SetTheory.SourceNestedQuantifierBound
+public import ZFVP.ModelTheory.WoodinSparseSourceTruthWindow
+public import ZFVP.ModelTheory.ForcingSequenceNameDictionary
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

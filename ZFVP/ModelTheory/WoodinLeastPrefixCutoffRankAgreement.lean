@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.PrefixRestorationForcingThreshold
-import ZFVP.ModelTheory.RankWoodinPrefixCutoff
-import ZFVP.ModelTheory.WoodinStrictPrefixCutoff
+module
+
+public import ZFVP.ModelTheory.PrefixRestorationForcingThreshold
+public import ZFVP.ModelTheory.RankWoodinPrefixCutoff
+public import ZFVP.ModelTheory.WoodinStrictPrefixCutoff
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

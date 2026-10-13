@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.GroundForcingGeneric
-import ZFVP.SetTheory.CountableSets
-import ZFVP.SetTheory.PathDependentChoice
-import ZFVP.SetTheory.SequenceCollapseAbsorption
+module
+
+public import ZFVP.ModelTheory.GroundForcingGeneric
+public import ZFVP.SetTheory.CountableSets
+public import ZFVP.SetTheory.PathDependentChoice
+public import ZFVP.SetTheory.SequenceCollapseAbsorption
+
+@[expose] public section
 
 /-! Rasiowa–Sikorski inside a ZF model. A countable family of actual dense
 sets is met by an actual descending sequence and its actual generated filter. -/

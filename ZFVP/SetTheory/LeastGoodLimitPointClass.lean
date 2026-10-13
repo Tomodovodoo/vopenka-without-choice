@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.GoodLimitPointClass
-import ZFVP.SetTheory.RelativizedSatisfaction
+module
+
+public import ZFVP.SetTheory.GoodLimitPointClass
+public import ZFVP.SetTheory.RelativizedSatisfaction
+
+@[expose] public section
 
 /-! The least good limit point above a given ordinal, as a `Pi_{k+2}` class.
 

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.NameHierarchyTable
+module
+
+public import ZFVP.SetTheory.NameHierarchyTable
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

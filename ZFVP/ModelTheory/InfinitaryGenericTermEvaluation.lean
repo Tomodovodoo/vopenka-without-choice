@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryGenericStructure
+module
+
+public import ZFVP.ModelTheory.InfinitaryGenericStructure
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

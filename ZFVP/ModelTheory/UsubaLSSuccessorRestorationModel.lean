@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.UsubaSuccessorRestorationModel
-import ZFVP.ModelTheory.ForcingLSPreservation
+module
+
+public import ZFVP.ModelTheory.UsubaSuccessorRestorationModel
+public import ZFVP.ModelTheory.ForcingLSPreservation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

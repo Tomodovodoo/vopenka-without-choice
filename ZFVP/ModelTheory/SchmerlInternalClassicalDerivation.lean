@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalDeduction
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalDeduction
+
+@[expose] public section
 
 namespace ZFVP.Infinitary.Internal
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

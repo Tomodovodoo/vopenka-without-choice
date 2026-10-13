@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalNamedContextFormula
-import ZFVP.ModelTheory.InternalNamedEqualityQuery
-import ZFVP.ModelTheory.InternalJointQueryFormula
+module
+
+public import ZFVP.ModelTheory.InternalNamedContextFormula
+public import ZFVP.ModelTheory.InternalNamedEqualityQuery
+public import ZFVP.ModelTheory.InternalJointQueryFormula
+
+@[expose] public section
 
 /-! Three formulas over one finite context express a condition, an outside
 witness, and identification with a varying old member. -/

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FiniteDictionaryReflection
-import ZFVP.SetTheory.SourceQuantifierBound
+module
+
+public import ZFVP.SetTheory.FiniteDictionaryReflection
+public import ZFVP.SetTheory.SourceQuantifierBound
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

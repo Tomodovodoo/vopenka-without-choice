@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SigmaThreeWoodinCollapseName
-import ZFVP.SetTheory.SigmaTwoNameHierarchy
-import ZFVP.SetTheory.DeltaOneCheckNames
-import ZFVP.ModelTheory.SaturatedWoodinPrefix
+module
+
+public import ZFVP.ModelTheory.SigmaThreeWoodinCollapseName
+public import ZFVP.SetTheory.SigmaTwoNameHierarchy
+public import ZFVP.SetTheory.DeltaOneCheckNames
+public import ZFVP.ModelTheory.SaturatedWoodinPrefix
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

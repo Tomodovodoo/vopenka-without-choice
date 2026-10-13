@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BaireRunTopology
-import ZFVP.SetTheory.TreeBodies
+module
+
+public import ZFVP.SetTheory.BaireRunTopology
+public import ZFVP.SetTheory.TreeBodies
+
+@[expose] public section
 
 /-! Pullback of closed and nowhere dense binary trees through the run homeomorphism. -/
 

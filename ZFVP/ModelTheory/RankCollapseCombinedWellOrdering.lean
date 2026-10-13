@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.RankCollapseCombinedContext
-import ZFVP.ModelTheory.TwoStepEquivalence
-import ZFVP.ModelTheory.WoodinCollapseLiftDomain
-import ZFVP.ModelTheory.ForcingCnOneTruth
-import ZFVP.SetTheory.CardinalDictionary
+module
+
+public import ZFVP.ModelTheory.RankCollapseCombinedContext
+public import ZFVP.ModelTheory.TwoStepEquivalence
+public import ZFVP.ModelTheory.WoodinCollapseLiftDomain
+public import ZFVP.ModelTheory.ForcingCnOneTruth
+public import ZFVP.SetTheory.CardinalDictionary
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

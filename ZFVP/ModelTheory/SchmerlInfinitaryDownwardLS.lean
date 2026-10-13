@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInfinitaryDownwardLSClosure
+module
+
+public import ZFVP.ModelTheory.SchmerlInfinitaryDownwardLSClosure
+
+@[expose] public section
 
 /-! Downward Löwenheim–Skolem for a single `L_{ω₁,ω}(Q)` sentence.
 The witness hull preserves every constructor subformula, with parameters from

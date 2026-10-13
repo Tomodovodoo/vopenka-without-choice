@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingBoundDefinability
-import ZFVP.SetTheory.ForcingBoundUnion
-import ZFVP.SetTheory.UniformRecursion
+module
+
+public import ZFVP.SetTheory.ForcingBoundDefinability
+public import ZFVP.SetTheory.ForcingBoundUnion
+public import ZFVP.SetTheory.UniformRecursion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

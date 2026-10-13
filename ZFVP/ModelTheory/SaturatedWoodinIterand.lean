@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SaturatedWoodinPrefix
-import ZFVP.SetTheory.ForcingIterandFormula
+module
+
+public import ZFVP.ModelTheory.SaturatedWoodinPrefix
+public import ZFVP.SetTheory.ForcingIterandFormula
+
+@[expose] public section
 
 namespace ZFVP
 

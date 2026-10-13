@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ForcingThreadAction
-import ZFVP.SetTheory.ForcingThreadMaps
-import ZFVP.ModelTheory.EquivalentSuborderRetraction
-import ZFVP.ModelTheory.EquivalentSuborderFilterEquiv
+module
+
+public import ZFVP.SetTheory.ForcingThreadAction
+public import ZFVP.SetTheory.ForcingThreadMaps
+public import ZFVP.ModelTheory.EquivalentSuborderRetraction
+public import ZFVP.ModelTheory.EquivalentSuborderFilterEquiv
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

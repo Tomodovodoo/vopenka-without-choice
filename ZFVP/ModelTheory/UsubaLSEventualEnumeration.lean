@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.UsubaLSStageDC
-import ZFVP.ModelTheory.UsubaLSEnumerationBounds
-import ZFVP.ModelTheory.ClassForcingTowerSubsetStabilization
+module
+
+public import ZFVP.ModelTheory.UsubaLSStageDC
+public import ZFVP.ModelTheory.UsubaLSEnumerationBounds
+public import ZFVP.ModelTheory.ClassForcingTowerSubsetStabilization
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

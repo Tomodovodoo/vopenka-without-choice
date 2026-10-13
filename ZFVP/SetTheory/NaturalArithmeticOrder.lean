@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.NaturalArithmeticLaws
+module
+
+public import ZFVP.SetTheory.NaturalArithmeticLaws
+
+@[expose] public section
 
 /-! Order compatibility and differences for arithmetic on internal omega. -/
 

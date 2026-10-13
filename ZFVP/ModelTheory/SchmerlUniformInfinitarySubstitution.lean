@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlUniformInfinitaryTruth
-import ZFVP.ModelTheory.SchmerlInternalInfinitarySubstitutionSemantics
-import ZFVP.Syntax.UniformFormulaSubstitution
+module
+
+public import ZFVP.ModelTheory.SchmerlUniformInfinitaryTruth
+public import ZFVP.ModelTheory.SchmerlInternalInfinitarySubstitutionSemantics
+public import ZFVP.Syntax.UniformFormulaSubstitution
+
+@[expose] public section
 
 /-! Fixed definitions for actual infinitary substitution and its image
 fragment. These definitions support elementary transfer of proof syntax. -/

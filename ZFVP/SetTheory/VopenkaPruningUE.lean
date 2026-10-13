@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.LeastChoicelessCnExtendible
-import ZFVP.SetTheory.VopenkaChoicelessExtendible
+module
+
+public import ZFVP.SetTheory.LeastChoicelessCnExtendible
+public import ZFVP.SetTheory.VopenkaChoicelessExtendible
+
+@[expose] public section
 
 /-! Full VP and bounded nonzero rank-Berkeley cardinals imply unbounded
 C(n)-extendibility at every positive standard level. -/

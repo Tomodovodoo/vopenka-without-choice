@@ -1,4 +1,8 @@
-import ZFVP.Syntax.NaturalIndexRenamingPrimrec
+module
+
+public import ZFVP.Syntax.NaturalIndexRenamingPrimrec
+
+@[expose] public section
 
 /-! Natural-code rewriting for the eigenvariable and witness rules of LK. -/
 

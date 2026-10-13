@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TransitiveZFCardinalSmall
-import ZFVP.SetTheory.OrdinalLeftOne
-import ZFVP.SetTheory.BoundedFunctionDomain
+module
+
+public import ZFVP.ModelTheory.TransitiveZFCardinalSmall
+public import ZFVP.SetTheory.OrdinalLeftOne
+public import ZFVP.SetTheory.BoundedFunctionDomain
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

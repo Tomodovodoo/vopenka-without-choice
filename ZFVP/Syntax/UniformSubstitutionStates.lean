@@ -1,6 +1,10 @@
-import ZFVP.Syntax.SubstitutionStateDefinability
-import ZFVP.Syntax.UniformBindingSubstitution
-import ZFVP.SetTheory.UniformParameterizedRecursion
+module
+
+public import ZFVP.Syntax.SubstitutionStateDefinability
+public import ZFVP.Syntax.UniformBindingSubstitution
+public import ZFVP.SetTheory.UniformParameterizedRecursion
+
+@[expose] public section
 
 /-! Parameter-free definitions for all internal binder-depth substitution states. -/
 

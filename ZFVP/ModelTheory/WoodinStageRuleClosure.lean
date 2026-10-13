@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinStageRule
-import ZFVP.ModelTheory.WoodinQuotientClosureInverse
-import ZFVP.ModelTheory.WoodinQuotientClosureSuccessor
-import ZFVP.ModelTheory.WoodinQuotientClosureDirect
+module
+
+public import ZFVP.ModelTheory.WoodinStageRule
+public import ZFVP.ModelTheory.WoodinQuotientClosureInverse
+public import ZFVP.ModelTheory.WoodinQuotientClosureSuccessor
+public import ZFVP.ModelTheory.WoodinQuotientClosureDirect
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

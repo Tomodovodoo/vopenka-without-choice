@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingHullImage
+module
+
+public import ZFVP.ModelTheory.ForcingHullImage
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

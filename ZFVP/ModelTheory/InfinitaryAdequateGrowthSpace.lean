@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryAdequateUniformSuccessor
-import ZFVP.ModelTheory.InfinitaryDenseRequirementChain
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateUniformSuccessor
+public import ZFVP.ModelTheory.InfinitaryDenseRequirementChain
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

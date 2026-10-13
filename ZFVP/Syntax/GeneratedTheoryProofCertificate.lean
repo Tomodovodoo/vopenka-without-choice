@@ -1,5 +1,9 @@
-import ZFVP.Syntax.NaturalLKCompleteness
-import ZFVP.ModelTheory.GeneratedZFVPTheoryEquivalence
+module
+
+public import ZFVP.Syntax.NaturalLKCompleteness
+public import ZFVP.ModelTheory.GeneratedZFVPTheoryEquivalence
+
+@[expose] public section
 
 /-! A primitive recursive proof checker for the full generated ZF+VP theory. -/
 

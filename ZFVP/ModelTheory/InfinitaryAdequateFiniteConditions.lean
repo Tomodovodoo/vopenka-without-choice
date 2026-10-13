@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryAdequateFreezing
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateFreezing
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

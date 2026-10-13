@@ -1,4 +1,8 @@
-import ZFVP.Syntax.BoundedCertificateCases
+module
+
+public import ZFVP.Syntax.BoundedCertificateCases
+
+@[expose] public section
 
 /-! Bounded formula codes are minimal among families closed inside a coding support. -/
 

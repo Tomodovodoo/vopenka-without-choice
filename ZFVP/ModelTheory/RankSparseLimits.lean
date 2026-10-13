@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TransitiveZFSparsePair
-import ZFVP.ModelTheory.TransitiveZFLimitColumns
-import ZFVP.ModelTheory.WoodinSparseDirectBase
+module
+
+public import ZFVP.ModelTheory.TransitiveZFSparsePair
+public import ZFVP.ModelTheory.TransitiveZFLimitColumns
+public import ZFVP.ModelTheory.WoodinSparseDirectBase
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

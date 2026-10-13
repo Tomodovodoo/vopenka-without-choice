@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinNormalizationRuleRankAgreement
-import ZFVP.ModelTheory.WoodinSourceEndpointAgreement
+module
+
+public import ZFVP.ModelTheory.WoodinNormalizationRuleRankAgreement
+public import ZFVP.ModelTheory.WoodinSourceEndpointAgreement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

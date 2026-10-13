@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalModelSchemas
+module
+
+public import ZFVP.ModelTheory.InternalModelSchemas
+
+@[expose] public section
 
 /-! An internal ZF-model predicate with full internally coded axiom schemes. -/
 

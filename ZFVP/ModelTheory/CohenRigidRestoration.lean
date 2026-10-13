@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CohenRigidConsistency
-import ZFVP.ModelTheory.WoodinSparseRestorationTheorem
+module
+
+public import ZFVP.ModelTheory.CohenRigidConsistency
+public import ZFVP.ModelTheory.WoodinSparseRestorationTheorem
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory Entailment

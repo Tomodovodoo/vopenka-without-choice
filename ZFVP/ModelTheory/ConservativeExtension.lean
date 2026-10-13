@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.EndExtensionBasics
+module
+
+public import ZFVP.ModelTheory.EndExtensionBasics
+
+@[expose] public section
 
 /-! Classes, rather classless models and conservative end extensions, following Enayat's
 "Models of set theory: extensions and dead ends" (Definitions 2.4(c) and 5.2(a)(b)).

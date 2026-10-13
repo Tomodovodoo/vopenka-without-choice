@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.NormalizedTwoStepForcing
-import ZFVP.ModelTheory.EquivalentSuborderFilterEquiv
+module
+
+public import ZFVP.ModelTheory.NormalizedTwoStepForcing
+public import ZFVP.ModelTheory.EquivalentSuborderFilterEquiv
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

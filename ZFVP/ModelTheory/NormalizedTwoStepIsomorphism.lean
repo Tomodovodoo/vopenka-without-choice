@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.NormalizedIsomorphismPools
+module
+
+public import ZFVP.ModelTheory.NormalizedIsomorphismPools
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

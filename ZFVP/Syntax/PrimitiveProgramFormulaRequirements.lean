@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramSyntaxRequirements
+module
+
+public import ZFVP.Syntax.PrimitiveProgramSyntaxRequirements
+
+@[expose] public section
 
 /-! A course-of-values program deciding validity and bound-variable requirements
 for natural membership-formula codes, including nonstandard internal inputs. -/

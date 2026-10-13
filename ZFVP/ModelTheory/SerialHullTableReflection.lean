@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ReflectedPairWitnessTable
-import ZFVP.ModelTheory.SerialForcingWitnessTables
+module
+
+public import ZFVP.ModelTheory.ReflectedPairWitnessTable
+public import ZFVP.ModelTheory.SerialForcingWitnessTables
+
+@[expose] public section
 
 /-! Witness tables reflect dense initial and successor witnesses into an elementary hull. -/
 

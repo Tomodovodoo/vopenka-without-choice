@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseCanonicalLift
-import ZFVP.ModelTheory.RetractionIsomorphism
+module
+
+public import ZFVP.ModelTheory.WoodinSparseCanonicalLift
+public import ZFVP.ModelTheory.RetractionIsomorphism
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

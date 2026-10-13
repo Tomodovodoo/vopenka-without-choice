@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingSmallFunctions
-import ZFVP.SetTheory.AtomicCheckNames
-import ZFVP.SetTheory.AtomicEqualityTransitivity
+module
+
+public import ZFVP.ModelTheory.ForcingSmallFunctions
+public import ZFVP.SetTheory.AtomicCheckNames
+public import ZFVP.SetTheory.AtomicEqualityTransitivity
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryGenericSubstitution
+module
+
+public import ZFVP.ModelTheory.InfinitaryGenericSubstitution
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

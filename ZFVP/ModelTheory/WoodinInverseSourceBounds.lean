@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinInverseIteration
-import ZFVP.ModelTheory.InverseSourceCollapseBounds
-import ZFVP.SetTheory.ChoicelessInaccessibleRank
+module
+
+public import ZFVP.ModelTheory.WoodinInverseIteration
+public import ZFVP.ModelTheory.InverseSourceCollapseBounds
+public import ZFVP.SetTheory.ChoicelessInaccessibleRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

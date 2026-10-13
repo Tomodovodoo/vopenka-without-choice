@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlRubinRows
+module
+
+public import ZFVP.ModelTheory.SchmerlRubinRows
+
+@[expose] public section
 
 /-! Every valid countable bounded history has a next Rubin row. The
 successor case uses the constructed omitting successor; the limit case

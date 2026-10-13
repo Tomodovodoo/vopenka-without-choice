@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramFormulaTransformEquations
-import ZFVP.Syntax.PrimitiveProgramListLength
+module
+
+public import ZFVP.Syntax.PrimitiveProgramFormulaTransformEquations
+public import ZFVP.Syntax.PrimitiveProgramListLength
+
+@[expose] public section
 
 /-! Explicit capture-avoiding bound-variable renaming from an internally finite index table. -/
 

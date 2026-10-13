@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.FaithfulExtension
-import ZFVP.SetTheory.NaturalPredecessor
+module
+
+public import ZFVP.ModelTheory.FaithfulExtension
+public import ZFVP.SetTheory.NaturalPredecessor
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

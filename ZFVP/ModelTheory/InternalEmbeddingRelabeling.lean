@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CodedBinaryIsomorphism
-import ZFVP.SetTheory.CountableSets
-import ZFVP.SetTheory.InternalWellFounded
+module
+
+public import ZFVP.ModelTheory.CodedBinaryIsomorphism
+public import ZFVP.SetTheory.CountableSets
+public import ZFVP.SetTheory.InternalWellFounded
+
+@[expose] public section
 
 /-! Relabel an internal extension so the image of each old element becomes
 that element itself. The remaining elements receive tags outside the old carrier. -/

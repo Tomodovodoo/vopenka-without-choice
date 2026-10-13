@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ProjectionQuotient
-import ZFVP.ModelTheory.ForcingIsomorphismTransport
+module
+
+public import ZFVP.ModelTheory.ProjectionQuotient
+public import ZFVP.ModelTheory.ForcingIsomorphismTransport
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

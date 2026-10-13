@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinCanonicalBoundInverseClosureDecided
-import ZFVP.ModelTheory.WoodinCanonicalBoundInverseStepDecided
-import ZFVP.ModelTheory.WoodinStageInduction
+module
+
+public import ZFVP.ModelTheory.WoodinCanonicalBoundInverseClosureDecided
+public import ZFVP.ModelTheory.WoodinCanonicalBoundInverseStepDecided
+public import ZFVP.ModelTheory.WoodinStageInduction
+
+@[expose] public section
 
 /-! The outer transfinite induction over the ambient stage index.
 

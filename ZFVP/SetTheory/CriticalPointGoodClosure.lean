@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.GoodClosureTransfer
-import ZFVP.SetTheory.GoodLimitPointClass
-import ZFVP.ModelTheory.CriticalSequence
-import ZFVP.ModelTheory.KunenUnconditional
+module
+
+public import ZFVP.SetTheory.GoodClosureTransfer
+public import ZFVP.SetTheory.GoodLimitPointClass
+public import ZFVP.ModelTheory.CriticalSequence
+public import ZFVP.ModelTheory.KunenUnconditional
+
+@[expose] public section
 
 /-! The critical point of a Vopenka embedding is a good closure point.
 

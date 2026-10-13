@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinNormalizationInverseCoherence
-import ZFVP.ModelTheory.WoodinRawInverseSingular
+module
+
+public import ZFVP.ModelTheory.WoodinNormalizationInverseCoherence
+public import ZFVP.ModelTheory.WoodinRawInverseSingular
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

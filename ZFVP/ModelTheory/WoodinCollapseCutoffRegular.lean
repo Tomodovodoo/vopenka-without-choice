@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinCollapseBoundedFunctions
-import ZFVP.SetTheory.EndExtensionFinite
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseBoundedFunctions
+public import ZFVP.SetTheory.EndExtensionFinite
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

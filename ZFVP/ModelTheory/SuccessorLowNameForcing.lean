@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SuccessorLowNameCovariance
-import ZFVP.ModelTheory.BoundedSetForcingCovariance
+module
+
+public import ZFVP.ModelTheory.SuccessorLowNameCovariance
+public import ZFVP.ModelTheory.BoundedSetForcingCovariance
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
@@ -32,7 +36,7 @@ theorem finiteRankEmbedding_successorNameForcing_iff {η ζ f P Q R S p : V}
     (hierarchy_mem (hs _ (ordinalAdd_omega_gt η))) hpA hrA
     (successorLowNameSet_mem_finite_rank hη hP) (successorLowNameSet_subset_hierarchy hη hP)
     ((hierarchy_transitive _).mem_trans hp hpA) φ v hv
-  rwa [hfP, hfR, hD] at ht
+  simpa only [hfP, hfR, hD] using ht
 
 variable {Ω Ξ θ ξ f p : V} [IsOrdinal θ] [IsOrdinal ξ]
 local notation "P" => (forcingCodeP (woodinSparseStageCode θ)) ‘ θ

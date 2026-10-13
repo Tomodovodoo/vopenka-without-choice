@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.TransitiveZFArithmeticEquiv
-import ZFVP.ModelTheory.SetProgramGodelSentence
-import ZFVP.ModelTheory.InternalTheoryProofSoundness
-import ZFVP.ModelTheory.InternalZFExternal
+module
+
+public import ZFVP.ModelTheory.TransitiveZFArithmeticEquiv
+public import ZFVP.ModelTheory.SetProgramGodelSentence
+public import ZFVP.ModelTheory.InternalTheoryProofSoundness
+public import ZFVP.ModelTheory.InternalZFExternal
+
+@[expose] public section
 
 /-! A transitive model of all internal ZF+VP axioms yields the explicit Goedel sentence. -/
 

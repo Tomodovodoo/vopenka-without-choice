@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SigmaThreeSaturatedCollapseNames
-import ZFVP.ModelTheory.LevyHartogsName
-import ZFVP.ModelTheory.SaturatedHartogsFormulas
+module
+
+public import ZFVP.ModelTheory.SigmaThreeSaturatedCollapseNames
+public import ZFVP.ModelTheory.LevyHartogsName
+public import ZFVP.ModelTheory.SaturatedHartogsFormulas
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

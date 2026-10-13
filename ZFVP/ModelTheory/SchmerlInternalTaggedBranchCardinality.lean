@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlInternalTaggedTrees
-import ZFVP.ModelTheory.SchmerlInternalWeakSpecialization
-import ZFVP.SetTheory.RegularUnions
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalTaggedTrees
+public import ZFVP.ModelTheory.SchmerlInternalWeakSpecialization
+public import ZFVP.SetTheory.RegularUnions
+
+@[expose] public section
 
 /-! The actual branch set of a tagged tree sum has the expected internal bound. -/
 

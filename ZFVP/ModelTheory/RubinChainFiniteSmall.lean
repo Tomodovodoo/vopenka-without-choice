@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.RubinChainDiamond
-import ZFVP.ModelTheory.FiniteStageAmbient
-import ZFVP.ModelTheory.SchmerlInfinitaryFiniteSmall
+module
+
+public import ZFVP.ModelTheory.RubinChainDiamond
+public import ZFVP.ModelTheory.FiniteStageAmbient
+public import ZFVP.ModelTheory.SchmerlInfinitaryFiniteSmall
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

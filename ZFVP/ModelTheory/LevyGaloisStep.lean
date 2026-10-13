@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LevySupportGalois
-import ZFVP.ModelTheory.LevyBooleanAntichainSupport
+module
+
+public import ZFVP.ModelTheory.LevySupportGalois
+public import ZFVP.ModelTheory.LevyBooleanAntichainSupport
+
+@[expose] public section
 
 /-! The Galois step of Karagila-Schilhan Lemma 9.3 for the Levy collapse, without a rigidity
 hypothesis on the conditions of the names.

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SerialForcingCandidates
+module
+
+public import ZFVP.ModelTheory.SerialForcingCandidates
+
+@[expose] public section
 
 /-! Set-sized tables of initial and successor forcing witnesses. These tables
 can be parameters of a small elementary hull; their definitions do not choose
@@ -8,10 +12,10 @@ namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]
 
-private def serialWitnessForces {n : ℕ} (φ : SetTheorySemisentence n) (P R p b : V) : Prop :=
+def serialWitnessForces {n : ℕ} (φ : SetTheorySemisentence n) (P R p b : V) : Prop :=
   p ∈ forcingFormula P R φ b
 
-private instance forcingMembership_definable {n : ℕ} (φ : SetTheorySemisentence n) :
+instance serialWitnessForces_definable {n : ℕ} (φ : SetTheorySemisentence n) :
     ℒₛₑₜ-relation₄[V] (serialWitnessForces φ) := by
   exact Language.Definable.substitution
     (f := ![(fun v : Fin 4 → V ↦ v 0), (fun v ↦ v 1), (fun v ↦ v 0),

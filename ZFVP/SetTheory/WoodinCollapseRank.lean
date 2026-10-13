@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinCollapse
-import ZFVP.SetTheory.RegularSmallRank
+module
+
+public import ZFVP.SetTheory.WoodinCollapse
+public import ZFVP.SetTheory.RegularSmallRank
+
+@[expose] public section
 
 namespace ZFVP
 

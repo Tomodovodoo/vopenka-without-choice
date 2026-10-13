@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.RatherClasslessOfRubin
-import ZFVP.ModelTheory.RubinDefinableFilters
-import ZFVP.ModelTheory.SchmerlInfinitaryClassConstruction
-import ZFVP.ModelTheory.SchmerlSelectedDomains
+module
+
+public import ZFVP.ModelTheory.RatherClasslessOfRubin
+public import ZFVP.ModelTheory.RubinDefinableFilters
+public import ZFVP.ModelTheory.SchmerlInfinitaryClassConstruction
+public import ZFVP.ModelTheory.SchmerlSelectedDomains
+
+@[expose] public section
 
 /-! Bridges from the corrected Rubin model produced by Stage 1 to the actual
 ranked trees and branch bounds used by the specialization construction. -/

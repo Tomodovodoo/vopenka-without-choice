@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ElementaryMap
-import ZFVP.SetTheory.DiamondOmegaOne
-import Mathlib.Data.Fintype.Order
-import Mathlib.SetTheory.Cardinal.Arithmetic
+module
+
+public import ZFVP.SetTheory.ElementaryMap
+public import ZFVP.SetTheory.DiamondOmegaOne
+public import Mathlib.Data.Fintype.Order
+public import Mathlib.SetTheory.Cardinal.Arithmetic
+
+@[expose] public section
 
 /-! # Vocabulary for an ω₁-chain of subsets of a fixed model
 

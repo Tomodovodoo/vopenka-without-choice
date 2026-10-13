@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.PrefixFreeNullCoverPadding
-import ZFVP.SetTheory.RealNullPadding
-import ZFVP.SetTheory.BinaryClosedImages
-import ZFVP.SetTheory.CantorInfiniteOnes
+module
+
+public import ZFVP.SetTheory.PrefixFreeNullCoverPadding
+public import ZFVP.SetTheory.RealNullPadding
+public import ZFVP.SetTheory.BinaryClosedImages
+public import ZFVP.SetTheory.CantorInfiniteOnes
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

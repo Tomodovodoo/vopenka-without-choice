@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CorrectRankStages
-import ZFVP.SetTheory.PiOneHierarchy
+module
+
+public import ZFVP.SetTheory.CorrectRankStages
+public import ZFVP.SetTheory.PiOneHierarchy
+
+@[expose] public section
 
 /-! Pi_n definitions of recursively correct rank stages for n at least two. -/
 

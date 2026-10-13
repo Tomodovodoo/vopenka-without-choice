@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ClassForcingDenseWitnessBounds
+module
+
+public import ZFVP.ModelTheory.ClassForcingDenseWitnessBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

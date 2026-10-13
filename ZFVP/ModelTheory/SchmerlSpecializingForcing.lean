@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlAronszajnCore
-import ZFVP.ModelTheory.SchmerlSpecializationCCC
+module
+
+public import ZFVP.ModelTheory.SchmerlAronszajnCore
+public import ZFVP.ModelTheory.SchmerlSpecializationCCC
+
+@[expose] public section
 
 /-! The corrected ccc weak-specialization forcing: construct the branch markers,
 strictly specialize the Aronszajn core, and extend its coloring along the tails.

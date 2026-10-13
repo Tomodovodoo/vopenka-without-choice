@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseGeneric
-import ZFVP.ModelTheory.EquivalentRetractionGenericContext
-import ZFVP.ModelTheory.ForcingProjectionComposition
+module
+
+public import ZFVP.ModelTheory.WoodinSparseGeneric
+public import ZFVP.ModelTheory.EquivalentRetractionGenericContext
+public import ZFVP.ModelTheory.ForcingProjectionComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

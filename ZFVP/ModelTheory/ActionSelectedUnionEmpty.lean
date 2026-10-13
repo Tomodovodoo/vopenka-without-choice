@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SelectedUnionEmpty
-import ZFVP.ModelTheory.ProjectionNameTransport
+module
+
+public import ZFVP.ModelTheory.SelectedUnionEmpty
+public import ZFVP.ModelTheory.ProjectionNameTransport
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

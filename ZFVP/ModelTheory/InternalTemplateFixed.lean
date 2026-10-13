@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.InternalReindexSubstitution
-import ZFVP.ModelTheory.InternalPrefixProgram
-import ZFVP.ModelTheory.InternalStandardRequirements
-import ZFVP.Syntax.PrimitiveProgramTemplate
+module
+
+public import ZFVP.ModelTheory.InternalReindexSubstitution
+public import ZFVP.ModelTheory.InternalPrefixProgram
+public import ZFVP.ModelTheory.InternalStandardRequirements
+public import ZFVP.Syntax.PrimitiveProgramTemplate
+
+@[expose] public section
 
 /-! Fixed template formulas are unchanged by adjoining unused internal parameters. -/
 

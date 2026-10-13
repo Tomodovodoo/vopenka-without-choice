@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CohenNameSupport
-import ZFVP.SetTheory.SymmetryAction
+module
+
+public import ZFVP.SetTheory.CohenNameSupport
+public import ZFVP.SetTheory.SymmetryAction
+
+@[expose] public section
 
 namespace ZFVP
 

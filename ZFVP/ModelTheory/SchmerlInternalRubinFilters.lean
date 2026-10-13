@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SchmerlInternalRubinChain
-import ZFVP.ModelTheory.SchmerlInternalDiamondCarrierGuess
-import ZFVP.ModelTheory.SchmerlInternalNondefinabilityClub
-import ZFVP.ModelTheory.SchmerlInternalIncompatibilityClub
-import ZFVP.ModelTheory.SchmerlCodedInitialSegmentSeparator
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalRubinChain
+public import ZFVP.ModelTheory.SchmerlInternalDiamondCarrierGuess
+public import ZFVP.ModelTheory.SchmerlInternalNondefinabilityClub
+public import ZFVP.ModelTheory.SchmerlInternalIncompatibilityClub
+public import ZFVP.ModelTheory.SchmerlCodedInitialSegmentSeparator
+
+@[expose] public section
 
 /-! The second Rubin clause for the constructed actual chain. Diamond
 meets three actual clubs, and the preserved guess contradicts the coded

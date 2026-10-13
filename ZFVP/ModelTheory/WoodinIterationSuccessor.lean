@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingSuccessorCode
-import ZFVP.ModelTheory.WoodinSuccessorInvariant
+module
+
+public import ZFVP.ModelTheory.ForcingSuccessorCode
+public import ZFVP.ModelTheory.WoodinSuccessorInvariant
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

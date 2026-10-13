@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CodedProofBooleanInversion
-import ZFVP.ModelTheory.StandardSentenceCoding
-import ZFVP.Syntax.FormulaSubstitutionNegation
+module
+
+public import ZFVP.ModelTheory.CodedProofBooleanInversion
+public import ZFVP.ModelTheory.StandardSentenceCoding
+public import ZFVP.Syntax.FormulaSubstitutionNegation
+
+@[expose] public section
 
 /-! Internally coded Henkin conditions and their decision and fresh-witness
 extensions. Consistency means that the condition's negation has no finite proof. -/

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CohenLeastSupportPool
-import ZFVP.ModelTheory.CohenAssignmentRanges
-import ZFVP.SetTheory.CohenSupportTransport
+module
+
+public import ZFVP.ModelTheory.CohenLeastSupportPool
+public import ZFVP.ModelTheory.CohenAssignmentRanges
+public import ZFVP.SetTheory.CohenSupportTransport
+
+@[expose] public section
 
 namespace ZFVP
 

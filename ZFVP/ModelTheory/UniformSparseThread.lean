@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.UniformSparsePair
-import ZFVP.SetTheory.SparseThreadPresentation
+module
+
+public import ZFVP.ModelTheory.UniformSparsePair
+public import ZFVP.SetTheory.SparseThreadPresentation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

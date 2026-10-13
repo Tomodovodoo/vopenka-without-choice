@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.PrunedTrees
+module
+
+public import ZFVP.SetTheory.PrunedTrees
+
+@[expose] public section
 
 /-! The trees of sequences with a prescribed bit at a prescribed position. Their bodies are the
 reals with that bit, and they are positive (density one half). -/

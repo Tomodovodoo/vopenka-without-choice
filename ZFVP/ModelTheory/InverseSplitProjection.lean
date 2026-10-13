@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InverseLimitProjection
-import ZFVP.ModelTheory.LimitSplitProjection
-import ZFVP.ModelTheory.QuotientSplitProjection
+module
+
+public import ZFVP.ModelTheory.InverseLimitProjection
+public import ZFVP.ModelTheory.LimitSplitProjection
+public import ZFVP.ModelTheory.QuotientSplitProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

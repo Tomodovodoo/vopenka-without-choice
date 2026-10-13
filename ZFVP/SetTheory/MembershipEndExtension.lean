@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedFormulas
-import ZFVP.SetTheory.MembershipIso
+module
+
+public import ZFVP.SetTheory.BoundedFormulas
+public import ZFVP.SetTheory.MembershipIso
+
+@[expose] public section
 
 namespace ZFVP
 

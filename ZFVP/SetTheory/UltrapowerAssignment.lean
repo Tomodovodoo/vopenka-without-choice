@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.UltrapowerStage
-import ZFVP.Syntax.Assignments
-import ZFVP.Syntax.TermSubstitutionSemantics
+module
+
+public import ZFVP.SetTheory.UltrapowerStage
+public import ZFVP.Syntax.Assignments
+public import ZFVP.Syntax.TermSubstitutionSemantics
+
+@[expose] public section
 
 /-! Assignments for the internal ultrapower. An assignment for the ultrapower of `A` by an index
 set `P` is a function `b ∈ (A ^ P) ^ n`, that is `n` many functions on `P`. Evaluating all of them

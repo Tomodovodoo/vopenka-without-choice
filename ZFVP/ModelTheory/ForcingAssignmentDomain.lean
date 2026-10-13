@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingSequenceEvaluationGraph
+module
+
+public import ZFVP.ModelTheory.ForcingSequenceEvaluationGraph
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

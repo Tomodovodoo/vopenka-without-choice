@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.MagidorVopenkaForward
-import ZFVP.ModelTheory.GenericRankEmbeddingZFRestriction
+module
+
+public import ZFVP.SetTheory.MagidorVopenkaForward
+public import ZFVP.ModelTheory.GenericRankEmbeddingZFRestriction
+
+@[expose] public section
 
 /-! Pi-one Vopenka from high-critical small embeddings between C(1) ranks modeling ZF.
 Arbitrary-language elementarity uses end-extension absoluteness, with no syntax dictionary bound.

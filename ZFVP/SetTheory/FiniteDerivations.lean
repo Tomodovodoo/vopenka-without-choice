@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.PathDependentChoice
+module
+
+public import ZFVP.SetTheory.PathDependentChoice
+
+@[expose] public section
 
 /-! Internally finite derivations whose rules refer to earlier conclusions. -/
 

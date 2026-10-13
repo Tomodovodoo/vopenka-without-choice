@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ClassForcingTowerSubsetStabilization
-import ZFVP.ModelTheory.ClassForcingDenseChoices
+module
+
+public import ZFVP.ModelTheory.ClassForcingTowerSubsetStabilization
+public import ZFVP.ModelTheory.ClassForcingDenseChoices
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

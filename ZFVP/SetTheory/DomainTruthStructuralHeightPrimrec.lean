@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.FormulaStructuralHeight
-import ZFVP.Syntax.PartialTruthDomains
-import Mathlib.Computability.Primrec.Basic
+module
+
+public import ZFVP.SetTheory.FormulaStructuralHeight
+public import ZFVP.Syntax.PartialTruthDomains
+public import Mathlib.Computability.Primrec.Basic
+
+@[expose] public section
 
 /-! A primitive recursive height bound for the uniform partial-truth formulas. -/
 

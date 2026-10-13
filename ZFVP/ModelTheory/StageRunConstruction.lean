@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.StageClubs
-import ZFVP.ModelTheory.StageDefinability
-import ZFVP.ModelTheory.FiniteStageSuccessorPoint
+module
+
+public import ZFVP.ModelTheory.StageClubs
+public import ZFVP.ModelTheory.StageDefinability
+public import ZFVP.ModelTheory.FiniteStageSuccessorPoint
+
+@[expose] public section
 
 /-! # The ω₁-length recursion of Stage 1 of Enayat's Appendix
 
@@ -83,7 +87,7 @@ theorem isPredIndex_succIndex (α : OmegaOne) : IsPredIndex α (succIndex α) :=
 
 /-- `ω₁` has a least index, since it is well founded and nonempty. -/
 theorem exists_leastIndex : ∃ α : OmegaOne, ¬ ∃ β, β < α := by
-  obtain ⟨α, -, hα⟩ := (IsWellFounded.wf (α := OmegaOne) (r := (· < ·))).has_min Set.univ
+  obtain ⟨α, -, hα⟩ := (wellFounded_lt (α := OmegaOne)).has_min Set.univ
     ⟨Classical.arbitrary OmegaOne, Set.mem_univ _⟩
   exact ⟨α, fun h ↦ hα h.choose (Set.mem_univ _) h.choose_spec⟩
 

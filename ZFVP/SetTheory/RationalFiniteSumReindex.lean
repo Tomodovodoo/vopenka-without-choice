@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RationalFiniteSumMasks
-import ZFVP.SetTheory.InfiniteDependentChoice
+module
+
+public import ZFVP.SetTheory.RationalFiniteSumMasks
+public import ZFVP.SetTheory.InfiniteDependentChoice
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

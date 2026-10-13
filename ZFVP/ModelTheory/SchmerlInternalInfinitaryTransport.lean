@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalInfinitaryTruth
-import ZFVP.ModelTheory.SchmerlInternalQAbsoluteness
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalInfinitaryTruth
+public import ZFVP.ModelTheory.SchmerlInternalQAbsoluteness
+
+@[expose] public section
 
 /-! Old internally coded infinitary models retain their full truth graph
 under an omega-one-preserving membership end extension. -/

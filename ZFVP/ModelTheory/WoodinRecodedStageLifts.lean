@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinRecodedStageRules
-import ZFVP.ModelTheory.WoodinRecodedSuccessorLift
-import ZFVP.ModelTheory.WoodinRecodedInverseLift
-import ZFVP.ModelTheory.WoodinRecodedDirectLift
+module
+
+public import ZFVP.ModelTheory.WoodinRecodedStageRules
+public import ZFVP.ModelTheory.WoodinRecodedSuccessorLift
+public import ZFVP.ModelTheory.WoodinRecodedInverseLift
+public import ZFVP.ModelTheory.WoodinRecodedDirectLift
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

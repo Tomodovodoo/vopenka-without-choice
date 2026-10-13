@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SigmaThreeWoodinEndpointRecursion
-import ZFVP.ModelTheory.WoodinEndpointLocalAbsoluteness
-import ZFVP.ModelTheory.DeltaOneWoodinSourceCode
+module
+
+public import ZFVP.ModelTheory.SigmaThreeWoodinEndpointRecursion
+public import ZFVP.ModelTheory.WoodinEndpointLocalAbsoluteness
+public import ZFVP.ModelTheory.DeltaOneWoodinSourceCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

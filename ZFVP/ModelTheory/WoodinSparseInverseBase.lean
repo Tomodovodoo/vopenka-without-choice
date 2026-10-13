@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinRecodedInverse
-import ZFVP.SetTheory.SparseInverseLimit
-import ZFVP.SetTheory.WoodinSparseBounds
+module
+
+public import ZFVP.ModelTheory.WoodinRecodedInverse
+public import ZFVP.SetTheory.SparseInverseLimit
+public import ZFVP.SetTheory.WoodinSparseBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

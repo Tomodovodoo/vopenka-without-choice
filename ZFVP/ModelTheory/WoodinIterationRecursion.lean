@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinStageRule
-import ZFVP.ModelTheory.WoodinIterationHistory
-import ZFVP.SetTheory.UniformRecursion
+module
+
+public import ZFVP.ModelTheory.WoodinStageRule
+public import ZFVP.ModelTheory.WoodinIterationHistory
+public import ZFVP.SetTheory.UniformRecursion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

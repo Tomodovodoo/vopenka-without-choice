@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.DeltaOneWoodinSeedMatrix
-import ZFVP.SetTheory.WoodinSeedSystem
+module
+
+public import ZFVP.SetTheory.DeltaOneWoodinSeedMatrix
+public import ZFVP.SetTheory.WoodinSeedSystem
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

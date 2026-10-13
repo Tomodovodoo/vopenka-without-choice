@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedWeaklyRubinRealization
-import ZFVP.ModelTheory.SchmerlCodedDeadEndLanguageTransport
-import ZFVP.ModelTheory.SchmerlCodedDeadEndEquality
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedWeaklyRubinRealization
+public import ZFVP.ModelTheory.SchmerlCodedDeadEndLanguageTransport
+public import ZFVP.ModelTheory.SchmerlCodedDeadEndEquality
+
+@[expose] public section
 
 /-! The forcing construction returns an actual coded expansion, independently
 of any chosen syntax fragment. Fragment truth is a consequence of its semantics. -/

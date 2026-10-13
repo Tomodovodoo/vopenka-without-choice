@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.Collection
-import ZFVP.SetTheory.NaturalIteration
+module
+
+public import ZFVP.SetTheory.Collection
+public import ZFVP.SetTheory.NaturalIteration
+
+@[expose] public section
 
 namespace ZFVP
 

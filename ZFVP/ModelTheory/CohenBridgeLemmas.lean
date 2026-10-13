@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.ProductGenericConverseEquiv
-import ZFVP.ModelTheory.QuotientEquivalence
-import ZFVP.ModelTheory.LevyProductEquivalence
-import ZFVP.ModelTheory.CohenGenericReals
-import ZFVP.SetTheory.BaireCore
-import ZFVP.SetTheory.EndExtensionLevyCollapse
+module
+
+public import ZFVP.ModelTheory.ProductGenericConverseEquiv
+public import ZFVP.ModelTheory.QuotientEquivalence
+public import ZFVP.ModelTheory.LevyProductEquivalence
+public import ZFVP.ModelTheory.CohenGenericReals
+public import ZFVP.SetTheory.BaireCore
+public import ZFVP.SetTheory.EndExtensionLevyCollapse
+
+@[expose] public section
 
 /-! Compatibility of the model equivalences with names and values of the intermediate models:
 the two-step equivalence on lifted names, the quotient equivalence on values of the subalgebra

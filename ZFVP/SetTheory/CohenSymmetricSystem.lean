@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.CohenAutomorphisms
-import ZFVP.SetTheory.FiniteStabilizerFilter
-import ZFVP.SetTheory.FiniteSetUnions
+module
+
+public import ZFVP.SetTheory.CohenAutomorphisms
+public import ZFVP.SetTheory.FiniteStabilizerFilter
+public import ZFVP.SetTheory.FiniteSetUnions
+
+@[expose] public section
 
 namespace ZFVP
 

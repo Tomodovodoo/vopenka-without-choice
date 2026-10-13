@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SaturatedHartogsSpecification
-import ZFVP.ModelTheory.CanonicalNormalizationForcing
-import ZFVP.ModelTheory.ForcingSemanticConsequence
+module
+
+public import ZFVP.ModelTheory.SaturatedHartogsSpecification
+public import ZFVP.ModelTheory.CanonicalNormalizationForcing
+public import ZFVP.ModelTheory.ForcingSemanticConsequence
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

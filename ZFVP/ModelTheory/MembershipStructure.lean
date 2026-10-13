@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ConstantStructure
-import ZFVP.Syntax.FoundationEquality
+module
+
+public import ZFVP.ModelTheory.ConstantStructure
+public import ZFVP.Syntax.FoundationEquality
+
+@[expose] public section
 
 /-! An internal code for the equality and membership structure on a set. -/
 

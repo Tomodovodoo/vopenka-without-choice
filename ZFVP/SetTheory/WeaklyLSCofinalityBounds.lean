@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.WeaklyLSNoSmallSurjection
-import ZFVP.SetTheory.SmallSurjectionProduct
-import ZFVP.SetTheory.Cofinality
-import ZFVP.SetTheory.SmallCollapseUnionSurjection
+module
+
+public import ZFVP.SetTheory.WeaklyLSNoSmallSurjection
+public import ZFVP.SetTheory.SmallSurjectionProduct
+public import ZFVP.SetTheory.Cofinality
+public import ZFVP.SetTheory.SmallCollapseUnionSurjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

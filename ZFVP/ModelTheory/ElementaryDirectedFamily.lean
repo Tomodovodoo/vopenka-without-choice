@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ElementaryParameterClosure
+module
+
+public import ZFVP.ModelTheory.ElementaryParameterClosure
+
+@[expose] public section
 
 /-! Directedness and containment witnesses reflect to the intersection of an
 internal family with an elementary submodel of a transitive set. -/

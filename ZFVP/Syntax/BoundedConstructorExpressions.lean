@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedCodeExpressions
-import ZFVP.Syntax.MembershipAtomicSyntax
+module
+
+public import ZFVP.SetTheory.BoundedCodeExpressions
+public import ZFVP.Syntax.MembershipAtomicSyntax
+
+@[expose] public section
 
 /-! The concrete syntax-code constructors as boundedly definable expressions. -/
 

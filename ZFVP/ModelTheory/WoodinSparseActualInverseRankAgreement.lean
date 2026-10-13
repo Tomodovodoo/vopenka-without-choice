@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.RankSparseCompletedInverse
-import ZFVP.ModelTheory.WoodinSparseRawInverseDC
+module
+
+public import ZFVP.ModelTheory.RankSparseCompletedInverse
+public import ZFVP.ModelTheory.WoodinSparseRawInverseDC
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

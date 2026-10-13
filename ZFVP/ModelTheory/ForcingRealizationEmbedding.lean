@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingRealization
-import ZFVP.SetTheory.DeltaOneCheckNames
+module
+
+public import ZFVP.ModelTheory.ForcingRealization
+public import ZFVP.SetTheory.DeltaOneCheckNames
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

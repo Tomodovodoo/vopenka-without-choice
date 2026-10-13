@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseRelativeHomogeneity
-import ZFVP.ModelTheory.WoodinSparseSourceCode
+module
+
+public import ZFVP.ModelTheory.WoodinSparseRelativeHomogeneity
+public import ZFVP.ModelTheory.WoodinSparseSourceCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

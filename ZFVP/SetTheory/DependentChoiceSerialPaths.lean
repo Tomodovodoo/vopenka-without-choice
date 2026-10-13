@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.DependentChoicePaths
+module
+
+public import ZFVP.SetTheory.DependentChoicePaths
+
+@[expose] public section
 
 namespace ZFVP
 

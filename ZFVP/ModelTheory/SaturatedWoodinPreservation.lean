@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SaturatedWoodinSuccessor
+module
+
+public import ZFVP.ModelTheory.SaturatedWoodinSuccessor
+
+@[expose] public section
 
 namespace ZFVP
 

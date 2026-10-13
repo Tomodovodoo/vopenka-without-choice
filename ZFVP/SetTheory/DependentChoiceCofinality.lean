@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.DependentChoicePathUnions
-import ZFVP.SetTheory.LeastDependentChoiceFailure
-import ZFVP.SetTheory.FiniteCofinality
+module
+
+public import ZFVP.SetTheory.DependentChoicePathUnions
+public import ZFVP.SetTheory.LeastDependentChoiceFailure
+public import ZFVP.SetTheory.FiniteCofinality
+
+@[expose] public section
 
 /-! Dependent choice at a limit follows from its shorter instances and
 the instance at its cofinality. Hence the least failure is regular. -/

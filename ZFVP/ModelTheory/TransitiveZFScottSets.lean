@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.LeastRankWitnesses
-import ZFVP.ModelTheory.TransitiveZFAbsoluteness
-import ZFVP.ModelTheory.EndExtensionOpenModels
+module
+
+public import ZFVP.SetTheory.LeastRankWitnesses
+public import ZFVP.ModelTheory.TransitiveZFAbsoluteness
+public import ZFVP.ModelTheory.EndExtensionOpenModels
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

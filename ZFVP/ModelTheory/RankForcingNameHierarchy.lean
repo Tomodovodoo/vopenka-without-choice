@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TransitiveZFOrdinalRecursion
-import ZFVP.ModelTheory.TransitiveZFForcingOrders
-import ZFVP.SetTheory.ForcingNameHierarchy
+module
+
+public import ZFVP.ModelTheory.TransitiveZFOrdinalRecursion
+public import ZFVP.ModelTheory.TransitiveZFForcingOrders
+public import ZFVP.SetTheory.ForcingNameHierarchy
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

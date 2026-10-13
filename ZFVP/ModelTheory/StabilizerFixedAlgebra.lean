@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.GeneratedSubalgebra
-import ZFVP.SetTheory.ForcingConditionAction
-import ZFVP.SetTheory.SymmetricSystems
+module
+
+public import ZFVP.ModelTheory.GeneratedSubalgebra
+public import ZFVP.SetTheory.ForcingConditionAction
+public import ZFVP.SetTheory.SymmetricSystems
+
+@[expose] public section
 
 /-! An automorphism of a forcing preorder acts on subsets of the poset by taking images. The
 action commutes with forcing negation and with regular joins, so an automorphism that fixes every

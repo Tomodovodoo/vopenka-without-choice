@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.StandardSentenceCoding
+module
+
+public import ZFVP.ModelTheory.StandardSentenceCoding
+
+@[expose] public section
 
 /-! Standard theory refutations produce internal proof codes once their axioms are represented. -/
 

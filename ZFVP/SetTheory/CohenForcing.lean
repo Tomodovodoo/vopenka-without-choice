@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FinitePartialFunctions
-import ZFVP.SetTheory.FiniteNaturalSets
+module
+
+public import ZFVP.SetTheory.FinitePartialFunctions
+public import ZFVP.SetTheory.FiniteNaturalSets
+
+@[expose] public section
 
 /-! Finite-support Cohen forcing over an internal index set. -/
 

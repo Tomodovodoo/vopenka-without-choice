@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramListLength
+module
+
+public import ZFVP.Syntax.PrimitiveProgramListLength
+
+@[expose] public section
 
 /-! Explicit course-of-values recursion with a reversed table of prior results. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.UniformCollapse
-import ZFVP.SetTheory.UniformFunctionOperations
+module
+
+public import ZFVP.SetTheory.UniformCollapse
+public import ZFVP.SetTheory.UniformFunctionOperations
+
+@[expose] public section
 
 /-! Fixed parameter-free formulas for well-foundedness, extensionality and collapse. -/
 

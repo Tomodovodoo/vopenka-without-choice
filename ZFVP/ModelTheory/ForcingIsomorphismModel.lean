@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ForcingIsomorphismTransport
-import ZFVP.ModelTheory.ProjectionNameTransport
-import ZFVP.SetTheory.MembershipIso
-import ZFVP.SetTheory.HartogsDictionary
-import ZFVP.SetTheory.ElementaryDependentChoice
+module
+
+public import ZFVP.ModelTheory.ForcingIsomorphismTransport
+public import ZFVP.ModelTheory.ProjectionNameTransport
+public import ZFVP.SetTheory.MembershipIso
+public import ZFVP.SetTheory.HartogsDictionary
+public import ZFVP.SetTheory.ElementaryDependentChoice
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

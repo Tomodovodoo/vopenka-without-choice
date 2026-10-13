@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingAutomorphisms
-import ZFVP.SetTheory.NameActionClosure
+module
+
+public import ZFVP.SetTheory.ForcingAutomorphisms
+public import ZFVP.SetTheory.NameActionClosure
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ProtoRankBerkeleyCodedVP
-import ZFVP.Syntax.ZFVPOpenAxiomSet
+module
+
+public import ZFVP.ModelTheory.ProtoRankBerkeleyCodedVP
+public import ZFVP.Syntax.ZFVPOpenAxiomSet
+
+@[expose] public section
 
 /-! Proto rank-Berkeley excludes every internally finite refutation in the coded ZF+VP calculus. -/
 

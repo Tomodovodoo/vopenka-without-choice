@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.LowenheimSkolemCardinals
-import ZFVP.SetTheory.TransitiveCollapseFixation
-import ZFVP.ModelTheory.ElementaryBoundedWitness
+module
+
+public import ZFVP.SetTheory.LowenheimSkolemCardinals
+public import ZFVP.SetTheory.TransitiveCollapseFixation
+public import ZFVP.ModelTheory.ElementaryBoundedWitness
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

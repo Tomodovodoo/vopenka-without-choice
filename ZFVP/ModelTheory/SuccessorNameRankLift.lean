@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SuccessorNameElementaryLift
-import ZFVP.ModelTheory.SuccessorLowNameCoverage
-import ZFVP.SetTheory.MembershipIso
+module
+
+public import ZFVP.ModelTheory.SuccessorNameElementaryLift
+public import ZFVP.ModelTheory.SuccessorLowNameCoverage
+public import ZFVP.SetTheory.MembershipIso
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalNamedConjunction
-import ZFVP.ModelTheory.InternalJointSourceNaming
+module
+
+public import ZFVP.ModelTheory.InternalNamedConjunction
+public import ZFVP.ModelTheory.InternalJointSourceNaming
+
+@[expose] public section
 
 /-! Finite assignments characterize realization of a finite named theory while
 respecting source names and a disjoint family of prescribed names. -/

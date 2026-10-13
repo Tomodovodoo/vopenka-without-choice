@@ -1,4 +1,8 @@
-import PalomarDCBridge.Vocabulary
+module
+
+public import PalomarDCBridge.Vocabulary
+
+@[expose] public section
 
 /-! Independent membership definitions of signed rational quotients, Dedekind reals,
 ordinary interval-cover outer measure, category and the perfect set property.

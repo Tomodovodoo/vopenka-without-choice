@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CriticalLimitCardinal
-import ZFVP.ModelTheory.ShiftedFixedRankEmbedding
-import ZFVP.ModelTheory.RankBerkeleyLeastFailure
+module
+
+public import ZFVP.ModelTheory.CriticalLimitCardinal
+public import ZFVP.ModelTheory.ShiftedFixedRankEmbedding
+public import ZFVP.ModelTheory.RankBerkeleyLeastFailure
+
+@[expose] public section
 
 /-! A critical limit below a C(2) self-embedding rank is nonzero rank-Berkeley. -/
 

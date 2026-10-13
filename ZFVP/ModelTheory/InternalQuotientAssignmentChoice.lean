@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalBinaryQuotientAtoms
-import ZFVP.SetTheory.InternalChoice
+module
+
+public import ZFVP.ModelTheory.InternalBinaryQuotientAtoms
+public import ZFVP.SetTheory.InternalChoice
+
+@[expose] public section
 
 /-! Representative assignments for actual internal quotients. Internal choice
 handles arbitrary index sets, including nonstandard finite variable contexts. -/

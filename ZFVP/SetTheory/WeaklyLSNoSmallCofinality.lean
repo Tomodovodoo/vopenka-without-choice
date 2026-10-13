@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.WeaklyLSNoSmallSurjection
-import ZFVP.SetTheory.SmallSurjectionProduct
-import ZFVP.ModelTheory.ElementaryCofinalProductSurjection
-import ZFVP.ModelTheory.ElementaryParameterClosure
+module
+
+public import ZFVP.SetTheory.WeaklyLSNoSmallSurjection
+public import ZFVP.SetTheory.SmallSurjectionProduct
+public import ZFVP.ModelTheory.ElementaryCofinalProductSurjection
+public import ZFVP.ModelTheory.ElementaryParameterClosure
+
+@[expose] public section
 
 /-! Small sets do not map cofinally into successors of cardinals above a weakly LS cardinal. -/
 

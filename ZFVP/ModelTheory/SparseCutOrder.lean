@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseBaseRecovery
-import ZFVP.SetTheory.ForcingRetractionFixedPoints
+module
+
+public import ZFVP.ModelTheory.WoodinSparseBaseRecovery
+public import ZFVP.SetTheory.ForcingRetractionFixedPoints
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedClassExpansion
-import ZFVP.ModelTheory.SchmerlInfinitaryExpansion
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedClassExpansion
+public import ZFVP.ModelTheory.SchmerlInfinitaryExpansion
+
+@[expose] public section
 
 /-! Actual finite coding for the uniform class and function-tree expansion. -/
 

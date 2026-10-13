@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.NormalizedUnionStrongerBound
-import ZFVP.ModelTheory.WoodinSuccessorLiftCoordinates
-import ZFVP.ModelTheory.WoodinBoundSuccessorStep
+module
+
+public import ZFVP.ModelTheory.NormalizedUnionStrongerBound
+public import ZFVP.ModelTheory.WoodinSuccessorLiftCoordinates
+public import ZFVP.ModelTheory.WoodinBoundSuccessorStep
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

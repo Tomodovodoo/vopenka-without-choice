@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.PiOneRankMarkerClass
-import ZFVP.SetTheory.VopenkaLevyClasses
-import ZFVP.SetTheory.VopenkaZFRanks
-import ZFVP.SetTheory.LeastRankCriterionCode
+module
+
+public import ZFVP.SetTheory.PiOneRankMarkerClass
+public import ZFVP.SetTheory.VopenkaLevyClasses
+public import ZFVP.SetTheory.VopenkaZFRanks
+public import ZFVP.SetTheory.LeastRankCriterionCode
+
+@[expose] public section
 
 /-! Every positive Pi fragment of arbitrary-language VP supplies unbounded internal ZF ranks. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingSmallDCFailure
-import ZFVP.ModelTheory.ForcingSmallInaccessible
-import ZFVP.ModelTheory.WoodinRankDependentChoiceAgreement
+module
+
+public import ZFVP.ModelTheory.ForcingSmallDCFailure
+public import ZFVP.ModelTheory.ForcingSmallInaccessible
+public import ZFVP.ModelTheory.WoodinRankDependentChoiceAgreement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

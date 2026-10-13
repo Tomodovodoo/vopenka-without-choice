@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.Hierarchy
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.SetTheory.Hierarchy
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 /-! Transfinite iteration of a definable operation with unions at limits: `iterate F A 0 = A`,
 `iterate F A (succ ξ) = F (iterate F A ξ)` and `iterate F A λ = ⋃_{ξ < λ} iterate F A ξ` at

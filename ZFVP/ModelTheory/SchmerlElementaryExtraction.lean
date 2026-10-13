@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlWeaklyRubinExtraction
-import ZFVP.ModelTheory.CountabilityEssential
-import ZFVP.ModelTheory.FiniteParameterElementarity
+module
+
+public import ZFVP.ModelTheory.SchmerlWeaklyRubinExtraction
+public import ZFVP.ModelTheory.CountabilityEssential
+public import ZFVP.ModelTheory.FiniteParameterElementarity
+
+@[expose] public section
 
 /-! The size reduction can retain a prescribed countable elementary submodel.
 The hull is first-order elementary and contains the image of that model. -/

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalInstantiation
-import ZFVP.ModelTheory.CodedSequentQuantifiers
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalInstantiation
+public import ZFVP.ModelTheory.CodedSequentQuantifiers
+
+@[expose] public section
 
 /-! Universal distribution and vacuous generalization over internally finite
 contexts. Weakening uses the actual successor-index graph. -/

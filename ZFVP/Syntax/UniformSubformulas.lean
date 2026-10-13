@@ -1,5 +1,9 @@
-import ZFVP.Syntax.Subformulas
-import ZFVP.Syntax.UniformFormulas
+module
+
+public import ZFVP.Syntax.Subformulas
+public import ZFVP.Syntax.UniformFormulas
+
+@[expose] public section
 
 /-! Shared definitions of the context-sensitive subformula relation. -/
 

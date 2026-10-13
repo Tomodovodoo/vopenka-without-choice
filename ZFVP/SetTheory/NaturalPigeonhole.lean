@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.FiniteSets
-import ZFVP.SetTheory.NaturalPredecessor
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.SetTheory.FiniteSets
+public import ZFVP.SetTheory.NaturalPredecessor
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 /-! The pigeonhole principle for internal naturals: an injection between sets with one fresh
 point removed on each side, naturals compare in size exactly by inclusion, and no natural

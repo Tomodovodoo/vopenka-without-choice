@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinInitialStage
-import ZFVP.ModelTheory.SaturatedQuotientClosureTransfer
-import ZFVP.ModelTheory.IdentityQuotientClosureForcing
+module
+
+public import ZFVP.ModelTheory.WoodinInitialStage
+public import ZFVP.ModelTheory.SaturatedQuotientClosureTransfer
+public import ZFVP.ModelTheory.IdentityQuotientClosureForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

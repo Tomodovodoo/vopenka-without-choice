@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramReindexVariables
-import ZFVP.Syntax.PrimitiveProgramRequirementCharacterization
+module
+
+public import ZFVP.Syntax.PrimitiveProgramReindexVariables
+public import ZFVP.Syntax.PrimitiveProgramRequirementCharacterization
+
+@[expose] public section
 
 /-! Renaming preserves the explicit syntax checks at all internal arithmetic inputs. -/
 

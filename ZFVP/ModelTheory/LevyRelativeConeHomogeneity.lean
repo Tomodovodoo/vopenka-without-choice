@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LevyTraceConeIsomorphism
-import ZFVP.ModelTheory.LevyRelativeConeSkeleton
+module
+
+public import ZFVP.ModelTheory.LevyTraceConeIsomorphism
+public import ZFVP.ModelTheory.LevyRelativeConeSkeleton
+
+@[expose] public section
 
 /-! Relative homogeneity of the Boolean completion of the Levy collapse over the algebra of sets
 determined below `ξ`.

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinPrefixCutoff
-import ZFVP.ModelTheory.ForcingSemanticConsequence
+module
+
+public import ZFVP.SetTheory.WoodinPrefixCutoff
+public import ZFVP.ModelTheory.ForcingSemanticConsequence
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

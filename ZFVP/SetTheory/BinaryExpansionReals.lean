@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BinaryExpansionIntervals
-import ZFVP.SetTheory.InternalDedekindReals
+module
+
+public import ZFVP.SetTheory.BinaryExpansionIntervals
+public import ZFVP.SetTheory.InternalDedekindReals
+
+@[expose] public section
 
 /-! Binary expansion as an actual, uniformly definable map to internal Dedekind cuts. -/
 

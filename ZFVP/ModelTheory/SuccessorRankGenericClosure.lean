@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SuccessorRankGenericGraph
+module
+
+public import ZFVP.ModelTheory.SuccessorRankGenericGraph
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

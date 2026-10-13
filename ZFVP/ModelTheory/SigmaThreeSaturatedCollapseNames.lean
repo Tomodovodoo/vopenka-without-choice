@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SigmaThreeSaturatedPrefixNames
-import ZFVP.ModelTheory.SaturatedCollapseBounds
+module
+
+public import ZFVP.ModelTheory.SigmaThreeSaturatedPrefixNames
+public import ZFVP.ModelTheory.SaturatedCollapseBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

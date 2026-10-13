@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RealIntervalSplitting
+module
+
+public import ZFVP.SetTheory.RealIntervalSplitting
+
+@[expose] public section
 
 /-! Total covers on both sides of a rational cut, with a geometric error budget. -/
 

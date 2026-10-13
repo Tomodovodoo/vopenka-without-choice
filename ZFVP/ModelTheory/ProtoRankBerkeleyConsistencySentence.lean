@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.UniformCodedSequentProofs
-import ZFVP.ModelTheory.ProtoRankBerkeleyCodedConsistency
+module
+
+public import ZFVP.ModelTheory.UniformCodedSequentProofs
+public import ZFVP.ModelTheory.ProtoRankBerkeleyCodedConsistency
+
+@[expose] public section
 
 /-! ZF proves the fixed sentence asserting coded consistency from proto rank-Berkeley. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseFiniteSeedCertificate
-import ZFVP.ModelTheory.LimitRankEmbeddingAction
+module
+
+public import ZFVP.ModelTheory.WoodinSparseFiniteSeedCertificate
+public import ZFVP.ModelTheory.LimitRankEmbeddingAction
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

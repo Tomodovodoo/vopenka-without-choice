@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TermModel
-import ZFVP.ModelTheory.StageType
+module
+
+public import ZFVP.ModelTheory.TermModel
+public import ZFVP.ModelTheory.StageType
+
+@[expose] public section
 
 /-! # The omitting types theorem for languages with equality
 

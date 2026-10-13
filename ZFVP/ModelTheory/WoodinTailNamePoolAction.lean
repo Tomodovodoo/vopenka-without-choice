@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinTailNameInverseForcing
-import ZFVP.SetTheory.DefinableGraph
-import ZFVP.ModelTheory.NamedFunctionValues
+module
+
+public import ZFVP.ModelTheory.WoodinTailNameInverseForcing
+public import ZFVP.SetTheory.DefinableGraph
+public import ZFVP.ModelTheory.NamedFunctionValues
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.RubinCofinalOmissionKernel
+module
+
+public import ZFVP.ModelTheory.RubinCofinalOmissionKernel
+
+@[expose] public section
 
 /-! The omission kernels for a directly finite family of definable orders.
 Padding the family by tautologies allows the empty coordinate list as well. -/

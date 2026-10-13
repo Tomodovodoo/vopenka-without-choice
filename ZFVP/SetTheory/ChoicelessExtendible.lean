@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CnExtendible
+module
+
+public import ZFVP.SetTheory.CnExtendible
+
+@[expose] public section
 
 /-! Extendibility with a prescribed lower bound on a variable critical point.
 The alpha-relative predicate follows Mohammd's Definition 2.1. -/

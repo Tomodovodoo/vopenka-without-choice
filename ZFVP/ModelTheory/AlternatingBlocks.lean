@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.RubinStage
+module
+
+public import ZFVP.ModelTheory.RubinStage
+
+@[expose] public section
 
 /-! # The alternating quantifier blocks of Enayat's Lemmas A.3 and A.4
 

@@ -1,4 +1,8 @@
-import ZFVP.Syntax.NaturalEncodingInvariance
+module
+
+public import ZFVP.Syntax.NaturalEncodingInvariance
+
+@[expose] public section
 
 /-! Uniform primitive recursive schema compilation for arbitrary finite parameter counts. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ProductForcingEquivalence
-import ZFVP.ModelTheory.DensePreimageGeneric
+module
+
+public import ZFVP.ModelTheory.ProductForcingEquivalence
+public import ZFVP.ModelTheory.DensePreimageGeneric
+
+@[expose] public section
 
 /-! The converse product lemma: if `G₁` is `P₁`-generic over `V` and `H` is generic over `V[G₁]`
 for the check of a ground poset `P₂`, then the pairs `⟨p, q⟩` with `p ∈ G₁` and `q̌ ∈ H` form a

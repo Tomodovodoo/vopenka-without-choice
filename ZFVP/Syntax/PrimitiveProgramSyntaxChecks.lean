@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramFormulaRequirements
-import ZFVP.Syntax.PrimitiveProgramListFold
+module
+
+public import ZFVP.Syntax.PrimitiveProgramFormulaRequirements
+public import ZFVP.Syntax.PrimitiveProgramListFold
+
+@[expose] public section
 
 /-! Explicit Boolean checks for formulas and lists of formulas in a fixed source context. -/
 

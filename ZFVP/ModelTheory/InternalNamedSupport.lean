@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalNamedFiniteRealization
-import ZFVP.SetTheory.FiniteSetUnions
-import ZFVP.Syntax.MembershipSwap
+module
+
+public import ZFVP.ModelTheory.InternalNamedFiniteRealization
+public import ZFVP.SetTheory.FiniteSetUnions
+public import ZFVP.Syntax.MembershipSwap
+
+@[expose] public section
 
 /-! Actual finite name supports and replacement of an unused name's value. -/
 

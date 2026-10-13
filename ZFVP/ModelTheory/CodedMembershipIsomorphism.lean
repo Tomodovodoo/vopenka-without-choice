@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.CodedMembershipEmbedding
-import ZFVP.Syntax.DirectMembershipAtoms
-import ZFVP.Syntax.MembershipSwap
-import ZFVP.SetTheory.InverseFunction
+module
+
+public import ZFVP.ModelTheory.CodedMembershipEmbedding
+public import ZFVP.Syntax.DirectMembershipAtoms
+public import ZFVP.Syntax.MembershipSwap
+public import ZFVP.SetTheory.InverseFunction
+
+@[expose] public section
 
 /-! Internal membership isomorphisms preserve all internally finite
 formulas, by definable induction over the coded formula family. -/

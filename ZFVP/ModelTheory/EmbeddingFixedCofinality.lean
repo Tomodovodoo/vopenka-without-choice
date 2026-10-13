@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.EmbeddingCofinality
+module
+
+public import ZFVP.ModelTheory.EmbeddingCofinality
+
+@[expose] public section
 
 /-! An ordinal with a cofinal omega-sequence of fixed values is fixed. -/
 

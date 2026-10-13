@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseInactive
-import ZFVP.ModelTheory.WoodinSparseQuotientInputs
-import ZFVP.ModelTheory.WoodinSparseSourceCode
+module
+
+public import ZFVP.ModelTheory.WoodinSparseInactive
+public import ZFVP.ModelTheory.WoodinSparseQuotientInputs
+public import ZFVP.ModelTheory.WoodinSparseSourceCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

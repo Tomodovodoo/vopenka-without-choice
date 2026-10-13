@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TwoStepSelectedUnion
-import ZFVP.ModelTheory.LocalSelectedUnionBound
-import ZFVP.ModelTheory.SaturatedWoodinSuccessor
+module
+
+public import ZFVP.ModelTheory.TwoStepSelectedUnion
+public import ZFVP.ModelTheory.LocalSelectedUnionBound
+public import ZFVP.ModelTheory.SaturatedWoodinSuccessor
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

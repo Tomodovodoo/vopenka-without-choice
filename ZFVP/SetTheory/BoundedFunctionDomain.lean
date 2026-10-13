@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedCodingPrimitives
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.SetTheory.BoundedCodingPrimitives
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 /-! A bounded definition of being a function with a specified domain, without a codomain parameter. -/
 

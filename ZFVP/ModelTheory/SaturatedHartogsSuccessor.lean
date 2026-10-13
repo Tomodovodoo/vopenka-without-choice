@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SaturatedHartogsCollapse
-import ZFVP.ModelTheory.SaturatedWoodinSuccessor
-import ZFVP.SetTheory.WoodinNamedPrefixCutoff
-import ZFVP.ModelTheory.ForcingCheckedBounded
+module
+
+public import ZFVP.ModelTheory.SaturatedHartogsCollapse
+public import ZFVP.ModelTheory.SaturatedWoodinSuccessor
+public import ZFVP.SetTheory.WoodinNamedPrefixCutoff
+public import ZFVP.ModelTheory.ForcingCheckedBounded
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.Syntax.EndExtensionMembershipPreimages
+module
+
+public import ZFVP.Syntax.EndExtensionMembershipPreimages
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

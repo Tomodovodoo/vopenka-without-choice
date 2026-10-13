@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinCollapseIterand
-import ZFVP.ModelTheory.ForcingCheckedBounded
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseIterand
+public import ZFVP.ModelTheory.ForcingCheckedBounded
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingSemanticConsequence
-import ZFVP.ModelTheory.CountableZFTransfer
-import ZFVP.SetTheory.BoundedFunctionDomain
-import ZFVP.Syntax.ForcingTranslationSemantics
+module
+
+public import ZFVP.ModelTheory.ForcingSemanticConsequence
+public import ZFVP.ModelTheory.CountableZFTransfer
+public import ZFVP.SetTheory.BoundedFunctionDomain
+public import ZFVP.Syntax.ForcingTranslationSemantics
+
+@[expose] public section
 
 /-! Semantic consequence in every ZF model gives inclusion of forcing truth
 sets over an arbitrary ZF ground model. The consequence hypothesis concerns

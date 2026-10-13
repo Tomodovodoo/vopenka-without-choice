@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.UniformFormulaName
-import ZFVP.SetTheory.UniformFunctionOperations
+module
+
+public import ZFVP.SetTheory.UniformFormulaName
+public import ZFVP.SetTheory.UniformFunctionOperations
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

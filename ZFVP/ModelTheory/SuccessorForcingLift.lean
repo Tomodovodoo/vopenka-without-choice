@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TwoStepStrongerLift
-import ZFVP.ModelTheory.ForcingSplitProjection
+module
+
+public import ZFVP.ModelTheory.TwoStepStrongerLift
+public import ZFVP.ModelTheory.ForcingSplitProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

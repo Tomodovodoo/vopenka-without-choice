@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.CardinalSmallUnions
-import ZFVP.SetTheory.FinitePartialFunctions
-import ZFVP.SetTheory.DependentChoicePathUnions
+module
+
+public import ZFVP.SetTheory.CardinalSmallUnions
+public import ZFVP.SetTheory.FinitePartialFunctions
+public import ZFVP.SetTheory.DependentChoicePathUnions
+
+@[expose] public section
 
 /-! The local collapse of Spoerl Definition 36. The value at (α,η) lies in
 V_(1+η), where the addition is ordinal addition in the stated order. -/

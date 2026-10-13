@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.FaithfulStageCaseTwo
-import ZFVP.ModelTheory.FaithfulStageElementarity
+module
+
+public import ZFVP.ModelTheory.FaithfulStageCaseTwo
+public import ZFVP.ModelTheory.FaithfulStageElementarity
+
+@[expose] public section
 
 /-! Enayat, Theorem 4.4: an actual elementary rank stage and a coded full satisfaction class
 for every proper faithful end extension of arbitrary models of ZF. -/

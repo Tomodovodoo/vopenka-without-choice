@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseCertificateInputs
-import ZFVP.ModelTheory.SparseOrderTableBounds
+module
+
+public import ZFVP.ModelTheory.WoodinSparseCertificateInputs
+public import ZFVP.ModelTheory.SparseOrderTableBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

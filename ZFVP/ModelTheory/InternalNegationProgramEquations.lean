@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalFormulaRequirementEquations
+module
+
+public import ZFVP.ModelTheory.InternalFormulaRequirementEquations
+
+@[expose] public section
 
 /-! The explicit negation program's constructor equations on internal natural codes. -/
 

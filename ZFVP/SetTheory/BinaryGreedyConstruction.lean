@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BinaryExpansionReals
+module
+
+public import ZFVP.SetTheory.BinaryExpansionReals
+
+@[expose] public section
 
 /-! A uniformly definable greedy binary sequence for an internal real cut. -/
 

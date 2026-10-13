@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CountableCohenSystem
-import ZFVP.SetTheory.CohenSetName
+module
+
+public import ZFVP.SetTheory.CountableCohenSystem
+public import ZFVP.SetTheory.CohenSetName
+
+@[expose] public section
 
 /-! Names for the generic subsets of the column set added on each row, and the name of
 the set of all of them. Each row name is fixed by every permutation fixing its row, so

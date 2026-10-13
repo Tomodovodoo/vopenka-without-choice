@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.UsubaEventualEnumeration
-import ZFVP.ModelTheory.ClassForcingTowerChoice
+module
+
+public import ZFVP.ModelTheory.UsubaEventualEnumeration
+public import ZFVP.ModelTheory.ClassForcingTowerChoice
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

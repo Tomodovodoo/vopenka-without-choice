@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.StabilizerFixedAlgebra
-import ZFVP.ModelTheory.SolovaySymmetricContext
-import ZFVP.ModelTheory.SolovayRealCoding
-import ZFVP.ModelTheory.BooleanRealTrace
+module
+
+public import ZFVP.ModelTheory.StabilizerFixedAlgebra
+public import ZFVP.ModelTheory.SolovaySymmetricContext
+public import ZFVP.ModelTheory.SolovayRealCoding
+public import ZFVP.ModelTheory.BooleanRealTrace
+
+@[expose] public section
 
 /-! Supports for the names of the Solovay symmetric extension. Every hereditarily symmetric name
 of the system `O(B, Ṙ)` has a finite set `E` of saturated nice names whose forced stabilizer fixes

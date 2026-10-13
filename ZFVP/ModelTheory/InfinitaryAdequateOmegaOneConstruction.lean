@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryAdequateOmegaOneRecursion
-import ZFVP.ModelTheory.InfinitaryCountableModelCode
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateOmegaOneRecursion
+public import ZFVP.ModelTheory.InfinitaryCountableModelCode
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder
@@ -8,7 +12,7 @@ universe u v
 namespace CountableWeakModelCode
 variable {L : Language.{u}} [L.Eq] [L.Encodable] {S : Set (TaggedFormula L)}
 
-private theorem codeGrowth (hS : S.Countable) (c : CountableWeakModelCode L)
+theorem codeGrowth (hS : S.Countable) (c : CountableWeakModelCode L)
     (hc : c.asWeakModel.Adequate S) :
     ∃ d : CountableWeakModelCode L,
       ∃ e : AdequateOmegaOneNode.Map (S := S) c.asWeakModel d.asWeakModel,
@@ -18,7 +22,7 @@ private theorem codeGrowth (hS : S.Countable) (c : CountableWeakModelCode L)
   intro n φ hφ b hb
   exact hg φ hφ b hb
 
-private theorem codeLimit (N : WeakModel.{u,0} L) (hN : N.Adequate S) :
+theorem codeLimit (N : WeakModel.{u,0} L) (hN : N.Adequate S) :
     ∃ c : CountableWeakModelCode L,
       ∃ e : AdequateOmegaOneNode.Map (S := S) N c.asWeakModel,
         c.asWeakModel.Adequate S ∧ e.FreezesSmallFibers ∧ Function.Surjective e := by

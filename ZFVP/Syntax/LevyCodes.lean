@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedCodes
-import ZFVP.SetTheory.LevyFormulas
+module
+
+public import ZFVP.Syntax.BoundedCodes
+public import ZFVP.SetTheory.LevyFormulas
+
+@[expose] public section
 
 /-! Internal formula-code families at each standard Levy level.
 The construction uses closure under Booleans, bounded quantifiers and the

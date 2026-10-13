@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CriticalStageModels
-import ZFVP.ModelTheory.ElementaryAmbientEmbeddings
+module
+
+public import ZFVP.ModelTheory.CriticalStageModels
+public import ZFVP.ModelTheory.ElementaryAmbientEmbeddings
+
+@[expose] public section
 
 /-! Vopenka for every internal class code in the critical limit model. -/
 

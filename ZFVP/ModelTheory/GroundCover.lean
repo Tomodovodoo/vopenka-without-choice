@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingFunctionValues
-import ZFVP.SetTheory.InverseFunction
-import ZFVP.SetTheory.WellOrderedSurjection
-import ZFVP.SetTheory.WellOrderingChoice
+module
+
+public import ZFVP.ModelTheory.ForcingFunctionValues
+public import ZFVP.SetTheory.InverseFunction
+public import ZFVP.SetTheory.WellOrderedSurjection
+public import ZFVP.SetTheory.WellOrderingChoice
+
+@[expose] public section
 
 /-! The cover property of the ground model: a subset of a checked set of size at most `|P|` in
 the extension is covered by the check of a ground set of size at most `|P × P|`, the set of

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalHenkinNameRenaming
+module
+
+public import ZFVP.ModelTheory.InternalHenkinNameRenaming
+
+@[expose] public section
 
 /-! Every accepted existential receives a fresh natural-name witness at its
 enumerated Henkin stage. -/

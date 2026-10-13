@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlInternalClosedPreservation
-import ZFVP.SetTheory.CountablePartialFunctions
-import ZFVP.SetTheory.HartogsRegularChoice
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalClosedPreservation
+public import ZFVP.SetTheory.CountablePartialFunctions
+public import ZFVP.SetTheory.HartogsRegularChoice
+
+@[expose] public section
 
 /-! The usual forcing of initial segments of a diamond sequence, coded
 inside a ZF model. Conditions are functions of ordinal length below kappa,

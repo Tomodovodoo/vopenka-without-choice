@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingMapExtension
-import ZFVP.SetTheory.ForcingLimitColumns
-import ZFVP.ModelTheory.SuccessorForcingColumns
+module
+
+public import ZFVP.SetTheory.ForcingMapExtension
+public import ZFVP.SetTheory.ForcingLimitColumns
+public import ZFVP.ModelTheory.SuccessorForcingColumns
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

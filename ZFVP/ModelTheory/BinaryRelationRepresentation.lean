@@ -1,4 +1,8 @@
-import ZFVP.Syntax.BinaryRelationSatisfaction
+module
+
+public import ZFVP.Syntax.BinaryRelationSatisfaction
+
+@[expose] public section
 
 /-! A presentation of an external set-language structure by an internal carrier
 and relation, with preservation of all standard first-order formulas. -/

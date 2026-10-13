@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LocalSelectedUnionBound
-import ZFVP.ModelTheory.TwoStepSelectedDescending
+module
+
+public import ZFVP.ModelTheory.LocalSelectedUnionBound
+public import ZFVP.ModelTheory.TwoStepSelectedDescending
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

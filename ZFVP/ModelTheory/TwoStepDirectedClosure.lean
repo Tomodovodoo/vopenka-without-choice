@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcedSequenceBounds
-import ZFVP.SetTheory.ForcingIterandFormula
-import ZFVP.SetTheory.ForcingDirectedClosure
+module
+
+public import ZFVP.ModelTheory.ForcedSequenceBounds
+public import ZFVP.SetTheory.ForcingIterandFormula
+public import ZFVP.SetTheory.ForcingDirectedClosure
+
+@[expose] public section
 
 namespace ZFVP
 

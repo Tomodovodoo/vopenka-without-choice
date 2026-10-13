@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.HODReals
+module
+
+public import ZFVP.SetTheory.HODReals
+
+@[expose] public section
 
 /-! Hereditary ordinal definability of functions. An ordinal definable function whose domain and
 values are hereditarily ordinal definable is itself hereditarily ordinal definable, and a function

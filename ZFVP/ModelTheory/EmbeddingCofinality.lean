@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CriticalPointCardinal
-import ZFVP.SetTheory.Cofinality
+module
+
+public import ZFVP.ModelTheory.CriticalPointCardinal
+public import ZFVP.SetTheory.Cofinality
+
+@[expose] public section
 
 /-! Cofinal graphs transfer by a bounded formula, even for arbitrary set domains. -/
 

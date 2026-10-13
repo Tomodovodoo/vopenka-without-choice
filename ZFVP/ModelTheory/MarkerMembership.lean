@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.NamedMembershipEmbedding
+module
+
+public import ZFVP.ModelTheory.NamedMembershipEmbedding
+
+@[expose] public section
 
 /-! Membership with constants for a base set and one varying distinguished element. -/
 

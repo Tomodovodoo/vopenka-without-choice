@@ -1,7 +1,11 @@
-import ZFVP.Syntax.EndExtensionFormulaSubstitution
-import ZFVP.SetTheory.EndExtensionReplacement
-import ZFVP.ModelTheory.SchmerlInternalInfinitaryTransport
-import ZFVP.ModelTheory.SchmerlInternalSwap
+module
+
+public import ZFVP.Syntax.EndExtensionFormulaSubstitution
+public import ZFVP.SetTheory.EndExtensionReplacement
+public import ZFVP.ModelTheory.SchmerlInternalInfinitaryTransport
+public import ZFVP.ModelTheory.SchmerlInternalSwap
+
+@[expose] public section
 
 /-! Membership end extensions preserve the actual internal substitution
 graphs and image fragments. Recursion uniqueness transports all internal

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinStageRuleClosure
-import ZFVP.ModelTheory.WoodinHistoryQuotientClosure
+module
+
+public import ZFVP.ModelTheory.WoodinStageRuleClosure
+public import ZFVP.ModelTheory.WoodinHistoryQuotientClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

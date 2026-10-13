@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.TransitiveZFCoding
+module
+
+public import ZFVP.ModelTheory.TransitiveZFCoding
+
+@[expose] public section
 
 /-! Formula and assignment constructors commute with inclusion of a transitive ZF model. -/
 

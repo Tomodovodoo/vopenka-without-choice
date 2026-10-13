@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ExtendibilityFailureClass
-import ZFVP.ModelTheory.RankEmbeddingDictionary
+module
+
+public import ZFVP.SetTheory.ExtendibilityFailureClass
+public import ZFVP.ModelTheory.RankEmbeddingDictionary
+
+@[expose] public section
 
 /-! Moving the good closure point class through an elementary embedding between `C(k+2)` rank
 stages.

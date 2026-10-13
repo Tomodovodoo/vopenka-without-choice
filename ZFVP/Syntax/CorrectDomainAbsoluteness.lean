@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CorrectDomains
-import ZFVP.Syntax.LevyCodeAbsoluteness
+module
+
+public import ZFVP.SetTheory.CorrectDomains
+public import ZFVP.Syntax.LevyCodeAbsoluteness
+
+@[expose] public section
 
 /-! Upward and downward preservation at every standard Levy level. -/
 

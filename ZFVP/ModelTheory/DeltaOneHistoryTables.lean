@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.LevyGraphAssembly
-import ZFVP.SetTheory.BoundedValue
-import ZFVP.SetTheory.BoundedRelationRange
-import ZFVP.SetTheory.BoundedSetUnionInter
-import ZFVP.SetTheory.ForcingIterationHistory
+module
+
+public import ZFVP.SetTheory.LevyGraphAssembly
+public import ZFVP.SetTheory.BoundedValue
+public import ZFVP.SetTheory.BoundedRelationRange
+public import ZFVP.SetTheory.BoundedSetUnionInter
+public import ZFVP.SetTheory.ForcingIterationHistory
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalFiniteUltrafilter
-import ZFVP.SetTheory.RegularUnions
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalFiniteUltrafilter
+public import ZFVP.SetTheory.RegularUnions
+
+@[expose] public section
 
 /-! The uniform-ultrafilter argument for internal tree specialization. All
 tuple families, choice functions, and unions are sets of the ground model. -/

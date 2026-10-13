@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinEndpointReduction
-import ZFVP.ModelTheory.ForcingRegularRestriction
+module
+
+public import ZFVP.ModelTheory.WoodinEndpointReduction
+public import ZFVP.ModelTheory.ForcingRegularRestriction
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

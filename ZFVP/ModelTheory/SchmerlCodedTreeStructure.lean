@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlCodedInterpretations
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedInterpretations
+
+@[expose] public section
 
 /-! Order and rank facts for the actual interpreted tree. The proofs use
 standard ZF truth of the represented model, without well-foundedness. -/

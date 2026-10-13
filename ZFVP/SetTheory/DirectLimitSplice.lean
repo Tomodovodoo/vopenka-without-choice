@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingThreadSplice
-import ZFVP.SetTheory.ForcingSectionMaps
+module
+
+public import ZFVP.SetTheory.ForcingThreadSplice
+public import ZFVP.SetTheory.ForcingSectionMaps
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlCodedInclusionLaws
-import ZFVP.ModelTheory.SchmerlAcceptedGuessFamily
-import ZFVP.ModelTheory.SchmerlBoundedRubinSuccessor
-import ZFVP.SetTheory.TransfiniteIteration
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedInclusionLaws
+public import ZFVP.ModelTheory.SchmerlAcceptedGuessFamily
+public import ZFVP.ModelTheory.SchmerlBoundedRubinSuccessor
+public import ZFVP.SetTheory.TransfiniteIteration
+
+@[expose] public section
 
 /-! Definable rows for the actual bounded Rubin recursion. Each row records
 the inclusions and preservation obligations from every earlier stage. -/

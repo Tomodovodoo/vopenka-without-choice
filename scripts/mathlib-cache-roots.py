@@ -7,7 +7,7 @@ sources = [root / 'ZFVP', root / 'vendor/Foundation', *root.glob('Palomar*Bridge
 modules = set()
 for source in sources:
     for path in source.rglob('*.lean'):
-        modules.update(re.findall(r'^import\s+(Mathlib(?:\.[\w.]+)?)\s*$',
+        modules.update(re.findall(r'^(?:public\s+)?(?:meta\s+)?import\s+(?:all\s+)?(Mathlib(?:\.[\w.]+)?)\s*$',
                                   path.read_text(encoding='utf-8'), re.M))
 if not modules:
     raise SystemExit('No mathlib cache roots found.')

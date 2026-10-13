@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.CohenFreshPermutation
-import ZFVP.SetTheory.CohenMembershipProjection
-import ZFVP.SetTheory.CohenConditionTransport
-import ZFVP.SetTheory.CohenAmalgamation
+module
+
+public import ZFVP.SetTheory.CohenFreshPermutation
+public import ZFVP.SetTheory.CohenMembershipProjection
+public import ZFVP.SetTheory.CohenConditionTransport
+public import ZFVP.SetTheory.CohenAmalgamation
+
+@[expose] public section
 
 namespace ZFVP
 

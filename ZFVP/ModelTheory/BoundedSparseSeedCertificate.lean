@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.BoundedCoordinatePool
-import ZFVP.ModelTheory.WoodinSparseSeedRecovery
-import ZFVP.SetTheory.BoundedNameValueTable
+module
+
+public import ZFVP.ModelTheory.BoundedCoordinatePool
+public import ZFVP.ModelTheory.WoodinSparseSeedRecovery
+public import ZFVP.SetTheory.BoundedNameValueTable
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

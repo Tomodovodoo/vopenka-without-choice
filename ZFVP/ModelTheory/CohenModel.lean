@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CohenSetName
-import ZFVP.ModelTheory.SymmetricModelZF
+module
+
+public import ZFVP.SetTheory.CohenSetName
+public import ZFVP.ModelTheory.SymmetricModelZF
+
+@[expose] public section
 
 namespace ZFVP
 

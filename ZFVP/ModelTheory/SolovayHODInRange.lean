@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SolovayRangeInternal
-import ZFVP.SetTheory.NameRank
-import ZFVP.SetTheory.SymmetricPowerName
-import ZFVP.ModelTheory.ForcingFunctionValues
+module
+
+public import ZFVP.ModelTheory.SolovayRangeInternal
+public import ZFVP.SetTheory.NameRank
+public import ZFVP.SetTheory.SymmetricPowerName
+public import ZFVP.ModelTheory.ForcingFunctionValues
+
+@[expose] public section
 
 /-! The reverse inclusion of the paper's Lemma `lem:Solovay-symmetric`.
 

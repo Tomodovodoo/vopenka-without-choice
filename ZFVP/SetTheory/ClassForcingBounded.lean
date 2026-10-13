@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ClassForcingCongruence
-import ZFVP.SetTheory.ForcingBoundedQuantifiers
-import ZFVP.SetTheory.BoundedFormulas
+module
+
+public import ZFVP.SetTheory.ClassForcingCongruence
+public import ZFVP.SetTheory.ForcingBoundedQuantifiers
+public import ZFVP.SetTheory.BoundedFormulas
+
+@[expose] public section
 
 /-! The bounded-quantifier forcing clauses for external formulas and finite assignments. -/
 

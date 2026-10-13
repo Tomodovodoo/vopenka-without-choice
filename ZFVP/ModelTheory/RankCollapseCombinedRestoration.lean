@@ -1,10 +1,14 @@
-import ZFVP.ModelTheory.RankCollapseTwoStepLift
-import ZFVP.ModelTheory.RankCollapseCombinedClosure
-import ZFVP.ModelTheory.RankCollapseCombinedWellOrdering
-import ZFVP.ModelTheory.SuccessorRankGenericBranch
-import ZFVP.ModelTheory.HighCriticalInaccessibleCutoff
-import ZFVP.ModelTheory.SuccessorRankPairPreimages
-import ZFVP.SetTheory.FiniteCofinality
+module
+
+public import ZFVP.ModelTheory.RankCollapseTwoStepLift
+public import ZFVP.ModelTheory.RankCollapseCombinedClosure
+public import ZFVP.ModelTheory.RankCollapseCombinedWellOrdering
+public import ZFVP.ModelTheory.SuccessorRankGenericBranch
+public import ZFVP.ModelTheory.HighCriticalInaccessibleCutoff
+public import ZFVP.ModelTheory.SuccessorRankPairPreimages
+public import ZFVP.SetTheory.FiniteCofinality
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

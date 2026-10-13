@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalSubstitutionTransport
-import ZFVP.ModelTheory.SchmerlInternalQuantifierAxioms
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalSubstitutionTransport
+public import ZFVP.ModelTheory.SchmerlInternalQuantifierAxioms
+
+@[expose] public section
 
 /-! Universal elimination and existential introduction for arbitrary internal
 terms. Substitution lifts under binders and evaluates to the actual witness

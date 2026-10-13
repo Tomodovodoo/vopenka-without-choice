@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalPropositionalDerivation
-import ZFVP.ModelTheory.SchmerlInternalSubstitutionBoolean
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalPropositionalDerivation
+public import ZFVP.ModelTheory.SchmerlInternalSubstitutionBoolean
+
+@[expose] public section
 
 /-! Quantifier deduction operations with constructed countable fragments. -/
 namespace ZFVP.Infinitary.Internal

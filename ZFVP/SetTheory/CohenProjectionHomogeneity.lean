@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.CohenSupportProjection
-import ZFVP.SetTheory.FinitePermutationExtension
-import ZFVP.SetTheory.CohenLeastSupport
-import ZFVP.SetTheory.SymmetricFormulaForcing
+module
+
+public import ZFVP.SetTheory.CohenSupportProjection
+public import ZFVP.SetTheory.FinitePermutationExtension
+public import ZFVP.SetTheory.CohenLeastSupport
+public import ZFVP.SetTheory.SymmetricFormulaForcing
+
+@[expose] public section
 
 namespace ZFVP
 

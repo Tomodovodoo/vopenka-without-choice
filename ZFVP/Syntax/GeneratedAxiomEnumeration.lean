@@ -1,4 +1,8 @@
-import ZFVP.Syntax.MembershipPrimcoding
+module
+
+public import ZFVP.Syntax.MembershipPrimcoding
+
+@[expose] public section
 
 /-! An explicit total enumeration of exactly the generated ZF+VP sentence instances. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.Syntax.ZFOpenAxiomSet
-import ZFVP.Syntax.InternalUniversalClosure
-import ZFVP.ModelTheory.CodedElementaryEmbedding
+module
+
+public import ZFVP.Syntax.ZFOpenAxiomSet
+public import ZFVP.Syntax.InternalUniversalClosure
+public import ZFVP.ModelTheory.CodedElementaryEmbedding
+
+@[expose] public section
 
 /-! Full internally coded ZF models for arbitrary structure codes. The schema
 quantifiers range over all internal formula codes and all internal assignments. -/

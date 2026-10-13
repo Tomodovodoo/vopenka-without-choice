@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SolovayOrbitDefinable
-import ZFVP.ModelTheory.GenericFilterModel
+module
+
+public import ZFVP.ModelTheory.SolovayOrbitDefinable
+public import ZFVP.ModelTheory.GenericFilterModel
+
+@[expose] public section
 
 /-! Filters of the extension on the checked Boolean completion, and what has to be proved to get
 the transfer statement of Karagila and Schilhan, Lemma 9.3 (Jech, Set Theory, Lemma 25.5).

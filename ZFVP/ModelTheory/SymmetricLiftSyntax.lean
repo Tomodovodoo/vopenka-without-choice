@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SymmetricLiftAssignments
-import ZFVP.Syntax.SequenceSupportSyntax
+module
+
+public import ZFVP.ModelTheory.SymmetricLiftAssignments
+public import ZFVP.Syntax.SequenceSupportSyntax
+
+@[expose] public section
 
 /-! Fixing the symbols fixes every internally coded term and formula. -/
 

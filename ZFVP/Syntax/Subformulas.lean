@@ -1,5 +1,9 @@
-import ZFVP.Syntax.FormulaInversion
-import ZFVP.SetTheory.MeasuredWellFounded
+module
+
+public import ZFVP.Syntax.FormulaInversion
+public import ZFVP.SetTheory.MeasuredWellFounded
+
+@[expose] public section
 
 /-! Context-sensitive immediate subformulas decrease the rank of the formula code. -/
 

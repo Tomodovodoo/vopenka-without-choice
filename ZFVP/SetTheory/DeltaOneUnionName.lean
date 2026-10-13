@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ForcingUnionName
-import ZFVP.SetTheory.NameHierarchyTableFormula
-import ZFVP.SetTheory.BoundedAtomicTruth
-import ZFVP.Syntax.BoundedTruthClauses
+module
+
+public import ZFVP.SetTheory.ForcingUnionName
+public import ZFVP.SetTheory.NameHierarchyTableFormula
+public import ZFVP.SetTheory.BoundedAtomicTruth
+public import ZFVP.Syntax.BoundedTruthClauses
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

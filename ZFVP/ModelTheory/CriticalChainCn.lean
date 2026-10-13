@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.RelativeSigmaCorrectness
+module
+
+public import ZFVP.ModelTheory.RelativeSigmaCorrectness
+
+@[expose] public section
 
 /-! Internal C(n) in the critical limit is characterized by relative correctness at a critical stage. -/
 

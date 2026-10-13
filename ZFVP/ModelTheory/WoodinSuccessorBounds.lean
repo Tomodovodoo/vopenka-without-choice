@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSuccessorInvariant
-import ZFVP.ModelTheory.WoodinPrefixRankTransfer
-import ZFVP.SetTheory.TwoStepRankBounds
+module
+
+public import ZFVP.ModelTheory.WoodinSuccessorInvariant
+public import ZFVP.ModelTheory.WoodinPrefixRankTransfer
+public import ZFVP.SetTheory.TwoStepRankBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

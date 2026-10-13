@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.BinaryRelationStructure
-import ZFVP.Syntax.MembershipSatisfaction
+module
+
+public import ZFVP.ModelTheory.BinaryRelationStructure
+public import ZFVP.Syntax.MembershipSatisfaction
+
+@[expose] public section
 
 /-! Satisfaction for a coded arbitrary binary relation agrees with ordinary
 first-order evaluation on its represented carrier. -/

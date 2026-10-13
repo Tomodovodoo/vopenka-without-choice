@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinRecursionHistory
+module
+
+public import ZFVP.ModelTheory.WoodinRecursionHistory
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

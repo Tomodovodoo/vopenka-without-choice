@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.FiniteRankLiftChecks
-import ZFVP.ModelTheory.CriticalPoint
+module
+
+public import ZFVP.ModelTheory.FiniteRankLiftChecks
+public import ZFVP.ModelTheory.CriticalPoint
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

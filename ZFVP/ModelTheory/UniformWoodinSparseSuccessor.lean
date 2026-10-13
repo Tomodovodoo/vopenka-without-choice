@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.UniformSparseNormalizedTwoStep
-import ZFVP.ModelTheory.WoodinSparseInitial
-import ZFVP.ModelTheory.WoodinSparseSuccessor
-import ZFVP.ModelTheory.WoodinRecursionUniform
-import ZFVP.SetTheory.UniformCodingUniverse
+module
+
+public import ZFVP.ModelTheory.UniformSparseNormalizedTwoStep
+public import ZFVP.ModelTheory.WoodinSparseInitial
+public import ZFVP.ModelTheory.WoodinSparseSuccessor
+public import ZFVP.ModelTheory.WoodinRecursionUniform
+public import ZFVP.SetTheory.UniformCodingUniverse
+
+@[expose] public section
 
 /-! Uniform formulas for the actual initial and successor carrier and order.
 These definitions are total, including outside the valid iteration regime. -/

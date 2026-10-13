@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ProjectionFactorization
-import ZFVP.ModelTheory.ForcingClosedSequences
-import ZFVP.ModelTheory.ForcingDependentChoiceTransfer
-import ZFVP.SetTheory.ElementaryDependentChoice
-import ZFVP.ModelTheory.SeparativeModel
+module
+
+public import ZFVP.ModelTheory.ProjectionFactorization
+public import ZFVP.ModelTheory.ForcingClosedSequences
+public import ZFVP.ModelTheory.ForcingDependentChoiceTransfer
+public import ZFVP.SetTheory.ElementaryDependentChoice
+public import ZFVP.ModelTheory.SeparativeModel
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

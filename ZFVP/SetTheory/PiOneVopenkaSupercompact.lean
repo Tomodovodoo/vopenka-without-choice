@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.PiOneVopenkaMagidorUnconditional
-import ZFVP.SetTheory.MagidorVopenkaForward
+module
+
+public import ZFVP.SetTheory.PiOneVopenkaMagidorUnconditional
+public import ZFVP.SetTheory.MagidorVopenkaForward
+
+@[expose] public section
 
 /-! # Bagaria's Theorem 4.3(2) at `n = 1`, both directions
 

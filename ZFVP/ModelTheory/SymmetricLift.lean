@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SymmetricModelGraph
-import ZFVP.ModelTheory.TransitiveZFSymmetricMap
+module
+
+public import ZFVP.ModelTheory.SymmetricModelGraph
+public import ZFVP.ModelTheory.TransitiveZFSymmetricMap
+
+@[expose] public section
 
 /-! The restriction of the forcing lift is a function belonging to the symmetric model. -/
 

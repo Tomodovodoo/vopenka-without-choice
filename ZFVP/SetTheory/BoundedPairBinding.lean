@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BoundedCodingPrimitives
+module
+
+public import ZFVP.SetTheory.BoundedCodingPrimitives
+
+@[expose] public section
 
 /-! Components of a Kuratowski pair can be bound using only membership bounds. -/
 

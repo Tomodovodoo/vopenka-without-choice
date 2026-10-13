@@ -1,4 +1,8 @@
-import ZFVP.Syntax.Satisfaction
+module
+
+public import ZFVP.Syntax.Satisfaction
+
+@[expose] public section
 
 /-! Constructor equations for the internal satisfaction step. -/
 

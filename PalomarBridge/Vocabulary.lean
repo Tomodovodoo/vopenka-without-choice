@@ -1,4 +1,8 @@
-import Mathlib.Data.Fin.VecNotation
+module
+
+public import Mathlib.Data.Fin.VecNotation
+
+@[expose] public section
 
 /-!
 Independent statement vocabulary for Theorem B. The only import is Mathlib.

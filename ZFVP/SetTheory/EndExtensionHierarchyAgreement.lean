@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.EndExtensionSubsetCoding
-import ZFVP.SetTheory.Hierarchy
+module
+
+public import ZFVP.SetTheory.EndExtensionSubsetCoding
+public import ZFVP.SetTheory.Hierarchy
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RankMarkerStructures
-import ZFVP.ModelTheory.DerivedUltrafilterComplete
+module
+
+public import ZFVP.SetTheory.RankMarkerStructures
+public import ZFVP.ModelTheory.DerivedUltrafilterComplete
+
+@[expose] public section
 
 /-! The direct VP rank argument supplies a measurable ordinal satisfying the ZF rank criterion. -/
 

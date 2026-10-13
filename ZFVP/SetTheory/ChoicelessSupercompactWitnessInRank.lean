@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ChoicelessSupercompactAbsoluteness
+module
+
+public import ZFVP.SetTheory.ChoicelessSupercompactAbsoluteness
+
+@[expose] public section
 
 /-! A supercompactness witness can be read inside a lower-correct rank
 without requiring external correctness of its target height. -/

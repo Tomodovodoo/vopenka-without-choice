@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.TwoStepDenseImage
+module
+
+public import ZFVP.ModelTheory.TwoStepDenseImage
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

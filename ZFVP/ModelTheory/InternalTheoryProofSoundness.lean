@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalTheoryProofProgram
-import ZFVP.Syntax.ClosedFormulaFreeDomain
+module
+
+public import ZFVP.ModelTheory.InternalTheoryProofProgram
+public import ZFVP.Syntax.ClosedFormulaFreeDomain
+
+@[expose] public section
 
 /-! Soundness of complete internally coded proofs from the generated ZF+VP axioms. -/
 

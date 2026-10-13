@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.LevyCollapseChainCondition
-import ZFVP.SetTheory.MaximalAntichains
+module
+
+public import ZFVP.SetTheory.LevyCollapseChainCondition
+public import ZFVP.SetTheory.MaximalAntichains
+
+@[expose] public section
 
 /-! Antichains of the Levy collapse at a measurable ordinal have size below `κ`, so their
 supports are bounded below `κ`. -/

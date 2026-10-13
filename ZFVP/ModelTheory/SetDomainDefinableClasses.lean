@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RankZermelo
+module
+
+public import ZFVP.SetTheory.RankZermelo
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

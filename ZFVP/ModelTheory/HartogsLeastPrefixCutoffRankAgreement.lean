@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.RankHartogsRestorationThreshold
-import ZFVP.ModelTheory.StrictHartogsCutoffTransfer
+module
+
+public import ZFVP.ModelTheory.RankHartogsRestorationThreshold
+public import ZFVP.ModelTheory.StrictHartogsCutoffTransfer
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

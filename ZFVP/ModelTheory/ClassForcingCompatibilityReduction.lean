@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ClassForcingPretameness
-import ZFVP.ModelTheory.ProjectionQuotient
-import ZFVP.SetTheory.ForcingSeparativeOrder
+module
+
+public import ZFVP.ModelTheory.ClassForcingPretameness
+public import ZFVP.ModelTheory.ProjectionQuotient
+public import ZFVP.SetTheory.ForcingSeparativeOrder
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

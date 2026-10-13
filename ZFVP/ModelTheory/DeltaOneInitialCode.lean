@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.DeltaOneForcingCodeNext
-import ZFVP.ModelTheory.WoodinIterationInitial
+module
+
+public import ZFVP.ModelTheory.DeltaOneForcingCodeNext
+public import ZFVP.ModelTheory.WoodinIterationInitial
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

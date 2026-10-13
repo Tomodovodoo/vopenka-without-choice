@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LanguageCode
+module
+
+public import ZFVP.ModelTheory.LanguageCode
+
+@[expose] public section
 
 /-! Internal structures for arbitrary set-sized first-order languages. -/
 

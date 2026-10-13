@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BinaryRealEnvelope
-import ZFVP.SetTheory.BinaryRealNullImages
+module
+
+public import ZFVP.SetTheory.BinaryRealEnvelope
+public import ZFVP.SetTheory.BinaryRealNullImages
+
+@[expose] public section
 
 /-! Actual G-delta null-excess envelopes on the real unit interval. -/
 

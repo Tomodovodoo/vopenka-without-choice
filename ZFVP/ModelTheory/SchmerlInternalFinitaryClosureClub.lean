@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalCarrierAgreementClub
-import ZFVP.ModelTheory.SchmerlInternalCodedHullClosure
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalCarrierAgreementClub
+public import ZFVP.ModelTheory.SchmerlInternalCodedHullClosure
+
+@[expose] public section
 
 /-! An actual club closed under a countable family of operations on all
 internally finite tuples. No standardness assumption on omega is used. -/

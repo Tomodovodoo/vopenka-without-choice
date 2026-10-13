@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryAdequateOmegaOneExtension
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateOmegaOneExtension
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder
@@ -15,7 +19,7 @@ variable {L : Language.{u}} [L.Eq] [L.Encodable] {S : Set (TaggedFormula L)}
     ∃ c : Code, ∃ e : Map (S := S) N (realize c),
       (realize c).Adequate S ∧ e.FreezesSmallFibers ∧ Function.Surjective e)
 
-private noncomputable def nextNode (j : OmegaOne)
+noncomputable def nextNode (j : OmegaOne)
     (H : ∀ i, i < j → AdequateOmegaOneNode realize S) : AdequateOmegaOneNode realize S := by
   classical
   exact if h : ∀ i (hi : i < j), Fits base i (fun k hk ↦ H k (hk.trans hi)) (H i hi) then
@@ -25,18 +29,18 @@ private noncomputable def nextNode (j : OmegaOne)
 /-- Well-founded recursion into one fixed type of code records. The fallback
 branch is never used on the recursively constructed history. -/
 noncomputable def construction : OmegaOne → AdequateOmegaOneNode realize S :=
-  (IsWellFounded.wf (α := OmegaOne) (r := (· < ·))).fix (nextNode base hbase grow recode)
+  (wellFounded_lt (α := OmegaOne)).fix (nextNode base hbase grow recode)
 
 private theorem construction_eq (j : OmegaOne) :
     construction base hbase grow recode j = nextNode base hbase grow recode j
       (fun i _ ↦ construction base hbase grow recode i) :=
-  (IsWellFounded.wf (α := OmegaOne) (r := (· < ·))).fix_eq _ j
+  (wellFounded_lt (α := OmegaOne)).fix_eq _ j
 
 theorem construction_fits (j : OmegaOne) :
     Fits base j (fun i _ ↦ construction base hbase grow recode i)
       (construction base hbase grow recode j) := by
   classical
-  induction j using (IsWellFounded.wf (α := OmegaOne) (r := (· < ·))).induction with
+  induction j using (wellFounded_lt (α := OmegaOne)).induction with
   | h j ih =>
     rw [construction_eq base hbase grow recode j]
     have hh : ∀ i (hi : i < j), Fits base i

@@ -1,5 +1,9 @@
-import ZFVP.Syntax.MembershipEncodingRewriting
-import ZFVP.Syntax.PrefixTuples
+module
+
+public import ZFVP.Syntax.MembershipEncodingRewriting
+public import ZFVP.Syntax.PrefixTuples
+
+@[expose] public section
 
 /-! Standard parameter tuples and the prefix renamings used by the schema compiler. -/
 

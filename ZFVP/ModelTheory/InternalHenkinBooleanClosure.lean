@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalHenkinAcceptance
+module
+
+public import ZFVP.ModelTheory.InternalHenkinAcceptance
+
+@[expose] public section
 
 /-! Boolean truth and invariance under finite context extension for the
 completed internal Henkin diagram. -/

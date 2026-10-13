@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.UsubaIterationRecursion
-import ZFVP.SetTheory.ClassForcingCodePrefixes
+module
+
+public import ZFVP.ModelTheory.UsubaIterationRecursion
+public import ZFVP.SetTheory.ClassForcingCodePrefixes
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

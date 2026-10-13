@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryGenericWeakExtension
-import ZFVP.ModelTheory.InfinitaryGenericParameterizedFreezing
+module
+
+public import ZFVP.ModelTheory.InfinitaryGenericWeakExtension
+public import ZFVP.ModelTheory.InfinitaryGenericParameterizedFreezing
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

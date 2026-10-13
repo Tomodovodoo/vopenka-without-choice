@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalCodedSyntaxCountable
-import ZFVP.ModelTheory.SchmerlInternalCodedTarskiVaught
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalCodedSyntaxCountable
+public import ZFVP.ModelTheory.SchmerlInternalCodedTarskiVaught
+
+@[expose] public section
 
 /-! One internally chosen graph supplies function values and both kinds
 of satisfaction witnesses for every internally finite formula and tuple. -/

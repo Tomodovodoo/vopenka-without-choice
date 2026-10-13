@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlInternalSubstitution
-import ZFVP.ModelTheory.SchmerlInternalQuantifierAxioms
-import ZFVP.Syntax.FormulaSubstitutionComposition
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalSubstitution
+public import ZFVP.ModelTheory.SchmerlInternalQuantifierAxioms
+public import ZFVP.Syntax.FormulaSubstitutionComposition
+
+@[expose] public section
 
 /-! Syntactic substitution identities for internal infinitary codes. The
 induction includes every internal binder depth and conjunction index. -/

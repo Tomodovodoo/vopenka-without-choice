@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TransportedTwoStepSequence
-import ZFVP.ModelTheory.TwoStepLocalUnionBound
+module
+
+public import ZFVP.ModelTheory.TransportedTwoStepSequence
+public import ZFVP.ModelTheory.TwoStepLocalUnionBound
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

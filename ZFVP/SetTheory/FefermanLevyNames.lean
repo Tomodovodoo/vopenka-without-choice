@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.FefermanLevyFilter
-import ZFVP.SetTheory.HereditarySymmetry
-import ZFVP.SetTheory.SymmetricSequenceNames
-import ZFVP.SetTheory.SymmetryAction
+module
+
+public import ZFVP.SetTheory.FefermanLevyFilter
+public import ZFVP.SetTheory.HereditarySymmetry
+public import ZFVP.SetTheory.SymmetricSequenceNames
+public import ZFVP.SetTheory.SymmetryAction
+
+@[expose] public section
 
 /-! Hereditarily symmetric names in the Feferman-Levy system: the nice names for reals of
 each stage, the name of the set of their values, the name of the sequence of these sets,

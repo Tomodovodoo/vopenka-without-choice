@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ClassForcingTowerGeneric
-import ZFVP.SetTheory.ClassForcingTowerNames
-import ZFVP.ModelTheory.DenseEmbeddingTransfer
-import ZFVP.ModelTheory.ForcingGenericInclusion
+module
+
+public import ZFVP.ModelTheory.ClassForcingTowerGeneric
+public import ZFVP.SetTheory.ClassForcingTowerNames
+public import ZFVP.ModelTheory.DenseEmbeddingTransfer
+public import ZFVP.ModelTheory.ForcingGenericInclusion
+
+@[expose] public section
 
 namespace ZFVP
 

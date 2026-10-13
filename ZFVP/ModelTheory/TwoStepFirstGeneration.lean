@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TwoStepRealization
-import ZFVP.ModelTheory.ForcingRealizationGeneration
+module
+
+public import ZFVP.ModelTheory.TwoStepRealization
+public import ZFVP.ModelTheory.ForcingRealizationGeneration
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

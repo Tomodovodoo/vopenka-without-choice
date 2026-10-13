@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SerialEvaluatedHull
-import ZFVP.ModelTheory.SerialHullTableReflection
-import ZFVP.SetTheory.SingularWeaklyLSHull
-import ZFVP.SetTheory.FiniteCollapseRank
+module
+
+public import ZFVP.ModelTheory.SerialEvaluatedHull
+public import ZFVP.ModelTheory.SerialHullTableReflection
+public import ZFVP.SetTheory.SingularWeaklyLSHull
+public import ZFVP.SetTheory.FiniteCollapseRank
+
+@[expose] public section
 
 /-! Usuba Proposition 3.6, the dependent-choice conclusion. A singular weakly
 LS cardinal supplies a hull containing every finite collapse condition. Bounded

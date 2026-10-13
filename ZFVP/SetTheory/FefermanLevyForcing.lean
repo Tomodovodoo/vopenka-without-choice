@@ -1,9 +1,13 @@
-import ZFVP.SetTheory.ColumnPermutations
-import ZFVP.SetTheory.FinitePartialFunctions
-import ZFVP.SetTheory.NaturalIteration
-import ZFVP.SetTheory.Hartogs
-import ZFVP.SetTheory.CheckNames
-import ZFVP.SetTheory.WellOrderingChoice
+module
+
+public import ZFVP.SetTheory.ColumnPermutations
+public import ZFVP.SetTheory.FinitePartialFunctions
+public import ZFVP.SetTheory.NaturalIteration
+public import ZFVP.SetTheory.Hartogs
+public import ZFVP.SetTheory.CheckNames
+public import ZFVP.SetTheory.WellOrderingChoice
+
+@[expose] public section
 
 /-! The Feferman-Levy forcing: the finite-support product of the collapses of a sequence
 of cardinals to omega. Column `m` collapses `flCardinal m`, the Hartogs number of the

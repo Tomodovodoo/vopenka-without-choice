@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedFixedPoints
-import ZFVP.Syntax.CodingSupportSyntax
+module
+
+public import ZFVP.Syntax.BoundedFixedPoints
+public import ZFVP.Syntax.CodingSupportSyntax
+
+@[expose] public section
 
 /-! The entire internal bounded-syntax family has a Sigma-one set definition. -/
 

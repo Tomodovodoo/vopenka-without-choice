@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedFunctionCandidates
-import ZFVP.ModelTheory.SchmerlCodedFunctionTransport
-import ZFVP.SetTheory.EndExtensionHierarchyAgreement
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedFunctionCandidates
+public import ZFVP.ModelTheory.SchmerlCodedFunctionTransport
+public import ZFVP.SetTheory.EndExtensionHierarchyAgreement
+
+@[expose] public section
 
 /-! Preserved selected branches recover original-language definitions of
 the exact full function candidates appearing in the uniform sentence. -/

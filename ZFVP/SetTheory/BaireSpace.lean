@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BaireCore
+module
+
+public import ZFVP.SetTheory.BaireCore
+
+@[expose] public section
 
 /-! The manuscript's Baire-space convention, interpreted inside arbitrary ZF models.
 The natural numbers, function graphs, trees and countable covers are all internal.

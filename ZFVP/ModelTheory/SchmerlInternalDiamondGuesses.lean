@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalDiamondFusion
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalDiamondFusion
+
+@[expose] public section
 
 /-! Densely below a condition forcing clubhood, a condition appends the
 exact decided subset at an index which it forces into the named club. -/

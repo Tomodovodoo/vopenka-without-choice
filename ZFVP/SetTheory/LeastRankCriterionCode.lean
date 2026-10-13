@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.UniquePiWitnessCodes
-import ZFVP.SetTheory.VopenkaZFRanks
-import ZFVP.SetTheory.BoundedRankCriterionWitnesses
+module
+
+public import ZFVP.SetTheory.UniquePiWitnessCodes
+public import ZFVP.SetTheory.VopenkaZFRanks
+public import ZFVP.SetTheory.BoundedRankCriterionWitnesses
+
+@[expose] public section
 
 /-! A Pi_1 code for the least rank-criterion height above a given ordinal. -/
 

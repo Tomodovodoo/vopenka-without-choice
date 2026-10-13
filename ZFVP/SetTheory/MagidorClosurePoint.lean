@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.MagidorFailureClassFormula
-import ZFVP.SetTheory.FormulaFamilyRank
+module
+
+public import ZFVP.SetTheory.MagidorFailureClassFormula
+public import ZFVP.SetTheory.FormulaFamilyRank
+
+@[expose] public section
 
 /-! # Closure points of the Magidor failure function
 

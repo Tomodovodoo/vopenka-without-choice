@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.RankHartogs
-import ZFVP.ModelTheory.RankInternalCollapseName
-import ZFVP.ModelTheory.ForcingHartogsName
+module
+
+public import ZFVP.ModelTheory.RankHartogs
+public import ZFVP.ModelTheory.RankInternalCollapseName
+public import ZFVP.ModelTheory.ForcingHartogsName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

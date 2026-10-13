@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingModel
-import ZFVP.ModelTheory.FiniteParameterElementarity
-import ZFVP.SetTheory.ElementaryForcing
+module
+
+public import ZFVP.ModelTheory.ForcingModel
+public import ZFVP.ModelTheory.FiniteParameterElementarity
+public import ZFVP.SetTheory.ElementaryForcing
+
+@[expose] public section
 
 /-! Lifting an elementary ground map whose image filter lies in the target generic. -/
 

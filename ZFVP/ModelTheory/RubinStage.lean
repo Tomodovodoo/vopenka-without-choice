@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ConstantExpansion
-import ZFVP.ModelTheory.OmittingTypes
+module
+
+public import ZFVP.ModelTheory.ConstantExpansion
+public import ZFVP.ModelTheory.OmittingTypes
+
+@[expose] public section
 
 /-! # The successor step of Rubin's construction (Enayat's Lemma A.2)
 

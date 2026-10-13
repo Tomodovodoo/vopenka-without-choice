@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RealCoverUnion
+module
+
+public import ZFVP.SetTheory.RealCoverUnion
+
+@[expose] public section
 
 /-! Rational brackets of arbitrarily small positive width around a Dedekind cut. -/
 

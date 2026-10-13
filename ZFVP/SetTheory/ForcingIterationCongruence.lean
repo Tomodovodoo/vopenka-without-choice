@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ForcingIterationLocality
+module
+
+public import ZFVP.SetTheory.ForcingIterationLocality
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingModel
-import ZFVP.ModelTheory.ForcingQuotientValuation
+module
+
+public import ZFVP.ModelTheory.ForcingModel
+public import ZFVP.ModelTheory.ForcingQuotientValuation
+
+@[expose] public section
 
 /-! Restrict an external generic to a transitive ground model and compare its name quotient. -/
 

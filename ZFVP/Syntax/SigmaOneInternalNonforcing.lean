@@ -1,7 +1,11 @@
-import ZFVP.Syntax.BoundedInternalForcingTable
-import ZFVP.Syntax.InternalForcingTableUniqueness
-import ZFVP.SetTheory.BoundedAtomicTruth
-import ZFVP.SetTheory.BoundedSequenceSupport
+module
+
+public import ZFVP.Syntax.BoundedInternalForcingTable
+public import ZFVP.Syntax.InternalForcingTableUniqueness
+public import ZFVP.SetTheory.BoundedAtomicTruth
+public import ZFVP.SetTheory.BoundedSequenceSupport
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

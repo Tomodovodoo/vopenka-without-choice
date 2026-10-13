@@ -1,6 +1,10 @@
-import ZFVP.Syntax.BoundedNegation
-import ZFVP.SetTheory.ForcingNegationCalculus
-import ZFVP.ModelTheory.ForcingWindowTransfer
+module
+
+public import ZFVP.Syntax.BoundedNegation
+public import ZFVP.SetTheory.ForcingNegationCalculus
+public import ZFVP.ModelTheory.ForcingWindowTransfer
+
+@[expose] public section
 
 /-!
 # The forcing negation clause for internal formula codes

@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramLKCertificate
-import ZFVP.Syntax.PrimitiveProgramListMemberEquations
+module
+
+public import ZFVP.Syntax.PrimitiveProgramLKCertificate
+public import ZFVP.Syntax.PrimitiveProgramListMemberEquations
+
+@[expose] public section
 
 /-! Syntax validity of sequent lists and monotonicity of checked LK rules. -/
 

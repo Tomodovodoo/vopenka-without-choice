@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalProgramListMembership
-import ZFVP.Syntax.PrimitiveProgramListMap
+module
+
+public import ZFVP.ModelTheory.InternalProgramListMembership
+public import ZFVP.Syntax.PrimitiveProgramListMap
+
+@[expose] public section
 
 /-! Internal set semantics of explicit natural-number list maps and concatenation. -/
 

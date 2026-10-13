@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalTaggedBranchCardinality
-import ZFVP.ModelTheory.SchmerlInternalTaggedTreeChecks
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalTaggedBranchCardinality
+public import ZFVP.ModelTheory.SchmerlInternalTaggedTreeChecks
+
+@[expose] public section
 
 /-! One actual forcing extension weakly specializes an internal family of trees
 and preserves the full cofinal branches of every component. -/

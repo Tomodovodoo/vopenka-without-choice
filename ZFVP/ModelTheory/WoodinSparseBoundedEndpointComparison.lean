@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinSparseBoundedForcing
-import ZFVP.ModelTheory.WoodinSparseBoundedNamePrefix
-import ZFVP.ModelTheory.WoodinSparseMarkedRank
-import ZFVP.SetTheory.InaccessibleFunctionClosure
+module
+
+public import ZFVP.ModelTheory.WoodinSparseBoundedForcing
+public import ZFVP.ModelTheory.WoodinSparseBoundedNamePrefix
+public import ZFVP.ModelTheory.WoodinSparseMarkedRank
+public import ZFVP.SetTheory.InaccessibleFunctionClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

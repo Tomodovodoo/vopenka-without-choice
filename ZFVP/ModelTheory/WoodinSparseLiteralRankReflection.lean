@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseRankFormulaReflection
-import ZFVP.SetTheory.TransitiveRestriction
+module
+
+public import ZFVP.ModelTheory.WoodinSparseRankFormulaReflection
+public import ZFVP.SetTheory.TransitiveRestriction
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

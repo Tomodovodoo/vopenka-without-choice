@@ -1,5 +1,9 @@
-import ZFVP.Syntax.MembershipAtomicSemantics
-import ZFVP.SetTheory.LevelOneTruth
+module
+
+public import ZFVP.Syntax.MembershipAtomicSemantics
+public import ZFVP.SetTheory.LevelOneTruth
+
+@[expose] public section
 
 /-! Absoluteness for every internal bounded formula code. -/
 

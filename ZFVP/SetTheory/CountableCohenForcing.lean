@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.CountablePartialFunctionAutomorphisms
-import ZFVP.SetTheory.CohenForcing
-import ZFVP.SetTheory.ProductPermutations
-import ZFVP.SetTheory.SymmetricSystems
-import ZFVP.SetTheory.InternalTranspositions
+module
+
+public import ZFVP.SetTheory.CountablePartialFunctionAutomorphisms
+public import ZFVP.SetTheory.CohenForcing
+public import ZFVP.SetTheory.ProductPermutations
+public import ZFVP.SetTheory.SymmetricSystems
+public import ZFVP.SetTheory.InternalTranspositions
+
+@[expose] public section
 
 /-! Countable-support Cohen forcing over a row set `I` and a column set `J`:
 countable partial functions from `I × J` to `2`, with permutations of `I` acting

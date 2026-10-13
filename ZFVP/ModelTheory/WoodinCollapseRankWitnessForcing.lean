@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinCollapseRankWitness
-import ZFVP.ModelTheory.ForcingModelChecks
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseRankWitness
+public import ZFVP.ModelTheory.ForcingModelChecks
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

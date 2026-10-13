@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TransportedLocalUnionBound
-import ZFVP.ModelTheory.QuotientClosureComposition
-import ZFVP.ModelTheory.ForcingProjectionComposition
+module
+
+public import ZFVP.ModelTheory.TransportedLocalUnionBound
+public import ZFVP.ModelTheory.QuotientClosureComposition
+public import ZFVP.ModelTheory.ForcingProjectionComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

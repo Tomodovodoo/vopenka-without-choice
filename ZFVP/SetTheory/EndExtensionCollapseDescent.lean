@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.SetCodesTransport
+module
+
+public import ZFVP.SetTheory.SetCodesTransport
+
+@[expose] public section
 
 /-! Transitive collapses come back down along a membership end extension.
 

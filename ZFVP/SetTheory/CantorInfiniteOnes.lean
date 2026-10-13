@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.BaireCore
-import ZFVP.SetTheory.LebesgueNull
-import ZFVP.SetTheory.SequenceCollapseAbsorption
-import ZFVP.SetTheory.FiniteCofinality
+module
+
+public import ZFVP.SetTheory.BaireCore
+public import ZFVP.SetTheory.LebesgueNull
+public import ZFVP.SetTheory.SequenceCollapseAbsorption
+public import ZFVP.SetTheory.FiniteCofinality
+
+@[expose] public section
 
 /-! The dense G-delta subset of Cantor space used to represent Baire space.
 All witnesses are internal sets, and no choice principle is assumed.

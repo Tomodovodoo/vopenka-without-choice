@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CardinalSmallComplements
-import ZFVP.SetTheory.WoodinCollapseDense
+module
+
+public import ZFVP.SetTheory.CardinalSmallComplements
+public import ZFVP.SetTheory.WoodinCollapseDense
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.AtomicMembership
-import ZFVP.SetTheory.ForcingNames
+module
+
+public import ZFVP.SetTheory.AtomicMembership
+public import ZFVP.SetTheory.ForcingNames
+
+@[expose] public section
 
 namespace ZFVP
 

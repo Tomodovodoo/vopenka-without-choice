@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.DirectedElementaryUnion
+module
+
+public import ZFVP.ModelTheory.DirectedElementaryUnion
+
+@[expose] public section
 
 /-! The internal critical rank chain is elementary in its union, which models ZF. -/
 

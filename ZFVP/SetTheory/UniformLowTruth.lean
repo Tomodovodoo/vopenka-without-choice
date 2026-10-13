@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.LevelOneTruth
-import ZFVP.Syntax.UniformSatisfaction
+module
+
+public import ZFVP.SetTheory.LevelOneTruth
+public import ZFVP.Syntax.UniformSatisfaction
+
+@[expose] public section
 
 /-! Fixed parameter-free definitions of the bounded and level-one truth evaluators.
 These definitions do not yet certify their Levy complexity. -/

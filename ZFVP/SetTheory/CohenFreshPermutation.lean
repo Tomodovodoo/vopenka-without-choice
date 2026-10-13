@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.FinitePermutationExtension
+module
+
+public import ZFVP.SetTheory.FinitePermutationExtension
+
+@[expose] public section
 
 namespace ZFVP
 

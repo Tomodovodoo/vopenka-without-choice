@@ -1,4 +1,8 @@
-import ZFVP.Syntax.MembershipSwap
+module
+
+public import ZFVP.Syntax.MembershipSwap
+
+@[expose] public section
 
 /-! A standard finite prefix attached to an arbitrary internal finite tuple. -/
 

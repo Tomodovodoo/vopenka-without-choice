@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.BoundedSparseOrderCertificate
-import ZFVP.ModelTheory.SparseOrderIdentification
+module
+
+public import ZFVP.ModelTheory.BoundedSparseOrderCertificate
+public import ZFVP.ModelTheory.SparseOrderIdentification
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

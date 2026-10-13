@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseSuccessorCommonWitness
-import ZFVP.ModelTheory.WoodinSparseCompletedCommonWitness
-import ZFVP.ModelTheory.WoodinSparseLimitAutomorphismSupport
+module
+
+public import ZFVP.ModelTheory.WoodinSparseSuccessorCommonWitness
+public import ZFVP.ModelTheory.WoodinSparseCompletedCommonWitness
+public import ZFVP.ModelTheory.WoodinSparseLimitAutomorphismSupport
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

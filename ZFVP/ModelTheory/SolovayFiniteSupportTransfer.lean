@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SolovayOrbitDefinable
+module
+
+public import ZFVP.ModelTheory.SolovayOrbitDefinable
+
+@[expose] public section
 
 /-! The orbit transfer statement only ever gets used on finite sequences of nice names.
 

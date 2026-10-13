@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseCodedForcingEquality
+module
+
+public import ZFVP.ModelTheory.WoodinSparseCodedForcingEquality
+
+@[expose] public section
 set_option maxHeartbeats 800000
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

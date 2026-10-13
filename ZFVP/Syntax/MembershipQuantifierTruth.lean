@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedQuantifierTruth
-import ZFVP.Syntax.MembershipTruthTables
+module
+
+public import ZFVP.Syntax.BoundedQuantifierTruth
+public import ZFVP.Syntax.MembershipTruthTables
+
+@[expose] public section
 
 /-! Bounded truth-table clauses for quantifiers over a set domain. -/
 

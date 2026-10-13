@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BoundedPairBinding
+module
+
+public import ZFVP.SetTheory.BoundedPairBinding
+
+@[expose] public section
 
 /-! Bounded extraction of six components from a nested Kuratowski tuple. -/
 

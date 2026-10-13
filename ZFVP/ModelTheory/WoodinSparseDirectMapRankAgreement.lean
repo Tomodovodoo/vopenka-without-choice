@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.TransitiveZFMinimalSupport
-import ZFVP.ModelTheory.WoodinNormalizedCodeRankAgreement
-import ZFVP.ModelTheory.RankSparseLimits
-import ZFVP.ModelTheory.WoodinSparseDirectTransport
+module
+
+public import ZFVP.ModelTheory.TransitiveZFMinimalSupport
+public import ZFVP.ModelTheory.WoodinNormalizedCodeRankAgreement
+public import ZFVP.ModelTheory.RankSparseLimits
+public import ZFVP.ModelTheory.WoodinSparseDirectTransport
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.DependentChoiceFailureCertificate
-import ZFVP.SetTheory.WoodinSupercompactInaccessible
-import ZFVP.ModelTheory.SuccessorRankFunctionClosure
+module
+
+public import ZFVP.SetTheory.DependentChoiceFailureCertificate
+public import ZFVP.SetTheory.WoodinSupercompactInaccessible
+public import ZFVP.ModelTheory.SuccessorRankFunctionClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

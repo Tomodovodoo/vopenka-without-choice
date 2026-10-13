@@ -1,13 +1,17 @@
-import ZFVP.ModelTheory.UsubaRestorationDCGain
-import ZFVP.ModelTheory.ForcingPreorderVopenkaLS
-import ZFVP.ModelTheory.UsubaIterationStages
-import ZFVP.ModelTheory.TwoStepIntermediate
-import ZFVP.SetTheory.InjectionRetraction
-import ZFVP.SetTheory.WellOrderedSurjection
-import ZFVP.SetTheory.ElementaryDependentChoice
-import ZFVP.ModelTheory.CriticalPointCardinal
-import ZFVP.SetTheory.EndExtensionHierarchyAgreement
-import ZFVP.ModelTheory.ForcingChoice
+module
+
+public import ZFVP.ModelTheory.UsubaRestorationDCGain
+public import ZFVP.ModelTheory.ForcingPreorderVopenkaLS
+public import ZFVP.ModelTheory.UsubaIterationStages
+public import ZFVP.ModelTheory.TwoStepIntermediate
+public import ZFVP.SetTheory.InjectionRetraction
+public import ZFVP.SetTheory.WellOrderedSurjection
+public import ZFVP.SetTheory.ElementaryDependentChoice
+public import ZFVP.ModelTheory.CriticalPointCardinal
+public import ZFVP.SetTheory.EndExtensionHierarchyAgreement
+public import ZFVP.ModelTheory.ForcingChoice
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

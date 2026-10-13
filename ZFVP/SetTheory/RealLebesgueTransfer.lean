@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.RealBorelMeasurable
-import ZFVP.SetTheory.RealTranslationMeasurable
-import ZFVP.SetTheory.UnitRealNullEnvelope
-import ZFVP.SetTheory.RealUnitCover
-import ZFVP.SetTheory.RealCategoryUnions
+module
+
+public import ZFVP.SetTheory.RealBorelMeasurable
+public import ZFVP.SetTheory.RealTranslationMeasurable
+public import ZFVP.SetTheory.UnitRealNullEnvelope
+public import ZFVP.SetTheory.RealUnitCover
+public import ZFVP.SetTheory.RealCategoryUnions
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

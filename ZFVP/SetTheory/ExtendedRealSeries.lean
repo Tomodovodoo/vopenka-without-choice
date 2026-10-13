@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ExtendedRealAddition
-import ZFVP.SetTheory.RealNullPadding
-import ZFVP.SetTheory.NaturalIteration
-import ZFVP.SetTheory.UniformParameterizedRecursion
+module
+
+public import ZFVP.SetTheory.ExtendedRealAddition
+public import ZFVP.SetTheory.RealNullPadding
+public import ZFVP.SetTheory.NaturalIteration
+public import ZFVP.SetTheory.UniformParameterizedRecursion
+
+@[expose] public section
 
 /-! Extended nonnegative cut sums through the model's whole omega. -/
 

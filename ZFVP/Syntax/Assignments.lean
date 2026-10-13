@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.NaturalPredecessor
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.SetTheory.NaturalPredecessor
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 /-! Quantifiers prepend a value at index zero, matching Foundation's `x :> b`. -/
 

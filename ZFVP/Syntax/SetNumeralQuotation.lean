@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramGeneratedStandard
-import ZFVP.SetTheory.BoundedNaturals
+module
+
+public import ZFVP.Syntax.PrimitiveProgramGeneratedStandard
+public import ZFVP.SetTheory.BoundedNaturals
+
+@[expose] public section
 
 /-! Relational numerals and an explicit program for substituting a numeral into a sentence. -/
 

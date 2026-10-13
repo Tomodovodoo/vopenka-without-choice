@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ClassForcingTowerModel
+module
+
+public import ZFVP.ModelTheory.ClassForcingTowerModel
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

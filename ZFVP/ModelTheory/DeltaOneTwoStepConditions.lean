@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.TwoStepForcing
-import ZFVP.SetTheory.DeltaOneAtomicForcing
-import ZFVP.SetTheory.BoundedRelationDomain
-import ZFVP.SetTheory.BoundedUnion
+module
+
+public import ZFVP.SetTheory.TwoStepForcing
+public import ZFVP.SetTheory.DeltaOneAtomicForcing
+public import ZFVP.SetTheory.BoundedRelationDomain
+public import ZFVP.SetTheory.BoundedUnion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

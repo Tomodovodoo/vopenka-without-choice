@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.WoodinSparseHomogeneityInitialRow
-import ZFVP.ModelTheory.WoodinSparseHomogeneitySuccessorRow
-import ZFVP.ModelTheory.WoodinSparseHomogeneityDirectRow
-import ZFVP.ModelTheory.WoodinSparseHomogeneityInverseRow
-import ZFVP.ModelTheory.WoodinSparseEndpointThread
+module
+
+public import ZFVP.ModelTheory.WoodinSparseHomogeneityInitialRow
+public import ZFVP.ModelTheory.WoodinSparseHomogeneitySuccessorRow
+public import ZFVP.ModelTheory.WoodinSparseHomogeneityDirectRow
+public import ZFVP.ModelTheory.WoodinSparseHomogeneityInverseRow
+public import ZFVP.ModelTheory.WoodinSparseEndpointThread
+
+@[expose] public section
 
 set_option maxHeartbeats 1000000
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SolovayModel
-import ZFVP.ModelTheory.SolovayHODBridge
+module
+
+public import ZFVP.ModelTheory.SolovayModel
+public import ZFVP.ModelTheory.SolovayHODBridge
+
+@[expose] public section
 
 /-! The two descriptions of the Solovay model agree.
 

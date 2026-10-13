@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedClassColors
-import ZFVP.ModelTheory.SchmerlCodedBranchFilter
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedClassColors
+public import ZFVP.ModelTheory.SchmerlCodedBranchFilter
+
+@[expose] public section
 
 /-! Cofinal candidates of the fixed branch clause are actual internal sets.
 The weak coloring makes their selected-level restrictions full cofinal branches,

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.DeltaOneRank
+module
+
+public import ZFVP.SetTheory.DeltaOneRank
+
+@[expose] public section
 
 /-! Add the rank of a class member as a distinguished bound parameter. -/
 

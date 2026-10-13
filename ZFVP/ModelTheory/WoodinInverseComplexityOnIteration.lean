@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SigmaThreeInverseCardinalNext
-import ZFVP.ModelTheory.WoodinInverseSourceCutoff
+module
+
+public import ZFVP.ModelTheory.SigmaThreeInverseCardinalNext
+public import ZFVP.ModelTheory.WoodinInverseSourceCutoff
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

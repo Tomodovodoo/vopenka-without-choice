@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.EndExtensionSets
-import ZFVP.SetTheory.FunctionComposition
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.SetTheory.EndExtensionSets
+public import ZFVP.SetTheory.FunctionComposition
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 /-! Relations, composition, restriction, and total graph evaluation under end extensions. -/
 

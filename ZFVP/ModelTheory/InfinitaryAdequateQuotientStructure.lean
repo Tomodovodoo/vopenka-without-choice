@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryAdequateOldEmbedding
-import Mathlib.Tactic.FinCases
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateOldEmbedding
+public import Mathlib.Tactic.FinCases
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

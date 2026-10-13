@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BoundedFormulas
+module
+
+public import ZFVP.SetTheory.BoundedFormulas
+
+@[expose] public section
 
 /-! The closure presentation of the Levy hierarchy on external finite syntax.
 Equivalence with prenex presentations and internal code predicates is separate. -/

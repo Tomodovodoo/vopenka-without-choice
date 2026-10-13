@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingSaturatedName
-import ZFVP.ModelTheory.ForcingHierarchyEvaluation
-import ZFVP.ModelTheory.ForcedOrderLaws
+module
+
+public import ZFVP.SetTheory.ForcingSaturatedName
+public import ZFVP.ModelTheory.ForcingHierarchyEvaluation
+public import ZFVP.ModelTheory.ForcedOrderLaws
+
+@[expose] public section
 
 namespace ZFVP
 

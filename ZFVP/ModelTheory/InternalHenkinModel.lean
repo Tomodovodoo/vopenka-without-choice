@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalHenkinTruthTable
-import ZFVP.ModelTheory.InternalNameTruthEquality
+module
+
+public import ZFVP.ModelTheory.InternalHenkinTruthTable
+public import ZFVP.ModelTheory.InternalNameTruthEquality
+
+@[expose] public section
 
 /-! The Henkin construction yields an actual internally countable coded model
 of every valid consistent internal open theory, when the ambient ω is standard. -/

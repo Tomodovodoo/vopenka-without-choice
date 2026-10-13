@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SparseOrderIdentification
-import ZFVP.SetTheory.CanonicalAtomicTruthTable
-import ZFVP.SetTheory.CodingUniverse
+module
+
+public import ZFVP.ModelTheory.SparseOrderIdentification
+public import ZFVP.SetTheory.CanonicalAtomicTruthTable
+public import ZFVP.SetTheory.CodingUniverse
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

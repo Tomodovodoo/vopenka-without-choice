@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ClassForcingTowerCodes
-import ZFVP.SetTheory.ForcingBoundCodeExtension
+module
+
+public import ZFVP.SetTheory.ClassForcingTowerCodes
+public import ZFVP.SetTheory.ForcingBoundCodeExtension
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SolovayPointwiseDefinable
-import ZFVP.ModelTheory.CompleteSubalgebra
-import ZFVP.SetTheory.SubnameRecursion
+module
+
+public import ZFVP.ModelTheory.SolovayPointwiseDefinable
+public import ZFVP.ModelTheory.CompleteSubalgebra
+public import ZFVP.SetTheory.SubnameRecursion
+
+@[expose] public section
 
 /-! Values of names that lie in the extension by a complete subalgebra.
 

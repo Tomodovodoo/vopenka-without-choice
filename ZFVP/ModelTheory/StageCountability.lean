@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.LevyGroundChange
-import ZFVP.SetTheory.CountableSets
-import ZFVP.SetTheory.WellOrderedSurjection
-import ZFVP.SetTheory.CheckNames
+module
+
+public import ZFVP.ModelTheory.LevyGroundChange
+public import ZFVP.SetTheory.CountableSets
+public import ZFVP.SetTheory.WellOrderedSurjection
+public import ZFVP.SetTheory.CheckNames
+
+@[expose] public section
 
 /-! Nice names for subsets of a checked set: every subset of `Q̌` in an extension is the internal
 value of a checked name from the ground set of names `℘ (Q̌-names × P)`, so the power set of `Q̌`

@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramListFold
-import ZFVP.Syntax.PrimitiveProgramListExt
+module
+
+public import ZFVP.Syntax.PrimitiveProgramListFold
+public import ZFVP.Syntax.PrimitiveProgramListExt
+
+@[expose] public section
 
 /-! Length and indexed-value equations for maps and concatenation on every internal list code. -/
 

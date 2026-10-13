@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.EndExtensionAtomicForcing
-import ZFVP.SetTheory.NameValue
+module
+
+public import ZFVP.SetTheory.EndExtensionAtomicForcing
+public import ZFVP.SetTheory.NameValue
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

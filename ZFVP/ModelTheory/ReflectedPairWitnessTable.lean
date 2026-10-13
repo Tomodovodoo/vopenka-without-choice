@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ElementaryParameterClosure
+module
+
+public import ZFVP.ModelTheory.ElementaryParameterClosure
+
+@[expose] public section
 
 /-! Reflecting witnesses in ordered-pair tables into an elementary submodel. -/
 

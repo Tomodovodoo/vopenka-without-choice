@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.InfinitaryBooleanDerivation
-import ZFVP.ModelTheory.InfinitaryFirstOrderAxioms
-import ZFVP.ModelTheory.InfinitaryFirstOrderExpansion
-import ZFVP.ModelTheory.InfinitaryInterchange
+module
+
+public import ZFVP.ModelTheory.InfinitaryBooleanDerivation
+public import ZFVP.ModelTheory.InfinitaryFirstOrderAxioms
+public import ZFVP.ModelTheory.InfinitaryFirstOrderExpansion
+public import ZFVP.ModelTheory.InfinitaryInterchange
+
+@[expose] public section
 
 /-! A syntactic calculus with the first-order, countable Boolean, and standard Q
 axiom schemas, including nonempty domains and primitive-existential distribution. Its derivations are well-founded, countably branching proof trees.

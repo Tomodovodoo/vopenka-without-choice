@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.UsubaCommonLiftInvariant
+module
+
+public import ZFVP.ModelTheory.UsubaCommonLiftInvariant
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

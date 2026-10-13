@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingSystemExtension
-import ZFVP.SetTheory.ForcingLimitCodes
+module
+
+public import ZFVP.SetTheory.ForcingSystemExtension
+public import ZFVP.SetTheory.ForcingLimitCodes
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

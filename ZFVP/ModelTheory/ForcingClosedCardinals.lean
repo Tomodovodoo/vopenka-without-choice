@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingClosedSequences
-import ZFVP.SetTheory.CofinalityDictionary
-import ZFVP.SetTheory.EndExtensionFinite
-import ZFVP.SetTheory.FormulaReflection
+module
+
+public import ZFVP.ModelTheory.ForcingClosedSequences
+public import ZFVP.SetTheory.CofinalityDictionary
+public import ZFVP.SetTheory.EndExtensionFinite
+public import ZFVP.SetTheory.FormulaReflection
+
+@[expose] public section
 
 namespace ZFVP
 

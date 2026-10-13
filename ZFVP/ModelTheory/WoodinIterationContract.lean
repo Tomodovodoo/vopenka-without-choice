@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinRecursionHistory
-import ZFVP.ModelTheory.IterationQuotientClosure
-import ZFVP.SetTheory.WoodinSeedCardinal
+module
+
+public import ZFVP.ModelTheory.WoodinRecursionHistory
+public import ZFVP.ModelTheory.IterationQuotientClosure
+public import ZFVP.SetTheory.WoodinSeedCardinal
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

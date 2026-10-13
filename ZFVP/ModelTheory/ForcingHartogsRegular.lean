@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingHartogsName
-import ZFVP.SetTheory.HartogsLimitRegular
-import ZFVP.SetTheory.ChoiceDictionary
+module
+
+public import ZFVP.ModelTheory.ForcingHartogsName
+public import ZFVP.SetTheory.HartogsLimitRegular
+public import ZFVP.SetTheory.ChoiceDictionary
+
+@[expose] public section
 
 namespace ZFVP
 

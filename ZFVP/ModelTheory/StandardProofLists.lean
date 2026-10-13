@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.OpenCodedSequentSoundness
-import ZFVP.Syntax.StandardLists
+module
+
+public import ZFVP.ModelTheory.OpenCodedSequentSoundness
+public import ZFVP.Syntax.StandardLists
+
+@[expose] public section
 
 /-! Finite proof lists and their exact realization by the internal proof checker. -/
 

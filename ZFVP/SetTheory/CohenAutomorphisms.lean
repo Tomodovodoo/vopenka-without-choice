@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.CohenForcing
-import ZFVP.SetTheory.PartialFunctionAutomorphisms
-import ZFVP.SetTheory.ProductPermutations
-import ZFVP.SetTheory.SymmetricSystems
+module
+
+public import ZFVP.SetTheory.CohenForcing
+public import ZFVP.SetTheory.PartialFunctionAutomorphisms
+public import ZFVP.SetTheory.ProductPermutations
+public import ZFVP.SetTheory.SymmetricSystems
+
+@[expose] public section
 
 namespace ZFVP
 

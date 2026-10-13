@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.PiOneForcingInverseLimit
+module
+
+public import ZFVP.SetTheory.PiOneForcingInverseLimit
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.FunctionValue
+module
+
+public import ZFVP.SetTheory.FunctionValue
+
+@[expose] public section
 
 /-! Unions of compatible internal function graphs. -/
 

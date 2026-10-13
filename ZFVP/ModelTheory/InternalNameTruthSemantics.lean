@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalBinaryQuotientTruth
-import ZFVP.ModelTheory.InternalBinaryQuotientSemantics
+module
+
+public import ZFVP.ModelTheory.InternalBinaryQuotientTruth
+public import ZFVP.ModelTheory.InternalBinaryQuotientSemantics
+
+@[expose] public section
 
 /-! An actual name truth table evaluates every standard formula in its name
 prestructure. No equality laws are assumed in this bridge. -/

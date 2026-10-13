@@ -1,6 +1,10 @@
-import ZFVP.Syntax.BoundedSetForcingMeaning
-import ZFVP.ModelTheory.InternalForcingTableTransport
-import ZFVP.SetTheory.CanonicalAtomicTruthTable
+module
+
+public import ZFVP.Syntax.BoundedSetForcingMeaning
+public import ZFVP.ModelTheory.InternalForcingTableTransport
+public import ZFVP.SetTheory.CanonicalAtomicTruthTable
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalProofRewrite
-import ZFVP.Syntax.PrimitiveProgramProofRewriteVariables
+module
+
+public import ZFVP.ModelTheory.InternalProofRewrite
+public import ZFVP.Syntax.PrimitiveProgramProofRewriteVariables
+
+@[expose] public section
 
 /-! Decoded variable equations on arbitrary internal indices. -/
 

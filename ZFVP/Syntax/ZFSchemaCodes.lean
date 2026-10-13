@@ -1,5 +1,9 @@
-import ZFVP.Syntax.MembershipTailTemplates
-import ZFVP.ModelTheory.InternalZFModel
+module
+
+public import ZFVP.Syntax.MembershipTailTemplates
+public import ZFVP.ModelTheory.InternalZFModel
+
+@[expose] public section
 
 /-! Separation and Replacement codes with any internal number of parameters. -/
 

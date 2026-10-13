@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TransitiveZFNames
-import ZFVP.SetTheory.SymmetricSystems
+module
+
+public import ZFVP.ModelTheory.TransitiveZFNames
+public import ZFVP.SetTheory.SymmetricSystems
+
+@[expose] public section
 
 namespace ZFVP
 

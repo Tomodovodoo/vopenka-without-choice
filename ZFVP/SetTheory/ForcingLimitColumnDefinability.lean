@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ForcingLimitLiftColumns
+module
+
+public import ZFVP.SetTheory.ForcingLimitLiftColumns
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

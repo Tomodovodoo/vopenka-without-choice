@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.BitTrees
-import ZFVP.ModelTheory.RandomReals
-import ZFVP.ModelTheory.FilterDecision
-import ZFVP.ModelTheory.StageCountability
+module
+
+public import ZFVP.SetTheory.BitTrees
+public import ZFVP.ModelTheory.RandomReals
+public import ZFVP.ModelTheory.FilterDecision
+public import ZFVP.ModelTheory.StageCountability
+
+@[expose] public section
 
 /-! The name of the random real: the nice name pairing the check name of `(n, i)` with the bit
 tree `bitTree n i`. Its value under the filter of a random real `x` is `x`, so a formula with ground

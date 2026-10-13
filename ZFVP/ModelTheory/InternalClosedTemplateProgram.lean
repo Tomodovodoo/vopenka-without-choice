@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalClosureProgram
+module
+
+public import ZFVP.ModelTheory.InternalClosureProgram
+
+@[expose] public section
 
 /-! Closed template programs produce well-formed sentences with the expected truth. -/
 

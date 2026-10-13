@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInfinitaryDefinitions
-import ZFVP.ModelTheory.SchmerlCountableRanges
+module
+
+public import ZFVP.ModelTheory.SchmerlInfinitaryDefinitions
+public import ZFVP.ModelTheory.SchmerlCountableRanges
+
+@[expose] public section
 
 /-! Explicit standard-Q formulas witnessing uncountable cofinality of a
 definable rank sort. Uncountably many ranks alone would not suffice.

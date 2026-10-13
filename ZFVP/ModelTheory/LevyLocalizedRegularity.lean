@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.LevyOrdinalLocalization
-import ZFVP.ModelTheory.LebesgueGroundChange
-import ZFVP.ModelTheory.PerfectSetGroundChange
-import ZFVP.ModelTheory.LevyRealsInjection
+module
+
+public import ZFVP.ModelTheory.LevyOrdinalLocalization
+public import ZFVP.ModelTheory.LebesgueGroundChange
+public import ZFVP.ModelTheory.PerfectSetGroundChange
+public import ZFVP.ModelTheory.LevyRealsInjection
+
+@[expose] public section
 
 /-! The Levy-collapse regularity results stated for the weaker hypothesis "definable from
 parameters that are already localized", instead of "definable from ground sets, reals and

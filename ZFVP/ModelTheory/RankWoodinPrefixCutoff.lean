@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.TransitiveZFFormulaForcing
-import ZFVP.ModelTheory.TransitiveZFInaccessible
-import ZFVP.ModelTheory.ForcingRankTruth
-import ZFVP.SetTheory.WoodinPrefixCutoff
+module
+
+public import ZFVP.ModelTheory.TransitiveZFFormulaForcing
+public import ZFVP.ModelTheory.TransitiveZFInaccessible
+public import ZFVP.ModelTheory.ForcingRankTruth
+public import ZFVP.SetTheory.WoodinPrefixCutoff
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

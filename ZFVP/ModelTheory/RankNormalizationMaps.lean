@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.RankNormalizedNamePool
-import ZFVP.ModelTheory.TransitiveZFSparsePair
-import ZFVP.ModelTheory.NormalizedTwoStepExtension
-import ZFVP.ModelTheory.NormalizedTwoStepIsomorphism
+module
+
+public import ZFVP.ModelTheory.RankNormalizedNamePool
+public import ZFVP.ModelTheory.TransitiveZFSparsePair
+public import ZFVP.ModelTheory.NormalizedTwoStepExtension
+public import ZFVP.ModelTheory.NormalizedTwoStepIsomorphism
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

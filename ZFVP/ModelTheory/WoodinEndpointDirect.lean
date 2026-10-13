@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinConstruction
-import ZFVP.ModelTheory.WoodinDirectIndex
+module
+
+public import ZFVP.ModelTheory.WoodinConstruction
+public import ZFVP.ModelTheory.WoodinDirectIndex
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

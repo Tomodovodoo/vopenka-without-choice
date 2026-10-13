@@ -1,9 +1,13 @@
-import ZFVP.SetTheory.ForcedStabilizerFilter
-import ZFVP.SetTheory.CheckNames
-import ZFVP.SetTheory.NameActionClosure
-import ZFVP.SetTheory.AtomicCheckNames
-import ZFVP.SetTheory.AtomicForcingSubstitution
-import ZFVP.SetTheory.HereditarySymmetry
+module
+
+public import ZFVP.SetTheory.ForcedStabilizerFilter
+public import ZFVP.SetTheory.CheckNames
+public import ZFVP.SetTheory.NameActionClosure
+public import ZFVP.SetTheory.AtomicCheckNames
+public import ZFVP.SetTheory.AtomicForcingSubstitution
+public import ZFVP.SetTheory.HereditarySymmetry
+
+@[expose] public section
 
 /-! Saturated nice names `{⟨ǩ, p⟩ : k ∈ K, p ⊩ ǩ ∈ τ}` for subsets of a ground set `K`. They are
 fixed syntactically by every automorphism fixing them up to forced equality, the class is closed

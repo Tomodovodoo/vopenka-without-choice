@@ -1,9 +1,13 @@
-import ZFVP.SetTheory.WellFoundedRecursion
-import ZFVP.SetTheory.EndExtensionCoding
-import ZFVP.SetTheory.EndExtensionSets
-import ZFVP.SetTheory.EndExtensionRelations
-import ZFVP.SetTheory.UniformCollapse
-import ZFVP.SetTheory.EndExtensionWellOrdering
+module
+
+public import ZFVP.SetTheory.WellFoundedRecursion
+public import ZFVP.SetTheory.EndExtensionCoding
+public import ZFVP.SetTheory.EndExtensionSets
+public import ZFVP.SetTheory.EndExtensionRelations
+public import ZFVP.SetTheory.UniformCollapse
+public import ZFVP.SetTheory.EndExtensionWellOrdering
+
+@[expose] public section
 
 /-! Membership end extensions transport well-founded recursions whose step commutes with the
 extension: the image of the recursion function is a recursion attempt with full domain for the

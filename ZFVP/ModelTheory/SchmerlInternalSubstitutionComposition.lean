@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalSubstitutionIdentities
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalSubstitutionIdentities
+
+@[expose] public section
 
 /-! Composition on actual internal infinitary syntax. The term-table identity
 is propagated through all internal conjunction indices and binder depths. -/

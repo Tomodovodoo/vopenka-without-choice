@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.RankSaturatedHartogsName
-import ZFVP.ModelTheory.RankInternalReverseOrderName
-import ZFVP.ModelTheory.TwoStepOrderGenericEquality
-import ZFVP.ModelTheory.SaturatedHartogsStage
+module
+
+public import ZFVP.ModelTheory.RankSaturatedHartogsName
+public import ZFVP.ModelTheory.RankInternalReverseOrderName
+public import ZFVP.ModelTheory.TwoStepOrderGenericEquality
+public import ZFVP.ModelTheory.SaturatedHartogsStage
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseRankAgreement
-import ZFVP.ModelTheory.EndExtensionBasics
+module
+
+public import ZFVP.ModelTheory.WoodinSparseRankAgreement
+public import ZFVP.ModelTheory.EndExtensionBasics
+
+@[expose] public section
 
 /-! The actual sparse endpoint rank satisfies ZFC. The raw endpoint theorem
 is transferred along the already constructed membership equivalence.

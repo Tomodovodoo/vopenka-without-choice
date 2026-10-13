@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.RubinFiniteBlockUnion
+module
+
+public import ZFVP.ModelTheory.RubinFiniteBlockUnion
+
+@[expose] public section
 
 /-! The source-model cofinal kernels of Rubin A.5. Every varying body is one
 ordinary first-order formula. No theory consistency or model construction is

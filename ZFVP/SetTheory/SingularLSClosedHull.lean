@@ -1,9 +1,13 @@
-import ZFVP.SetTheory.SingularHullUnion
-import ZFVP.SetTheory.SmallIndexedUnionSurjection
-import ZFVP.SetTheory.RankSurjectionOperations
-import ZFVP.SetTheory.WeaklyLSHullImageCover
-import ZFVP.ModelTheory.ElementarySmallSubsetClosure
-import ZFVP.ModelTheory.ElementaryUnionMembership
+module
+
+public import ZFVP.SetTheory.SingularHullUnion
+public import ZFVP.SetTheory.SmallIndexedUnionSurjection
+public import ZFVP.SetTheory.RankSurjectionOperations
+public import ZFVP.SetTheory.WeaklyLSHullImageCover
+public import ZFVP.ModelTheory.ElementarySmallSubsetClosure
+public import ZFVP.ModelTheory.ElementaryUnionMembership
+
+@[expose] public section
 
 /-! The function-closure clauses of Usuba Lemma 4.3. A singular LS cardinal
 supplies an elementary hull covered by Vλ and closed under lower-rank-domain

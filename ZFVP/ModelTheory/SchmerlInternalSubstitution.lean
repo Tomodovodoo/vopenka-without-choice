@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalInfinitarySubstitutionSemantics
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalInfinitarySubstitutionSemantics
+
+@[expose] public section
 
 /-! Substitution from a single internal state. The complete sequence of
 lifted states is constructed by internal recursion. Its image fragment is

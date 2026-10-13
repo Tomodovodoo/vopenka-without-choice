@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalQuantifierDerivation
-import ZFVP.ModelTheory.SchmerlInternalSentenceSubstitution
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalQuantifierDerivation
+public import ZFVP.ModelTheory.SchmerlInternalSentenceSubstitution
+
+@[expose] public section
 
 /-! Sentence assumptions across the full internal quantifier and substitution rules. -/
 namespace ZFVP.Infinitary.Internal

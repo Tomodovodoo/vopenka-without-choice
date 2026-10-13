@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlMarkerConstruction
+module
+
+public import ZFVP.ModelTheory.SchmerlMarkerConstruction
+
+@[expose] public section
 
 /-! The core of the separated-marker construction has only countable chains.
 The argument applies to rank orders with countable strict initial segments;

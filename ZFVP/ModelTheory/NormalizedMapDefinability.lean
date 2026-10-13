@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.NormalizedBaseTwoStep
-import ZFVP.SetTheory.ForcingThreadAction
-import ZFVP.SetTheory.AtomicForcingDictionary
+module
+
+public import ZFVP.ModelTheory.NormalizedBaseTwoStep
+public import ZFVP.SetTheory.ForcingThreadAction
+public import ZFVP.SetTheory.AtomicForcingDictionary
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

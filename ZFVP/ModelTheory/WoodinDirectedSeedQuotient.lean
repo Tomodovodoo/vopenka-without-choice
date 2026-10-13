@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinDirectedSparseQuotient
-import ZFVP.ModelTheory.WoodinDirectedClosureComposition
-import ZFVP.ModelTheory.WoodinSparseSeedQuotient
-import ZFVP.ModelTheory.SaturatedQuotientClosure
+module
+
+public import ZFVP.ModelTheory.WoodinDirectedSparseQuotient
+public import ZFVP.ModelTheory.WoodinDirectedClosureComposition
+public import ZFVP.ModelTheory.WoodinSparseSeedQuotient
+public import ZFVP.ModelTheory.SaturatedQuotientClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingNameActionLowRank
-import ZFVP.ModelTheory.ForcingLowRankNames
-import ZFVP.SetTheory.UniformRank
-import ZFVP.SetTheory.MembershipIso
+module
+
+public import ZFVP.ModelTheory.ForcingNameActionLowRank
+public import ZFVP.ModelTheory.ForcingLowRankNames
+public import ZFVP.SetTheory.UniformRank
+public import ZFVP.SetTheory.MembershipIso
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ReflectedPairWitnessTable
-import ZFVP.SetTheory.BoundedSequenceSupport
+module
+
+public import ZFVP.ModelTheory.ReflectedPairWitnessTable
+public import ZFVP.SetTheory.BoundedSequenceSupport
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

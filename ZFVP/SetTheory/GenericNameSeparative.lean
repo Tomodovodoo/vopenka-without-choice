@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.GenericName
-import ZFVP.SetTheory.AtomicCheckNames
-import ZFVP.SetTheory.BooleanCompletionValues
-import ZFVP.SetTheory.RegularSetAlgebra
-import ZFVP.SetTheory.ForcingNegationCalculus
+module
+
+public import ZFVP.SetTheory.GenericName
+public import ZFVP.SetTheory.AtomicCheckNames
+public import ZFVP.SetTheory.BooleanCompletionValues
+public import ZFVP.SetTheory.RegularSetAlgebra
+public import ZFVP.SetTheory.ForcingNegationCalculus
+
+@[expose] public section
 
 /-! Separative preorders, separativity of the Boolean completion, and the basic forcing fact
 `p ⊩ q̌ ∈ Γ̇ ↔ p ≤ q` for the canonical name of the generic. Intro rules for conjunction and

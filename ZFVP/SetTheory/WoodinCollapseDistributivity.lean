@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinCollapse
-import ZFVP.SetTheory.ForcingClosure
+module
+
+public import ZFVP.SetTheory.WoodinCollapse
+public import ZFVP.SetTheory.ForcingClosure
+
+@[expose] public section
 
 namespace ZFVP
 

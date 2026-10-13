@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingRankFormulaNames
-import ZFVP.SetTheory.CnSequenceNames
+module
+
+public import ZFVP.ModelTheory.ForcingRankFormulaNames
+public import ZFVP.SetTheory.CnSequenceNames
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

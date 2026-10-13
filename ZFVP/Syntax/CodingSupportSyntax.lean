@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedConstructorExpressions
-import ZFVP.Syntax.LevyCodes
+module
+
+public import ZFVP.Syntax.BoundedConstructorExpressions
+public import ZFVP.Syntax.LevyCodes
+
+@[expose] public section
 
 /-! A coding support contains every pure membership-language syntax code. -/
 

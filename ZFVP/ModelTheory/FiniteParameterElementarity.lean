@@ -1,5 +1,9 @@
-import Foundation.FirstOrder.Basic.Semantics.Semantics
-import Mathlib.Data.Fintype.EquivFin
+module
+
+public import Foundation.FirstOrder.Basic.Semantics.Semantics
+public import Mathlib.Data.Fintype.EquivFin
+
+@[expose] public section
 
 /-! Preservation of finite bound-variable formulas implies preservation with arbitrary free parameters. -/
 

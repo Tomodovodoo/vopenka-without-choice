@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CollapseSerialHull
-import ZFVP.ModelTheory.ForcingLowRankAssignments
+module
+
+public import ZFVP.ModelTheory.CollapseSerialHull
+public import ZFVP.ModelTheory.ForcingLowRankAssignments
+
+@[expose] public section
 
 /-! Countability of the values of a ground-model set of forcing names. -/
 

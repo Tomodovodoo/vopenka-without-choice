@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CohenSupportedValues
-import ZFVP.ModelTheory.CohenEnumerationInverse
-import ZFVP.SetTheory.DedekindFinite
+module
+
+public import ZFVP.ModelTheory.CohenSupportedValues
+public import ZFVP.ModelTheory.CohenEnumerationInverse
+public import ZFVP.SetTheory.DedekindFinite
+
+@[expose] public section
 
 namespace ZFVP
 

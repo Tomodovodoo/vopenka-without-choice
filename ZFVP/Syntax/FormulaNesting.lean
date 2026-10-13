@@ -1,4 +1,8 @@
-import Foundation.FirstOrder.Basic.BinderNotation
+module
+
+public import Foundation.FirstOrder.Basic.BinderNotation
+
+@[expose] public section
 
 namespace ZFVP
 open LO.FirstOrder Semiformula

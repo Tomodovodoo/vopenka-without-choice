@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.SymmetricFormulaForcing
-import ZFVP.SetTheory.NameActionBounds
+module
+
+public import ZFVP.SetTheory.SymmetricFormulaForcing
+public import ZFVP.SetTheory.NameActionBounds
+
+@[expose] public section
 
 namespace ZFVP
 

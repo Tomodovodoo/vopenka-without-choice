@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.AtomicTruthTables
-import ZFVP.SetTheory.RankBounds
-import ZFVP.SetTheory.AtomicForcingDictionary
+module
+
+public import ZFVP.SetTheory.AtomicTruthTables
+public import ZFVP.SetTheory.RankBounds
+public import ZFVP.SetTheory.AtomicForcingDictionary
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

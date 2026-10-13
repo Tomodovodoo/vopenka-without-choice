@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BinaryGreedyConstruction
+module
+
+public import ZFVP.SetTheory.BinaryGreedyConstruction
+
+@[expose] public section
 
 /-! Every internal Dedekind real in the closed unit interval has a definable binary expansion. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingRankTruth
+module
+
+public import ZFVP.ModelTheory.ForcingRankTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

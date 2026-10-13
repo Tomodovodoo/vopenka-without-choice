@@ -1,6 +1,10 @@
-import ZFVP.Syntax.SigmaOneOpenModels
-import ZFVP.Syntax.ZFOpenAxiomSet
-import ZFVP.SetTheory.CnSigmaClosure
+module
+
+public import ZFVP.Syntax.SigmaOneOpenModels
+public import ZFVP.Syntax.ZFOpenAxiomSet
+public import ZFVP.SetTheory.CnSigmaClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

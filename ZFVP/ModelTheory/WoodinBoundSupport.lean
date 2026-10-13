@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinBoundCoherence
-import ZFVP.ModelTheory.WoodinStageSections
+module
+
+public import ZFVP.ModelTheory.WoodinBoundCoherence
+public import ZFVP.ModelTheory.WoodinStageSections
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

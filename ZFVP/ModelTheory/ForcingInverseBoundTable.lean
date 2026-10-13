@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.InverseCoherentBounds
-import ZFVP.ModelTheory.ForcingLimitCode
+module
+
+public import ZFVP.SetTheory.InverseCoherentBounds
+public import ZFVP.ModelTheory.ForcingLimitCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

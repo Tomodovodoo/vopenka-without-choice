@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlGeneralizedInfinitarySemantics
-import ZFVP.ModelTheory.SchmerlInfinitaryClassSentence
+module
+
+public import ZFVP.ModelTheory.SchmerlGeneralizedInfinitarySemantics
+public import ZFVP.ModelTheory.SchmerlInfinitaryClassSentence
+
+@[expose] public section
 
 /-! The definability and weak-coloring clauses contain no Q. Their ordinary
 semantics is therefore available when the rest of the sentence uses internal Q. -/

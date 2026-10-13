@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.NormalizedHartogsRetraction
-import ZFVP.ModelTheory.RetractionNamedCutoff
-import ZFVP.ModelTheory.WoodinNormalizedCode
+module
+
+public import ZFVP.ModelTheory.NormalizedHartogsRetraction
+public import ZFVP.ModelTheory.RetractionNamedCutoff
+public import ZFVP.ModelTheory.WoodinNormalizedCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

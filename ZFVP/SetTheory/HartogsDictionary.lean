@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.Hartogs
-import ZFVP.SetTheory.UniformRank
+module
+
+public import ZFVP.SetTheory.Hartogs
+public import ZFVP.SetTheory.UniformRank
+
+@[expose] public section
 
 /-! A shared first-order Hartogs dictionary and its elementary transport. -/
 

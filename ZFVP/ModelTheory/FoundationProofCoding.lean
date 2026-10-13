@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.FoundationTheoryCoding
-import ZFVP.ModelTheory.StandardSentenceDischarge
+module
+
+public import ZFVP.ModelTheory.FoundationTheoryCoding
+public import ZFVP.ModelTheory.StandardSentenceDischarge
+
+@[expose] public section
 
 /-! Represented theory proofs translate to finite internal proofs of the same sentence. -/
 

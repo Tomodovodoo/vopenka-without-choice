@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalHenkinAcceptedAxioms
-import ZFVP.Syntax.MembershipRenamingAtoms
-import ZFVP.ModelTheory.InternalBinaryQuotientAtoms
+module
+
+public import ZFVP.ModelTheory.InternalHenkinAcceptedAxioms
+public import ZFVP.Syntax.MembershipRenamingAtoms
+public import ZFVP.ModelTheory.InternalBinaryQuotientAtoms
+
+@[expose] public section
 
 /-! Atomic truth on names is an actual binary relation. The fixed bridge axiom
 identifies the raw logical-equality token with the equality relation symbol. -/

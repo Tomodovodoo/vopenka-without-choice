@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedInfinitarySemantics
-import ZFVP.ModelTheory.SchmerlInternalInfinitaryTransport
-import ZFVP.Syntax.EndExtensionFoundationEncoding
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedInfinitarySemantics
+public import ZFVP.ModelTheory.SchmerlInternalInfinitaryTransport
+public import ZFVP.Syntax.EndExtensionFoundationEncoding
+
+@[expose] public section
 
 /-! A membership end extension preserves actual represented infinitary
 fragments, including every internal conjunction entry. -/

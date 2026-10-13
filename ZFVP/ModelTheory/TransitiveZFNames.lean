@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.TransitiveZFRecursion
-import ZFVP.ModelTheory.TransitiveZFValues
-import ZFVP.SetTheory.NameClosureRecursion
-import ZFVP.SetTheory.NameActionClosure
+module
+
+public import ZFVP.ModelTheory.TransitiveZFRecursion
+public import ZFVP.ModelTheory.TransitiveZFValues
+public import ZFVP.SetTheory.NameClosureRecursion
+public import ZFVP.SetTheory.NameActionClosure
+
+@[expose] public section
 
 namespace ZFVP
 

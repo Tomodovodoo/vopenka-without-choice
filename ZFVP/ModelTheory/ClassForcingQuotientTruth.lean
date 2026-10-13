@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ClassForcingQuotient
+module
+
+public import ZFVP.ModelTheory.ClassForcingQuotient
+
+@[expose] public section
 
 namespace ZFVP
 

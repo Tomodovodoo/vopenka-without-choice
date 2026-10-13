@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalCodedChainUnion
-import ZFVP.Syntax.FormulaInduction
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalCodedChainUnion
+public import ZFVP.Syntax.FormulaInduction
+
+@[expose] public section
 
 /-! Each stage is elementary in the actual internal union, for every
 internal formula and every internal finite assignment. -/

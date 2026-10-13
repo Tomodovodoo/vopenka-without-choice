@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.NaturalSequentQuantifierRules
-import ZFVP.Syntax.PrimitiveProgramLKRuleCheck
+module
+
+public import ZFVP.ModelTheory.NaturalSequentQuantifierRules
+public import ZFVP.Syntax.PrimitiveProgramLKRuleCheck
+
+@[expose] public section
 
 /-! The explicit local LK program has the stated set-theoretic rule and input checks on all internal values. -/
 

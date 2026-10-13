@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RegularOrdinalAddition
-import ZFVP.SetTheory.NaturalAddition
+module
+
+public import ZFVP.SetTheory.RegularOrdinalAddition
+public import ZFVP.SetTheory.NaturalAddition
+
+@[expose] public section
 
 /-! Ordinal multiplication by internal recursion, with a uniform formula. -/
 

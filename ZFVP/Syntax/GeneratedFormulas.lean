@@ -1,4 +1,8 @@
-import ZFVP.Syntax.Subformulas
+module
+
+public import ZFVP.Syntax.Subformulas
+
+@[expose] public section
 
 /-! A family with constructor inversion contains only internally generated formulas. -/
 

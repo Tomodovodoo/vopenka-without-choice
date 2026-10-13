@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SuccessorRankNameDomain
-import ZFVP.ModelTheory.EmbeddingOmegaFixation
-import ZFVP.ModelTheory.EmbeddingAssignments
-import ZFVP.SetTheory.FiniteCodingClosure
+module
+
+public import ZFVP.ModelTheory.SuccessorRankNameDomain
+public import ZFVP.ModelTheory.EmbeddingOmegaFixation
+public import ZFVP.ModelTheory.EmbeddingAssignments
+public import ZFVP.SetTheory.FiniteCodingClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

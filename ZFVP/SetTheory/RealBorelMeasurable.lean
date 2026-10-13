@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.RealCountableMeasurableUnions
-import ZFVP.SetTheory.RealIntervalsMeasurable
-import ZFVP.SetTheory.RealGDeltaCodes
+module
+
+public import ZFVP.SetTheory.RealCountableMeasurableUnions
+public import ZFVP.SetTheory.RealIntervalsMeasurable
+public import ZFVP.SetTheory.RealGDeltaCodes
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

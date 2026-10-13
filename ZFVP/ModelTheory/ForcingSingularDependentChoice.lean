@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingModelChecks
-import ZFVP.SetTheory.DependentChoiceCofinality
-import ZFVP.SetTheory.EndExtensionFinite
+module
+
+public import ZFVP.ModelTheory.ForcingModelChecks
+public import ZFVP.SetTheory.DependentChoiceCofinality
+public import ZFVP.SetTheory.EndExtensionFinite
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

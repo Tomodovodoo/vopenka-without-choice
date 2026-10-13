@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.LimitStageEmbedding
-import ZFVP.SetTheory.SmallSubsetsStage
-import ZFVP.SetTheory.DerivedFineMeasure
+module
+
+public import ZFVP.SetTheory.LimitStageEmbedding
+public import ZFVP.SetTheory.SmallSubsetsStage
+public import ZFVP.SetTheory.DerivedFineMeasure
+
+@[expose] public section
 
 /-! # What one Magidor witness gives
 

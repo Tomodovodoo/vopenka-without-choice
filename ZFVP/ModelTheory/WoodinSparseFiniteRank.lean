@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseMarkedRank
-import ZFVP.ModelTheory.ForcingRecodedFiniteRank
+module
+
+public import ZFVP.ModelTheory.WoodinSparseMarkedRank
+public import ZFVP.ModelTheory.ForcingRecodedFiniteRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

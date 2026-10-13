@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.DeltaTwoForcingLimitCodes
-import ZFVP.ModelTheory.WoodinInverseUniform
-import ZFVP.SetTheory.BoundedSetUnionInter
-import ZFVP.SetTheory.BoundedRelationRange
+module
+
+public import ZFVP.ModelTheory.DeltaTwoForcingLimitCodes
+public import ZFVP.ModelTheory.WoodinInverseUniform
+public import ZFVP.SetTheory.BoundedSetUnionInter
+public import ZFVP.SetTheory.BoundedRelationRange
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

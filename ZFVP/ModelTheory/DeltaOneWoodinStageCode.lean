@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinStageUniform
-import ZFVP.ModelTheory.DeltaOneForcingCodeComponents
+module
+
+public import ZFVP.ModelTheory.WoodinStageUniform
+public import ZFVP.ModelTheory.DeltaOneForcingCodeComponents
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

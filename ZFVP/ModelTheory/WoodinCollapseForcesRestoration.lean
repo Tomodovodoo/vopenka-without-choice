@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinCollapseRestorationBelow
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseRestorationBelow
+
+@[expose] public section
 
 namespace ZFVP
 

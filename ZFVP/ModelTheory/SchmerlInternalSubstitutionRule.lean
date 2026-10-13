@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalBooleanTransport
-import ZFVP.ModelTheory.SchmerlInternalSubstitutionTransport
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalBooleanTransport
+public import ZFVP.ModelTheory.SchmerlInternalSubstitutionTransport
+
+@[expose] public section
 
 /-! Capture-avoiding simultaneous substitution as an internal proof rule.
 The premise is interpreted under every assignment. Its code is physically

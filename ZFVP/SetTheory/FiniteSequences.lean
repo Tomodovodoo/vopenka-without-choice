@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.DefinableGraph
-import Foundation.FirstOrder.SetTheory.Ordinal
+module
+
+public import ZFVP.SetTheory.DefinableGraph
+public import Foundation.FirstOrder.SetTheory.Ordinal
+
+@[expose] public section
 
 /-! Internally finite sequences, including nonstandard finite lengths in
 nonstandard ZF models. Sequences are internal function graphs. -/

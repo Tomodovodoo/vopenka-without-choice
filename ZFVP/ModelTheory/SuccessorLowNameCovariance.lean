@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SuccessorLowNameFamily
-import ZFVP.ModelTheory.FiniteRankLowNameCovariance
+module
+
+public import ZFVP.ModelTheory.SuccessorLowNameFamily
+public import ZFVP.ModelTheory.FiniteRankLowNameCovariance
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

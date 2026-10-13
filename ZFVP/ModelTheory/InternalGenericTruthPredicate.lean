@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingSequenceEvaluationGraph
-import ZFVP.ModelTheory.ForcingModelGeneric
-import ZFVP.ModelTheory.GenericInternalForcing
+module
+
+public import ZFVP.ModelTheory.ForcingSequenceEvaluationGraph
+public import ZFVP.ModelTheory.ForcingModelGeneric
+public import ZFVP.ModelTheory.GenericInternalForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinEndpointPresentationCoherence
+module
+
+public import ZFVP.ModelTheory.WoodinEndpointPresentationCoherence
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

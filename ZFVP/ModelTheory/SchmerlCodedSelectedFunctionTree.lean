@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedFunctionStructure
-import ZFVP.ModelTheory.SchmerlCodedBranchSequence
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedFunctionStructure
+public import ZFVP.ModelTheory.SchmerlCodedBranchSequence
+
+@[expose] public section
 
 /-! Selecting the finite-function domains along an actual internal chain. -/
 

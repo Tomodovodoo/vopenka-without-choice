@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RealOuterMeasureSubadditive
+module
+
+public import ZFVP.SetTheory.RealOuterMeasureSubadditive
+
+@[expose] public section
 
 /-! The full Carathéodory test-set criterion for actual internal real sets. -/
 

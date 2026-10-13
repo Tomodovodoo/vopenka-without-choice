@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryHenkinWeakAxioms
-import ZFVP.ModelTheory.InfinitaryWeakRewriting
+module
+
+public import ZFVP.ModelTheory.InfinitaryHenkinWeakAxioms
+public import ZFVP.ModelTheory.InfinitaryWeakRewriting
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

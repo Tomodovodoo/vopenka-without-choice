@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.NamedMembershipEmbedding
+module
+
+public import ZFVP.ModelTheory.NamedMembershipEmbedding
+
+@[expose] public section
 
 /-! A fixed membership language naming a base set and two varying parameters. -/
 

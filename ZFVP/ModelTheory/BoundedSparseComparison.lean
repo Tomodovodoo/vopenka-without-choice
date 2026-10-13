@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SparseCarrierOrderRecursion
-import ZFVP.SetTheory.BoundedForcingSubset
-import ZFVP.SetTheory.BoundedRestriction
-import ZFVP.SetTheory.BoundedValue
+module
+
+public import ZFVP.ModelTheory.SparseCarrierOrderRecursion
+public import ZFVP.SetTheory.BoundedForcingSubset
+public import ZFVP.SetTheory.BoundedRestriction
+public import ZFVP.SetTheory.BoundedValue
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

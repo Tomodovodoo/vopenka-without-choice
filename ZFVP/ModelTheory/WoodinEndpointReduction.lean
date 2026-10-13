@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinEndpointCompatibility
+module
+
+public import ZFVP.ModelTheory.WoodinEndpointCompatibility
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

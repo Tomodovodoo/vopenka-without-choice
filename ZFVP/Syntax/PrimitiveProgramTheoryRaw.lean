@@ -1,6 +1,10 @@
-import ZFVP.Syntax.PrimitiveProgramGeneratedRaw
-import ZFVP.Syntax.PrimitiveProgramLKRawCertificate
-import ZFVP.Syntax.PrimitiveProgramTheoryStandard
+module
+
+public import ZFVP.Syntax.PrimitiveProgramGeneratedRaw
+public import ZFVP.Syntax.PrimitiveProgramLKRawCertificate
+public import ZFVP.Syntax.PrimitiveProgramTheoryStandard
+
+@[expose] public section
 
 /-! Raw standard certificates prove exactly the sentences of the intended ZF+VP theory. -/
 

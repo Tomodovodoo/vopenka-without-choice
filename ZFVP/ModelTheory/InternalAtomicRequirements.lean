@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalTermRequirements
+module
+
+public import ZFVP.ModelTheory.InternalTermRequirements
+
+@[expose] public section
 
 /-! Accepted internal atomic codes decode to well-formed membership atoms. -/
 

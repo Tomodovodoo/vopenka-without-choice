@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ClassCarrierNameFormula
-import ZFVP.ModelTheory.WoodinEndpointLocalAbsoluteness
+module
+
+public import ZFVP.ModelTheory.ClassCarrierNameFormula
+public import ZFVP.ModelTheory.WoodinEndpointLocalAbsoluteness
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

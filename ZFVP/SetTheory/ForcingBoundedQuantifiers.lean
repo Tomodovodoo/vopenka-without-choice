@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ForcingImplication
-import ZFVP.SetTheory.ForcingQuantifiers
-import ZFVP.SetTheory.AtomicForcingSubstitution
-import ZFVP.SetTheory.ForcingNames
+module
+
+public import ZFVP.SetTheory.ForcingImplication
+public import ZFVP.SetTheory.ForcingQuantifiers
+public import ZFVP.SetTheory.AtomicForcingSubstitution
+public import ZFVP.SetTheory.ForcingNames
+
+@[expose] public section
 
 /-! Bounded forcing quantifiers range over the subnames of their bound. -/
 

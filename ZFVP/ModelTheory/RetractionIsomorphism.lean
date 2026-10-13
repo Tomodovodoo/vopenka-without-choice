@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingReflectingProjection
-import ZFVP.ModelTheory.ForcingProjectionComposition
-import ZFVP.ModelTheory.ForcingIsomorphismFormula
-import ZFVP.SetTheory.EquivalentRetractionForcing
+module
+
+public import ZFVP.ModelTheory.ForcingReflectingProjection
+public import ZFVP.ModelTheory.ForcingProjectionComposition
+public import ZFVP.ModelTheory.ForcingIsomorphismFormula
+public import ZFVP.SetTheory.EquivalentRetractionForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

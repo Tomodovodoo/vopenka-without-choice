@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.BinaryRelationStructure
-import ZFVP.ModelTheory.UniformCodes
-import ZFVP.Syntax.UniformZFVPAxioms
-import ZFVP.ModelTheory.CodedZFModel
+module
+
+public import ZFVP.ModelTheory.BinaryRelationStructure
+public import ZFVP.ModelTheory.UniformCodes
+public import ZFVP.Syntax.UniformZFVPAxioms
+public import ZFVP.ModelTheory.CodedZFModel
+
+@[expose] public section
 
 /-! Uniform formulas for arbitrary binary structures and the full internal ZF scheme. -/
 namespace ZFVP

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlInfinitaryFunctionSentence
-import ZFVP.ModelTheory.SchmerlInfinitaryClassWithQ
-import ZFVP.ModelTheory.SchmerlInfinitaryExpansion
-import ZFVP.ModelTheory.SchmerlInfinitaryFiniteSmall
+module
+
+public import ZFVP.ModelTheory.SchmerlInfinitaryFunctionSentence
+public import ZFVP.ModelTheory.SchmerlInfinitaryClassWithQ
+public import ZFVP.ModelTheory.SchmerlInfinitaryExpansion
+public import ZFVP.ModelTheory.SchmerlInfinitaryFiniteSmall
+
+@[expose] public section
 
 /-! The function-tree clauses with the actual ambient countability quantifier. -/
 

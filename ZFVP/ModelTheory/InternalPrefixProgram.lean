@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.InternalProgramForwardTabulate
-import ZFVP.ModelTheory.StandardProgramLists
-import ZFVP.ModelTheory.NaturalSyntaxStandard
-import ZFVP.Syntax.PrimitiveProgramPrefixRenaming
+module
+
+public import ZFVP.ModelTheory.InternalProgramForwardTabulate
+public import ZFVP.ModelTheory.StandardProgramLists
+public import ZFVP.ModelTheory.NaturalSyntaxStandard
+public import ZFVP.Syntax.PrimitiveProgramPrefixRenaming
+
+@[expose] public section
 
 /-! Explicit parameter-prefix programs decode to the template compiler's internal renamings. -/
 

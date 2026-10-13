@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.PiWitnessRankStageFormula
-import ZFVP.SetTheory.PiWitnessRankStructures
-import ZFVP.SetTheory.BoundedWitnessFamilyTuple
+module
+
+public import ZFVP.SetTheory.PiWitnessRankStageFormula
+public import ZFVP.SetTheory.PiWitnessRankStructures
+public import ZFVP.SetTheory.BoundedWitnessFamilyTuple
+
+@[expose] public section
 
 /-! The marked parameters can be bound inside the structure universe without increasing complexity. -/
 

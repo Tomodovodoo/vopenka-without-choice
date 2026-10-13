@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ProjectionQuotient
-import ZFVP.ModelTheory.TwoStepSecondFilter
-import ZFVP.ModelTheory.ForcingModelEvaluation
+module
+
+public import ZFVP.ModelTheory.ProjectionQuotient
+public import ZFVP.ModelTheory.TwoStepSecondFilter
+public import ZFVP.ModelTheory.ForcingModelEvaluation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

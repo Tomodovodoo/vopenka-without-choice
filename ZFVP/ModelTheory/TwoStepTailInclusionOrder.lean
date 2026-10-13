@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.NormalizedSelectedUnionInclusion
-import ZFVP.ModelTheory.ForcingSemanticConsequence
+module
+
+public import ZFVP.ModelTheory.NormalizedSelectedUnionInclusion
+public import ZFVP.ModelTheory.ForcingSemanticConsequence
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingNormalizationFamily
-import ZFVP.ModelTheory.WoodinNormalizationInitial
+module
+
+public import ZFVP.ModelTheory.ForcingNormalizationFamily
+public import ZFVP.ModelTheory.WoodinNormalizationInitial
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

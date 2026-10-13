@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.Cn
-import ZFVP.SetTheory.TransfiniteIteration
+module
+
+public import ZFVP.SetTheory.Cn
+public import ZFVP.SetTheory.TransfiniteIteration
+
+@[expose] public section
 
 /-! Closure points of a definable class function on the ordinals.
 

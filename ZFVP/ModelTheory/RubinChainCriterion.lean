@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.RatherClasslessOfRubin
-import ZFVP.ModelTheory.RubinChainStages
-import ZFVP.ModelTheory.RubinDefinableFilters
-import ZFVP.ModelTheory.RubinStage
-import ZFVP.ModelTheory.OmegaOneChainColimit
-import ZFVP.SetTheory.Rank
+module
+
+public import ZFVP.ModelTheory.RatherClasslessOfRubin
+public import ZFVP.ModelTheory.RubinChainStages
+public import ZFVP.ModelTheory.RubinDefinableFilters
+public import ZFVP.ModelTheory.RubinStage
+public import ZFVP.ModelTheory.OmegaOneChainColimit
+public import ZFVP.SetTheory.Rank
+
+@[expose] public section
 
 /-! # From an ω₁-chain of stages to a Rubin model
 

@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.FinitePartialFunctions
-import ZFVP.SetTheory.FiniteNaturalSets
-import ZFVP.ModelTheory.ForcingModel
-import ZFVP.ModelTheory.ForcingQuotientGeneric
-import ZFVP.SetTheory.EndExtensionCoding
+module
+
+public import ZFVP.SetTheory.FinitePartialFunctions
+public import ZFVP.SetTheory.FiniteNaturalSets
+public import ZFVP.ModelTheory.ForcingModel
+public import ZFVP.ModelTheory.ForcingQuotientGeneric
+public import ZFVP.SetTheory.EndExtensionCoding
+
+@[expose] public section
 
 /-! The corrected specialization poset as an actual set inside a ZF model.
 Conditions are internally finite partial functions into the model's omega.

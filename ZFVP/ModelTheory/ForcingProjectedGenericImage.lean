@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ProjectionInclusion
-import ZFVP.SetTheory.EndExtensionRank
-import ZFVP.SetTheory.RankEnumerationInaccessible
-import ZFVP.SetTheory.RegularCofinalSurjection
-import ZFVP.SetTheory.FunctionComposition
+module
+
+public import ZFVP.ModelTheory.ProjectionInclusion
+public import ZFVP.SetTheory.EndExtensionRank
+public import ZFVP.SetTheory.RankEnumerationInaccessible
+public import ZFVP.SetTheory.RegularCofinalSurjection
+public import ZFVP.SetTheory.FunctionComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

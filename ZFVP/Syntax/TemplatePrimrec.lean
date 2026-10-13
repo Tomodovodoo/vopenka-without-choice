@@ -1,4 +1,8 @@
-import ZFVP.Syntax.NaturalIndexRenamingPrimrec
+module
+
+public import ZFVP.Syntax.NaturalIndexRenamingPrimrec
+
+@[expose] public section
 
 /-! Primitive recursive template instantiation for each fixed template. -/
 

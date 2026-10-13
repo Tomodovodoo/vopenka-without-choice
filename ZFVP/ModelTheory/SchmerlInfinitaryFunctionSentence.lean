@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInfinitaryFunctionClauses
-import ZFVP.ModelTheory.SchmerlFunctionTreeEndExtension
+module
+
+public import ZFVP.ModelTheory.SchmerlInfinitaryFunctionClauses
+public import ZFVP.ModelTheory.SchmerlFunctionTreeEndExtension
+
+@[expose] public section
 
 /-! A single uniform sentence for all finite-function trees and its arbitrary
 model reduct theorem. Standard satisfaction supplies every selected domain,

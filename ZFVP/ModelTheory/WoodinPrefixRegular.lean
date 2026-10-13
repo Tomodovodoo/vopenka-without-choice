@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinPrefixSuccessor
-import ZFVP.ModelTheory.WoodinCollapseCutoffRegular
-import ZFVP.ModelTheory.ForcingSmallInaccessible
-import ZFVP.ModelTheory.ForcingCheckedTruth
+module
+
+public import ZFVP.ModelTheory.WoodinPrefixSuccessor
+public import ZFVP.ModelTheory.WoodinCollapseCutoffRegular
+public import ZFVP.ModelTheory.ForcingSmallInaccessible
+public import ZFVP.ModelTheory.ForcingCheckedTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

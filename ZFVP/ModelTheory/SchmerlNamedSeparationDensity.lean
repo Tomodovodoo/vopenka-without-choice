@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlNamedBlockCriterion
-import ZFVP.ModelTheory.InternalJointQueryFormula
-import ZFVP.ModelTheory.SchmerlBinaryInseparability
+module
+
+public import ZFVP.ModelTheory.SchmerlNamedBlockCriterion
+public import ZFVP.ModelTheory.InternalJointQueryFormula
+public import ZFVP.ModelTheory.SchmerlBinaryInseparability
+
+@[expose] public section
 
 /-! The actual separation-omission candidate sets are dense. The cofinal
 exclusion formulas retain the old element as one bound variable. -/

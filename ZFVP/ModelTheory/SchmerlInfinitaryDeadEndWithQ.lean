@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInfinitaryFunctionWithQ
-import ZFVP.ModelTheory.SchmerlInfinitarySmallDeadEnd
+module
+
+public import ZFVP.ModelTheory.SchmerlInfinitaryFunctionWithQ
+public import ZFVP.ModelTheory.SchmerlInfinitarySmallDeadEnd
+
+@[expose] public section
 
 /-! Assemble the fixed sentences with an arbitrary extensional Q. -/
 

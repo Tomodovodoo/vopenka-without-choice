@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.InternalWellFounded
-import ZFVP.SetTheory.DefinableGraph
+module
+
+public import ZFVP.SetTheory.InternalWellFounded
+public import ZFVP.SetTheory.DefinableGraph
+
+@[expose] public section
 
 namespace ZFVP
 

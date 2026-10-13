@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.SmallCollapseSurjection
-import ZFVP.SetTheory.RegularCofinalSurjection
-import ZFVP.ModelTheory.ElementaryBoundedWitness
+module
+
+public import ZFVP.SetTheory.SmallCollapseSurjection
+public import ZFVP.SetTheory.RegularCofinalSurjection
+public import ZFVP.ModelTheory.ElementaryBoundedWitness
+
+@[expose] public section
 
 /-! Function closure puts small subsets of an elementary submodel back in the submodel. -/
 

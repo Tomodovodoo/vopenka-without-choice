@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TwoStepSecondFilter
-import ZFVP.ModelTheory.TwoStepDenseNames
+module
+
+public import ZFVP.ModelTheory.TwoStepSecondFilter
+public import ZFVP.ModelTheory.TwoStepDenseNames
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

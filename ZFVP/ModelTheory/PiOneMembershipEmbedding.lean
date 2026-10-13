@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.CodedEmbeddingTransport
-import ZFVP.SetTheory.BoundedComposition
-import ZFVP.Syntax.DeltaOneMembershipTruth
-import ZFVP.SetTheory.DeltaOneBoundedTruth
+module
+
+public import ZFVP.ModelTheory.CodedEmbeddingTransport
+public import ZFVP.SetTheory.BoundedComposition
+public import ZFVP.Syntax.DeltaOneMembershipTruth
+public import ZFVP.SetTheory.DeltaOneBoundedTruth
+
+@[expose] public section
 
 /-! Coded elementary embeddings of membership structures have a Pi-one definition in ZF. -/
 

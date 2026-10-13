@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.PiWitnessMarkedParameters
+module
+
+public import ZFVP.SetTheory.PiWitnessMarkedParameters
+
+@[expose] public section
 
 /-! A Pi class of the paper's eight-marker witness structures. -/
 

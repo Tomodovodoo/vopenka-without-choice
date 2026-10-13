@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CohenOrbitEvaluationName
-import ZFVP.SetTheory.SymmetricSequenceNames
+module
+
+public import ZFVP.SetTheory.CohenOrbitEvaluationName
+public import ZFVP.SetTheory.SymmetricSequenceNames
+
+@[expose] public section
 
 namespace ZFVP
 

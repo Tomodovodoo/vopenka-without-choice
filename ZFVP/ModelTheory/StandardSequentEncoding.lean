@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.StandardCodedRules
-import ZFVP.Syntax.MembershipEncodingRewriting
+module
+
+public import ZFVP.ModelTheory.StandardCodedRules
+public import ZFVP.Syntax.MembershipEncodingRewriting
+
+@[expose] public section
 
 /-! Finite external sequents encoded as internal finite sets of formula codes. -/
 

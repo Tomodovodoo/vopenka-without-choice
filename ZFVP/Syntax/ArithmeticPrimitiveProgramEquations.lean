@@ -1,4 +1,8 @@
-import ZFVP.Syntax.ArithmeticPrimitiveProgram
+module
+
+public import ZFVP.Syntax.ArithmeticPrimitiveProgram
+
+@[expose] public section
 
 /-! Exact program equations in every model of Sigma-one induction. -/
 

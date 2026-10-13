@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RealCategoryClosure
+module
+
+public import ZFVP.SetTheory.RealCategoryClosure
+
+@[expose] public section
 
 /-! Cantor BP transfers to actual unit-interval reals through the closed binary map. -/
 

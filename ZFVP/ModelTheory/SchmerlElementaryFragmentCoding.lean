@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedInfinitarySemantics
-import ZFVP.ModelTheory.SchmerlUniformInfinitaryTruth
-import ZFVP.Syntax.ElementaryFoundationEncoding
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedInfinitarySemantics
+public import ZFVP.ModelTheory.SchmerlUniformInfinitaryTruth
+public import ZFVP.Syntax.ElementaryFoundationEncoding
+
+@[expose] public section
 
 /-! Elementary transport of represented fragment constructors. -/
 namespace ZFVP.Infinitary.Internal

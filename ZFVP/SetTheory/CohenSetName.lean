@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CohenRealNames
+module
+
+public import ZFVP.SetTheory.CohenRealNames
+
+@[expose] public section
 
 namespace ZFVP
 

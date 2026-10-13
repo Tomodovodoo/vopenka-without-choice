@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.PrunedUEWoodinBounds
-import ZFVP.ModelTheory.WoodinSparseRestorationLevels
-import ZFVP.ModelTheory.FiniteRestorationReflection
-import ZFVP.SetTheory.BoundedOrdinalOmega
+module
+
+public import ZFVP.ModelTheory.PrunedUEWoodinBounds
+public import ZFVP.ModelTheory.WoodinSparseRestorationLevels
+public import ZFVP.ModelTheory.FiniteRestorationReflection
+public import ZFVP.SetTheory.BoundedOrdinalOmega
+
+@[expose] public section
 
 /-! Ground selection for the actual complete sparse iteration code.
 The UE hypotheses come from the pruned theory. The forcing window level and

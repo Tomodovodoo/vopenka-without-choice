@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryWeakModelRelabel
-import ZFVP.ModelTheory.InfinitaryAdequateGrowthBlock
+module
+
+public import ZFVP.ModelTheory.InfinitaryWeakModelRelabel
+public import ZFVP.ModelTheory.InfinitaryAdequateGrowthBlock
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

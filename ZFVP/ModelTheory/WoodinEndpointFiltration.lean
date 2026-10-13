@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinEndpointDirect
-import ZFVP.SetTheory.ForcingDirectLimitFiltration
+module
+
+public import ZFVP.ModelTheory.WoodinEndpointDirect
+public import ZFVP.SetTheory.ForcingDirectLimitFiltration
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

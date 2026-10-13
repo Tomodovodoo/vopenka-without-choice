@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedSourceForcing
-import ZFVP.ModelTheory.SchmerlCodedFunctionFamilyTransport
-import ZFVP.ModelTheory.SchmerlInternalSimultaneousSpecialization
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedSourceForcing
+public import ZFVP.ModelTheory.SchmerlCodedFunctionFamilyTransport
+public import ZFVP.ModelTheory.SchmerlInternalSimultaneousSpecialization
+
+@[expose] public section
 
 /-! One forcing extension supplies the class coloring and every finite-function
 coloring, preserving all relevant cofinal branches at once. -/

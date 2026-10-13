@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlInternalDiamondExtensions
-import ZFVP.ModelTheory.SchmerlInternalDiamondDecisions
-import ZFVP.SetTheory.ClubDictionary
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalDiamondExtensions
+public import ZFVP.ModelTheory.SchmerlInternalDiamondDecisions
+public import ZFVP.SetTheory.ClubDictionary
+
+@[expose] public section
 
 set_option autoImplicit false
 

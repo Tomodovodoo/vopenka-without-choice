@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.InternalTranspositions
-import ZFVP.SetTheory.FiniteNaturalSets
+module
+
+public import ZFVP.SetTheory.InternalTranspositions
+public import ZFVP.SetTheory.FiniteNaturalSets
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingNormalizedSystem
+module
+
+public import ZFVP.ModelTheory.ForcingNormalizedSystem
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

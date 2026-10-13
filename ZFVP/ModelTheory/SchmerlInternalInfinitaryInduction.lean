@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalInfinitaryEquations
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalInfinitaryEquations
+
+@[expose] public section
 
 /-! Internal induction and binder-depth recursion for infinitary fragments. -/
 

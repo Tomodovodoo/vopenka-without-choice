@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.UsubaCollapse
-import ZFVP.ModelTheory.ForcingQuotientGeneric
-import ZFVP.ModelTheory.ForcingClosedCardinals
-import ZFVP.ModelTheory.ForcingDependentChoiceTransfer
+module
+
+public import ZFVP.SetTheory.UsubaCollapse
+public import ZFVP.ModelTheory.ForcingQuotientGeneric
+public import ZFVP.ModelTheory.ForcingClosedCardinals
+public import ZFVP.ModelTheory.ForcingDependentChoiceTransfer
+
+@[expose] public section
 
 /-! The generic union for Usuba's `Col(κ,S)` is a surjection `κ → S`.
 Under `DC_<κ` the forcing adds no shorter sequences of ground-model

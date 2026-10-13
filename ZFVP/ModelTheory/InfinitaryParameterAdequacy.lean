@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitarySmallTermFreezing
-import ZFVP.ModelTheory.InfinitaryParameterInstance
+module
+
+public import ZFVP.ModelTheory.InfinitarySmallTermFreezing
+public import ZFVP.ModelTheory.InfinitaryParameterInstance
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

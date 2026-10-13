@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalEmbeddingRelabeling
-import ZFVP.ModelTheory.SchmerlInternalCodedFiniteTraces
+module
+
+public import ZFVP.ModelTheory.InternalEmbeddingRelabeling
+public import ZFVP.ModelTheory.SchmerlInternalCodedFiniteTraces
+
+@[expose] public section
 
 /-! Actual coded elementary embeddings become literal inclusions after
 relabeling. Countability, full coded ZF, and finite member traces are preserved. -/

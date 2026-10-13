@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalProofRewriteStates
+module
+
+public import ZFVP.ModelTheory.InternalProofRewriteStates
+
+@[expose] public section
 
 /-! The explicit rewrite states are exactly the internally iterated binder lifts. -/
 

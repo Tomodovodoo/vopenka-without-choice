@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.GeneratedZFVPTheory
+module
+
+public import ZFVP.ModelTheory.GeneratedZFVPTheory
+
+@[expose] public section
 
 /-! The finite equality basis entails Foundation's equality axioms, even before normalization. -/
 

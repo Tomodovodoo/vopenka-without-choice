@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingQuotientValuation
-import ZFVP.ModelTheory.ClassForcingQuotient
-import ZFVP.ModelTheory.TransitiveZFSymmetry
+module
+
+public import ZFVP.ModelTheory.ForcingQuotientValuation
+public import ZFVP.ModelTheory.ClassForcingQuotient
+public import ZFVP.ModelTheory.TransitiveZFSymmetry
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.EffectiveFiniteLanguageReduction
-import ZFVP.ModelTheory.TheoryCompactness
-import ZFVP.ModelTheory.CountablePrunedGroundModel
-import ZFVP.ModelTheory.SVCVopenkaRestoration
+module
+
+public import ZFVP.SetTheory.EffectiveFiniteLanguageReduction
+public import ZFVP.ModelTheory.TheoryCompactness
+public import ZFVP.ModelTheory.CountablePrunedGroundModel
+public import ZFVP.ModelTheory.SVCVopenkaRestoration
+
+@[expose] public section
 
 /-! # Theorem B: `Con(ZF+VP) ↔ Con(ZFC+VP)`
 

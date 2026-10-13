@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LevySwapComplementSupport
-import ZFVP.ModelTheory.LevyGaloisStep
+module
+
+public import ZFVP.ModelTheory.LevySwapComplementSupport
+public import ZFVP.ModelTheory.LevyGaloisStep
+
+@[expose] public section
 
 /-! Support clauses for the two cone isomorphisms of the Levy collapse, from determinacy
 below `ξ`.

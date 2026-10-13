@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ForcingAutomorphisms
+module
+
+public import ZFVP.SetTheory.ForcingAutomorphisms
+
+@[expose] public section
 
 namespace ZFVP
 

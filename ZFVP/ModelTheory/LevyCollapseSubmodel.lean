@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.LevyCollapseSubgeneric
-import ZFVP.ModelTheory.ForcingRealizationGeneration
-import ZFVP.ModelTheory.ForcingModelNameValue
-import ZFVP.SetTheory.ForcingRetraction
+module
+
+public import ZFVP.ModelTheory.LevyCollapseSubgeneric
+public import ZFVP.ModelTheory.ForcingRealizationGeneration
+public import ZFVP.ModelTheory.ForcingModelNameValue
+public import ZFVP.SetTheory.ForcingRetraction
+
+@[expose] public section
 
 /-! The intermediate model `V[G_β]` inside `V[G]` for the Levy collapse: the subcollapse
 context is realized in the full extension through the checks and the cut of the generic

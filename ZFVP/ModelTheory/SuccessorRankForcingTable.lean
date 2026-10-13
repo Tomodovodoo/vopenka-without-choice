@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalForcingTableTransport
-import ZFVP.ModelTheory.SuccessorRankSyntaxFamily
-import ZFVP.SetTheory.AtomicTruthTableBounds
+module
+
+public import ZFVP.ModelTheory.InternalForcingTableTransport
+public import ZFVP.ModelTheory.SuccessorRankSyntaxFamily
+public import ZFVP.SetTheory.AtomicTruthTableBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

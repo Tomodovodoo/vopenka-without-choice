@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingInverseLimit
-import ZFVP.SetTheory.BoundedValue
+module
+
+public import ZFVP.SetTheory.ForcingInverseLimit
+public import ZFVP.SetTheory.BoundedValue
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

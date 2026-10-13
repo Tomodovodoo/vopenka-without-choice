@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.NormalizedIsomorphismDefinability
-import ZFVP.ModelTheory.WoodinSupportSuccessorTransport
-import ZFVP.ModelTheory.WoodinNormalizedSuccessorMaps
+module
+
+public import ZFVP.ModelTheory.NormalizedIsomorphismDefinability
+public import ZFVP.ModelTheory.WoodinSupportSuccessorTransport
+public import ZFVP.ModelTheory.WoodinNormalizedSuccessorMaps
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

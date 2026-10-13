@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingExtensionZF
-import ZFVP.ModelTheory.ForcingVopenkaPreservation
-import ZFVP.ModelTheory.SymmetricExtensionZF
+module
+
+public import ZFVP.ModelTheory.ForcingExtensionZF
+public import ZFVP.ModelTheory.ForcingVopenkaPreservation
+public import ZFVP.ModelTheory.SymmetricExtensionZF
+
+@[expose] public section
 
 /-! Full Vopenka preservation for an evaluated ordinary forcing extension. -/
 

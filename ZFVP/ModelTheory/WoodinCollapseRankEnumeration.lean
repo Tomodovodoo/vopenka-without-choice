@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinCollapseModel
-import ZFVP.SetTheory.OrdinalLeftOne
-import ZFVP.SetTheory.WellOrderedSurjection
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseModel
+public import ZFVP.SetTheory.OrdinalLeftOne
+public import ZFVP.SetTheory.WellOrderedSurjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinActualDirectMaps
-import ZFVP.ModelTheory.WoodinRecodedDirectNext
-import ZFVP.ModelTheory.WoodinNormalizedEndpoint
+module
+
+public import ZFVP.ModelTheory.WoodinActualDirectMaps
+public import ZFVP.ModelTheory.WoodinRecodedDirectNext
+public import ZFVP.ModelTheory.WoodinNormalizedEndpoint
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

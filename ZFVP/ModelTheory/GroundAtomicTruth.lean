@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.GroundAtomicSoundness
-import ZFVP.SetTheory.AtomicSeparation
+module
+
+public import ZFVP.ModelTheory.GroundAtomicSoundness
+public import ZFVP.SetTheory.AtomicSeparation
+
+@[expose] public section
 
 namespace ZFVP
 

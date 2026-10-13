@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingCheckedTruth
-import ZFVP.ModelTheory.TwoStepCheckedSemantics
+module
+
+public import ZFVP.ModelTheory.ForcingCheckedTruth
+public import ZFVP.ModelTheory.TwoStepCheckedSemantics
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

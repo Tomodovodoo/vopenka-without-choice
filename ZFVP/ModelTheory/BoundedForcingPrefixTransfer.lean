@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.BoundedForcingPrefixAgreement
-import ZFVP.ModelTheory.CountableZFTransfer
-import ZFVP.Syntax.SigmaOneInternalForcing
+module
+
+public import ZFVP.ModelTheory.BoundedForcingPrefixAgreement
+public import ZFVP.ModelTheory.CountableZFTransfer
+public import ZFVP.Syntax.SigmaOneInternalForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

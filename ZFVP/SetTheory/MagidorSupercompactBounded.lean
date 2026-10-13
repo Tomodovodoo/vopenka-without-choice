@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.MagidorSupercompact
-import ZFVP.SetTheory.BoundedHierarchyGraph
-import ZFVP.ModelTheory.BoundedMembershipEmbedding
-import ZFVP.ModelTheory.KunenSupportSelfEmbedding
+module
+
+public import ZFVP.SetTheory.MagidorSupercompact
+public import ZFVP.SetTheory.BoundedHierarchyGraph
+public import ZFVP.ModelTheory.BoundedMembershipEmbedding
+public import ZFVP.ModelTheory.KunenSupportSelfEmbedding
+
+@[expose] public section
 
 /-! A bounded formula for Magidor's small-embedding predicate, and its transfer along a coded
 embedding between rank stages.

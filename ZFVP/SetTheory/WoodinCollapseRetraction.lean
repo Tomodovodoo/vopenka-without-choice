@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinCollapseProjection
-import ZFVP.SetTheory.ForcingRetraction
+module
+
+public import ZFVP.SetTheory.WoodinCollapseProjection
+public import ZFVP.SetTheory.ForcingRetraction
+
+@[expose] public section
 
 namespace ZFVP
 

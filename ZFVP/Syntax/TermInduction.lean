@@ -1,5 +1,9 @@
-import ZFVP.Syntax.Terms
-import ZFVP.SetTheory.StandardNaturals
+module
+
+public import ZFVP.Syntax.Terms
+public import ZFVP.SetTheory.StandardNaturals
+
+@[expose] public section
 
 /-! Definable induction and constructor inversion for internal terms. -/
 

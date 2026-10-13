@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingLowRankAssignments
-import ZFVP.SetTheory.FunctionComposition
+module
+
+public import ZFVP.ModelTheory.ForcingLowRankAssignments
+public import ZFVP.SetTheory.FunctionComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

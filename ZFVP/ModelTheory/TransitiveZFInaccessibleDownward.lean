@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.TransitiveZFInaccessible
+module
+
+public import ZFVP.ModelTheory.TransitiveZFInaccessible
+
+@[expose] public section
 
 /-! Inaccessibility descends to a transitive ZF model containing the full lower hierarchy. -/
 

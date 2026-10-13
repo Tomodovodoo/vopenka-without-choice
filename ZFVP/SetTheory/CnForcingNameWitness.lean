@@ -1,5 +1,9 @@
-import ZFVP.Syntax.SigmaOneNameWitness
-import ZFVP.SetTheory.CnSigmaClosure
+module
+
+public import ZFVP.Syntax.SigmaOneNameWitness
+public import ZFVP.SetTheory.CnSigmaClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

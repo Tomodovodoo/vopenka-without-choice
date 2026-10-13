@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ProtoRankBerkeleyVopenka
-import ZFVP.Syntax.VopenkaCodes
+module
+
+public import ZFVP.ModelTheory.ProtoRankBerkeleyVopenka
+public import ZFVP.Syntax.VopenkaCodes
+
+@[expose] public section
 
 /-! Proto rank-Berkeley gives a rank model satisfying every internally coded VP instance. -/
 

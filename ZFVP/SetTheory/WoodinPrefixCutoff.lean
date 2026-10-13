@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinRestorationCutoffName
-import ZFVP.SetTheory.TwoStepForcing
+module
+
+public import ZFVP.ModelTheory.WoodinRestorationCutoffName
+public import ZFVP.SetTheory.TwoStepForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

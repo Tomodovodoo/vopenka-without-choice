@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.EndExtensionHierarchyAgreement
-import ZFVP.ModelTheory.UsubaTransportedLocalUnion
-import ZFVP.ModelTheory.TwoStepUsubaLocalUnion
-import ZFVP.ModelTheory.ForcingProjectionComposition
+module
+
+public import ZFVP.SetTheory.EndExtensionHierarchyAgreement
+public import ZFVP.ModelTheory.UsubaTransportedLocalUnion
+public import ZFVP.ModelTheory.TwoStepUsubaLocalUnion
+public import ZFVP.ModelTheory.ForcingProjectionComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

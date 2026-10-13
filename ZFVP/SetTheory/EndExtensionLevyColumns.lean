@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.EndExtensionLevyCollapse
-import ZFVP.SetTheory.EndExtensionRegular
-import ZFVP.SetTheory.LevyColumnSplitting
-import ZFVP.ModelTheory.SubposetRealization
+module
+
+public import ZFVP.SetTheory.EndExtensionLevyCollapse
+public import ZFVP.SetTheory.EndExtensionRegular
+public import ZFVP.SetTheory.LevyColumnSplitting
+public import ZFVP.ModelTheory.SubposetRealization
+
+@[expose] public section
 
 /-! Column collapses, restricted orders and injections are absolute for membership end
 extensions; the upper collapse is the column collapse on `κ \ β`. -/

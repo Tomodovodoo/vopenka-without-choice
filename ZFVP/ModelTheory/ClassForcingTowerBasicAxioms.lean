@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.MembershipDirectedLimitBasic
-import ZFVP.ModelTheory.ClassForcingTowerModel
+module
+
+public import ZFVP.ModelTheory.MembershipDirectedLimitBasic
+public import ZFVP.ModelTheory.ClassForcingTowerModel
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

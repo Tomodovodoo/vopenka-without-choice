@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingNormalizedInverseOrder
-import ZFVP.ModelTheory.WoodinNormalizedInverseCanonical
+module
+
+public import ZFVP.ModelTheory.ForcingNormalizedInverseOrder
+public import ZFVP.ModelTheory.WoodinNormalizedInverseCanonical
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

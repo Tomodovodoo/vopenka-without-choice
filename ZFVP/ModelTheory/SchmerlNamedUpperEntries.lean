@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedDefinitionParameters
-import ZFVP.ModelTheory.InternalNamedParameters
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedDefinitionParameters
+public import ZFVP.ModelTheory.InternalNamedParameters
+
+@[expose] public section
 
 /-! The raw named requirements for one cofinal bound: membership in the
 defined poset and an order requirement above each old member. -/

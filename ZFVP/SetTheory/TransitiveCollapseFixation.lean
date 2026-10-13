@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.TransitiveCollapseRestriction
+module
+
+public import ZFVP.SetTheory.TransitiveCollapseRestriction
+
+@[expose] public section
 
 namespace ZFVP
 

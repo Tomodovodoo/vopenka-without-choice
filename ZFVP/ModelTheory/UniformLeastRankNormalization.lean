@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.NormalizedIsomorphismNames
-import ZFVP.SetTheory.UniformRank
-import ZFVP.SetTheory.NameRecursionDictionary
-import ZFVP.SetTheory.LevyComplexityBound
+module
+
+public import ZFVP.ModelTheory.NormalizedIsomorphismNames
+public import ZFVP.SetTheory.UniformRank
+public import ZFVP.SetTheory.NameRecursionDictionary
+public import ZFVP.SetTheory.LevyComplexityBound
+
+@[expose] public section
 
 /-! Explicit formulas for the actual least-rank normalization. Every formula
 is declared before the ambient model and uses only fixed syntax. -/

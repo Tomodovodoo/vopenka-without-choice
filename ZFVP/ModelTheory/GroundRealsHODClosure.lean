@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.GroundRealsHOD
+module
+
+public import ZFVP.ModelTheory.GroundRealsHOD
+
+@[expose] public section
 
 /-! Closure of ordinal definability from ground sets and reals: a set definable from a definable
 set is definable. The composite formula `∃ w (∀ y (y ∈ w ↔ φ(y, v)) ∧ ψ(b, w))` substitutes the

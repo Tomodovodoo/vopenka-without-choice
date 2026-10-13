@@ -1,5 +1,9 @@
-import ZFVP.Syntax.BoundedCodes
-import ZFVP.SetTheory.UniformLowTruth
+module
+
+public import ZFVP.Syntax.BoundedCodes
+public import ZFVP.SetTheory.UniformLowTruth
+
+@[expose] public section
 
 /-! Shared first-order definitions of the internal bounded-formula family. -/
 

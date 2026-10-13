@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinSupportSuccessorTransport
-import ZFVP.ModelTheory.WoodinNormalizedPrefix
-import ZFVP.ModelTheory.ForcingRecodedSystem
-import ZFVP.ModelTheory.NormalizedIsomorphismDefinability
+module
+
+public import ZFVP.ModelTheory.WoodinSupportSuccessorTransport
+public import ZFVP.ModelTheory.WoodinNormalizedPrefix
+public import ZFVP.ModelTheory.ForcingRecodedSystem
+public import ZFVP.ModelTheory.NormalizedIsomorphismDefinability
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

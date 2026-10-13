@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingClosedModelName
-import ZFVP.SetTheory.WoodinClosedZFModels
-import ZFVP.Syntax.SigmaOneBoundedForcing
+module
+
+public import ZFVP.ModelTheory.ForcingClosedModelName
+public import ZFVP.SetTheory.WoodinClosedZFModels
+public import ZFVP.Syntax.SigmaOneBoundedForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

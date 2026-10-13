@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.NormalizedTwoStepExtension
-import ZFVP.ModelTheory.ForcingNameActionRank
+module
+
+public import ZFVP.ModelTheory.NormalizedTwoStepExtension
+public import ZFVP.ModelTheory.ForcingNameActionRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

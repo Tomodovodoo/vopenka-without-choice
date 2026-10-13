@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.OrdinalClosureClass
-import ZFVP.SetTheory.CnExtendibleSmallEmbedding
-import ZFVP.SetTheory.PiOneInitialOrdinal
+module
+
+public import ZFVP.SetTheory.OrdinalClosureClass
+public import ZFVP.SetTheory.CnExtendibleSmallEmbedding
+public import ZFVP.SetTheory.PiOneInitialOrdinal
+
+@[expose] public section
 
 /-! The closed unbounded class used in Bagaria's converse to Theorem 4.11.
 

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.BinaryClosedImages
-import ZFVP.SetTheory.BinaryCylinderIntervals
-import ZFVP.SetTheory.CantorInfiniteOnes
+module
+
+public import ZFVP.SetTheory.BinaryClosedImages
+public import ZFVP.SetTheory.BinaryCylinderIntervals
+public import ZFVP.SetTheory.CantorInfiniteOnes
+
+@[expose] public section
 
 /-! Closed nowhere dense binary tree bodies have nowhere dense real images. -/
 

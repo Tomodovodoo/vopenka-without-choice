@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.FefermanLevyModel
-import ZFVP.SetTheory.CountableSets
-import ZFVP.SetTheory.EndExtensionFinite
-import ZFVP.SetTheory.EndExtensionWellOrdering
+module
+
+public import ZFVP.ModelTheory.FefermanLevyModel
+public import ZFVP.SetTheory.CountableSets
+public import ZFVP.SetTheory.EndExtensionFinite
+public import ZFVP.SetTheory.EndExtensionWellOrdering
+
+@[expose] public section
 
 /-! Each stage set of reals is countable in the Feferman-Levy extension: it injects into
 the check of the nice names of the stage, which is collapsed to omega by the next column

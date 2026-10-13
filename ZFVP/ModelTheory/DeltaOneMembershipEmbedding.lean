@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SigmaOneMembershipEmbedding
-import ZFVP.ModelTheory.EmbeddingAbsoluteness
+module
+
+public import ZFVP.ModelTheory.SigmaOneMembershipEmbedding
+public import ZFVP.ModelTheory.EmbeddingAbsoluteness
+
+@[expose] public section
 
 /-! Delta-one recognition and transitive-model absoluteness of membership embedding graphs. -/
 

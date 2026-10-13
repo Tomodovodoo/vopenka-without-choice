@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.FiniteSets
+module
+
+public import ZFVP.SetTheory.FiniteSets
+
+@[expose] public section
 
 /-! Internal finite cofinal unions for the finite-preserving Rubin successor.
 The finite index set may have nonstandard size. -/

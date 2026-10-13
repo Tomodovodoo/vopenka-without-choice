@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.SaturatedNameEquality
-import ZFVP.SetTheory.AtomicForcingAction
-import ZFVP.SetTheory.NameActionMembership
+module
+
+public import ZFVP.SetTheory.SaturatedNameEquality
+public import ZFVP.SetTheory.AtomicForcingAction
+public import ZFVP.SetTheory.NameActionMembership
+
+@[expose] public section
 
 namespace ZFVP
 

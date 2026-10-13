@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseRankAgreement
-import ZFVP.ModelTheory.WoodinSparseFiniteRankLift
-import ZFVP.ModelTheory.FiniteRankLiftGraphRank
+module
+
+public import ZFVP.ModelTheory.WoodinSparseRankAgreement
+public import ZFVP.ModelTheory.WoodinSparseFiniteRankLift
+public import ZFVP.ModelTheory.FiniteRankLiftGraphRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

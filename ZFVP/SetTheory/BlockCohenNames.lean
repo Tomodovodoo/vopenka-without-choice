@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BlockCohenSystem
-import ZFVP.SetTheory.CohenSetName
+module
+
+public import ZFVP.SetTheory.BlockCohenSystem
+public import ZFVP.SetTheory.CohenSetName
+
+@[expose] public section
 
 /-!
 Names for the block Cohen system of Jech's first embedding theorem: the Cohen real of an index

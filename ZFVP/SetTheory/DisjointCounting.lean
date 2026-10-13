@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.NullSets
+module
+
+public import ZFVP.SetTheory.NullSets
+
+@[expose] public section
 
 /-! Counting pairwise disjoint large subsets of a finite set: if `N` pairwise disjoint subsets of
 `Y` each satisfy `X_j × 2^m ≰# Y` (each has more than `|Y| / 2^m` elements), then `N ≤# 2^m`. -/

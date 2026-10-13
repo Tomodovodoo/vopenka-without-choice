@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.NameValue
-import ZFVP.SetTheory.NameAction
-import ZFVP.SetTheory.InverseFunction
+module
+
+public import ZFVP.SetTheory.NameValue
+public import ZFVP.SetTheory.NameAction
+public import ZFVP.SetTheory.InverseFunction
+
+@[expose] public section
 
 namespace ZFVP
 

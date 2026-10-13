@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramListMap
-import ZFVP.Syntax.PrimitiveProgramListMembership
+module
+
+public import ZFVP.Syntax.PrimitiveProgramListMap
+public import ZFVP.Syntax.PrimitiveProgramListMembership
+
+@[expose] public section
 
 /-! Exact list-membership equations for constructors, maps and concatenation. -/
 

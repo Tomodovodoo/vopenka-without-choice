@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.CountablePrunedGroundModel
-import ZFVP.SetTheory.CnExtendibleWoodinSupercompact
-import ZFVP.SetTheory.CnExtendibleHighCriticalWoodin
-import ZFVP.SetTheory.CnExtendibleDownward
+module
+
+public import ZFVP.ModelTheory.CountablePrunedGroundModel
+public import ZFVP.SetTheory.CnExtendibleWoodinSupercompact
+public import ZFVP.SetTheory.CnExtendibleHighCriticalWoodin
+public import ZFVP.SetTheory.CnExtendibleDownward
+
+@[expose] public section
 
 /-! Ground bounds obtained from the actual UE sentences.
 The pruned theory supplies UE through the instance below.

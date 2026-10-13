@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlNamedCoordinateCriterion
-import ZFVP.ModelTheory.SchmerlDirectedPosetFormulas
-import ZFVP.ModelTheory.SchmerlFiniteUpperIndices
-import ZFVP.ModelTheory.RubinFiniteIndexOmissionKernel
+module
+
+public import ZFVP.ModelTheory.SchmerlNamedCoordinateCriterion
+public import ZFVP.ModelTheory.SchmerlDirectedPosetFormulas
+public import ZFVP.ModelTheory.SchmerlFiniteUpperIndices
+public import ZFVP.ModelTheory.RubinFiniteIndexOmissionKernel
+
+@[expose] public section
 
 /-! First-order cofinal blocks exactly characterize finite source realizability
 over the actual upper-bound background. -/

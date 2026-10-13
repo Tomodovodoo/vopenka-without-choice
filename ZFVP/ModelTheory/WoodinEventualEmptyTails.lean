@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSuccessorTailEmpty
-import ZFVP.ModelTheory.WoodinInverseTailEmpty
+module
+
+public import ZFVP.ModelTheory.WoodinSuccessorTailEmpty
+public import ZFVP.ModelTheory.WoodinInverseTailEmpty
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

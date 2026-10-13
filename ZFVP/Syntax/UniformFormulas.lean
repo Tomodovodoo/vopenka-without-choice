@@ -1,6 +1,10 @@
-import ZFVP.Syntax.Formulas
-import ZFVP.Syntax.UniformFormulaCodes
-import ZFVP.ModelTheory.FormulaNesting
+module
+
+public import ZFVP.Syntax.Formulas
+public import ZFVP.Syntax.UniformFormulaCodes
+public import ZFVP.ModelTheory.FormulaNesting
+
+@[expose] public section
 
 /-! Shared parameter-free definitions of the internal formula family and its fibers. -/
 

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.MagidorSupercompact
-import ZFVP.SetTheory.OrdinalClosureClass
-import ZFVP.SetTheory.Rank
+module
+
+public import ZFVP.SetTheory.MagidorSupercompact
+public import ZFVP.SetTheory.OrdinalClosureClass
+public import ZFVP.SetTheory.Rank
+
+@[expose] public section
 
 /-! # The least limit stage where supercompactness fails on an interval
 

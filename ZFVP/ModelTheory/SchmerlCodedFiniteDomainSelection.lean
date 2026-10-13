@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedFiniteDomains
-import ZFVP.ModelTheory.SchmerlCodedRankSelection
-import ZFVP.ModelTheory.SchmerlInfinitaryFunctionWithQ
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedFiniteDomains
+public import ZFVP.ModelTheory.SchmerlCodedRankSelection
+public import ZFVP.ModelTheory.SchmerlInfinitaryFunctionWithQ
+
+@[expose] public section
 
 /-! Selected finite domains from an actual coded cofinal chain.
 The Q clauses use actual internal countable covers, including all initial segments. -/

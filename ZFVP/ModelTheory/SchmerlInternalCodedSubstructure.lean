@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CodedElementaryEmbedding
-import ZFVP.Syntax.SatisfactionEquations
-import ZFVP.Syntax.TermInduction
+module
+
+public import ZFVP.ModelTheory.CodedElementaryEmbedding
+public import ZFVP.Syntax.SatisfactionEquations
+public import ZFVP.Syntax.TermInduction
+
+@[expose] public section
 
 /-! Induced coded substructures and their agreement on all internal terms. -/
 

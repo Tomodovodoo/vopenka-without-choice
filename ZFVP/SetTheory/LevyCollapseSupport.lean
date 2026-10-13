@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.LevyCollapse
-import ZFVP.SetTheory.FiniteSets
+module
+
+public import ZFVP.SetTheory.LevyCollapse
+public import ZFVP.SetTheory.FiniteSets
+
+@[expose] public section
 
 /-! The ordinal support of a Levy collapse condition: the finite set of ordinals `α` with
 some `(n, α)` in its domain. Cutting a condition below `β` keeps exactly the part of its

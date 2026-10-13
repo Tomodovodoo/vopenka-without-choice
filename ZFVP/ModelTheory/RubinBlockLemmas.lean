@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.AlternatingBlocks
-import ZFVP.ModelTheory.ConstantAbstraction
-import ZFVP.ModelTheory.OmittingTypesEq
+module
+
+public import ZFVP.ModelTheory.AlternatingBlocks
+public import ZFVP.ModelTheory.ConstantAbstraction
+public import ZFVP.ModelTheory.OmittingTypesEq
+
+@[expose] public section
 
 /-! # Enayat's Lemma A.4 in block form
 

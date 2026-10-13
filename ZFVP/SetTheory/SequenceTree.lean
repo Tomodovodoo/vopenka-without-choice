@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.FiniteSequences
-import ZFVP.SetTheory.FinitePartialFunctions
-import ZFVP.SetTheory.MeasuredWellFounded
-import ZFVP.SetTheory.Rank
+module
+
+public import ZFVP.SetTheory.FiniteSequences
+public import ZFVP.SetTheory.FinitePartialFunctions
+public import ZFVP.SetTheory.MeasuredWellFounded
+public import ZFVP.SetTheory.Rank
+
+@[expose] public section
 
 /-! The tree `A^{<ω}` of finite sequences ordered by reverse inclusion: its proper-initial-segment
 relation is well-founded, compatibility is comparability, and incomparable sequences branch at a

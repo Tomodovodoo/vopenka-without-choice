@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TransitiveZFNormalizedRecodedCode
-import ZFVP.ModelTheory.WoodinSparseRecursion
+module
+
+public import ZFVP.ModelTheory.TransitiveZFNormalizedRecodedCode
+public import ZFVP.ModelTheory.WoodinSparseRecursion
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SolovayModel
-import ZFVP.SetTheory.RealRegularitySentences
-import ZFVP.SetTheory.RealLebesgueTransfer
+module
+
+public import ZFVP.ModelTheory.SolovayModel
+public import ZFVP.SetTheory.RealRegularitySentences
+public import ZFVP.SetTheory.RealLebesgueTransfer
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

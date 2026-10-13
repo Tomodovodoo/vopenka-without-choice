@@ -1,4 +1,8 @@
-import ZFVP.Syntax.ZFOpenAxiomSet
+module
+
+public import ZFVP.Syntax.ZFOpenAxiomSet
+
+@[expose] public section
 
 /-! The internal ZF+VP axiom set and its exact coded model condition. -/
 

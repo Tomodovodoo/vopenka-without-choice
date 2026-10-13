@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseHistoryLaws
-import ZFVP.ModelTheory.WoodinSparseSuccessorRank
-import ZFVP.ModelTheory.WoodinSparseSuccessorValues
+module
+
+public import ZFVP.ModelTheory.WoodinSparseHistoryLaws
+public import ZFVP.ModelTheory.WoodinSparseSuccessorRank
+public import ZFVP.ModelTheory.WoodinSparseSuccessorValues
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.PiTwoMarkerRankClass
+module
+
+public import ZFVP.SetTheory.PiTwoMarkerRankClass
+
+@[expose] public section
 
 /-! The two-marker rank class of `ZFVP.SetTheory.ParamTwoMarkerRankClass`, with the domain
 `V_{lam+ω}` also handed to the side condition.

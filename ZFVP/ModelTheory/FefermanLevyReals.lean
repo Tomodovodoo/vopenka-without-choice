@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.FefermanLevyCountable
-import ZFVP.ModelTheory.SymmetricModelGraph
-import ZFVP.SetTheory.DependentChoice
+module
+
+public import ZFVP.ModelTheory.FefermanLevyCountable
+public import ZFVP.ModelTheory.SymmetricModelGraph
+public import ZFVP.SetTheory.DependentChoice
+
+@[expose] public section
 
 /-! In the Feferman-Levy extension the sequence of stage sets is a set, each stage set is
 countable, and their union is the power set of omega. Hence the reals are a countable

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalFormulaTransformSubstitution
-import ZFVP.Syntax.PrimitiveProgramReindexVariables
+module
+
+public import ZFVP.ModelTheory.InternalFormulaTransformSubstitution
+public import ZFVP.Syntax.PrimitiveProgramReindexVariables
+
+@[expose] public section
 
 /-! Internal bound-variable renaming, its binder equations, and preservation of the target context. -/
 

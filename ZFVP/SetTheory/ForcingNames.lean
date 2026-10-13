@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.NameClosure
-import ZFVP.SetTheory.MeasuredWellFounded
+module
+
+public import ZFVP.SetTheory.NameClosure
+public import ZFVP.SetTheory.MeasuredWellFounded
+
+@[expose] public section
 
 namespace ZFVP
 

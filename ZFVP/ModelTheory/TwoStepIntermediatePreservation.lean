@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TwoStepIntermediate
-import ZFVP.ModelTheory.ForcingClosedSequences
-import ZFVP.ModelTheory.ProjectionInclusion
+module
+
+public import ZFVP.ModelTheory.TwoStepIntermediate
+public import ZFVP.ModelTheory.ForcingClosedSequences
+public import ZFVP.ModelTheory.ProjectionInclusion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

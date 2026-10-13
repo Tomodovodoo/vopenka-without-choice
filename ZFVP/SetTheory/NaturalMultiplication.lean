@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.NaturalAddition
-import ZFVP.SetTheory.NaturalIteration
-import ZFVP.SetTheory.UniformCodingUniverse
+module
+
+public import ZFVP.SetTheory.NaturalAddition
+public import ZFVP.SetTheory.NaturalIteration
+public import ZFVP.SetTheory.UniformCodingUniverse
+
+@[expose] public section
 
 /-! Multiplication on the whole internal omega of an arbitrary ZF model. -/
 

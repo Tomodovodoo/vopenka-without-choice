@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CnExtendibleSmallEmbedding
+module
+
+public import ZFVP.SetTheory.CnExtendibleSmallEmbedding
+
+@[expose] public section
 
 /-! One family of small embeddings works at every level below the one it was produced at.
 

@@ -1,10 +1,14 @@
-import ZFVP.SetTheory.PulledWellOrder
-import ZFVP.SetTheory.WellOrderedProducts
-import ZFVP.SetTheory.WellOrderedCardinal
-import ZFVP.SetTheory.UltrafilterOrdinals
-import ZFVP.SetTheory.NaturalPairing
-import ZFVP.SetTheory.NaturalPigeonhole
-import ZFVP.SetTheory.TransitiveClosure
+module
+
+public import ZFVP.SetTheory.PulledWellOrder
+public import ZFVP.SetTheory.WellOrderedProducts
+public import ZFVP.SetTheory.WellOrderedCardinal
+public import ZFVP.SetTheory.UltrafilterOrdinals
+public import ZFVP.SetTheory.NaturalPairing
+public import ZFVP.SetTheory.NaturalPigeonhole
+public import ZFVP.SetTheory.TransitiveClosure
+
+@[expose] public section
 
 /-! Hessenberg's theorem: `α × α ≤# α ∪ ω` for every ordinal `α`, hence `λ × λ ≋ λ` for every
 infinite initial ordinal `λ`. The proof is by internal `∈`-induction using the Gödel pairing order,

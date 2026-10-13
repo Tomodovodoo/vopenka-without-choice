@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.FefermanLevyReals
-import ZFVP.ModelTheory.CohenVopenkaConsistency
-import ZFVP.ModelTheory.SVCVopenkaRestoration
+module
+
+public import ZFVP.ModelTheory.FefermanLevyReals
+public import ZFVP.ModelTheory.CohenVopenkaConsistency
+public import ZFVP.ModelTheory.SVCVopenkaRestoration
+
+@[expose] public section
 
 /-! Theorem thm:FL from a ZFC ground: over a countable model of ZFC and the Vopenka scheme
 the Feferman-Levy symmetric extension satisfies ZF, every Vopenka instance, the failure

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.BooleanCompletion
+module
+
+public import ZFVP.SetTheory.BooleanCompletion
+
+@[expose] public section
 
 /-! Every regular subset of the Boolean completion `B = RO(P)` (as a forcing poset) is principal:
 it is the set of Boolean conditions below the regular join of its members. This identifies the

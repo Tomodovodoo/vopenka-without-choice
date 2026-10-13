@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalFirstRubinClause
-import ZFVP.ModelTheory.SchmerlInternalRubinFilters
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalFirstRubinClause
+public import ZFVP.ModelTheory.SchmerlInternalRubinFilters
+
+@[expose] public section
 
 /-! The actual internal Rubin construction under diamond. Every
 successor, the full bounded transfinite recursion, the clubs, and both

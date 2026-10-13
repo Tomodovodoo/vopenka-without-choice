@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SaturatedEmptyIterand
+module
+
+public import ZFVP.ModelTheory.SaturatedEmptyIterand
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

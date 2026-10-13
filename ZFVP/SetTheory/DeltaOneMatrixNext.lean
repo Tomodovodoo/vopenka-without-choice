@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.DeltaOneFamilyNext
-import ZFVP.SetTheory.BoundedProduct
+module
+
+public import ZFVP.SetTheory.DeltaOneFamilyNext
+public import ZFVP.SetTheory.BoundedProduct
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

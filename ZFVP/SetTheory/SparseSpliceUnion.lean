@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.SparseSplice
+module
+
+public import ZFVP.SetTheory.SparseSplice
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

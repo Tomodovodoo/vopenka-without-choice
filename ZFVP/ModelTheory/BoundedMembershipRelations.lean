@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.BoundedFiniteFunctions
-import ZFVP.SetTheory.BoundedNameAction
-import ZFVP.ModelTheory.MembershipStructure
-import ZFVP.Syntax.BoundedStandardTuples
+module
+
+public import ZFVP.SetTheory.BoundedFiniteFunctions
+public import ZFVP.SetTheory.BoundedNameAction
+public import ZFVP.ModelTheory.MembershipStructure
+public import ZFVP.Syntax.BoundedStandardTuples
+
+@[expose] public section
 
 /-! Bounded descriptions of the two relations in the membership structures. -/
 

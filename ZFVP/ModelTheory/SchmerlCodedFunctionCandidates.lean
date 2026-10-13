@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedFunctionBranchFilter
-import ZFVP.ModelTheory.SchmerlInternalBranchCore
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedFunctionBranchFilter
+public import ZFVP.ModelTheory.SchmerlInternalBranchCore
+
+@[expose] public section
 
 /-! A cofinal function candidate determines a branch on the selected domains.
 Its full downward closure is the finite-function filter used by Rubin's clause. -/

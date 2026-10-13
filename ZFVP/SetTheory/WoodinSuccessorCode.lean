@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SaturatedWoodinPrefix
+module
+
+public import ZFVP.ModelTheory.SaturatedWoodinPrefix
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

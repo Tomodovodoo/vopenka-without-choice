@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramLKStandardRule
-import ZFVP.Syntax.NaturalLKCompleteness
+module
+
+public import ZFVP.Syntax.PrimitiveProgramLKStandardRule
+public import ZFVP.Syntax.NaturalLKCompleteness
+
+@[expose] public section
 
 /-! Exact standard-certificate correspondence for the explicit LK proof checker. -/
 

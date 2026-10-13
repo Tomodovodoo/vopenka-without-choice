@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalSubstitutionComposition
-import ZFVP.ModelTheory.SchmerlInternalOrdinaryQuantifierAxioms
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalSubstitutionComposition
+public import ZFVP.ModelTheory.SchmerlInternalOrdinaryQuantifierAxioms
+
+@[expose] public section
 
 namespace ZFVP.Infinitary.Internal
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

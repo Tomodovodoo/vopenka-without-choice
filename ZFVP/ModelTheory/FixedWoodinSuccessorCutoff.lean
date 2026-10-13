@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.FixedPrefixCutoffTests
-import ZFVP.ModelTheory.WoodinSparseOwnCutoffs
-import ZFVP.ModelTheory.WoodinSparseSourceInvariant
+module
+
+public import ZFVP.SetTheory.FixedPrefixCutoffTests
+public import ZFVP.ModelTheory.WoodinSparseOwnCutoffs
+public import ZFVP.ModelTheory.WoodinSparseSourceInvariant
+
+@[expose] public section
 
 /-! The fixed low-complexity tests at the actual sparse successor parameters.
 Existence of a successful cutoff is obtained from the constructed iteration. -/

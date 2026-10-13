@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CohenModel
-import ZFVP.ModelTheory.SymmetricModelGraph
-import ZFVP.SetTheory.CohenFiniteAssignmentName
+module
+
+public import ZFVP.ModelTheory.CohenModel
+public import ZFVP.ModelTheory.SymmetricModelGraph
+public import ZFVP.SetTheory.CohenFiniteAssignmentName
+
+@[expose] public section
 
 namespace ZFVP
 

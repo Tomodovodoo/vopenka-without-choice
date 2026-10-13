@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.UsubaCommonLiftLimit
-import ZFVP.ModelTheory.UsubaCommonLiftSuccessor
+module
+
+public import ZFVP.ModelTheory.UsubaCommonLiftLimit
+public import ZFVP.ModelTheory.UsubaCommonLiftSuccessor
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

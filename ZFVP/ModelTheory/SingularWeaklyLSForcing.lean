@@ -1,11 +1,15 @@
-import ZFVP.ModelTheory.SingularWeaklyLSCollapseDC
-import ZFVP.ModelTheory.CountableZFTransfer
-import ZFVP.ModelTheory.ForcingSemanticConsequence
-import ZFVP.ModelTheory.ForcingReverseOrderName
-import ZFVP.SetTheory.LowenheimSkolemDictionary
-import ZFVP.SetTheory.ChoiceDictionary
-import ZFVP.SetTheory.FiniteDictionary
-import ZFVP.Syntax.ForcingTranslationSemantics
+module
+
+public import ZFVP.ModelTheory.SingularWeaklyLSCollapseDC
+public import ZFVP.ModelTheory.CountableZFTransfer
+public import ZFVP.ModelTheory.ForcingSemanticConsequence
+public import ZFVP.ModelTheory.ForcingReverseOrderName
+public import ZFVP.SetTheory.LowenheimSkolemDictionary
+public import ZFVP.SetTheory.ChoiceDictionary
+public import ZFVP.SetTheory.FiniteDictionary
+public import ZFVP.Syntax.ForcingTranslationSemantics
+
+@[expose] public section
 
 /-! The unrestricted forcing and ZF-derivability forms of Usuba Proposition 3.6.
 The fixed sentence describes the actual finite collapse of the rank segment.

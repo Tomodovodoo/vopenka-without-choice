@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseRuleRankAgreement
-import ZFVP.ModelTheory.TransitiveZFSparseRecodingHistory
+module
+
+public import ZFVP.ModelTheory.WoodinSparseRuleRankAgreement
+public import ZFVP.ModelTheory.TransitiveZFSparseRecodingHistory
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

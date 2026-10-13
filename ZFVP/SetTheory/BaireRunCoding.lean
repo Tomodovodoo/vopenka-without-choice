@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.BaireRunPrefixes
-import ZFVP.SetTheory.CantorInfiniteOnes
-import ZFVP.SetTheory.PerfectSetCore
+module
+
+public import ZFVP.SetTheory.BaireRunPrefixes
+public import ZFVP.SetTheory.CantorInfiniteOnes
+public import ZFVP.SetTheory.PerfectSetCore
+
+@[expose] public section
 
 /-! The run encoding of an entire Baire real as a Cantor real. -/
 

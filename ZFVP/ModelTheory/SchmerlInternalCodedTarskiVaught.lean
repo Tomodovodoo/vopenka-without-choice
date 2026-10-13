@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalCodedSubstructure
-import ZFVP.Syntax.FormulaInduction
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalCodedSubstructure
+public import ZFVP.Syntax.FormulaInduction
+
+@[expose] public section
 
 /-! Internal Tarski–Vaught, proved by definable induction through all
 internally finite formulas, including the nonstandard ones. -/

@@ -1,6 +1,10 @@
-import ZFVP.Syntax.SigmaOneInternalForcing
-import ZFVP.SetTheory.ForcingNameFamily
-import ZFVP.SetTheory.DeltaOneBoundedTruth
+module
+
+public import ZFVP.Syntax.SigmaOneInternalForcing
+public import ZFVP.SetTheory.ForcingNameFamily
+public import ZFVP.SetTheory.DeltaOneBoundedTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

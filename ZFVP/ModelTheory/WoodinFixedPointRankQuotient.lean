@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinFixedPointLowNames
-import ZFVP.ModelTheory.ForcingPullbackRealization
-import ZFVP.ModelTheory.ForcingRankTruth
+module
+
+public import ZFVP.ModelTheory.WoodinFixedPointLowNames
+public import ZFVP.ModelTheory.ForcingPullbackRealization
+public import ZFVP.ModelTheory.ForcingRankTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

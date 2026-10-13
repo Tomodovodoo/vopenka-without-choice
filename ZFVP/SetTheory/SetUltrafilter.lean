@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedRankTables
-import ZFVP.SetTheory.Hartogs
+module
+
+public import ZFVP.SetTheory.BoundedRankTables
+public import ZFVP.SetTheory.Hartogs
+
+@[expose] public section
 
 /-! Ultrafilters and ordinal-indexed completeness as internal set predicates. -/
 

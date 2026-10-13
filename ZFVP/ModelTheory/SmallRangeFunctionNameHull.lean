@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SmallSupportedNameHull
-import ZFVP.ModelTheory.ElementaryPairNameClosure
-import ZFVP.ModelTheory.ForcingLowRankAssignments
-import ZFVP.ModelTheory.ForcingModelPairs
-import ZFVP.SetTheory.SmallPairNameSupport
+module
+
+public import ZFVP.ModelTheory.SmallSupportedNameHull
+public import ZFVP.ModelTheory.ElementaryPairNameClosure
+public import ZFVP.ModelTheory.ForcingLowRankAssignments
+public import ZFVP.ModelTheory.ForcingModelPairs
+public import ZFVP.SetTheory.SmallPairNameSupport
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

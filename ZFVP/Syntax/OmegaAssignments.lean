@@ -1,4 +1,8 @@
-import ZFVP.Syntax.TermSubstitutionSemantics
+module
+
+public import ZFVP.Syntax.TermSubstitutionSemantics
+
+@[expose] public section
 
 /-! Prepending and shifting assignments indexed by the full internal omega. -/
 

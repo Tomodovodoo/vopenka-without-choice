@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LimitRankEmbedding
-import ZFVP.ModelTheory.EmbeddingOmegaFixation
-import ZFVP.SetTheory.ChoicelessInaccessible
+module
+
+public import ZFVP.ModelTheory.LimitRankEmbedding
+public import ZFVP.ModelTheory.EmbeddingOmegaFixation
+public import ZFVP.SetTheory.ChoicelessInaccessible
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

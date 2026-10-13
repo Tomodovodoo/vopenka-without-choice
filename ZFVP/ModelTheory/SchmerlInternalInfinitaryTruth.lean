@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlInternalInfinitarySyntax
-import ZFVP.Syntax.PackedSatisfaction
-import ZFVP.SetTheory.CountableSets
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalInfinitarySyntax
+public import ZFVP.Syntax.PackedSatisfaction
+public import ZFVP.SetTheory.CountableSets
+
+@[expose] public section
 
 /-! Satisfaction for an actual internal infinitary fragment. The Q clause
 uses internal uncountability of its actual set of witnesses. -/

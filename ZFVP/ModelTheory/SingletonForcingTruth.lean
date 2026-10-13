@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingRealizationEmbedding
-import ZFVP.ModelTheory.ForcingCheckedTruth
-import ZFVP.SetTheory.ForcingIterationInitial
+module
+
+public import ZFVP.ModelTheory.ForcingRealizationEmbedding
+public import ZFVP.ModelTheory.ForcingCheckedTruth
+public import ZFVP.SetTheory.ForcingIterationInitial
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

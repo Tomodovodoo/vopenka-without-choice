@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.SymmetryDictionary
-import ZFVP.SetTheory.UniformFunctionOperations
+module
+
+public import ZFVP.SetTheory.SymmetryDictionary
+public import ZFVP.SetTheory.UniformFunctionOperations
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

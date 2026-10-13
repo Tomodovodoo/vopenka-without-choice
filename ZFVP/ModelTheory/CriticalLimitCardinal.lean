@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CriticalSequence
-import ZFVP.ModelTheory.RankEmbeddingDictionary
-import ZFVP.SetTheory.PiOneInitialOrdinal
+module
+
+public import ZFVP.ModelTheory.CriticalSequence
+public import ZFVP.ModelTheory.RankEmbeddingDictionary
+public import ZFVP.SetTheory.PiOneInitialOrdinal
+
+@[expose] public section
 
 /-! Critical-sequence stages and their supremum are initial ordinals. -/
 

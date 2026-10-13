@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinPrefixRegular
-import ZFVP.ModelTheory.WoodinPrefixNameFormulas
+module
+
+public import ZFVP.ModelTheory.WoodinPrefixRegular
+public import ZFVP.ModelTheory.WoodinPrefixNameFormulas
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

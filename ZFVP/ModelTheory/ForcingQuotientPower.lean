@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingQuotientBoundedNames
-import ZFVP.SetTheory.ForcingPowerName
+module
+
+public import ZFVP.ModelTheory.ForcingQuotientBoundedNames
+public import ZFVP.SetTheory.ForcingPowerName
+
+@[expose] public section
 
 namespace ZFVP
 

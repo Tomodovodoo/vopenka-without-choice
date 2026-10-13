@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ForcingDirectedMaps
+module
+
+public import ZFVP.SetTheory.ForcingDirectedMaps
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

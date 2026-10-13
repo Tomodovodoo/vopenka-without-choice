@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.BoundedAtomicMembership
-import ZFVP.Syntax.SigmaOneBoundedModelTruth
+module
+
+public import ZFVP.SetTheory.BoundedAtomicMembership
+public import ZFVP.Syntax.SigmaOneBoundedModelTruth
+
+@[expose] public section
 
 /-! Atomic forcing and its complement have existential bounded certificates. -/
 

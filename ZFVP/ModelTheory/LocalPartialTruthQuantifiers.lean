@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LocalPartialTruth
+module
+
+public import ZFVP.ModelTheory.LocalPartialTruth
+
+@[expose] public section
 
 /-! Quantifier equations for partial truth interpreted inside a transitive ZF set model. -/
 

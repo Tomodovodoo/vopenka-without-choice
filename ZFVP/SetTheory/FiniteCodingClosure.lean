@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.UniformCodingUniverse
+module
+
+public import ZFVP.SetTheory.UniformCodingUniverse
+
+@[expose] public section
 
 /-! Every internally finite tuple of members of a coding universe belongs to it. -/
 

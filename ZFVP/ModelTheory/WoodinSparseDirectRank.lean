@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseDirectTransport
-import ZFVP.ModelTheory.WoodinSparseInverseTop
-import ZFVP.ModelTheory.WoodinSparseRank
+module
+
+public import ZFVP.ModelTheory.WoodinSparseDirectTransport
+public import ZFVP.ModelTheory.WoodinSparseInverseTop
+public import ZFVP.ModelTheory.WoodinSparseRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

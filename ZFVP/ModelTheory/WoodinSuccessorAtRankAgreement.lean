@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.RankWoodinSuccessorAt
-import ZFVP.ModelTheory.WoodinStageUniform
-import ZFVP.SetTheory.BoundedDomainParameters
-import ZFVP.ModelTheory.CountableZFTransfer
+module
+
+public import ZFVP.ModelTheory.RankWoodinSuccessorAt
+public import ZFVP.ModelTheory.WoodinStageUniform
+public import ZFVP.SetTheory.BoundedDomainParameters
+public import ZFVP.ModelTheory.CountableZFTransfer
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

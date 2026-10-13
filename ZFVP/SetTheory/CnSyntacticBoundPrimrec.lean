@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.CnExtendible
-import ZFVP.SetTheory.LevyComplexityBound
-import Mathlib.Computability.Primrec.Basic
+module
+
+public import ZFVP.SetTheory.CnExtendible
+public import ZFVP.SetTheory.LevyComplexityBound
+public import Mathlib.Computability.Primrec.Basic
+
+@[expose] public section
 
 /-! Primitive recursive scalar bounds for the correctness and extendibility formulas. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.GeneratedSubalgebraTrace
-import ZFVP.ModelTheory.GroundRealsHODClosure
+module
+
+public import ZFVP.ModelTheory.GeneratedSubalgebraTrace
+public import ZFVP.ModelTheory.GroundRealsHODClosure
+
+@[expose] public section
 
 /-! For a Boolean name `τ` of a real, the ground sequence `n ↦ ‖ň ∈ τ‖` of Boolean values is met
 by the generic exactly at the members of the real; hence the trace of the generic on the complete

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.CnExtendibleHighCriticalWoodin
-import ZFVP.SetTheory.VopenkaPruningUE
-import ZFVP.SetTheory.ChoicelessInaccessible
+module
+
+public import ZFVP.SetTheory.CnExtendibleHighCriticalWoodin
+public import ZFVP.SetTheory.VopenkaPruningUE
+public import ZFVP.SetTheory.ChoicelessInaccessible
+
+@[expose] public section
 
 namespace ZFVP
 

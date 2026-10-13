@@ -1,5 +1,9 @@
-import ZFVP.Syntax.StandardPrefixRenaming
-import ZFVP.Syntax.MembershipTailTemplates
+module
+
+public import ZFVP.Syntax.StandardPrefixRenaming
+public import ZFVP.Syntax.MembershipTailTemplates
+
+@[expose] public section
 
 /-! External formulas produced by the same templates as the internal schema compiler. -/
 

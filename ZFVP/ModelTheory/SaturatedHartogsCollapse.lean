@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SaturatedWoodinPrefix
-import ZFVP.ModelTheory.SaturatedCollapseBounds
-import ZFVP.ModelTheory.ForcingHartogsName
-import ZFVP.SetTheory.InaccessibleHartogs
+module
+
+public import ZFVP.ModelTheory.SaturatedWoodinPrefix
+public import ZFVP.ModelTheory.SaturatedCollapseBounds
+public import ZFVP.ModelTheory.ForcingHartogsName
+public import ZFVP.SetTheory.InaccessibleHartogs
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryHenkinTermModel
-import ZFVP.ModelTheory.InfinitaryFragmentSubstitution
+module
+
+public import ZFVP.ModelTheory.InfinitaryHenkinTermModel
+public import ZFVP.ModelTheory.InfinitaryFragmentSubstitution
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

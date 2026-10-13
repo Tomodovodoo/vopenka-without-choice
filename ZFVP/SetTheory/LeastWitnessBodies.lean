@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.PiOneHierarchy
-import ZFVP.SetTheory.LeastRankWitnesses
-import ZFVP.SetTheory.FormulaReflection
+module
+
+public import ZFVP.SetTheory.PiOneHierarchy
+public import ZFVP.SetTheory.LeastRankWitnesses
+public import ZFVP.SetTheory.FormulaReflection
+
+@[expose] public section
 
 /-! Rank segments make the least-rank witness condition bounded apart from its given matrix. -/
 

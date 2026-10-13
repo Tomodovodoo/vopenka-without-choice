@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.ProjectionNameTransport
-import ZFVP.SetTheory.EndExtensionRank
-import ZFVP.SetTheory.NameValueRank
-import ZFVP.ModelTheory.TransitiveZFNames
-import ZFVP.SetTheory.ChoicelessInaccessibleRank
+module
+
+public import ZFVP.ModelTheory.ProjectionNameTransport
+public import ZFVP.SetTheory.EndExtensionRank
+public import ZFVP.SetTheory.NameValueRank
+public import ZFVP.ModelTheory.TransitiveZFNames
+public import ZFVP.SetTheory.ChoicelessInaccessibleRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.Syntax.CloseParameters
-import ZFVP.Syntax.TemplateInstantiation
+module
+
+public import ZFVP.Syntax.CloseParameters
+public import ZFVP.Syntax.TemplateInstantiation
+
+@[expose] public section
 
 /-! Closing free parameters in the index order used by the schema templates. -/
 

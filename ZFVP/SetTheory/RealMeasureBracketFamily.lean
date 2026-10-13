@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.RealCountableNullUnions
-import ZFVP.SetTheory.ExtendedRealSeries
-import ZFVP.SetTheory.RealRationalBrackets
+module
+
+public import ZFVP.SetTheory.RealCountableNullUnions
+public import ZFVP.SetTheory.ExtendedRealSeries
+public import ZFVP.SetTheory.RealRationalBrackets
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

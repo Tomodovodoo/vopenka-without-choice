@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.DeltaOneWoodinSeedInsertion
-import ZFVP.SetTheory.WoodinSeedMatrix
-import ZFVP.SetTheory.DeltaOnePairProjections
-import ZFVP.SetTheory.BoundedProduct
+module
+
+public import ZFVP.SetTheory.DeltaOneWoodinSeedInsertion
+public import ZFVP.SetTheory.WoodinSeedMatrix
+public import ZFVP.SetTheory.DeltaOnePairProjections
+public import ZFVP.SetTheory.BoundedProduct
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

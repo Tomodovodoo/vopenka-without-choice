@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryCountablyDirectedWeakChain
+module
+
+public import ZFVP.ModelTheory.InfinitaryCountablyDirectedWeakChain
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

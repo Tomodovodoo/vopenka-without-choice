@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.CantorInfiniteOnes
-import ZFVP.SetTheory.LeastOrdinalChoice
-import ZFVP.SetTheory.NaturalArithmeticOrder
-import ZFVP.SetTheory.NaturalIteration
+module
+
+public import ZFVP.SetTheory.CantorInfiniteOnes
+public import ZFVP.SetTheory.LeastOrdinalChoice
+public import ZFVP.SetTheory.NaturalArithmeticOrder
+public import ZFVP.SetTheory.NaturalIteration
+
+@[expose] public section
 
 /-! Definable separator positions for decoding the run representation. -/
 

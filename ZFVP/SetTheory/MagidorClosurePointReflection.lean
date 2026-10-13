@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.MagidorClosurePoint
-import ZFVP.SetTheory.MagidorLemmaThreeOne
+module
+
+public import ZFVP.SetTheory.MagidorClosurePoint
+public import ZFVP.SetTheory.MagidorLemmaThreeOne
+
+@[expose] public section
 
 /-! # One step reflection at a closure point of the failure function
 

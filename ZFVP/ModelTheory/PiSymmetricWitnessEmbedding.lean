@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.PiSymmetricWitnessCodes
-import ZFVP.SetTheory.PiWitnessRankEmbedding
+module
+
+public import ZFVP.ModelTheory.PiSymmetricWitnessCodes
+public import ZFVP.SetTheory.PiWitnessRankEmbedding
+
+@[expose] public section
 
 /-! Apply the Pi fragment of VP to symmetric value-rank witnesses. -/
 

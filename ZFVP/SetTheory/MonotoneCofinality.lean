@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CofinalityCardinal
+module
+
+public import ZFVP.SetTheory.CofinalityCardinal
+
+@[expose] public section
 
 namespace ZFVP
 

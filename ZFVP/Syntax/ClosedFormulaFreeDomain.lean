@@ -1,4 +1,8 @@
-import ZFVP.Syntax.MembershipAtomicSyntax
+module
+
+public import ZFVP.Syntax.MembershipAtomicSyntax
+
+@[expose] public section
 
 /-! Closed membership formulas have the same meaning in every free-variable domain. -/
 

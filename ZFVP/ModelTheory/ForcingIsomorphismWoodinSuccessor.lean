@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingIsomorphismCanonicalTwoStep
+module
+
+public import ZFVP.ModelTheory.ForcingIsomorphismCanonicalTwoStep
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]

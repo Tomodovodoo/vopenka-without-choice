@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.SymmetricSystems
+module
+
+public import ZFVP.SetTheory.SymmetricSystems
+
+@[expose] public section
 
 namespace ZFVP
 

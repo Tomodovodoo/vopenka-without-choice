@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.HartogsRestorationForcingAgreementCountable
-import ZFVP.ModelTheory.RankInternalHartogsName
+module
+
+public import ZFVP.ModelTheory.HartogsRestorationForcingAgreementCountable
+public import ZFVP.ModelTheory.RankInternalHartogsName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
@@ -42,7 +46,7 @@ theorem eventually_rank_hartogsRestoration_forcing_eq_countable [Countable V]
     exact Fin.cases rfl (fun j ↦ Fin.cases rfl (fun z ↦ Fin.elim0 z) j) i
   have he := TransitiveZF.forcingFormula_standardTuple_val (hierarchy ξ) p r
     woodinLocalRestorationFormula (fun i ↦ (v i).val)
-  rw [hn, hp, hr] at he
+  simp only [hn, hp, hr] at he
   have he' : (forcingFormula p r woodinLocalRestorationFormula
       (standardTuple ![hartogsNumberName p r (checkName o k), checkName o d])).val =
       classForcingFormula P R (IsLowRankForcingName P ξ) (by definability)

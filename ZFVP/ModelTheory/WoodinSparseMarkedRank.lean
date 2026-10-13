@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinSparseCodeCompatibility
-import ZFVP.ModelTheory.WoodinSparseStageRules
-import ZFVP.ModelTheory.WoodinSparseDirectRank
-import ZFVP.ModelTheory.WoodinFixedPointDirect
+module
+
+public import ZFVP.ModelTheory.WoodinSparseCodeCompatibility
+public import ZFVP.ModelTheory.WoodinSparseStageRules
+public import ZFVP.ModelTheory.WoodinSparseDirectRank
+public import ZFVP.ModelTheory.WoodinFixedPointDirect
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

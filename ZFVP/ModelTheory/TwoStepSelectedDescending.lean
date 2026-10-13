@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.TwoStepSelectedUnion
-import ZFVP.ModelTheory.TwoStepQuotientProjection
-import ZFVP.ModelTheory.SplitSeparativeOrder
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.ModelTheory.TwoStepSelectedUnion
+public import ZFVP.ModelTheory.TwoStepQuotientProjection
+public import ZFVP.ModelTheory.SplitSeparativeOrder
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

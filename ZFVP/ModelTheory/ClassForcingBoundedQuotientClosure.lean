@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.ClassForcingTowerBoundedModels
-import ZFVP.ModelTheory.ForcingDependentChoiceTransfer
-import ZFVP.ModelTheory.ClassForcingBoundedReduction
-import ZFVP.ModelTheory.QuotientOrderReflectingClosure
-import ZFVP.ModelTheory.QuotientSectionSeparative
-import ZFVP.ModelTheory.ClassForcingTowerSplitProjection
+module
+
+public import ZFVP.ModelTheory.ClassForcingTowerBoundedModels
+public import ZFVP.ModelTheory.ForcingDependentChoiceTransfer
+public import ZFVP.ModelTheory.ClassForcingBoundedReduction
+public import ZFVP.ModelTheory.QuotientOrderReflectingClosure
+public import ZFVP.ModelTheory.QuotientSectionSeparative
+public import ZFVP.ModelTheory.ClassForcingTowerSplitProjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

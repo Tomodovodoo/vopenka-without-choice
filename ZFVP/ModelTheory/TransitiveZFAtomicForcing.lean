@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TransitiveZFBoundedQuantifiers
-import ZFVP.SetTheory.AtomicMembership
+module
+
+public import ZFVP.ModelTheory.TransitiveZFBoundedQuantifiers
+public import ZFVP.SetTheory.AtomicMembership
+
+@[expose] public section
 
 namespace ZFVP
 

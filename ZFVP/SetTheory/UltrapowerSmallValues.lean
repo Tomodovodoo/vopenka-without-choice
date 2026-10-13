@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.UltrapowerEmbeddingMap
+module
+
+public import ZFVP.SetTheory.UltrapowerEmbeddingMap
+
+@[expose] public section
 
 /-! Small values in the internal ultrapower.
 

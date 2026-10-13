@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingIsomorphismFormula
-import ZFVP.SetTheory.ForcingNameHierarchy
-import ZFVP.SetTheory.ForcingSaturatedName
+module
+
+public import ZFVP.ModelTheory.ForcingIsomorphismFormula
+public import ZFVP.SetTheory.ForcingNameHierarchy
+public import ZFVP.SetTheory.ForcingSaturatedName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

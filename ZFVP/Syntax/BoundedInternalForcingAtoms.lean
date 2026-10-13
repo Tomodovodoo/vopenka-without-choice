@@ -1,6 +1,10 @@
-import ZFVP.Syntax.InternalForcingSatisfaction
-import ZFVP.Syntax.BoundedAtomicTruth
-import ZFVP.SetTheory.BoundedAtomicMembership
+module
+
+public import ZFVP.Syntax.InternalForcingSatisfaction
+public import ZFVP.Syntax.BoundedAtomicTruth
+public import ZFVP.SetTheory.BoundedAtomicMembership
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

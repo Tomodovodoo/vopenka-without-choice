@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SuccessorLowNameFamily
-import ZFVP.ModelTheory.ForcingRealizationGeneration
-import ZFVP.SetTheory.EndExtensionRank
-import ZFVP.SetTheory.EndExtensionHierarchyAgreement
+module
+
+public import ZFVP.ModelTheory.SuccessorLowNameFamily
+public import ZFVP.ModelTheory.ForcingRealizationGeneration
+public import ZFVP.SetTheory.EndExtensionRank
+public import ZFVP.SetTheory.EndExtensionHierarchyAgreement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

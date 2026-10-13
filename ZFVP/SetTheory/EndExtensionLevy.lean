@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.MembershipEndExtension
-import ZFVP.SetTheory.LevyAbsoluteness
+module
+
+public import ZFVP.SetTheory.MembershipEndExtension
+public import ZFVP.SetTheory.LevyAbsoluteness
+
+@[expose] public section
 
 /-! Level-one formula transport along arbitrary membership end extensions. -/
 

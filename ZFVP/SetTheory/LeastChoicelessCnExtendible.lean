@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LastPointRankBerkeley
-import ZFVP.SetTheory.CnExtendibleDownward
+module
+
+public import ZFVP.ModelTheory.LastPointRankBerkeley
+public import ZFVP.SetTheory.CnExtendibleDownward
+
+@[expose] public section
 
 /-! Without higher rank-Berkeley cardinals, the least relative extendible
 ordinal has itself as critical point and is C(n)-extendible. -/

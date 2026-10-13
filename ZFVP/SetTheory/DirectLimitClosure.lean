@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ForcingSectionThread
-import ZFVP.SetTheory.ForcingClosure
-import ZFVP.SetTheory.LeastOrdinalChoice
-import ZFVP.SetTheory.Cofinality
+module
+
+public import ZFVP.SetTheory.ForcingSectionThread
+public import ZFVP.SetTheory.ForcingClosure
+public import ZFVP.SetTheory.LeastOrdinalChoice
+public import ZFVP.SetTheory.Cofinality
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SuccessorRankOrdinal
-import ZFVP.ModelTheory.EmbeddingOmegaFixation
-import ZFVP.SetTheory.ChoicelessInaccessible
+module
+
+public import ZFVP.ModelTheory.SuccessorRankOrdinal
+public import ZFVP.ModelTheory.EmbeddingOmegaFixation
+public import ZFVP.SetTheory.ChoicelessInaccessible
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,7 +1,11 @@
-import ZFVP.Syntax.EndExtensionTermEvaluation
-import ZFVP.Syntax.EndExtensionAssignments
-import ZFVP.Syntax.SubstitutionStates
-import ZFVP.Syntax.MembershipSwap
+module
+
+public import ZFVP.Syntax.EndExtensionTermEvaluation
+public import ZFVP.Syntax.EndExtensionAssignments
+public import ZFVP.Syntax.SubstitutionStates
+public import ZFVP.Syntax.MembershipSwap
+
+@[expose] public section
 
 /-! Term replacement and binder lifting commute with membership end
 extensions. The iteration argument is internal to the target model, so

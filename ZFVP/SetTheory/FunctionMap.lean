@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FunctionUnion
-import ZFVP.SetTheory.FiniteSequences
+module
+
+public import ZFVP.SetTheory.FunctionUnion
+public import ZFVP.SetTheory.FiniteSequences
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.GroundUniqueness
-import ZFVP.SetTheory.MostowskiCollapse
+module
+
+public import ZFVP.SetTheory.GroundUniqueness
+public import ZFVP.SetTheory.MostowskiCollapse
+
+@[expose] public section
 
 /-! Parameter-free defining formulas for the cover and approximation predicates of
 `ZFVP.SetTheory.GroundUniqueness` and for the two collapse side conditions of

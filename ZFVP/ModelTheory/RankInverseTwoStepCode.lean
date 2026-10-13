@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TransitiveZFTwoStepColumns
-import ZFVP.ModelTheory.RankInverseCodeParameters
-import ZFVP.ModelTheory.InverseTwoStepCode
+module
+
+public import ZFVP.ModelTheory.TransitiveZFTwoStepColumns
+public import ZFVP.ModelTheory.RankInverseCodeParameters
+public import ZFVP.ModelTheory.InverseTwoStepCode
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]

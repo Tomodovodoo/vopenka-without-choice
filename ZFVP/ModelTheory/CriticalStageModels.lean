@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.CriticalLimitVopenka
+module
+
+public import ZFVP.ModelTheory.CriticalLimitVopenka
+
+@[expose] public section
 
 /-! Critical stages and their embeddings as objects inside the limit ZF model. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryAdequateTruth
-import ZFVP.ModelTheory.InfinitaryAdequateSmallFibers
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateTruth
+public import ZFVP.ModelTheory.InfinitaryAdequateSmallFibers
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

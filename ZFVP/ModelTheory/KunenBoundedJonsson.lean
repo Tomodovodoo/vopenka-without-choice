@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.KunenUnconditional
-import ZFVP.ModelTheory.LimitRankEmbeddingAction
-import ZFVP.ModelTheory.EmbeddingSetOperations
+module
+
+public import ZFVP.ModelTheory.KunenUnconditional
+public import ZFVP.ModelTheory.LimitRankEmbeddingAction
+public import ZFVP.ModelTheory.EmbeddingSetOperations
+
+@[expose] public section
 
 /-! A bounded formula for the omega-Jonsson predicate, and Kunen's contradiction off `C(1)`.
 

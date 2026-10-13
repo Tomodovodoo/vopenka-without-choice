@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.WoodinSparseSourceSubgeneric
-import ZFVP.ModelTheory.WoodinSparseRankEnumerations
-import ZFVP.ModelTheory.ProjectedGenericImageMaster
-import ZFVP.ModelTheory.WoodinDirectedSparseTransfer
-import ZFVP.ModelTheory.WoodinSparseExactRank
+module
+
+public import ZFVP.ModelTheory.WoodinSparseSourceSubgeneric
+public import ZFVP.ModelTheory.WoodinSparseRankEnumerations
+public import ZFVP.ModelTheory.ProjectedGenericImageMaster
+public import ZFVP.ModelTheory.WoodinDirectedSparseTransfer
+public import ZFVP.ModelTheory.WoodinSparseExactRank
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

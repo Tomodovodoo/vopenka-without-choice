@@ -1,6 +1,10 @@
-import ZFVP.Syntax.DirectMembershipAtoms
-import ZFVP.Syntax.FormulaRecursion
-import ZFVP.SetTheory.AtomicForcingDictionary
+module
+
+public import ZFVP.Syntax.DirectMembershipAtoms
+public import ZFVP.Syntax.FormulaRecursion
+public import ZFVP.SetTheory.AtomicForcingDictionary
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

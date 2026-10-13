@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.LevyCollapseReals
-import ZFVP.ModelTheory.LevyCollapseLocalization
-import ZFVP.ModelTheory.GroundRealsHOD
-import ZFVP.ModelTheory.ForcingModelRank
+module
+
+public import ZFVP.ModelTheory.LevyCollapseReals
+public import ZFVP.ModelTheory.LevyCollapseLocalization
+public import ZFVP.ModelTheory.GroundRealsHOD
+public import ZFVP.ModelTheory.ForcingModelRank
+
+@[expose] public section
 
 /-! Lemma Solovay-localization (first clause): every set of ordinals of the extension that is
 definable from ground sets, reals and ordinals lies in some bounded-stage extension `V[G_ξ]`,

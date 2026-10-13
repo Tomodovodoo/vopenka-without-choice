@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingNameHierarchy
-import ZFVP.SetTheory.BoundedCodingPrimitives
+module
+
+public import ZFVP.SetTheory.ForcingNameHierarchy
+public import ZFVP.SetTheory.BoundedCodingPrimitives
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

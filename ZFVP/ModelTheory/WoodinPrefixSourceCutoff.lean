@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinCollapseRestorationForcing
-import ZFVP.ModelTheory.WoodinPrefixSuccessor
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseRestorationForcing
+public import ZFVP.ModelTheory.WoodinPrefixSuccessor
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

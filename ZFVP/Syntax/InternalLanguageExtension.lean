@@ -1,5 +1,9 @@
-import ZFVP.Syntax.FormulaInduction
-import ZFVP.Syntax.TermInduction
+module
+
+public import ZFVP.Syntax.FormulaInduction
+public import ZFVP.Syntax.TermInduction
+
+@[expose] public section
 
 /-! Literal symbol-preserving extensions of internal languages. -/
 namespace ZFVP

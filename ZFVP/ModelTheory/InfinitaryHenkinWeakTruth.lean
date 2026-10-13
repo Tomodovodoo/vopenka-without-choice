@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryHenkinQuantifier
+module
+
+public import ZFVP.ModelTheory.InfinitaryHenkinQuantifier
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

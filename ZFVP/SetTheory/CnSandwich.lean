@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CorrectDomainSandwich
+module
+
+public import ZFVP.SetTheory.CorrectDomainSandwich
+
+@[expose] public section
 
 /-! The correctness sandwich of Mohammd Lemma 6.3 at positive lower levels. -/
 

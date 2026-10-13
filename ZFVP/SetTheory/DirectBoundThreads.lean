@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ForcingBoundThreadSections
-import ZFVP.SetTheory.DirectLimitClosure
-import ZFVP.SetTheory.FiniteCofinality
+module
+
+public import ZFVP.SetTheory.ForcingBoundThreadSections
+public import ZFVP.SetTheory.DirectLimitClosure
+public import ZFVP.SetTheory.FiniteCofinality
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

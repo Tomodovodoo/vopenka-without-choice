@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseSourceInvariant
-import ZFVP.ModelTheory.EquivalentRetractionQuotientTransfer
-import ZFVP.ModelTheory.WoodinSparseCodeCompatibility
+module
+
+public import ZFVP.ModelTheory.WoodinSparseSourceInvariant
+public import ZFVP.ModelTheory.EquivalentRetractionQuotientTransfer
+public import ZFVP.ModelTheory.WoodinSparseCodeCompatibility
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

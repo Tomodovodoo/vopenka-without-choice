@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseSuccessorLift
-import ZFVP.ModelTheory.WoodinSparseInverseLift
-import ZFVP.ModelTheory.WoodinSparseDirectLift
+module
+
+public import ZFVP.ModelTheory.WoodinSparseSuccessorLift
+public import ZFVP.ModelTheory.WoodinSparseInverseLift
+public import ZFVP.ModelTheory.WoodinSparseDirectLift
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

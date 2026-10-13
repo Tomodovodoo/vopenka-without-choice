@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ForcingNameClasses
+module
+
+public import ZFVP.SetTheory.ForcingNameClasses
+
+@[expose] public section
 
 /-! Forcing constructors in the context P, R, Gamma, F, p, followed by names. -/
 

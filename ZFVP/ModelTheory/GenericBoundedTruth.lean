@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalGenericTruth
-import ZFVP.Syntax.EndExtensionBoundedCodes
+module
+
+public import ZFVP.ModelTheory.InternalGenericTruth
+public import ZFVP.Syntax.EndExtensionBoundedCodes
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CnSandwich
-import ZFVP.ModelTheory.CriticalPoint
+module
+
+public import ZFVP.SetTheory.CnSandwich
+public import ZFVP.ModelTheory.CriticalPoint
+
+@[expose] public section
 
 /-! The least correct height above a fixed ordinal is fixed, provided it
 lies in the source of the embedding. -/

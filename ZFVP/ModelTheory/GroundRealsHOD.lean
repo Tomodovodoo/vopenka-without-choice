@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingModelChecks
-import ZFVP.SetTheory.TransitiveClosure
-import ZFVP.SetTheory.EndExtensionCoding
+module
+
+public import ZFVP.ModelTheory.ForcingModelChecks
+public import ZFVP.SetTheory.TransitiveClosure
+public import ZFVP.SetTheory.EndExtensionCoding
+
+@[expose] public section
 
 /-! The full Solovay model `HOD_{V ∪ R}^{V[G]}` of the paper (eq. full-Solovay): the sets of the
 extension that are hereditarily definable from ground-model sets, reals of the extension and

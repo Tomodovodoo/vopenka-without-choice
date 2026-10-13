@@ -1,6 +1,10 @@
-import Mathlib.Order.CompleteLattice.Basic
-import Mathlib.SetTheory.Cardinal.Aleph
-import ZFVP.SetTheory.DiamondOmegaOne
+module
+
+public import Mathlib.Order.CompleteLattice.Basic
+public import Mathlib.SetTheory.Cardinal.Aleph
+public import ZFVP.SetTheory.DiamondOmegaOne
+
+@[expose] public section
 
 /-! Transfinite stage recursion in a complete lattice.
 

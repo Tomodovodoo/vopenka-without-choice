@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalProgramLists
-import ZFVP.Syntax.StandardLists
+module
+
+public import ZFVP.ModelTheory.InternalProgramLists
+public import ZFVP.Syntax.StandardLists
+
+@[expose] public section
 
 /-! The uniform internal list decoder agrees with standard finite lists. -/
 

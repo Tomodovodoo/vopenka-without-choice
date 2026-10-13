@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.MaximalAntichains
-import ZFVP.SetTheory.WellOrderingChoice
-import ZFVP.SetTheory.RegularSetAlgebra
-import ZFVP.SetTheory.BooleanCompletionValues
-import ZFVP.ModelTheory.ForcingGeneric
+module
+
+public import ZFVP.SetTheory.MaximalAntichains
+public import ZFVP.SetTheory.WellOrderingChoice
+public import ZFVP.SetTheory.RegularSetAlgebra
+public import ZFVP.SetTheory.BooleanCompletionValues
+public import ZFVP.ModelTheory.ForcingGeneric
+
+@[expose] public section
 
 /-! Maximal antichains of the Boolean completion `RO(P)` in the ground model: with choice, every
 regular set is decided by one and every family of regular sets is refined by one (together with

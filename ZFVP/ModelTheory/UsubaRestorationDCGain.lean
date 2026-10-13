@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.UsubaSingularCollapseDCAt
-import ZFVP.ModelTheory.UsubaRestorationIterand
+module
+
+public import ZFVP.ModelTheory.UsubaSingularCollapseDCAt
+public import ZFVP.ModelTheory.UsubaRestorationIterand
+
+@[expose] public section
 
 /-! The canonical restoration collapse gains DC at the previous least
 failure. If Choice still fails, the next least failure is strictly larger. -/

@@ -1,6 +1,10 @@
-import ZFVP.Syntax.PrimitiveProgramRequirementCharacterization
-import ZFVP.Syntax.PrimitiveProgramRequirementsStandard
-import ZFVP.Syntax.RawFormulaCoding
+module
+
+public import ZFVP.Syntax.PrimitiveProgramRequirementCharacterization
+public import ZFVP.Syntax.PrimitiveProgramRequirementsStandard
+public import ZFVP.Syntax.RawFormulaCoding
+
+@[expose] public section
 
 /-! Every accepted standard term and atomic argument vector is a canonical typed encoding. -/
 

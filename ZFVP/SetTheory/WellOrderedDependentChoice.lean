@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.DependentChoicePaths
-import ZFVP.SetTheory.WellOrderingChoice
+module
+
+public import ZFVP.SetTheory.DependentChoicePaths
+public import ZFVP.SetTheory.WellOrderingChoice
+
+@[expose] public section
 
 namespace ZFVP
 

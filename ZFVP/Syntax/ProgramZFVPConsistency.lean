@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramTheoryProof
+module
+
+public import ZFVP.Syntax.PrimitiveProgramTheoryProof
+
+@[expose] public section
 
 /-! The arithmetic consistency sentence of the explicit generated-theory proof checker. -/
 

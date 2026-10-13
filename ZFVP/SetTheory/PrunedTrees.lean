@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.Telescoping
-import ZFVP.SetTheory.MaximalAntichains
+module
+
+public import ZFVP.SetTheory.Telescoping
+public import ZFVP.SetTheory.MaximalAntichains
+
+@[expose] public section
 
 /-! Trees with nonempty body under inclusion, positive trees (level density bounded below), the
 random conditions, and the relation between compatibility, intersections of bodies and levels. -/

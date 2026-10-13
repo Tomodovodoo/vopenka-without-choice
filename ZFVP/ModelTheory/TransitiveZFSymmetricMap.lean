@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.ExternalGenericRestriction
-import ZFVP.ModelTheory.TransitiveZFSymmetry
-import ZFVP.ModelTheory.CodedMembershipEmbedding
-import ZFVP.SetTheory.ElementaryForcing
-import ZFVP.SetTheory.NameMapGraph
-import ZFVP.SetTheory.NameActionBounds
+module
+
+public import ZFVP.ModelTheory.ExternalGenericRestriction
+public import ZFVP.ModelTheory.TransitiveZFSymmetry
+public import ZFVP.ModelTheory.CodedMembershipEmbedding
+public import ZFVP.SetTheory.ElementaryForcing
+public import ZFVP.SetTheory.NameMapGraph
+public import ZFVP.SetTheory.NameActionBounds
+
+@[expose] public section
 
 /-! The hypotheses for the symmetric graph name follow from an elementary ground embedding. -/
 

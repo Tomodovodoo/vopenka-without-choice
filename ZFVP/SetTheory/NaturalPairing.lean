@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.NaturalAddition
-import ZFVP.SetTheory.NaturalIteration
-import ZFVP.SetTheory.InverseFunction
+module
+
+public import ZFVP.SetTheory.NaturalAddition
+public import ZFVP.SetTheory.NaturalIteration
+public import ZFVP.SetTheory.InverseFunction
+
+@[expose] public section
 
 namespace ZFVP
 

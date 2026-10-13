@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.InternalPermutations
-import ZFVP.SetTheory.DefinableGraph
+module
+
+public import ZFVP.SetTheory.InternalPermutations
+public import ZFVP.SetTheory.DefinableGraph
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

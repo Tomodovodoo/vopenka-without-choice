@@ -1,8 +1,12 @@
-import ZFVP.SetTheory.BoundedRestriction
-import ZFVP.SetTheory.BoundedValue
-import ZFVP.SetTheory.BoundedFunctionDomain
-import ZFVP.SetTheory.LevyGraphAssembly
-import ZFVP.SetTheory.UniformRecursion
+module
+
+public import ZFVP.SetTheory.BoundedRestriction
+public import ZFVP.SetTheory.BoundedValue
+public import ZFVP.SetTheory.BoundedFunctionDomain
+public import ZFVP.SetTheory.LevyGraphAssembly
+public import ZFVP.SetTheory.UniformRecursion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

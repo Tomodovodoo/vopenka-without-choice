@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlInternalInstantiation
-import ZFVP.ModelTheory.SchmerlInternalFOCoherence
-import ZFVP.ModelTheory.SchmerlInternalQTwoPoints
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalInstantiation
+public import ZFVP.ModelTheory.SchmerlInternalFOCoherence
+public import ZFVP.ModelTheory.SchmerlInternalQTwoPoints
+
+@[expose] public section
 
 /-! Logical equality for arbitrary terms, substitutivity in actual
 infinitary formulas, and the nonempty-domain axiom. The latter is explicit

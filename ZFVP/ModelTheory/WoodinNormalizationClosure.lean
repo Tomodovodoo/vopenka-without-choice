@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinNormalizationConstruction
-import ZFVP.ModelTheory.WoodinNormalizationSuccessorClosure
-import ZFVP.ModelTheory.WoodinNormalizationInverseClosure
+module
+
+public import ZFVP.ModelTheory.WoodinNormalizationConstruction
+public import ZFVP.ModelTheory.WoodinNormalizationSuccessorClosure
+public import ZFVP.ModelTheory.WoodinNormalizationInverseClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

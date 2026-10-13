@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LevySupportGalois
-import ZFVP.ModelTheory.SolovaySymmetricRange
-import ZFVP.SetTheory.GenericNameSeparative
+module
+
+public import ZFVP.ModelTheory.LevySupportGalois
+public import ZFVP.ModelTheory.SolovaySymmetricRange
+public import ZFVP.SetTheory.GenericNameSeparative
+
+@[expose] public section
 
 /-! The Galois step of Karagila-Schilhan Lemma 9.3, taken as a named hypothesis, and what it gives
 for the names of the Solovay symmetric system.

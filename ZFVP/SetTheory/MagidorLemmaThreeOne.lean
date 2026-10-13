@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.MagidorSupercompactBounded
-import ZFVP.ModelTheory.SupportEmbeddingIterate
-import ZFVP.SetTheory.NaturalPredecessor
+module
+
+public import ZFVP.SetTheory.MagidorSupercompactBounded
+public import ZFVP.ModelTheory.SupportEmbeddingIterate
+public import ZFVP.SetTheory.NaturalPredecessor
+
+@[expose] public section
 
 /-! # Magidor's Lemma 3.1, in embedding form
 

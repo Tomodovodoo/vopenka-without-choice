@@ -1,4 +1,8 @@
-import ZFVP.Syntax.ElementaryFoundationEncoding
+module
+
+public import ZFVP.Syntax.ElementaryFoundationEncoding
+
+@[expose] public section
 
 /-! Symbol arities and their standard representations reflect through elementary maps. -/
 namespace ZFVP.ElementaryMap

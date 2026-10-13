@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalHenkinImplication
+module
+
+public import ZFVP.ModelTheory.InternalHenkinImplication
+
+@[expose] public section
 
 /-! Iterated context extension respects the formula operations and syntactic
 implications. All iteration indices range over the internal omega. -/

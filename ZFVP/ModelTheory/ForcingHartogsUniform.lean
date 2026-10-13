@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingHartogsName
-import ZFVP.SetTheory.UniformFormulaName
+module
+
+public import ZFVP.ModelTheory.ForcingHartogsName
+public import ZFVP.SetTheory.UniformFormulaName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

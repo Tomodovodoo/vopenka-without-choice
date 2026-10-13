@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.Cofinality
-import ZFVP.SetTheory.InjectionRetraction
-import ZFVP.SetTheory.FunctionComposition
-import ZFVP.SetTheory.StandardNaturals
+module
+
+public import ZFVP.SetTheory.Cofinality
+public import ZFVP.SetTheory.InjectionRetraction
+public import ZFVP.SetTheory.FunctionComposition
+public import ZFVP.SetTheory.StandardNaturals
+
+@[expose] public section
 
 /-! Cofinality is an initial ordinal; the proof uses an explicitly constructed retraction. -/
 

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.RankSaturatedWoodinName
-import ZFVP.ModelTheory.RankInternalReverseOrderName
-import ZFVP.ModelTheory.TwoStepOrderGenericEquality
-import ZFVP.SetTheory.WoodinSuccessorCode
+module
+
+public import ZFVP.ModelTheory.RankSaturatedWoodinName
+public import ZFVP.ModelTheory.RankInternalReverseOrderName
+public import ZFVP.ModelTheory.TwoStepOrderGenericEquality
+public import ZFVP.SetTheory.WoodinSuccessorCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

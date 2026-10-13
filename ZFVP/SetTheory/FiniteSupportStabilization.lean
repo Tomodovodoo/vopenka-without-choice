@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FiniteSets
-import ZFVP.SetTheory.ForcingOrder
+module
+
+public import ZFVP.SetTheory.FiniteSets
+public import ZFVP.SetTheory.ForcingOrder
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ClassForcingBounded
-import ZFVP.SetTheory.ForcingPowerName
-import ZFVP.SetTheory.BoundedAtomicTruth
+module
+
+public import ZFVP.SetTheory.ClassForcingBounded
+public import ZFVP.SetTheory.ForcingPowerName
+public import ZFVP.SetTheory.BoundedAtomicTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

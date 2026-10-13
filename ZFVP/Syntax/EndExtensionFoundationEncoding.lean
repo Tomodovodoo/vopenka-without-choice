@@ -1,6 +1,10 @@
-import ZFVP.Syntax.EndExtensionAssignments
-import ZFVP.Syntax.EndExtensionFormulas
-import ZFVP.Syntax.FoundationEncoding
+module
+
+public import ZFVP.Syntax.EndExtensionAssignments
+public import ZFVP.Syntax.EndExtensionFormulas
+public import ZFVP.Syntax.FoundationEncoding
+
+@[expose] public section
 
 /-! Standard finite syntax commutes with every membership end extension. -/
 

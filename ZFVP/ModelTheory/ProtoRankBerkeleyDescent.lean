@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ProtoRankBerkeley
-import ZFVP.ModelTheory.CriticalLimitExtendibility
+module
+
+public import ZFVP.SetTheory.ProtoRankBerkeley
+public import ZFVP.ModelTheory.CriticalLimitExtendibility
+
+@[expose] public section
 
 /-! Proto rank-Berkeley embeddings give an internal ZF model of every positive UE instance. -/
 

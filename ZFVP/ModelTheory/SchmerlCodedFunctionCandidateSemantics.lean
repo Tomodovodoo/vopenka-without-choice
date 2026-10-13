@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedFunctionCandidatePreservation
-import ZFVP.ModelTheory.SchmerlCodedClassColors
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedFunctionCandidatePreservation
+public import ZFVP.ModelTheory.SchmerlCodedClassColors
+
+@[expose] public section
 
 /-! Exact interpretation of finite-function candidates and their cofinality
 test, followed by an original membership code for every preserved candidate. -/

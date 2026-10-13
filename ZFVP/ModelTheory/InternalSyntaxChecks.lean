@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalProgramListRanges
-import ZFVP.ModelTheory.InternalFormulaRequirements
-import ZFVP.Syntax.PrimitiveProgramSyntaxChecks
+module
+
+public import ZFVP.ModelTheory.InternalProgramListRanges
+public import ZFVP.ModelTheory.InternalFormulaRequirements
+public import ZFVP.Syntax.PrimitiveProgramSyntaxChecks
+
+@[expose] public section
 
 /-! Boolean formula and sequent checks accept exactly the internal syntax requirements. -/
 

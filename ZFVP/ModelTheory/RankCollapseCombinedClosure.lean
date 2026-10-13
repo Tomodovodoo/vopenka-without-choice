@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.RankCollapseCombinedContext
-import ZFVP.ModelTheory.TwoStepInclusion
-import ZFVP.SetTheory.WoodinCollapseRetraction
-import ZFVP.ModelTheory.WoodinCollapsePreservation
+module
+
+public import ZFVP.ModelTheory.RankCollapseCombinedContext
+public import ZFVP.ModelTheory.TwoStepInclusion
+public import ZFVP.SetTheory.WoodinCollapseRetraction
+public import ZFVP.ModelTheory.WoodinCollapsePreservation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

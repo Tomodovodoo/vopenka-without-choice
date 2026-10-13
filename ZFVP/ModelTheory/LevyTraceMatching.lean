@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LevyTraceProjection
-import ZFVP.ModelTheory.LevySupportValueBound
-import ZFVP.ModelTheory.LevyComplementRefutation
+module
+
+public import ZFVP.ModelTheory.LevyTraceProjection
+public import ZFVP.ModelTheory.LevySupportValueBound
+public import ZFVP.ModelTheory.LevyComplementRefutation
+
+@[expose] public section
 
 /-! Bridges between the trace vocabulary and the support value vocabulary.
 

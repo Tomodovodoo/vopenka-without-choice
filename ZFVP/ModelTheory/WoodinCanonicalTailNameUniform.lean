@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinCanonicalTailNameAction
-import ZFVP.ModelTheory.WoodinCollapseDisplacementNameUniform
-import ZFVP.ModelTheory.WoodinNormalizationInverse
+module
+
+public import ZFVP.ModelTheory.WoodinCanonicalTailNameAction
+public import ZFVP.ModelTheory.WoodinCollapseDisplacementNameUniform
+public import ZFVP.ModelTheory.WoodinNormalizationInverse
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

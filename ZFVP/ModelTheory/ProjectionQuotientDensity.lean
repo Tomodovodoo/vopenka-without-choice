@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ProjectionQuotientName
-import ZFVP.ModelTheory.TwoStepDenseNames
+module
+
+public import ZFVP.ModelTheory.ProjectionQuotientName
+public import ZFVP.ModelTheory.TwoStepDenseNames
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

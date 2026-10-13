@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CohenProjectionHomogeneity
-import ZFVP.SetTheory.AtomicForcingSubstitution
+module
+
+public import ZFVP.SetTheory.CohenProjectionHomogeneity
+public import ZFVP.SetTheory.AtomicForcingSubstitution
+
+@[expose] public section
 
 namespace ZFVP
 

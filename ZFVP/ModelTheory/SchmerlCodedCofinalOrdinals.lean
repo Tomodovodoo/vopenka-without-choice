@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlCodedTreeStructure
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedTreeStructure
+
+@[expose] public section
 
 /-! The ordinal chain is obtained from the actual coded Rubin clause. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.InternalNaturalArithmetic
-import Mathlib.Tactic.Ring
+module
+
+public import ZFVP.SetTheory.InternalNaturalArithmetic
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Rational numbers as internal equivalence classes of signed fractions.
 Every numerator and denominator is an element of the model's whole omega.

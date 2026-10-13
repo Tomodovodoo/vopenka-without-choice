@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RealCoverFlattenPartition
-import ZFVP.SetTheory.PrefixFreeNullCoverPadding
+module
+
+public import ZFVP.SetTheory.RealCoverFlattenPartition
+public import ZFVP.SetTheory.PrefixFreeNullCoverPadding
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

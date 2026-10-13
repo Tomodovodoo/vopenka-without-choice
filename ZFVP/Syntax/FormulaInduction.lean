@@ -1,4 +1,8 @@
-import ZFVP.Syntax.Formulas
+module
+
+public import ZFVP.Syntax.Formulas
+
+@[expose] public section
 
 /-! Definable induction over the internally finite formula family. -/
 

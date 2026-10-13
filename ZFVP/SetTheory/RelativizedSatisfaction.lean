@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.CnAbsoluteness
-import ZFVP.Syntax.BoundedStandardTuples
-import ZFVP.Syntax.DeltaOneMembershipTruth
-import ZFVP.Syntax.StandardCodeExpressions
+module
+
+public import ZFVP.SetTheory.CnAbsoluteness
+public import ZFVP.Syntax.BoundedStandardTuples
+public import ZFVP.Syntax.DeltaOneMembershipTruth
+public import ZFVP.Syntax.StandardCodeExpressions
+
+@[expose] public section
 
 /-! Relativizing a fixed external formula to a set domain.
 

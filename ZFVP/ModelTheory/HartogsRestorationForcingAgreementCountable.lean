@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.HartogsLocalRestorationRankAgreement
+module
+
+public import ZFVP.ModelTheory.HartogsLocalRestorationRankAgreement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

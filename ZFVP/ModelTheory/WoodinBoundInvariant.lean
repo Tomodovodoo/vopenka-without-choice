@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ProjectionQuotientSequenceForcing
-import ZFVP.ModelTheory.WoodinQuotientBoundRecursion
-import ZFVP.ModelTheory.WoodinQuotientBoundEquations
+module
+
+public import ZFVP.ModelTheory.ProjectionQuotientSequenceForcing
+public import ZFVP.ModelTheory.WoodinQuotientBoundRecursion
+public import ZFVP.ModelTheory.WoodinQuotientBoundEquations
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

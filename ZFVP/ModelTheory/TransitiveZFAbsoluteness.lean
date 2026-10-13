@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.DeltaOneMembershipEmbedding
-import ZFVP.ModelTheory.EmbeddingCriticalPointImage
+module
+
+public import ZFVP.ModelTheory.DeltaOneMembershipEmbedding
+public import ZFVP.ModelTheory.EmbeddingCriticalPointImage
+
+@[expose] public section
 
 /-! Absolute dictionaries between a transitive set model of ZF and its ambient model. -/
 

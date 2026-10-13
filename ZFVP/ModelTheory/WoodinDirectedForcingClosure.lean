@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinDirectedClosureComposition
-import ZFVP.ModelTheory.ForcingCheckedTruth
+module
+
+public import ZFVP.ModelTheory.WoodinDirectedClosureComposition
+public import ZFVP.ModelTheory.ForcingCheckedTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.WoodinCollapse
-import ZFVP.SetTheory.ForcingSeparativeOrder
-import ZFVP.SetTheory.ForcingClosure
+module
+
+public import ZFVP.SetTheory.WoodinCollapse
+public import ZFVP.SetTheory.ForcingSeparativeOrder
+public import ZFVP.SetTheory.ForcingClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

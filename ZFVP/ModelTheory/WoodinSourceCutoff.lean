@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingIsomorphismCanonicalNames
-import ZFVP.SetTheory.WoodinNamedPrefixCutoff
-import ZFVP.ModelTheory.WoodinSourceLimits
-import ZFVP.ModelTheory.InverseSourceCollapseCode
+module
+
+public import ZFVP.ModelTheory.ForcingIsomorphismCanonicalNames
+public import ZFVP.SetTheory.WoodinNamedPrefixCutoff
+public import ZFVP.ModelTheory.WoodinSourceLimits
+public import ZFVP.ModelTheory.InverseSourceCollapseCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

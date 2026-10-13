@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseInverseIsomorphism
+module
+
+public import ZFVP.ModelTheory.WoodinSparseInverseIsomorphism
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

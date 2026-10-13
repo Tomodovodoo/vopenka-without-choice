@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SparseCarrierOrderRecursion
-import ZFVP.ModelTheory.SparseCutOrder
-import ZFVP.ModelTheory.SparseCoordinatePoolRecovery
-import ZFVP.ModelTheory.SparseReverseOrderComparison
+module
+
+public import ZFVP.ModelTheory.SparseCarrierOrderRecursion
+public import ZFVP.ModelTheory.SparseCutOrder
+public import ZFVP.ModelTheory.SparseCoordinatePoolRecovery
+public import ZFVP.ModelTheory.SparseReverseOrderComparison
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

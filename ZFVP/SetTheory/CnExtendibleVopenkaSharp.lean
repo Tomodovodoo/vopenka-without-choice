@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.CnExtendibleVopenka
-import ZFVP.SetTheory.ChoicelessCorrectness
-import ZFVP.SetTheory.ChoicelessInaccessibleRank
-import ZFVP.ModelTheory.GenericRankEmbeddingZFRestriction
+module
+
+public import ZFVP.SetTheory.CnExtendibleVopenka
+public import ZFVP.SetTheory.ChoicelessCorrectness
+public import ZFVP.SetTheory.ChoicelessInaccessibleRank
+public import ZFVP.ModelTheory.GenericRankEmbeddingZFRestriction
+
+@[expose] public section
 
 /-! The C(n)-extendibility-to-Vopenka implication at every positive level.
 

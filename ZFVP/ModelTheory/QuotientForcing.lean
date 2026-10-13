@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SubalgebraProjection
-import ZFVP.SetTheory.EndExtensionAtomicForcing
+module
+
+public import ZFVP.ModelTheory.SubalgebraProjection
+public import ZFVP.SetTheory.EndExtensionAtomicForcing
+
+@[expose] public section
 
 /-! The quotient forcing `B / (G ∩ D)`: inside the intermediate extension `V[G ∩ D]` by a complete
 subalgebra `D` of the Boolean completion `B`, the conditions whose projection to `D` lies in the

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalBinaryQuotient
+module
+
+public import ZFVP.ModelTheory.InternalBinaryQuotient
+
+@[expose] public section
 
 /-! Uniform definability of the actual quotient and projection. -/
 namespace ZFVP

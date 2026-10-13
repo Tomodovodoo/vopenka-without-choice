@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingNormalizedPrefix
-import ZFVP.ModelTheory.WoodinNormalizedCode
-import ZFVP.ModelTheory.WoodinPrefixCoordinates
+module
+
+public import ZFVP.ModelTheory.ForcingNormalizedPrefix
+public import ZFVP.ModelTheory.WoodinNormalizedCode
+public import ZFVP.ModelTheory.WoodinPrefixCoordinates
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

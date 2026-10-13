@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingQuotientZF
-import ZFVP.SetTheory.GenericName
+module
+
+public import ZFVP.ModelTheory.ForcingQuotientZF
+public import ZFVP.SetTheory.GenericName
+
+@[expose] public section
 
 namespace ZFVP
 

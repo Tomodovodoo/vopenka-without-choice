@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingQuotient
-import ZFVP.SetTheory.ClassFormulaForcing
+module
+
+public import ZFVP.ModelTheory.ForcingQuotient
+public import ZFVP.SetTheory.ClassFormulaForcing
+
+@[expose] public section
 
 namespace ZFVP
 

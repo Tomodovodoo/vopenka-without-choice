@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InverseSourceQuotientClosure
-import ZFVP.ModelTheory.WoodinInverseStagePreservation
-import ZFVP.ModelTheory.WoodinHistoryQuotientClosure
+module
+
+public import ZFVP.ModelTheory.InverseSourceQuotientClosure
+public import ZFVP.ModelTheory.WoodinInverseStagePreservation
+public import ZFVP.ModelTheory.WoodinHistoryQuotientClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

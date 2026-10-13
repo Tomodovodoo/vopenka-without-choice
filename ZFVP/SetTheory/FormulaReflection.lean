@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.WitnessClosure
-import ZFVP.SetTheory.FiniteCodingClosure
-import ZFVP.SetTheory.Relativization
-import ZFVP.Syntax.StandardTuples
+module
+
+public import ZFVP.SetTheory.WitnessClosure
+public import ZFVP.SetTheory.FiniteCodingClosure
+public import ZFVP.SetTheory.Relativization
+public import ZFVP.Syntax.StandardTuples
+
+@[expose] public section
 
 /-! Reflection for externally finite families of set-theory formulas.
 The witness relation is constructed separately for each formula. This does not

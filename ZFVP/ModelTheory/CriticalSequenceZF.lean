@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CriticalSequenceFixedPoint
-import ZFVP.ModelTheory.CriticalPointZF
+module
+
+public import ZFVP.ModelTheory.CriticalSequenceFixedPoint
+public import ZFVP.ModelTheory.CriticalPointZF
+
+@[expose] public section
 
 /-! Every stage of the internal critical sequence satisfies the ZF rank criterion. -/
 

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalHenkinStages
-import ZFVP.Syntax.MembershipRenamingConstructors
+module
+
+public import ZFVP.ModelTheory.InternalHenkinStages
+public import ZFVP.Syntax.MembershipRenamingConstructors
+
+@[expose] public section
 
 /-! Syntactic implications between Henkin conditions and preservation of the
 chosen existential literal by its fresh witness. -/
@@ -86,8 +90,8 @@ theorem rename (hω : Schmerl.HasStandardOmega V) {T n m r φ ψ : V}
   have hψ := renameMembershipFormula_mem hn hm hr h.2.1
   have hp := ((codedFormulaImplies_iff_standard hω _ _ _ _).mp h).2.2
   have he : renameCodedSequent n m r ({ψ, negateFormula membershipLanguageCode ∅ n φ} : V) =
-      ({renameMembershipFormula n m r ψ, negateFormula membershipLanguageCode ∅ m
-        (renameMembershipFormula n m r φ)} : V) := by
+      ({(renameMembershipFormula n m r ψ), (negateFormula membershipLanguageCode ∅ m
+        (renameMembershipFormula n m r φ))} : V) := by
     ext x
     simp only [mem_renameCodedSequent_iff, mem_insert, mem_singleton_iff]
     constructor

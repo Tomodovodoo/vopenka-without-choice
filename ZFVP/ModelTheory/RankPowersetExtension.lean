@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.EndExtensionBasics
-import ZFVP.SetTheory.EndExtensionSets
-import ZFVP.SetTheory.EndExtensionHierarchyAgreement
-import ZFVP.SetTheory.EndExtensionRank
-import ZFVP.SetTheory.BoundedCodingPrimitives
-import ZFVP.SetTheory.TransfiniteIteration
+module
+
+public import ZFVP.ModelTheory.EndExtensionBasics
+public import ZFVP.SetTheory.EndExtensionSets
+public import ZFVP.SetTheory.EndExtensionHierarchyAgreement
+public import ZFVP.SetTheory.EndExtensionRank
+public import ZFVP.SetTheory.BoundedCodingPrimitives
+public import ZFVP.SetTheory.TransfiniteIteration
+
+@[expose] public section
 
 /-! Remark 2.6(e) of Enayat, "Models of set theory: extensions and dead ends": for models of
 ZF a powerset-preserving end extension is the same thing as a rank extension. -/

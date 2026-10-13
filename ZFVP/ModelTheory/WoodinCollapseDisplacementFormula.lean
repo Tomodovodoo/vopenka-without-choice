@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.WoodinCollapseDisplacement
-import ZFVP.SetTheory.CollapseDictionary
-import ZFVP.ModelTheory.UniformSparsePair
-import ZFVP.ModelTheory.WoodinCollapseName
+module
+
+public import ZFVP.SetTheory.WoodinCollapseDisplacement
+public import ZFVP.SetTheory.CollapseDictionary
+public import ZFVP.ModelTheory.UniformSparsePair
+public import ZFVP.ModelTheory.WoodinCollapseName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

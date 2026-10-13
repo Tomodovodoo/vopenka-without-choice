@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinNormalizationRecursionRankAgreement
-import ZFVP.ModelTheory.TransitiveZFNormalizedRecodedCode
-import ZFVP.ModelTheory.WoodinNormalizedCode
+module
+
+public import ZFVP.ModelTheory.WoodinNormalizationRecursionRankAgreement
+public import ZFVP.ModelTheory.TransitiveZFNormalizedRecodedCode
+public import ZFVP.ModelTheory.WoodinNormalizedCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

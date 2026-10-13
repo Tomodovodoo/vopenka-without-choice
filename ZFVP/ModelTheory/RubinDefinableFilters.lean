@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.MaximallyCompatibleFilters
+module
+
+public import ZFVP.ModelTheory.MaximallyCompatibleFilters
+
+@[expose] public section
 
 /-! Enayat's Definition 5.13 taken literally is contradictory, and the repair.
 

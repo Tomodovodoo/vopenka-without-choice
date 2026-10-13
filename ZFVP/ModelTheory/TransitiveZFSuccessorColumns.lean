@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.TransitiveZFIterationTables
+module
+
+public import ZFVP.ModelTheory.TransitiveZFIterationTables
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

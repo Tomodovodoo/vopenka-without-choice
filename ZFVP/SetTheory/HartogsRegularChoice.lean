@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RegularUnions
-import ZFVP.SetTheory.CofinalityDictionary
+module
+
+public import ZFVP.SetTheory.RegularUnions
+public import ZFVP.SetTheory.CofinalityDictionary
+
+@[expose] public section
 
 /-! Under internal choice the Hartogs number of an infinite set is a regular cardinal. Applied to
 an infinite well-orderable `A` this is the usual statement that successor cardinals are regular. -/

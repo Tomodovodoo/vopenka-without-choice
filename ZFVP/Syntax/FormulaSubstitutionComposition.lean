@@ -1,5 +1,9 @@
-import ZFVP.Syntax.FormulaSubstitutionNegation
-import ZFVP.Syntax.SubstitutionExtensionality
+module
+
+public import ZFVP.Syntax.FormulaSubstitutionNegation
+public import ZFVP.Syntax.SubstitutionExtensionality
+
+@[expose] public section
 
 /-! Composition and identity for substitution graphs, using the corresponding
 identities on the term replacement tables at every binder depth. -/

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LimitRankEmbedding
-import ZFVP.SetTheory.PiOneHierarchy
-import ZFVP.ModelTheory.TransitiveZFAbsoluteness
+module
+
+public import ZFVP.ModelTheory.LimitRankEmbedding
+public import ZFVP.SetTheory.PiOneHierarchy
+public import ZFVP.ModelTheory.TransitiveZFAbsoluteness
+
+@[expose] public section
 
 /-! The rank formulas are absolute in every limit rank segment. -/
 

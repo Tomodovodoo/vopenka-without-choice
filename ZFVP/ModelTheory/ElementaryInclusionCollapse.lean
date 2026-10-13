@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ElementaryInclusion
-import ZFVP.SetTheory.SmallTransitiveInaccessibleRank
-import ZFVP.SetTheory.LowenheimSkolemCardinals
+module
+
+public import ZFVP.ModelTheory.ElementaryInclusion
+public import ZFVP.SetTheory.SmallTransitiveInaccessibleRank
+public import ZFVP.SetTheory.LowenheimSkolemCardinals
+
+@[expose] public section
 
 /-! Elementary subsets of transitive sets have canonical transitive collapses. -/
 

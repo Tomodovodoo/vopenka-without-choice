@@ -1,6 +1,10 @@
-import PalomarPreservationBridge.Vocabulary
-import PalomarBridge.CodingOperations
-import ZFVP.ModelTheory.SymmetricModel
+module
+
+public import PalomarPreservationBridge.Vocabulary
+public import PalomarBridge.CodingOperations
+public import ZFVP.ModelTheory.SymmetricModel
+
+@[expose] public section
 
 namespace PalomarPreservationBridge
 open PalomarBridge LO LO.FirstOrder LO.FirstOrder.SetTheory

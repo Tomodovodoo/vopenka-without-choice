@@ -1,5 +1,9 @@
-import ZFVP.Syntax.Assignments
-import ZFVP.SetTheory.StandardNaturals
+module
+
+public import ZFVP.Syntax.Assignments
+public import ZFVP.SetTheory.StandardNaturals
+
+@[expose] public section
 
 /-! External finite tuples represented by internal function graphs. -/
 

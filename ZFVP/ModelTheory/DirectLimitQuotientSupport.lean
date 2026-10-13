@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ProjectionQuotient
-import ZFVP.SetTheory.DirectLimitClosure
-import ZFVP.SetTheory.FunctionComposition
+module
+
+public import ZFVP.ModelTheory.ProjectionQuotient
+public import ZFVP.SetTheory.DirectLimitClosure
+public import ZFVP.SetTheory.FunctionComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

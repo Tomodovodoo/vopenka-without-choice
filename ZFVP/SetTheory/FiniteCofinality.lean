@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.CofinalityDictionary
+module
+
+public import ZFVP.SetTheory.CofinalityDictionary
+
+@[expose] public section
 
 namespace ZFVP
 

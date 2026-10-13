@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WellOrderedSelection
-import ZFVP.SetTheory.ChoiceDictionary
+module
+
+public import ZFVP.SetTheory.WellOrderedSelection
+public import ZFVP.SetTheory.ChoiceDictionary
+
+@[expose] public section
 
 namespace ZFVP
 

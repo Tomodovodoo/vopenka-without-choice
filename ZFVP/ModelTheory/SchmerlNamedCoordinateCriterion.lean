@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlNamedCofinalCriterion
-import ZFVP.ModelTheory.SchmerlFiniteCoordinateCofinality
+module
+
+public import ZFVP.ModelTheory.SchmerlNamedCofinalCriterion
+public import ZFVP.ModelTheory.SchmerlFiniteCoordinateCofinality
+
+@[expose] public section
 
 /-! The exact finite-condition criterion on any fixed finite coordinate
 list, using a body that represents joint source-name realization. -/

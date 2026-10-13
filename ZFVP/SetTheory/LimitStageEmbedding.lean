@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LimitCriticalPoint
-import ZFVP.ModelTheory.EmbeddingOmegaFixation
-import ZFVP.SetTheory.ClosedRankStages
+module
+
+public import ZFVP.ModelTheory.LimitCriticalPoint
+public import ZFVP.ModelTheory.EmbeddingOmegaFixation
+public import ZFVP.SetTheory.ClosedRankStages
+
+@[expose] public section
 
 /-! # Successor closure and the critical point of a rank-stage embedding
 

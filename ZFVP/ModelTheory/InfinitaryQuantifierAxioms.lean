@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitarySyntax
-import ZFVP.ModelTheory.UncountableQuantifierLaws
+module
+
+public import ZFVP.ModelTheory.InfinitarySyntax
+public import ZFVP.ModelTheory.UncountableQuantifierLaws
+
+@[expose] public section
 
 /-! Explicit countable conjunction and uncountability axiom schemas, interpreted
 in the standard semantics. These lemmas do not assume a completeness theorem. -/

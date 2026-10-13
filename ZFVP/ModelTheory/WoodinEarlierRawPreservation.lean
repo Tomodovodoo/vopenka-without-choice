@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinEarlierRawClosure
-import ZFVP.ModelTheory.WoodinInverseStagePreservation
+module
+
+public import ZFVP.ModelTheory.WoodinEarlierRawClosure
+public import ZFVP.ModelTheory.WoodinInverseStagePreservation
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

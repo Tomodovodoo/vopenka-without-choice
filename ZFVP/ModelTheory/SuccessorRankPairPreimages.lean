@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SuccessorRankEmbedding
-import ZFVP.ModelTheory.RankEmbeddingPairPreimages
+module
+
+public import ZFVP.ModelTheory.SuccessorRankEmbedding
+public import ZFVP.ModelTheory.RankEmbeddingPairPreimages
+
+@[expose] public section
 
 namespace ZFVP
 

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.HartogsDictionary
-import ZFVP.SetTheory.PiOneInitialOrdinal
+module
+
+public import ZFVP.SetTheory.HartogsDictionary
+public import ZFVP.SetTheory.PiOneInitialOrdinal
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

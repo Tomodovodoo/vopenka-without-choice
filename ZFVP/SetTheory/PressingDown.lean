@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.DiagonalClubs
-import ZFVP.SetTheory.InternalChoice
+module
+
+public import ZFVP.SetTheory.DiagonalClubs
+public import ZFVP.SetTheory.InternalChoice
+
+@[expose] public section
 
 namespace ZFVP
 

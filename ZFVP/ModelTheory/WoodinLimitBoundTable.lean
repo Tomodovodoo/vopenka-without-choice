@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ForcingLimitBoundTables
-import ZFVP.ModelTheory.WoodinLimitBase
+module
+
+public import ZFVP.ModelTheory.ForcingLimitBoundTables
+public import ZFVP.ModelTheory.WoodinLimitBase
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

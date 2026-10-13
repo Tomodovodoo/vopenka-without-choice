@@ -1,5 +1,9 @@
-import ZFVP.Syntax.MembershipTruthTableDefinition
-import ZFVP.Syntax.SigmaOneBoundedModelTruth
+module
+
+public import ZFVP.Syntax.MembershipTruthTableDefinition
+public import ZFVP.Syntax.SigmaOneBoundedModelTruth
+
+@[expose] public section
 
 /-! Existential bounded certificates for truth and falsity in arbitrary set domains. -/
 

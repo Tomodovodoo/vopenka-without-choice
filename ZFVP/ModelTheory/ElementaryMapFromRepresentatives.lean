@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.FiniteParameterElementarity
-import ZFVP.SetTheory.ElementaryMap
+module
+
+public import ZFVP.ModelTheory.FiniteParameterElementarity
+public import ZFVP.SetTheory.ElementaryMap
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.UsubaLeastTarget
-import ZFVP.SetTheory.UsubaCollapse
-import ZFVP.SetTheory.UniformFormulaName
-import ZFVP.ModelTheory.WoodinSuccessorIterand
+module
+
+public import ZFVP.SetTheory.UsubaLeastTarget
+public import ZFVP.SetTheory.UsubaCollapse
+public import ZFVP.SetTheory.UniformFormulaName
+public import ZFVP.ModelTheory.WoodinSuccessorIterand
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

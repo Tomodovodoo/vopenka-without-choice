@@ -1,7 +1,11 @@
-import ZFVP.Syntax.PrimitiveProgramForwardTabulate
-import ZFVP.Syntax.PrimitiveProgramClosure
-import ZFVP.Syntax.PrimitiveProgramListStandard
-import ZFVP.Syntax.PrimitiveProgramNativeEquations
+module
+
+public import ZFVP.Syntax.PrimitiveProgramForwardTabulate
+public import ZFVP.Syntax.PrimitiveProgramClosure
+public import ZFVP.Syntax.PrimitiveProgramListStandard
+public import ZFVP.Syntax.PrimitiveProgramNativeEquations
+
+@[expose] public section
 
 /-! Standard encodings of generated index tables and universal formula closure. -/
 

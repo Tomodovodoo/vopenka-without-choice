@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.LevyAbsorptionChain
-import ZFVP.ModelTheory.DensePreimageGeneric
+module
+
+public import ZFVP.SetTheory.LevyAbsorptionChain
+public import ZFVP.ModelTheory.DensePreimageGeneric
+
+@[expose] public section
 
 /-! Model-level absorption: an extension by `Q × Coll(columns C')`, with `|Q| ≤ λ ∈ C'` infinite,
 is an extension by `Coll(columns C')` (pull the generic back to `λ^{<ω} × Coll(columns C' \ {λ})`

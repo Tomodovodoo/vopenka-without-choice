@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CountableCohenNames
-import ZFVP.ModelTheory.SymmetricModelZF
+module
+
+public import ZFVP.SetTheory.CountableCohenNames
+public import ZFVP.ModelTheory.SymmetricModelZF
+
+@[expose] public section
 
 /-! The countable-support Cohen symmetric extension at the first uncountable ordinal:
 rows and columns are both indexed by `hartogsNumber ω`. -/

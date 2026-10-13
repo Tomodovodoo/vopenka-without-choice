@@ -1,5 +1,9 @@
-import ZFVP.Syntax.MembershipTemplates
-import ZFVP.ModelTheory.LocalCodedVopenka
+module
+
+public import ZFVP.Syntax.MembershipTemplates
+public import ZFVP.ModelTheory.LocalCodedVopenka
+
+@[expose] public section
 
 /-! A sentence-code compiler and its semantics for all internal Vopenka instances. -/
 

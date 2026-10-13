@@ -1,4 +1,8 @@
-import ZFVP.Syntax.NaturalPrefixRenaming
+module
+
+public import ZFVP.Syntax.NaturalPrefixRenaming
+
+@[expose] public section
 
 /-! Unused surrounding contexts do not alter the natural-number syntax encoding. -/
 

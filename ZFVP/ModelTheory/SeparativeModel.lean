@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SeparativeGeneric
-import ZFVP.ModelTheory.ForcingRealizationGeneration
-import ZFVP.ModelTheory.ForcingClosedSequences
-import ZFVP.ModelTheory.ForcingDependentChoiceTransfer
-import ZFVP.SetTheory.ElementaryDependentChoice
+module
+
+public import ZFVP.ModelTheory.SeparativeGeneric
+public import ZFVP.ModelTheory.ForcingRealizationGeneration
+public import ZFVP.ModelTheory.ForcingClosedSequences
+public import ZFVP.ModelTheory.ForcingDependentChoiceTransfer
+public import ZFVP.SetTheory.ElementaryDependentChoice
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

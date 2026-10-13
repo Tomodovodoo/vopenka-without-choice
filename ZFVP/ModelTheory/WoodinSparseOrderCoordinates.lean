@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseSuccessorOrderCoordinates
-import ZFVP.ModelTheory.WoodinSparseLimitOrderCoordinates
+module
+
+public import ZFVP.ModelTheory.WoodinSparseSuccessorOrderCoordinates
+public import ZFVP.ModelTheory.WoodinSparseLimitOrderCoordinates
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

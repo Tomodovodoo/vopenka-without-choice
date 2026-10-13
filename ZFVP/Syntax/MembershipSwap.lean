@@ -1,4 +1,8 @@
-import ZFVP.Syntax.MembershipRenaming
+module
+
+public import ZFVP.Syntax.MembershipRenaming
+
+@[expose] public section
 
 /-! Swapping the first two bound variables preserves every internal formula. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.DefinableClassGeneric
+module
+
+public import ZFVP.ModelTheory.DefinableClassGeneric
+
+@[expose] public section
 
 /-! The semantic forcing argument in Proposition `prop:class-forcing-criteria`.
 

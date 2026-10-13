@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.NameClosureIteration
-import ZFVP.SetTheory.BoundedCodingPrimitives
-import ZFVP.SetTheory.BoundedNaturals
+module
+
+public import ZFVP.SetTheory.NameClosureIteration
+public import ZFVP.SetTheory.BoundedCodingPrimitives
+public import ZFVP.SetTheory.BoundedNaturals
+
+@[expose] public section
 
 /-! Bounded certificates for the omega iteration computing name closure. -/
 

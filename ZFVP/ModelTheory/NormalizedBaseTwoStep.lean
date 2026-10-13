@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.RetractedBaseTwoStep
-import ZFVP.ModelTheory.NormalizedWoodinPrefix
-import ZFVP.SetTheory.ForcingRetractionComposition
+module
+
+public import ZFVP.ModelTheory.RetractedBaseTwoStep
+public import ZFVP.ModelTheory.NormalizedWoodinPrefix
+public import ZFVP.SetTheory.ForcingRetractionComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

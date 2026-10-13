@@ -1,5 +1,9 @@
-import ZFVP.Syntax.Subformulas
-import ZFVP.Syntax.EndExtensionSatisfaction
+module
+
+public import ZFVP.Syntax.Subformulas
+public import ZFVP.Syntax.EndExtensionSatisfaction
+
+@[expose] public section
 
 /-! Internal codes for countable infinitary fragments. A conjunction carries
 an actual function on the model's omega. Context/code pairs and their entire

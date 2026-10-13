@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingLowRankNames
+module
+
+public import ZFVP.ModelTheory.ForcingLowRankNames
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

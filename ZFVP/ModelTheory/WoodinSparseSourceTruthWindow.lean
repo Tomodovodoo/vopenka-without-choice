@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseFiniteTruthWindow
-import ZFVP.ModelTheory.UniformWoodinSparseCompleteCode
-import ZFVP.SetTheory.SourceQuantifierBound
+module
+
+public import ZFVP.ModelTheory.WoodinSparseFiniteTruthWindow
+public import ZFVP.ModelTheory.UniformWoodinSparseCompleteCode
+public import ZFVP.SetTheory.SourceQuantifierBound
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.LevySupportAlgebraClosure
-import ZFVP.ModelTheory.SolovaySupportAlgebraBase
+module
+
+public import ZFVP.ModelTheory.LevySupportAlgebraClosure
+public import ZFVP.ModelTheory.SolovaySupportAlgebraBase
+
+@[expose] public section
 
 /-! The Galois step of Karagila-Schilhan Lemma 9.3 for the Levy collapse, reduced to a statement
 about automorphisms of the collapse itself.

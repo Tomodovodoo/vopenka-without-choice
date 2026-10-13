@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalInfinitarySubstitutionValidity
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalInfinitarySubstitutionValidity
+
+@[expose] public section
 
 /-! Substitution preserves internal infinitary truth, with Q interpreted by
 the model's own countability predicate. No external countability is used. -/

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TransitiveZFAbsoluteness
-import ZFVP.Syntax.PartialTruthConnectives
+module
+
+public import ZFVP.ModelTheory.TransitiveZFAbsoluteness
+public import ZFVP.Syntax.PartialTruthConnectives
+
+@[expose] public section
 
 /-! Internal finite coding in a transitive ZF model agrees with ambient coding. -/
 

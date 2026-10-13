@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InfinitaryWeakRewriting
-import ZFVP.ModelTheory.InfinitaryFragmentClosure
-import Foundation.FirstOrder.Basic.Semantics.Elementary
+module
+
+public import ZFVP.ModelTheory.InfinitaryWeakRewriting
+public import ZFVP.ModelTheory.InfinitaryFragmentClosure
+public import Foundation.FirstOrder.Basic.Semantics.Elementary
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SubposetRealization
-import ZFVP.ModelTheory.BooleanValues
-import ZFVP.SetTheory.RegularSetAlgebra
+module
+
+public import ZFVP.ModelTheory.SubposetRealization
+public import ZFVP.ModelTheory.BooleanValues
+public import ZFVP.SetTheory.RegularSetAlgebra
+
+@[expose] public section
 
 /-! Complete subalgebras `D` of the Boolean completion `RO(P)`: the trace of the generic on the
 nonzero elements of `D` is generic for the sub-poset, so the intermediate extension `V[G ∩ D]`

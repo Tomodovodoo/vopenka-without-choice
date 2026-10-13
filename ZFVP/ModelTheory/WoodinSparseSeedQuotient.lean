@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseQuotientForcing
-import ZFVP.ModelTheory.WoodinSeedQuotientComposition
-import ZFVP.ModelTheory.SameBaseQuotientForcing
+module
+
+public import ZFVP.ModelTheory.WoodinSparseQuotientForcing
+public import ZFVP.ModelTheory.WoodinSeedQuotientComposition
+public import ZFVP.ModelTheory.SameBaseQuotientForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RankBerkeleyFailure
-import ZFVP.ModelTheory.CriticalPoint
+module
+
+public import ZFVP.SetTheory.RankBerkeleyFailure
+public import ZFVP.ModelTheory.CriticalPoint
+
+@[expose] public section
 
 /-! The least failing rank lies in a C(2) source and is fixed when
 the proposed rank-Berkeley cardinal is fixed. -/

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InternalProofRewriteAssignments
+module
+
+public import ZFVP.ModelTheory.InternalProofRewriteAssignments
+
+@[expose] public section
 
 /-! Semantic equations for the natural-code shift, eigenvariable, and witness operations. -/
 

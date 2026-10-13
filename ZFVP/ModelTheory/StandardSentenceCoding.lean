@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.FoundationDerivationCoding
+module
+
+public import ZFVP.ModelTheory.FoundationDerivationCoding
+
+@[expose] public section
 
 /-! Closing parameter contexts and importing sentence axioms into finite coded proofs. -/
 

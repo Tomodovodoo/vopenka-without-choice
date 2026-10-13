@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlNamedUpperRealization
-import ZFVP.ModelTheory.InternalJointNamedConjunction
+module
+
+public import ZFVP.ModelTheory.SchmerlNamedUpperRealization
+public import ZFVP.ModelTheory.InternalJointNamedConjunction
+
+@[expose] public section
 
 /-! Finite upper-bound requirements can be imposed together with a finite
 named condition. A full upper-name assignment can retain prescribed values. -/

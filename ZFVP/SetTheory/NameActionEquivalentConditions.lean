@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.NameAction
-import ZFVP.SetTheory.AtomicMembership
+module
+
+public import ZFVP.SetTheory.NameAction
+public import ZFVP.SetTheory.AtomicMembership
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

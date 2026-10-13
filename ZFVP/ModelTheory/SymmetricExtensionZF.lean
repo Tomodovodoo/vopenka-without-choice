@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SymmetricQuotientValuation
-import ZFVP.ModelTheory.SymmetricModelZF
+module
+
+public import ZFVP.ModelTheory.SymmetricQuotientValuation
+public import ZFVP.ModelTheory.SymmetricModelZF
+
+@[expose] public section
 
 namespace ZFVP
 

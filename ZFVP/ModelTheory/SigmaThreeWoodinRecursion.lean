@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SigmaThreeWoodinRecursionStep
-import ZFVP.SetTheory.LocalRecursionCertificates
+module
+
+public import ZFVP.ModelTheory.SigmaThreeWoodinRecursionStep
+public import ZFVP.SetTheory.LocalRecursionCertificates
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

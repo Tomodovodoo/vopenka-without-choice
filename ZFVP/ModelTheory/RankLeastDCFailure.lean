@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.TransitiveZFDependentChoice
-import ZFVP.SetTheory.WoodinSeedCardinal
+module
+
+public import ZFVP.ModelTheory.TransitiveZFDependentChoice
+public import ZFVP.SetTheory.WoodinSeedCardinal
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

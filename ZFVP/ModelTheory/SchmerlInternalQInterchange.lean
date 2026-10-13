@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalSwap
-import ZFVP.ModelTheory.SchmerlInternalQuantifierAxioms
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalSwap
+public import ZFVP.ModelTheory.SchmerlInternalQuantifierAxioms
+
+@[expose] public section
 
 /-! Internal Q interchange. The second formula is constructed by swapping
 the first two binders. Every witness fiber and the projection used by the

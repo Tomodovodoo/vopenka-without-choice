@@ -1,6 +1,10 @@
-import ZFVP.Syntax.SigmaOneLevyExtension
-import ZFVP.Syntax.SigmaOneBoundedFamily
-import ZFVP.SetTheory.BoundedUnion
+module
+
+public import ZFVP.Syntax.SigmaOneLevyExtension
+public import ZFVP.Syntax.SigmaOneBoundedFamily
+public import ZFVP.SetTheory.BoundedUnion
+
+@[expose] public section
 
 /-! At every standard level, internal Levy-code recognition has Sigma-one and Pi-one definitions. -/
 

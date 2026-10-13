@@ -1,8 +1,12 @@
-import ZFVP.Syntax.UniformSatisfaction
-import ZFVP.Syntax.FoundationEquality
-import ZFVP.SetTheory.CompositionLaws
-import ZFVP.ModelTheory.FormulaNesting
-import ZFVP.Syntax.StandardEquality
+module
+
+public import ZFVP.Syntax.UniformSatisfaction
+public import ZFVP.Syntax.FoundationEquality
+public import ZFVP.SetTheory.CompositionLaws
+public import ZFVP.ModelTheory.FormulaNesting
+public import ZFVP.Syntax.StandardEquality
+
+@[expose] public section
 
 /-! Elementary embeddings as internal set graphs, with all internally finite formulas. -/
 

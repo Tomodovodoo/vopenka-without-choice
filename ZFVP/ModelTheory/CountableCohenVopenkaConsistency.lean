@@ -1,9 +1,13 @@
-import ZFVP.ModelTheory.CountableCohenDependentChoice
-import ZFVP.ModelTheory.CountableCohenNotChoice
-import ZFVP.ModelTheory.SymmetricVopenkaPreservation
-import ZFVP.ModelTheory.SVCVopenkaRestoration
-import ZFVP.SetTheory.ChoiceDictionary
-import Foundation.FirstOrder.SetTheory.LoewenheimSkolem
+module
+
+public import ZFVP.ModelTheory.CountableCohenDependentChoice
+public import ZFVP.ModelTheory.CountableCohenNotChoice
+public import ZFVP.ModelTheory.SymmetricVopenkaPreservation
+public import ZFVP.ModelTheory.SVCVopenkaRestoration
+public import ZFVP.SetTheory.ChoiceDictionary
+public import Foundation.FirstOrder.SetTheory.LoewenheimSkolem
+
+@[expose] public section
 
 /-! Lemma lem:omega1-Cohen: over an arbitrary model of ZFC and the Vopenka scheme, the
 countable-support Cohen symmetric extension at omega_1 satisfies ZF, every Vopenka

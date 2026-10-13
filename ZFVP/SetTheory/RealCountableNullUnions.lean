@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.RealCoverFlattenBudget
-import ZFVP.SetTheory.RealCategoryUnions
-import ZFVP.SetTheory.RealNullPadding
+module
+
+public import ZFVP.SetTheory.RealCoverFlattenBudget
+public import ZFVP.SetTheory.RealCategoryUnions
+public import ZFVP.SetTheory.RealNullPadding
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

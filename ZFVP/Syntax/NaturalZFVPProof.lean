@@ -1,4 +1,8 @@
-import ZFVP.Syntax.GeneratedTheoryProofCertificate
+module
+
+public import ZFVP.Syntax.GeneratedTheoryProofCertificate
+
+@[expose] public section
 
 /-! A natural-number proof predicate for exactly the external ZF+VP theory. -/
 

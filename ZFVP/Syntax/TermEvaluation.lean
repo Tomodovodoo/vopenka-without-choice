@@ -1,6 +1,10 @@
-import ZFVP.Syntax.TermRecursion
-import ZFVP.SetTheory.FunctionComposition
-import ZFVP.ModelTheory.StructureCode
+module
+
+public import ZFVP.Syntax.TermRecursion
+public import ZFVP.SetTheory.FunctionComposition
+public import ZFVP.ModelTheory.StructureCode
+
+@[expose] public section
 
 /-! Evaluation of internal terms in a coded structure with set-coded assignments. -/
 

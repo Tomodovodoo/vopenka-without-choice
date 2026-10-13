@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.LevySubstitution
+module
+
+public import ZFVP.SetTheory.LevySubstitution
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

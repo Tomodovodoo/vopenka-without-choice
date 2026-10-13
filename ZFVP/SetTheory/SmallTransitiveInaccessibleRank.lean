@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.ClosedRankStages
-import ZFVP.SetTheory.RegularCofinalSurjection
-import ZFVP.SetTheory.ChoicelessInaccessibleRank
+module
+
+public import ZFVP.SetTheory.ClosedRankStages
+public import ZFVP.SetTheory.RegularCofinalSurjection
+public import ZFVP.SetTheory.ChoicelessInaccessibleRank
+
+@[expose] public section
 
 /-! Transitive surjective images of small-rank sets stay below an inaccessible. -/
 

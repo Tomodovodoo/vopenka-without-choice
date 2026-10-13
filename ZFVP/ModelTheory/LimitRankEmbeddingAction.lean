@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.LimitRankAbsoluteness
+module
+
+public import ZFVP.ModelTheory.LimitRankAbsoluteness
+
+@[expose] public section
 
 /-! Coded elementary embeddings between limit rank segments preserve hierarchy levels. -/
 

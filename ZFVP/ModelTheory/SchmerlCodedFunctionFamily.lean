@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlCodedFunctionBranchBound
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedFunctionBranchBound
+
+@[expose] public section
 
 /-! One actual family of cofinal finite-domain chains and selected function
 trees, indexed by all sets the coded source regards as infinite. -/

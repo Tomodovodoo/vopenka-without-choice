@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PrimitiveProgramProofRewriteVariables
+module
+
+public import ZFVP.Syntax.PrimitiveProgramProofRewriteVariables
+
+@[expose] public section
 
 /-! The concrete shift, eigenvariable, and witness modes on all internal indices. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.RankMarkerStructures
+module
+
+public import ZFVP.SetTheory.RankMarkerStructures
+
+@[expose] public section
 
 /-! Full arbitrary-language VP supplies arbitrarily high internal ZF rank models. -/
 

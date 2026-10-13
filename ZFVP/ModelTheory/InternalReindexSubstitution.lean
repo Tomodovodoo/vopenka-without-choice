@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InternalReindexLifting
-import ZFVP.Syntax.SubstitutionExtensionality
+module
+
+public import ZFVP.ModelTheory.InternalReindexLifting
+public import ZFVP.Syntax.SubstitutionExtensionality
+
+@[expose] public section
 
 /-! The explicit renaming program implements internal membership-formula renaming. -/
 

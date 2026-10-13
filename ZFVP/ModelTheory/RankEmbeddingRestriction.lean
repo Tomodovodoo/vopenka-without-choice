@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.EmbeddingAssignments
-import ZFVP.ModelTheory.EmbeddingCodeFixation
-import ZFVP.ModelTheory.CodedEmbeddingRestriction
-import ZFVP.ModelTheory.EmbeddingAbsoluteness
+module
+
+public import ZFVP.ModelTheory.EmbeddingAssignments
+public import ZFVP.ModelTheory.EmbeddingCodeFixation
+public import ZFVP.ModelTheory.CodedEmbeddingRestriction
+public import ZFVP.ModelTheory.EmbeddingAbsoluteness
+
+@[expose] public section
 
 /-! Restrictions of embeddings between positive C(n) ranks preserve every internal formula code. -/
 

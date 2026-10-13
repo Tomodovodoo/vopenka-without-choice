@@ -1,5 +1,9 @@
-import ZFVP.Syntax.MembershipRenamingConstructors
-import ZFVP.SetTheory.NaturalArithmeticLaws
+module
+
+public import ZFVP.Syntax.MembershipRenamingConstructors
+public import ZFVP.SetTheory.NaturalArithmeticLaws
+
+@[expose] public section
 
 /-! Reversed finite contexts give persistent natural-number names when a new
 bound variable is prepended at index zero. -/

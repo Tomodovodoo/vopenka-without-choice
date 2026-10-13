@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingInvariantUniform
-import ZFVP.ModelTheory.WoodinRecursionUniform
-import ZFVP.ModelTheory.WoodinIterationContract
+module
+
+public import ZFVP.ModelTheory.ForcingInvariantUniform
+public import ZFVP.ModelTheory.WoodinRecursionUniform
+public import ZFVP.ModelTheory.WoodinIterationContract
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingHullValueCover
-import ZFVP.SetTheory.SmallCollapseSurjection
-import ZFVP.SetTheory.RegularCofinalSurjection
+module
+
+public import ZFVP.ModelTheory.ForcingHullValueCover
+public import ZFVP.SetTheory.SmallCollapseSurjection
+public import ZFVP.SetTheory.RegularCofinalSurjection
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.InternalRationalOrder
-import ZFVP.SetTheory.CountableSets
+module
+
+public import ZFVP.SetTheory.InternalRationalOrder
+public import ZFVP.SetTheory.CountableSets
+
+@[expose] public section
 
 /-! Definable addition, negation and multiplication on the internal rational
 quotient. The operations are sets of equivalent fraction codes, and their

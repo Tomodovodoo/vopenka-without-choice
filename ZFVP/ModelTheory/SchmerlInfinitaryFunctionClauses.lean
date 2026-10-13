@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlSelectedDomains
-import ZFVP.ModelTheory.SchmerlInfinitaryBranches
-import ZFVP.SetTheory.FiniteDictionary
+module
+
+public import ZFVP.ModelTheory.SchmerlSelectedDomains
+public import ZFVP.ModelTheory.SchmerlInfinitaryBranches
+public import ZFVP.SetTheory.FiniteDictionary
+
+@[expose] public section
 
 /-! Uniform syntax for the finite-function tree clauses. The ambient set is a
 bound variable, so this uses one countable language for all internally infinite

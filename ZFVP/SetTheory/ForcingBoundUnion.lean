@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ForcingBoundSectionCompatibility
-import ZFVP.SetTheory.IterationTableUnion
+module
+
+public import ZFVP.SetTheory.ForcingBoundSectionCompatibility
+public import ZFVP.SetTheory.IterationTableUnion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

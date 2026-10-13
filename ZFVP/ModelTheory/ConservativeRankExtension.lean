@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ConservativeExtension
-import ZFVP.ModelTheory.RankPowersetExtension
+module
+
+public import ZFVP.ModelTheory.ConservativeExtension
+public import ZFVP.ModelTheory.RankPowersetExtension
+
+@[expose] public section
 
 /-! First steps of Enayat's Theorem 4.4 in "Models of set theory: extensions and dead ends",
 in the conservative case.

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.NormalizedTwoStepPrefix
-import ZFVP.ModelTheory.NormalizedTwoStepExtension
-import ZFVP.ModelTheory.ForcingProjectionComposition
+module
+
+public import ZFVP.ModelTheory.NormalizedTwoStepPrefix
+public import ZFVP.ModelTheory.NormalizedTwoStepExtension
+public import ZFVP.ModelTheory.ForcingProjectionComposition
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SplittingName
+module
+
+public import ZFVP.ModelTheory.SplittingName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

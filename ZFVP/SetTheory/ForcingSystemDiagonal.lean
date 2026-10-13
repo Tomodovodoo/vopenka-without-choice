@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ForcingMapExtension
+module
+
+public import ZFVP.SetTheory.ForcingMapExtension
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.DeltaOneThreadSplice
-import ZFVP.SetTheory.DeltaOnePairProjections
-import ZFVP.SetTheory.BoundedProduct
-import ZFVP.SetTheory.ForcingLimitColumnDefinability
+module
+
+public import ZFVP.SetTheory.DeltaOneThreadSplice
+public import ZFVP.SetTheory.DeltaOnePairProjections
+public import ZFVP.SetTheory.BoundedProduct
+public import ZFVP.SetTheory.ForcingLimitColumnDefinability
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

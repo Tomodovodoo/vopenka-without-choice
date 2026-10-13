@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.SetCollapse
-import ZFVP.SetTheory.RankBounds
+module
+
+public import ZFVP.SetTheory.SetCollapse
+public import ZFVP.SetTheory.RankBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

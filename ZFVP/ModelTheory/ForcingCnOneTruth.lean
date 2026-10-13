@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.GenericSigmaDomain
-import ZFVP.SetTheory.CnForcingDomain
-import ZFVP.ModelTheory.ForcingCheckedTruth
+module
+
+public import ZFVP.ModelTheory.GenericSigmaDomain
+public import ZFVP.SetTheory.CnForcingDomain
+public import ZFVP.ModelTheory.ForcingCheckedTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

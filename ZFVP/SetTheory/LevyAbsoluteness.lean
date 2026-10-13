@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.LevyFormulas
+module
+
+public import ZFVP.SetTheory.LevyFormulas
+
+@[expose] public section
 
 namespace ZFVP
 

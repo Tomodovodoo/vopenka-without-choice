@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.BoundedSequenceSupport
-import ZFVP.ModelTheory.ConstantStructure
-import ZFVP.Syntax.StandardTuples
+module
+
+public import ZFVP.SetTheory.BoundedSequenceSupport
+public import ZFVP.ModelTheory.ConstantStructure
+public import ZFVP.Syntax.StandardTuples
+
+@[expose] public section
 
 /-! Bounded graph checks for constant functions and finite function spaces in a support. -/
 

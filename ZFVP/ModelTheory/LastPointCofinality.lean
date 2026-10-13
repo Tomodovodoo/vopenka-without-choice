@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LastPoint
-import ZFVP.ModelTheory.EmbeddingCofinality
-import ZFVP.SetTheory.ClubSets
+module
+
+public import ZFVP.ModelTheory.LastPoint
+public import ZFVP.ModelTheory.EmbeddingCofinality
+public import ZFVP.SetTheory.ClubSets
+
+@[expose] public section
 
 /-! The last point has no cofinal graph on a set below the critical point. -/
 

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WeaklyRubinDeadEnd
+module
+
+public import ZFVP.ModelTheory.WeaklyRubinDeadEnd
+
+@[expose] public section
 
 /-! The vocabulary of Enayat's Definition 5.10 (filters on a definable poset) from "Models of set
 theory: extensions and dead ends", in the class-sized form Definition 5.13 needs.

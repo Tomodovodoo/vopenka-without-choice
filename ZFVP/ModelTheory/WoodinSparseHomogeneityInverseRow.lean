@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseHomogeneityDirectRow
+module
+
+public import ZFVP.ModelTheory.WoodinSparseHomogeneityDirectRow
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

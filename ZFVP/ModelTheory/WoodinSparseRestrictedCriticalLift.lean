@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparseRestrictedLift
-import ZFVP.ModelTheory.FiniteRankLiftCriticalPoint
-import ZFVP.ModelTheory.EndExtensionCriticalPoint
+module
+
+public import ZFVP.ModelTheory.WoodinSparseRestrictedLift
+public import ZFVP.ModelTheory.FiniteRankLiftCriticalPoint
+public import ZFVP.ModelTheory.EndExtensionCriticalPoint
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

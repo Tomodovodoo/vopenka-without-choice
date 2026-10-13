@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.AmenableIteration
+module
+
+public import ZFVP.SetTheory.AmenableIteration
+
+@[expose] public section
 
 /-! Witness closure for formulas in an amenable predicate expansion.
 The sequence is an internal omega-function constructed from finite traces. -/

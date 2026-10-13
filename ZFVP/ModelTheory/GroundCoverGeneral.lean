@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.GroundCover
-import ZFVP.SetTheory.Hessenberg
-import ZFVP.SetTheory.UltrafilterOrdinals
+module
+
+public import ZFVP.ModelTheory.GroundCover
+public import ZFVP.SetTheory.Hessenberg
+public import ZFVP.SetTheory.UltrafilterOrdinals
+
+@[expose] public section
 
 /-! The cover property with an arbitrary checked bounding set: a subset of a checked set that in
 the extension has size at most `ν̌` is covered by the check of a ground set of size at most

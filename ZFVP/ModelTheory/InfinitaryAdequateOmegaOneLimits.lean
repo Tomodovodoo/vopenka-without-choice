@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryAdequateGrowthBlock
-import ZFVP.ModelTheory.InfinitaryOmegaOneFreezing
+module
+
+public import ZFVP.ModelTheory.InfinitaryAdequateGrowthBlock
+public import ZFVP.ModelTheory.InfinitaryOmegaOneFreezing
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder
@@ -18,7 +22,7 @@ structure CountableWeakDiagram (I : Type) [LinearOrder I]
 namespace CountableWeakDiagram
 variable {I : Type} [LinearOrder I] [Countable I] [Nonempty I]
 
-private noncomputable def enumIndex : ℕ → I := (exists_surjective_nat I).choose
+noncomputable def enumIndex : ℕ → I := (exists_surjective_nat I).choose
 omit [LinearOrder I] in
 private theorem enumIndex_surjective : Function.Surjective (enumIndex (I := I)) :=
   (exists_surjective_nat I).choose_spec
@@ -45,8 +49,8 @@ noncomputable def omegaChain : WeakOmegaChain.{u,v} S where
   identity := fun i _ x ↦ D.identity (cofinalIndex i) _ x
   composition := fun hij hjk x ↦ D.composition (cofinalIndex_mono hij) (cofinalIndex_mono hjk) x
 
-private noncomputable def coverIndex (i : I) : ℕ := (cofinalIndex_cofinal i).choose
-private theorem le_coverIndex (i : I) : i ≤ cofinalIndex (coverIndex i) :=
+noncomputable def coverIndex (i : I) : ℕ := (cofinalIndex_cofinal i).choose
+theorem le_coverIndex (i : I) : i ≤ cofinalIndex (coverIndex i) :=
   (cofinalIndex_cofinal i).choose_spec
 
 noncomputable def limitEmbedding (i : I) :

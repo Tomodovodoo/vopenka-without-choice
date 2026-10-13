@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CollapseDictionary
-import ZFVP.SetTheory.UniformRank
+module
+
+public import ZFVP.SetTheory.CollapseDictionary
+public import ZFVP.SetTheory.UniformRank
+
+@[expose] public section
 
 /-! Elementary transport of the same collapse dictionary across models of ZF. -/
 

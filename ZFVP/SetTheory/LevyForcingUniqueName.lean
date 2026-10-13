@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.LevyForcingWitnessBound
-import ZFVP.SetTheory.DeltaOneSaturatedName
-import ZFVP.SetTheory.DeltaOneUnionName
+module
+
+public import ZFVP.SetTheory.LevyForcingWitnessBound
+public import ZFVP.SetTheory.DeltaOneSaturatedName
+public import ZFVP.SetTheory.DeltaOneUnionName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

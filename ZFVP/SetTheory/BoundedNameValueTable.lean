@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.NameValueRank
-import ZFVP.SetTheory.BoundedValue
-import ZFVP.SetTheory.BoundedAtomicTruth
+module
+
+public import ZFVP.SetTheory.NameValueRank
+public import ZFVP.SetTheory.BoundedValue
+public import ZFVP.SetTheory.BoundedAtomicTruth
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

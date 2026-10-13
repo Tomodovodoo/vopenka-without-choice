@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.BooleanGenericAutomorphism
-import ZFVP.ModelTheory.BooleanInternalTruth
+module
+
+public import ZFVP.ModelTheory.BooleanGenericAutomorphism
+public import ZFVP.ModelTheory.BooleanInternalTruth
+
+@[expose] public section
 
 /-! Two halves of Karagila-Schilhan, Lemma 9.3 that need no Galois step.
 

@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalProofRewriteLifting
-import ZFVP.Syntax.SubstitutionExtensionality
-import ZFVP.Syntax.FormulaSubstitutionSemantics
+module
+
+public import ZFVP.ModelTheory.InternalProofRewriteLifting
+public import ZFVP.Syntax.SubstitutionExtensionality
+public import ZFVP.Syntax.FormulaSubstitutionSemantics
+
+@[expose] public section
 
 /-! The explicit natural rewrite program implements the actual capture-avoiding internal substitution. -/
 

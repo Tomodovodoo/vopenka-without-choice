@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalBooleanSyntax
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalBooleanSyntax
+
+@[expose] public section
 
 /-! The six propositional and countable-conjunction axiom schemas of the
 Boolean part of Keisler's calculus, as predicates on internal syntax. The two

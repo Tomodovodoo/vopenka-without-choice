@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.UniformWoodinNormalizationRecursion
-import ZFVP.ModelTheory.UniformForcingSparseMaps
-import ZFVP.ModelTheory.UniformWoodinSparseLimits
-import ZFVP.ModelTheory.WoodinSparseDirectTransport
+module
+
+public import ZFVP.ModelTheory.UniformWoodinNormalizationRecursion
+public import ZFVP.ModelTheory.UniformForcingSparseMaps
+public import ZFVP.ModelTheory.UniformWoodinSparseLimits
+public import ZFVP.ModelTheory.WoodinSparseDirectTransport
+
+@[expose] public section
 
 /-! The actual maps used in the sparse recursion, with fixed syntax. -/
 

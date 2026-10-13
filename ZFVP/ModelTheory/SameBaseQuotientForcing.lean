@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.EquivalentRetractionQuotientTransfer
-import ZFVP.SetTheory.ForcingAutomorphisms
+module
+
+public import ZFVP.ModelTheory.EquivalentRetractionQuotientTransfer
+public import ZFVP.SetTheory.ForcingAutomorphisms
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

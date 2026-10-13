@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SchmerlCodedRubinSource
-import ZFVP.ModelTheory.SchmerlInternalCodedSyntaxCountable
-import ZFVP.SetTheory.FiniteCardinalArithmetic
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedRubinSource
+public import ZFVP.ModelTheory.SchmerlInternalCodedSyntaxCountable
+public import ZFVP.SetTheory.FiniteCardinalArithmetic
+
+@[expose] public section
 
 /-! Internal bounds for all parametrically definable subsets of a coded model.
 Definition codes include every internally finite formula and parameter tuple. -/

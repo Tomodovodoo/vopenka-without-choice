@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SaturatedWoodinSuccessor
-import ZFVP.ModelTheory.TwoStepIntermediatePreservation
-import ZFVP.SetTheory.WoodinCollapseDistributivity
+module
+
+public import ZFVP.ModelTheory.SaturatedWoodinSuccessor
+public import ZFVP.ModelTheory.TwoStepIntermediatePreservation
+public import ZFVP.SetTheory.WoodinCollapseDistributivity
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.CoherentAutomorphismRecursion
+module
+
+public import ZFVP.ModelTheory.CoherentAutomorphismRecursion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

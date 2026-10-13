@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseCoordinateComparison
-import ZFVP.ModelTheory.WoodinSparseBranchOrderComparison
+module
+
+public import ZFVP.ModelTheory.WoodinSparseCoordinateComparison
+public import ZFVP.ModelTheory.WoodinSparseBranchOrderComparison
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

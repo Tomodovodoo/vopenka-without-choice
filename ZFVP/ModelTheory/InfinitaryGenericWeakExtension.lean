@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.InfinitaryGenericElementarity
-import ZFVP.ModelTheory.InfinitaryWeakChain
+module
+
+public import ZFVP.ModelTheory.InfinitaryGenericElementarity
+public import ZFVP.ModelTheory.InfinitaryWeakChain
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

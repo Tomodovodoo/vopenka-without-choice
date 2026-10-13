@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingModelSequences
-import ZFVP.SetTheory.TwoStepForcing
-import ZFVP.SetTheory.ForcingClosure
+module
+
+public import ZFVP.ModelTheory.ForcingModelSequences
+public import ZFVP.SetTheory.TwoStepForcing
+public import ZFVP.SetTheory.ForcingClosure
+
+@[expose] public section
 
 namespace ZFVP
 

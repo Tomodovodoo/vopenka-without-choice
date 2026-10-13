@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinBoundedDCFailures
-import ZFVP.ModelTheory.TransitiveZFDependentChoice
+module
+
+public import ZFVP.SetTheory.WoodinBoundedDCFailures
+public import ZFVP.ModelTheory.TransitiveZFDependentChoice
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

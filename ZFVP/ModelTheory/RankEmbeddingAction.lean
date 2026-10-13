@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.RankEmbeddingRestriction
+module
+
+public import ZFVP.ModelTheory.RankEmbeddingRestriction
+
+@[expose] public section
 
 /-! Rank and hierarchy action of coded embeddings between positive C(n) stages. -/
 

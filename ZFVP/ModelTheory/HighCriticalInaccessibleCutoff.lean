@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinCollapseLift
-import ZFVP.SetTheory.WoodinClosedFiniteModels
+module
+
+public import ZFVP.ModelTheory.WoodinCollapseLift
+public import ZFVP.SetTheory.WoodinClosedFiniteModels
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

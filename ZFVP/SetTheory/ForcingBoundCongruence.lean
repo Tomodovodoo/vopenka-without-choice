@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ForcingBoundSectionCompatibility
+module
+
+public import ZFVP.SetTheory.ForcingBoundSectionCompatibility
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

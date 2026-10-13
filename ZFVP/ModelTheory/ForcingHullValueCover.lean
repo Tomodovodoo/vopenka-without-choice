@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingFunctionValues
-import ZFVP.ModelTheory.ForcingLowRankAssignments
-import ZFVP.ModelTheory.ReflectedPairWitnessTable
-import ZFVP.SetTheory.TwoStepForcing
+module
+
+public import ZFVP.ModelTheory.ForcingFunctionValues
+public import ZFVP.ModelTheory.ForcingLowRankAssignments
+public import ZFVP.ModelTheory.ReflectedPairWitnessTable
+public import ZFVP.SetTheory.TwoStepForcing
+
+@[expose] public section
 
 /-! A ground witness table puts names for function values inside an elementary hull. -/
 

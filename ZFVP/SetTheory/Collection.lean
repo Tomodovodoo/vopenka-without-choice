@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.Rank
+module
+
+public import ZFVP.SetTheory.Rank
+
+@[expose] public section
 
 /-! Collection in internal ZF, obtained by bounding least witness stages.
 No function choosing one witness for each input is used. -/

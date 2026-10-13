@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlInternalBMR
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalBMR
+
+@[expose] public section
 
 /-! Countability laws used by the internal Q axioms. Every witness family
 below is an actual definable internal set, including the family for Q-union. -/

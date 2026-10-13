@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.CollapseModel
-import ZFVP.SetTheory.CountableSets
-import ZFVP.SetTheory.WellOrderableSerialHull
+module
+
+public import ZFVP.ModelTheory.CollapseModel
+public import ZFVP.SetTheory.CountableSets
+public import ZFVP.SetTheory.WellOrderableSerialHull
+
+@[expose] public section
 
 /-! Countability and the serial-path step in Usuba, Proposition 3.6.
 The surjection onto the interpreted hull is an explicit premise here.

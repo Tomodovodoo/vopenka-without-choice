@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSingletonPrefixCutoff
-import ZFVP.ModelTheory.WoodinInitialStage
-import ZFVP.ModelTheory.WoodinSeedRankAgreement
+module
+
+public import ZFVP.ModelTheory.WoodinSingletonPrefixCutoff
+public import ZFVP.ModelTheory.WoodinInitialStage
+public import ZFVP.ModelTheory.WoodinSeedRankAgreement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

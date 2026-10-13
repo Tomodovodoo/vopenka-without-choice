@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.FunctionUnion
-import ZFVP.SetTheory.FiniteCodingClosure
+module
+
+public import ZFVP.SetTheory.FunctionUnion
+public import ZFVP.SetTheory.FiniteCodingClosure
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

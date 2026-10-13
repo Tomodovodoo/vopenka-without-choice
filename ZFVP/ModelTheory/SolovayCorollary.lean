@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.SolovayModel
-import ZFVP.ModelTheory.SolovaySymmetricContext
-import ZFVP.SetTheory.VopenkaIsomorphism
+module
+
+public import ZFVP.ModelTheory.SolovayModel
+public import ZFVP.ModelTheory.SolovaySymmetricContext
+public import ZFVP.SetTheory.VopenkaIsomorphism
+
+@[expose] public section
 
 /-! The paper's Corollary `cor:Solovay`, assembled for `SolovayHOD`.
 

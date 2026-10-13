@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.RealCoverFlattenRow
-import ZFVP.SetTheory.NaturalPairing
+module
+
+public import ZFVP.SetTheory.RealCoverFlattenRow
+public import ZFVP.SetTheory.NaturalPairing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

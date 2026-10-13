@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.InternalSyntaxChecks
-import ZFVP.ModelTheory.InternalProofRewriteSemantics
-import ZFVP.Syntax.PrimitiveProgramSequentOperations
+module
+
+public import ZFVP.ModelTheory.InternalSyntaxChecks
+public import ZFVP.ModelTheory.InternalProofRewriteSemantics
+public import ZFVP.Syntax.PrimitiveProgramSequentOperations
+
+@[expose] public section
 
 /-! Satisfaction of natural-number sequent codes under internal omega-indexed assignments. -/
 

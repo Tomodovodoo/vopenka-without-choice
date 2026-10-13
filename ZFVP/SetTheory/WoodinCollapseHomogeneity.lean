@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinCollapseCones
-import ZFVP.SetTheory.ForcingIsomorphism
+module
+
+public import ZFVP.SetTheory.WoodinCollapseCones
+public import ZFVP.SetTheory.ForcingIsomorphism
+
+@[expose] public section
 
 namespace ZFVP
 

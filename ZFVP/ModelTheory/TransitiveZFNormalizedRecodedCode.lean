@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.RankNormalizationMaps
-import ZFVP.ModelTheory.ForcingNormalizedCode
-import ZFVP.ModelTheory.ForcingRecodedCode
-import ZFVP.ModelTheory.WoodinRecodingRecursion
-import ZFVP.ModelTheory.TransitiveZFTwoStepColumns
+module
+
+public import ZFVP.ModelTheory.RankNormalizationMaps
+public import ZFVP.ModelTheory.ForcingNormalizedCode
+public import ZFVP.ModelTheory.ForcingRecodedCode
+public import ZFVP.ModelTheory.WoodinRecodingRecursion
+public import ZFVP.ModelTheory.TransitiveZFTwoStepColumns
+
+@[expose] public section
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory
 variable {V : Type*} [SetStructure V] [Nonempty V] [V↓[ℒₛₑₜ] ⊧* 𝗭𝗙]

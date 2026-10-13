@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.SplittingName
-import ZFVP.ModelTheory.StageCountability
-import ZFVP.SetTheory.CheckNameTransport
-import ZFVP.SetTheory.EndExtensionLevyColumns
-import ZFVP.SetTheory.EndExtensionWellOrdering
+module
+
+public import ZFVP.ModelTheory.SplittingName
+public import ZFVP.ModelTheory.StageCountability
+public import ZFVP.SetTheory.CheckNameTransport
+public import ZFVP.SetTheory.EndExtensionLevyColumns
+public import ZFVP.SetTheory.EndExtensionWellOrdering
+
+@[expose] public section
 
 /-! The name of the real assembled from decided segments: the nice name `decidedName` whose value
 under a filter `H` is the union of the checked decided segments of the conditions in `H`. Under a

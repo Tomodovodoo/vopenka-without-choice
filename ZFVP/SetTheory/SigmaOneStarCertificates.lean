@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.WoodinClosedContainers
-import ZFVP.SetTheory.BoundedStarDependentChoice
-import ZFVP.SetTheory.BoundedDomainRelativization
-import ZFVP.Syntax.LevyPackParameters
+module
+
+public import ZFVP.SetTheory.WoodinClosedContainers
+public import ZFVP.SetTheory.BoundedStarDependentChoice
+public import ZFVP.SetTheory.BoundedDomainRelativization
+public import ZFVP.Syntax.LevyPackParameters
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

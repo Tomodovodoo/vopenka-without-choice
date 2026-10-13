@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ClassForcingTowerModel
-import ZFVP.ModelTheory.DefinableClassGenericExistence
-import ZFVP.SetTheory.AtomicForcingDictionary
+module
+
+public import ZFVP.ModelTheory.ClassForcingTowerModel
+public import ZFVP.ModelTheory.DefinableClassGenericExistence
+public import ZFVP.SetTheory.AtomicForcingDictionary
+
+@[expose] public section
 
 namespace ZFVP
 

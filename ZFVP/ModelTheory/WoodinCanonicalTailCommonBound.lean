@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinCanonicalTailNameAction
-import ZFVP.ModelTheory.NormalizedBinaryNameUnion
-import ZFVP.ModelTheory.ForcedOrderLaws
+module
+
+public import ZFVP.ModelTheory.WoodinCanonicalTailNameAction
+public import ZFVP.ModelTheory.NormalizedBinaryNameUnion
+public import ZFVP.ModelTheory.ForcedOrderLaws
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

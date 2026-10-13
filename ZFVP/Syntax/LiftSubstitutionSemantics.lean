@@ -1,4 +1,8 @@
-import ZFVP.Syntax.TermSubstitutionSemantics
+module
+
+public import ZFVP.Syntax.TermSubstitutionSemantics
+
+@[expose] public section
 
 /-! Induced semantic assignments commute with binder lifting. -/
 

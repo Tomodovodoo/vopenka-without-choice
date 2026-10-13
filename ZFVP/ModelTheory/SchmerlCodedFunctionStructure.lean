@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedFiniteDomains
-import ZFVP.ModelTheory.SchmerlInfinitaryFunctionClauses
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedFiniteDomains
+public import ZFVP.ModelTheory.SchmerlInfinitaryFunctionClauses
+
+@[expose] public section
 
 /-! The full represented poset of internal finite binary functions, with its
 domain projection. These are actual ambient sets, uniformly in the parameter. -/

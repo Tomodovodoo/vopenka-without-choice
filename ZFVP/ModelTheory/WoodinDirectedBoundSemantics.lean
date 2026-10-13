@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinDirectedNormalization
-import ZFVP.ModelTheory.WoodinBoundInvariantSemantics
+module
+
+public import ZFVP.ModelTheory.WoodinDirectedNormalization
+public import ZFVP.ModelTheory.WoodinBoundInvariantSemantics
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

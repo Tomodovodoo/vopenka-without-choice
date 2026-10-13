@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinSparsePoolRecovery
-import ZFVP.ModelTheory.WoodinSparseAllRestrictions
-import ZFVP.SetTheory.ForcingRetraction
+module
+
+public import ZFVP.ModelTheory.WoodinSparsePoolRecovery
+public import ZFVP.ModelTheory.WoodinSparseAllRestrictions
+public import ZFVP.SetTheory.ForcingRetraction
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

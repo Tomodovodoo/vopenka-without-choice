@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingEntailment
+module
+
+public import ZFVP.ModelTheory.ForcingEntailment
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

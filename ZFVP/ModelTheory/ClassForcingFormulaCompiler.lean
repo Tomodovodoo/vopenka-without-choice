@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ClassForcingTowerFormula
+module
+
+public import ZFVP.ModelTheory.ClassForcingTowerFormula
+
+@[expose] public section
 
 /-! A fixed syntax compiler for the forcing relation of a class tower.
 

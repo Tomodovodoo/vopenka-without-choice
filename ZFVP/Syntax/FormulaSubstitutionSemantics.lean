@@ -1,7 +1,11 @@
-import ZFVP.Syntax.AtomicSubstitutionSemantics
-import ZFVP.Syntax.LiftSubstitutionSemantics
-import ZFVP.Syntax.FormulaSubstitutionValidity
-import ZFVP.Syntax.PackedSatisfaction
+module
+
+public import ZFVP.Syntax.AtomicSubstitutionSemantics
+public import ZFVP.Syntax.LiftSubstitutionSemantics
+public import ZFVP.Syntax.FormulaSubstitutionValidity
+public import ZFVP.Syntax.PackedSatisfaction
+
+@[expose] public section
 
 /-! The semantic substitution law over the entire internal formula family. -/
 

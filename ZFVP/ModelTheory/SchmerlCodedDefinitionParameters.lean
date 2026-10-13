@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedRubinSource
-import ZFVP.ModelTheory.SchmerlInternalCodedSyntaxCountable
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedRubinSource
+public import ZFVP.ModelTheory.SchmerlInternalCodedSyntaxCountable
+
+@[expose] public section
 
 /-! Raw formula and parameter witnesses for unary and binary definitions.
 The codes retain the parameter length, formula, and tuple as actual sets. -/

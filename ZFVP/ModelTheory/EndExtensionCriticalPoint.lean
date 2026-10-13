@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.EndExtensionCodedMembershipEmbedding
-import ZFVP.ModelTheory.CriticalPoint
-import ZFVP.SetTheory.EndExtensionHierarchyAgreement
+module
+
+public import ZFVP.ModelTheory.EndExtensionCodedMembershipEmbedding
+public import ZFVP.ModelTheory.CriticalPoint
+public import ZFVP.SetTheory.EndExtensionHierarchyAgreement
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.ConservativeExtension
-import ZFVP.SetTheory.Collection
+module
+
+public import ZFVP.ModelTheory.ConservativeExtension
+public import ZFVP.SetTheory.Collection
+
+@[expose] public section
 
 /-! Amenability means full Separation and Replacement in the language with
 one additional unary predicate. All formulas may carry finitely many parameters. -/

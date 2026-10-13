@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.RankDCThreshold
-import ZFVP.ModelTheory.ForcingRankDependentChoiceAgreement
-import ZFVP.ModelTheory.ForcingUniformOrdinalBound
-import ZFVP.ModelTheory.ForcingFormulaName
+module
+
+public import ZFVP.SetTheory.RankDCThreshold
+public import ZFVP.ModelTheory.ForcingRankDependentChoiceAgreement
+public import ZFVP.ModelTheory.ForcingUniformOrdinalBound
+public import ZFVP.ModelTheory.ForcingFormulaName
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

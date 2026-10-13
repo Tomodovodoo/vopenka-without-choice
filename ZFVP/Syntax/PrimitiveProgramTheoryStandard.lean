@@ -1,7 +1,11 @@
-import ZFVP.Syntax.PrimitiveProgramGeneratedStandard
-import ZFVP.Syntax.PrimitiveProgramTheoryProof
-import ZFVP.Syntax.PrimitiveProgramLKStandardCertificate
-import ZFVP.Syntax.GeneratedTheoryProofCertificate
+module
+
+public import ZFVP.Syntax.PrimitiveProgramGeneratedStandard
+public import ZFVP.Syntax.PrimitiveProgramTheoryProof
+public import ZFVP.Syntax.PrimitiveProgramLKStandardCertificate
+public import ZFVP.Syntax.GeneratedTheoryProofCertificate
+
+@[expose] public section
 
 /-! Standard typed derivations of ZF+VP have certificates accepted by the explicit program. -/
 

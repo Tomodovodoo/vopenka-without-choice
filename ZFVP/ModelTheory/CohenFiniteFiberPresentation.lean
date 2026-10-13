@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.CohenMinimumAssignment
-import ZFVP.SetTheory.FiniteRangeFibers
+module
+
+public import ZFVP.ModelTheory.CohenMinimumAssignment
+public import ZFVP.SetTheory.FiniteRangeFibers
+
+@[expose] public section
 
 namespace ZFVP
 

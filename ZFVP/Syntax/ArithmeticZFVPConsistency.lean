@@ -1,7 +1,11 @@
-import ZFVP.Syntax.NaturalZFVPProof
-import Foundation.FirstOrder.Arithmetic.R0.Representation
-import ZFVP.ModelTheory.ProtoRankBerkeleyCodedConsistency
-import ZFVP.ModelTheory.ZFVPProofRepresentation
+module
+
+public import ZFVP.Syntax.NaturalZFVPProof
+public import Foundation.FirstOrder.Arithmetic.R0.Representation
+public import ZFVP.ModelTheory.ProtoRankBerkeleyCodedConsistency
+public import ZFVP.ModelTheory.ZFVPProofRepresentation
+
+@[expose] public section
 
 /-! An arithmetic consistency sentence for the verified recursive ZF+VP presentation.
 The truth theorem here concerns the standard natural numbers. -/

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.InternalCountableTheories
-import ZFVP.SetTheory.NaturalClosureCardinality
-import ZFVP.SetTheory.SchroederBernstein
-import ZFVP.SetTheory.MaximalAntichains
+module
+
+public import ZFVP.ModelTheory.InternalCountableTheories
+public import ZFVP.SetTheory.NaturalClosureCardinality
+public import ZFVP.SetTheory.SchroederBernstein
+public import ZFVP.SetTheory.MaximalAntichains
+
+@[expose] public section
 
 /-! Cardinal bounds for the actual finite-consistency poset. -/
 

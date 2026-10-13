@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.ForcingDependentChoiceTransfer
+module
+
+public import ZFVP.ModelTheory.ForcingDependentChoiceTransfer
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

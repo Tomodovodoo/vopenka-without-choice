@@ -1,7 +1,11 @@
-import ZFVP.Syntax.EndExtensionSubstitutionStates
-import ZFVP.Syntax.EndExtensionSubformulas
-import ZFVP.Syntax.FormulaSubstitutionDefinability
-import ZFVP.SetTheory.EndExtensionWellOrdering
+module
+
+public import ZFVP.Syntax.EndExtensionSubstitutionStates
+public import ZFVP.Syntax.EndExtensionSubformulas
+public import ZFVP.Syntax.FormulaSubstitutionDefinability
+public import ZFVP.SetTheory.EndExtensionWellOrdering
+
+@[expose] public section
 
 /-! Internal first-order substitution commutes with membership end
 extensions at every internal binder depth, by uniqueness of recursion. -/

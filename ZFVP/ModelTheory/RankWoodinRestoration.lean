@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.TransitiveZFWoodinCollapse
-import ZFVP.ModelTheory.TransitiveZFFormulaForcing
-import ZFVP.SetTheory.WoodinPrefixCutoff
+module
+
+public import ZFVP.ModelTheory.TransitiveZFWoodinCollapse
+public import ZFVP.ModelTheory.TransitiveZFFormulaForcing
+public import ZFVP.SetTheory.WoodinPrefixCutoff
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

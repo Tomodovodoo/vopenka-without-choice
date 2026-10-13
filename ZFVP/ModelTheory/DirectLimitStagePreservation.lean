@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.DirectQuotientClosureTransfer
-import ZFVP.ModelTheory.ProjectionRegularPreservation
-import ZFVP.ModelTheory.WoodinCollapseForcesRestoration
+module
+
+public import ZFVP.ModelTheory.DirectQuotientClosureTransfer
+public import ZFVP.ModelTheory.ProjectionRegularPreservation
+public import ZFVP.ModelTheory.WoodinCollapseForcesRestoration
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

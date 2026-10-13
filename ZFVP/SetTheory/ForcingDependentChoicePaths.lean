@@ -1,9 +1,13 @@
-import ZFVP.SetTheory.DependentChoiceSerialPaths
-import ZFVP.SetTheory.ForcingClosure
-import ZFVP.SetTheory.ForcingSequenceNames
-import ZFVP.SetTheory.FunctionMap
-import ZFVP.SetTheory.FormulaForcing
-import ZFVP.Syntax.StandardTuples
+module
+
+public import ZFVP.SetTheory.DependentChoiceSerialPaths
+public import ZFVP.SetTheory.ForcingClosure
+public import ZFVP.SetTheory.ForcingSequenceNames
+public import ZFVP.SetTheory.FunctionMap
+public import ZFVP.SetTheory.FormulaForcing
+public import ZFVP.Syntax.StandardTuples
+
+@[expose] public section
 
 namespace ZFVP
 

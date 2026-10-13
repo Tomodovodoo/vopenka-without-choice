@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.FaithfulEndExtensionTheorem
+module
+
+public import ZFVP.ModelTheory.FaithfulEndExtensionTheorem
+
+@[expose] public section
 
 /-! The topped clause of Enayat Theorem 4.4(a) and Proposition 5.4. -/
 namespace ZFVP

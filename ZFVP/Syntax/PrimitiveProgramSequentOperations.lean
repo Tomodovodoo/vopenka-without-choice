@@ -1,5 +1,9 @@
-import ZFVP.Syntax.PrimitiveProgramListMap
-import ZFVP.Syntax.PrimitiveProgramProofRewriteEquations
+module
+
+public import ZFVP.Syntax.PrimitiveProgramListMap
+public import ZFVP.Syntax.PrimitiveProgramProofRewriteEquations
+
+@[expose] public section
 
 /-! Explicit whole-sequent rewriting for the natural-number proof checker. -/
 

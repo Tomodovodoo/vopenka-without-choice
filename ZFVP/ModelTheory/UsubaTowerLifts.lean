@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.UsubaIterationStages
+module
+
+public import ZFVP.ModelTheory.UsubaIterationStages
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

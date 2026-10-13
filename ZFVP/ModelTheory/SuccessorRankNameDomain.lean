@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.BoundedDomainFormula
-import ZFVP.SetTheory.DeltaOneForcingNames
-import ZFVP.ModelTheory.SuccessorRankSyntaxFamily
-import ZFVP.ModelTheory.LimitRankEmbedding
+module
+
+public import ZFVP.SetTheory.BoundedDomainFormula
+public import ZFVP.SetTheory.DeltaOneForcingNames
+public import ZFVP.ModelTheory.SuccessorRankSyntaxFamily
+public import ZFVP.ModelTheory.LimitRankEmbedding
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

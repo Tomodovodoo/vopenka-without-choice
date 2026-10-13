@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.ChoiceDictionary
-import ZFVP.SetTheory.WellOrderingChoice
-import ZFVP.SetTheory.InternalPermutations
-import ZFVP.SetTheory.InternalOrderType
+module
+
+public import ZFVP.SetTheory.ChoiceDictionary
+public import ZFVP.SetTheory.WellOrderingChoice
+public import ZFVP.SetTheory.InternalPermutations
+public import ZFVP.SetTheory.InternalOrderType
+
+@[expose] public section
 
 /-! The rigid relation principle of Hamkins and Palumbo: every set carries a binary relation
 whose only automorphism is the identity. Well-orderable sets have one, so the principle follows

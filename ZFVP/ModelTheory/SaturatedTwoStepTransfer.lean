@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SaturatedTwoStepBounds
+module
+
+public import ZFVP.ModelTheory.SaturatedTwoStepBounds
+
+@[expose] public section
 
 namespace ZFVP
 

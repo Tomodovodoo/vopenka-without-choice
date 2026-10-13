@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.CriticalPoint
-import ZFVP.SetTheory.InjectionRetraction
-import ZFVP.SetTheory.Hartogs
-import ZFVP.SetTheory.RankBounds
+module
+
+public import ZFVP.ModelTheory.CriticalPoint
+public import ZFVP.SetTheory.InjectionRetraction
+public import ZFVP.SetTheory.Hartogs
+public import ZFVP.SetTheory.RankBounds
+
+@[expose] public section
 
 /-! Critical points are uncountable initial ordinals in the ambient ZF model. -/
 

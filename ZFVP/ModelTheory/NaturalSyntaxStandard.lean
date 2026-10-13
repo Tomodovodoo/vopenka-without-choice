@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.NaturalFormulaDecoderEquations
-import ZFVP.Syntax.MembershipSatisfaction
-import Foundation.FirstOrder.Basic.Coding
+module
+
+public import ZFVP.ModelTheory.NaturalFormulaDecoderEquations
+public import ZFVP.Syntax.MembershipSatisfaction
+public import Foundation.FirstOrder.Basic.Coding
+
+@[expose] public section
 
 /-! The uniform natural syntax decoder agrees with Foundation's finite membership syntax. -/
 

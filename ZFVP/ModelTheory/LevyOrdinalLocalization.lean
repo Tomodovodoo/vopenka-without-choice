@@ -1,8 +1,12 @@
-import ZFVP.ModelTheory.LevyGroundChange
-import ZFVP.ModelTheory.HomogeneousTruth
-import ZFVP.SetTheory.LevyCollapseFull
-import ZFVP.ModelTheory.GroundRealsHOD
-import ZFVP.ModelTheory.SolovayLocalization
+module
+
+public import ZFVP.ModelTheory.LevyGroundChange
+public import ZFVP.ModelTheory.HomogeneousTruth
+public import ZFVP.SetTheory.LevyCollapseFull
+public import ZFVP.ModelTheory.GroundRealsHOD
+public import ZFVP.ModelTheory.SolovayLocalization
+
+@[expose] public section
 
 /-! Lemma Solovay-localization of the paper: a set of ordinals of the Levy extension definable
 from ground sets, reals and ordinals lies in a bounded stage `V[G_ξ]`. The parameters are

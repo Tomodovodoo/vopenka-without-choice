@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LevySwapConeTransfer
-import ZFVP.ModelTheory.LevyConePairArrangement
-import ZFVP.ModelTheory.LevyConeComplementHomogeneity
+module
+
+public import ZFVP.ModelTheory.LevySwapConeTransfer
+public import ZFVP.ModelTheory.LevyConePairArrangement
+public import ZFVP.ModelTheory.LevyConeComplementHomogeneity
+
+@[expose] public section
 
 /-! The cone hypothesis of the Solovay corollary as one statement about the pair of conditions of
 Jech, Set Theory, Lemma 25.5.

@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SchmerlAronszajnCore
+module
+
+public import ZFVP.ModelTheory.SchmerlAronszajnCore
+
+@[expose] public section
 
 /-! Restrict ranked trees to a cofinal sequence of ranks. This is needed for
 the class tree of a possibly ill-founded model: its ordinal rank order has

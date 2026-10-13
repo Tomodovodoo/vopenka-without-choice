@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingConditionalEquivalence
-import ZFVP.ModelTheory.ForcingReverseOrderName
-import ZFVP.ModelTheory.NormalizedTwoStepComparison
+module
+
+public import ZFVP.ModelTheory.ForcingConditionalEquivalence
+public import ZFVP.ModelTheory.ForcingReverseOrderName
+public import ZFVP.ModelTheory.NormalizedTwoStepComparison
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

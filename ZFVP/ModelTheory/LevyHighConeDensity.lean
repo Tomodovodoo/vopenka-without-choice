@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.LevyHighCoordinateTrace
-import ZFVP.ModelTheory.LevyConeTraceArrangement
-import ZFVP.ModelTheory.BooleanOrbitConeIsomorphism
+module
+
+public import ZFVP.ModelTheory.LevyHighCoordinateTrace
+public import ZFVP.ModelTheory.LevyConeTraceArrangement
+public import ZFVP.ModelTheory.BooleanOrbitConeIsomorphism
+
+@[expose] public section
 
 /-! Conditions that use a coordinate in a high column are dense, on both sides.
 

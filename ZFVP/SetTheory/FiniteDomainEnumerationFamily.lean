@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.FiniteSets
-import ZFVP.SetTheory.Collection
-import ZFVP.SetTheory.InternalChoice
-import ZFVP.SetTheory.SchroederBernstein
+module
+
+public import ZFVP.SetTheory.FiniteSets
+public import ZFVP.SetTheory.Collection
+public import ZFVP.SetTheory.InternalChoice
+public import ZFVP.SetTheory.SchroederBernstein
+
+@[expose] public section
 
 namespace ZFVP
 

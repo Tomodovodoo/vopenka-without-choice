@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.NoConservativeEndExtension
-import ZFVP.ModelTheory.FaithfulStageCaseOne
-import ZFVP.SetTheory.AmenableWitnessClosure
+module
+
+public import ZFVP.ModelTheory.NoConservativeEndExtension
+public import ZFVP.ModelTheory.FaithfulStageCaseOne
+public import ZFVP.SetTheory.AmenableWitnessClosure
+
+@[expose] public section
 
 /-! Case II for a faithful end extension, using full amenability of a single predicate. -/
 namespace ZFVP

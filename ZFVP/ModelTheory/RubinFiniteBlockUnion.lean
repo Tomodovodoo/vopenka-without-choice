@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.RubinFiniteCofinalUnion
-import ZFVP.ModelTheory.SeparatingTypesOmitted
+module
+
+public import ZFVP.ModelTheory.RubinFiniteCofinalUnion
+public import ZFVP.ModelTheory.SeparatingTypesOmitted
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

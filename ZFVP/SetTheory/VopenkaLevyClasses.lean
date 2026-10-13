@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.VopenkaScheme
-import ZFVP.Syntax.LevyPackParameters
+module
+
+public import ZFVP.SetTheory.VopenkaScheme
+public import ZFVP.Syntax.LevyPackParameters
+
+@[expose] public section
 
 /-! Restricted Vopenka applies to classes with finitely many parameters at the same positive level. -/
 

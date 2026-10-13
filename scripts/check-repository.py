@@ -38,7 +38,7 @@ def module_path(name):
 
 def imports(path):
     # Drop nested Lean comments before reading imports and proof holes.
-    return re.findall(r'^import\s+(\S+)', strip_comments(path.read_text(encoding='utf-8')), re.M)
+    return re.findall(r'^(?:public\s+)?(?:meta\s+)?import\s+(?:all\s+)?(\S+)', strip_comments(path.read_text(encoding='utf-8')), re.M)
 
 def strip_comments(text):
     output, depth, i = [], 0, 0
@@ -80,7 +80,7 @@ if challenge:
 else:
     disallowed = []
 
-files = subprocess.check_output(['git', 'ls-files'], cwd=ROOT, text=True).splitlines()
+files = [p for p in subprocess.check_output(['git', 'ls-files', '-z'], cwd=ROOT).decode('utf-8').split('\0') if p]
 statement_files = set()
 for configuration in ROOT.glob('comparator*.json'):
     statement_name = json.loads(configuration.read_text()).get('challenge_module')
@@ -89,18 +89,31 @@ for configuration in ROOT.glob('comparator*.json'):
         if statement_path:
             statement_files.add(statement_path)
 proof_holes = []
+missing_module_headers = []
+oversized_modules = []
 for name in files:
     path = ROOT / name
+    if path.suffix == '.lean' and path.name != 'lakefile.lean':
+        source = path.read_text(encoding='utf-8')
+        if not re.match(r'^\s*module\b', strip_comments(source)):
+            missing_module_headers.append(name)
+        if len(source.splitlines()) > 10000:
+            oversized_modules.append(name)
     if path.suffix == '.lean' and path not in statement_files:
         if re.search(r'\b(sorry|admit|sorryAx)\b', strip_comments(path.read_text(encoding='utf-8'))):
             proof_holes.append(name)
 if proof_holes: errors.append(f'Proof holes outside Challenge: {proof_holes}')
-for receipt_path in (ROOT / 'verification').glob('*bridge-check.json'):
-    receipt = json.loads(receipt_path.read_text(encoding='utf-8'))
+if missing_module_headers: blockers.append(f'{len(missing_module_headers)} Lean sources lack module headers.')
+if oversized_modules: blockers.append(f'Modules exceed 10000 lines: {oversized_modules}')
+# A current receipt, when present, must describe the current source. Dated
+# bridge receipts retain the hashes of their historical snapshots.
+current_receipt = ROOT / 'verification/module-port-check.json'
+if current_receipt.is_file():
+    receipt = json.loads(current_receipt.read_text(encoding='utf-8'))
     for entry in receipt.get('files', []):
         checked = ROOT / entry['path']
         if not checked.is_file() or hashlib.sha256(checked.read_bytes()).hexdigest() != entry['sha256']:
-            errors.append(f'Source differs from compilation receipt {receipt_path.name}: {entry["path"]}')
+            errors.append(f'Source differs from module-port receipt: {entry["path"]}')
 for name in files:
     path = ROOT / name
     if path.suffix != '.md':

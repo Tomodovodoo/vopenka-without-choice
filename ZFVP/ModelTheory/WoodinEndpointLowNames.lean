@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.WoodinStageNameCoding
-import ZFVP.ModelTheory.WoodinEndpointModel
-import ZFVP.ModelTheory.WoodinStageRankAgreement
-import ZFVP.ModelTheory.ForcingLowRankNames
+module
+
+public import ZFVP.ModelTheory.WoodinStageNameCoding
+public import ZFVP.ModelTheory.WoodinEndpointModel
+public import ZFVP.ModelTheory.WoodinStageRankAgreement
+public import ZFVP.ModelTheory.ForcingLowRankNames
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

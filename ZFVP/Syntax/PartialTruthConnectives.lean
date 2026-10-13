@@ -1,4 +1,8 @@
-import ZFVP.Syntax.PartialTruthDomains
+module
+
+public import ZFVP.Syntax.PartialTruthDomains
+
+@[expose] public section
 
 /-! Internal Boolean, negation and bounded-quantifier equations for every positive partial-truth level. -/
 

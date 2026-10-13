@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.UniformCollapse
+module
+
+public import ZFVP.SetTheory.UniformCollapse
+
+@[expose] public section
 
 /-! Every internal strict well-order has a unique ordinal order type in ZF. -/
 

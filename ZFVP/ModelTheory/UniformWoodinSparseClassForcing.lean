@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.UniformWoodinSparseRecursion
-import ZFVP.ModelTheory.LocalSparsePrefixForcingFormula
-import ZFVP.ModelTheory.WoodinSparseClassReadout
-import ZFVP.ModelTheory.ClassCarrierNameFormula
+module
+
+public import ZFVP.ModelTheory.UniformWoodinSparseRecursion
+public import ZFVP.ModelTheory.LocalSparsePrefixForcingFormula
+public import ZFVP.ModelTheory.WoodinSparseClassReadout
+public import ZFVP.ModelTheory.ClassCarrierNameFormula
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

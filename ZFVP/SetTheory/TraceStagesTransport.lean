@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.TraceStages
-import ZFVP.SetTheory.EndExtensionRecursion
-import ZFVP.SetTheory.EndExtensionRegular
-import ZFVP.SetTheory.EndExtensionReplacement
+module
+
+public import ZFVP.SetTheory.TraceStages
+public import ZFVP.SetTheory.EndExtensionRecursion
+public import ZFVP.SetTheory.EndExtensionRegular
+public import ZFVP.SetTheory.EndExtensionReplacement
+
+@[expose] public section
 
 /-! The trace recursion is transported by membership end extensions: its step is built from
 unions, separations, replacements, complements and regular joins, all of which commute with the

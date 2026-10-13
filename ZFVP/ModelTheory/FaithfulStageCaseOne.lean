@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.FaithfulRankExtension
-import ZFVP.ModelTheory.ElementaryStageCaseOne
+module
+
+public import ZFVP.ModelTheory.FaithfulRankExtension
+public import ZFVP.ModelTheory.ElementaryStageCaseOne
+
+@[expose] public section
 
 /-! Enayat Theorem 4.4, Case I, before specializing to conservative
 extensions. Powerset preservation suffices for the least-stage argument. -/

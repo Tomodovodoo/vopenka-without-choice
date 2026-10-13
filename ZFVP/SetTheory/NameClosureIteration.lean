@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.NameClosure
-import ZFVP.SetTheory.NaturalIteration
-import ZFVP.SetTheory.FunctionUnion
+module
+
+public import ZFVP.SetTheory.NameClosure
+public import ZFVP.SetTheory.NaturalIteration
+public import ZFVP.SetTheory.FunctionUnion
+
+@[expose] public section
 
 /-! Iterating the subname operation through all internal naturals computes name closure. -/
 

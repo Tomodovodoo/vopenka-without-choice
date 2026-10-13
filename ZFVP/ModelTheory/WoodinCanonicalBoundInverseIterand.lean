@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.WoodinInverseFirstCoordinates
-import ZFVP.ModelTheory.InverseSourceCollapseCode
-import ZFVP.ModelTheory.WoodinInverseStageBounds
+module
+
+public import ZFVP.ModelTheory.WoodinInverseFirstCoordinates
+public import ZFVP.ModelTheory.InverseSourceCollapseCode
+public import ZFVP.ModelTheory.WoodinInverseStageBounds
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

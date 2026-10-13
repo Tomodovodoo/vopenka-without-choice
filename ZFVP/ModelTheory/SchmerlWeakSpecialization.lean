@@ -1,6 +1,10 @@
-import Mathlib.Order.Preorder.Chain
-import Mathlib.SetTheory.Cardinal.Regular
-import Foundation.FirstOrder.Basic.Definability
+module
+
+public import Mathlib.Order.Preorder.Chain
+public import Mathlib.SetTheory.Cardinal.Regular
+public import Foundation.FirstOrder.Basic.Definability
+
+@[expose] public section
 
 /-! Enayat, Appendix, Lemma A.6: weak specialization gives a uniform definition of
 each branch of uncountable cofinality. This is a component of Schmerl's diamond

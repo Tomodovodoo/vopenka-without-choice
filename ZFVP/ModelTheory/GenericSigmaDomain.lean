@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.GenericBoundedTruth
-import ZFVP.SetTheory.ForcingNameFamilyExtension
+module
+
+public import ZFVP.ModelTheory.GenericBoundedTruth
+public import ZFVP.SetTheory.ForcingNameFamilyExtension
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

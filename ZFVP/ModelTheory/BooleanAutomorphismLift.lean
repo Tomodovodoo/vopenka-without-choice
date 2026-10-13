@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.SolovaySymmetricSupport
+module
+
+public import ZFVP.ModelTheory.SolovaySymmetricSupport
+
+@[expose] public section
 
 /-! Lifting an automorphism of a forcing preorder to its Boolean completion. The completion
 `booleanConditions P R` consists of the nonempty regular subsets of `P`, ordered by inclusion.

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInfinitaryTreeSentence
-import ZFVP.SetTheory.UniformRecursion
+module
+
+public import ZFVP.ModelTheory.SchmerlInfinitaryTreeSentence
+public import ZFVP.SetTheory.UniformRecursion
+
+@[expose] public section
 
 /-! A fixed countable language and an actual infinitary sentence for the class
 tree. Its reduct theorem yields rather classlessness in every ZF model satisfying

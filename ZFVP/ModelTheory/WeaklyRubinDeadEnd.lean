@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.MaximalFilters
-import ZFVP.ModelTheory.ConservativeExtension
-import ZFVP.ModelTheory.RankPowersetExtension
+module
+
+public import ZFVP.ModelTheory.MaximalFilters
+public import ZFVP.ModelTheory.ConservativeExtension
+public import ZFVP.ModelTheory.RankPowersetExtension
+
+@[expose] public section
 
 /-! Enayat's Definition 5.16 (weakly Rubin models) and the second half of his Theorem 5.18 in
 "Models of set theory: extensions and dead ends": every end extension of a weakly Rubin model to a

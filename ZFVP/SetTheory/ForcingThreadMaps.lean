@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.ForcingInverseLimit
+module
+
+public import ZFVP.SetTheory.ForcingInverseLimit
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

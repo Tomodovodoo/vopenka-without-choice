@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.CohenSymmetricSystem
-import ZFVP.SetTheory.HereditarySymmetry
+module
+
+public import ZFVP.SetTheory.CohenSymmetricSystem
+public import ZFVP.SetTheory.HereditarySymmetry
+
+@[expose] public section
 
 namespace ZFVP
 

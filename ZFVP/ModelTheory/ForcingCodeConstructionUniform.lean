@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingCodeUniform
-import ZFVP.ModelTheory.ForcingLimitCode
-import ZFVP.SetTheory.ForcingIterationHistory
+module
+
+public import ZFVP.ModelTheory.ForcingCodeUniform
+public import ZFVP.ModelTheory.ForcingLimitCode
+public import ZFVP.SetTheory.ForcingIterationHistory
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

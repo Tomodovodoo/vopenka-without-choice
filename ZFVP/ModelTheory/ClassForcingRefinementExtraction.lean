@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ClassForcingGenericRefinement
-import ZFVP.ModelTheory.ClassForcingBoundedReduction
-import ZFVP.ModelTheory.ProjectionQuotientSequenceForcing
+module
+
+public import ZFVP.ModelTheory.ClassForcingGenericRefinement
+public import ZFVP.ModelTheory.ClassForcingBoundedReduction
+public import ZFVP.ModelTheory.ProjectionQuotientSequenceForcing
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

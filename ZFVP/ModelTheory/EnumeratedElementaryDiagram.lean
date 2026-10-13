@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ConstantExpansion
-import ZFVP.ModelTheory.FiniteParameterElementarity
-import ZFVP.ModelTheory.InfinitaryHenkinLanguage
+module
+
+public import ZFVP.ModelTheory.ConstantExpansion
+public import ZFVP.ModelTheory.FiniteParameterElementarity
+public import ZFVP.ModelTheory.InfinitaryHenkinLanguage
+
+@[expose] public section
 
 /-! A countable list of names suffices to recover the original elementary map. -/
 

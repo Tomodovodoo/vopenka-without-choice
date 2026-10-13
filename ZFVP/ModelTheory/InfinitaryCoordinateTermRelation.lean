@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.InfinitaryForcesCoordinates
+module
+
+public import ZFVP.ModelTheory.InfinitaryForcesCoordinates
+
+@[expose] public section
 
 namespace ZFVP.Infinitary
 open LO LO.FirstOrder

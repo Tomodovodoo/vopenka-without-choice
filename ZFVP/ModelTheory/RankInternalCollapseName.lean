@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingRankInternalNames
-import ZFVP.ModelTheory.TransitiveZFWoodinCollapse
-import ZFVP.ModelTheory.WoodinPrefixNameFormulas
-import ZFVP.ModelTheory.ForcingSmallInaccessible
+module
+
+public import ZFVP.ModelTheory.ForcingRankInternalNames
+public import ZFVP.ModelTheory.TransitiveZFWoodinCollapse
+public import ZFVP.ModelTheory.WoodinPrefixNameFormulas
+public import ZFVP.ModelTheory.ForcingSmallInaccessible
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

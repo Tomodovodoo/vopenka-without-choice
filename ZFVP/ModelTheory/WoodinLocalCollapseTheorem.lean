@@ -1,12 +1,16 @@
-import ZFVP.ModelTheory.WoodinSupercompactRestoration
-import ZFVP.SetTheory.WoodinDependentChoiceFailure
-import ZFVP.SetTheory.WoodinCollapseMembershipFormula
-import ZFVP.SetTheory.WoodinCollapseChainCondition
-import ZFVP.SetTheory.WoodinCollapseDisplacement
-import ZFVP.SetTheory.WoodinCollapseHomogeneity
-import ZFVP.SetTheory.WoodinCollapseDirectedClosure
-import ZFVP.SetTheory.WoodinCollapseDistributivity
-import ZFVP.SetTheory.SigmaTwoWoodinCollapse
+module
+
+public import ZFVP.ModelTheory.WoodinSupercompactRestoration
+public import ZFVP.SetTheory.WoodinDependentChoiceFailure
+public import ZFVP.SetTheory.WoodinCollapseMembershipFormula
+public import ZFVP.SetTheory.WoodinCollapseChainCondition
+public import ZFVP.SetTheory.WoodinCollapseDisplacement
+public import ZFVP.SetTheory.WoodinCollapseHomogeneity
+public import ZFVP.SetTheory.WoodinCollapseDirectedClosure
+public import ZFVP.SetTheory.WoodinCollapseDistributivity
+public import ZFVP.SetTheory.SigmaTwoWoodinCollapse
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

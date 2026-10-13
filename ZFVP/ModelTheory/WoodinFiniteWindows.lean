@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.ForcingWindowTransfer
-import ZFVP.ModelTheory.WoodinEndpointForcing
-import ZFVP.ModelTheory.ForcingLowRankAssignments
-import ZFVP.SetTheory.Cn
+module
+
+public import ZFVP.ModelTheory.ForcingWindowTransfer
+public import ZFVP.ModelTheory.WoodinEndpointForcing
+public import ZFVP.ModelTheory.ForcingLowRankAssignments
+public import ZFVP.SetTheory.Cn
+
+@[expose] public section
 
 /-! # The finite window lemma at two Woodin endpoints
 

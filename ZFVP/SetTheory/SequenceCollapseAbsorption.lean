@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.TreeEmbedding
-import ZFVP.SetTheory.ProductForcing
-import ZFVP.SetTheory.FiniteSequencesCardinality
+module
+
+public import ZFVP.SetTheory.TreeEmbedding
+public import ZFVP.SetTheory.ProductForcing
+public import ZFVP.SetTheory.FiniteSequencesCardinality
+
+@[expose] public section
 
 /-! Absorption: for a poset `P` of size at most an infinite initial `λ`, the product
 `P × λ^{<ω}` receives a dense embedding of `λ^{<ω}` (so it is forcing-equivalent to `λ^{<ω}`,

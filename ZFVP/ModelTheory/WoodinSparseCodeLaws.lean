@@ -1,4 +1,8 @@
-import ZFVP.ModelTheory.WoodinSparseCode
+module
+
+public import ZFVP.ModelTheory.WoodinSparseCode
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.WoodinSupercompactHighCritical
-import ZFVP.ModelTheory.SuccessorRankInaccessible
+module
+
+public import ZFVP.SetTheory.WoodinSupercompactHighCritical
+public import ZFVP.ModelTheory.SuccessorRankInaccessible
+
+@[expose] public section
 
 namespace ZFVP
 

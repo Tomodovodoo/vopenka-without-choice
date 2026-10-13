@@ -1,5 +1,9 @@
-import ZFVP.SetTheory.ChoicelessExtendible
-import ZFVP.SetTheory.CnDeltaTwo
+module
+
+public import ZFVP.SetTheory.ChoicelessExtendible
+public import ZFVP.SetTheory.CnDeltaTwo
+
+@[expose] public section
 
 /-! A Sigma(n+1) formula for a single positive-level extendibility witness.
 At n=1 the Sigma-two definition of C(1) is used explicitly. -/

@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.EventualRankCertificateSemantics
-import ZFVP.ModelTheory.WoodinSourceEndpointAgreement
-import ZFVP.ModelTheory.SigmaThreeWoodinSourcePresentation
-import ZFVP.ModelTheory.WoodinRecursionUniform
+module
+
+public import ZFVP.ModelTheory.EventualRankCertificateSemantics
+public import ZFVP.ModelTheory.WoodinSourceEndpointAgreement
+public import ZFVP.ModelTheory.SigmaThreeWoodinSourcePresentation
+public import ZFVP.ModelTheory.WoodinRecursionUniform
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

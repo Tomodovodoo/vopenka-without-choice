@@ -1,7 +1,11 @@
-import ZFVP.ModelTheory.SchmerlCodedInterpretations
-import ZFVP.Syntax.StandardOmegaMembershipSyntax
-import ZFVP.SetTheory.EndExtensionRelations
-import ZFVP.SetTheory.EndExtensionWellOrdering
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedInterpretations
+public import ZFVP.Syntax.StandardOmegaMembershipSyntax
+public import ZFVP.SetTheory.EndExtensionRelations
+public import ZFVP.SetTheory.EndExtensionWellOrdering
+
+@[expose] public section
 
 /-! Coded original-language definitions give external finite-parameter
 definitions when ambient omega is standard. A membership end extension presents

@@ -1,6 +1,10 @@
-import ZFVP.Syntax.UniformSyntaxTransport
-import ZFVP.SetTheory.ElementaryDefined
-import ZFVP.Syntax.FoundationEncoding
+module
+
+public import ZFVP.Syntax.UniformSyntaxTransport
+public import ZFVP.SetTheory.ElementaryDefined
+public import ZFVP.Syntax.FoundationEncoding
+
+@[expose] public section
 
 /-! Elementary maps preserve the constructors of standard finite syntax. -/
 namespace ZFVP.ElementaryMap

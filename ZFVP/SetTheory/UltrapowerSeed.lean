@@ -1,6 +1,10 @@
-import ZFVP.SetTheory.UltrapowerStage
-import ZFVP.SetTheory.NormalMeasureRegressive
-import ZFVP.SetTheory.MeasureSmallClosure
+module
+
+public import ZFVP.SetTheory.UltrapowerStage
+public import ZFVP.SetTheory.NormalMeasureRegressive
+public import ZFVP.SetTheory.MeasureSmallClosure
+
+@[expose] public section
 
 /-! # The seed of the ultrapower by a normal fine measure
 

@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.SparseFunctionUnion
+module
+
+public import ZFVP.SetTheory.SparseFunctionUnion
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

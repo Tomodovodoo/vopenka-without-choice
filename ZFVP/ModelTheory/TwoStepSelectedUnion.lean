@@ -1,6 +1,10 @@
-import ZFVP.ModelTheory.ForcingSelectedUnion
-import ZFVP.ModelTheory.TwoStepReconstruction
-import ZFVP.ModelTheory.ProjectionQuotient
+module
+
+public import ZFVP.ModelTheory.ForcingSelectedUnion
+public import ZFVP.ModelTheory.TwoStepReconstruction
+public import ZFVP.ModelTheory.ProjectionQuotient
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

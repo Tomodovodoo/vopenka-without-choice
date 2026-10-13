@@ -1,4 +1,8 @@
-import ZFVP.SetTheory.AtomicEquality
+module
+
+public import ZFVP.SetTheory.AtomicEquality
+
+@[expose] public section
 
 namespace ZFVP
 

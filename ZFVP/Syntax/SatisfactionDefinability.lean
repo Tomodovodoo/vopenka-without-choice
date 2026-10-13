@@ -1,4 +1,8 @@
-import ZFVP.Syntax.SatisfactionEquations
+module
+
+public import ZFVP.Syntax.SatisfactionEquations
+
+@[expose] public section
 
 /-! A definable graph characterization for satisfaction with all inputs varying. -/
 

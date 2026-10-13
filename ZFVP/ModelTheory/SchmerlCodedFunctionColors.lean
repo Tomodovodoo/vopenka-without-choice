@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlCodedFunctionCandidateSemantics
-import ZFVP.ModelTheory.SchmerlCodedDeadEndSemantics
+module
+
+public import ZFVP.ModelTheory.SchmerlCodedFunctionCandidateSemantics
+public import ZFVP.ModelTheory.SchmerlCodedDeadEndSemantics
+
+@[expose] public section
 
 /-! A single actual binary color graph extends every component coloring to
 the whole carrier. Its rows have one common internally countable cover. -/

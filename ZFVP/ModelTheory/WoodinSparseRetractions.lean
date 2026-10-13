@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.WoodinSparseQuotientInputs
-import ZFVP.ModelTheory.ForcingRetractionModel
+module
+
+public import ZFVP.ModelTheory.WoodinSparseQuotientInputs
+public import ZFVP.ModelTheory.ForcingRetractionModel
+
+@[expose] public section
 
 namespace ZFVP
 open LO LO.FirstOrder LO.FirstOrder.SetTheory

@@ -1,5 +1,9 @@
-import ZFVP.ModelTheory.SchmerlInternalCodedChainElementarity
-import ZFVP.ModelTheory.BinaryRelationStructure
+module
+
+public import ZFVP.ModelTheory.SchmerlInternalCodedChainElementarity
+public import ZFVP.ModelTheory.BinaryRelationStructure
+
+@[expose] public section
 
 /-! The relational chain union is an actual binary-relation structure code.
 Its edge set is constructed internally from the union relation interpretation. -/

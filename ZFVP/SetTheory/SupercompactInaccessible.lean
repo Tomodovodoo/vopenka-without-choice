@@ -1,7 +1,11 @@
-import ZFVP.SetTheory.SupercompactUltrapower
-import ZFVP.SetTheory.HartogsRegularChoice
-import ZFVP.SetTheory.ChoicelessInaccessibleRank
-import ZFVP.ModelTheory.LimitRankCriticalPoint
+module
+
+public import ZFVP.SetTheory.SupercompactUltrapower
+public import ZFVP.SetTheory.HartogsRegularChoice
+public import ZFVP.SetTheory.ChoicelessInaccessibleRank
+public import ZFVP.ModelTheory.LimitRankCriticalPoint
+
+@[expose] public section
 
 /-! Measure supercompactness gives inaccessibility through a rank-stage ultrapower. -/
 
